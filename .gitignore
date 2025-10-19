@@ -1,4 +1,4 @@
 qdrant_storage/
 DP/venv
-DP/ipynb_checkpoints
+DP/.ipynb_checkpoints
 DP/qdrant_data
