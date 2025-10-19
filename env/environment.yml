@@ -14,3 +14,4 @@ dependencies:
   - sentence-transformers
   - pip:
       - qdrant-client
+      - pdfplumber
