@@ -14,4 +14,4 @@ dependencies:
   - sentence-transformers
   - pip:
       - qdrant-client
-      - pdfplumber
+      - pdfminer.six==20221105
