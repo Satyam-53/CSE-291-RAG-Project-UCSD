@@ -1,4 +1,5 @@
 qdrant-client
-nltk
-torch==2.9.0+cpu --find-links https://download.pytorch.org/whl/torch_stable.html
 sentence-transformers
+transformers
+torch==2.9.0+cpu --find-links https://download.pytorch.org/whl/torch_stable.html
+
