@@ -1,0 +1,47 @@
+LUNG CANCER—NON-SMALL CELL METASTATIC
+
+e20506
+
+Publication Only
+
+TP53 mutation as a prognostic factor in metastatic non-small cell lung cancer
+(NSCLC): A retrospective review.
+
+Harshit Khosla, Sarah Shaker, Ogochukwu Juliet Ezeigwe, Kok Hoe Chan, Erum Zaidi, Mahmoud Elsayad, Syed Hasan Raza Jafri; University of Texas Health Science Center
+at Houston, Houston, TX; University of Texas Health Science Center Houston, Houston, TX; UT Health, Houston, TX; The University of Texas Health Science Center at
+Houston, McGovern Medical School, Houston, TX; The University of Texas Health Science Center at Houston, Houston, TX; The University of Texas Health Science Center at
+Houston (UTHealth Houston) McGovern Medical School, Houston, TX
+
+Background: TP53 is one of the most commonly mutated genes found in all cancers including
+NSCLC. We assessed prevalence of TP53 mutation in patients with metastatic NSCLC at our
+institution and correlated with clinical characteristics and prognosis. Methods: We analyzed
+next-generation sequencing (NGS) results of the metastatic NSCLC patients diagnosed at our
+institution for which complete clinical characteristics were available between 2008-2022.
+Patients were divided into those with TP53 mutations and wild types. Clinical characteristics,
+treatment history and outcomes were evaluated for each group. Results: A total of 107 patients
+were selected for final analysis based on availability of data. 40 patients (37%) were noted to
+have presence of TP53 mutation. There was no difference in ethnicity, median age (63.5 years in
+mutated vs 66 years in the wild type, p = 0.137) and gender (62.5% of mutated p53 being men vs
+wild type having 47.8% men, p= 0.129). The most common histology was adenocarcinoma
+(80%) followed by squamous cell carcinoma (14%). There was no difference in histology
+between the groups. TP53 was noted to be the most common mutation (37%) followed by
+KRAS (23%) and EGFR (19%). Patients with TP53 mutation were more likely to have concurrent
+EGFR (20.5% vs 13.4%, p= 0.037) and PI3KCA (10% vs 1.5%, p= 0.044) mutations. Patients with
+TP53 mutation were also noted to have a higher tumor mutational burden (p=0.002) but there
+was no difference in PDL-1 expression between the groups. The most common site of metas-
+tasis at diagnosis was brain and bones with no difference between the groups. Patients with
+TP53 mutation were more likely to receive immune checkpoint inhibitors (p = 0.017) however
+no difference was noted in other treatment modalities used in the two groups. The median
+progression free survival (10.6 vs 19 months, p ,0.001) and overall survival (19.1 months vs 30.2,
+p = 0.019) for patients with mutated TP53 was significantly worse than wild type TP53. Patients
+with mutated TP53 had a significantly higher unadjusted hazard of mortality (HR = 1.70, 95%
+CI: 1.10 – 2.61) compared to those with wild type TP53. In adjusted analysis, patients with
+mutated TP53 had 2.39 (95% CI: 1.31 – 4.37) higher hazard of mortality after controlling for all
+other factors. Conclusions: TP53 is one of the most commonly found mutations in metastatic
+NSCLC. Although there was no difference in metastasis to brain and bones and despite being
+more likely to have received immune checkpoint inhibitors, patients with TP53 mutations had
+significantly worse prognosis as compared to patients with wild type TP53. In clinical trials
+presence of TP53 mutation should be reported as it may influence outcomes irrespective of the
+treatment. Research Sponsor: None.
+
+Downloaded from ascopubs.org by 76.79.123.229 on October 22, 2025 from 076.079.123.229Copyright © 2025 American Society of Clinical Oncology. All rights reserved. 

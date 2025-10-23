@@ -1,0 +1,2094 @@
+Wang et al. 
+Cell Communication and Signaling          (2023) 21:200  
+https://doi.org/10.1186/s12964-023-01170-9
+
+REVIEW
+
+Cell Communication
+and Signaling
+
+Open Access
+
+The emerging roles of MAPK-AMPK 
+in ferroptosis regulatory network
+Xinyue Wang1,2, Xiao Tan1,2*, Jinping Zhang1,2, Jiaping Wu1,2 and Hongjuan Shi1,2 
+
+Abstract 
+Ferroptosis, a newform of programmed cell death, driven by peroxidative damages of polyunsaturated-fatty-acid-
+containing phospholipids in cellular membranes and is extremely dependent on iron ions, which is differs characteris-
+tics from traditional cell death has attracted greater attention. Based on the curiosity of this new form of regulated cell 
+death, there has a tremendous progress in the field of mechanistic understanding of ferroptosis recent years. Fer-
+roptosis is closely associated with the development of many diseases and involved in many diseases related signaling 
+pathways. Not only a variety of oncoproteins and tumor suppressors can regulate ferroptosis, but multiple oncogenic 
+signaling pathways can also have a regulatory effect on ferroptosis. Ferroptosis results in the accumulation of large 
+amounts of lipid peroxides thus involving the onset of oxidative stress and energy stress responses. The MAPK path-
+way plays a critical role in oxidative stress and AMPK acts as a sensor of cellular energy and is involved in the regula-
+tion of the energy stress response. Moreover, activation of AMPK can induce the occurrence of autophagy-dependent 
+ferroptosis and p53-activated ferroptosis. In recent years, there have been new advances in the study of molecular 
+mechanisms related to the regulation of ferroptosis by both pathways. In this review, we will summarize the molecular 
+mechanisms by which the MAPK-AMPK signaling pathway regulates ferroptosis. Meanwhile, we sorted out the mys-
+terious relationship between MAPK and AMPK, described the crosstalk among ferroptosis and MAPK-AMPK signaling 
+pathways, and summarized the relevant ferroptosis inducers targeting this regulatory network. This will provide a new 
+field for future research on ferroptosis mechanisms and provide a new vision for cancer treatment strategies.
+
+Keywords  MAPK, AMPK, Ferroptosis, Autophagy, p53
+
+Over  the  past  few  decades,  therapies  that  induce  can-
+cer  cells  to  initiate  a  regulatory  cell  death  program 
+have  attracted  widespread  attention.  Regulatory  cell 
+death  [1]  is  a  proactive  process  and  can  occur  through 
+a  range  of  molecular  mechanisms  and  signaling  path-
+ways  that  mediate  it.  Since  the  discovery  of  ferroptosis 
+in  2012  [2],  the  study  of  the  mechanisms  of  regulatory 
+cell death modalities has once again gained new hotness. 
+
+*Correspondence:
+Xiao Tan
+xiao-tan@ctgu.edu.cn
+1 Hubei Key Laboratory of Tumor Microenvironment and Immunotherapy, 
+China Three Gorges University, Yichang 443002, China
+2 College of Basic Medical Science, China Three Gorges University, 
+Yichang 443002, China
+
+Ferroptosis  is  a  new  form  of  regulated  cell  death,  which 
+along with elevated iron ion levels and driven by peroxi-
+dative damages of polyunsaturated-fatty-acid-containing 
+phospholipids  in  cellular  membranes  [2–4].  Although 
+ferroptosis is morphologically, biochemically and geneti-
+cally different from other death programs such as apop-
+tosis, necrosis, and autophagy. Yet, it was recently found 
+that  the  occurrence  of  ferroptosis  is  accompanied  by 
+autophagy-like  changes  so  that  is  considered  to  be  an 
+autophagy-dependent  cell  death  in  a  variety  of  cells  [5]. 
+The  fact  that  autophagy-related  factors  (e.g.,  BECN1, 
+mTOR,  AMPK)  can  regulate  specific  regulatory  ferrop-
+tosis  networks  also  provides  us  with  a  new  idea  as  to 
+whether the occurrence of ferroptosis is somehow related 
+to the signaling pathways that regulate autophagy.
+
+© The Author(s) 2023. Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which 
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the 
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or 
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line 
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory 
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this 
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat iveco 
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+
+Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 2 of 17
+
+Ferroptosis  occurs  with  the  development  of  oxidative 
+stress  and  energy  stress  [6],  and  the  activity  of  cancer-
+related  signaling  pathways  can  regulate  these  two  stress 
+responses.  The  dysregulation  of  the  mitogen-activated 
+protein  kinase  (MAPK)  and  AMP-activated  protein 
+kinase  (AMPK)  pathways,  which  represent  the  regula-
+tion  of  oxidative  stress  and  energy  stress,  is  critical  for 
+ferroptosis.  Mitogen-activated  protein  kinases  (MAPKs) 
+family which include extracellular signal-regulated kinase 
+(ERK),  c-Jun  N-terminal  kinase  (JNK)  and  p38mitogen-
+activated  protein  kinase  (p38  MAPK),  are  a  group  of 
+signaling  molecules  that  play  a  critical  role  in  the  regu-
+lation  of  cell  growth,  differentiation,  apoptosis  and  oxi-
+dative  stress  response.  The  study  found  that  the  high 
+ROS  environment  will  mediate  MAPK  signaling  path-
+way,  inducing  ferroptosis  [7].  Aberrant  activation  of  the 
+MAPK  pathway  is  prominently  implicated  in  cancer 
+development and progression. The occurrence of ferrop-
+tosis is accompanied by the accumulation of lipid perox-
+ides,  which  can  induce  energy  stress  that  depletes  ATP 
+to cause cell death. AMPK is a sensor of cellular energy 
+status, affects cellular redox homeostasis and iron metab-
+olism,  and  related  studies  have  found  that  promoting 
+AMPK  activation  through  energy  stress  can  inhibit  fer-
+roptosis [6]. Under physiological conditions, AMPK plays 
+a  major  role  in  biological  processes  such  as  cell  growth, 
+autophagy, and apoptosis. While it is interesting that the 
+effects of AMPK activation on ferroptosis involve modu-
+lation  of  autophagy,  mTORC1  signaling,  p53  activation, 
+cystine  uptake,  or  iron  metabolism  which  can  induce 
+ferroptosis. Moreover, recent studies have demonstrated 
+that inhibition of MAPK pathway activity can activate the 
+LKB1-AMPK  signaling  pathway  [8]. These  intricate  net-
+works make MAPK and AMPK pathways to be enigmatic 
+in regulating the onset of ferroptosis.
+
+An overview of ferroptosis
+Dolma’s  et  al.  [9]  discovered  a  new  compound  eras-
+tin  which  can  induce  cancer  cell  death  differently  from 
+apoptosis  in  2003.  Furthermore,  in  2008,  Stockwell’s 
+et al. found that this unique mode of cell death appeared 
+when treating cancer cells with two compounds, erastin 
+and RSLs, in a high-throughput screening study of onco-
+genes  molecules  [10].  Dixon  et  al.  named  this  unique 
+new  modality  of  regulated  cell  death  (RCD)  ferroptosis 
+in  2012  [2],  which  is  characterized  by  the  accumulation 
+of lipid reactive oxygen species (ROS) and iron-depend-
+ent. The morphological change is manifested with mito-
+chondrial  atrophy,  cristae  disappearance  or  reduction, 
+increased  membrane  density,  and  outer  membrane  rup-
+ture.  Compared  to  normal  cells,  cells  in  ferroptosis  are 
+much smaller, which differs from apoptosis, necrosis and 
+autophagy  [2].  However,  recent  studies  have  shown  that 
+
+under  certain  conditions,  other  forms  of  cell  death  can 
+occur along with ferroptosis. In addition, various studies 
+have  confirmed  the  critical  role  of  the  MAPK  signaling 
+pathway  in  regulating  ferroptosis.  The  active  factors  of 
+ferroptosis can affect glutathione peroxidase through dif-
+ferent  pathways,  leading  to  decreased  intracellular  anti-
+oxidant capacity and accumulation of lipid ROS [11].
+
+An overview of MAPK
+The  exact  mechanism  of  MAPK  pathway  regulating 
+ferroptosis  has  not  been  elucidated.  Here,  we  mainly 
+describe  the  molecular  mechanism  of  MAPK  signal-
+ing  pathway  involved  in  iron  ion,  lipid  and  amino  acid 
+metabolism to regulate ferroptosis. (Fig. 1).
+
+As  one  of  the  highly  conserved  signaling  pathways 
+involved in various biological functions, the MAPK cas-
+cade plays an important part in the signaling module of 
+eukaryotes  [12].  The  MAPK  kinase  kinase  (MAPKKK 
+or  MEKK),  a  MAPK  kinase  (MAPKK  or  MEK),  and  a 
+MAPK  (MPK)  have  constituted  a  complete  MAPK  cas-
+cade. It is known that MAPK kinases can be activated by 
+tandem phosphorylation of three or more protein kinases 
+to  regulate  the  activity  of  transcription  factors  and  the 
+expression  of  corresponding  genes,  thereby  causing  cel-
+lular responses and participating in the regulation of cell 
+proliferation, differentiation, transformation and apopto-
+sis, and that the activation of MAPKs is closely associated 
+with  various  diseases  such  as  inflammation  and  tumors 
+[12].  Four  MAPK  signaling  pathways  have  been  identi-
+fied in mammalian cells, including the ERK 1/2 signaling 
+pathway,  the  JNK  signaling  pathway,  the  p38  signaling 
+pathway and the ERK5 significant mitogen-activated pro-
+tein kinase pathway [13].
+
+Related  studies  have  confirmed  that  the  MAPK  sign-
+aling  pathway  plays  an  important  role  in  the  sensitivity 
+of  some  cancer  cells  to  ferroptosis  [2].  RAS-RAF-MEK-
+ERK  is  the  most  classical  signaling  pathway  of  MAPK. 
+MEK  activity  is  one  of  the  determinants  of  ferroptosis, 
+and the activation of ERK1/2 is the characteristic of fer-
+roptosis.  As  an  upstream  protein  of  ERK1/2  activation 
+[2],  there  is  a  complex  relationship  between  RAS  activ-
+ity  and  ferroptosis.  When  examining  the  correlation 
+between RAS mutation status and the potential of eras-
+tin-induced  ferroptosis,  erastin  can  induce  ferroptosis 
+in  RAS-activated  cancer  cell  lines,  not  RAS  wild-type 
+group. Compared with BJ-TERT/LT/ST cells lacking the 
+oncogene  RAS  gene,  erastin  induced  stronger  ferropto-
+sis  in  HRAS-mutated  BJ-TERT/LT/ST/RASV12cells  [14]. 
+Furthermore,  it  was  confirmed  that  HL-60/NRAS  Q61L 
+(NRAS high expression) cells are more sensitive to eras-
+tin-induced ferroptosis than HL-60 (RAS wild-type) cells 
+[15]. Moreover, sensitivity to erastin-induced ferroptosis 
+was  also  reduced  in  shRNA-mediated  KRAS-silenced 
+
+Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 3 of 17
+
+Fig. 1  Molecular mechanism of MAPK regulation of ferroptosis
+
+Calu-1 lung cancer cells, and inhibition of BRAF activity 
+was also found to reduce sensitivity to erastin in BRAF-
+silenced A-673 cells [16]. In addition, diffuse large B-cell 
+lymphoma  (DLBCL)  and  renal  cell  carcinoma  cell  lines 
+(RCC)  without  mutations  in  the  RAS  signaling  pathway 
+showed  a  higher  sensitivity  to  ferroptosis  [14].  These 
+findings have confirmed that the activity of MAPK sign-
+aling pathway can regulate ferroptosis.
+
+MAPK regulates ferroptosis through iron ion metabolism
+
+The metabolism of iron ions is closely related to ferrop-
+tosis,  the  massive  accumulation  of  free  iron  ions  is  also 
+the causative factor and manifestation of the occurrence 
+of ferroptosis [2, 17]. By controlling both the input of iron 
+ions  and  the  storage  capacity  of  ferritin  can  affect  the 
+iron ion in a metabolic pathway, which ultimately ripples 
+through the occurrence of ferroptosis [18].
+
+The  transferrin  receptor  1  (TfR1)  acts  as  a  "trans-
+port  vehicle"  for  iron  ions,  in  which  the  TF-Fe3+ 
+complex  "rides"  and  binds  to  TfR1,  leading  to  ferrop-
+tosis by transferring extracellular iron into the cell and 
+increasing  intracellular  iron  ion  content  [19,  20].  As 
+an  essential  iron  regulatory  protein,  TfR1  overexpres-
+sion induces ROS generation through the Fenton reac-
+tion  and  ultimately  promotes  ferroptosis  [21,  22].  A 
+related study concluded that RAS activation can enrich 
+the  intracellular  iron  pool  through  the  upregulation  of 
+TfR1  [10].  Furthermore,  it  was  found  that  a  mitogen 
+response  element  in  the  5’  untranslated  region  (UTR) 
+of TfR1 mRNA, indicating that RAS-RAF-MEK-MAPK 
+
+signaling  pathway  may  upregulate  the  expression  of 
+TfR1 [23, 24]. In addition, in the fibroblast-derived cell 
+lines  BJ-TERT,  BJ-TERT/LT/ST,  and  BJ-TERT/LT  /ST/
+RAS V12 (HRAS activated), it was found that the mRNA 
+expression  of  TfR1  increased  gradually  in  these  three 
+cell lines. In contrast, knockdown of TfR1 in BJ-TERT/
+LT/ST/RAS  V12  cells  partially  inhibited  ferroptosis 
+induced by erastin [10] Related studies have confirmed 
+that  the  JNK/p38MAPK  pathway  plays  a  role  in  eras-
+tin-induced  ferroptosis  in  HL-60/NRAS  Q61L  cells 
+and  that  activation  of  JNK/p38MAPK,  an  upstream 
+signaling  pathway  of  TfR1,  can  upregulate  the  expres-
+sion level of TfR1 [25]. Moreover, during ascorbic acid 
+(AA)-induced  apoptosis  in  human  gastric  cancer  cells 
+AGS,  it  was  found  that  inhibition  of  p38-MAPK  could 
+inhibit  the  upregulation  of  TfR1,  thus  reducing  intra-
+cellular iron ion storage. This also reinforces the impor-
+tant  role  of  MAPK  signaling  pathway  activity  on  TfR1 
+regulation.  In  conclusion,  the  activation  of  the  MAPK 
+signaling  pathway  stimulates  expression  of  TfR1,  lead-
+ing to increased intracellular iron ions, ultimately lead-
+ing to ferroptosis.
+
+In addition to the TfR1-mediated iron uptake pathway, 
+intracellular  iron  homeostasis  can  be  regulated  by  ferri-
+tin  phagocytosis  [26].  Ferritin  consists  of  ferritin  heavy 
+chain 1 (FTH1) and ferritin light chain (FTL), which are 
+in  charge  of  the  storage  of  free  intracellular  iron  ions 
+[27]. FTH1 can convert Fe 2+ into Fe 3+, binds to FTL to 
+reduce the toxicity of intracellular Fe 2+, thus preventing 
+ferroptosis to occur. Therefore, inhibiting the expression 
+
+ Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 4 of 17
+
+of  FTH1  can  effectively  induce  the  occurrence  of  fer-
+roptosis  [28].  Related  studies  have  confirmed  that  over-
+expression  of  nuclear  receptor  coactivator  (NCOA4) 
+suppresses the expression level of FTH1, thereby enhanc-
+ing the autophagic degradation of ferritin [26, 29], which 
+provided a substrate for ferroptosis [30, 31]. Related stud-
+ies  have  confirmed  that  over  expression  of  NCOA4  in 
+PANC1  cells  inhibited  FTH1  expression,  thereby  induc-
+ing  ferritin  degradation  and  ferroptosis  [26].  Therefore, 
+inhibition  of  FTH1  expression  levels  can  induce  ferrop-
+tosis  [32].  Meanwhile,  reduced  levels  of  FTH1  expres-
+sion  were  found  in  the  RAS-mutated  BJ-TERT/LT/ST/
+RAS V12 cell line, indicating that mutations in RAS can 
+suppress  the  expression  of  FTH1  [10].  In  the  mecha-
+nism  of  Cadmium  telluride  quantum  dots  (CdTe  QDs) 
+induced inflammation in macrophages, it was found that 
+the  action  of  CdTe  QDs  promoted  the  phosphorylation 
+of  ERK1/2  and  the  degradation  of  FTH1  in  lysosomes, 
+which in turn activated the autophagy of ferritin [33]. In 
+summary,  activation  of  the  MAPK  pathway  induces  fer-
+roptosis by enhancing the degradation of FTH1 and thus 
+the autophagic process of ferritin.
+
+Ferroportin1 (Fpn1) is the unique iron export protein 
+that regulates intracellular iron [34]. Deficiency of Fpn1 
+leads  to  the  accumulation  of  iron  in  cells,  and  excess 
+iron causes Fenton reaction, which increases lipid ROS 
+accumulation,  thereby  inducing  ferroptosis.  Distur-
+bances  in iron  metabolism  are  typical  of subarachnoid 
+hemorrhage  (ASH),  and  in  the  treatment  of  ASH  with 
+oncostatin  M  (OSM,  an  iron-regulator  inducer)  it  was 
+found  that  the  expression  of  hepcidin  was  increased 
+and the  expression  level  of  Fpn1  was  decreased by the 
+action of OSM, enhancing the sensitivity to ferroptosis 
+[35].  Meanwhile,  the  study  has  found  that  the  knock-
+down  of  Fpn1  could  enhance  erastin-induced  fer-
+roptosis  in  neuroblastoma  [36].  Related  studies  have 
+verified that activation of the ERK/MAPK pathway can 
+induce  Fpn1  expression  [37].  Meanwhile,  it  was  found 
+that using a MAPK inhibitor (U0126) can inhibit Fpn1 
+expression in a study of fasting [38]. Therefore, inhibi-
+tion  of  the  MAPK  signaling  pathway  can  reduce  the 
+expression  level  of  Fpn1,  which  mediates  impaired 
+iron  export  and  thus  induces  the  development  of 
+ferroptosis.
+
+MAPK regulates ferroptosis through lipid metabolism
+
+Another  characteristic  of  ferroptosis  is  the  accumula-
+tion  of  lipid  peroxides  [2].  On  the  one  hand,  ferroptosis 
+is induced by the  Fe2 + dependent Fenton reaction, which 
+reacts with hydrogen peroxide to generate highly reactive 
+hydroxyl radicals by oxidizing  Fe2+ to  Fe3+. On the other 
+hand, the oxidation of free PUFA, phosphatidylethanola-
+mine (PE), cardiolipin, and phosphatidylcholine through 
+
+the  enzymatic  reactions  leads  to  the  accumulation  of 
+lethal reactive oxygen species such as superoxide, hydro-
+gen peroxide, hydroxyl radicals and lipid peroxides which 
+leads to the occurrence of ferroptosis [4, 39]. Free PUFA 
+is  present  in  the  cell  membrane,  lysosome  membranes 
+and  the  endoparasitic  reticulum  that  containing  arachi-
+donic  acid  (AA),  epinephrine  acid  and  ω-6  fatty  acids 
+which  containing  PE.  Acyl-CoA  synthetase  long-chain 
+family  member  4  (ACLS4)  and  lysophosphatidylcholine 
+acyltransferase 3 (LPCAT3) are responsible for the inte-
+gration of PUFA into the cell membrane [40], which are 
+two key players in the regulation of PUFA synthesis and 
+remodeling  [41].  In  the  process  of  ferroptosis,  AA  can 
+be  esterified  to  AA-PE  under  the  action  of  ACSL4  and 
+LPCAT3,  which  is  then  oxidized  to  lipid  peroxides  by 
+arachidonate  lipoxygenase  15  (ALOX15)  [41].  ALOX15- 
+induced phospholipid oxidationacts as a “burning point” 
+to ignite ferroptosis signals.
+
+ADP-ribosylation factor 6 (ARF6) is a fellow of the RAS 
+superfamily,  which  encodes  a  small  guanine  nucleotide-
+binding  protein  (GTP-binding  protein)  involved  in  the 
+regulation of cancer cell invasion, metastasis and prolif-
+eration  [42].  A  related  study  found  that  knockdown  of 
+ARF6  in  pancreatic  cancer  cell  lines  strongly  enhanced 
+the sensitivity of pancreatic cancer PANC-1 cell lines to 
+RSL3-induced  ferroptosis  and  was  accompanied  by  an 
+increase  in  the  protein  expression  level  of  ACSL4  [43]. 
+Meanwhile,  a  negative  correlation  between  ARF6  and 
+ACSL4  expression  was  also  confirmed  in  tissue  speci-
+mens  from  pancreatic  cancer  patients.  Interestingly, 
+although ARF6 silencing upregulated the protein level of 
+ACSL4, it did not inhibit the mRNA level of ACSL4, sug-
+gesting that ARF6 regulates ACSL4 by acting at the post-
+translational  level  [43].  Thus,  the  RAS/MAPK  pathway 
+can  induce  ferroptosis  by  enhancing  the  expression  of 
+ACSL4, which in turn affects the PUFA oxidation process 
+and  ultimately  leads  to  the  accumulation  of  lipid  perox-
+ides.  In  addition,  the  small  scaffold  protein  Raf1  kinase 
+inhibitory  protein  (RKIP1)  as  the  inhibitory  protein  of 
+the Raf1 kinase cascade reaction could bind to ALOX15 
+[44],  and  enhance  the  oxidation  of  AA-PE  by  ALOX15, 
+thereby  promoting  lipid  peroxidation  and  ferroptosis 
+[45].  Taken  together,  inhibition  of  MAPK  pathway  can 
+induce  ferroptosis  by  regulating  factors  related  to  lipid 
+metabolism.
+
+MAPK regulates ferroptosis through amino acid 
+metabolism
+
+Another  characteristic  manifestation  of  ferroptosis  is 
+the  impaired  synthesis  of  the  antioxidant  and  free  radi-
+cal  scavenger  glutathione  (GSH)  in  vivo  [46].  The  cys-
+tine/glutamate 
+(system  Xc-)  maintains 
+glutathione  homeostasis  by  regulating  glutathione  and 
+
+transporter 
+
+Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 5 of 17
+
+by transporting glutamate, it is known that inhibition of 
+its activity can lead to imbalance in amino acid metabo-
+lism, preventing the normal entry of extracellular cystine 
+into the cell, thus affecting GSH synthesis, causing inhi-
+bition of GPX4 activity, reduction of cellular antioxidant 
+capacity and accumulation of lipid ROS thereby inducing 
+ferroptosis  [47].  System  Xc  −  is  a  disulfide-bonded  het-
+erodimer  composed  of  a  non-glycosylated  light  chain 
+xCT (SLC7A11) and a glycosylated heavy chain CD98hc 
+(SLC3A2) [48]. We can know that transcriptional regula-
+tion of light chain SLC7A11 is essential for systemic Xc- 
+activity [49, 50], while heavy chain SLC3A2 is responsible 
+for anchoring SLC7A11 to the cell membrane and main-
+taining  the  stability  of  SLC7A11  protein  [51].  It  was 
+found  that  the  inactivation  of  SLC7A11  can  induce  the 
+occurrence of ferroptosis. In contrast, overexpression of 
+SLC7A11  increases  the  activity  of  system   Xc−  and  pro-
+motes  GSH  biosynthesis,  resulting  in  ferroptosis  resist-
+ance in cancer cells [2, 52, 53].
+
+It  was  noted  that  the  RAS-RAF-MEK-ERK  signaling 
+pathway,  a  classical  signaling  pathway  of  MAPK,  can 
+regulate  the  transcription  of  SLC7A11.  In  the  chimeric 
+tyrosine  kinase  (3T3  EN)  transformed  3T3  KRAS  V12 
+cell  line  [54,  55],  and  under  exogenous  oxidative  stress 
+conditions  when  tracking  SLC7A11  expression  using 
+the  system  Xc-  tracer  (18)F-5-fluoroaminosuberic  acid 
+((18)F-FASu)  [56,  57],  it  was  found  that  the  expression 
+and  activity  of  SLC7A11  appeared  upregulated  in  the 
+3T3  KRAS  V12  cell  line  compared  to  the  normal  cell 
+line  [58].  Meanwhile,  ERK  activity  was  inhibited  using 
+MAPK  pathway  inhibitors,  SLC7A11  expression  levels 
+were found to be reduced [58]. Taken together, activation 
+of MAPK pathway can upregulate the expression level of 
+SLC7A11.  More  interestingly,  gene  enrichment  analysis 
+(GSEA) revealed that the regulation of SLC7A11 by RAS-
+RAF-MER-ERK  acts  through  an  ERK  substrate,  Ets-1 
+[58].  And  the  immunoprecipitation  (ChIP)  results  also 
+validated  this  prediction.  Correlated  studies  confirmed 
+that under exogenous oxidative stress conditions, endog-
+enous Ets-1 regulates the expression level of SLC7A11 by 
+binding through the promoter region of SLC7A11 [58]. In 
+addition,  luciferase  trans-activation  assays  showed  that 
+exogenous  Ets  -1  activated  the  luciferase  reporter  gene 
+containing  the  SLC7A11  promoter  in  a  concentration-
+dependent  manner. Thus,  Inhibition  of  MAPK  signaling 
+pathway  may  inhibit  SLC7A11  expression  through  the 
+action of Est1, impairs the transport activity of systemic 
+ Xc−, and thus induces ferroptosis.
+
+Other
+
+The MAPK pathway can affect the occurrence of ferrop-
+tosis by regulating the metabolism of iron ions, lipids and 
+
+amino acids, but it can also regulate ferroptosis through 
+other factors.
+
+(HO-1), 
+
+The  nuclear 
+
+factor  erythrocyte-related 
+
+factor  2 
+(Nrf2)  is  the  critical  transcription  factors  of  the  anti-
+oxidant  response,  prevents  lipid  peroxidation  and  fer-
+roptosis  by  increasing  the  transcription  of  a  series  of 
+antioxidant-responsive  genes  [59],  such  as  NAD(P)
+H,  quinone  oxidoreductase  1  (NQO1),  heme  oxyge-
+nase-1 
+glutathioneS-transferaseA1(GSTA1), 
+glutamate-cysteineligase(γGCS)  [60].  Related  studies 
+have  demonstrated  that  activation  of  Nrf2/HO-1  can 
+effectively  mitigate  ferroptosis,  thus  inhibition  of  the 
+Nrf2/HO-1 activity can be a potential target in ferropto-
+sis  [61,  62].  Keap1  is  one  of  the  major  upstream  regula-
+tors  of  Nrf2  which  is  mainly  responsible  for  regulating 
+the subcellular localization and homeostasis of Nrf2 [63]. 
+It was found that overexpression of Keap1 can repress the 
+nuclear accumulation and transcriptional activity of Nrf2 
+[64]. The tight binding of Keap1 to Nrf2 prevents the acti-
+vation  of  Nrf2,  while  in  the  presence  of  external  stimuli 
+or oxidative stress, p62 protein accumulates on the mito-
+chondrial  membrane  and  binds  to  Keap1,  p62-mediated 
+Keap1 degradation to promote phosphorylation of Nrf2, 
+translocate  it  into  the  nucleus,  and  then  bind  to  anti-
+oxidative  stress  genetic  elements  to  resistance  ferropto-
+sis  [65].  Taken  together,  inhibition  of  p62-Keap1-Nrf2 
+system  may  represent  an  attractive  approach  for  induce 
+ferroptosis.
+
+Nrf2  activation  has  turned  out  to  be  regulated  by  the 
+mitogen-activated kinases (MAPK), including ERK, JNK 
+and  p38  MAPK  [66,  67].  Related  studies  have  demon-
+strated that Nrf2 is a novel substrate for pERK and pERK 
+can  directly  phosphorylate  Nrf2,  promoting  activity  and 
+nuclear accumulation of Nrf2 [68]. Realgar is a traditional 
+Chinese  medicine  (TCM),  which  can  induce  neuronal 
+cell  damage  through  activation  of  ERK  and  p38  signal-
+ing  pathways.  In  this  mechanistic  study,  it  was  found 
+that  inhibition  of  the  activity  of  p38  and  ERK  signaling 
+pathways resulted in enhanced binding of p62 to Keap1, 
+which inhibited Nrf2 activity to some extent [69]. In the 
+study of the mechanism of action of β-Phenethyl Isothio-
+cyanate  (PEITC)  induces  cell  death  in  human  osteosar-
+coma  through,  activation  of  MAPK  signaling  pathways, 
+PEITC  decreased  p62  expression  which  promoting 
+nuclear  accumulation  of  Nrf2  [70].  The  physically-made 
+gold nanoparticle (GNP) can induce cytosolic Nrf2 trans-
+location  into  the  nucleus,  while  the  GNP-induced  Nrf2 
+activation will reduce by JNK and p38 MAPK inhibitors 
+[66].  Nrf2  is  phosphorylated  in  vivo  at  multiple  sites  by 
+MAPKs, while it is interesting that the MAPKs does not 
+affect  the  interaction  between  Nrf2  and  Keap1  in  vivo. 
+However,  MAPK  regulation  of  Nrf2  is  not  achieved 
+through direct phosphorylation of Nrf2, and the possible 
+
+ Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 6 of 17
+
+pathway  is  through  translational  regulation  of  protein 
+synthesis  of  Nrf2  [71].  In  summary,  activation  of  the 
+MAPK pathway can inhibit ferroptosis by promoting the 
+phosphorylation and nuclear translocation of Nrf2.
+
+The  MAPK  signaling  pathway  can  also  regulate  fer-
+roptosis by regulating voltage-dependent anion channels 
+(VDAC)  between  the  mitochondria  and  the  cytoplasm 
+[3]. VDAC plays an important role in mitochondrial dys-
+function and accumulation of lipid peroxides [2, 16, 72]. 
+In  the  quiet  state,  VDACs  are  blocked  by  tubulin,  and 
+erastin can reverse the blocking of VDACs by liberating 
+tubulin, thereby opening VDACs and leading to a consid-
+erable accumulation of ROS. Furthermore, cells in which 
+the RAS/MAPK signaling pathway is activated, the open-
+ing level of VDACs increases, thereby enhancing the sen-
+sitivity of ferroptosis induced by erastin [16, 73].
+
+Inhibition of MAPK induces ferroptosis 
+through an intermediate bridge AMPK
+As  a  widespread  energy  sensor  in  eukaryotes,  AMPK 
+is  a  heterotrimeric  complex  composed  of  a  catalytic 
+α  subunit  and  two  regulatory  subunits,  β  and  γ  which 
+is  responsible  for  regulating  cellular  metabolism.  The 
+intracellular  ADP/ATP  ratio  regulates  the  activation  of 
+AMPK, ADP or AMP binds to the γ subunit and phos-
+phorylates  the  threonine  (Thr)  172  residue  on  the  α 
+catalytic subunit through upstream protein kinases [74]. 
+Activation  of  AMPK  can  phosphorylates  downstream 
+signaling factors and inactivate the ATP anabolic path-
+way;  conversely,  inhibition  of  AMPK  will  activate  the 
+catabolism  of  ATP  [75].  Related  studies  confirm  that 
+activation of AMPK enhances GPX4-dependent ferrop-
+tosis [76].
+
+Live  kinase  B1  (LKB1)  and  Ca  (2 +)/calmodulin-
+dependent  protein  kinase  kinase  2  (CAMKK2)  are  two 
+crucial  upstream  kinases  for  activating  AMPK  by  phos-
+phorylating the Thr172 residue of AMPK [77, 78]. LKB1 
+positively regulates AMP-activated  protein  kinase. After 
+forming a complex with Strad and MO25, LKB1 is trans-
+located from the nucleus to the cytoplasm, regulates the 
+activity  of  AMPK-related  downstream  kinases,  which 
+participates in cell growth metabolism and energy regu-
+lation.  Moreover,  MO25α  plays  a  key  role  in  stabilizing 
+the LKB1 activation loop in a conformation required for 
+phosphorylation  of  substrates  [79].  Concerning  regu-
+lation  of  AMPK  by  LKB1-mediated  phosphorylation 
+[80],when energy utilization changes, in other words the 
+ratio  of  ATP  /ADP  or  ADP/AMP  changes,  excess  AMP 
+binds  to  the  γ  -subunit  of  AMPK,  and  LKB1  activates 
+AMPK  kinase  activity  by  phosphorylating  Thr-172  in 
+the  α-subunit  of  AMPK  [81].  Related  studies  have  dem-
+onstrated  that  the  LKB1-AMPK  pathway  has  an  impor-
+tant role in promoting cellular perception of bioenergetic 
+
+contingencies  and  adapting  to  promote  tumor  cell  sur-
+vival.  LKB1  acts  as  a  critical  factor  to  activate  AMPK, 
+while there is ample evidence that inhibiting the MAPK 
+can  activate  the  LKB1-AMPK  signaling  pathway.  The 
+study  indicated  that  ERK  and  AMPK  activities  were 
+found to be negatively correlated in melanoma cells har-
+boring the B-RAF V600E. The phosphorylation of LKB1 
+by  ERK  and  ribosomal  protein  S6  kinase  (RSK)  which 
+are  the  kinases  downstream  of  B-RAF  impairs  the  abil-
+ity  of  LKB1  to  associate  with  and  phosphorylate  AMPK 
+at  Thr172,  so  that  the  activation  of  AMPK  is  blocked. 
+Meanwhile,  AMPK  activity  increases  when  using  MEK 
+inhibitors  on  the  B-RAF-activated  melanoma  cells  [82]. 
+Some experiments have shown that following the use of 
+MEK inhibitors in immortalized mouse embryonic fibro-
+blasts (MEFs) of  LKB1+/+ and  LKB1−/−, it was found that 
+MEFs of  LKB1+/+ lead to activation of AMPK, MEFs of 
+ LKB1−/− did not show this phenomenon [82]. This indi-
+cates  that  inhibition  of  the  MAPK  pathway  activation 
+of  AMPK  is  mediated  through  LKB1.  In  the  study  on 
+the  pathogenesis  of  nasopharyngeal  carcinoma  (NPC), 
+it  was  found  that  Epstein-Barr  virus  (EBV)  plays  a  vital 
+role  as  the  prominent  oncogene  encoded  by  EBV,  latent 
+membrane  protein  1  (LMP1),which 
+inhibits  LKB1-
+AMPK activity through ERK-MAPK activated by CTAR1 
+domain  of  LMP1  [83].  HRAS  hyperactivation  inhibits 
+the  LKB1/AMPK  pathway,  the  mutant  HRas  p.G12A 
+and  p.G12S  stimulates  HRas  activation  and  inhibits  the 
+expression of the AMPKα2, which in turn leads to inhi-
+bition  of  AMPK  activity,  this  process  is  accompanied 
+by  a  decrease  in  LKB1  protein  levels  [84].  In  summary, 
+inhibiting  the  activity  of  the  MAPK  pathway  can  acti-
+vate the LKB1-AMPK signaling pathway, thereby induce 
+ferroptosis.
+
+AMPK induces ferroptosis through autophagy
+
+Although  ferroptosis  has  been  defined  as  a  new  regu-
+latory  cell  death  mode  different  from  apoptosis  and 
+autophagy,  recent  studies  have  shown  that  activation  of 
+autophagy  can  induce  ferroptosis  in  normal  and  can-
+cer cells [32, 85]. Autophagy can promote ferroptosis by 
+selectively  degrading  anti-ferroptosis  regulators  and  fer-
+ritin  in  cancer  cells  [32].  Excessive  autophagy  can  pro-
+mote ferroptosis by increasing iron ion content and lipid 
+peroxide  accumulation  [86].  Autophagy  can  also  induce 
+ferroptosis by regulating iron metabolism or lipid metab-
+olism  through  degradation  of  GPX4,  lipid  droplets  and 
+ARNTL/BMAL1  (aryl  hydrocarbon  receptor  nuclear 
+translocator-like).
+
+Inhibition  of  the  MAPK  signaling  pathway  can  acti-
+vate  the  LKB1-AMPK  signaling  pathway,  then  activate 
+autophagy. A related study revealed that activated AMPK 
+maintains cellular amino acid homeostasis by controlling 
+
+Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 7 of 17
+
+the  mechanistic  target  of  the  central  sensor  of  cellu-
+lar  amino  acids,  rapamycin  complex  1  (mTORC1)  [87]. 
+While  the  mTORC1  is  composed  of  three  core  compo-
+nents:  mTOR,  mLST8  (mammalian  lethal  with  SEC13 
+protein  8)  and  RAPTOR  (a  mTOR-associated  regula-
+tory  protein)  [88].  A  related  study  found  that  Sirtuin  3 
+(SIRT3),  a  typical   NAD+-dependent  mitochondrial  pro-
+tein  deacetylase,  plays  an  important  role  in  ROS  gen-
+eration  and  cell  death  [89].  SIRT3  can  directly  inhibit 
+the  activity  of  GPX4  to  induce  the  onset  of  ferroptosis. 
+Meanwhile, when mitochondrial dysfunction occurs, the 
+increase  in  SIRT3  expression  level  promotes  autophagy 
+through  activation  of  AMPK-mTOR  pathway,  which 
+ultimately  induces  ferroptosis  in  trophoblast  cells  [90]. 
+Meanwhile,  it  was  found  that  the  benzopyran  derivative 
+2-imino-6-methoxy-2H-chromene-3-carbothioamide 
+(IMCA)  induced  ferroptosis  in  colorectal  cancer  (CRC) 
+by  activating  the  AMPK  signaling  pathway  and  inhibit-
+ing the mTOR/p70S6k signaling pathway activity, down-
+regulation of SLC7A11 expression and reduce of Cys and 
+glutathione, ultimately leading to ROS accumulation and 
+ferroptosis  [91].  Meanwhile,  we  found  that  ERK  activa-
+tion  inhibited  LKB1/AMPK  activity  and  thus  increased 
+mTOR  activity  by  phosphorylating  LKB1,  which  also 
+demonstrated  that  LKB1/AMPK  activity  was  negatively 
+correlated  with  mTOR,  in  our  study  of  the  mechanism 
+of ERK-dependent myofibrillar transformation caused by 
+IL11 [92]. Other related studies also confirmed the nega-
+tive relationship between AMPK and mTOR [93]. It was 
+found  that  when  cellular  energy  level  is  low,  the  LKB1 
+phosphorylates and activates AMPK to inhibit mTORC1. 
+The inhibitory effect of AMPK on mTORC1 is mediated 
+by activation of mTORC1, a negative regulator of TSC2, 
+or inhibition of the mTORC1 subunit RAPTOR 5 [94]. A 
+related study found that sterol response element binding 
+protein 1 (SREBP1), a downstream effector of mTORC1, 
+has  a  regulatory  role  in  the  development  of  ferroptosis 
+[95].  SREBP1  acts  as  a  transcription  factor  that  regu-
+lates  the  transcription  of  several  genes  involved  in  lipid 
+metabolism,  including  stearoyl-CoA  desaturase  (SCD1) 
+[96].  SCD1catalyzes  the  formation  of  monounsaturated 
+fatty  acids  (MUFA)  from  saturated  fatty  acids,  and  the 
+production  of  MUFA  can  specifically  inhibit  the  accu-
+mulation  of  lipid  ROS  on  the  plasma  membrane,  pro-
+ducing  ferroptosis  resistance  [97].  Study  confirms  that 
+inhibition of mTORC1 suppresses SREBP1 transcription 
+and promotes ferroptosis sensitivity of cells [96]. In sum-
+mary, inhibition of SREBP-SCD1 activity downstream of 
+mTORC1 inhibits MUFA synthesis and thus induces fer-
+roptosis.  Taken  together,  MAPK  inhibition  can  activate 
+the LKB1-AMPK signaling pathway and induce ferropto-
+sis by inhibiting mTORC1 activity.
+
+In  the  process  of  regulating  autophagy,  there  is  a  cru-
+cial protein of vesicle formation-BECN1 [98]. As the core 
+component  of  class  III  phosphatidylinositol  3-kinase 
+complex I (PtdIns3K) [99], BECN1 triggers different cell 
+death by cooperating with different partners, and it is also 
+a factor for occurrence of ferroptosis [100]. It was found 
+that in the absence of glucose, AMPK was activated, and 
+phosphorylated  BECN1  at  Thr388  to  promoted  the  for-
+mation  of  the  BECN1-PIK3C3  complex  in  autophagy, 
+thereby  inducing  autophagy  [100].  Meanwhile,  activa-
+tion  of  AMPK  promotes  phosphorylation  of  BECN1  at 
+Ser90/93/96,  which  leads  to  the  binding  of  BECN1  to 
+the core component of system  Xc−- SLC7A11 [101]. The 
+formation  of  the  BECN1-SLC7A11  complex  blocks  the 
+activity  of  system   Xc−,  which  leads  to  the  inhibition  of 
+GSH synthesis and consequently the imbalance of amino 
+acid metabolism, then inhibits the activity of GPX4 and 
+thus  induces  ferroptosis  [100].  In  conclusion,  inhibiting 
+the  MAPK  pathway  activates  the  LKB1-AMPK  signal-
+ing pathway and thus promotes the binding of BECN1 to 
+SLC7A11, inducing ferroptosis by blocking the activity of 
+system  Xc−.
+
+AMPK activates p53 to regulate ferroptosis
+
+The  tumor  suppressor  protein  p53  (TP53),  plays  a  criti-
+cal  role  in  the  cellular  response  to  stress,  and  different 
+stress  conditions  that  cause  different  states  of  p53  can 
+lead to cancer cell survival or death. AMPK, an intracel-
+lular energy-sensing kinase, activates p53 through phos-
+phorylation  [102],  while  AMPK  silencing  attenuates  the 
+phosphorylation  level  of  p53.  In  a  study  of  the  effect  of 
+aspartate  (Asp)-asparagine  (Asn)  homeostasis  on  cell 
+survival status, a positive feedback loop between p53 and 
+asparagine  metabolism  was  found.  p53  inhibits  ASNS 
+expression by binding to the asparagine synthase (ASNS) 
+gene,  decreasing  the  Asp-Asn  ratio,  and  direct  binding 
+of Asp to LKB1 activates AMPK while leading to higher 
+activation  of  p53  [103].  Related  studies  have  confirmed 
+that LKB1 can be activated by AMPK and that sustained 
+activation of AMPK can accelerate p53-dependent cellu-
+lar senescence [102, 104]. While p53 has been classically 
+recognized to impede cancer development by mediating 
+cell cycle arrest, apoptosis, and senescence, new evidence 
+suggests  that  p53  can  induce  ferroptosis  in  cancer  cells 
+by  regulating  metabolic  activities.  Traditionally,  we  are 
+familiar with the idea that ferroptosis is mainly controlled 
+by  GPX4,  but  p53-mediated  ferroptosis  is  GPX4-inde-
+pendent  [105,  106].  As  a  new  target  for  tumor  therapy, 
+the link between p53 and ferroptosis has attracted signifi-
+cant attention.
+
+SLC7A11  is  not  only  one  of  the  critical  factors  in  the 
+development of ferroptosis but also one of the targets of 
+p53 [52]. Related studies demonstrated that p53 inhibits 
+
+ Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 8 of 17
+
+system   Xc−  activity  by  suppressing  the  expression  of 
+key  protein  SLC7A11,  which  leading  to  impaired  cys-
+tine  uptake  and  affecting  the  biosynthesis  of  GSH,  and 
+inhibiting GPX4 and ultimately leading to cell ferroptosis 
+[52, 107]. The study has shown that p53, a novel regula-
+tor  of  histone  H2B  lysine  120  (H2Bub1),  negatively  reg-
+ulates  the  level  of  (H2Bub1)  by  promoting  the  nuclear 
+allosteric  site  of  ubiquitin-specific  processing  protease 
+7  (USP7),H2Bub1  is  enriched  in  the  gene  regulatory 
+region  of  the  SLC7A11  gene,  the  deletion  of  H2Bub1 
+significantly  downregulates  the  mRNA  and  protein  lev-
+els  of  SLC7A11,  which  increases  the  sensitivity  of  cells 
+to  ferroptosis  [108].  Regulation  of  H2Bub1  by  p53  also 
+provides us with a novel mechanism for the induction of 
+ferroptosis.
+
+Maintenance  of  normal  glutamate  transport  is  also  an 
+important  mode  to  avoid  the  occurrence  of  ferroptosis. 
+Glutamine  is  converted  to  glutamate  by  glutaminases 
+(GLS1  and  GLS2),  which  drive  ferroptosis  through  glu-
+taminolysis [20]. As a critical enzyme in converting glu-
+tamine  to  glutamate,  GLS2  (glutaminase  2)  promotes 
+the  production  of  glutamate  and  α-Ketoglutaric  acid  by 
+regulating  glutamine  metabolism,  increasing  mitochon-
+drial  oxidative  phosphorylation  and  the  generation  of 
+ATP  [109].  High  concentrations  of  glutamate  inhibited 
+system  Xc−, a key transport system for ferroptosis, which 
+make  the  synthesis  of  glutathione  GSH  inhibited,  lead-
+ing  to  a  large  accumulation  of  lipid  peroxides  and  thus 
+inducing the development of ferroptosis. Related studies 
+reveal  that  the  hepatocarcinogenesis  was  accompanied 
+by  reduced  levels  of  GLS2  and  found  a  reduced  suscep-
+tibility  to  ferroptosis  in  GLS2  knockout  cell  lines,  while 
+the  overexpression  of  GLS2  enhanced  sensitivity  to  fer-
+roptosis  [110].  Decreased  mRNA  and  protein  levels  of 
+GLS2  were  found  in  the  WT  cell  line  of  SK  Hep1,  but 
+not elevated in the p53KO cell line, giving us a hint of the 
+relationship between p53 and GLS2 [110]. Related stud-
+ies  has  confirmed  that  GSL2  is  a  target  of  p53-induced 
+glutamine metabolism and that the GSL2 gene contains a 
+binding element for functional p53 DNA in the promoter 
+region,  p53  binds  to  the  GLS2  promoter  and  increases 
+GLS2 expression under non-stress and stress conditions 
+thereby  enhancing  mitochondrial  respiration  and  ATP 
+production [109, 111]. Thus, p53 enhances the expression 
+of  GLS2  and  promotes  the  conversion  of  glutamate  to 
+α-ketoglutarate,  which  increases  the  production  of  lipid 
+reactive oxygen species so that induce ferroptosis.
+
+P53  can  not  only  affect  ferroptosis  by  directly  act-
+ing  on  ferroptosis  key  transporter  proteins  and  con-
+trolling  GSH  synthesis,  but  recently  it  was  found  that 
+p53  can  also  induce  ferroptosis  by  regulating  poly-
+amine  metabolism  [112].  The  presence  of  polyamines 
+
+is  essential  for  the  growth  and  survival  of  eukaryotic 
+cells.  As  a  rate-limiting  enzyme  in  the  catabolism  of 
+polyamines, spermidine/spermine N1-acetyltransferase 
+1(SAT1) is mainly responsible for catalyzing the acety-
+lation  of  spermidine  and  spermine  to  form   N1  -acetyl 
+spermidine and  N1-acetyl spermine, which is eventually 
+converted back to putrescine or spermidine [112]. The 
+process of polyamine catabolism is closely linked to the 
+stress response to ROS, the reaction between SAT1 and 
+polyamine oxidase (PAO) produces  H2O2 and increases 
+oxidative  stress  [113,  114].  Nutlin,  a  small  molecule 
+antagonist  of  MDM2,  was  found  to  activate  p53  tran-
+scription,  and  mRNA  expression  of  SAT1  was  found 
+to  be  significantly  upregulated  after  using  Nutlin  on 
+wild-type p53 melanoma cell line A375 [115]. Upregu-
+lation of SAT1 mRNA was also observed in p53 overex-
+pressing  cell  lines  [112].  Interestingly,  in  nutlin-acting 
+SAT1 knockdown cell lines, the expression level of ara-
+chidonic  acid  lipoxygenase  15  (ALOX15)  was  radically 
+found  to  be  reduced,  suggesting  that  ALOX15  may  be 
+a  downstream  effector  of  SAT1  acted  by  p53  [112].  It 
+has been shown that ALOX15 acts as an "intermediate 
+catalyst"  to  affect  the  occurrence  of  ferroptosis.  Free 
+PUFA  is  esterified  to  AA-PE,  and  ALOX15  can  oxi-
+dize  the  esterified  AA-PE  to  lipid  peroxides,  causing 
+the  accumulation  of  lipid  peroxides  and  thus  inducing 
+the  occurrence  of  ferroptosis  [41].  Ferroptosis  occurs 
+in  response  to  dual  induction  of  SAT1  and  ROS,  and 
+this  process  is  accompanied  by  increased  expression 
+of  ALOX15.  In  conclusion,  the  action  of  p53  activates 
+the  expression  of  SAT1  and  increases  the  expression 
+of  ALOX15,  which  greatly  promotes  the  oxidation  of 
+AA-PE  and  increases  the  production  of  lipid  perox-
+ides which causing ferroptosis [45, 112]. The activity of 
+ALOX12,  another  member  of  the  lipoxygenase  family, 
+has  an  influential  role  in  the  development  of  ferrop-
+tosis,  and  related  studies  have  demonstrated  that  the 
+chromosomal  locus  of  the  ALOX12  gene  is  very  close 
+to the p53 locus and that defects in the ALOX12 allele 
+have  been  identified  in  human  cancers  [116].  U2OS 
+cells  treated  with  Nutlin  and  tert-butyl  hydroperoxide 
+(TBH),  which  can  produce  p53-dependent  ferroptosis, 
+but this ferroptosis was suppressed in ALOX12 knock-
+out U2OS cells, suggesting that ALOX12 is required for 
+p53-dependentferroptosis.  ALOX12  specifically  inter-
+acts  with  SLC7A11,  to  some  extent  also  showing  that 
+p53 targeting of SLC7A11 induces ferroptosis depend-
+ent on ALOX12. Therefore, p53 can induce ferroptosis 
+by inhibiting SLC711 and dependent on ALOX12 [105]. 
+Calcium non-dependent phospholipase A2β (iPLA2β)-
+mediated  lipid  peroxide  detoxification  was  found  to 
+independently  of 
+inhibit  ROS-induced 
+
+ferroptosis 
+
+Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 9 of 17
+
+the  GPX4  pathway,  and  inhibition  of  iPLA2β  activity 
+resulted in greater sensitivity of tumor cells to p53-pro-
+moted ferroptosis [106]. This also suggests that iPLA2β 
+as a new target for the onset of p53-induced ferroptosis  
+in  cancer  cells  may  provide  a  new  entry  point  for  
+cancer  therapy.  It  is  well  known  that  p53  can  induce 
+the  occurrence  of  ferroptosis,  but  ferroptosis  nega-
+tively  regulates  p53.  In  the  study  of  the  mechanism 
+related  to  the  occurrence  of  p53-induced  ferroptosis, 
+it  was  found  that  p53  can  inhibit  the  erastin-induced 
+ferroptosis  by  inhibiting  the  localization  and  activity 
+of  dipeptidyl  peptidase-4  (DPP4).  Meanwhile,  pro-
+moting the expression of the cyclin-dependent kinase 
+inhibitor 1 (CDKN1A) which is mediated by p53 also 
+plays  an  essential  role  in  inhibiting  the  occurrence  of 
+ferroptosis [117].
+
+In  conclusion,  inhibition  of  the  MAPK  activates  the 
+activity of the LKB1-AMPK signaling pathway, which in 
+turn activates p53 and induces ferroptosis. (Fig. 2).
+
+Ferroptosis activator
+Numerous studies have confirmed that ferroptosis is cru-
+cial  in  killing  tumor  cells  and  inhibiting  tumor  growth, 
+induction  of  ferroptosis  has  been  widely  recognized  as 
+a  new  cancer  treatment  strategy.  Inhibiting  the  activ-
+ity  of  the  MAPK  to  active  LKB1-  AMPK  can  regulate 
+the occurrence of ferroptosis through multiple signaling 
+pathways,  this  ferroptosis  regulatory  network  has  great 
+significance  in  cancer  therapy,  especially  in  drug-resist-
+ant tumors therapy. Here, we summarize some drugs that 
+target this network to induce ferroptosis (Tables 1 and 2).
+
+Drugs induce ferroptosis by inhibiting the activity 
+of the MAPK signaling pathway
+As  an  upstream  signaling  molecule  of  MAPK,  the  EGF 
+receptor  (EGFR)  activates  the  RAS-ERK1/2  signal-
+ing  pathway  [132].  EGFR  activates  the  MAPK  signaling 
+pathway  through  two  "arms",  the  C-terminal  domain  of 
+EGFR binds to growth factor receptor binding protein-2 
+
+Fig. 2  MAPK regulates the ferroptosis network
+
+ Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 10 of 17
+
+Table 1  Chemical structure of some ferroptosis activators
+
+(Grb2)  [133],  the  SH3  domain  of  Grb2  actively  binds  to 
+the  proline-rich  carboxy-terminal  tail  phase  of  SOS, 
+which  is  known  that  SOS  is  a  RAS  guanine  nucleotide 
+exchange  factor,  and  EGFR  binds  to  SOS  by  binding  to 
+Grb  [134].  GTP-RAS  recruits  RAF  kinases  to  the  mem-
+brane and activates them, which activates the RAF-MEK-
+ERK-MAPK  signaling  pathway  [135].  Furthermore,  it 
+was  found  that  the  activation  of  EGFR  can  enhance  the 
+expression  of  SLC7A11  in  glioma  cells,  thereby  enhanc-
+ing the transport activity of system  Xc−, resulting in fer-
+roptosis  resistance  [136].  Thus,  the  selection  of  drugs 
+targeting  EGFR  can  inhibit  the  activation  of  the  MAPK 
+pathway and induce cell ferroptosis.
+
+It  was  found  that  the  anti-EGFR  antibody  cetuximab 
+combined  with  β-Elemene  can  induce  iron-dependent 
+ROS accumulation, GSH depletion to induce ferroptosis 
+and  inhibit  interepithelial  transformation  to  kill  KRAS-
+mutated  metastatic  colorectal  cancer  cells  [123].  Lapa-
+tinib,  a  dual  kinase  inhibitor  of  EGFR  and  HER2  [137], 
+which was used in combination with Siramesine to block 
+the  iron  transport  in  treating  breast  cancer  cells,  which 
+leads  to  an  increase  in  ROS  and  the  occurrence  of  fer-
+roptosis  [118].  The  EGFR  kinase  inhibitor-Vorinostat 
+can  promote  ferroptosis  in  EGFR-mutant  lung  adeno-
+carcinoma  cells  by  inhibiting  SLC7A11  expression  and 
+enhancing the efficacy of ferroptosis activator [119].
+
+Activating AMPK signaling pathway to induce ferroptosis
+
+A  derivative  of  artemisinin,  dihydroartemisinin  (DHA), 
+induces  ferroptosis  in  acute  myeloid  leukemia  (AML) 
+cells. It was found that DHA induces autophagy by acti-
+vating  AMPK  and  regulating  the  activity  of  the  mTOR/
+p70S6k  signaling  pathway.  By  accelerating  the  degra-
+dation  of  ferritin  and  increasing  unstable  iron  pools, 
+DHA  promotes  the  accumulation  of  ROS  in  AML  cells 
+and  ultimately  leads  to  ferroptosis  [121].  DHA  can  also 
+induce lysosomal degradation of ferritin in an autophagy-
+independent manner, thereby increasing free iron in cells 
+and making cells more sensitive to ferroptosis [138].
+
+The 
+
+2-imino-6-methoxy-
+benzopyran  derivative 
+2H-chromene-3-carbothioamide  (IMCA) 
+inhibits  the 
+mTOR-p70S6K  signaling  pathway  by  activating  AMPK. 
+By down-regulating the expression of SLC7A11, inhibit-
+ing  the  activity  of  System   Xc−,  reducing  the  content  of 
+cysteine and glutathione, leading to the accumulation of 
+reactive oxygen species and inducing ferroptosis in colo-
+rectal cancer cells [91].
+
+Targeting system  Xc− to induce ferroptosis
+
+Sorafenib  is  a  BRAF  inhibitor  that  targets  Raf-1  and 
+B-Raf kinases, and sorafenib was found to induce ferrop-
+tosis  [123].  However,  sorafenib-induced  ferroptosis  was 
+
+Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 11 of 17
+
+Table 2  Action mechanism of ferroptosis activators
+
+Classify
+
+Inducers of ferroptosis Mechanism of action
+
+Targeting MAPK signaling pathway Lapatinib + Siramesine
+
+Vorinostat
+
+Blocking iron transport and increasing intracellular unstable iron, leading 
+to increased ROS.
+Inhibits system  Xc− activity, affects GSH synthesis, enhances the effect 
+of ferroptosis inducers.
+
+Cetuximab + β-elemene ROS accumulation, GSH depletion.
+
+Targeting AMPK signaling pathway DHA
+
+IMCA
+
+Targeting system Xc-
+
+sorafenib
+
+erastin
+
+PE
+
+IKE
+
+SAS
+
+LP
+
+Glutamate
+
+Ibuprofen
+
+RSL3
+
+FIN56
+
+APR-246
+
+ART 
+
+Targeting GPX4
+
+Targeting p53
+
+References
+
+ [118]
+
+ [119]
+
+ [120]
+
+ [121, 122]
+
+ [91]
+
+ [17, 123]
+
+ [16]
+
+ [14]
+
+ [124]
+
+ [122, 125]
+
+ [126]
+
+ [2]
+
+ [127]
+
+Accelerate the degradation of ferritin, increase the content of unstable 
+iron pool, promote the accumulation of ROS in AML cells and ultimately 
+lead to ferroptosis.
+Inhibits system  Xc− activity, affects GSH synthesis, and leads to ROS 
+accumulation.
+Inhibits system  Xc− activity, affects GSH synthesis, and leads to ROS 
+accumulation.
+Inhibits system  Xc− activity, affects GSH synthesis, and leads to ROS 
+accumulation.
+
+Inhibits system Xc- activity, affects GSH synthesis, and leads to ROS accu-
+mulation.
+Inhibits system  Xc− activity, affects GSH synthesis, and leads to ROS 
+accumulation.
+Inhibits system  Xc− activity, affects GSH synthesis, and leads to ROS 
+accumulation.
+Inhibits system  Xc− activity, affects GSH synthesis, and leads to ROS 
+accumulation.
+Inhibits system  Xc− activity, affects GSH synthesis, and leads to ROS 
+accumulation.
+Inhibits system  Xc− activity, affects GSH synthesis, and leads to ROS 
+accumulation.
+
+Covalently binding GPX4 at the selenocysteine site to inactivates GPX4.
+
+ [10, 128]
+
+Induces GPX4 degradation, binds to and activates SQS resulting in loss 
+of CoQ10.
+
+ [14]
+
+Induce ferroptosis in cells by disrupting the GSH/ROS balance.
+
+Increases iron levels and accumulation of lipid peroxidation products, 
+reduces GSH content.
+
+ [129]
+
+ [130, 131]
+
+unrelated to its RAF kinase inhibition [139]. By inhibiting 
+the activity of system  Xc−, sorafenib blocks the transport 
+of  cystine/glutamate,  leading  to  endoplasmic  reticulum 
+stress,  impaired  GSH  synthesis,  disruption  of  intracel-
+lular redox homeostasis and accumulation of lipid ROS, 
+thereby inducing ferroptosis [17].
+
+The  first  ferroptosis-specific  activator,  erastin,  was 
+found  to  induce  ferroptosis  by  inhibiting  the  activity  of 
+System   Xc−,  which  inhibit  GSH  synthesis  [2,  16].  It  was 
+found that erastin can induce mitochondrial dysfunction 
+by binding to the mitochondrial voltage-dependent anion 
+channel  (VDAC)  and  altering  VDAC  gating,  resulting 
+in  abnormal  iron  ion  metabolism  and  ultimately  induc-
+ing ferroptosis [126]. The use of erastin in vivo is limited 
+due to its poor water solubility and unstable metabolism, 
+but its derivatives piperazine erastin (PE) and imidazole 
+ketone erastin (IKE) both induce ferroptosis by inhibiting 
+the activity of System  Xc− [14, 124].
+
+Sulfasalazine  (SAS)  is  synthesized  from  the  antibi-
+otic sulfasalazine and is commonly used to treat chronic 
+
+inflammatory  diseases  [122].  It  was  found  that  SAS 
+induces ferroptosis through inhibiting the uptake of cys-
+tine by System  Xc−, leading to GSH depletion [125].
+
+Lanperisone (LP) is a modified form of tolperisone that 
+can  effectively  target  Ras-mutated  tumors.  It  was  found 
+that LP can induce ferroptosis by inhibiting the function 
+of System  Xc− [126].
+
+High  glutamate  concentrations  induce  ferroptosis  in 
+
+the brain and cancer cells by inhibiting System  Xc− [2].
+
+Ibuprofen, a clinically used NSAID, induces ferroptosis 
+in glioma cells through inhibiting System Xc- activity by 
+down-regulating SLC7A11 expression [127].
+
+Targeting GPX4 to induce ferroptosis
+
+RSL3 is a RAS lethal molecule that induces ferroptosis by 
+inactivating  GPX4  which  covalently  binding  to  seleno-
+cysteine at the active site of GPX4 [10, 128].
+
+FIN56 induces post-translational degradation of GPX4 
+by  relying  on  Acetyl  CoA  carboxylase,  which  decreases 
+GPX4 expression and ultimately leads to cell ferroptosis. 
+
+ Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 12 of 17
+
+FIN56 can also activate squalene synthase (SQS), result-
+ing  in  the  deletion  of  coenzyme  Q10  (coenzyme  Q10, 
+CoQ10), thereby enhancing the sensitivity of cells to fer-
+roptosis [14].
+
+Targeting p53 to induce ferroptosis
+
+Eprenetapopt (APR -246) is a p53 activator that restores 
+wild-type  p53  function  in  TP53-  mutant  cells.  It  was 
+found that reactivation of the mutated p53 leaded to fer-
+roptosis in the clinical treatment of acute myeloid white-
+head disease and various solid malignancies [129].
+
+One  of  artemisinin’s  derivatives  is  artesunate(ART) 
+can  induce  ferroptosis  in  pancreatic  ductal  adenocarci-
+noma  cells  which  transformed  by  KRas,  and  the  supply 
+of exogenous iron will further enhance ferroptosis which 
+induced by ART [131]. Another research has found that 
+ART promoted the expression and nuclear import of p53 
+so  that  induces  the  occurrence  of  ferroptosis  [131].  The 
+study found ART can increase the level of iron and lipid 
+peroxidation products, and reduce the GSH and NADPH 
+content [130]. (Fig. 3).
+
+Conclusions and outlook
+During  the  last  decade  or  so,  we  have  witnessed  the 
+discovery  and  development  of  ferroptosis  and  rapid 
+progress  in  its  mechanistic  understanding.  As  a  new 
+potential  modality  of  programmed  cell  death,  it  shows 
+great  potential  and  uniqueness  in  tumor  therapy,  and 
+as  a  vast  integrator  of  biological  processes,  this  intri-
+cate  web  of  relationships  encompasses  the  occurrence 
+of  various  pathophysiological  processes.  The  number  of 
+relevant  studies  on  ferroptosis  has  grown  exponentially, 
+with  many  cancer-related  genes  and  signaling  pathways 
+exerting  great  potential  in  regulating  ferroptosis,  and 
+
+mechanistic  studies  showing  the  potential  evolutionary 
+origin of ferroptosis.
+
+There is growing evidence that ferroptosis is a complex 
+network  system,  and  the  importance  of  MAPK  as  a  key 
+component of most signal transduction pathways and the 
+most  important  common  pathway  for  ferroptosis  can-
+not be overstated. Here we enhance metabolic regulation 
+with the help of LKB1 though linking MAPK to AMPK, 
+followed by the effect of activating AMPK and thus p53 
+and  mTORC1  signaling  to  influence  the  occurrence  of 
+autophagy-dependent  ferroptosis  and  p53-activated  fer-
+roptosis.  However,  in  a  mechanistic  study  in  the  pres-
+ence  of  cisplatin,  we  found  that  AMPK  is  not  involved 
+in  LKB1-mediated  p53  activation  and  that  there  is  also 
+a  negative  regulation  of  p53  activation  through  other 
+mechanisms  [140].  At  the  same  time,  but  ignoring  this 
+complex  process  and  focusing  only  on  the  direct  rela-
+tionship  between  LKB1-AMPK  and  ferroptosis,  AMPK 
+activation by the upstream kinase LKB1 can protect cells 
+from  lipid  hydroperoxide  accumulation  and  ferroptosis 
+by inhibiting cellular lipid synthesis [141], which in turn 
+gives  a  sense  of  contradiction  in  direction  at  the  same 
+time. We can see that in this complex network of signal-
+ing  pathways,  MAPK  and  AMPK  are  like  double-edged 
+swords  controlling  the  direction  of  ferroptosis,  and  the 
+summary of this complex network provides us with new 
+ideas to study the mechanism of ferroptosis.
+
+The existence of a complex network of MAPK-AMPK-
+ferroptosis provides a new vision for tumor therapy. The 
+rapid development of ferroptosis-related research makes 
+ferroptosis drugs promising as a promising cancer treat-
+ment,  and  the  induction  of  ferroptosis  can  also  reverse 
+the phenomenon of drug resistance. We summarized var-
+ious  representative  drugs  for  MAPK-AMPK-ferroptosis 
+
+Fig. 3  Target of drugs to induce ferroptosis in the MAPK-AMPK network
+
+Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 13 of 17
+
+regulatory network, and also summarized targeted drugs 
+for  upstream  of  MAPK  and  downstream  of  AMPK.  We 
+considered  that  although  inhibiting  EGFR  can  inhibit 
+the  activity  of  MAPK  pathway,  the  problem  of  acquired 
+drug  resistance  of  EGFR  tyrosine  kinase  inhibitors 
+(EGFR-TKI)  has  become  a  major  clinical  challenge,  and 
+overcoming  the  occurrence  of  drug  resistance  will  also 
+contribute  to  the  induction  of  ferroptosis  by  MAPK-
+AMPK  network.  Ferroptosis-inducing  drugs  and  other 
+small-molecule compounds have the potential to become 
+the  pioneering  force  in  tumor  therapy.  However,  some 
+of  the  drugs  at  this  stage  suffer  from  low  bioavailability, 
+insufficient targeting and poor stability, and the potential 
+applications of these drugs need to be better understood. 
+Further elucidation of the mechanism of action and char-
+acteristics of drugs targeting this regulatory network will 
+have a profound impact on tumor therapy.
+
+In conclusion, ferroptosis is like a compass in the desert 
+that  can  show  us  the  right  path  to  the  end  of  the  road, 
+and  the  complex  mechanisms  involved  in  deciphering 
+these mechanisms are particularly important because of 
+their uncertainty, and the discovery of these mechanisms 
+will  lead  to  appropriate  and  targeted  therapeutic  strate-
+gies. There is a long road ahead in the study of ferroptosis 
+mechanisms, and these studies will eventually shed light 
+on the unique significance of ferroptosis in nature.
+
+Abbreviations
+MAPK 
+AMPK 
+ERK 
+JNK 
+RCD 
+ROS 
+DLBCL 
+RCC  
+TfR1 
+FTH1 
+FTL 
+NCOA4 
+CdTe QDs 
+Fpn 1 
+ASH 
+OSM 
+PE 
+AA 
+ACLS4 
+LPCAT3 
+ALOX15 
+ARF6 
+ROSI 
+RKIP1 
+GSH 
+system  Xc−          Cystine/glutamate transpoter
+SLC7A11 
+
+         Mitogen-activated protein kinase
+         AMP-activated protein kinase
+         Extracellular signal-regulated kinase
+         C-Jun N-terminal kinase
+         Regulated cell death
+         Lipid reactive oxygen species
+         Diffuse large B-cell lymphoma
+         Renal cell carcinoma cell lines
+         Transferrin receptor 1
+         Ferritin heavy chain 1
+         Ferritin light chain
+         Nuclear receptor coactivator 4
+         Cadmium telluride quantum dots
+         Ferroportin 1
+         Subarachnoid hemorrhage
+         Oncostatin M
+         Phosphatidylethanolamine
+         Arachidonic acid
+         Acyl-CoA synthetase long-chain family member 4
+         Lysophosphatidylcholine acyltransferase 3
+         Arachidonate lipoxygenase 15
+         ADP-ribosylation factor 6
+         Rosiglitazone
+         Raf1 kinase inhibitory protein
+         Free radical scavenger glutathione
+
+         Disulfide-bonded heterodimer composed of a non-glyco-
+
+            Quinone oxidoreductase 1
+            Heme oxygenase-1
+            Glutathione S-transferase A1
+            Glutamate-cysteine ligase
+            β-Phenethyl Isothiocyanate
+            Gold nanoparticle
+            Voltage-dependent anion channels
+            Live kinase B1
+            Ca (2 +)/calmodulin-dependent protein kinase kinase 2
+            Latent membrane protein 1
+
+NQO1 
+HO-1 
+GSTA1 
+γGCS 
+PEITC 
+GNP 
+VDAC 
+LKB1 
+CAMKK2 
+LMP1 
+ARNTL/BMAL          1Aryl hydrocarbon receptor nuclear translocator-like
+SIRT3 
+IMCA 
+mTORC1 
+mLST8 
+SREBP1 
+SCD1 
+MUFA 
+PtdIns3K 
+TP53 
+H2Bub1 
+USP7 
+GLS2 
+SAT1 
+iPLA2β 
+DPP4 
+CDKN1A 
+EGFR 
+Grb2 
+DHA 
+
+            Sirtuin 3
+            2-Imino-6-methoxy-2H-chromene-3-carbothioamide
+            Mechanistic target of rapamycin complex 1
+            Mammalian lethal with SEC13 protein 8
+            Sterol reaction element binding protein 1
+            Stearoyl-CoA desaturase
+            Monounsaturated fatty acids
+            Phosphatidylinositol 3-kinase complex I
+            Tumor suppressor protein p53
+            Histone H2B lysine 120
+            Ubiquitin-specific processing protease 7
+            Glutaminase 2
+            Spermidine/spermine N1-acetyltransferase 1
+            Independent phospholipase A2β
+            Dipeptidyl peptidase-4
+            Cyclin-dependent kinase inhibitor 1
+            EGF receptor
+            The growth factor receptor-bound protein-2
+            Dihydroartemisinin
+
+Acknowledgements
+Not applicable.
+
+Authors’ contributions
+XW drafted the manuscript in detail, plotted the diagram and tables, and 
+made the main revisions; XT conceived and designed the manuscript, and 
+made the  revisions. All authors read and approved the final manuscript.
+
+Funding
+We are grateful for the support of the National Natural Science Foundation of 
+China (81602743), Open Fund of Hubei Key Laboratory of Tumor Microenvi-
+ronment and Immunotherapy (Three Gorges University, China) (2019KZL06).
+
+Availability of data and materials
+Not applicable.
+
+Declarations
+
+Ethics approval and consent to participate
+Not applicable
+
+Consent for publication
+Not applicable.
+
+Competing interests
+The authors declare no conflict of interests.
+
+Received: 7 January 2023   Accepted: 20 May 2023
+
+sylated light chain xCT
+
+         A glycosylated heavy chain CD98hc
+
+SLC3A2 
+(18)F-FASu           Tracer (18)F-5-fluoro-aminosuberic acid
+         Gene set enrichment analysis
+GSEA 
+         Nuclear factor erythrocyte-related factor 2
+Nrf2 
+
+References
+
+1.  Galluzzi L, Vitale I, Aaronson SA, et al. Molecular mechanisms of 
+
+cell death: recommendations of the Nomenclature Committee on 
+Cell Death 2018. Cell Death Differ. 2018. https:// doi. org/ 10. 1038/ 
+s41418- 017- 0012-4.
+
+  
+Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 14 of 17
+
+2.  Dixon SJ, Lemberg KM, Lamprecht MR, et al. Ferroptosis: an iron-
+
+dependent form of nonapoptotic cell death. Cell. 2012. https:// doi. org/ 
+10. 1016/j. cell. 2012. 03. 042.
+
+3.  Xie Y, Hou W, Song X, et al. Ferroptosis: process and function. Cell Death 
+
+Differ. 2016. https:// doi. org/ 10. 1038/ cdd. 2015. 158.
+
+4.  Yang WS, Stockwell BR. Ferroptosis: death by lipid peroxidation. Trends 
+
+Cell Biol. 2016. https:// doi. org/ 10. 1016/j. tcb. 2015. 10. 014.
+
+5.  Zhou B, Liu J, Kang R, et al. Ferroptosis is a type of autophagy-depend-
+
+ent cell death. Semin Cancer Biol. 2020. https:// doi. org/ 10. 1016/j. semca 
+ncer. 2019. 03. 002
+
+6.  Lee H, Zandkarimi F, Zhang Y, et al. Energy-stress-mediated AMPK acti-
+vation inhibits ferroptosis. Nat Cell Biol. 2020.https:// doi. org/ 10. 1038/ 
+s41556- 020- 0461-8.
+
+7.  Son Y, Kim S, Chung H, et al. Chapter Two - Reactive Oxygen Species 
+in the Activation of MAP Kinases[M]//Cadenas e, PaCker L. Methods in 
+Enzymology. Academic Press, 2013:27–48.
+
+8.  Zhang YL, Guo H, Zhang CS, et al. AMP as a low-energy charge signal 
+
+autonomously initiates assembly of AXIN-AMPK-LKB1 complex for AMPK 
+activation. Cell Metab. 2013. https:// doi. org/ 10. 1016/j. cmet. 2013. 09. 005.
+
+9.  Dolma S, Lessnick SL, Hahn WC, et al. Identification of genotype-
+
+selective antitumor agents using synthetic lethal chemical screening 
+in engineered human tumor cells. Cancer Cell. 2003. https:// doi. org/ 10. 
+1016/ s1535- 6108(03) 00050-3.
+
+  10.  Yang WS, Stockwell BR. Synthetic lethal screening identifies com-
+
+pounds activating iron-dependent, nonapoptotic cell death in 
+oncogenic-RAS-harboring cancer cells. Chem Biol. 2008. https:// doi. 
+org/ 10. 1016/j. chemb iol. 2008. 02. 010.
+
+  11.  Chang WT, Bow YD, Fu PJ, et al. A marine terpenoid, heteronemin, 
+
+induces both the apoptosis and ferroptosis of hepatocellular carcinoma 
+cells and involves the ROS and MAPK pathways. Oxid Med Cell Longev. 
+2021. https:// doi. org/ 10. 1155/ 2021/ 76890 45.
+
+  12.  Ronkina N, Gaestel M. MAPK-activated protein kinases: servant or part-
+ner? Annu Rev Biochem. 2022. https:// doi. org/ 10. 1146/ annur ev- bioch 
+em- 081720- 114505.
+
+  26.  Mancias JD, Wang X, Gygi SP, et al. Quantitative proteomics identifies 
+NCOA4 as the cargo receptor mediating ferritinophagy. Nature. 2014. 
+https:// doi. org/ 10. 1038/ natur e13148.
+
+  27.  Gozzelino R, Soares MP. Coupling heme and iron metabolism via ferritin H 
+chain. Antioxid Redox Signal. 2014.https:// doi. org/ 10. 1089/ ars. 2013. 5666.
+
+  28.  Rehwald C, Schnetz M, Urbschat A, et al. The iron load of lipocalin-2 
+(LCN-2) defines its pro-tumour function in clear-cell renal cell carci-
+noma. Br J Cancer. 2020. https:// doi. org/ 10. 1038/ s41416- 019- 0655-7.
+  29.  Dowdle WE, Nyfeler B, Nagel J, et al. Selective VPS34 inhibitor blocks 
+
+autophagy and uncovers a role for NCOA4 in ferritin degradation and 
+iron homeostasis in vivo. Nat Cell Biol. 2014. https:// doi. org/ 10. 1038/ 
+ncb30 53.
+
+  30.  Tang M, Chen Z, Wu D, et al. Ferritinophagy/ferroptosis: iron-related 
+
+newcomers in human diseases. J Cell Physiol. 2018. https:// doi. org/ 10. 
+1002/ jcp. 26954.
+
+  31.  Latunde-Dada GO. Ferroptosis: role of lipid peroxidation, iron and fer-
+ritinophagy. Biochim Biophys Acta Gen Subj. 2017. https:// doi. org/ 10. 
+1016/j. bbagen. 2017. 05. 019.
+
+  32.  Hou W, Xie Y, Song X, et al. Autophagy promotes ferroptosis by degra-
+dation of ferritin. Autophagy. 2016. https:// doi. org/ 10. 1080/ 15548 627. 
+2016. 11873 66.
+
+  33.  Liu N, Liang Y, Wei T, et al. The role of ferroptosis mediated by NRF2/
+ERK-regulated ferritinophagy in CdTe QDs-induced inflammation in 
+macrophage. J Hazard Mater. 2022. https:// doi. org/ 10. 1016/j. jhazm at. 
+2022. 129043.
+
+  34.  Anderson GJ, Frazer DM. Current understanding of iron homeostasis. 
+Am J Clin Nutr. 2017. https:// doi. org/ 10. 3945/ ajcn. 117. 155804.
+  35.  Zhang H, Ostrowski R, Jiang D, et al. Hepcidin promoted ferroptosis 
+through iron metabolism which is associated with DMT1 signaling 
+activation in early brain injury following subarachnoid hemorrhage. 
+Oxid Med Cell Longev. 2021. https:// doi. org/ 10. 1155/ 2021/ 98007 94.
+  36.  Geng N, Shi BJ, Li SL, et al. Knockdown of ferroportin accelerates eras-
+
+tin-induced ferroptosis in neuroblastoma cells. Eur Rev Med Pharmacol 
+Sci. 2018. https:// doi. org/ 10. 26355/ eurrev_ 201806_ 15267.
+
+  13.  Chang L, Karin M. Mammalian MAP kinase signalling cascades. Nature. 
+
+  37.  Persichini T, Maio N, di Patti MC, et al. Interleukin-1β induces ceruloplas-
+
+2001. https:// doi. org/ 10. 1038/ 35065 000.
+
+  14.  Yang WS, Sriramaratnam R, Welsch ME, et al. Regulation of ferroptotic 
+
+cancer cell death by GPX4. Cell. 2014.https:// doi. org/ 10. 1016/j. cell. 2013. 
+12. 010.
+
+  15.  Ye F, Chai W, Xie M, et al. HMGB1 regulates erastin-induced ferroptosis 
+
+via RAS-JNK/p38 signaling in HL-60/NRAS(Q61L) cells. Am J Cancer Res. 
+2019;9:730–9.
+
+  16.  Yagoda N, von Rechenberg M, Zaganjor E, et al. RAS-RAF-MEK-depend-
+ent oxidative cell death involving voltage-dependent anion channels. 
+Nature. 2007. https:// doi. org/ 10. 1038/ natur e05859.
+
+  17.  Dixon SJ, Patel DN, Welsch M, et al. Pharmacological inhibition of 
+
+cystine-glutamate exchange induces endoplasmic reticulum stress and 
+ferroptosis. Elife. 2014. https:// doi. org/ 10. 7554/ eLife. 02523.
+
+  18.  Truman-Rosentsvit M, Berenbaum D, Spektor L, et al. Ferritin is secreted 
+
+via 2 distinct nonclassical vesicular pathways. Blood. 2018. https:// doi. 
+org/ 10. 1182/ blood- 2017- 02- 768580.
+
+  19.  Bogdan AR, Miyazawa M, Hashimoto K, et al. Regulators of iron 
+
+homeostasis: new players in metabolism, cell death, and disease. Trends 
+Biochem Sci. 2016. https:// doi. org/ 10. 1016/j. tibs. 2015. 11. 012.
+
+  20.  Gao M, Monian P, Quadri N, et al. Glutaminolysis and transferrin regulate 
+ferroptosis. Mol Cell. 2015. https:// doi. org/ 10. 1016/j. molcel. 2015. 06. 011.
+  21.  Gammella E, Buratti P, Cairo G, et al. The transferrin receptor: the cellu-
+lar iron gate. Metallomics. 2017. https:// doi. org/ 10. 1039/ c7mt0 0143f.
+
+  22.  Basuli D, Tesfay L, Deng Z, et al. Iron addiction: a novel therapeutic 
+target in ovarian cancer. Oncogene. 2017. https:// doi. org/ 10. 1038/  
+onc. 2017. 11.
+
+  23.  Casey JL, Di Jeso B, Rao K, et al. The promoter region of the human 
+
+transferrin receptor gene. Ann N Y Acad Sci. 1988. https:// doi. org/ 10. 
+1111/j. 1749- 6632. 1988. tb554 92.x.
+
+  24.  Ouyang Q, Bommakanti M, Miskimins WK. A mitogen-responsive 
+promoter region that is synergistically activated through multiple 
+signalling pathways. Mol Cell Biol.1993. https:// doi. org/ 10. 1128/ mcb.  
+13.3. 1796- 1804. 1993.
+
+  25.  Yu Y, Xie Y, Cao L, et al. The ferroptosis inducer erastin enhances sensi-
+
+min and ferroportin-1 gene expression via MAP kinases and C/EBPβ, 
+AP-1, and NF-κB activation. Neurosci Lett. 2010. https:// doi. org/ 10. 
+1016/j. neulet. 2010. 08. 034.
+
+  38.  Luo QQ, Zhou YF, Chen MY, et al. Fasting up-regulates ferroportin 1 
+
+expression via a Ghrelin/GHSR/MAPK signaling pathway. J Cell Physiol. 
+2018. https:// doi. org/ 10. 1002/ jcp. 25931.
+
+  39.  Gaschler MM, Andia AA, Liu H, et al. FINO(2) initiates ferroptosis through 
+
+GPX4 inactivation and iron oxidation. Nat Chem Biol. 2018;https:// doi. 
+org/ 10. 1038/ s41589- 018- 0031-6.
+
+  40.  Doll S, Proneth B, Tyurina YY, et al. ACSL4 dictates ferroptosis sensitivity 
+by shaping cellular lipid composition. Nat Chem Biol. 2017. https:// doi. 
+org/ 10. 1038/ nchem bio. 2239.
+
+  41.  Lei P, Bai T, Sun Y. Mechanisms of ferroptosis and relations with regu-
+
+lated cell death: a review. Front Physiol. 2019. https:// doi. org/ 10. 3389/ 
+fphys. 2019. 00139.
+
+  42.  Li R, Peng C, Zhang X, et al. Roles of Arf6 in cancer cell invasion, metas-
+tasis and proliferation. Life Sci. 2017. https:// doi. org/ 10. 1016/j. lfs. 2017. 
+06. 008.
+
+  43.  Ye Z, Hu Q, Zhuo Q, et al. Abrogation of ARF6 promotes RSL3-induced 
+ferroptosis and mitigates gemcitabine resistance in pancreatic cancer 
+cells. Am J Cancer Res. 2020;10:1182–93.
+
+  44.  Yeung K, Seitz T, Li S, et al. Suppression of Raf-1 kinase activity and MAP 
+
+kinase signalling by RKIP. Nature.1999. https:// doi. org/ 10. 1038/ 43686.
+  45.  Wenzel SE, Tyurina YY, Zhao J, et al. PEBP1 wardens ferroptosis by ena-
+
+bling lipoxygenase generation of lipid death signals. Cell. 2017. https:// 
+doi. org/ 10. 1016/j. cell. 2017. 09. 044.
+
+  46.  Maiorino M, Conrad M, Ursini F. GPx4, lipid peroxidation, and cell death: 
+discoveries, rediscoveries, and open issues. Antioxid Redox Signal. 
+2018.https:// doi. org/ 10. 1089/ ars. 2017. 7115.
+
+  47.  Cao JY, Dixon SJ. Mechanisms of ferroptosis. Cell Mol Life Sci. 2016. 
+
+https:// doi. org/ 10. 1007/ s00018- 016- 2194-1.
+
+  48.  Bridges RJ, Natale NR, Patel SA. System  xc- cystine/glutamate antiporter: 
+
+an update on molecular pharmacology and roles within the CNS. Br J 
+Pharmacol. 2012. https:// doi. org/ 10. 1111/j. 1476- 5381. 2011. 01480.x.
+
+tivity of acute myeloid leukemia cells to chemotherapeutic agents. Mol 
+Cell Oncol. 2015. https:// doi. org/ 10. 1080/ 23723 556. 2015. 10545 49.
+
+  49.  Sato H, Tamba M, Ishii T, et al. Cloning and expression of a plasma 
+
+membrane cystine/glutamate exchange transporter composed of two 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 15 of 17
+
+distinct proteins. J Biol Chem. 1999. https:// doi. org/ 10. 1074/ jbc. 274. 17. 
+11455.
+
+  50.  Koppula P, Zhang Y, Zhuang L, et al. Amino acid transporter SLC7A11/
+
+the redox balance, and activating the mapk signaling pathway. Oxid 
+Med Cell Longev. 2020. https:// doi. org/ 10. 1155/ 2020/ 50219 83.
+  71.  Sun Z, Huang Z, Zhang DD. Phosphorylation of Nrf2 at multiple sites 
+
+xCT at the crossroads of regulating redox homeostasis and nutrient 
+dependency of cancer. Cancer Commun (Lond). 2018. https:// doi. org/ 
+10. 1186/ s40880- 018- 0288-x.
+
+by MAP kinases has a limited contribution in modulating the Nrf2-
+dependent antioxidant response. PLoS One. 2009. https:// doi. org/ 10. 
+1371/ journ al. pone. 00065 88.
+
+  51.  Koppula P, Zhuang L, Gan B. Cystine transporter SLC7A11/xCT in cancer: 
+ferroptosis, nutrient dependency, and cancer therapy. Protein Cell. 
+2021. https:// doi. org/ 10. 1007/ s13238- 020- 00789-5.
+
+  52.  Jiang L, Kon N, Li T, et al. Ferroptosis as a p53-mediated activity during 
+tumour suppression. Nature. 2015. https:// doi. org/ 10. 1038/ natur 
+e14344.
+
+  53.  Zhang Y, Shi J, Liu X, et al. BAP1 links metabolic regulation of ferroptosis 
+
+to tumour suppression. Nat Cell Biol. 2018. https:// doi. org/ 10. 1038/ 
+s41556- 018- 0178-0.
+
+  54.  Jiang H. A novel ETV6-NTRK3 gene fusion in primary renal fibrosarcoma. 
+Eur Rev Med Pharmacol Sci. 2022. https:// doi. org/ 10. 26355/ eurrev_ 
+202207_ 29195.
+
+  55.  Tognon CE, Martin MJ, Moradian A, et al. A tripartite complex com-
+posed of ETV6-NTRK3, IRS1 and IGF1R is required for ETV6-NTRK3-
+mediated membrane localization and transformation. Oncogene. 2012. 
+https:// doi. org/ 10. 1038/ onc. 2011. 323.
+
+  56.  Webster JM, Morton CA, Johnson BF, et al. Functional imaging of oxida-
+
+tive stress with a novel PET imaging agent, 18F-5-fluoro-L-aminosuberic 
+acid. J Nucl Med. 2014. https:// doi. org/ 10. 2967/ jnumed. 113. 126664.
+  57.  Yang H, Jenni S, Colovic M, et al. (18)F-5-Fluoroaminosuberic acid as 
+
+a potential tracer to gauge oxidative stress in breast cancer models. J 
+Nucl Med. 2017. https:// doi. org/ 10. 2967/ jnumed. 116. 180661.
+
+  58.  Lim J, Delaidelli A, Minaker SW, et al. Cystine/glutamate antiporter xCT 
+
+(SLC7A11) facilitates oncogenic RAS transformation by preserving 
+intracellular redox balance. Proc Natl Acad Sci U S A. 2019. https:// doi. 
+org/ 10. 1073/ pnas. 18213 23116.
+
+  59.  Dodson M, Castro-Portuguez R, Zhang DD. NRF2 plays a critical role in 
+mitigating lipid peroxidation and ferroptosis. Redox Biol. 2019. https:// 
+doi. org/ 10. 1016/j. redox. 2019. 101107.
+
+  72.  Xu Y, Li X, Cheng Y, et al. Inhibition of ACSL4 attenuates ferroptotic dam-
+
+age after pulmonary ischemia-reperfusion. FASEB J. 2020. https:// doi. 
+org/ 10. 1096/ fj. 20200 1758R.
+
+  73.  Zhao Y, Li Y, Zhang R, et al. The role of erastin in ferroptosis and its 
+
+prospects in cancer therapy. Onco Targets Ther. 2020. https:// doi. org/ 
+10. 2147/ OTT. S2549 95.
+
+  74.  Hardie DG. Keeping the home fires burning: AMP-activated protein 
+kinase. J R Soc Interface. 2018. https:// doi. org/ 10. 1098/ rsif. 2017. 0774.
+  75.  Herzig S, Shaw RJ. AMPK: guardian of metabolism and mitochondrial 
+homeostasis. Nat Rev Mol Cell Biol. 2018. https:// doi. org/ 10. 1038/ nrm. 
+2017. 95.
+
+  76.  Li Y, Zhang Y, Qiu Q, et al. Energy-Stress-Mediated AMPK Activation 
+
+Promotes GPX4-Dependent Ferroptosis through the JAK2/STAT3/P53 
+Axis in Renal Cancer. Oxid Med Cell Longev. 2022. https:// doi. org/ 10. 
+1155/ 2022/ 23531 15.
+
+  77.  Shaw RJ, Kosmatka M, Bardeesy N, et al. The tumor suppressor LKB1 
+
+kinase directly activates AMP-activated kinase and regulates apoptosis 
+in response to energy stress. Proc Natl Acad Sci U S A. 2004. https:// doi. 
+org/ 10. 1073/ pnas. 03080 61100.
+
+  78.  Woods A, Dickerson K, Heath R, et al. Ca2+/calmodulin-dependent 
+protein kinase kinase-beta acts upstream of AMP-activated protein 
+kinase in mammalian cells. Cell Metab. 2005. https:// doi. org/ 10. 1016/j. 
+cmet. 2005. 06. 005.
+
+  79.  Xia T, Chen D, Liu X, et al. Midkine noncanonically suppresses AMPK 
+activation through disrupting the LKB1-STRAD-Mo25 complex. Cell 
+Death Dis. 2022. https:// doi. org/ 10. 1038/ s41419- 022- 04801-0.
+  80.  Garcia D, Shaw RJ. AMPK: mechanisms of cellular energy sensing and 
+
+restoration of metabolic balance. Mol Cell. 2017. https:// doi. org/ 10. 
+1016/j. molcel. 2017. 05. 032.
+
+  60.  He F, Ru X, Wen T. NRF2, a Transcription Factor for Stress Response and 
+
+  81.  Cokorinos EC, Delmore J, Reyes AR, et al. Activation of skeletal muscle 
+
+Beyond. Int J Mol Sci. 2020. https:// doi. org/ 10. 3390/ ijms2 11347 77.
+
+  61.  Sun J, Zhou C, Zhao Y, et al. Quiescin sulfhydryl oxidase 1 promotes 
+
+sorafenib-induced ferroptosis in hepatocellular carcinoma by driving 
+EGFR endosomal trafficking and inhibiting NRF2 activation. Redox Biol. 
+2021. https:// doi. org/ 10. 1016/j. redox. 2021. 101942.
+
+  62.  Qiu YB, Wan BB, Liu G, et al. Nrf2 protects against seawater drowning-
+induced acute lung injury via inhibiting ferroptosis. Respir Res. 2020. 
+https:// doi. org/ 10. 1186/ s12931- 020- 01500-2.
+
+  63.  Yamamoto M, Kensler TW, Motohashi H. The KEAP1-NRF2 System: a 
+
+Thiol-Based Sensor-Effector Apparatus for Maintaining Redox Homeo-
+stasis. Physiol Rev. 2018. https:// doi. org/ 10. 1152/ physr ev. 00023. 2017.
+
+  64.  Baird L, Yamamoto M. The molecular mechanisms regulating the 
+
+KEAP1-NRF2 Pathway. Mol Cell Biol. 2020. https:// doi. org/ 10. 1128/ MCB. 
+00099- 20.
+
+  65.  Sun Y, He L, Wang T, et al. Activation of p62-Keap1-Nrf2 Pathway Pro-
+
+tects 6-Hydroxydopamine-Induced Ferroptosis in Dopaminergic Cells. 
+Mol Neurobiol. 2020. https:// doi. org/ 10. 1007/ s12035- 020- 02049-3.
+  66.  Ko WC, Shieh JM, Wu WB. P38 MAPK and Nrf2 Activation Mediated 
+
+Naked Gold Nanoparticle Induced Heme Oxygenase-1 Expression in 
+Rat Aortic Vascular Smooth Muscle Cells. Arch Med Res. 2020. https:// 
+doi. org/ 10. 1016/j. arcmed. 2020. 04. 015.
+
+  67.  Shen G, Hebbar V, Nair S, et al. Regulation of Nrf2 transactivation 
+
+domain activity. The differential effects of mitogen-activated protein 
+kinase cascades and synergistic stimulatory effect of Raf and CREB-
+binding protein. J Biol Chem. 2004. https:// doi. org/ 10. 1074/ jbc. M4013 
+68200.
+
+  68.  Cullinan SB, Zhang D, Hannink M, et al. Nrf2 is a direct PERK substrate 
+and effector of PERK-dependent cell survival. Mol Cell Biol. 2003. 
+https:// doi. org/ 10. 1128/ MCB. 23. 20. 7198- 7209. 2003.
+
+  69.  Meng Y, Feng R, Yang Z, et al. Oxidative stress induced by realgar in 
+neurons: p38 MAPK and ERK1/2 perturb autophagy and induce the 
+p62-Keap1-Nrf2 feedback loop to activate the Nrf2 signalling pathway. 
+J Ethnopharmacol. 2022. https:// doi. org/ 10. 1016/j. jep. 2021. 114582.
+
+  70.  Lv H, Zhen C, Liu J, et al. β-Phenethyl isothiocyanate induces cell death 
+in human osteosarcoma through altering iron metabolism, disturbing 
+
+AMPK promotes glucose disposal and glucose lowering in non-human 
+primates and mice. Cell Metab. 2017. https:// doi. org/ 10. 1016/j. cmet. 
+2017. 04. 010.
+
+  82.  Zheng B, Jeong JH, Asara JM, et al. Oncogenic B-RAF negatively regu-
+lates the tumor suppressor LKB1 to promote melanoma cell prolifera-
+tion. Mol Cell. 2009. https:// doi. org/ 10. 1016/j. molcel. 2008. 12. 026.
+
+  83.  Lo AK, Lo KW, Ko CW, et al. Inhibition of the LKB1-AMPK pathway by 
+
+the Epstein-Barr virus-encoded LMP1 promotes proliferation and 
+transformation of human nasopharyngeal epithelial cells. J Pathol. 2013. 
+https:// doi. org/ 10. 1002/ path. 4201.
+
+  84.  Dard L, Hubert C, Esteves P, et al. HRAS germline mutations impair 
+
+LKB1/AMPK signaling and mitochondrial homeostasis in Costello syn-
+drome models. J Clin Invest. 2022. https:// doi. org/ 10. 1172/ JCI13 1053.
+  85.  Kang R, Tang D. Autophagy and Ferroptosis - What’s the Connection? 
+Curr Pathobiol Rep. 2017. https:// doi. org/ 10. 1007/ s40139- 017- 0139-5.
+  86.  Doll S, Conrad M. Iron and ferroptosis: a still ill-defined liaison. IUBMB 
+
+Life. 2017. https:// doi. org/ 10. 1002/ iub. 1616.
+
+  87.  Bröer S, Bröer A. Amino acid homeostasis and signalling in mammalian cells 
+
+and organisms. Biochem J. 2017. https:// doi. org/ 10. 1042/ BCJ20 160822.
+
+  88.  Wullschleger S, Loewith R, Hall MN. TOR signaling in growth and 
+metabolism. Cell. 2006. https:// doi. org/ 10. 1016/j. cell. 2006. 01. 016.
+  89.  Singh CK, Chhabra G, Ndiaye MA, et al. The role of sirtuins in antioxidant 
+
+and redox signaling. Antioxid Redox Signal. 2018. https:// doi. org/ 10. 
+1089/ ars. 2017. 7290.
+
+  90.  Han D, Jiang L, Gu X, et al. SIRT3 deficiency is resistant to autophagy-
+dependent ferroptosis by inhibiting the AMPK/mTOR pathway and 
+promoting GPX4 levels. J Cell Physiol. 2020. https:// doi. org/ 10. 1002/ jcp. 
+29727.
+
+  91.  Zhang L, Liu W, Liu F, et al. IMCA Induces Ferroptosis Mediated by 
+
+SLC7A11 through the AMPK/mTOR Pathway in Colorectal Cancer. Oxid 
+Med Cell Longev. 2020. https:// doi. org/ 10. 1155/ 2020/ 16756 13.
+  92.  Widjaja AA, Viswanathan S, Wei TJ, et al. IL11 stimulates ERK/P90RSK 
+to inhibit LKB1/AMPK and activate mTOR initiating a mesenchymal 
+program in stromal, epithelial, and cancer cells. iScience. 2022. https:// 
+doi. org/ 10. 1016/j. isci. 2022. 104806.
+
+ Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 16 of 17
+
+  93.  Liu Y, Wang Y, Liu J, et al. Interplay between MTOR and GPX4 signaling 
+
+ 115.  Vassilev LT, Vu BT, Graves B, et al. In vivo activation of the p53 pathway 
+
+  94. 
+
+modulates autophagy-dependent ferroptotic cancer cell death. Cancer 
+Gene Ther. 2021. https:// doi. org/ 10. 1038/ s41417- 020- 0182-y.
+Inoki K, Kim J, Guan KL. AMPK and mTOR in cellular energy homeostasis 
+and drug targets. Annu Rev Pharmacol Toxicol. 2012. https:// doi. org/ 10. 
+1146/ annur ev- pharm tox- 010611- 134537.
+
+  95.  Porstmann T, Santos CR, Griffiths B, et al. SREBP activity is regulated by 
+
+mTORC1 and contributes to Akt-dependent cell growth. Cell Metab. 
+2008. https:// doi. org/ 10. 1016/j. cmet. 2008. 07. 007.
+
+  96.  Shimano H, Sato R. SREBP-regulated lipid metabolism: convergent 
+physiology - divergent pathophysiology. Nat Rev Endocrinol. 2017. 
+https:// doi. org/ 10. 1038/ nrendo. 2017. 91.
+
+  97.  Magtanong L, Ko PJ, To M, et al. Exogenous monounsaturated fatty 
+acids promote a ferroptosis-resistant cell state. Cell Chem Biol. 2019. 
+https:// doi. org/ 10. 1016/j. chemb iol. 2018. 11. 016.
+
+  98.  Cui L, Wang X, Zhao X, et al. The autophagy-related genes Beclin1 
+
+and LC3 in the prognosis of pancreatic cancer. Int J Clin Exp Pathol. 
+2019;12:2989–96.
+
+  99.  Liang XH, Jackson S, Seaman M, et al. Induction of autophagy and 
+
+inhibition of tumorigenesis by beclin 1. Nature. 1999. https:// doi. org/ 10. 
+1038/ 45257.
+
+ 100.  Song X, Zhu S, Chen P, et al. AMPK-Mediated BECN1 Phosphorylation 
+Promotes Ferroptosis by Directly Blocking System X(c)(-) Activity. Curr 
+Biol. 2018. https:// doi. org/ 10. 1016/j. cub. 2018. 05. 094.
+
+by small-molecule antagonists of MDM2. Science. 2004. https:// doi. org/ 
+10. 1126/ scien ce. 10924 72.
+
+ 116.  Tam CS, Stilgenbauer S. How best to manage patients with chronic 
+
+lymphocytic leuekmia with 17p deletion and/or TP53 mutation? Leuk 
+Lymphoma. 2015. https:// doi. org/ 10. 3109/ 10428 194. 2015. 10116 41.
+ 117.  Kang R, Kroemer G, Tang D. The tumor suppressor protein p53 and 
+
+the ferroptosis network. Free Radic Biol Med. 2019. https:// doi. org/ 10. 
+1016/j. freer adbio med. 2018. 05. 074.
+
+ 118.  Ma S, Henson ES, Chen Y, et al. Ferroptosis is induced following sirames-
+ine and lapatinib treatment of breast cancer cells. Cell Death Dis. 2016. 
+https:// doi. org/ 10. 1038/ cddis. 2016. 208.
+
+ 119.  Zhang T, Sun B, Zhong C, et al. Targeting histone deacetylase enhances 
+the therapeutic effect of Erastin-induced ferroptosis in EGFR-activating 
+mutant lung adenocarcinoma. Transl Lung Cancer Res. 2021. https:// 
+doi. org/ 10. 21037/ tlcr- 21- 303.
+
+ 120.  Chen P, Li X, Zhang R, et al. Combinative treatment of β-elemene and 
+
+cetuximab is sensitive to KRAS mutant colorectal cancer cells by induc-
+ing ferroptosis and inhibiting epithelial-mesenchymal transformation. 
+Theranostics. 2020. https:// doi. org/ 10. 7150/ thno. 44705.
+
+ 121.  Du J, Wang T, Li Y, et al. DHA inhibits proliferation and induces ferrop-
+tosis of leukemia cells through autophagy dependent degradation of 
+ferritin. Free Radic Biol Med. 2019. https:// doi. org/ 10. 1016/j. freer adbio 
+med. 2018. 12. 011.
+
+ 101.  Kim J, Kim YC, Fang C, et al. Differential regulation of distinct Vps34 
+
+ 122.  Klotz U, Maier K, Fischer C, et al. Therapeutic efficacy of sulfasalazine and 
+
+complexes by AMPK in nutrient stress and autophagy. Cell. 2013. 
+https:// doi. org/ 10. 1016/j. cell. 2012. 12. 016.
+
+ 102.  Jones RG, Plas DR, Kubek S, et al. AMP-activated protein kinase induces 
+a p53-dependent metabolic checkpoint. Mol Cell. 2005. https:// doi. org/ 
+10. 1016/j. molcel. 2005. 03. 027.
+
+ 103.  Deng L, Yao P, Li L, et al. p53-mediated control of aspartate-asparagine 
+
+homeostasis dictates LKB1 activity and modulates cell survival. Nat 
+Commun. 2020. https:// doi. org/ 10. 1038/ s41467- 020- 15573-6.
+
+ 104.  Sung JY, Woo CH, Kang YJ, et al. AMPK induces vascular smooth muscle 
+
+cell senescence via LKB1 dependent pathway. Biochem Biophys Res 
+Commun. 2011. https:// doi. org/ 10. 1016/j. bbrc. 2011. 08. 071.
+ 105.  Chu B, Kon N, Chen D, et al. ALOX12 is required for p53-mediated 
+
+tumour suppression through a distinct ferroptosis pathway. Nat Cell 
+Biol. 2019. https:// doi. org/ 10. 1038/ s41556- 019- 0305-6.
+
+ 106.  Chen D, Chu B, Yang X, et al. iPLA2β-mediated lipid detoxification con-
+trols p53-driven ferroptosis independent of GPX4. Nat Commun. 2021. 
+https:// doi. org/ 10. 1038/ s41467- 021- 23902-6.
+
+its metabolites in patients with ulcerative colitis and Crohn’s disease. N 
+Engl J Med. 1980. https:// doi. org/ 10. 1056/ NEJM1 98012 25303 2602.
+
+ 123.  Louandre C, Ezzoukhry Z, Godin C, et al. Iron-dependent cell death of 
+
+hepatocellular carcinoma cells exposed to sorafenib. Int J Cancer. 2013. 
+https:// doi. org/ 10. 1002/ ijc. 28159.
+
+ 124.  Zhang Y, Tan H, Daniels JD, et al. Imidazole Ketone Erastin Induces Fer-
+roptosis and Slows Tumor Growth in a Mouse Lymphoma Model. Cell 
+Chem Biol. 2019. https:// doi. org/ 10. 1016/j. chemb iol. 2019. 01. 008.
+ 125.  Gout PW, Buckley AR, Simms CR, et al. Sulfasalazine, a potent suppres-
+
+sor of lymphoma growth by inhibition of the x(c)- cystine transporter: a 
+new action for an old drug. Leukemia. 2001. https:// doi. org/ 10. 1038/ sj. 
+leu. 24022 38.
+
+ 126.  Shaw AT, Winslow MM, Magendantz M, et al. Selective killing of K-ras 
+
+mutant cancer cells by small molecule inducers of oxidative stress. Proc 
+Natl Acad Sci U S A. 2011. https:// doi. org/ 10. 1073/ pnas. 11059 41108.
+
+ 127.  Ou M, Jiang Y, Ji Y, et al. Role and mechanism of ferroptosis in neurological 
+diseases. Mol Metab. 2022. https:// doi. org/ 10. 1016/j. molmet. 2022. 101502.
+
+ 107.  Jiang L, Hickman JH, Wang SJ, et al. Dynamic roles of p53-mediated 
+
+ 128.  Yang WS, Kim KJ, Gaschler MM, et al. Peroxidation of polyunsaturated 
+
+metabolic activities in ROS-induced stress responses. Cell Cycle. 2015. 
+https:// doi. org/ 10. 1080/ 15384 101. 2015. 10684 79.
+
+fatty acids by lipoxygenases drives ferroptosis. Proc Natl Acad Sci U S A. 
+2016. https:// doi. org/ 10. 1073/ pnas. 16032 44113.
+
+ 108.  Wang Y, Yang L, Zhang X, et al. Epigenetic regulation of ferroptosis by 
+
+ 129.  Birsen R, Larrue C, Decroocq J, et al. APR-246 induces early cell death 
+
+H2B monoubiquitination and p53. EMBO Rep. 2019. https:// doi. org/ 10. 
+15252/ embr. 20184 7563.
+
+by ferroptosis in acute myeloid leukemia. Haematologica. 2022. https:// 
+doi. org/ 10. 3324/ haema tol. 2020. 259531.
+
+ 109.  Suzuki S, Tanaka T, Poyurovsky MV, et al. Phosphate-activated glutami-
+nase (GLS2), a p53-inducible regulator of glutamine metabolism and 
+reactive oxygen species. Proc Natl Acad Sci U S A. 2010. https:// doi. org/ 
+10. 1073/ pnas. 10024 59107.
+
+ 110.  Suzuki S, Venkatesh D, Kanda H, et al. GLS2 is a tumor suppressor and a 
+regulator of ferroptosis in hepatocellular carcinoma. Cancer Res. 2022. 
+https:// doi. org/ 10. 1158/ 0008- 5472. CAN- 21- 3914.
+
+ 130.  Wang L, Zhang Z, Li M, et al. P53-dependent induction of ferroptosis is 
+required for artemether to alleviate carbon tetrachloride-induced liver 
+fibrosis and hepatic stellate cell activation. IUBMB Life. 2019. https:// doi. 
+org/ 10. 1002/ iub. 1895.
+
+ 131.  Eling N, Reuter L, Hazin J, et al. Identification of artesunate as a specific 
+
+activator of ferroptosis in pancreatic cancer cells. Oncoscience. 2015. 
+https:// doi. org/ 10. 18632/ oncos cience. 160.
+
+ 111.  Hu W, Zhang C, Wu R, et al. Glutaminase 2, a novel p53 target gene 
+
+ 132.  Lemmon MA, Schlessinger J. Cell signaling by receptor tyrosine kinases. 
+
+regulating energy metabolism and antioxidant function. Proc Natl Acad 
+Sci U S A. 2010. https:// doi. org/ 10. 1073/ pnas. 10010 06107.
+ 112.  Ou Y, Wang SJ, Li D, et al. Activation of SAT1 engages polyamine 
+
+metabolism with p53-mediated ferroptotic responses. Proc Natl Acad 
+Sci U S A. 2016. https:// doi. org/ 10. 1073/ pnas. 16071 52113.
+
+ 113.  Zahedi K, Barone SL, Xu J, et al. Hepatocyte-specific ablation of sper-
+mine/spermidine-N1-acetyltransferase gene reduces the severity of 
+CCl4-induced acute liver injury. Am J Physiol Gastrointest Liver Physiol. 
+2012. https:// doi. org/ 10. 1152/ ajpgi. 00431. 2011.
+
+ 114.  Pottosin I, Velarde-Buendía AM, Bose J, et al. Cross-talk between reactive 
+
+oxygen species and polyamines in regulation of ion transport across 
+the plasma membrane: implications for plant adaptive responses. J Exp 
+Bot. 2014. https:// doi. org/ 10. 1093/ jxb/ ert423.
+
+Cell. 2010. https:// doi. org/ 10. 1016/j. cell. 2010. 06. 011.
+
+ 133.  Lin CW, Nocka LM, Stinger BL, et al. A two-component protein conden-
+sate of the EGFR cytoplasmic tail and Grb2 regulates Ras activation by 
+SOS at the membrane. Proc Natl Acad Sci U S A. 2022. https:// doi. org/ 
+10. 1073/ pnas. 21225 31119.
+
+ 134.  Boriack-Sjodin PA, Margarit SM, Bar-Sagi D, et al. The structural basis 
+
+of the activation of Ras by Sos. Nature. 1998. https:// doi. org/ 10. 1038/ 
+28548.
+
+ 135.  Widmann C, Gibson S, Jarpe MB, et al. Mitogen-activated protein kinase: 
+
+conservation of a three-kinase module from yeast to human. Physiol 
+Rev. 1999. https:// doi. org/ 10. 1152/ physr ev. 1999. 79.1. 143.
+
+ 136.  Tsuchihashi K, Okazaki S, Ohmura M, et al. The EGF Receptor Promotes 
+the Malignant Potential of Glioma by Regulating Amino Acid Transport 
+System xc(-). Cancer Res. 2016. https:// doi. org/ 10. 1158/ 0008- 5472. 
+CAN- 15- 2121.
+
+Wang et al. Cell Communication and Signaling          (2023) 21:200 
+
+Page 17 of 17
+
+ 137.  Wood ER, Truesdale AT, McDonald OB, et al. A unique structure for 
+
+epidermal growth factor receptor bound to GW572016 (Lapatinib): 
+relationships among protein conformation, inhibitor off-rate, and 
+receptor activity in tumor cells. Cancer Res. 2004. https:// doi. org/ 10. 
+1158/ 0008- 5472. CAN- 04- 1168.
+
+ 138.  Chen GQ, Benthani FA, Wu J, et al. Artemisinin compounds sensitize 
+cancer cells to ferroptosis by regulating iron homeostasis. Cell Death 
+Differ. 2020. https:// doi. org/ 10. 1038/ s41418- 019- 0352-3.
+
+ 139.  Lachaier E, Louandre C, Godin C, et al. Sorafenib induces ferroptosis 
+
+in human cancer cell lines originating from different solid tumors. 
+Anticancer Res. 2014;34:6417–22.
+
+ 140.  Shimada T, Yabuki Y, Noguchi T, et al. The Distinct Roles of LKB1 and 
+
+AMPK in p53-Dependent Apoptosis Induced by Cisplatin. Int J Mol Sci. 
+2022. https:// doi. org/ 10. 3390/ ijms2 31710 064.
+
+ 141.  Li C, Dong X, Du W, et al. LKB1-AMPK axis negatively regulates ferropto-
+sis by inhibiting fatty acid synthesis. Signal Transduct Target Ther. 2020. 
+https:// doi. org/ 10. 1038/ s41392- 020- 00297-2.
+
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in pub-
+lished maps and institutional affiliations.
+
+ • fast, convenient online submission •  thorough peer review by experienced researchers in your ﬁeld•  rapid publication on acceptance•  support for research data, including large and complex data types•  gold Open Access which fosters wider collaboration and increased citations  maximum visibility for your research: over 100M website views per year •  At BMC, research is always in progress.Learn more biomedcentral.com/submissionsReady to submit your researchReady to submit your research  ?  Choose BMC and benefit from: ?  Choose BMC and benefit from: 

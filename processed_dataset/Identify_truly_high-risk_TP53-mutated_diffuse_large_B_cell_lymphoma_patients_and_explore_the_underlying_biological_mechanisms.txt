@@ -1,0 +1,1402 @@
+Du et al. Cell Communication and Signaling          (2024) 22:401 
+https://doi.org/10.1186/s12964-024-01765-w
+
+Cell Communication 
+and Signaling
+
+Identify truly high-risk TP53-mutated diffuse 
+large B cell lymphoma patients and explore 
+the underlying biological mechanisms
+
+Kai-Xin Du1,2,3†, Yi-Fan Wu1,2,3†, Wei Hua1,2,3, Zi-Wen Duan1,2,3, Rui Gao4,5, Jun-Heng Liang6, Yue Li1,2,3, Hua Yin1,2,3, 
+Jia-Zhu Wu1,2,3, Hao-Rui Shen1,2,3, Li Wang1,2,3, Yang Shao6, Jian-Yong Li1,2,3, Jin-Hua Liang1,2,3* and Wei Xu1,2,3*
+
+Abstract
+TP53 mutation (TP53-mut) correlates with inferior survival in many cancers, whereas its prognostic role in diffuse 
+large B-cell lymphoma (DLBCL) is still in controversy. Therefore, more precise risk stratification needs to be further 
+explored for TP53-mut DLBCL patients. A set of 2637 DLBCL cases from multiple cohorts, was enrolled in our 
+analysis. Among the 2637 DLBCL patients, 14.0% patients (370/2637) had TP53-mut. Since missense mutations 
+account for the vast majority of TP53-mut DLBCL patients, and most non-missense mutations affect the function 
+of the P53 protein, leading to worse survival rates, we distinguished patients with missense mutations. A TP53 
+missense mutation risk model was constructed based on a 150-combination machine learning computational 
+framework, demonstrating excellent performance in predicting prognosis. Further analysis revealed that patients 
+with high-risk missense mutations are significantly associated with early progression and exhibit dysregulation of 
+multiple immune and metabolic pathways at the transcriptional level. Additionally, the high-risk group showed 
+an absolutely suppressed immune microenvironment. To stratify the entire cohort of TP53-mut DLBCL, we 
+combined clinical characteristics and ultimately constructed the TP53 Prognostic Index (TP53PI) model. In summary, 
+we identified the truly high-risk TP53-mut DLBCL patients and explained this difference at the mutation and 
+transcriptional levels.
+
+Keywords  Diffuse large B cell lymphoma, TP53, Missense mutation, Prognostic index, Biological mechanism
+
+†Kai-Xin Du and Yi-Fan Wu contributed equally to this work.
+
+*Correspondence:
+Jin-Hua Liang
+liangjinhua1990@126.com
+Wei Xu
+xuwei10000@hotmail.com
+1Department of Hematology, The First Affiliated Hospital of Nanjing 
+Medical University, Jiangsu Province Hospital, Nanjing 210029, China
+
+2Key Laboratory of Hematology, Nanjing Medical University,  
+Nanjing 210029, China
+3Collaborative Innovation Center for Cancer Personalized Medicine, 
+Nanjing 210029, China
+4Department of Endocrinology, The First Affiliated Hospital of Nanjing 
+Medical University, Jiangsu Province Hospital, Nanjing 210029, China
+5Oxford Centre for Diabetes, Endocrinology and Metabolism, University of 
+Oxford, Churchill Hospital, Oxford OX3 7LE, UK
+6Nanjing Geneseeq Technology Inc, Nanjing, Jiangsu, China
+
+©  The  Author(s)  2024.  Open  Access    This  article  is  licensed  under  a  Creative  Commons  Attribution-NonCommercial-NoDerivatives  4.0 
+International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you 
+give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the 
+licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it.The images or 
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation 
+or exceeds the permitted use, you will need to obtain permission directly from the copyright holder.To view a copy of this licence, visit http://
+creativecommons.org/licenses/by-nc-nd/4.0/.
+
+RESEARCHOpen AccessPage 2 of 16
+
+Introduction
+Diffuse large B-cell lymphoma (DLBCL) is the most com-
+mon  lymphoid  malignancy  and  characterized  by  pro-
+nounced genetic and clinical heterogeneity [1]. According 
+to  the  cell-of-origin  (COO)  classification  based  on  gene 
+expression  profiling,  this  disease  can  be  classified  into 
+activated  B-cell-like  (ABC),  germinal  center  B-cell-like 
+(GCB),  and  unclassified  (UNC)  subtypes  [2].  However, 
+the COO classification has not been satisfied for clinical 
+prognosis  and  targeted  therapy  in  clinically  [3–7].  With 
+the  development  of  next-generation  gene  sequencing 
+(NGS)  technology,  Staudt  et  al.  had  developed  Lymph-
+Gen  genetic  subtype  classifier  for  DLBCL  [8].  DLBCL 
+can  be  divided  into  seven  gene-subtypes  with  different 
+prognosis  and  corresponding  potential  targeted  therapy 
+drugs.
+
+TP53  mutations  correlate  with  inferior  survivals  in 
+many  cancers  including  lymphomas  [9–14].  TP53  is  the 
+most frequently mutated gene in DLBCL enriched in A53 
+subtype and also could be found in other gene subtypes 
+[8,  15].  However,  A53  subtype  which  has  fatal  prognos-
+tic  cannot  be  identified  using  NGS  technology  which 
+was  used  mostly  in  clinical  practice.  Therefore,  detailed 
+prognosis  should  be  determined  for  TP53  mutations  in 
+DLBCL  in  order  to  provide  a  more  accurate  prognosis. 
+Hong  Y  et  al.  found  that  TP53  mutations  correlate  with 
+inferior  overall  survival  (OS)  and  progression-free  sur-
+vival (PFS) in DLBCL patients [11]. Despite the fact that 
+they showed a statistically significant difference between 
+the  two  groups,  it  can  be  seen  that  the  two  curves  are 
+substantially  close  to  one  another.  It  has  also  been  our 
+experience  in  clinical  practice  that  not  all  patients  with 
+TP53  mutations  have  a  poor  prognosis.  All  these  phe-
+nomenon leads us to speculate that whether more precise 
+risk  stratification  for  TP53  mutant  (TP53-mut)  DLBCL 
+patients  can  be  investigated  using  clinical  and  genetic 
+characteristics.  In  the  present  study,  we  aim  to  develop 
+the prognostic index (PI) to identify truly high-risk TP53-
+mut DLBCL patients and elucidate the potential underly-
+ing mechanisms of different prognosis.
+
+Methods and materials
+Study group
+Public database resources
+
+The  available  clinical 
+information  and  correspond-
+ing  mutation  data  of  B  cell  lymphoma  patients  were 
+retrieved  and  obtained  from  published  articles.  Non-
+DLBCL patients were excluded. Ultimately, 2637 DLBCL 
+patients in six cohorts were enrolled in the final analysis, 
+including Lacy S et al. cohort [15, 16] (N = 839), Reddy A 
+et  al.  cohort  [17]  (N = 1001),  Dubois  S  et  al.  cohort  [18] 
+(N = 361),  Pedrosa  L  et  al.  cohort  19  (N = 84),  Chapuy  B 
+et al. cohort [1] (N = 304) and The Cancer Genome Atlas 
+(TCGA,  https://portal.gdc.cancer.gov/)  cohort  (N = 48) 
+
+(Fig. 1). Cancer cell lines containing 21 DLBCL cell lines 
+mutation  and  RNA  sequencing  (RNA-seq)  data  (Cancer 
+Cell  Line  Encyclopedia,  CCLE)  were  downloaded  from 
+the Broad Institute DepMap Portal (https://depmap.org/
+portal/).
+
+JSPH cohort
+
+Our  study  cohort  consists  of  108  patients  with  DLBCL 
+according  to  the  World  Health  Organization  classifica-
+tion criteria between 2022 and 2023 in the First Affiliated 
+Hospital  of  Nanjing  Medical  University  (Jiangsu  Prov-
+ince  Hospital,  JSPH).  Among  the  108  DLBCL  patients, 
+all tumor tissue samples were collected to perform NGS, 
+while  a  total  of  103  DLBCL  samples  were  analyzed  the 
+gene expression levels using RNA-seq.
+
+(https://TP53.isbcgc.org/,  originally 
+
+To  obtain  additional  information  regarding  the  muta-
+tions  and  functions  of  TP53,  we  retrieved  the  TP53 
+database 
+IARC 
+database)  for  mutation  site  information.  For  the  analy-
+sis,  we  selected  13  mutation-related  factors,  including 
+exon, multi-locus mutation, with copy number variation 
+(CNV),  splice  site  mutation,  Cytosine-phosphate-Gua-
+nine (CpG) site mutation, nucleotide change, transition/
+transversion,  hotspot  mutation,  structural  motif,  trans-
+activation  class,  dominant-negative  effect  (DNE)_  loss-
+of-function  (LOF)  class,  structure  function  class,  and 
+variant  allele  frequency  (VAF).  Pay  particular  attention 
+to the following detail, which the hotspot mutations are 
+pan-cancer hotspot mutations identified by Chang et al. 
+[20], and are not DLBCL-specific hotspot mutations.
+
+Patient characteristics
+
+In  enrolled  patients  from  the  6  public  databases,  it  was 
+possible  to  retrieve  all  or  part  of  the  clinical  data.  The 
+clinical characteristics, including age, gender, Ann Arbor 
+stage,  Eastern  Cooperative  Oncology  Group  (ECOG), 
+No.  of  extranodal  involvement,  serum  lactate  dehydro-
+genase (LDH) level, International Prognostic Index (IPI), 
+cell  of  origin  (COO)  subtype,  LymphGen  genetic  sub-
+type, treatment response and PFS or OS.
+
+Construction of model by integrative machine learning 
+approaches
+
+The  whole  dataset  was  randomly  divided  into  a  train-
+ing  set  and  a  testing  set  in  a  4:1  ratio,  ensuring  a  bal-
+anced  distribution  of  clinical  characteristics  between 
+the  two  groups.  A  total  of  ten  machine  learning  algo-
+rithms  were  employed,  including  Lasso,  Ridge,  stepwise 
+Cox, CoxBoost, random survival forest (RSF), elastic net 
+(Enet), partial least squares regression for Cox (plsRcox), 
+supervised  principal  components  (SuperPC),  general-
+ized  boosted  regression  modeling  (GBM),  and  survival 
+support vector machine (survival-SVM). On the basis of 
+a  tenfold  cross-validation  framework,  we  arranged  150 
+
+Du et al. Cell Communication and Signaling          (2024) 22:401 Page 3 of 16
+
+Fig. 1  Flow chart of data analysis. TCGA, The Cancer Genome Atlas; DLBCL, diffuse large B-cell lymphoma; OS, overall survival; PFS, progression free sur-
+vival; TP53-mut, mutated TP53; TP53PI, TP53 prognostic index; GSEA, Gene Set Enrichment Analysis; GEP, Gene Expression Profile; TP53-wt, wild-type TP53
+
+combinations of these 10 algorithms in the training data-
+set for the purpose of variable selection and the construc-
+tion of models. For each model, we calculated its C index 
+both the training and the testing sets. We then ranked the 
+models according to their predictive performance based 
+on  the  mean  C  index.  We  selected  a  combination  of 
+algorithms  with  both  robust  performance  and  clinically 
+translational significance. We assessed the models preci-
+sion discrimination and accuracy using receiver operator 
+characteristic curve (ROC) curves, the C index, and cali-
+bration curves.
+
+Mutation analysis
+
+Mutation  analysis  was  performed  with  genomic  DNA 
+extracted  from  tumor  tissue  samples  in  all  DLBCL 
+patients  of  JSPH  cohort  using  clinically  validated  NGS 
+mutation panels.
+
+Library construction
+
+Libraries  were  constructed  by  using  the  KAPA  Hyper 
+DNA  Library  Prep  Kit  (KAPA  Biosystem,  KK8504)  and 
+dual-indexed  sequencing  libraries  were  generated  and 
+
+cleaned  by  polymerase  chain  reaction  (PCR)  amplifi-
+cations  with  KAPA  HiFi  Hot  start-ready  Mix  (KAPA, 
+KK2602) and purification Beads (Corning, AxyPrep Frag-
+ment Select-I kit, 14223162), respectively.
+
+NGS
+
+As the capture probes, our panels covered 475 leukemia- 
+and  lymphoma-related  genes  (Table  S1).  1  µg  of  each 
+fragment  was  mixed  with  5  µg  of  salmon  sperm  DNA, 
+5  µg  of  human  Cot-1  DNA  and  1  unit  adaptor-specific 
+blocker  DNA  in  hybridization  buffer  and  heated  for 
+10 min at 95℃ and held for 5 min at 65℃ in the thermo-
+cycler. Following adding capture probes, the mixture was 
+rest for 5 min and then heated to 65℃ for 16–18 h. The 
+captured targets were separated by pulling down the bio-
+tinylated  probe/target  hybrids  using  streptavidin-coated 
+magnetic  beads,  and  the  off-target  library  was  removed 
+by a washing buffer after hybridization. We amplified the 
+captured  library  from  the  washed  beads  for  6‒8  cycles, 
+purified  the  products  by  AMPure  XP  beads  and  sized 
+them  on  bioanalyzer  2100  (Agilent,  Agilent  HS  DNA 
+Reagent,  5067–4627).  The  concentration  and  quality  of 
+
+Du et al. Cell Communication and Signaling          (2024) 22:401  
+Page 4 of 16
+
+target enriched sequencing libraries were tested by Qubit 
+(Invitrogen). Finally, the libraries were loaded on Illumina 
+HiSeq 4000 according to the manufacturer’s instrument.
+‘G3viz’  is  an  R  package  to  visualize  location  and  fre-
+quency of mutations in TP53 [21]. The R package ‘Com-
+plexHeatmap’ was used to analyze the mutated genes in 
+TP53-mut DLBCL [22].
+
+RNA sequencing
+Library construction
+
+Total  RNA  was  isolated  using  TRIzol  RNA  Isolation 
+method  (Invitrogen).  Ribosomal  RNA  was  eliminated 
+by  RNase  H  and  the  sequencing  library  was  prepared 
+by KAPA Stranded RNA-seq Kit with RiboErase (HMR) 
+(KAPA  Biosystems).  Library  was  sequenced  by  Illumina 
+HiSeq NGS platforms (Illumina), following concentration 
+measurements and regular quality assessments.
+
+Gene expression analysis
+
+To generate sequence reads, base calling was performed 
+with  bcl2fastq  v2.19.0.316  (Illumina)  following  quality 
+control  (QC)  analysis  of  sequence  reads  to  determine 
+if  the  sequencing  data  is  suitable  for  subsequent  analy-
+sis  [23].  R  packages  ‘DESeq2’  and  ‘limma’  were  used  to 
+analyze  differential  expression  in  patients  and  cell  lines, 
+respectively [24, 25]. We selected differentially expressed 
+genes  (DEGs)  with  P-values  0.05  and  fold-changes > 1.0 
+as  significant  and  used  them  in  our  analysis.  Gene  Set 
+Enrichment  Analysis  (GSEA)  was  performed  to  deci-
+pher  the  meaningful  signaling  pathways  and  biologi-
+cal  processes  in  the  enrichment  analysis  of  differentially 
+expressed  genes  [26].  Gene  Ontology  (GO)  and  Kyoto 
+Encyclopedia  of  Genes  and  Genomes  (KEGG)  annota-
+tion  was  performed  with  the  R  package  ‘clusterProfiler’ 
+to  further  elucidate  the  biological  role  of  DEGs  [27]. 
+The  ‘oncoPredict’  R  package  was  used  to  predict  the 
+half-maximal  inhibitory  concentration  (IC50)  values  in 
+patients in the different risk groups [28].
+
+Determination of immune cell infiltration
+
+To estimate the scores for immune cell types in the tumor 
+microenvironment,  single-sample  gene  set  enrichment 
+analysis  (ssGSEA)  was  used.  Based  on  gene  expression 
+levels  in  a  single  sample,  enrichment  scores  are  calcu-
+lated,  and  these  scores  are  then  normalized  [29].  Then, 
+enrichment score of inflammatory cytokines and immune 
+checkpoints  (ICPs)  was  calculated  using  ssGSEA.  Table 
+S2 summarizes the genesets applied.
+
+Statistical analysis
+
+All  statistical  analyses  were  performed  with  SPSS  sta-
+tistics version 20.0, GraphPad Prism version 7.0 statisti-
+cal  software  and  R  software  (Version  4.1.3).  Unpaired 
+Students’  t-tests  were  used  for  comparing  normally 
+
+distributed  variables.  The  correlation  analysis  was  actu-
+alized by Spearman’s correlation test. The Kaplan–Meier 
+method  and  Log-Rank  or  Breslow  tests  were  used  for 
+survival  analysis.  Cox  proportional  hazards  regression 
+models  were  used  for  univariate  and  multivariable  anal-
+ysis.  The  forest  plot  was  utilized  to  visualize  the  results 
+of  univariate  and  multivariate  Cox  regression  analyses. 
+P < 0.05  was  considered  statistically  significant.  Graphs 
+were  made  with  GraphPad  Prism  7,  the  “ggplot2”  and 
+“ComplexHeatmap” R package.
+
+Results
+Mutation profile and prognostic impacts of TP53 mutations 
+in DLBCL
+
+Among  the  2637  DLBCL  patients  from  the  integrated 
+cohort,  2267  patients  (86.0%)  were  TP53  wild-type 
+(TP53-wt)  while  TP53  mutations  were  found  in  370 
+patients  with  a  14.0%  mutation  rate,  including  305  with 
+missense  mutations,  32  with  nonsense  mutations,  26 
+with  multiple  mutations,  25  with  frameshift  mutations, 
+16  with  splicing  site  mutations,  5  with  intronic  muta-
+tions, 3 with in frame mutations, 3 with loss of stop and 
+1  with  start  lost  (Fig.  2A).  The  distribution  of  mutation 
+events  detected  in  the  370  patients  were  mainly  located 
+in  the  DNA  binding  domain  (DBD)  (N = 333,  90.0%), 
+containing  34  at  Arg248,  20  at  Gly245,  20  at  Arg273, 
+18  at  Arg175,  12  at  Arg282,  corresponding  to  the  TP53 
+hotspots  in  non-Hodgkin  lymphoma  described  in  pre-
+vious  studies  [11,  30]  (Fig.  2B).  In  the  structural  motif 
+corresponding  to  the  domain  functional  region,  36%  of 
+mutations  have  been  located  in  the  L2/L3,  35%  in  the 
+NDBL/beta-sheets,  and  21%  in  the  L1/S/H2  (Fig.  2C). 
+In the integrated cohort, TP53 mutations were detected 
+scattered throughout exon 2 to exon 11, with 35% in exon 
+7, 21% in exon 5,19% in exon 8, 15% in exon 6, 5% in exon 
+4 and 5% in other exons (Fig. 2E). TP53 mutations were 
+predominated by C > T (N = 125, 35%) and G > A (N = 66, 
+18%) transitions, and the overall transition rate was 70% 
+with the transition/transversion ratio of 2.3 (Fig. 2F).
+
+M.  Staudt  and  colleagues  identified  seven  genetic 
+subgroups  and  developed  the  LymphGen  algorithm, 
+which  allows  a  precise  genetic  classification  for  DLBCL 
+patients8.  We  acquired  the  LymphGen  genetic  subtype 
+information from the supplement data of published arti-
+cles, including Lacy S et al. cohort [15], Pedrosa L et al. 
+cohort [19] and Chapuy B et al. cohort [1]. Furthermore, 
+we  used  the  LymphGen  algorithm  web  tool  (https://
+llmpp.nih.gov/lymphgen/index.php)  to  distinguish  the 
+genetic  subtypes  for  Reddy  A  cohort  and  TCGA  cohort 
+patients.  In  this  part  of  the  analysis,  Dubois  S  cohort 
+was removed because of limited genes in the NGS panel. 
+Most of the TP53-mut DLBCL patients in the integrated 
+cohort can be classified into other subtype (58%) due to 
+
+Du et al. Cell Communication and Signaling          (2024) 22:401 Page 5 of 16
+
+Fig. 2  TP53 mutations and prognostic impact in DLBCL. (A) The proportion of TP53 mutation types in TP53-mut DLBCL patients. (B) Lollipop plot il-
+lustrating specific localization of TP53 variants. (C) Donut graph demonstrating proportion of TP53 mutation according to Structural motif. (D) Donut 
+graph demonstrating proportion of TP53 mutation according to LymphGen subtype (N1, ST2, BN2, MCD, EZB and Other). (E) Donut graph demonstrat-
+ing proportion of TP53 mutation according to different exons. (F) Donut graph demonstrating proportion of TP53 mutation according to different base 
+substitution. (G) PFS analysis based on TP53 mutational status in DLBCL patients. (H) OS analysis based on TP53 mutational status in DLBCL patients. PFS, 
+progression free survival; OS, overall survival; TP53-wt, wild-type TP53; TP53-mut, mutated TP53; Diff, difference; DLBCL, diffuse large B-cell lymphoma
+
+Du et al. Cell Communication and Signaling          (2024) 22:401  
+Table 1  Clinical characteristics of 2637 cases of DLBCL according 
+to the TP53 mutational status
+Total
+Characteristics
+
+P-value
+
+TP53-wt
+(N = 2267)
+
+TP53-mut
+(N = 370)
+
+0.196
+
+0.039
+
+0.717
+
+0.599
+
+0.026
+
+0.712
+
+0.098
+
+0.243
+
+0.088
+
+< 0.001
+
+Gender
+Female
+Male
+Unknown
+Age
+≤ 60y
+> 60y
+Unknown
+Stage
+I/II
+III/IV
+Unknown
+No. of extranodal sites
+Fewer than 2
+At least 2
+Unknown
+Serum LDH level
+Normal
+Elevated
+Unknown
+ECOG
+0 ~ 1
+2 ~ 4
+Unknown
+Subtype
+GCB
+ABC
+UNC
+Unknown
+IPI risk group
+Low
+Intermediate
+High
+Unknown
+aaIPI risk group
+Low
+Low-Intermediate
+High-Intermediate
+High
+Unknown
+LymphGen subtype
+Other
+BN2
+EZB
+MCD
+N1
+ST2
+
+816
+971
+850
+
+919
+1652
+66
+
+684
+1032
+921
+
+938
+279
+1420
+
+699
+911
+1027
+
+1270
+374
+993
+
+781
+702
+265
+889
+
+514
+1130
+452
+541
+
+151
+171
+175
+88
+334
+
+1387
+172
+373
+172
+25
+147
+
+735
+856
+676
+
+806
+1400
+61
+
+609
+913
+745
+
+844
+248
+1175
+
+630
+788
+849
+
+1126
+329
+812
+
+654
+605
+237
+771
+
+453
+969
+382
+463
+
+142
+148
+150
+77
+289
+
+1207
+149
+309
+159
+14
+126
+
+81
+115
+174
+
+113
+252
+5
+
+75
+119
+176
+
+94
+31
+245
+
+69
+123
+178
+
+144
+45
+181
+
+127
+97
+28
+118
+
+61
+161
+70
+78
+
+9
+23
+25
+11
+45
+
+180
+23
+64
+13
+11
+21
+
+Page 6 of 16
+
+missing the data of copy-number, followed by EZB (20%), 
+MCD (4%), BN2 (7%), ST2 (7%) and N1(4%) (Fig. 2D).
+
+The  clinical  parameters  between  the  TP53-mut  and 
+TP53-wt groups in the integrated cohort are summarized 
+in  Table  1.  Of  note,  there  is  a  significantly  higher  fre-
+quency  of  elevated  LDH  levels  (P = 0.026)  and  older  age 
+(P = 0.039) in TP53-mut patients. Compared with TP53-
+wt patients, the TP53-mut patients were associated with 
+significantly worse survivals of 2-year, 5-year and 10-year 
+PFS  (61.5%  vs.  70.2%,  48.2%  vs.  60.4%,  33.7%  vs.  45.8%, 
+P = 0.0001, Fig. 2G), which were similar to data in previ-
+ous  research  [30].  In  terms  of  OS,  a  significant  P  value 
+was generated (P < 0.0001, Fig. 2H).
+
+However,  after  reviewing  clinical  course  of  patients 
+with  TP53  mutation  in  our  center’s  cohort,  we  found 
+that actually not all the TP53-mut patients acquired poor 
+clinical outcomes. The different outcomes of such typical 
+TP53-mut  patients  have  caught  our  attention.  Further-
+more,  the  differences  of  2-year,  5-year  and  10-year  PFS 
+and  OS  between  TP53-mut  and  TP53-wt  patients  were 
+all less than 15% (Fig. 2G and H). Therefore, more precise 
+stratification is worth investigating for TP53-mut DLBCL 
+patients.
+
+Identify genetic risk factors for TP53-mut DLBCL patients
+
+The  above  findings  prompted  us  to  further  consider  if 
+we  could  construct  a  model  to  identify  the  truly  high-
+risk  TP53-mut  DLBCL  patients.  First,  we  retrieved  the 
+TP53 database (https://TP53.isbcgc.org/ originally IARC 
+database)  for  TP53  mutation  site  information  of  the  six 
+cohorts  in  order  to  obtain  additional  information  about 
+TP53  mutations  and  functions.  Based  on  all  the  infor-
+mation  contained  in  the  TP53  database,  we  conducted 
+survival  analysis,  and  Fig.  3  summarizes  some  impor-
+tant  results.  Compared  with  patients  with  missense 
+mutations,  patients  with  non-missense  mutations  have 
+a  significantly  poorer  survival  (P = 0.0473,  Fig.  3A),  and 
+patients  with  multi-site  mutations  also  have  a  signifi-
+cantly  poorer  survival  (P = 0.0368,  Fig.  3D).  While  most 
+mutations affecting P53 protein function result in loss of 
+function, there are still 6.1% of notDNE_notLOF patients 
+who  have  no  effect  on  P53  protein  function  and  have  a 
+good  prognosis  (P = 0.0363,  Fig.  3B).  In  terms  of  struc-
+ture function, the result is similar, with a statistical trend 
+(P = 0.0855,  Fig.  3C).  Additionally,  mutations  at  splic-
+ing sites (P = 0.1172, Fig. 3F) and non-hotspot mutations 
+(P = 0.1175, Fig. 3G) had a poor prognosis, with a statis-
+tical  trend.  Using  X-tile  for  the  optimal  cutoff,  variants 
+with  VAF > 36%  were  considered  high  burden,  and  high 
+VAF  was  associated  with  worse  prognosis  (P < 0.0001, 
+Fig.  3H).  The  prognosis  of  these  missense  mutation 
+patients  is  not  differentiated  according  to  whether  the 
+mutation  occurs  within  the  DNA-binding  loops  or  not 
+(Fig. 3E).
+
+Du et al. Cell Communication and Signaling          (2024) 22:401 Page 7 of 16
+
+Fig. 3  The Kaplan-Meier curves of mutation-related characteristics for TP53-mut patients. (A) Mutation types (P = 0.0473). (B) DNE_LOF class (P = 0.0363). 
+(C) Structure function class (P = 0.0855). (D) Multi-local mutations (P = 0.0368). (E) Missense mutation in DNA-binding loops (P = 0.6536). (F) Splice site 
+(P = 0.1172).  (G)  Hotspot  mutation  (P = 0.1175).  (H) Variants > 36% VAF  are  considered  high  burden  by  using  X-tile  to  select  the  optimal  cutoff  value 
+(P < 0.0001). OS, overall survival; DNE, dominant negative effective; LOF, loss-of-function; VAF, variant allele frequency
+
+Du et al. Cell Communication and Signaling          (2024) 22:401  
+Page 8 of 16
+
+Since  missense  mutations  account  for  the  vast  major-
+ity  of  TP53-mut  DLBCL  patients  (Fig.  2A  and  B)  and 
+most  of  non-misense  mutations  can  affect  the  function 
+of P53 protein which ultimately leads to worse survivals 
+(Fig. 3A). Therefore, we attempted to further stratify mis-
+sense mutation patients.
+
+Construction of a prognosis signature for TP53 missense 
+mutation DLBCL patients based on integrative machine 
+learning
+
+The dataset was divided into a training set and an inter-
+nal testing set at a 4:1 ratio. In the training set, we fitted 
+150  prediction  models  with  a  tenfold  cross-validation 
+framework and computed the C index across all training 
+and testing sets, the top 50 out of 150 kinds of prediction 
+models  as  illustrated  in  Fig.  4A.  The  calibration  curves 
+showed  good  agreement  between  the  top  3  prediction 
+models  predictions  and  actual  observations  (Figure  S1A 
+and  S1B).  Next,  we  followed  two  models  -  the  RSF  and 
+the  Ridge + RSF,  both  of  which  demonstrated  good  pre-
+dictive  abilities  in  both  training  and  testing  corhort. 
+However,  Ridge + RSF  is  more  concise,  yet  equally  effec-
+tive predictive model than RSF, which incorporates more 
+
+factors. As a result of comprehensive screening, we iden-
+tified Ridge + RSF as a predictive model.
+
+Through  a  tenfold  cross-validation  framework,  we 
+determined  that  0.285266  was  the  optimal  λ  value  in 
+the  Ridge  analysis  by  minimizing  the  partial  likelihood 
+deviation  (Fig.  4B  and  C).  Figure  4D  shows  the  impor-
+tance  ranking  of  each  variable.  Further,  we  performed 
+COX  multivariate  regression  analysis  on  these  impor-
+tant  variables  and  selected  4  independent  prognostic 
+variables  to  establish  the  TP53  missense  mutation  risk 
+model  (Fig.  4E).  The  coefficients  for  each  variable  are 
+shown  in  Fig.  4F.  The  C  index  demonstrates  the  stable 
+and robust predictive ability of the TP53 missense muta-
+tion risk model in both training and testing corhort (Fig-
+ure S1C and S1D). The AUC of the model achieved 0.676 
+and  0.663  in  training  and  testing  corhort,  respectively, 
+indicating  its  predictive  accuracy  (Figure  S1E  and  S1F). 
+In  order  to  divide  patients  with  TP53  missense  muta-
+tions  into  low-risk  and  high-risk  groups,  we  selected 
+a  risk  score  of  -0.34484,  which  is  close  to  50%,  as  the 
+cutoff  value  for  dividing  patients  with  TP53  missense 
+mutations.  Details  were  shown  in  Fig.  4G.  In  the  whole 
+cohort and testing cohort, patients in the high-risk group 
+
+Fig. 4  A TP53 missense mutation risk model is developed and validated via the machine learning and COX multivariate regression analysis-based integra-
+tive procedure. (A) Heatmap shows the top 50 out of 150 kinds of prediction models along with their C-indexes across all training and testing datasets. 
+(B,C) Visualization of Ridge regression in the training cohort. The optimal λ was obtained when the partial likelihood deviance reached the minimum 
+value. (D) The RSF algorithm is then used to screen key factors and visualize the VIMP. (E) Four statistically significant factors are ultimately screened out 
+using COX multivariate regression analysis. (F,G) Regression coefficients of 4 key factors obtained in COX multivariate regression to construct the TP53 
+missense mutation risk model. (H, I) Kaplan–Meier curves of OS according to the TP53 missense mutation risk model in the whole cohort (P < 0.0001) and 
+testing cohort (P = 0.0019). * P < 0.05, ** P < 0.01, and *** P < 0.001. RSF, random survival forest; GBM, gradient boosting machine; DNE, dominant negative 
+effective; LOF, loss-of-function; TP53-mut, mutated TP53; CNV, copy number variant; VAF, variant allele frequency; VIMP, variable importance; HR, Hazard 
+Ratio; 95%CI, 95% Confidence Interval; OS, overall survival
+
+Du et al. Cell Communication and Signaling          (2024) 22:401  
+Page 9 of 16
+
+exhibited  significantly  worse  OS  than  those  in  the  low-
+risk group (Fig. 4H and I).
+
+Differences in clinical characteristics between the two risk 
+groups of TP53 missense mutation
+
+The  clinical  and  mutation  features  were  evaluated 
+between  the  two  risk  groups  of  TP53  missense  muta-
+tion  in  the  whole  cohort.  We  found  that  the  splice  site 
+
+mutation,  transactivation  class,  DNE_LOF  class  and 
+VAF  were  significantly  correlated  with  the  risk  groups, 
+but  other  clinical  characteristics  except  POD12  did  not 
+show  significant  differences  (Fig.  5A  and  S2).  And  we 
+observed  significant  difference  in  the  distribution  of 
+POD12 between the high- and low-risk groups (P = 0.009, 
+Fig.  5B).  These  findings  suggested  that  high-risk  TP53 
+
+Fig. 5  Clinical characteristics and prognosis of DLBCL patients with TP53 missense mutations who are divided into high-risk and low-risk groups based 
+on the TP53 missense mutation risk model. (A) Heatmap showing the comparison of the clinical and mutation characteristics of patients with DLBCL in 
+TP53 missense mutation high risk and low risk. (B) The proportion of POD12 in TP53 missense mutation risk subgroups. (C-G) Kaplan–Meier curves show-
+ing stable performance of the TP53 missense mutation risk model in the subgroups of DLBCL patients, including age and IPI stratification. * P < 0.05, ** 
+P < 0.01, and *** P < 0.001. DNE, dominant negative effective; LOF, loss-of-function; VAF, variant allele frequency; IPI, International Prognostic Index; POD12, 
+progression of disease within 12 months; OS, overall survival
+
+Du et al. Cell Communication and Signaling          (2024) 22:401  
+Page 10 of 16
+
+missense  mutation  patients  are  associated  with  early 
+progression.
+
+By  performing  Kaplan-Meier  curve  analysis,  we  also 
+found  that  the  risk  model  demonstrated  a  robust  prog-
+nostic  ability  for  TP53  missense  mutation  DLBCL 
+patients  across  subgroups  stratified  by  various  clinical 
+characteristics, including age and IPI (Fig. 5C–5G).
+
+Biological mechanisms underlying different prognosis of 
+TP53-mut DLBCL patients
+
+To  elucidate  the  underlying  biological  mechanisms  in 
+TP53-mut  DLBCL  and  subtypes,  we  performed  genetic 
+mutation  landscape  analysis  by  somatic  mutation  data 
+and  differential  expression  analysis  by  using  RNA-seq 
+in  JSPH  cohort.  JSPH  cohort’s  clinical  parameters  were 
+summarized in Table S3. Among them, 24 patients with 
+TP53  missense  mutations  were  stratified  according  to 
+the  above  TP53  missense  mutation  risk  model,  with  12 
+patients at low risk and 12 patients at high risk.
+
+Based on the stratification of the TP53 missense muta-
+tion  risk  model,  the  oncoplot  indicated  that  CCND3 
+mutants  were  significantly  more  prevalent  in  the  high-
+risk  group  (Fig.  6A).  2498  DEGs  including  2079  down-
+regulated  and  419  upregulated  genes  were  enriched  in 
+high-risk  TP53  missense  mutation  DLBCL  (Fig.  6B). 
+As  expected,  the  immune-associated  biological  pro-
+cesses  occupied  a  large  proportion  in  the  result  of  GO 
+functional  enrichment  analysis  (Fig.  6C).  The  KEGG 
+enrichment  analysis  also  revealed  that  TP53  missense 
+mutation high-risk patients had dysregulation of multiple 
+immune,  metabolic,  adhesion,  and  carcinogenic  path-
+ways (Fig. 6D). As well, Figure S3A and S3B showed the 
+differentially expressed and enrichment analyses between 
+wild type and mutant TP53.
+
+We  estimated  the  relative  abundances  of  infiltrating 
+immune subpopulations by ssGSEA and found that CD8+ 
+T  cells,  checkpoints,  cytolytic  activity,  Th1  cells,  and 
+Th2 cells were exhausted in the TP53-mut group with a 
+characteristic  immune  microenvironment  (Figure  S3C). 
+Furthermore, we found that the high-risk TP53 missense 
+mutation  DLBCL  lacked  multiple  immune  cells,  includ-
+ing neutrophil, type 17 T helper cell, mast cell, type 2 T 
+helper  cell,  type  1  T  helper  cell,  effector  memeory  CD4 
+T cell, CD56bright natural killer cell, immature dendritic 
+cell,  plasmacytoid  dendritic  cell,  effector  memeory  CD8 
+T cell, and central memory CD4 T cell (Fig. 6E). In order 
+to  examine  the  inflammatory  cytokines,  we  used  the 
+Wilcoxon test to compare the cytokine expression levels 
+among the various TP53 missense mutation DLBCL risk 
+groups. As a result, the expression levels of IL1, IL-5, IL-
+7,  IL-15,  and  MCP-1  were  significantly  down-regulated 
+in missense mutation high-risk group (Figure S4A). ICPs 
+reflect  the  immune  status  of  the  tumor  microenviron-
+ment. The expression levels of 46 ICP-related modulators 
+
+IC50  analysis  using 
+
+were further analyzed, and we found that BTLA, CD200, 
+CD244,  CD28,  CD40LG,  CTLA4,  IDO1,  IDO2,  LAG3, 
+LGALS9,  PDCD1,  TMIGD2,  TNFRSF18,  TNFRSF25, 
+TNFSF14,  and  TNFSF15  were  dramatically  downregu-
+lated  in  high-risk  group  (P < 0.05,  Figure  S4B),  resulting 
+in unfavorable prognosis. Taken together, the TP53 mis-
+sense  mutation  risk  model  was  related  to  the  immune 
+response.
+The 
+
+‘oncoPredict’  predicted 
+that  patients  in  high-risk  group  were  more  sensitive 
+to  TW  37_1149,  Shikonin_170,  Motesanib_1029,  and 
+NU7441_1038  compared  to  the  low-risk  group  and  the 
+non-missense  mutation  group  (Figure  S5A-S5D).  Com-
+pared to the non-missense mutation group, the high-risk 
+group  had  greater  sensitivity  to  multiple  kinase  inhibi-
+tors  (Dabrafenib_1373,  Olaparib_1017,  Veliparib_1018, 
+Pilaralisib_372,  Dactolisib_1057), 
+Rucaparib_1175, 
+antimetabolites 
+(Pemetrexed_428,  Cytarabine_1006), 
+DNA  damaging  agents  (Cisplatin_1005),  P53  transcrip-
+tional  activity  activator  (Tenovin-6_342),  and  Pevone-
+(Figure  S5E-S5O).  Additionally,  AKT 
+distat_1529 
+inhibitor VIII_228 was more suitable for patients in low-
+risk group (Figure S5P).
+
+We  employed  GSEA  to  acquire  the  enrichment  path-
+way  of  DLBCL  cell  lines  grouped  in  several  ways  in  the 
+CCLE databases. The information about the 21 cell lines 
+is presented in Table S4. In MCD subtype cell lines, the 
+KEGG  data  shed  light  on  the  TP53  mutation  positively 
+regulated cell cycle and DNA replication pathway, as did 
+KEGG  enrichment  analysis  in  EZB  subtype  cell  lines; 
+moreover,  the  carbon  metabolism  reprogramming  was 
+more enriched in the ST2 subtype [8] (Figure S6A‒S6F). 
+By  contrast,  TP53  mutation  was  predicted  to  be  a  posi-
+tive regulator of the lysosome and oxidative phosphoryla-
+tion pathway in other subtype of DLBCL cell lines (Figure 
+S6G and S6H).
+
+TP53PI for precise stratification for TP53-mut DLBCL 
+patients
+
+The  Kaplan-Meier  curve  survival  analysis  was  then 
+performed  for  the  stratified  TP53  missense  mutation 
+patients,  non-missense  mutation  patients,  and  wild-
+type  patients.  No  difference  in  survival  was  observed 
+between  patients  with  high-risk  TP53  missense  muta-
+tion  and  those  with  non-missense  mutation  (P = 0.9164, 
+Fig. 7A), while there was no difference between patients 
+with  low-risk  missense  mutation  and  wild-type  patients 
+(P = 0.1311,  Fig.  7A).  Therefore,  in  our  more  compre-
+hensive  study  of  TP53  mutations,  DLBCL  patients  with 
+high-risk  missense  mutation  were  treated  equally  to 
+those with non-missense mutation. Based on the univari-
+ate Cox regression result described in Figure S7, signifi-
+cant  variables  were  further  performed  multivariate  Cox 
+regression  analysis.  As  shown  in  Fig.  7B,  two  variables 
+
+Du et al. Cell Communication and Signaling          (2024) 22:401 Page 11 of 16
+
+Fig. 6  Biological mechanisms underlying different prognosis of TP53 missense mutation DLBCL patients. (A) Oncoplot illustrating the mutated genes in 
+TP53 missense mutation DLBCL patients. (B) Volcano plot showing upregulated and downregulated genes between high-risk and low-risk TP53 missense 
+mutation DLBCL. (C) Chord plot of GO analysis on immune-related pathway. (D) KEGG pathway enrichment plots of the DEGs between high-risk and 
+low-risk TP53 missense mutation DLBCL. (E) Boxplot of the abundances of infiltrating immune cell subpopulations between high-risk and low-risk TP53 
+missense mutation DLBCL according to the ssGSEA algorithm. * P < 0.05, ** P < 0.01, and *** P < 0.001. GO, Gene ontology; KEGG, Kyoto Encyclopedia of 
+Genes and Genomes
+
+Du et al. Cell Communication and Signaling          (2024) 22:401  
+Page 12 of 16
+
+Fig. 7  The establishment of the TP53PI model. (A) Kaplan-Meier curves for TP53 missense mutation risk model vs. TP53 non-missense mutation vs. TP53-
+wt patients (P < 0.0001). (B) Forest plot shows a multivariate Cox analysis of OS for TP53-mut patients including clinical and biological characteristics. (C) 
+Kaplan-Meier curves of TP53-mut DLBCL patients according to TP53PI model risk stratifications and those of TP53-wt DLBCL patients according to IPI risk 
+stratifications. (D) ROC curves of TP53PI and TP53 mutation risk model. (E) Calibration curve of the TP53PI model. * P < 0.05, ** P < 0.01, and *** P < 0.001. 
+OS, overall survival; TP53-wt, wild-type TP53; HR, Hazard Ratio; 95%CI, 95% Confidence Interval; IPI, International Prognostic Index; TP53PI, TP53 prognostic 
+index; AUC, area under the curve; ROC, receiver operator characteristic
+
+(TP53 missense mutation high risk + non-missense muta-
+tion  and  IPI  intermediate-  or  high-risk  groups)  retained 
+independent  prognostic  significance,  which  constituted 
+TP53PI model. As the coefficients of the two variables in 
+the  multivariate  COX  regression  are  similar,  0.8214  and 
+0.9268, respectively, we simplified the model and set the 
+score of these two variables to 1. The specific risk grades 
+in  TP53PI  model  are  described  as  follows:  (1)  low  risk, 
+score = 0; (2) intermediate risk, score = 1; and (3) high risk, 
+score = 2. The Kaplan-Meier curves for the TP53PI model 
+were  plotted  (P < 0.0001,  Fig.  7C).  In  addition,  the  sur-
+vival of the TP53PI low-risk group is similar to that of the 
+TP53-wt  IPI  low-risk  group  (P = 0.6344,  Fig.  7C),  while 
+the  survival  of  the  TP53PI  intermediate  risk  group  and 
+the TP53-wt IPI intermediate-high risk group did not dif-
+fer (P = 0.0672, Fig. 7C). ROC analysis displayed that the 
+risk  stratification  of  TP53PI  model  had  better  discrimi-
+nation to TP53 missense mutation risk model + non-mis-
+sense mutation for OS (AUC: 0.7172 vs. 0.6298, Fig. 7D). 
+Moreover, the calibration plots demonstrated good con-
+cordance  between  predicted  and  observed  probabilities 
+(Fig. 7E).
+
+Discussion
+Up  to  this  point,  the  prognostic  significance  of  TP53 
+mutation  in  DLBCL  patients  has  been  debated  in  sev-
+eral previous studies [31]. Hong Y et al. recently analyzed 
+DLBCL  patients  with  TP53  mutation  for  preliminary 
+stratification  [11].  A  TP53  mutation  rate  of  16%  was 
+observed in their analysis, and the profile of TP53 muta-
+tions  was  predictive  of  poor  OS  and  PFS,  despite  the 
+close  survival  curves  between  the  two  groups.  Accord-
+ing  to  subgroup  analysis,  they  found  that  TP53  muta-
+tion  differed  in  prognostic  significance  among  different 
+subgroups.
+
+In  view  of  the  diversity  and  heterogeneity  of  TP53 
+gene  mutations  and  functional  variations,  the  impact  of 
+each mutation/variation on a specific patient’s prognosis 
+should be evaluated individually based on the type, site, 
+and  affected  target  genes.  According  to  the  traditional 
+view of determining a “good prognosis” or a “poor prog-
+nosis” based only on the status of TP53 gene, which can 
+be either wild type or mutant, is inaccurate. The impact 
+of  TP53  mutations  on  prognosis  varies  greatly  among 
+different  molecular  subtypes:  in  MYD88  and  BCL-2 
+subtypes,  TP53  mutations  indicate  poor  prognosis;  in 
+
+Du et al. Cell Communication and Signaling          (2024) 22:401  
+Page 13 of 16
+
+NOTCH2  or  SOCS1/SGK1  subtypes,  TP53  mutations 
+have  no  significant  impact  on  prognosis;  and  in  the 
+TET2/SGK1 subtype, TP53 mutations are rare [15].
+
+We  examined  the clinical features and  TP53 mutation 
+data of 2637 reported cases in order to identify the char-
+acteristics and prognostic significance of TP53 mutation 
+in  DLBCL  patients  in  the  present  study.  We  revealed  a 
+TP53  mutation  prevalence  of  14.0%  in  DLBCL  patients, 
+which is lower than those of previous reports in DLBCL 
+(20‒25%) [32]. The majority of TP53 mutations was mis-
+sense  mutation,  and  most  mutations  occurred  in  the 
+DBD,  with  hot  spots  at  codons  248,  245,  273,  175  and 
+282,  suggesting  these  motifs  were  essential  for  TP53 
+tumor suppression.
+
+This  finding  of  our  study  and  clinical  practice  sug-
+gested  that  not  all  patients  with  TP53  mutations  had  a 
+fatal outcome. Therefore, our research aims to construct 
+an innovative model to predict prognosis and accurately 
+distinguish  the  risks  of  TP53-mut  DLBCL  patients.  It 
+will  facilitate  the  prediction  and  treatment  of  TP53-
+mut  DLBCL.  Furthermore,  we  attempt  to  investigate 
+the  molecular  mechanisms  behind  these  characteristics 
+using  multi-omics  methods.  In  this  way,  the  correlation 
+between the mutation of TP53 and prognosis or response 
+to treatment can be understood on a molecular level.
+
+We  successfully  fitted  a  model  with  high  predictive 
+accuracy  and  applicability,  which  reduces  the  dimen-
+sionality of variables and simplifies the model. The model 
+includes  four  indicators:  splice  site  mutation,  high  VAF 
+(VAF > 36%),  hotspot  mutations,  and  notDNE_notLOF. 
+Previous studies have reported that some hotspot muta-
+tions of TP53 (e.g. c.659 A > G, p.Y220C, c.733G > A, and 
+p.G245S) have immunogenicity in ovarian cancer, which 
+may indicate that they play a role in the immune response 
+[33].  However,  this  does  not  mean  that  these  mutations 
+are protective factors. Instead, they may be related to the 
+activation of the immune system, thereby affecting prog-
+nosis. In addition, non-disruptive mutations in the TP53 
+DNA-binding  domain  are  also  considered  an  indepen-
+dent favorable prognostic factor in esophageal squamous 
+cell carcinoma [34]. The notDNE_notLOF indicates that 
+the TP53 mutation has not affected the normal function 
+of the P53 protein.
+
+We further found that there is no difference in survival 
+between  the  high-risk  group  of  TP53  missense  muta-
+tion and non-missense mutation patients. To stratify the 
+entire  population  of  TP53  mutation,  we  ultimately  con-
+struct the TP53PI model.
+
+NGS has been widely applied in clinical samples, lead-
+ing to several reclassification schemes being proposed in 
+previous  studies  [1,  35],  including  the  LymphGen  arith-
+metic  which  is  most  commonly  used  [8].  TP53  muta-
+tions and deletions were set to A53 subtype. However, in 
+A53 type, there are a great many features associated with 
+
+chromosomal  arms  variations,  which  are  challenging  to 
+detect with existing NGS methods. Applying the Lymph-
+Gen classifier, less than half of TP53-mut DLBCLs were 
+classified  as  one  of  the  established  molecular  DLBCL 
+subtypes  highlighting  the  unique  biology  of  this  entity 
+(Fig.  2D).  Due  to  different  mutation  status  of  the  Lym-
+phGen  subtypes  and  distinct  microenvironmental  com-
+positions, they responded differently to therapy targeting 
+oncogenic  signal  pathways  and  immunotherapy.  A53 
+displayed  relatively  low  levels  of  all  immune  signatures. 
+In  addition,  B2M  is  deleted  or  mutationally  inactivated, 
+allowing A53 patients to escape immune surveillance [36, 
+37].
+
+Furthermore,  we  investigated  the  potential  mecha-
+nisms of TP53 missense mutation heterogeneity at both 
+the  genomic  and  transcriptomic  levels.  In  the  high-risk 
+group,  immune,  metabolic,  adhesion,  and  PI3K-AKT 
+signaling  pathways  are  dysfunctional.  Inspired  by  these 
+findings  in  previous  studies,  we  focused  on  immune-
+related  pathways  and  examined  the  immune-infiltrating 
+microenvironment of the TP53 missense mutation high-
+risk DLBCLs. Our results show that the high-risk group 
+has an absolute immune-suppressive microenvironment, 
+with  a  reduced  number  of  various  immune  cells,  which 
+are  anti-tumor  immune  cells.  The  analysis  of  immune 
+checkpoints  also  shows  a  generally  downregulated  state 
+in the high-risk group, with a reduction in the number of 
+immune cells or impaired function, which may not be suf-
+ficient to promote an effective immune response and may 
+further adversely affect the effects of immunotherapy.
+
+As a result of oncoPredict’s drug sensitivity prediction 
+results,  patients  in  TP53  missense  mutations  high-risk 
+group  are  likely  to  be  more  sensitive  to  kinase  inhibi-
+tors and MCL1 inhibitors, than other TP53-mut DLBCL 
+patients. Among them, MCL1 inhibitors (TW37) may be 
+effective for TP53 missense mutations high-risk DLBCL 
+patients, especially when used in combination with other 
+drugs.  The  MCL1  protein  belongs  to  the  BCL-2  family 
+of  anti-apoptotic  proteins.  BCL-2  inhibitor  venetoclax/
+ABT-199 has been approved for the treatment of chronic 
+lymphocytic leukemia (CLL) and acute myeloid leukemia 
+(AML)  [38,  39].  In  spite  of  the  fact  that  venetoclax  ini-
+tially  responds  well  in  many  patients,  clinical  data  indi-
+cate that most patients will relapse, and the latest analysis 
+indicates  that  CLL  or  AML  with  TP53  mutation  have  a 
+worse  prognosis  after  venetoclax  treatment  than  those 
+with TP53 wild type [40, 41]. PI3K inhibitors can reduce 
+the phosphorylation of AKT and mTOR by blocking the 
+activity of PI3K, thereby inhibiting the proliferation, sur-
+vival,  and  metabolism  of  tumor  cells.  PI3K/AKT/mTOR 
+signaling pathways are significantly disturbed in the high-
+risk  group  of  patients  with  TP53  missense  mutations. 
+PI3K inhibitors can reduce the energy supply and protein 
+synthesis of tumor cells by blocking this pathway, thereby 
+
+Du et al. Cell Communication and Signaling          (2024) 22:401 inhibiting  tumor  growth.  Tenovin-6  is  a  small  molecule 
+compound,  which  is  a  P53  activator,  capable  of  stabiliz-
+ing and activating P53 by binding to the MDM2 inhibitor 
+of  the  P53  protein,  thereby  activating  the  P53-mediated 
+signaling pathway [42]. It appears that this drug is more 
+suitable for the treatment of patients in high-risk groups. 
+Due  to  the  complexity  of  the  P53  regulatory  network, 
+it  is  difficult  to  overcome  the  adverse  effects  of  TP53 
+mutations  by  blocking  a  single  pathway,  so  it  is  neces-
+sary to further seek appropriate combination schemes to 
+improve the therapeutic effect.
+
+In the MCD and EZB subtype, the presence of a TP53 
+mutation  could  potentially  lead  to  an  upregulation  or 
+enhanced  activity  of  genes  involved  in  these  pathways 
+which  are  crucial  for  cell  division  and  DNA  synthesis. 
+In  the  ST2  subtype,  the  KEGG  data  highlight  a  differ-
+ent  pattern,  which  suggests  that  TP53  mutations  in  this 
+subtype  might  be  associated  with  alterations  in  meta-
+bolic processes, potentially affecting how cells utilize and 
+metabolize  carbon  sources  for  energy  and  biosynthesis. 
+In contrast to the MCD and EZB subtypes, TP53 muta-
+tions in other subtypes of DLBCL cell lines are predicted 
+to  be  positive  regulators  of  the  lysosome  and  oxidative 
+phosphorylation  pathways.  Oxidative  phosphorylation 
+is  a  process  in  cellular  respiration  that  produces  ATP. 
+Enhanced  oxidative  phosphorylation  could  suggest  a 
+higher  energy  demand  or  an  adaptation  to  metabolic 
+stress.  In  summary,  these  results  indicate  that  TP53 
+mutations  have  different  effects  on  cellular  pathways  in 
+different DLBCL subtypes.
+
+It is important to note that this study has some limita-
+tions. Data from the public database is partially missing, 
+and  further  external  data  verification  is  necessary.  Par-
+ticularly, due to the lack of loss of the non-mutated allele 
+in  some  cohorts  and  the  different  assessment  criteria 
+of  various  detection  methods,  we  did  not  proceed  with 
+further  analysis  in  this  issue.  In  order  to  truly  explain 
+the  particularity  of  the  immune  microenvironment,  it  is 
+necessary  to  analyze  the  immune  microenvironment  by 
+means  more  closed  to  the  real  state,  such  as  single-cell 
+RNA sequencing.
+
+In  conclusion,  we  developed  a  TP53PI  model  for  pre-
+cise  risk  stratification  for  TP53-mut  DLCBL  patients 
+and  the  potential  underlying  mechanisms  of  different 
+prognosis  might  be  explained  by  the  unique  immune 
+microenvironments.
+
+Supplementary Information
+The online version contains supplementary material available at https://doi.
+org/10.1186/s12964-024-01765-w.
+
+Supplementary Material 1
+
+Supplementary Material 2
+
+Supplementary Material 3
+
+Page 14 of 16
+
+Supplementary Material 4
+
+Supplementary Material 5
+
+Supplementary Material 6
+
+Supplementary Material 7
+
+Supplementary Material 8
+
+Supplementary Material 9
+
+Supplementary Material 10
+
+Supplementary Material 11
+
+Acknowledgements
+Not applicable.
+
+Author contributions
+Kai-Xin Du, Yi-Fan Wu, Wei Hua and Jin-Hua Liang integrated and analyzed the 
+data. Jin-Hua Liang and Kai-Xin Du provided technological assistance. Kai-Xin 
+Du and Jun-Heng Liang performed bioinformatic analysis. Yi-Fan Wu, Wei Hua, 
+Zi-Wen Duan, Hua Yin, Yue Li, Jia-Zhu Wu, Hao-Rui Shen, Rui Gao and Li Wang 
+collected the clinical data for patients. Kai-Xin Du, Jin-Hua Liang, Wei Xu and 
+Yi-Fan Wu prepared the manuscript. Wei Xu and Jin-Hua Liang supervised the 
+study.
+
+Funding
+This research was funded by the National Natural Science Foundation of China 
+(grant number 82200887 and 82370194), Jiangsu Science and Technology 
+Department (grant number BK20220716 and BE2023780), China Postdoctoral 
+Science Foundation (grant number 2022M711404 and 2023M741463), and 
+Jiangsu Province Hospital (the First Affiliated Hospital with Nanjing Medical 
+University) Clinical Capacity Enhancement Project (JSPH-MC-2022-13 and 
+JSPH-MC-2022-21).
+
+Data availability
+The datasets used and analyzed during the current study are included in the 
+manuscript and the supplementary materials.
+
+Declarations
+
+Ethics approval and consent to participate
+This study was carried out according to the principles established by the 
+Declaration of Helsinki and approved by the Ethical Committee of the Nanjing 
+Medical University. All participants were provided with an informed consent 
+that they signed prior to the experiments.
+
+Consent for publication
+Not applicable.
+
+Competing interests
+The authors declare no competing interests.
+
+Received: 6 January 2024 / Accepted: 23 July 2024
+
+References
+1. 
+
+Chapuy B, Stewart C, Dunford AJ, et al. Molecular subtypes of diffuse large 
+B cell lymphoma are associated with distinct pathogenic mechanisms 
+and outcomes. Nat Med May. 2018;24(5):679–90. https://doi.org/10.1038/
+s41591-018-0016-8.
+Alizadeh AA, Eisen MB, Davis RE, et al. Distinct types of diffuse large 
+B-cell lymphoma identified by gene expression profiling. Nat Feb. 
+2000;3(6769):503–11. https://doi.org/10.1038/35000501.
+Thieblemont C, Briere J, Mounier N, et al. The germinal center/activated B-cell 
+subclassification has a prognostic impact for response to salvage therapy in 
+relapsed/refractory diffuse large B-cell lymphoma: a bio-CORAL study. J Clin 
+
+2. 
+
+3. 
+
+Du et al. Cell Communication and Signaling          (2024) 22:401 Page 15 of 16
+
+Oncology: Official J Am Soc Clin Oncol Nov. 2011;1(31):4079–87. https://doi.
+org/10.1200/jco.2011.35.4423.
+
+4.  Gutiérrez-García G, Cardesa-Salzmann T, Climent F, et al. Gene-expression 
+
+profiling and not immunophenotypic algorithms predicts prognosis in 
+patients with diffuse large B-cell lymphoma treated with immunoche-
+motherapy. Blood May. 2011;5(18):4836–43. https://doi.org/10.1182/
+blood-2010-12-322362.
+
+5.  Molina TJ, Canioni D, Copie-Bergman C et al. Young patients with non-germi-
+
+nal center B-cell-like diffuse large B-cell lymphoma benefit from intensified 
+chemotherapy with ACVBP plus rituximab compared with CHOP plus ritux-
+imab: analysis of data from the Groupe d’Etudes des Lymphomes de l’Adulte/
+lymphoma study association phase III trial LNH 03-2B. Journal of clinical 
+oncology: official journal of the American Society of Clinical Oncology. Dec 
+10. 2014;32(35):3996–4003. https://doi.org/10.1200/jco.2013.54.9493
+6.  Ott G, Ziepert M, Klapper W, et al. Immunoblastic morphology but not the 
+immunohistochemical GCB/nonGCB classifier predicts outcome in diffuse 
+large B-cell lymphoma in the RICOVER-60 trial of the DSHNHL. Blood Dec 2. 
+2010;116(23):4916–25. https://doi.org/10.1182/blood-2010-03-276766.
+
+7.  Moskowitz CH, Zelenetz AD, Kewalramani T, et al. Cell of origin, germinal 
+
+center versus nongerminal center, determined by immunohistochemistry 
+on tissue microarray, does not correlate with outcome in patients with 
+relapsed and refractory DLBCL. Blood Nov. 2005;15(10):3383–5. https://doi.
+org/10.1182/blood-2005-04-1603.
+
+8.  Wright GW, Huang DW, Phelan JD, et al. A probabilistic classification Tool for 
+genetic subtypes of diffuse large B cell lymphoma with therapeutic implica-
+tions. Cancer cell Apr. 2020;13(4):551–e56814. https://doi.org/10.1016/j.
+ccell.2020.03.015.
+Zenz T, Vollmer D, Trbusek M, et al. TP53 mutation profile in chronic lympho-
+cytic leukemia: evidence for a disease specific profile from a comprehen-
+sive analysis of 268 mutations. Leuk Dec. 2010;24(12):2072–9. https://doi.
+org/10.1038/leu.2010.208.
+
+9. 
+
+10.  Flynt E, Bisht K, Sridharan V, Ortiz M, Towfic F, Thakurta A, Prognosis. Biol-
+ogy, and targeting of TP53 dysregulation in multiple myeloma. Cells Jan. 
+2020;24(2). https://doi.org/10.3390/cells9020287.
+
+21.  Guo X, Zhang B, Zeng W, Zhao S, Ge D. G3viz: an R package to interactively 
+
+visualize genetic mutation data using a lollipop-diagram. Bioinf (Oxford Eng-
+land) Feb. 2020;1(3):928–9. https://doi.org/10.1093/bioinformatics/btz631.
+
+22.  Mayakonda A, Lin DC, Assenov Y, Plass C, Koeffler HP. Maftools: efficient and 
+comprehensive analysis of somatic variants in cancer. Genome Res Nov. 
+2018;28(11):1747–56. https://doi.org/10.1101/gr.239244.118.
+
+23.  Bolger AM, Lohse M, Usadel B. Trimmomatic: a flexible trimmer for Illumina 
+
+sequence data. Bioinformatics (Oxford, England). Aug 1. 2014;30(15):2114-20. 
+https://doi.org/10.1093/bioinformatics/btu170
+
+24.  Love MI, Huber W, Anders S. Moderated estimation of Fold change and 
+
+dispersion for RNA-seq data with DESeq2. Genome Biol. 2014;15(12):550. 
+https://doi.org/10.1186/s13059-014-0550-8.
+
+25.  Ritchie ME, Phipson B, Wu D, et al. Limma powers differential expression 
+
+analyses for RNA-sequencing and microarray studies. Nucleic acids research. 
+Apr. 2015;20(7):e47. https://doi.org/10.1093/nar/gkv007.
+
+26.  Subramanian A, Tamayo P, Mootha VK, et al. Gene set enrichment analysis: a 
+knowledge-based approach for interpreting genome-wide expression pro-
+files. Proc Natl Acad Sci United States Am Oct. 2005;25(43):15545–50. https://
+doi.org/10.1073/pnas.0506580102.
+
+27.  Yu G, Wang LG, Han Y, He QY. clusterProfiler: an R package for compar-
+
+ing biological themes among gene clusters. Omics: J Integr Biology May. 
+2012;16(5):284–7. https://doi.org/10.1089/omi.2011.0118.
+
+28.  Maeser D, Gruener RF, Huang RS. oncoPredict: an R package for predicting in 
+vivo or cancer patient drug response and biomarkers from cell line screening 
+data. Briefings Bioinf Nov. 2021;5(6). https://doi.org/10.1093/bib/bbab260.
+29.  Bindea G, Mlecnik B, Tosolini M, et al. Spatiotemporal dynamics of intratu-
+
+moral immune cells reveal the immune landscape in human cancer. Immun 
+Oct. 2013;17(4):782–95. https://doi.org/10.1016/j.immuni.2013.10.003.
+
+30.  Young KH, Leroy K, Møller MB, et al. Structural profiles of TP53 gene 
+
+mutations predict clinical outcome in diffuse large B-cell lymphoma: an 
+international collaborative study. Blood Oct. 2008;15(8):3088–98. https://doi.
+org/10.1182/blood-2008-01-129783.
+
+31.  Kastenhuber ER, Lowe SW. Putting p53 in Context. Cell Sep. 2017;7(6):1062–
+
+78. https://doi.org/10.1016/j.cell.2017.08.028.
+
+11.  Hong Y, Ren T, Wang X, et al. APR-246 triggers ferritinophagy and ferroptosis 
+
+32.  Peller S, Rotter V. TP53 in hematological cancer: low incidence of mutations 
+
+of diffuse large B-cell lymphoma cells with distinct TP53 mutations. Leuk Sep. 
+2022;36(9):2269–80. https://doi.org/10.1038/s41375-022-01634-w.
+
+with significant clinical relevance. Hum Mutat Mar. 2003;21(3):277–84. https://
+doi.org/10.1002/humu.10190.
+
+12.  Marks JA, Wang X, Fenu EM, Bagg A, Lai C. TP53 in AML and MDS: the new 
+(old) kid on the block. Blood Reviews Feb. 2023;14:101055. https://doi.
+org/10.1016/j.blre.2023.101055.
+
+13.  Canale M, Andrikou K, Priano I, et al. The role of TP53 mutations in EGFR-
+
+Mutated non-small-cell Lung Cancer: clinical significance and implications for 
+Therapy. Cancers Feb. 2022;23(5). https://doi.org/10.3390/cancers14051143.
+
+14.  Xu-Monette ZY, Wu L, Visco C, et al. Mutational profile and prognostic 
+
+significance of TP53 in diffuse large B-cell lymphoma patients treated with 
+R-CHOP: report from an International DLBCL Rituximab-CHOP Consortium 
+Program Study. Blood Nov. 2012;8(19):3986–96. https://doi.org/10.1182/
+blood-2012-05-433334.
+
+15.  Lacy SE, Barrans SL, Beer PA, et al. Targeted sequencing in DLBCL, molecu-
+lar subtypes, and outcomes: a Haematological Malignancy Research 
+Network report. Blood May. 2020;14(20):1759–71. https://doi.org/10.1182/
+blood.2019003535.
+
+16.  Sha C, Barrans S, Cucco F, et al. Molecular High-Grade B-Cell Lymphoma: 
+defining a poor-risk group that requires different approaches to Therapy. 
+Journal of clinical oncology: official journal of the American Society of Clinical 
+Oncology. Jan. 2019;20(3):202–12. https://doi.org/10.1200/jco.18.01314.
+
+17.  Reddy A, Zhang J, Davis NS, et al. Genetic and functional drivers of dif-
+fuse large B cell lymphoma. Cell Oct. 2017;5(2):481–e49415. https://doi.
+org/10.1016/j.cell.2017.09.027.
+
+18.  Dubois S, Viailly PJ, Bohers E, et al. Biological and Clinical Relevance of 
+
+Associated genomic alterations in MYD88 L265P and non-L265P-Mutated 
+diffuse large B-Cell lymphoma: analysis of 361 cases. Clinical cancer research: 
+an official journal of the American Association for Cancer Research. May. 
+2017;1(9):2232–44. https://doi.org/10.1158/1078-0432.Ccr-16-1922.
+
+19.  Pedrosa L, Fernández-Miranda I, Pérez-Callejo D, et al. Proposal and validation 
+of a method to classify genetic subtypes of diffuse large B cell lymphoma. Sci 
+Rep Jan. 2021;21(1):1886. https://doi.org/10.1038/s41598-020-80376-0.
+
+20.  Chang MT, Bhattarai TS, Schram AM, et al. Accelerating Discovery of func-
+tional mutant alleles in Cancer. Cancer Discovery Feb. 2018;8(2):174–83. 
+https://doi.org/10.1158/2159-8290.Cd-17-0321.
+
+33.  Deniger DC, Pasetto A, Robbins PF, et al. T-cell responses to TP53 hotspot 
+mutations and unique neoantigens expressed by human ovarian cancers. 
+Clinical cancer research: an official journal of the American Association for 
+Cancer Research. Nov. 2018;15(22):5562–73. https://doi.org/10.1158/1078-
+0432.Ccr-18-0573.
+
+34.  Huang M, Jin J, Zhang F, et al. Non-disruptive mutation in TP53 DNA-binding 
+domain is a beneficial factor of esophageal squamous cell carcinoma. 
+Annals Translational Med Mar. 2020;8(6):316. https://doi.org/10.21037/
+atm.2020.02.142.
+
+35.  Schmitz R, Wright GW, Huang DW et al. Genetics and Pathogenesis of Diffuse 
+Large B-Cell Lymphoma. The New England journal of medicine. Apr 12. 
+2018;378(15):1396–1407. https://doi.org/10.1056/NEJMoa1801445
+
+36.  Challa-Malladi M, Lieu YK, Califano O, et al. Combined genetic inactivation of 
+β2-Microglobulin and CD58 reveals frequent escape from immune recogni-
+tion in diffuse large B cell lymphoma. Cancer cell Dec. 2011;13(6):728–40. 
+https://doi.org/10.1016/j.ccr.2011.11.006.
+
+37.  Godfrey J, Tumuluru S, Bao R, et al. PD-L1 gene alterations identify a subset of 
+diffuse large B-cell lymphoma harboring a T-cell-inflamed phenotype. Blood 
+May. 2019;23(21):2279–90. https://doi.org/10.1182/blood-2018-10-879015.
+
+38.  Cang S, Iragavarapu C, Savooji J, Song Y, Liu D. ABT-199 (venetoclax) and 
+
+BCL-2 inhibitors in clinical development. J Hematol Oncol Nov. 2015;20:8:129. 
+https://doi.org/10.1186/s13045-015-0224-3.
+
+39.  Nwosu GO, Ross DM, Powell JA, Pitson SM. Venetoclax therapy and emerging 
+resistance mechanisms in acute myeloid leukaemia. Cell Death Disease Jun. 
+2024;12(6):413. https://doi.org/10.1038/s41419-024-06810-7.
+
+40.  Stefaniuk P, Onyszczuk J, Szymczyk A, Podhorecka M. Therapeutic options for 
+patients with TP53 deficient chronic lymphocytic leukemia: Narrative Review. 
+Cancer Manage Res. 2021;13:1459–76. https://doi.org/10.2147/cmar.S283903.
+
+41.  Santini V, Stahl M, Sallman DA. Jun. TP53 Mutations in Acute Leukemias and 
+Myelodysplastic Syndromes: Insights and Treatment Updates. American 
+Society of Clinical Oncology educational book American Society of Clinical 
+Oncology Annual Meeting. 2024;44(3):e432650. https://doi.org/10.1200/
+edbk_432650
+
+Du et al. Cell Communication and Signaling          (2024) 22:401 42.  Lain S, Hollick JJ, Campbell J, et al. Discovery, in vivo activity, and mechanism 
+of action of a small-molecule p53 activator. Cancer cell May. 2008;13(5):454–
+63. https://doi.org/10.1016/j.ccr.2008.03.004.
+
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in 
+published maps and institutional affiliations.
+
+Page 16 of 16
+
+Du et al. Cell Communication and Signaling          (2024) 22:401 

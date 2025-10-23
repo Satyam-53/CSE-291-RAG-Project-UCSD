@@ -1,0 +1,1070 @@
+Review
+TP53 Deficiency in the Natural History of Prostate Cancer
+
+Heidemarie Ofner 1, Gero Kramer 1, Shahrokh F. Shariat 1,2,3,4,5,6 and Melanie R. Hassler 1,*
+
+1 Department of Urology, Medical University of Vienna, 1090 Vienna, Austria;
+
+heidemarie.ofner@meduniwien.ac.at (H.O.); gero.kramer@meduniwien.ac.at (G.K.);
+shahrokh.shariat@gmail.com (S.F.S.)
+
+2 Hourani Center for Applied Scientific Research, Al-Ahliyya Amman University, Amman 19328, Jordan
+3 Department of Urology, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA
+4 Department of Urology, Second Faculty of Medicine, Charles University, 150 06 Prague, Czech Republic
+5 Department of Urology, Weill Cornell Medical College, New York, NY 10065, USA
+6 Karl Landsteiner Institute of Urology and Andrology, 1090 Vienna, Austria
+* Correspondence: melanie.hassler-difratta@meduniwien.ac.at; Tel.: +43-1-40400-26075
+
+Simple Summary: Prostate cancer, one of the most prevalent malignancies in men world-
+wide, is associated with significant morbidity and mortality. Among the genetic alterations
+driving prostate cancer progression, mutations in TP53 play a pivotal role in tumor resis-
+tance to therapeutic interventions and the promotion of metastasis. This review examines
+the critical role of TP53 mutations in prostate cancer, emphasizing their contribution to
+disease progression and their influence on clinical outcomes. By synthesizing the current
+literature, we aim to underscore how a deeper understanding of the molecular underpin-
+nings of prostate cancer, particularly its mutational landscape, can inform and enhance
+personalized treatment strategies. Furthermore, the review discusses emerging therapeutic
+approaches targeting TP53, offering potential avenues for novel treatments in patients with
+advanced disease.
+
+Abstract: Prostate cancer remains a leading cause of cancer-related mortality in men, with
+advanced stages posing significant treatment challenges due to high morbidity and mortal-
+ity. Among genetic alterations, TP53 mutations are among the most prevalent in cancers
+and are strongly associated with poor clinical outcomes and therapeutic resistance. This
+review investigates the role of TP53 mutations in prostate cancer progression, prognosis,
+and therapeutic development. A comprehensive analysis of preclinical and clinical studies
+was conducted to elucidate the molecular mechanisms, clinical implications, and potential
+therapeutic approaches associated with TP53 alterations in prostate cancer. TP53 mutations
+are highly prevalent in advanced stages, contributing to genomic instability, aggressive
+tumor phenotypes, and resistance to standard treatments. Emerging evidence supports the
+utility of liquid biopsy techniques, such as circulating tumor DNA analysis, for detecting
+TP53 mutations, providing prognostic value and facilitating early intervention strategies.
+Novel therapeutic approaches targeting TP53 have shown promise in preclinical settings,
+but their clinical efficacy requires further validation. Overall, TP53 mutations represent
+a critical biomarker for disease progression and therapeutic response in prostate cancer.
+Advances in detection methods and targeted therapies hold significant potential to improve
+outcomes for patients with TP53-mutated prostate cancer. Further research is essential to
+integrate TP53-based strategies into routine clinical practice.
+
+Keywords: prostate cancer (PCa); metastatic hormone-sensitive prostate cancer (mHSPC);
+castration-resistant prostate cancer (CRPC); TP53 alteration; genetics
+
+Academic Editor: Jonas Cicenas
+
+Received: 24 December 2024
+
+Revised: 1 February 2025
+
+Accepted: 3 February 2025
+
+Published: 14 February 2025
+
+Citation: Ofner, H.; Kramer, G.;
+
+Shariat, S.F.; Hassler, M.R. TP53
+
+Deficiency in the Natural History of
+
+Prostate Cancer. Cancers 2025, 17, 645.
+
+https://doi.org/10.3390/
+
+cancers17040645
+
+Copyright: © 2025 by the authors.
+
+Licensee MDPI, Basel, Switzerland.
+
+This article is an open access article
+
+distributed under the terms and
+
+conditions of the Creative Commons
+
+Attribution (CC BY) license
+
+(https://creativecommons.org/
+
+licenses/by/4.0/).
+
+Cancers 2025, 17, 645
+
+https://doi.org/10.3390/cancers17040645
+
+Cancers 2025, 17, 645
+
+2 of 15
+
+1. Introduction
+
+An estimated 1.4 million cases of prostate cancer (PCa) were diagnosed in 2020 and
+an estimated 375,000 men died from the disease in the same year, making it the seventh
+most common cause of cancer-related deaths among males globally [1]. Over the past
+20 years, the incidence and prevalence of metastatic PCa have risen across all age groups,
+and the development of a metastatic castrate-resistant state is linked to PCa’s lethality.
+Since this surge in cases will not be preventable by public health or lifestyle interventions,
+gaining a better understanding of the cancer biology and natural history of the disease
+remains a crucial burden. Even though the presence of a distant metastatic disease at
+the time of diagnosis is rare, approximately 20–40% of patients suffer from a relapse of
+disease with a biochemical recurrence after primary local treatment [2]. PCa is associated
+with significant clinical heterogeneity, with many tumors showing slow evolutionary
+trajectories and a smaller group with aggressive metastatic behavior that leads to premature
+death. Treatment strategies for advanced PCa follow the goal to prolong survival through
+targeting key drivers of carcinogenesis, where the androgen receptor pathway plays a
+crucial role and androgen deprivation therapy (ADT) remains the backbone of therapy in
+metastatic hormone-sensitive prostate cancer (mHSPC) in combination with other novel
+agents [3]. Despite major therapeutic advances in recent years, mHSPC remains incurable
+and patients become castration-resistant (mCRPC); a state of disease with high morbidity
+and mortality. The heterogeneity of PCa is based on different molecular changes that
+involve genetic alterations, gene expression signatures, and signaling pathways with
+distinct impacts on PCa aggressiveness. A better understanding of these molecular changes
+and PCa’s molecular signatures has led to the development of new diagnostic tests and
+targeted therapies for PCa patients. For example, a major advancement in PCa treatment
+in the last few years was the finding that a significant number of PCa patients harbor
+somatic or germline mutations in homologous recombination deficiency (HRD) genes
+such as BRCA1 or BRCA2, and targeting these alterations via PARP-inhibitors has been
+successfully tested in clinical trials, leading to FDA and EMA approval for PARP-inhibitors
+in mCRPC patients [4–6]. However, other frequent alterations, such as TP53 mutations, are
+also associated with a significantly worse prognosis, and to date, no specific therapeutic
+approach is recommended for these patients [7]. TP53 mutations can be detected in
+up to 30% of localized and 40–50% of metastatic PCa, making TP53 gene alterations a
+common somatic event in advanced PCa [8,9]. After the AR gene, it is the gene most
+commonly disrupted in castration-resistant PCa. In certain situations, chromothripsis—a
+complex, catastrophic disorder of the genome—can result from TP53 inactivation, which
+causes genomic instability with inverted rearrangements. Gene mutations and significant
+deletions affecting the TP53 locus on the 17p chromosome are examples of somatic TP53
+changes. They have particular effects on the immune system and the therapeutic efficacy of
+medication classes, counteract the impact of AR inhibitors, and increase the rate at which
+PCa cells proliferate [10,11].
+
+In this review, we aim to give an overview of TP53’s cellular function and discuss
+available evidence on the role of TP53 mutations in prostate cancer regarding its impact on
+clinical outcomes throughout the disease.
+
+2. TP53—The Guardian of the Genome in Malignant Diseases
+
+The tumor suppressor protein p53 is an important transcription factor that plays
+a pivotal role in maintaining cellular homeostasis by regulating a variety of genes and
+cellular processes. Because of its wide-ranging functions in cellular regulation, p53 has been
+identified as a driver mutation for numerous malignancies including PCa and is implicated
+in almost all known cancer hallmarks [12]. Regarding its function and regulation in the
+
+Cancers 2025, 17, 645
+
+3 of 15
+
+cell, p53 activity is low under non-stress conditions due to suppression by the proteins
+MDM2 and MDMX, which target p53 for degradation [13]. However, stress factors such as
+DNA damage or oncogene activation release p53 from these suppressors, allowing it to
+enter the nucleus, where it promotes cell cycle arrest, apoptosis, and DNA repair via its role
+as a transcription factor—key mechanisms that prevent cancerous growth. Beyond these
+primary functions, p53 also contributes to anticancer defense by regulating antioxidant
+responses, metabolism, and immune function, among others [14,15].
+
+The action of p53 varies by tissue type, with gene expression profiles differing signifi-
+cantly across organs. For example, after exposure to ionizing radiation, gastrointestinal and
+lymphoid tissues exhibit distinct p53 activation patterns, which in turn influence their radi-
+ation sensitivities [16]. For PCa, it has been reported that cell lines with defective TP53 are
+less sensitive to radiotherapy [17]. The cellular response to p53 is also temporally regulated:
+transient p53 activation often leads to repair and survival, whereas prolonged activation
+induces apoptosis or cellular senescence [18]. Studies in mice with genetic deletions of p53
+reveal the high incidence of cancer in the absence of this protein, reinforcing p53’s role as a
+fundamental tumor suppressor [19]. For example, in mice with prostate-specific deletion
+of both PTEN and TP53, prostate tumors develop much earlier than in PTEN knock-outs,
+which is due to the absence of TP53-induced cellular senescence [20]. In humans, germline
+TP53 mutations cause Li–Fraumeni syndrome, a condition marked by early-onset cancers
+across multiple tissue types [21]. Genomic analyses in human cancers further showed
+that TP53 mutations belong to the most common alterations across all cancer types, with
+mCRPC harboring alterations in up to 50% of samples tested and contributing to chromo-
+somal instability, oncogene amplification, and poor prognosis in patients with mutated p53
+profiles [7].
+
+Mutations in TP53 predominantly occur in its DNA-binding domain, disrupting its
+ability as a transcription factor to bind and regulate target genes effectively [22]. These
+mutations are often missense, with certain “hotspot” residues recurring frequently across
+different cancer types. For example, in mCRPC, but also in localized PCa, one of the
+most frequent TP53 mutations is the R248Q mutation in the DNA binding domain [8]
+(Figures 1 and 2). Functionally, the R248Q mutant may exhibit a gain-of-function (GOF)
+effect by interfering with and suppressing wild-type (WT) p53 activity, thereby contributing
+to tumor progression and metastasis, making it even more oncogenic than a complete loss
+of p53 [23]. GOF mutations lead to enhanced cell proliferation, migration, and genomic
+instability, as well as interactions with the tumor microenvironment (TME) that promote
+malignancy. Importantly, cancer cells often become “addicted” to mutant p53, as its deple-
+tion in these cells reduces their malignant traits, making mutant p53 a viable therapeutic
+target [24]. TP53 loss or mutation also enables tumor cells to evade both adaptive and innate
+immune systems, and re-shapes the TME. For example, it has been shown that tumor cells
+with defective p53 exhibit reduced MHC class I and II expression [25,26]. Consequently,
+these cells become less recognizable to cytotoxic T lymphocytes. Additionally, wild-type
+p53 inhibits immune checkpoint molecules like PD-L1, while p53 mutations increase PD-L1
+expression, promoting immune evasion [27]. Mutant p53 also alters the tumor secretome to
+suppress T cell activity [28]. These alterations result in an immune-suppressive microen-
+vironment and diminished T cell responses. Furthermore, innate immune cells, such as
+natural killer (NK) cells and macrophages, can also be inhibited by p53 mutations [29–31].
+WT p53 upregulates ligands that enhance NK cells’ ability to recognize and kill MHC-
+defective tumor cells, while mutant p53 decreases their expression, enabling immune
+escape [29]. Moreover, p53-null tumor cells show resistance to apoptosis, further impairing
+NK cell cytotoxicity [31]. Regarding macrophages, p53-null cancer cells have been reported
+to resist macrophage-mediated phagocytosis by producing extracellular vesicles enriched
+
+Cancers 2025, 17, 645
+
+4 of 15
+
+with immunosuppressive PD-L1 [30], and the tumor microenvironment (TME) shaped
+by p53-mutant cells fosters immune evasion through myeloid cell reprogramming and
+regulatory T cell (Treg) recruitment [32,33].
+
+Figure 1. Mutation diagram of localization and frequency of splice, missense, and truncating tp53
+mutations in a cohort of 429 metastatic PCa patients [34].
+
+Figure 2. Mutation diagram of localization and frequency of splice, missense, and truncating tp53
+mutations in a cohort of 1465 localized PCa patients [35].
+
+In summary, p53’s complex role in cancer suppression stems from its ability to regulate
+diverse cellular functions and respond to stress stimuli, with tissue-specific and mutation-
+specific effects on tumor biology. Targeting p53 dysfunction in PCa holds potential for new
+treatment modalities aimed at leveraging the protein’s central role in cell regulation and
+tumor suppression.
+
+3. TP53 and Prostate Cancer
+3.1. TP53 Alterations and Preclinical Data in PCa Models
+
+Several preclinical studies have investigated the role of TP53 in the progression of
+PCa, in combination with other mutations or regarding therapy responses in in vitro and
+in vivo PCa models. Some of these studies confirmed mechanistic data on TP53 regulation
+reported in other cancer types and provided preclinical biological insight into correlations
+found in clinical samples. For example, the inhibitory function of MDM2 and MDMX was
+tested in an androgen-sensitive PCa cell line carrying WT TP53 and showed that, when
+
+Cancers 2025, 17, x FOR PEER REVIEW 4 of 16   microenvironment (TME) shaped by p53-mutant cells fosters immune evasion through myeloid cell reprogramming and regulatory T cell (Treg) recruitment [32,33]. In summary, p53′s complex role in cancer suppression stems from its ability to regu-late diverse cellular functions and respond to stress stimuli, with tissue-speciﬁc and mu-tation-speciﬁc eﬀects on tumor biology. Targeting p53 dysfunction in PCa holds potential for new treatment modalities aimed at leveraging the protein’s central role in cell regula-tion and tumor suppression.  Figure 1. Mutation diagram of localization and frequency of splice, missense, and truncating tp53 mutations in a cohort of 429 metastatic PCa patients [34].  Figure 2. Mutation diagram of localization and frequency of splice, missense, and truncating tp53 mutations in a cohort of 1465 localized PCa patients [35]. 3. TP53 and Prostate Cancer 3.1. TP53 Alterations and Preclinical Data in PCa Models Several preclinical studies have investigated the role of TP53 in the progression of PCa, in combination with other mutations or regarding therapy responses in in vitro and in vivo PCa models. Some of these studies conﬁrmed mechanistic data on TP53 regulation Cancers 2025, 17, x FOR PEER REVIEW 4 of 16   microenvironment (TME) shaped by p53-mutant cells fosters immune evasion through myeloid cell reprogramming and regulatory T cell (Treg) recruitment [32,33]. In summary, p53′s complex role in cancer suppression stems from its ability to regu-late diverse cellular functions and respond to stress stimuli, with tissue-speciﬁc and mu-tation-speciﬁc eﬀects on tumor biology. Targeting p53 dysfunction in PCa holds potential for new treatment modalities aimed at leveraging the protein’s central role in cell regula-tion and tumor suppression.  Figure 1. Mutation diagram of localization and frequency of splice, missense, and truncating tp53 mutations in a cohort of 429 metastatic PCa patients [34].  Figure 2. Mutation diagram of localization and frequency of splice, missense, and truncating tp53 mutations in a cohort of 1465 localized PCa patients [35]. 3. TP53 and Prostate Cancer 3.1. TP53 Alterations and Preclinical Data in PCa Models Several preclinical studies have investigated the role of TP53 in the progression of PCa, in combination with other mutations or regarding therapy responses in in vitro and in vivo PCa models. Some of these studies conﬁrmed mechanistic data on TP53 regulation Cancers 2025, 17, 645
+
+5 of 15
+
+MDM2 and MDMX were inhibited, the TP53 pathway was activated and AR levels and
+function decreased [36].
+
+In clinical PCa samples, an increase in the frequency of TP53 alterations is found
+along the course of the disease, i.e., from localized disease to mCRPC samples. In vitro
+data investigating androgen-sensitive LNCap cells with and without TP53 alterations that
+were co-cultured showed that the subpopulation carrying the TP53 alteration became the
+dominant subpopulation after several days in culture [37]. This growth advantage was
+observed in hormone-sensitive and, to a larger extent, castration conditions, which is in line
+with the finding of a longitudinal increase in TP53 alterations during disease progression.
+The TP53-altered subpopulation was characterized by low CDKN1A expression (a tumor
+suppressor and target of functional p53), indicating that intact p53 served as a barrier to
+cell proliferation and advancement to castration-resistant growth [37]. Furthermore, TP53-
+deficient cells harbored more copy number variants (CNVs) when exposed to cytotoxic
+compounds stimulating CNV occurrence and also demonstrated a survival advantage
+in response to a CNV-inducing agent [37]. Thus, the loss of TP53 contributed to the
+development of CRPC by promoting the proliferation and genomic instability of tumor
+cells. Co-occurrence of alterations in TP53 and other important tumor suppressors, in
+particular RB1 or PTEN, was shown to render PCa tumor cells more aggressive or more
+resistant towards conventional therapies. For example, in PCa cell lines, RB1 loss enhanced
+ionizing radiation-induced DNA damage and promoted cellular senescence through a
+TP53-dependent pathway, but double deletion of RB1 and TP53 reversed DNA damage-
+induced cellular senescence and promoted radiation survival, although radiosensitivity
+could be restored by PARP1 inhibitor treatment [38]. Early in vivo studies in PTEN knock-
+out mice, which develop PCa after long latency due to the activity of the TP53-dependent
+cellular senescence pathway, showed that combined PTEN and TP53 inactivation elicits
+PCa in young mice and leads to early lethality in the absence of TP53 dependent cellular
+senescence [20].
+
+However, different combinations of tumor suppressor and oncogenic alterations may
+have divergent effects on PCa proliferation and development. For example, in a mouse
+model with PTEN/TP53 alterations, functional RB1, and overexpression of the ERG onco-
+gene, ERG overexpression blocked the PTEN/TP53-dependent decrease in AR expression,
+the expression of cell cycle-related genes, and the expression of mesenchymal lineage
+regulators, thus restricting lineage plasticity and maintaining androgen sensitivity [39].
+Interestingly, co-occurrence of the TPMRSS2-ERG fusion and a gain-of-function TP53 mu-
+tant was shown to accelerate PCa growth in vitro and in mice by activating beta-catenin
+expression and promoting pyrimidine synthesis, indicating that different TP53 mutations
+or deletions may have distinct effects during PCa progression [23]. This context-dependent
+phenotype of TP53 alterations was also investigated in a study on specific TP53 mutants
+(R273C and R273H) in a WT TP53-null setting and in the presence of endogenous WT TP53,
+revealing that the mutants led to pro-tumorigenic transcriptional activity, but only in the
+presence of WT TP53 [40].
+
+Several in vitro studies have tested the effects of systemic therapies on PCa prolifer-
+ation in the context of TP53 alterations. For example, deletion of the DNA repair gene
+MMS22L was found to make PCa cells hypersensitive to PARP inhibitors in a CRISPR
+knock-out screen; however, this effect was only seen when p53 was still intact [11]. Another
+study investigated the effects of GnRH agonists in PCa cell lines with and without TP53.
+It showed that GnRH agonists increase the expression of proapoptotic proteins through
+phosphorylation/activation of Ser-15 of TP53, triggered by p38 MAPK phosphorylation.
+GnRH agonists also sensitized and re-sensitized docetaxel-resistant PCa cells to docetaxel,
+
+Cancers 2025, 17, 645
+
+6 of 15
+
+but failed to do so if TP53 was absent, indicating that a functional p53 protein was necessary
+in combination treatment of GnRH agonists and docetaxel re-challenge [41].
+
+Recent therapies for advanced PCa usually combine systemic GnRH agonists or
+antagonists with androgen-receptor targeting agents (ARTAs), such as abiraterone or
+enzalutamide. After progression on ARTAs, approximately 20% of tumors show a neu-
+roendocrine lineage transformation, rendering them more resistant to ADT and successive
+therapies [8,42]. To gain mechanistic insights and identify key drivers of this transition,
+in vitro PCa models were used that were treated with ARTAs until resistance occurred. Loss
+of TP53 and RB1 was shown to induce a shift from androgen-dependent luminal cells to
+androgen-independent basal cells mediated by the reprograming transcription factor SOX2,
+thus contributing to lineage plasticity promoting resistance through lineage switching [43].
+Something that is noteworthy is the fact that not all cells with RB1/TP53 defects in this
+study underwent lineage plasticity and the AR program remained active, however, these
+cells were associated with a stem-cell-like program, the induction of lineage plasticity genes,
+and the shorter duration of response to androgen-deprivation or ARTA therapy.
+
+Regarding the role of the immune system in PCa development, TP53 loss was as-
+sociated with the induction of a pro-inflammatory and immunosuppressive TME in a
+murine PCa model [44]. Another study reported that infiltrating mast cells may lead to
+reduced PCa chemotherapy and radiotherapy sensitivity via activation of p38/p53/p21
+signaling in in vivo mouse models [45]. Furthermore, the immune checkpoint inhibitor
+B7-H3 (encoded by CD276) involved in immune suppression has been reported to be
+elevated in PCa tumors with PTEN and TP53 defects via activation of the transcription
+factor SP1. A preclinical model of PTEN/p53-deficient mice showed immunological escape
+mechanisms that take place when the immune checkpoint B7-H3 associated with TP53
+deletions is overexpressed. Elevated B7-H3 induced tumor growth and contributed to
+the immunosuppression of tumor-killing T cells and NK cells in PTEN/TP53-deficient
+tumors [10]. Targeting B7-H3 together with PD-L1/CTLA4 checkpoint inhibitors showed
+curative potential in PTEN/TP53-deficient CRPC models.
+
+3.2. TP53 Alterations and Clinical Prognosis in PCa Patients
+3.2.1. Localized Prostate Cancer and Biochemically Recurrent Prostate Cancer
+
+In localized PCa with a primary Gleason 5 pattern, 33% of patient tumors showed TP53
+mutations [46]. The presence of TP53 in localized PCa was associated with biochemical
+recurrence (BCR), metastasis, and worse overall survival in univariable analysis [46,47].
+Genomic profiling of lethal primary PCa tumors reported TP53 alterations in 27% of
+samples, whereas in RPE samples from intermediate- or high-risk disease TP53 mutations
+were present in 18% [47,48] (Figure 3). In the former study, TP53 alterations were not
+associated with time to CRPC but when comparing same-patient primary treatment-naïve
+and mCRPC samples, an increase in TP53 alterations in mCRPC was reported [47]. The
+latter study reported a higher risk of PSA persistence/recurrence in patients with somatic
+TP53 alterations, which was also found in other studies [48,49]. According to profiling
+of matched tumors from individual patients, somatic TP53 alterations appeared early in
+localized tumors from patients who later had metastatic illness, indicating that the presence
+of TP53 alterations may predict the increased risk of progression to metastatic disease [50].
+In line with this, another study reported the presence of TP53 mutations at low frequency
+in primary samples and enrichment of TP53 mutations in matched longitudinal metastatic
+samples [51]. Alterations in TP53 in localized or metastatic hormone-sensitive PCa also
+had a shorter time to CRPC, and cumulative gene hits in TP53, PTEN, and RB1 led to an
+incremental risk of progression with inferior OS with increasing gene hits [52].
+
+Cancers 2025, 17, 645
+
+7 of 15
+
+Figure 3. Prevalence of TP53 mutations in localized PCa, mHSPC, and mCRPC according to cited
+published data [46–48,52–61].
+
+3.2.2. Metastatic Hormone-Sensitive Prostate Cancer
+
+In metastatic PCa, the presence of combined alterations in TP53, PTEN, and RB1
+has been linked to poorer OS, an increasing prevalence of ETS gene fusions, and gene
+expression patterns favoring aggressive disease and tumor progression [62]. TP53 and
+SPOP mutations were found to be mutually exclusive, with TP53 alterations as negative and
+SPOP mutations as positive prognostic markers in metastatic PCa [53]. Enrichment of TP53
+alterations was also detected in tumors from patients with primary PCa and wide-spread
+metastasis compared to those without (40% vs. 20%), and TP53 alterations were associated
+with shorter OS [63]. When specifically comparing secondary to primary mHSPC, TP53
+mutations seemed to be associated with poor prognosis in secondary but not primary
+mHSPC [64].
+
+A gene expression score based on TP53, PTEN, and RB1 expression showed that low
+expression of these three genes was correlated with lower CRPC-free survival and OS [65].
+mHSPC patients without mutations in these genes derived a benefit from ADT + docetaxel
+treatment but not from ADT treatment alone [66].
+
+In mHSPC, current guidelines recommend treatment strategies based on tumor vol-
+ume, with higher tumor volumes requiring a more aggressive approach [3]. However, the
+impact of TP53 status on tumor volume and prognosis is unclear. Interestingly, in a subset
+of de-novo mHSPC samples from the STAMPEDE trial, TP53 alterations were more frequent
+in low-volume compared to high-volume disease [54]. In mHSPC men with oligometastasis,
+TP53 driver mutations were associated with shorter radiographic progression-free survival
+(rPFS) and time to CRPC, whereas mHSPC with high volume but without TP53 alterations
+had a better rPFS than those with TP53 alterations and similar to those with oligometastatic
+disease [67]. Metachronous oligometastatic mHSPC patients showed a lower long-term
+control rate if a TP53 mutation was present (27.6% vs. 42.3%), and bone failure was more
+common with tumors with TP53 mutations (44.8% vs. 25.9%) [68]. From these data, it can
+be hypothesized that the presence of a TP53 alteration in oligometastatic or low-volume
+mHSPC is associated with a more aggressive disease course. Indeed, in biopsy samples
+from PCa patients, mutations in TP53 were associated with visceral dissemination such as
+liver metastasis and early death, indicating a group of PCa patients that have a high risk of
+
+Cancers 2025, 17, x FOR PEER REVIEW 7 of 16    Figure 3. Prevalence of TP53 mutations in localized PCa, mHSPC, and mCRPC according to cited published data [46–48,52–61]. 3.2.2. Metastatic Hormone-Sensitive Prostate Cancer In metastatic PCa, the presence of combined alterations in TP53, PTEN, and RB1 has been linked to poorer OS, an increasing prevalence of ETS gene fusions, and gene expres-sion patterns favoring aggressive disease and tumor progression [62]. TP53 and SPOP mutations were found to be mutually exclusive, with TP53 alterations as negative and SPOP mutations as positive prognostic markers in metastatic PCa [53]. Enrichment of TP53 alterations was also detected in tumors from patients with primary PCa and wide-spread metastasis compared to those without (40% vs 20%), and TP53 alterations were associated with shorter OS [63]. When speciﬁcally comparing secondary to primary mHSPC, TP53 mutations seemed to be associated with poor prognosis in secondary but not primary mHSPC [64]. A gene expression score based on TP53, PTEN, and RB1 expression showed that low expression of these three genes was correlated with lower CRPC-free survival and OS [65]. mHSPC patients without mutations in these genes derived a beneﬁt from ADT + docetaxel treatment but not from ADT treatment alone [66]. In mHSPC, current guidelines recommend treatment strategies based on tumor vol-ume, with higher tumor volumes requiring a more aggressive approach [3]. However, the impact of TP53 status on tumor volume and prognosis is unclear. Interestingly, in a subset of de-novo mHSPC samples from the STAMPEDE trial, TP53 alterations were more fre-quent in low-volume compared to high-volume disease [54]. In mHSPC men with oli-gometastasis, TP53 driver mutations were associated with shorter radiographic progres-sion-free survival (rPFS) and time to CRPC, whereas mHSPC with high volume but with-out TP53 alterations had a better rPFS than those with TP53 alterations and similar to those with oligometastatic disease [67]. Metachronous oligometastatic mHSPC patients showed a lower long-term control rate if a TP53 mutation was present (27.6% vs. 42.3%), and bone failure was more common with tumors with TP53 mutations (44.8% vs. 25.9%) [68]. From these data, it can be hypothesized that the presence of a TP53 alteration in oligometastatic or low-volume mHSPC is associated with a more aggressive disease course. Indeed, in biopsy samples from PCa patients, mutations in TP53 were associated with visceral dis-semination such as liver metastasis and early death, indicating a group of PCa patients Cancers 2025, 17, 645
+
+8 of 15
+
+life-threatening disease who might benefit from more intensified treatment therapies [55].
+TP53 mutation prevalence in mHSPC in shown in Figure 3.
+
+3.2.3. Castration-Resistant Prostate Cancer
+
+Early whole-exome and -transcriptome sequencing studies in mCRPC patients have
+shown that somatic TP53 mutations are the most selectively mutated genes in mCRPC com-
+pared to primary PCa samples and, besides alterations in AR, the most frequent alteration
+found (in up to 50% of mCRPC samples) [7,69] (Figure 3). Regarding genomic structural
+variants such as deletions, insertions, duplications, inversions, and translocations, it was
+shown that biallelic TP53 inactivation in mCRPC samples was significantly associated with
+the presence of chromothripsis, which occurred in a stochastic manner [69]. In an integra-
+tive analysis addressing genomic features and clinical outcomes of >400 mCRPC cases,
+alterations in TP53 were associated with a shorter time on androgen receptor signaling
+inhibitor (ARSI) therapy, but there was no association with OS [8].
+
+For mCRPC patients with features of neuroendocrine dedifferentiation, the presence
+of TP53, RB1, or PTEN alterations was associated with a longer PFS under chemotherapy
+than ARTA, with platinum-based chemotherapy showing longer median PFS and OS than
+docetaxel only [70].
+
+Trials reporting the impact of TP53 mutations on prognosis in different disease stages
+
+are shown in Table 1.
+
+Table 1. Trials reporting the impact of TP53 mutations on clinical prognostic factors in different stages
+of disease [46,48,52,53,55,62,63,67,68].
+
+Authors
+
+Disease Setting
+
+Impact of TP53 Mutations on Prognosis
+
+Velho et al. [46]
+
+Nientiedt et al. [48]
+
+High-risk localized PCa
+Intermediate-/
+high-risk localized PCa
+
+Alshalalfa et al. [52]
+
+Localized PCa samples
+
+Deek et al. [67]
+
+Oligometastatic HSPC
+
+Sutera et al. [68]
+
+Oligometastatic HSPC
+
+Hamid et al. [52]
+
+mHSPC
+
+Watson et al. [62]
+
+Zhou et al. [53]
+
+Metastatic PCa
+
+Metastatic PCa
+
+Cussenot et al. [55]
+
+Metastatic PCa
+
+Hamid et al. [52]
+
+mCRPC
+
+Association with metastasis formation in univariate analysis
+Independent risk factor for PSA failure or PSA persistence after
+radical prostatectomy
+TP53 alterations from localized PCa samples were associated with a
+higher risk of widespread metastasis (5 or more sites), higher risk of
+liver and bone metastasis, and shorter OS
+
+Shorter rPFS and time to castration resistance
+Lower long-term control rate (no radiographic progression at last
+follow-up) and higher risk of bone failure in patients with
+TP53 mutations
+
+Shorter event-free survival and time to castration resistance and shorter
+OS in patients with TP53, PTEN, or RB1 mutations
+
+Shorter OS in patients with any TP53 alteration
+Shorter OS in patients with TP53 mutations, especially in TP53
+truncating mutations
+94% of samples collected in androgen deprivation-naïve patients; TP53
+mutations associated with a higher risk of visceral metastasis and an
+early age at death
+
+Shorter OS (not clinically significant) in patients with TP53, PTEN, or
+RB1 mutations
+
+3.3. TP53 Alterations and Association with Therapy Outcomes
+
+Regarding the predictive potential of TP53 for therapy outcomes, it has to be consid-
+ered that TP53 status is a prognostic biomarker for PCa in various clinical scenarios, and
+pathogenic alterations are usually associated with worse prognosis. Thus, given its associa-
+tion with prognosis, it may be mistakenly assumed to be predictive when therapy outcomes
+are considered. Still, several studies have investigated the association between TP53 alter-
+ation status and treatment results. For example, in patients with high-risk localized PCa
+receiving anti-androgen therapies before prostatectomy, whole-exome and -transcriptome
+
+Cancers 2025, 17, 645
+
+9 of 15
+
+sequencing of pretreatment tumors showed that TP53 alterations were exclusively found in
+non-responders to neoadjuvant therapy [71].
+
+For mHSPC patients, a study reported that patients receiving ADT + abiraterone, but
+not ADT + docetaxel, had a lower PFS if alterations in tumor suppressor genes such as
+TP53, PTEN, or RB1 were detected in pretreated tumors [56].
+
+In oligometastatic mHSPC patients from the STOMP and ORIOLE trials, it was shown
+that metastasis-directed therapy (MDT) prolonged PFS compared to observation and that
+patients with a high-risk mutation in TP53 (or ATM, BRCA1/2, RB1) gained the greatest
+benefit from MDT (PFS of 7.5 months (95% CI, 5.9—not reached) with MDT compared to
+2.8 months (95% CI, 2—not reached) without) [72].
+
+For mCRPC patients, several studies have investigated outcomes for ARTA therapies
+when TP53 alterations are detected. The presence of TP53 alterations in the primary tumor
+was associated with shorter PFS under abiraterone or enzalutamide therapy [57]. Detection
+of TP53 alterations in circulating tumor DNA prior to ARTA start in mCRPC patients was
+also correlated with the development of rapid resistance and adverse prognosis [58,73], and
+a retrospective analysis of circulating tumor cells (CTCs) in CRPC patients after progression
+on abiraterone/enzalutamide showed that CTCs harboring TP53 mutations were enriched
+in resistant patients [74]. When analyzing plasma tumor DNA before and after one cycle of
+abiraterone, chemotherapy-naïve mCRPC patients who had an alteration in TP53, RB1, or
+PTEN pretreatment and after one cycle of abiraterone had a significantly shorter OS than
+patients without alterations at either time point [75]. Another study in mCRPC patients
+receiving ARTA therapy reported that genomic and transcriptional analysis of metastatic
+CRPC biopsies prior to enzalutamide treatment revealed that TP53 gene alterations as
+well as low AR transcriptional activity and activation of a stemness program were more
+common in enzalutamide-non-responders than responders [76].
+
+In the SPARTAN trial assessing apalutamide plus ADT in high-risk non-metastatic
+CRPC patients, the frequency of TP53 alterations detected in ctDNA increased from baseline
+(22.2%) to end-of-study treatment (35.0%). In addition, in patients who received subsequent
+AR inhibitors, the presence of TP53 alterations was significantly associated with poor
+OS [59].
+
+In mCRPC patients receiving docetaxel chemotherapy, cell-free DNA (cfDNA) alter-
+ations were analyzed before and after starting chemotheray, showing that cfDNA levels
+of TP53, RB1, and PTEN alterations remained relatively stable, which may indicate the
+peristence of clones associated with resistance to therapy [77]. Also, mCRPC patients with
+TP53 or RB1 defects had a significantly shorter PFS than those without these defects after
+docetaxel chemotherapy (4.8 vs. 8.0 months) [60].
+
+In a retrospective study of mCRPC patients treated with Radium-223, TP53 alterations
+were present in 51.7% of patients, but no association of TP53 status between PSA response
+to Radium-223 and other clinical outcomes was detected [61].
+
+For mCRPC patients treated with 177-Lutetium-PSMA, two single-center studies
+reported that alterations in TP53 were not associated with 177-Lu-PSMA outcomes [78,79],
+whereas a larger multi-center retrospective study and a study from a phase I/II trial on
+177-Lu-PSMA therapy found an association between the presence of at least one mutation
+in TP53, RB1 or PTEN tumor suppressors with shorter PFS and OS [80,81].
+
+A treatment option for mCRPC patients having received several lines of conventional
+systemic therapies is bipolar androgen therapy (BAT), whereby serum testosterone is
+cycled from supraphysiologic to near-castrate levels each month. Interestingly, in mCRPC
+patients who achieved deep responses to bipolar androgen therapy (>70% PSA reduction),
+pathogenic mutations in TP53 and/or a homologous recombination DNA repair gene were
+detected [34]. In particular, mCRPC patients that harbored pathogenic alterations in at least
+
+Cancers 2025, 17, 645
+
+10 of 15
+
+two of three genes (TP53, PTEN, and RB1) had significantly improved PFS and OS rates
+when receiving BAT [35].
+
+4. TP53 as a Therapeutic Target in Prostate Cancer
+
+Due to its role as a transcription factor, WT p53 has long been considered undrug-
+gable, but emerging therapies seek to either restore WT function or exploit vulnerabilities
+associated with mutant p53. Therapeutic strategies for targeting p53 in cancer include
+restoring WT function in cancers with mutant p53 or inhibiting negative regulators like
+MDM2 and MDMX in cancers with WT p53 [24]. Mutant p53-targeted therapies aim to
+destabilize the mutant protein, which is usually highly expressed in cancer cells but not
+in normal cells. Moreover, research has demonstrated that even partial restoration of p53
+activity can induce tumor regression, especially through effects on the tumor microenviron-
+ment [82]. Currently, clinical trials investigating these drugs are mostly phase I/II basket
+trials that recruit different patient populations with solid malignancies (i.e., NCT04585750,
+NCT06386146, NCT03975387, and NCT02264613), and few preclinical and clinical trials
+exist for PCa that evaluate p53 as a therapeutic target (Table 2). In 2011, the first in-human
+data of APR-256, a small molecule structural corrector that binds selectively to the p53
+Y220C mutant protein and restores the p53 WT conformation, were published in refrac-
+tory hematologic malignancies and prostate cancer [83]. In a phase Ib trial, eprenetapopt
+(APR-246) was tested again in combination with pembrolizumab in advanced or metastatic
+solid tumors. A total of 37 patients received the therapy within the study, only a few (<3)
+of them with prostate cancer, but the drug combination was well tolerated [84].
+
+RG7112 binds MDM2 and inhibits its interaction with p53, thereby decreasing the
+negative effect of MDM2 on p53 stability. In a preclinical study, RG7112 led to cell cycle
+arrest and apoptosis in p53-WT cell models. The study group also tested the MDM2
+antagonist in the androgen-dependent PCa cell line LNCaP and found a strong synergistic
+effect of androgen deprivation combined with RG7112 [85]. The drug was tested in a
+phase I trial in leukemia patients but has yet to be tested in PCa patients [86]. Another
+MDM2 antagonist, nutlin-3, has also been tested in the LNCaP cell line, showing promising
+preclinical results, but was again tested in p53 WT cells, therefore targeting p53 but not its
+mutated form [87]. In a different trial, nutlin-3 was tested as a radiosensitizing compound
+in three different PCa cell lines, including p53 WT and mutant cell lines. The results showed
+that nutlin-3 decreased the survival of cells after radiation independent of p53 [88].
+
+Since aggregates formed by the mutant p53 can lead to loss of function of p53 tumor
+suppression and the gain of novel oncogenic functions, an inhibitor of p53 aggregation was
+tested in another preclinical study. ReACp53 was tested in p53-mutant PCa cell lines, and
+the results showed that the drug restored the transcriptional effects of p53 and reduced
+DNA synthesis of p53 mutant cells, thereby being another interesting potential target for
+further clinical trials [89]. In conclusion, reactivating p53 presents a promising therapeutic
+avenue, and further studies will show whether integration of p53-targeting strategies into
+clinical practice is possible.
+
+Table 2. Clinical and preclinical trials investigating p53-associated targets in oncologic treatment
+strategies against PCa [83–85,87–89].
+
+Drug
+
+APR-256
+
+RG7112
+Nutlin-3
+ReACp53
+
+Target
+
+Trial Design
+
+Authors
+
+Restoration of transactivation of
+WT TP53 target genes
+MDM2 inhibition
+MDM2 antagonist
+Inhibition of p53 aggregation
+
+Phase I
+
+Preclinical
+Preclinical
+Preclinical
+
+S. Lehmann et al.; H. Park et al. [83,84]
+
+Christian Tovar et al. [85]
+Stéphane Supiot et al.; Christian Tovar et al. [87,88]
+Yaqun Zhang et al. [89]
+
+Cancers 2025, 17, 645
+
+11 of 15
+
+5. Conclusions and Future Directions
+
+This review underscores the role of TP53 in the progression and treatment resistance
+of PCa. TP53 mutations are frequent in advanced and metastatic stages, contributing to
+genomic instability, aggressive tumor behavior, and poor clinical outcomes. Mutations in
+TP53 could serve as potential biomarkers for predicting disease progression and treatment
+resistance, particularly in castration-resistant disease. With the development of liquid
+biopsy strategies, analyzing circulating tumor cells (CTCs) or circulating tumor DNA
+(ctDNA), the presence of TP53 mutations can be detected throughout the natural history
+of disease and may serve as a prognostic biomarker, guiding clinical decision-making
+regarding early treatment intensification strategies in patients with a potentially highly
+aggressive disease. Despite its prevalence, therapeutic strategies targeting TP53 are still
+in the early stages, with preclinical and early-phase clinical trials investigating potential
+targets in oncologic therapeutic strategies. The development of novel approaches, including
+mutant-specific p53 inhibitors, MDM2 antagonists, and combination therapies, may provide
+future therapeutic options in managing TP53-altered PCa. Advancements in liquid biopsy
+and genomic profiling technologies can further enhance the detection of TP53 mutations,
+enabling personalized treatment approaches. Future research should focus on evaluating
+the interaction between TP53 alterations and other oncogenic drivers, possibly exploring
+synergistic effects and validating p53-targeting agents in large clinical trials.
+
+Author Contributions: Conceptualization, M.R.H. and H.O.; writing—original draft preparation,
+M.R.H. and H.O.; writing—review and editing, M.R.H. and H.O.; supervision, G.K. and S.F.S. All
+authors have read and agreed to the published version of the manuscript.
+
+Funding: This research received no external funding.
+
+Conflicts of Interest: The authors declare no conflicts of interest.
+
+References
+
+1. Withrow, D.; Pilleron, S.; Nikita, N.; Ferlay, J.; Sharma, S.; Nicholson, B.; Rebbeck, T.R.; Lu-Yao, G. Current and projected number
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+of years of life lost due to prostate cancer: A global study. Prostate 2022, 82, 1088–1097. [CrossRef] [PubMed]
+Van den Broeck, T.; van den Bergh, R.C.N.; Arfi, N.; Gross, T.; Moris, L.; Briers, E.; Cumberbatch, M.; De Santis, M.; Tilki, D.; Fanti,
+S.; et al. Prognostic Value of Biochemical Recurrence Following Treatment with Curative Intent for Prostate Cancer: A Systematic
+Review. Eur. Urol. 2019, 75, 967–987. [CrossRef] [PubMed]
+Tilki, D.; van den Bergh, R.C.N.; Briers, E.; Van den Broeck, T.; Brunckhorst, O.; Darraugh, J.; Eberli, D.; De Meerleer, G.; De Santis,
+M.; Farolfi, A.; et al. EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer. Part II-2024 Update: Treatment of
+Relapsing and Metastatic Prostate Cancer. Eur. Urol. 2024, 86, 164–182. [CrossRef] [PubMed]
+de Bono, J.; Mateo, J.; Fizazi, K.; Saad, F.; Shore, N.; Sandhu, S.; Chi, K.N.; Sartor, O.; Agarwal, N.; Olmos, D.; et al. Olaparib for
+Metastatic Castration-Resistant Prostate Cancer. N. Engl. J. Med. 2020, 382, 2091–2102. [CrossRef] [PubMed]
+Fizazi, K.; Piulats, J.M.; Reaume, M.N.; Ostler, P.; McDermott, R.; Gingerich, J.R.; Pintus, E.; Sridhar, S.S.; Bambury, R.M.;
+Emmenegger, U.; et al. Rucaparib or Physician’s Choice in Metastatic Prostate Cancer. N. Engl. J. Med. 2023, 388, 719–732.
+[CrossRef] [PubMed]
+Agarwal, N.; Azad, A.A.; Carles, J.; Fay, A.P.; Matsubara, N.; Heinrich, D.; Szczylik, C.; De Giorgi, U.; Young Joung, J.; Fong,
+P.C.C.; et al. Talazoparib plus enzalutamide in men with first-line metastatic castration-resistant prostate cancer (TALAPRO-2): A
+randomised, placebo-controlled, phase 3 trial. Lancet 2023, 402, 291–303. [CrossRef] [PubMed]
+Robinson, D.; Van Allen, E.M.; Wu, Y.M.; Schultz, N.; Lonigro, R.J.; Mosquera, J.M.; Montgomery, B.; Taplin, M.E.; Pritchard, C.C.;
+Attard, G.; et al. Integrative Clinical Genomics of Advanced Prostate Cancer. Cell 2015, 162, 454. [CrossRef]
+Abida, W.; Cyrta, J.; Heller, G.; Prandi, D.; Armenia, J.; Coleman, I.; Cieslik, M.; Benelli, M.; Robinson, D.; Van Allen, E.M.; et al.
+Genomic correlates of clinical outcome in advanced prostate cancer. Proc. Natl. Acad. Sci. USA 2019, 116, 11428–11436. [CrossRef]
+[PubMed]
+
+9. Nguyen, B.; Mota, J.M.; Nandakumar, S.; Stopsack, K.H.; Weg, E.; Rathkopf, D.; Morris, M.J.; Scher, H.I.; Kantoff, P.W.; Gopalan,
+A.; et al. Pan-cancer Analysis of CDK12 Alterations Identifies a Subset of Prostate Cancers with Distinct Genomic and Clinical
+Characteristics. Eur. Urol. 2020, 78, 671–679. [CrossRef] [PubMed]
+
+Cancers 2025, 17, 645
+
+12 of 15
+
+10.
+
+Shi, W.; Wang, Y.; Zhao, Y.; Kim, J.J.; Li, H.; Meng, C.; Chen, F.; Zhang, J.; Mak, D.H.; Van, V.; et al. Immune checkpoint B7-H3
+is a therapeutic vulnerability in prostate cancer harboring PTEN and TP53 deficiencies. Sci. Transl. Med. 2023, 15, eadf6724.
+[CrossRef] [PubMed]
+
+11. Tsujino, T.; Takai, T.; Hinohara, K.; Gui, F.; Tsutsumi, T.; Bai, X.; Miao, C.; Feng, C.; Gui, B.; Sztupinszki, Z.; et al. CRISPR screens
+reveal genetic determinants of PARP inhibitor sensitivity and resistance in prostate cancer. Nat. Commun. 2023, 14, 252. [CrossRef]
+[PubMed]
+
+12. Donehower, L.A.; Soussi, T.; Korkut, A.; Liu, Y.; Schultz, A.; Cardenas, M.; Li, X.; Babur, O.; Hsu, T.K.; Lichtarge, O.; et al.
+Integrated Analysis of TP53 Gene and Pathway Alterations in The Cancer Genome Atlas. Cell Rep. 2019, 28, 3010. [CrossRef]
+[PubMed]
+
+13. Cordon-Cardo, C.; Latres, E.; Drobnjak, M.; Oliva, M.R.; Pollack, D.; Woodruff, J.M.; Marechal, V.; Chen, J.; Brennan, M.F.; Levine,
+A.J. Molecular abnormalities of mdm2 and p53 genes in adult soft tissue sarcomas. Cancer Res. 1994, 54, 794–799. [PubMed]
+14. Lang, G.A.; Iwakuma, T.; Suh, Y.A.; Liu, G.; Rao, V.A.; Parant, J.M.; Valentin-Vega, Y.A.; Terzian, T.; Caldwell, L.C.; Strong, L.C.;
+et al. Gain of function of a p53 hot spot mutation in a mouse model of Li-Fraumeni syndrome. Cell 2004, 119, 861–872. [CrossRef]
+[PubMed]
+
+15. Cooks, T.; Pateras, I.S.; Tarcic, O.; Solomon, H.; Schetter, A.J.; Wilder, S.; Lozano, G.; Pikarsky, E.; Forshew, T.; Rosenfeld, N.; et al.
+Mutant p53 prolongs NF-κB activation and promotes chronic inflammation and inflammation-associated colorectal cancer. Cancer
+Cell 2013, 23, 634–646. [CrossRef] [PubMed]
+
+16. Gudkov, A.V.; Komarova, E.A. The role of p53 in determining sensitivity to radiotherapy. Nat. Rev. Cancer 2003, 3, 117–129.
+
+[CrossRef]
+
+17. Anbalagan, S.; Ström, C.; Downs, J.A.; Jeggo, P.A.; McBay, D.; Wilkins, A.; Rothkamm, K.; Harrington, K.J.; Yarnold, J.R.; Somaiah,
+N. TP53 modulates radiotherapy fraction size sensitivity in normal and malignant cells. Sci. Rep. 2021, 11, 7119. [CrossRef]
+18. Purvis, J.E.; Karhohs, K.W.; Mock, C.; Batchelor, E.; Loewer, A.; Lahav, G. p53 dynamics control cell fate. Science 2012, 336,
+
+1440–1444. [CrossRef] [PubMed]
+
+19. Donehower, L.A.; Harvey, M.; Slagle, B.L.; McArthur, M.J.; Montgomery, C.A.; Butel, J.S.; Bradley, A. Mice deficient for p53 are
+
+developmentally normal but susceptible to spontaneous tumours. Nature 1992, 356, 215–221. [CrossRef]
+
+20. Chen, Z.; Trotman, L.C.; Shaffer, D.; Lin, H.K.; Dotan, Z.A.; Niki, M.; Koutcher, J.A.; Scher, H.I.; Ludwig, T.; Gerald, W.; et al.
+Crucial role of p53-dependent cellular senescence in suppression of Pten-deficient tumorigenesis. Nature 2005, 436, 725–730.
+[CrossRef]
+
+21. Bougeard, G.; Renaux-Petel, M.; Flaman, J.M.; Charbonnier, C.; Fermey, P.; Belotti, M.; Gauthier-Villars, M.; Stoppa-Lyonnet,
+D.; Consolino, E.; Brugières, L.; et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. J. Clin. Oncol. 2015, 33,
+2345–2352. [CrossRef]
+
+22. Bouaoun, L.; Sonkin, D.; Ardin, M.; Hollstein, M.; Byrnes, G.; Zavadil, J.; Olivier, M. TP53 Variations in Human Cancers: New
+
+Lessons from the IARC TP53 Database and Genomics Data. Hum. Mutat. 2016, 37, 865–876. [CrossRef] [PubMed]
+
+23. Ding, D.; Blee, A.M.; Zhang, J.; Pan, Y.; Becker, N.A.; Maher, L.J.; Jimenez, R.; Wang, L.; Huang, H. Gain-of-function mutant p53
+together with ERG proto-oncogene drive prostate cancer by beta-catenin activation and pyrimidine synthesis. Nat. Commun.
+2023, 14, 4671. [CrossRef] [PubMed]
+
+24. Peuget, S.; Zhou, X.; Selivanova, G. Translating p53-based therapies for cancer into the clinic. Nat. Rev. Cancer 2024, 24, 192–215.
+
+[CrossRef] [PubMed]
+
+25. Wang, B.; Niu, D.; Lai, L.; Ren, E.C. p53 increases MHC class I expression by upregulating the endoplasmic reticulum aminopepti-
+
+dase ERAP1. Nat. Commun. 2013, 4, 2359. [CrossRef] [PubMed]
+
+26. Ho, J.N.H.G.; Schmidt, D.; Lowinus, T.; Ryoo, J.; Dopfer, E.P.; Gonzalo Núñez, N.; Costa-Pereira, S.; Toffalori, C.; Punta, M.;
+Fetsch, V.; et al. Targeting MDM2 enhances antileukemia immunity after allogeneic transplantation via MHC-II and TRAIL-R1/2
+upregulation. Blood 2022, 140, 1167–1181. [CrossRef]
+
+27. Cortez, M.A.; Ivan, C.; Valdecanas, D.; Wang, X.; Peltier, H.J.; Ye, Y.; Araujo, L.; Carbone, D.P.; Shilo, K.; Giri, D.K.; et al. PDL1
+
+Regulation by p53 via miR-34. J. Natl. Cancer Inst. 2016, 108, djv303. [CrossRef]
+
+28. Langenbach, M.; Giesler, S.; Richtsfeld, S.; Costa-Pereira, S.; Rindlisbacher, L.; Wertheimer, T.; Braun, L.M.; Andrieux, G.;
+Duquesne, S.; Pfeifer, D.; et al. MDM2 Inhibition Enhances Immune Checkpoint Inhibitor Efficacy by Increasing IL15 and MHC
+Class II Production. Mol. Cancer Res. 2023, 21, 849–864. [CrossRef] [PubMed]
+
+29. Textor, S.; Fiegler, N.; Arnold, A.; Porgador, A.; Hofmann, T.G.; Cerwenka, A. Human NK cells are alerted to induction of p53 in
+
+30.
+
+cancer cells by upregulation of the NKG2D ligands ULBP1 and ULBP2. Cancer Res. 2011, 71, 5998–6009. [CrossRef]
+Izquierdo, E.; Vorholt, D.; Blakemore, S.; Sackey, B.; Nolte, J.L.; Barbarino, V.; Schmitz, J.; Nickel, N.; Bachurski, D.; Lobastova, L.;
+et al. Extracellular vesicles and PD-L1 suppress macrophages, inducing therapy resistance in TP53-deficient B-cell malignancies.
+Blood 2022, 139, 3617–3629. [CrossRef]
+
+31. Pan, R.; Ryan, J.; Pan, D.; Wucherpfennig, K.W.; Letai, A. Augmenting NK cell-based immunotherapy by targeting mitochondrial
+
+apoptosis. Cell 2022, 185, 1521–1538.e1518. [CrossRef]
+
+Cancers 2025, 17, 645
+
+13 of 15
+
+32. Cooks, T.; Pateras, I.S.; Jenkins, L.M.; Patel, K.M.; Robles, A.I.; Morris, J.; Forshew, T.; Appella, E.; Gorgoulis, V.G.; Harris, C.C.
+Mutant p53 cancers reprogram macrophages to tumor supporting macrophages via exosomal miR-1246. Nat. Commun. 2018, 9,
+771. [CrossRef]
+
+33. Yang, P.; Li, Q.J.; Feng, Y.; Zhang, Y.; Markowitz, G.J.; Ning, S.; Deng, Y.; Zhao, J.; Jiang, S.; Yuan, Y.; et al. TGF-β-miR-34a-CCL22
+signaling-induced Treg cell recruitment promotes venous metastases of HBV-positive hepatocellular carcinoma. Cancer Cell 2012,
+22, 291–303. [CrossRef] [PubMed]
+
+34. Markowski, M.C.; Wang, H.; De Marzo, A.M.; Schweizer, M.T.; Antonarakis, E.S.; Denmeade, S.R. Clinical Efficacy of Bipolar
+Androgen Therapy in Men with Metastatic Castration-Resistant Prostate Cancer and Combined Tumor-Suppressor Loss. Eur.
+Urol. Open Sci. 2022, 41, 112–115. [CrossRef] [PubMed]
+
+35. Markowski, M.C.; Kachhap, S.; De Marzo, A.M.; Sena, L.A.; Luo, J.; Denmeade, S.R.; Antonarakis, E.S. Molecular and Clinical
+Characterization of Patients with Metastatic Castration Resistant Prostate Cancer Achieving Deep Responses to Bipolar Androgen
+Therapy. Clin. Genitourin. Cancer 2022, 20, 97–101. [CrossRef] [PubMed]
+
+36. Chopra, H.; Khan, Z.; Contreras, J.; Wang, H.; Sedrak, A.; Zhu, Y. Activation of p53 and destabilization of androgen receptor by
+
+combinatorial inhibition of MDM2 and MDMX in prostate cancer cells. Oncotarget 2018, 9, 6270–6281. [CrossRef]
+
+37. Lei, K.; Sun, R.; Chen, L.H.; Diplas, B.H.; Moure, C.J.; Wang, W.; Hansen, L.J.; Tao, Y.; Chen, X.; Chen, C.J.; et al. Mutant allele
+quantification reveals a genetic basis for TP53 mutation-driven castration resistance in prostate cancer cells. Sci. Rep. 2018, 8,
+12507. [CrossRef] [PubMed]
+Fan, Y.; Fan, H.; Quan, Z.; Wu, X. Ionizing Radiation Combined with PARP1 Inhibitor Reduces Radioresistance in Prostate Cancer
+with RB1/TP53 Loss. Cancer Investig. 2021, 39, 423–434. [CrossRef]
+
+38.
+
+39. Blee, A.M.; He, Y.; Yang, Y.; Ye, Z.; Yan, Y.; Pan, Y.; Ma, T.; Dugdale, J.; Kuehn, E.; Kohli, M.; et al. Controls Luminal Epithelial
+
+Lineage and Antiandrogen Sensitivity in. Clin. Cancer Res. 2018, 24, 4551–4565. [CrossRef]
+
+40. McCann, J.J.; Vasilevskaya, I.A.; McNair, C.; Gallagher, P.; Neupane, N.P.; de Leeuw, R.; Shafi, A.A.; Dylgjeri, E.; Mandigo, A.C.;
+Schiewer, M.J.; et al. Mutant p53 elicits context-dependent pro-tumorigenic phenotypes. Oncogene 2022, 41, 444–458. [CrossRef]
+[PubMed]
+
+41. Moretti, R.M.; Montagnani Marelli, M.; Taylor, D.M.; Martini, P.G.; Marzagalli, M.; Limonta, P. Gonadotropin-releasing hormone
+agonists sensitize, and resensitize, prostate cancer cells to docetaxel in a p53-dependent manner. PLoS ONE 2014, 9, e93713.
+[CrossRef] [PubMed]
+
+42. Yamada, Y.; Beltran, H. Clinical and Biological Features of Neuroendocrine Prostate Cancer. Curr. Oncol. Rep. 2021, 23, 15.
+
+[CrossRef] [PubMed]
+
+43. Mu, P.; Zhang, Z.; Benelli, M.; Karthaus, W.R.; Hoover, E.; Chen, C.C.; Wongvipat, J.; Ku, S.Y.; Gao, D.; Cao, Z.; et al. SOX2
+promotes lineage plasticity and antiandrogen resistance in TP53- and RB1-deficient prostate cancer. Science 2017, 355, 84–88.
+[CrossRef] [PubMed]
+
+44. Bezzi, M.; Seitzer, N.; Ishikawa, T.; Reschke, M.; Chen, M.; Wang, G.; Mitchell, C.; Ng, C.; Katon, J.; Lunardi, A.; et al. Diverse
+genetic-driven immune landscapes dictate tumor progression through distinct mechanisms. Nat. Med. 2018, 24, 165–175.
+[CrossRef] [PubMed]
+
+45. Xie, H.; Li, C.; Dang, Q.; Chang, L.S.; Li, L. Infiltrating mast cells increase prostate cancer chemotherapy and radiotherapy
+
+resistances via modulation of p38/p53/p21 and ATM signals. Oncotarget 2016, 7, 1341–1353. [CrossRef] [PubMed]
+
+46. Velho, P.I.; Lim, D.; Wang, H.; Park, J.C.; Kaur, H.B.; Almutairi, F.; Carducci, M.A.; Denmeade, S.R.; Markowski, M.C.; Isaacs,
+W.B.; et al. Molecular Characterization and Clinical Outcomes of Primary Gleason Pattern 5 Prostate Cancer After Radical
+Prostatectomy. JCO Precis. Oncol. 2019, 3, 1–3. [CrossRef]
+
+47. Mateo, J.; Seed, G.; Bertan, C.; Rescigno, P.; Dolling, D.; Figueiredo, I.; Miranda, S.; Nava Rodrigues, D.; Gurel, B.; Clarke, M.; et al.
+Genomics of lethal prostate cancer at diagnosis and castration resistance. J. Clin. Investig. 2020, 130, 1743–1751. [CrossRef]
+48. Nientiedt, C.; Budczies, J.; Endris, V.; Kirchner, M.; Schwab, C.; Jurcic, C.; Behnisch, R.; Hoveida, S.; Lantwin, P.; Kaczorowski, A.;
+et al. Mutations in TP53 or DNA damage repair genes define poor prognostic subgroups in primary prostate cancer. Urol. Oncol.
+2022, 40, 8.e11–18.e18. [CrossRef]
+Fu, M.; Wang, Q.; Wang, H.; Dai, Y.; Wang, J.; Kang, W.; Cui, Z.; Jin, X. Immune-Related Genes Are Prognostic Markers for
+Prostate Cancer Recurrence. Front. Genet. 2021, 12, 639642. [CrossRef]
+
+49.
+
+50. Abida, W.; Armenia, J.; Gopalan, A.; Brennan, R.; Walsh, M.; Barron, D.; Danila, D.; Rathkopf, D.; Morris, M.; Slovin, S.; et al.
+Prospective Genomic Profiling of Prostate Cancer Across Disease States Reveals Germline and Somatic Alterations That May
+Affect Clinical Decision Making. JCO Precis. Oncol. 2017, 2017, 1–16. [CrossRef]
+
+51. Hong, M.K.; Macintyre, G.; Wedge, D.C.; Van Loo, P.; Patel, K.; Lunke, S.; Alexandrov, L.B.; Sloggett, C.; Cmero, M.; Marass, F.;
+et al. Tracking the origins and drivers of subclonal metastatic expansion in prostate cancer. Nat. Commun. 2015, 6, 6605. [CrossRef]
+52. Hamid, A.A.; Gray, K.P.; Shaw, G.; MacConaill, L.E.; Evan, C.; Bernard, B.; Loda, M.; Corcoran, N.M.; Van Allen, E.M.; Choudhury,
+A.D.; et al. Compound Genomic Alterations of TP53, PTEN, and RB1 Tumor Suppressors in Localized and Metastatic Prostate
+Cancer. Eur. Urol. 2019, 76, 89–97. [CrossRef]
+
+Cancers 2025, 17, 645
+
+14 of 15
+
+53. Zhou, J.; Lai, Y.; Peng, S.; Tang, C.; Chen, Y.; Li, L.; Huang, H.; Guo, Z. Comprehensive analysis of TP53 and SPOP mutations and
+
+their impact on survival in metastatic prostate cancer. Front. Oncol. 2022, 12, 957404. [CrossRef] [PubMed]
+
+54. Gilson, C.; Ingleby, F.; Gilbert, D.C.; Parry, M.A.; Atako, N.B.; Ali, A.; Hoyle, A.; Clarke, N.W.; Gannon, M.; Wanstall, C.;
+et al. Genomic Profiles of De Novo High- and Low-Volume Metastatic Prostate Cancer: Results From a 2-Stage Feasibility and
+Prevalence Study in the STAMPEDE Trial. JCO Precis. Oncol. 2020, 4, 882–897. [CrossRef]
+
+55. Cussenot, O.; Timms, K.M.; Perrot, E.; Blanchet, P.; Brureau, L.; Solimeno, C.; Fromont, G.; Comperat, E.; Cancel-Tassin, G.
+Tumour-based Mutational Profiles Predict Visceral Metastasis Outcome and Early Death in Prostate Cancer Patients. Eur. Urol.
+Oncol. 2024, 7, 597–604. [CrossRef] [PubMed]
+
+56. Velez, M.G.; Kosiorek, H.E.; Egan, J.B.; McNatty, A.L.; Riaz, I.B.; Hwang, S.R.; Stewart, G.A.; Ho, T.H.; Moore, C.N.; Singh,
+P.; et al. Differential impact of tumor suppressor gene (TP53, PTEN, RB1) alterations and treatment outcomes in metastatic,
+hormone-sensitive prostate cancer. Prostate Cancer Prostatic Dis. 2022, 25, 479–483. [CrossRef]
+
+57. Maughan, B.L.; Guedes, L.B.; Boucher, K.; Rajoria, G.; Liu, Z.; Klimek, S.; Zoino, R.; Antonarakis, E.S.; Lotan, T.L. p53 status in
+the primary tumor predicts efficacy of subsequent abiraterone and enzalutamide in castration-resistant prostate cancer. Prostate
+Cancer Prostatic Dis. 2018, 21, 260–268. [CrossRef] [PubMed]
+
+58. De Laere, B.; Oeyen, S.; Mayrhofer, M.; Whitington, T.; van Dam, P.J.; Van Oyen, P.; Ghysel, C.; Ampe, J.; Ost, P.; Demey,
+W.; et al. Outperforms Other Androgen Receptor Biomarkers to Predict Abiraterone or Enzalutamide Outcome in Metastatic
+Castration-Resistant Prostate Cancer. Clin. Cancer Res. 2019, 25, 1766–1773. [CrossRef] [PubMed]
+Smith, M.R.; Thomas, S.; Gormley, M.; Chowdhury, S.; Olmos, D.; Oudard, S.; Feng, F.Y.; Rajpurohit, Y.; Urtishak, K.; Ricci, D.S.;
+et al. Blood Biomarker Landscape in Patients with High-risk Nonmetastatic Castration-Resistant Prostate Cancer Treated with
+Apalutamide and Androgen-Deprivation Therapy as They Progress to Metastatic Disease. Clin. Cancer Res. 2021, 27, 4539–4548.
+[CrossRef] [PubMed]
+
+59.
+
+60. Dong, B.; Fan, L.; Yang, B.; Chen, W.; Li, Y.; Wu, K.; Zhang, F.; Dong, H.; Cheng, H.; Pan, J.; et al. Use of Circulating Tumor DNA
+for the Clinical Management of Metastatic Castration-Resistant Prostate Cancer: A Multicenter, Real-World Study. J. Natl. Compr.
+Canc Netw. 2021, 19, 905–914. [CrossRef]
+
+61. Liu, A.J.; Kosiorek, H.E.; Ueberroth, B.E.; Jaeger, E.; Ledet, E.; Kendi, A.T.; Tzou, K.; Quevedo, F.; Choo, R.; Moore, C.N.; et al. The
+impact of genetic aberrations on response to radium-223 treatment for castration-resistant prostate cancer with bone metastases.
+Prostate 2022, 82, 1202–1209. [CrossRef] [PubMed]
+
+62. Watson, A.P.; Shabaneh, A.; Wang, J.; Dehm, S.M.; Rao, A.; Ryan, C.J. Triple Aberrant Prostate Cancer (TAPC)—Aggregate role of
+
+aberrations in. Am. J. Clin. Exp. Urol. 2020, 8, 106–115. [PubMed]
+
+63. Alshalalfa, M.; Goglia, A.G.; Swami, N.; Nguyen, B.; Hougen, H.Y.; Khan, A.; Kishan, A.U.; Punnen, S.; Nguyen, P.L.; Mahal, B.A.;
+et al. Determinants of widespread metastases and of metastatic tropism in patients with prostate cancer: A genomic analysis of
+primary and metastatic tumors. Urol. Oncol. 2023, 41, 253.e221–253.e226. [CrossRef] [PubMed]
+
+65.
+
+64. Nizialek, E.; Lim, S.J.; Wang, H.; Isaacsson Velho, P.; Yegnasubramanian, S.; Antonarakis, E.S. Genomic profiles and clinical
+outcomes in primary versus secondary metastatic hormone-sensitive prostate cancer. Prostate 2021, 81, 572–579. [CrossRef]
+[PubMed]
+Jiménez, N.; Garcia de Herreros, M.; Reig, Ò.; Marín-Aguilera, M.; Aversa, C.; Ferrer-Mileo, L.; García-Esteve, S.; Rodríguez-
+Carunchio, L.; Trias, I.; Font, A.; et al. Development and Independent Validation of a Prognostic Gene Expression Signature Based
+on RB1, PTEN, and TP53 in Metastatic Hormone-sensitive Prostate Cancer Patients. Eur. Urol. Oncol. 2024, 7, 954–964. [CrossRef]
+Jiménez, N.; Reig, Ò.; Marín-Aguilera, M.; Aversa, C.; Ferrer-Mileo, L.; Font, A.; Rodriguez-Vida, A.; Climent, M.; Cros, S.;
+Chirivella, I.; et al. Transcriptional Profile Associated with Clinical Outcomes in Metastatic Hormone-Sensitive Prostate Cancer
+Treated with Androgen Deprivation and Docetaxel. Cancers 2022, 14, 4757. [CrossRef] [PubMed]
+
+66.
+
+67. Deek, M.P.; Van der Eecken, K.; Phillips, R.; Parikh, N.R.; Isaacsson Velho, P.; Lotan, T.L.; Kishan, A.U.; Maurer, T.; Boutros, P.C.;
+Hovens, C.; et al. The Mutational Landscape of Metastatic Castration-sensitive Prostate Cancer: The Spectrum Theory Revisited.
+Eur. Urol. 2021, 80, 632–640. [CrossRef]
+Sutera, P.; Song, Y.; Shetty, A.C.; English, K.; Van der Eecken, K.; Guler, O.C.; Wang, J.; Cao, Y.; Bazyar, S.; Verbeke, S.;
+et al. Genomic Determinants Associated with Modes of Progression and Patterns of Failure in Metachronous Oligometastatic
+Castration-sensitive Prostate Cancer. Eur. Urol. Oncol. 2024, in press. [CrossRef] [PubMed]
+
+68.
+
+69. Quigley, D.A.; Dang, H.X.; Zhao, S.G.; Lloyd, P.; Aggarwal, R.; Alumkal, J.J.; Foye, A.; Kothari, V.; Perry, M.D.; Bailey, A.M.; et al.
+
+Genomic Hallmarks and Structural Variation in Metastatic Prostate Cancer. Cell 2018, 175, 889. [CrossRef]
+
+70. Wang, R.; Xu, Q.; Guo, H.; Yang, G.; Zhang, J.; Wang, H.; Xu, T.; Guo, C.; Yuan, J.; He, Y.; et al. Concordance and Clinical
+Significance of Genomic Alterations in Progressive Tumor Tissue and Matched Circulating Tumor DNA in Aggressive-variant
+Prostate Cancer. Cancer Res. Commun. 2023, 3, 2221–2232. [CrossRef]
+
+71. Tewari, A.K.; Cheung, A.T.M.; Crowdis, J.; Conway, J.R.; Camp, S.Y.; Wankowicz, S.A.; Livitz, D.G.; Park, J.; Lis, R.T.; Bosma-
+Moody, A.; et al. Molecular features of exceptional response to neoadjuvant anti-androgen therapy in high-risk localized prostate
+cancer. Cell Rep. 2021, 36, 109665. [CrossRef] [PubMed]
+
+Cancers 2025, 17, 645
+
+15 of 15
+
+72. Deek, M.P.; Van der Eecken, K.; Sutera, P.; Deek, R.A.; Fonteyne, V.; Mendes, A.A.; Decaestecker, K.; Kiess, A.P.; Lumen, N.;
+Phillips, R.; et al. Long-Term Outcomes and Genetic Predictors of Response to Metastasis-Directed Therapy Versus Observation in
+Oligometastatic Prostate Cancer: Analysis of STOMP and ORIOLE Trials. J. Clin. Oncol. 2022, 40, 3377–3382. [CrossRef] [PubMed]
+73. Annala, M.; Taavitsainen, S.; Khalaf, D.J.; Vandekerkhove, G.; Beja, K.; Sipola, J.; Warner, E.W.; Herberts, C.; Wong, A.; Fu, S.; et al.
+Evolution of Castration-Resistant Prostate Cancer in ctDNA during Sequential Androgen Receptor Pathway Inhibition. Clin.
+Cancer Res. 2021, 27, 4610–4623. [CrossRef] [PubMed]
+
+74. Gupta, S.; Halabi, S.; Kemeny, G.; Anand, M.; Giannakakou, P.; Nanus, D.M.; George, D.J.; Gregory, S.G.; Armstrong, A.J.
+Circulating Tumor Cell Genomic Evolution and Hormone Therapy Outcomes in Men with Metastatic Castration-Resistant
+Prostate Cancer. Mol. Cancer Res. 2021, 19, 1040–1050. [CrossRef] [PubMed]
+Jayaram, A.; Wingate, A.; Wetterskog, D.; Wheeler, G.; Sternberg, C.N.; Jones, R.; Berruti, A.; Lefresne, F.; Lahaye, M.; Thomas, S.;
+et al. Plasma tumor gene conversions after one cycle abiraterone acetate for metastatic castration-resistant prostate cancer: A
+biomarker analysis of a multicenter international trial. Ann. Oncol. 2021, 32, 726–735. [CrossRef] [PubMed]
+
+75.
+
+76. Alumkal, J.J.; Sun, D.; Lu, E.; Beer, T.M.; Thomas, G.V.; Latour, E.; Aggarwal, R.; Cetnar, J.; Ryan, C.J.; Tabatabaei, S.; et al.
+Transcriptional profiling identifies an androgen receptor activity-low, stemness program associated with enzalutamide resistance.
+Proc. Natl. Acad. Sci. USA 2020, 117, 12315–12323. [CrossRef]
+
+77. Tan, W.; Zheng, T.; Wang, A.; Roacho, J.; Thao, S.; Du, P.; Jia, S.; Yu, J.; King, B.L.; Kohli, M. Dynamic changes in gene alterations
+
+78.
+
+during chemotherapy in metastatic castrate resistant prostate cancer. Sci. Rep. 2022, 12, 4672. [CrossRef] [PubMed]
+Satapathy, S.; Das, C.K.; Aggarwal, P.; Sood, A.; Parihar, A.S.; Singh, S.K.; Mittal, B.R. Genomic characterization of metastatic
+castration-resistant prostate cancer patients undergoing PSMA radioligand therapy: A single-center experience. Prostate 2023, 83,
+169–178. [CrossRef]
+
+79. Vanwelkenhuyzen, J.; Van Bos, E.; Van Bruwaene, S.; Lesage, K.; Maes, A.; Üstmert, S.; Lavent, F.; Beels, L.; Grönberg, H.; Ost, P.;
+et al. AR and PI3K Genomic Profiling of Cell-free DNA Can Identify Poor Responders to Lutetium-177-PSMA Among Patients
+with Metastatic Castration-resistant Prostate Cancer. Eur. Urol. Open Sci. 2023, 53, 63–66. [CrossRef] [PubMed]
+
+80. Raychaudhuri, R.; Mo, G.; Tuchayi, A.M.; Graham, L.; Gulati, R.; Pritchard, C.C.; Haffner, M.C.; Yezefski, T.; Hawley, J.E.; Cheng,
+H.H.; et al. Genomic Correlates of Prostate-Specific Membrane Antigen Expression and Response to. JCO Precis. Oncol. 2024, 8,
+e2300634. [CrossRef]
+
+81. Crumbaker, M.; Goldstein, L.D.; Murray, D.H.; Tao, J.; Pathmanandavel, S.; Boulter, N.; Ratnayake, L.; Joshua, A.M.; Kummerfeld,
+S.; Emmett, L. Circulating Tumour DNA Biomarkers Associated with Outcomes in Metastatic Prostate Cancer Treated with
+Lutetium-177-PSMA-617. Eur. Urol. Open Sci. 2023, 57, 30–36. [CrossRef] [PubMed]
+
+82. Klimovich, B.; Meyer, L.; Merle, N.; Neumann, M.; König, A.M.; Ananikidis, N.; Keber, C.U.; Elmshäuser, S.; Timofeev, O.; Stiewe,
+
+T. Partial p53 reactivation is sufficient to induce cancer regression. J. Exp. Clin. Cancer Res. 2022, 41, 80. [CrossRef]
+
+83. Lehmann, S.; Bykov, V.J.; Ali, D.; Andrén, O.; Cherif, H.; Tidefelt, U.; Uggla, B.; Yachnin, J.; Juliusson, G.; Moshfegh, A.; et al.
+Targeting p53 in vivo: A first-in-human study with p53-targeting compound APR-246 in refractory hematologic malignancies
+and prostate cancer. J. Clin. Oncol. 2012, 30, 3633–3639. [CrossRef] [PubMed]
+
+84. Park, H.; Shapiro, G.I.; Gao, X.; Mahipal, A.; Starr, J.; Furqan, M.; Singh, P.; Ahrorov, A.; Gandhi, L.; Ghosh, A.; et al. Phase Ib
+study of eprenetapopt (APR-246) in combination with pembrolizumab in patients with advanced or metastatic solid tumors.
+ESMO Open 2022, 7, 100573. [CrossRef] [PubMed]
+
+85. Tovar, C.; Graves, B.; Packman, K.; Filipovic, Z.; Higgins, B.; Xia, M.; Tardell, C.; Garrido, R.; Lee, E.; Kolinsky, K.; et al. MDM2
+small-molecule antagonist RG7112 activates p53 signaling and regresses human tumors in preclinical cancer models. Cancer Res.
+2013, 73, 2587–2597. [CrossRef] [PubMed]
+
+86. Andreeff, M.; Kelly, K.R.; Yee, K.; Assouline, S.; Strair, R.; Popplewell, L.; Bowen, D.; Martinelli, G.; Drummond, M.W.; Vyas, P.;
+et al. Results of the Phase I Trial of RG7112, a Small-Molecule MDM2 Antagonist in Leukemia. Clin. Cancer Res. 2016, 22, 868–876.
+[CrossRef] [PubMed]
+
+87. Tovar, C.; Higgins, B.; Kolinsky, K.; Xia, M.; Packman, K.; Heimbrook, D.C.; Vassilev, L.T. MDM2 antagonists boost antitumor
+effect of androgen withdrawal: Implications for therapy of prostate cancer. Mol. Cancer 2011, 10, 49. [CrossRef] [PubMed]
+Supiot, S.; Hill, R.P.; Bristow, R.G. Nutlin-3 radiosensitizes hypoxic prostate cancer cells independent of p53. Mol. Cancer Ther.
+2008, 7, 993–999. [CrossRef] [PubMed]
+
+88.
+
+89. Zhang, Y.; Xu, L.; Chang, Y.; Li, Y.; Butler, W.; Jin, E.; Wang, A.; Tao, Y.; Chen, X.; Liang, C.; et al. Therapeutic potential of ReACp53
+
+targeting mutant p53 protein in CRPC. Prostate Cancer Prostatic Dis. 2020, 23, 160–171. [CrossRef] [PubMed]
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+

@@ -1,0 +1,867 @@
+23. Cancer Med. 2022 Jul;11(14):2767-2778. doi: 10.1002/cam4.4652. Epub 2022 Apr
+7.
+
+Molecular landscape of TP53 mutations in breast cancer and their utility for 
+predicting the response to HER-targeted therapy in HER2 amplification-positive 
+and HER2 mutation-positive amplification-negative patients.
+
+Liu B(1)(2), Yi Z(1), Guan Y(3)(4), Ouyang Q(2), Li C(5), Guan X(1), Lv D(1), Li 
+L(1), Zhai J(1), Qian H(5), Xu B(1), Ma F(1), Zeng Y(6)(7).
+
+Author information:
+(1)Department of Medical Oncology, National Cancer Center/National Clinical 
+Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences 
+and Peking Union Medical College, Beijing, China.
+(2)Department of Breast Cancer Medical Oncology, Hunan Cancer Hospital and the 
+Affiliated Cancer Hospital of Xiangya Medical School, Central South University, 
+Changsha, Hunan, China.
+(3)Geneplus-Beijing Institute, Beijing, China.
+(4)Department of Computer Science and Technology, School of Electronic and 
+Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi, China.
+(5)State Key Laboratory of Molecular Oncology, National Cancer Center/National 
+Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical 
+Sciences and Peking Union Medical College, Beijing, China.
+(6)Chinese Academy of Medical Sciences and Peking Union Medical College, 
+Beijing, China.
+(7)Sun Yat-sen University Cancer Center, State Key Laboratory of Oncology in 
+South China, Collaborative Innovation Center for Cancer Medicine, Guangzhou, 
+China.
+
+PURPOSE: We used targeted capture sequencing to analyze TP53-mutated circulating 
+tumor DNA (ctDNA) in metastatic breast cancer patients and to determine whether 
+TP53 mutation has predictive value for anti-human epidermal growth factor 
+receptor 2 (HER2) treatment for in HER2 amplification-positive patients (HER2+) 
+and HER2 mutation-positive, amplification-negative (HER2-/mut) patients.
+PATIENTS AND METHODS: TP53 mutation features were analyzed in the Geneplus 
+cohort (n = 1184). The MSK-BREAST cohort was used to explore the value of TP53 
+mutation in predicting anti-HER-2 antibody efficacy. Sequencing of ctDNA in 
+phase Ib, phase Ic, phase II clinical trials of pyrotinib (HER2+ patients), and 
+an investigator-initiated phase II study of pyrotinib (HER2-/mut patients) were 
+performed to analyze the relationships between TP53 mutation and prognosis for 
+HER2 TKIs. The MSK-BREAST cohort, MutHER, and SUMMIT cohort were used for 
+verification.
+RESULTS: TP53 mutations were detected in 53.1% (629/1184) of patients in the 
+Geneplus cohort. The TP53 mutation rate was higher in HR-negative (p < 0.001) 
+and HER2 amplification-positive (p = 0.015) patients. Among patients receiving 
+anti-HER2 antibody therapy, those whose tumors carried TP53 mutations had a 
+shorter PFS (p = 0.004). However, the value of TP53 mutation in predicting HER2 
+TKI response was inconsistent. In HER2+ patients, no difference in PFS was 
+observed among patients with different TP53 statuses in the combined analysis of 
+the pyrotinib phase Ib, phase Ic, and phase II clinical trials (p = 1.00) or in 
+the MSK-BREAST cohort (p = 0.62). In HER2-/mut patients, TP53 mutation-positive 
+patients exhibited a trend toward worse prognosis with anti-HER2 TKI treatment 
+than TP53-wild-type patients in our investigator-initiated phase II study 
+(p = 0.15), and this trend was confirmed in the combined analysis of the MutHER 
+and SUMMIT cohorts (p = 0.01).
+CONCLUSIONS: TP53 mutation can be used to identify biomarkers of anti-HER2 
+antibody drug resistance in HER2+ patients and HER2 TKI resistance in HER2-/mut 
+patients.
+
+© 2022 The Authors. Cancer Medicine published by John Wiley & Sons Ltd.
+
+DOI: 10.1002/cam4.4652
+PMCID: PMC9302303
+PMID: 35393784 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that there are no competing 
+interests to disclose.
+
+
+24. Breast. 2022 Apr;62:52-60. doi: 10.1016/j.breast.2022.01.014. Epub 2022 Jan
+29.
+
+Exploratory analysis of biomarkers associated with clinical outcomes from the 
+study of palbociclib plus endocrine therapy in premenopausal women with hormone 
+receptor-positive, HER2-negative metastatic breast cancer.
+
+Lee S(1), Park K(2), Kim GM(3), Jung KH(4), Kang SY(5), Park IH(6), Kim JH(7), 
+Ahn HK(8), Park WY(2), Im SA(9), Park YH(10).
+
+Author information:
+(1)Division of Oncology-Hematology, Department of Internal Medicine, Korea 
+University College of Medicine, Korea University Anam Hospital, Seoul, South 
+Korea.
+(2)Samsung Genome Institute, Samsung Medical Center, Seoul, South Korea.
+(3)Division of Medical Oncology, Department of Internal Medicine, Yonsei 
+University College of Medicine, Seoul, South Korea.
+(4)Department of Oncology, Asan Medical Center, University of Ulsan College of 
+Medicine, Seoul, South Korea.
+(5)Department of Hematology-Oncology, Ajou University School of Medicine, Suwon, 
+South Korea.
+(6)Department of Medical Oncology, Korea University College of Medicine, Korea 
+University Guro Hospital, Seoul, South Korea.
+(7)Department of Internal Medicine, Seoul National University Bundang Hospital, 
+Seoul National University College of Medicine, Seongnam, South Korea.
+(8)Division of Medical Oncology, Department of Internal Medicine, Gachon 
+University Gil Medical Center, Incheon, South Korea.
+(9)Department of Internal Medicine, Seoul National University Hospital, Cancer 
+Research Institute, Seoul National University, College of Medicine, Seoul, South 
+Korea. Electronic address: moisa@snu.ac.kr.
+(10)Division of Hematology-Oncology, Department of Medicine, Samsung Medical 
+Center, Sungkyunkwan University School of Medicine, Seoul, South Korea. 
+Electronic address: yhparkhmo@skku.edu.
+
+BACKGROUND: Palbociclib plus endocrine therapy (ET) demonstrated significant 
+progression-free survival (PFS) benefit in Young Pearl, a randomized phase ll 
+trial comparing palbociclib + ET versus capecitabine in premenopausal women with 
+hormone receptor positive, HER2 negative metastatic breast cancer (MBC). This 
+exploratory analysis investigated potential biomarkers of palbociclib plus ET on 
+PFS.
+PATIENTS AND METHODS: Of 178 patients randomized (92 palbociclib plus ET; 86 
+capecitabine), we performed targeted sequencing (141 patients) and whole 
+transcriptome sequencing (165 patients) using baseline tumor samples to examine 
+genomic alteration in relation to drug response on PFS. Hazard ratios (HRs) were 
+estimated using unstratified Cox proportional hazards models.
+RESULTS: PIK3CA (41%) and TP53 (33%) mutations and CCND1 copy number variation 
+(29%) were found most frequently in targeted sequencing of 141 patients. ESR1 
+mutations were found only in 3.5% of patients of this population. Luminal type 
+showed better prognosis in palbociclib + ET arm but no impact on PFS difference 
+in capecitabine arm. High TMB, TP53 mutation, PTEN loss of function mutation and 
+RB1 pathway alteration showed worse prognosis in palbociclib plus ET arm. 
+Patients with BRCA2 pathogenic mutations showed worse prognosis regardless of 
+PAM50 subtypes. AURKA mutation/amplification, BRIP1/MYC/RAD51C amplification 
+were significantly associated to the patients with short PFS <6 month.
+CONCLUSION: Of palbociclib plus ET, luminal type showed better prognosis and 
+BRCA2 pathogenic mutation showed worse prognosis regardless luminal/non-luminal 
+type. Further exploration of molecular variables is warranted to determine and 
+validate biomarkers of efficacy and resistance.
+
+Copyright © 2022 The Authors. Published by Elsevier Ltd.. All rights reserved.
+
+DOI: 10.1016/j.breast.2022.01.014
+PMCID: PMC8819475
+PMID: 35124320 [Indexed for MEDLINE]
+
+Conflict of interest statement: SA Im reports grants from Pfizer, drug supply 
+from Pfizer, Shinpoong, Daewoong, and Takeda (during the conduct of the study); 
+grants from AstraZeneca and Pfizer (outside the submitted work); and advisory 
+role for Hanmi, GSK, Pfizer, Eisai, Amgen, Lilly, MSD, and Roche (outside the 
+submitted work). KHJ reports grants from Ono Pharma Korea (outside the submitted 
+work). HKA reports personal fees and non-financial support from AstraZeneca, 
+Roche, Boehringer Ingelheim, Menarini, Pfizer, Bristol-Myers Squibb, Ono, and 
+Boryung, and grants from Samyang (outside the submitted work). KHJ reports 
+personal fees from AstraZeneca Korea and Roche Korea (outside the submitted 
+work). YHP reports grants and non-financial support from Pfizer, AstraZeneca, 
+Novartis, Merck, and Roche (during the conduct of this study), and grants from 
+Eisai (outside the submitted work). All other authors declare no competing 
+interests.
+
+
+25. Mol Oncol. 2022 May;16(10):2057-2070. doi: 10.1002/1878-0261.13188. Epub 2022
+ Mar 30.
+
+Circulating tumor DNA predicts efficacy of a dual AKT/p70S6K inhibitor 
+(LY2780301) plus paclitaxel in metastatic breast cancer: plasma analysis of the 
+TAKTIC phase IB/II study.
+
+Sabatier R(1)(2), Vicier C(2), Garnier S(1), Guille A(1), Carbuccia N(1), 
+Isambert N(3), Dalenc F(4), Robert M(5), Levy C(6), Pakradouni J(7), Adelaïde 
+J(1), Chaffanet M(1), Sfumato P(7), Mamessier E(2), Bertucci F(1)(2), Goncalves 
+A(1)(2).
+
+Author information:
+(1)CRCM-Predictive Oncology Laboratory, Institut Paoli-Calmettes, Inserm, CNRS, 
+Aix-Marseille Université, France.
+(2)Institut Paoli-Calmettes-Department of Medical Oncology, CRCM, Inserm, CNRS, 
+Aix-Marseille Université, France.
+(3)Drug Development Department, Centre Georges François Leclerc, Dijon, France.
+(4)Department of Medical Oncology, Institut Claudius Regaud, CRCT, Inserm, 
+IUCT-Oncopole, Toulouse, France.
+(5)Institut de Cancérologie de l'Ouest-René Gauducheau, Saint-Herblain, France.
+(6)Department of Medical Oncology, Centre François Baclesse, Caen, France.
+(7)Depatment of Clinical Research and Innovation, Institut Paoli-Calmettes, 
+Marseille, France.
+
+The phosphatidylinositol-3-kinase (PI3K)/AKT/mammalian target of rapamycin 
+(mTOR) pathway is frequently activated in HER2-negative breast cancer and may 
+play a role in taxane resistance. The phase IB/II TAKTIC trial (NCT01980277) has 
+shown that combining a dual AKT and p70 ribosomal protein S6 kinase (p70S6K) 
+inhibitor (LY2780301) taken orally with weekly paclitaxel in HER2-negative 
+advanced breast cancer is feasible, with preliminary evidence of efficacy. We 
+wanted to explore whether circulating tumor DNA (ctDNA) may be a surrogate 
+marker of treatment efficacy in this setting. Serial plasma samples were 
+collected and cell-free DNA was sequenced using low-coverage whole-genome 
+sequencing, and analysis was completed with droplet digital polymerase chain 
+reaction (PCR) for some patients with driver mutations. Baseline tumor fraction 
+(TF) and TF after 7 weeks on treatment were compared to progression-free 
+survival (PFS) and the overall response rate. We also explored circulating copy 
+number alterations associated with treatment failure. Of the 51 patients 
+enrolled in the TAKTIC trial, at least one plasma sample was available for 44 
+cases (96 timepoints). All patients with tumor TP53, PI3KCA, or AKT1 mutations 
+harbored at least one of these alterations in plasma. TF at inclusion was 
+correlated with PFS (6m-PFS was 92% for ctDNAneg patients vs 68% for ctDNApos 
+cases; hazard ratio [HR] = 3.45, 95% confidence interval [CI] [1.34-8.90], 
+P = 0.007). ctDNA status at week 7 was not correlated with prognosis. Even 
+though most circulating copy number alterations were conserved at disease 
+progression, some genomic regions of interest were altered in post-progression 
+samples. In conclusion, ctDNA detection at baseline was associated with shorter 
+PFS in patients included in the TAKTIC trial. Plasma-based copy number analysis 
+may help to identify alterations involved in resistance to treatment.
+
+© 2022 The Authors. Molecular Oncology published by John Wiley & Sons Ltd on 
+behalf of Federation of European Biochemical Societies.
+
+DOI: 10.1002/1878-0261.13188
+PMCID: PMC9120890
+PMID: 35122700 [Indexed for MEDLINE]
+
+Conflict of interest statement: A.G. declares nonfinancial support from 
+Novartis. R.S. declares research grants from EISAI and AstraZeneca; advisory 
+board for Roche, GSK, and Novartis; nonfinancial support (travel, accommodation 
+and meeting registration fees) was from Pfizer, Roche, GSK, BMS, and 
+AstraZeneca. The other authors declare no conflicts of interest.
+
+
+26. Cancer Sci. 2022 Jan;113(1):287-296. doi: 10.1111/cas.15171. Epub 2021 Nov 7.
+
+Predictive value of EGFR mutation in non-small-cell lung cancer patients treated 
+with platinum doublet postoperative chemotherapy.
+
+Takahashi T(1), Sakai K(2), Kenmotsu H(1), Yoh K(3), Daga H(4), Ohira T(5), Ueno 
+T(6), Aoki T(7), Hayashi H(8), Yamazaki K(9), Hosomi Y(10), Chen-Yoshikawa 
+TF(11), Okumura N(12), Takiguchi Y(13), Sekine A(14), Haruki T(15), Yamamoto 
+H(16), Sato Y(17), Akamatsu H(18), Seto T(19), Saeki S(20), Sugio K(21), Nishio 
+M(22), Inokawa H(23), Yamamoto N(18), Nishio K(2), Tsuboi M(24).
+
+Author information:
+(1)Division of Thoracic Oncology, Shizuoka Cancer Center, Nagaizumi-cho, 
+Sunto-gun, Japan.
+(2)Department of Genome Biology, Kindai University Faculty of Medicine, 
+Osaka-sayama, Japan.
+(3)Department of Thoracic Oncology, National Cancer Center Hospital East, 
+Kashiwa, Japan.
+(4)Department of Medical Oncology, Osaka City General Hospital, Osaka, Japan.
+(5)Department of Surgery, Tokyo Medical University, Tokyo, Japan.
+(6)Department of Thoracic Surgery, National Hospital Organization, Shikoku 
+Cancer Center, Matsuyama, Japan.
+(7)Department of Chest Surgery, Niigata Cancer Center Hospital, Niigata, Japan.
+(8)Department of Medical Oncology, Kindai University Faculty of Medicine, 
+Osaka-Sayama, Japan.
+(9)Department of Thoracic Surgery, Clinical Research Institute, National 
+Hospital Organization, Kyushu Medical Center, Fukuoka, Japan.
+(10)Department of Thoracic Oncology and Respiratory Medicine, Tokyo Metropolitan 
+Cancer and Infectious Diseases Center Komagome Hospital, Tokyo, Japan.
+(11)Department of Thoracic Surgery, Nagoya University Graduate School of 
+Medicine, Nagoya, Japan.
+(12)Department of Thoracic Surgery, Kurashiki Central Hospital, Kurashiki, 
+Japan.
+(13)Department of Medical Oncology, Chiba University Hospital, Chiba, Japan.
+(14)Department of Respiratory Medicine, Kanagawa Cardiovascular and Respiratory 
+Center, Yokohama, Japan.
+(15)Division of General Thoracic Surgery, Department of Surgery, Faculty of 
+Medicine, Tottori University, Tottori, Japan.
+(16)Department of Thoracic Surgery, Okayama University Hospital, Okayama, Japan.
+(17)Department of Respiratory Medicine, Kobe City Medical Center General 
+Hospital, Kobe, Japan.
+(18)Internal Medicine III, Wakayama Medical University, Wakayama, Japan.
+(19)Department of Thoracic Oncology, National Hospital Organization Kyushu 
+Cancer Center, Fukuoka, Japan.
+(20)Department of Respiratory Medicine, Kumamoto University Hospital, Kumamoto, 
+Japan.
+(21)Department of Thoracic and Breast Surgery, Oita University, Oita, Japan.
+(22)Department of Thoracic Medical Oncology, The Cancer Institute Hospital, 
+Japanese Foundation For Cancer Research, Tokyo, Japan.
+(23)Division of Thoracic Surgery, Yamaguchi Ube Medical Center, Ube, Japan.
+(24)Division of Thoracic Surgery, National Cancer Center Hospital East, Kashiwa, 
+Japan.
+
+The mutation status of tumor tissue DNA (n = 389) of resected stage II-III 
+non-squamous non-small-cell lung cancer (Ns-NSCLC) was analyzed using targeted 
+deep sequencing as an exploratory biomarker study (JIPANG-TR) for the JIPANG 
+study, a randomized phase III study of pemetrexed/cisplatin (Pem/Cis) vs 
+vinorelbine/cisplatin (Vnr/Cis). The TP53 mutation, common EGFR mutations (exon 
+19 deletion and L858R), and KRAS mutations were frequently detected. The 
+frequency of the EGFR mutation was significant among female patients. Patients 
+with an EGFR mutation-positive status had a significantly shorter 
+recurrence-free survival (RFS) time (24 mo vs not reached) (HR, 1.64; 95% CI, 
+1.22-2.21; P = .0011 for EGFR mutation status). Multivariable analysis 
+identified both the pathological stage and EGFR mutation status as independent 
+prognostic factors for RFS (HR, 1.78; 95% CI, 1.30-2.44; P = .0003 for disease 
+stage; and HR, 1.57; 95% CI, 1.15-2.16; P = .0050 for EGFR mutation status). 
+This study demonstrated that the EGFR mutation has either a poor prognostic or 
+predictive impact on a poor response to postoperative chemotherapy with platinum 
+doublet chemotherapy for stage II-III Ns-NSCLC patients. This result supports a 
+role for mandatory molecular diagnosis of early-stage Ns-NSCLC for precision 
+oncology and signifies the importance of adjuvant for the 3rd generation 
+tyrosine kinase inhibitor rather than platinum-based chemotherapy. This study is 
+registered with the UMIN Clinical Trial Registry (UMIN 000012237).
+
+© 2021 The Authors. Cancer Science published by John Wiley & Sons Australia, Ltd 
+on behalf of Japanese Cancer Association.
+
+DOI: 10.1111/cas.15171
+PMCID: PMC8748214
+PMID: 34689382 [Indexed for MEDLINE]
+
+
+27. JCO Precis Oncol. 2021 Sep 1;5:PO.20.00445. doi: 10.1200/PO.20.00445. 
+eCollection 2021.
+
+Genomic Profiling of Premenopausal HR+ and HER2- Metastatic Breast Cancer by 
+Circulating Tumor DNA and Association of Genetic Alterations With Therapeutic 
+Response to Endocrine Therapy and Ribociclib.
+
+Bardia A(1), Su F(2), Solovieff N(3), Im SA(4), Sohn J(5), Lee KS(6), 
+Campos-Gomez S(7), Jung KH(8), Colleoni M(9), Vázquez RV(10), Franke F(11), 
+Hurvitz S(12), Harbeck N(13), Chow L(14), Taran T(2), Rodriguez Lorenc K(2), 
+Babbar N(3), Tripathy D(15), Lu YS(16).
+
+Author information:
+(1)Massachusetts General Hospital Cancer Center, Harvard Medical School, Boston, 
+MA.
+(2)Novartis Pharmaceuticals Corporation, East Hanover, NJ.
+(3)Novartis Pharmaceuticals Corporation, Cambridge, MA.
+(4)Seoul National University Hospital, Cancer Research Institute, Seoul National 
+University College of Medicine, Seoul, South Korea.
+(5)Yonsei Cancer Center, Yonsei University Health System, Seoul, South Korea.
+(6)Center for Breast Cancer, National Cancer Center, Goyang, South Korea.
+(7)Centro Oncológico Estatal, Instituto de Seguridad Social del Estado de México 
+y Municipios, Toluca, Mexico.
+(8)Asan Medical Center, University of Ulsan College of Medicine, Seoul, South 
+Korea.
+(9)Division of Medical Senology, IEO, European Institute of Oncology, IRCCS, 
+Milan, Italy.
+(10)Institut Català d'Oncologia, Hospital de Sant Joan Despí Moisès Broggi, 
+Barcelona, Spain.
+(11)Hospital de Caridade de Ijuí, CACON, Ijuí, Brazil.
+(12)University of California, Los Angeles Jonsson Comprehensive Cancer Center, 
+Los Angeles, CA.
+(13)Department of Obstetrics and Gynecology, Breast Center, 
+Ludwig-Maximilians-University Munich, Munich, Germany.
+(14)Organisation for Oncology and Translational Research, Hong Kong, China.
+(15)The University of Texas MD Anderson Cancer Center, Houston, TX.
+(16)National Taiwan University Hospital, Taipei, Taiwan.
+
+Erratum in
+    JCO Precis Oncol. 2023 Mar;7:e2300102. doi: 10.1200/PO.23.00102.
+
+PURPOSE: This analysis evaluated the genomic landscape of premenopausal patients 
+with hormone receptor-positive and human epidermal growth factor receptor 
+2-negative advanced breast cancer and the association of genetic alterations 
+with response to ribociclib in the phase III MONALEESA-7 trial.
+METHODS: Premenopausal patients were randomly assigned 1:1 to receive endocrine 
+therapy plus ribociclib or placebo. Plasma collected at baseline was sequenced 
+using targeted next-generation sequencing for approximately 600 relevant cancer 
+genes. The association of circulating tumor DNA alterations with 
+progression-free survival (PFS) was evaluated to identify biomarkers of response 
+and resistance to ribociclib.
+RESULTS: Baseline circulating tumor DNA was sequenced in 565 patients; 489 had 
+evidence of ≥ 1 alteration. The most frequent alterations included PIK3CA (28%), 
+TP53 (19%), CCND1 (10%), MYC (8%), GATA3 (8%), receptor tyrosine kinases (17%), 
+and the Chr8p11.23 locus (12%). A treatment benefit of ribociclib was seen with 
+wild-type (hazard ratio [HR] 0.45 [95% CI, 0.33 to 0.62]) and altered (HR 0.57 
+[95% CI, 0.36 to 0.9]) PIK3CA. Overall, patients with altered CCND1 had shorter 
+PFS regardless of treatment, suggesting CCND1 as a potential prognostic 
+biomarker. Benefit with ribociclib was seen in patients with altered (HR 0.21 
+[95% CI, 0.08 to 0.54]) or wild-type (HR 0.52 [95% CI, 0.39 to 0.68]) CCND1, but 
+greater benefit was observed with altered, suggesting predictive potential of 
+CCND1. Alterations in TP53, MYC, Chr8p11.23 locus, and receptor tyrosine kinases 
+were associated with worse PFS, but ribociclib benefit was independent of 
+alteration status.
+CONCLUSION: In this study-to our knowledge, the first large study of 
+premenopausal patients with hormone receptor-positive and human epidermal growth 
+factor receptor 2-negative advanced breast cancer-multiple genomic alterations 
+were associated with poor outcome. A PFS benefit of ribociclib was observed 
+regardless of gene alteration status, although in this exploratory analysis, a 
+magnitude of benefits varied by alteration.
+
+© 2021 by American Society of Clinical Oncology.
+
+DOI: 10.1200/PO.20.00445
+PMCID: PMC8423397
+PMID: 34504990 [Indexed for MEDLINE]
+
+Conflict of interest statement: Aditya Bardia Consulting or Advisory Role: 
+Novartis, Genentech, Pfizer, Spectrum Pharmaceuticals, BioTheranostics, Merck, 
+Radius Pharma, Immunomedics, Sanofi, Puma Biotechnology, Daiichi Sankyo/Astra 
+Zeneca, Foundation Medicine, Philips, Genentech/Roche, Radius Health, Innocrin 
+Pharma Research Funding: Genentech, Novartis, Pfizer, Merck, Sanofi, Radius, 
+Immunomedics, AstraZeneca/Daiichi Sankyo Open Payments Link: 
+https://openpaymentsdata.cms.gov/physician/523675 Fei Su Employment: Novartis 
+Stock and Other Ownership Interests: Novartis Nadia Solovieff Employment: 
+Novartis Stock and Other Ownership Interests: Novartis Seock-Ah Im Consulting or 
+Advisory Role: AstraZeneca, Novartis, Roche/Genentech, Eisai, Pfizer, Amgen, 
+Hanmi, Lilly, GlaxoSmithKline, MSD, Daiichi Sankyo Research Funding: 
+AstraZeneca, Pfizer, Roche/Genentech, Daewoong Pharmaceutical, Eisai Other 
+Relationship: Roche Joohyuk Sohn Research Funding: MSD, Roche, Novartis, Lilly, 
+Pfizer, Bayer, Daiichi Sankyo, AstraZeneca, GlaxoSmithKline Other Relationship: 
+Roche Keun Seok Lee Consulting or Advisory Role: Lilly, MSD Oncology, Novartis, 
+Roche, Pfizer Research Funding: Dong-A ST Saul Campos Gomez Consulting or 
+Advisory Role: Roche, Bristol Myers Squibb, MSD Oncology Kyung Hae Jung 
+Consulting or Advisory Role: Roche, AstraZeneca, Celgene, Eisai, Takeda, 
+Novartis Marco Colleoni Research Funding: Roche Rafael Villanueva Vázquez 
+Consulting or Advisory Role: Novartis Speakers' Bureau: Novartis, Lilly Expert 
+Testimony: Novartis Travel, Accommodations, Expenses: Novartis, Lilly, Eisai, 
+Daiichi Sankyo/AstraZeneca, Roche Sara Hurvitz Stock and Other Ownership 
+Interests: Ideal Implant, ROM Tech Research Funding: Genentech/Roche, Novartis, 
+GlaxoSmithKline, Sanofi, Pfizer, Amgen, OBI Pharma, Puma Biotechnology, 
+Dignitana, Bayer, Biomarin, Lilly, Merrimack, Cascadian Therapeutics, Seattle 
+Genetics, Daiichi Sankyo, Macrogenics, Ambryx, Immunomedics, Pieris 
+Pharmaceuticals, Radius Health, Arvinas, Zymeworks, Gilead Sciences, Phoenix 
+Molecular Designs Travel, Accommodations, Expenses: Lilly Other Relationship: 
+Roche, Pfizer Nadia Harbeck Stock and Other Ownership Interests: West German 
+Study Group Honoraria: Roche, Novartis, Amgen, Pfizer, AstraZeneca, Pierre 
+Fabre, Daiichi Sankyo, Exact Sciences, MSD, Seagen Consulting or Advisory Role: 
+Roche/Genentech, Novartis, Pfizer, Lilly, Sandoz, Daiichi Sankyo, AstraZeneca, 
+West German Study Group, Pierre Fabre, Seagen, MSD Research Funding: 
+Roche/Genentech, Lilly, MSD, AstraZeneca Louis Chow Research Funding: Novartis 
+Tetiana Taran Employment: Novartis Stock and Other Ownership Interests: Novartis 
+Karen Rodriguez Lorenc Employment: Novartis, Regeneron Stock and Other Ownership 
+Interests: Novartis, Regeneron Naveen Babbar Employment: Novartis Stock and 
+Other Ownership Interests: Novartis Debu Tripathy Consulting or Advisory Role: 
+Novartis, Pfizer, GlaxoSmithKline, Genomic Health, AstraZeneca, OncoPep Research 
+Funding: Novartis, Polyphor Travel, Accommodations, Expenses: Novartis, 
+AstraZeneca Yen-Shen Lu Honoraria: Pfizer, Roche, Merck Sharp & Dohme, Novartis, 
+Lilly, Eisai, Eurofarma, Daiichi Sankyo/UCB Japan, AstraZeneca Consulting or 
+Advisory Role: Pfizer, Roche, Novartis, Lilly Research Funding: Novartis, Roche, 
+Merck Sharp & Dohme Travel, Accommodations, Expenses: Roche, Pfizer, Eisai, 
+Novartis No other potential conflicts of interest were reported. Aditya Bardia 
+Consulting or Advisory Role: Novartis, Genentech, Pfizer, Spectrum 
+Pharmaceuticals, BioTheranostics, Merck, Radius Pharma, Immunomedics, Sanofi, 
+Puma Biotechnology, Daiichi Sankyo/Astra Zeneca, Foundation Medicine, Philips, 
+Genentech/Roche, Radius Health, Innocrin Pharma Research Funding: Genentech, 
+Novartis, Pfizer, Merck, Sanofi, Radius, Immunomedics, AstraZeneca/Daiichi 
+Sankyo Open Payments Link: https://openpaymentsdata.cms.gov/physician/523675 Fei 
+Su Employment: Novartis Stock and Other Ownership Interests: Novartis Nadia 
+Solovieff Employment: Novartis Stock and Other Ownership Interests: Novartis 
+Seock-Ah Im Consulting or Advisory Role: AstraZeneca, Novartis, Roche/Genentech, 
+Eisai, Pfizer, Amgen, Hanmi, Lilly, GlaxoSmithKline, MSD, Daiichi Sankyo 
+Research Funding: AstraZeneca, Pfizer, Roche/Genentech, Daewoong Pharmaceutical, 
+Eisai Other Relationship: Roche Joohyuk Sohn Research Funding: MSD, Roche, 
+Novartis, Lilly, Pfizer, Bayer, Daiichi Sankyo, AstraZeneca, GlaxoSmithKline 
+Other Relationship: Roche Keun Seok Lee Consulting or Advisory Role: Lilly, MSD 
+Oncology, Novartis, Roche, Pfizer Research Funding: Dong-A ST Saul Campos Gomez 
+Consulting or Advisory Role: Roche, Bristol Myers Squibb, MSD Oncology Kyung Hae 
+Jung Consulting or Advisory Role: Roche, AstraZeneca, Celgene, Eisai, Takeda, 
+Novartis Marco Colleoni Research Funding: Roche Rafael Villanueva Vázquez 
+Consulting or Advisory Role: Novartis Speakers' Bureau: Novartis, Lilly Expert 
+Testimony: Novartis Travel, Accommodations, Expenses: Novartis, Lilly, Eisai, 
+Daiichi Sankyo/AstraZeneca, Roche Sara Hurvitz Stock and Other Ownership 
+Interests: Ideal Implant, ROM Tech Research Funding: Genentech/Roche, Novartis, 
+GlaxoSmithKline, Sanofi, Pfizer, Amgen, OBI Pharma, Puma Biotechnology, 
+Dignitana, Bayer, Biomarin, Lilly, Merrimack, Cascadian Therapeutics, Seattle 
+Genetics, Daiichi Sankyo, Macrogenics, Ambryx, Immunomedics, Pieris 
+Pharmaceuticals, Radius Health, Arvinas, Zymeworks, Gilead Sciences, Phoenix 
+Molecular Designs Travel, Accommodations, Expenses: Lilly Other Relationship: 
+Roche, Pfizer Nadia Harbeck Stock and Other Ownership Interests: West German 
+Study Group Honoraria: Roche, Novartis, Amgen, Pfizer, AstraZeneca, Pierre 
+Fabre, Daiichi Sankyo, Exact Sciences, MSD, Seagen Consulting or Advisory Role: 
+Roche/Genentech, Novartis, Pfizer, Lilly, Sandoz, Daiichi Sankyo, AstraZeneca, 
+West German Study Group, Pierre Fabre, Seagen, MSD Research Funding: 
+Roche/Genentech, Lilly, MSD, AstraZeneca Louis Chow Research Funding: Novartis 
+Tetiana Taran Employment: Novartis Stock and Other Ownership Interests: Novartis 
+Karen Rodriguez Lorenc Employment: Novartis, Regeneron Stock and Other Ownership 
+Interests: Novartis, Regeneron Naveen Babbar Employment: Novartis Stock and 
+Other Ownership Interests: Novartis Debu Tripathy Consulting or Advisory Role: 
+Novartis, Pfizer, GlaxoSmithKline, Genomic Health, AstraZeneca, OncoPep Research 
+Funding: Novartis, Polyphor Travel, Accommodations, Expenses: Novartis, 
+AstraZeneca Yen-Shen Lu Honoraria: Pfizer, Roche, Merck Sharp & Dohme, Novartis, 
+Lilly, Eisai, Eurofarma, Daiichi Sankyo/UCB Japan, AstraZeneca Consulting or 
+Advisory Role: Pfizer, Roche, Novartis, Lilly Research Funding: Novartis, Roche, 
+Merck Sharp & Dohme Travel, Accommodations, Expenses: Roche, Pfizer, Eisai, 
+Novartis No other potential conflicts of interest were reported.
+
+
+28. Br J Cancer. 2021 Nov;125(10):1356-1364. doi: 10.1038/s41416-021-01526-3.
+Epub  2021 Sep 3.
+
+Patterns of genomic change in residual disease after neoadjuvant chemotherapy 
+for estrogen receptor-positive and HER2-negative breast cancer.
+
+Chatzipli A(#)(1), Bonnefoi H(#)(2), MacGrogan G(2), Sentis J(2), Cameron D(3), 
+Poncet C(4); EORTC 10994/BIG 1-00 Consortium; Iggo R(5).
+
+Collaborators: Abadie-Lacourtoisie S, Bodmer A, Brain E, Cufer T, Campone M, 
+Luporsi E, Moldovan C, Petit T, Piccart M, Priou F, Senkus E, Zaman K.
+
+Author information:
+(1)Wellcome Sanger Institute, Cambridge, UK.
+(2)Institut Bergonié, INSERM U1218, University of Bordeaux, Bordeaux, France.
+(3)University of Edinburgh, Edinburgh, UK.
+(4)EORTC Data Centre, Brussels, Belgium.
+(5)Institut Bergonié, INSERM U1218, University of Bordeaux, Bordeaux, France. 
+Richard.Iggo@u-bordeaux.fr.
+(#)Contributed equally
+
+BACKGROUND: Treatment of patients with residual disease after neoadjuvant 
+chemotherapy for breast cancer is an unmet clinical need. We hypothesised that 
+tumour subclones showing expansion in residual disease after chemotherapy would 
+contain mutations conferring drug resistance.
+METHODS: We studied oestrogen receptor and/or progesterone receptor-positive, 
+HER2-negative tumours from 42 patients in the EORTC 10994/BIG 00-01 trial who 
+failed to achieve a pathological complete response. Genes commonly mutated in 
+breast cancer were sequenced in pre and post-treatment samples.
+RESULTS: Oncogenic driver mutations were commonest in PIK3CA (38% of tumours), 
+GATA3 (29%), CDH1 (17%), TP53 (17%) and CBFB (12%); and amplification was 
+commonest for CCND1 (26% of tumours) and FGFR1 (26%). The variant allele 
+fraction frequently changed after treatment, indicating that subclones had 
+expanded and contracted, but there were changes in both directions for all of 
+the commonly mutated genes.
+CONCLUSIONS: We found no evidence that expansion of clones containing recurrent 
+oncogenic driver mutations is responsible for resistance to neoadjuvant 
+chemotherapy. The persistence of classic oncogenic mutations in pathways for 
+which targeted therapies are now available highlights their importance as drug 
+targets in patients who have failed chemotherapy but provides no support for a 
+direct role of driver oncogenes in resistance to chemotherapy. 
+CLINICALTRIALS.GOV: EORTC 10994/BIG 1-00 Trial registration number NCT00017095.
+
+© 2021. The Author(s), under exclusive licence to Springer Nature Limited.
+
+DOI: 10.1038/s41416-021-01526-3
+PMCID: PMC8575785
+PMID: 34480095 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing interests.
+
+
+29. Breast Cancer Res Treat. 2021 Sep;189(2):411-423. doi: 
+10.1007/s10549-021-06329-x. Epub 2021 Jul 24.
+
+A phase II study of efficacy, toxicity, and the potential impact of genomic 
+alterations on response to eribulin mesylate in combination with trastuzumab and 
+pertuzumab in women with human epidermal growth factor receptor 2 (HER2)+ 
+metastatic breast cancer.
+
+Balch SM(1)(2), Vaz-Luis I(2)(3), Li T(4), Tayob N(4), Jain E(1)(2), Helvie 
+K(2), Buendia-Buendia JE(1)(5), Shannon E(1), Isakoff SJ(6)(7), Tung NM(7)(8), 
+Krop IE(2)(7), Lin NU(2)(7), Wagle N(#)(1)(2)(7), Freedman RA(#)(9)(10).
+
+Author information:
+(1)The Broad Institute of MIT and Harvard, Cambridge, MA, USA.
+(2)Department of Medical Oncology, Dana-Farber Cancer Institute, 450 Brookline 
+Avenue, Yawkey 1259, Boston, MA, 02215, USA.
+(3)Institut Gustave Roussy, Unit INSERM 981, Villejuif, France.
+(4)Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA.
+(5)Cellarity, Inc., Cambridge, MA, USA.
+(6)Massachusetts General Hospital, Boston, MA, USA.
+(7)Harvard Medical School, Boston, MA, USA.
+(8)Beth Israel Deaconess Medical Center, Boston, MA, USA.
+(9)Department of Medical Oncology, Dana-Farber Cancer Institute, 450 Brookline 
+Avenue, Yawkey 1259, Boston, MA, 02215, USA. rafreedman@partners.org.
+(10)Harvard Medical School, Boston, MA, USA. rafreedman@partners.org.
+(#)Contributed equally
+
+PURPOSE: There are limited data on trastuzumab-pertuzumab (HP)-based treatments 
+beyond the first-line, HER2+ metastatic breast cancer (MBC) setting. We 
+conducted a phase II study of eribulin mesylate, which extends survival in MBC, 
+with HP in patients with previously treated HER2+ MBC to evaluate efficacy, 
+toxicity, and genomic alterations driving therapeutic response.
+METHODS: After a run-in phase for eribulin dosing, two cohorts were enrolled 
+(Cohort A-no prior pertuzumab; Cohort B-prior pertuzumab). All patients received 
+eribulin 1.4 mg/m2 on days 1, 8 with standard-dose HP on day 1 (21-day cycles). 
+The primary endpoint was objective response rate (ORR). Genomic characterization 
+via whole exome sequencing (WES) was completed on tumor DNA and matched germline 
+DNA from 19 patients.
+RESULTS: The six-patient run-in established a dose of eribulin 1.4 mg/m2 with 
+HP. Cohorts A and B enrolled 17 and 7 patients, respectively. Accrual stopped 
+early due to an evolving treatment landscape and slow enrollment. The ORR was 
+26.3% (95% Confidence Interval [CI] 9.2-51.2%) in Cohort A and 0% in Cohort B 
+(95% CI 0-41.0%). WES revealed more frequent alterations in TP53 (p < 0.05, 
+q > 0.05) in patients without clinical benefit (disease control for < 24 weeks) 
+which was not significant after multiple hypothesis correction.
+CONCLUSION: Eribulin-HP had manageable toxicity and modest clinical activity in 
+patients without prior pertuzumab exposure. This study provides a preliminary 
+landscape of somatic alterations in this patient cohort. Our data add to the 
+literature on how genomic alterations may predict for therapy 
+response/resistance, as we work to individualize choices in a quickly evolving 
+HER2+ MBC treatment landscape.
+TRIAL REGISTRATION: www.clinicaltrials.gov , NCT01912963. Registered 24 July 
+2013.
+
+© 2021. The Author(s), under exclusive licence to Springer Science+Business 
+Media, LLC, part of Springer Nature.
+
+DOI: 10.1007/s10549-021-06329-x
+PMID: 34302589 [Indexed for MEDLINE]
+
+
+30. Breast Cancer Res Treat. 2021 Aug;189(1):187-202. doi: 
+10.1007/s10549-021-06307-3. Epub 2021 Jun 26.
+
+Immunogenomic profiling and pathological response results from a clinical trial 
+of docetaxel and carboplatin in triple-negative breast cancer.
+
+Ademuyiwa FO(#)(1), Chen I(#)(2), Luo J(2), Rimawi MF(3), Hagemann IS(4), Fisk 
+B(5), Jeffers G(5), Skidmore ZL(5), Basu A(5), Richters M(5), Ma CX(6), 
+Weilbaecher K(6), Davis J(6), Suresh R(6), Peterson LL(6), Bose R(6), Bagegni 
+N(6), Rigden CE(6), Frith A(6), Rearden TP(6), Hernandez-Aya LF(6), Roshal A(6), 
+Clifton K(6), Opyrchal M(6), Akintola-Ogunremi O(7), Lee BH(8), 
+Ferrando-Martinez S(8), Church SE(9), Anurag M(3), Ellis MJ(3), Gao F(2), 
+Gillanders W(2), Griffith OL(5), Griffith M(10).
+
+Author information:
+(1)Division of Oncology, Department of Medicine, Washington University School of 
+Medicine, 660 S. Euclid Ave., St Louis, MO, 63110, USA. bisiademuyiwa@wustl.edu.
+(2)Department of Surgery, Washington University School of Medicine, St Louis, 
+MO, 63110, USA.
+(3)Lester & Sue Smith Breast Center and Dan L. Duncan Comprehensive Cancer 
+Center, Baylor College of Medicine, Houston, TX, 77030, USA.
+(4)Department of Pathology and Immunology, Washington University School of 
+Medicine, St Louis, MO, 63110, USA.
+(5)McDonnell Genome Institute, Washington University School of Medicine, Campus 
+Box 8501, 4444 Forest Park Ave., St Louis, MO, 63108, USA.
+(6)Division of Oncology, Department of Medicine, Washington University School of 
+Medicine, 660 S. Euclid Ave., St Louis, MO, 63110, USA.
+(7)Department of Pathology, Christian Hospital NE/NW, St. Louis, MO, 63136, USA.
+(8)NeoImmuneTech, Inc., 2400 Research Boulevard Suite 250, Rockville, MD, 20850, 
+USA.
+(9)NanoString Technologies, Inc., 530 Fairview Ave N, Seattle, WA, 98109, USA.
+(10)McDonnell Genome Institute, Washington University School of Medicine, Campus 
+Box 8501, 4444 Forest Park Ave., St Louis, MO, 63108, USA. mgriffit@wustl.edu.
+(#)Contributed equally
+
+PURPOSE: Patients with triple-negative breast cancer (TNBC) who do not achieve 
+pathological complete response (pCR) following neoadjuvant chemotherapy have a 
+high risk of recurrence and death. Molecular characterization may identify 
+patients unlikely to achieve pCR. This neoadjuvant trial was conducted to 
+determine the pCR rate with docetaxel and carboplatin and to identify molecular 
+alterations and/or immune gene signatures predicting pCR.
+EXPERIMENTAL DESIGN: Patients with clinical stages II/III TNBC received 6 cycles 
+of docetaxel and carboplatin. The primary objective was to determine if 
+neoadjuvant docetaxel and carboplatin would increase the pCR rate in TNBC 
+compared to historical expectations. We performed whole-exome sequencing (WES) 
+and immune profiling on pre-treatment tumor samples to identify alterations that 
+may predict pCR. Thirteen matching on-treatment samples were also analyzed to 
+assess changes in molecular profiles.
+RESULTS: Fifty-eight of 127 (45.7%) patients achieved pCR. There was a 
+non-significant trend toward higher mutation burden for patients with residual 
+cancer burden (RCB) 0/I versus RCB II/III (median 80 versus 68 variants, p 
+0.88). TP53 was the most frequently mutated gene, observed in 85.7% of tumors. 
+EGFR, RB1, RAD51AP2, SDK2, L1CAM, KPRP, PCDHA1, CACNA1S, CFAP58, COL22A1, and 
+COL4A5 mutations were observed almost exclusively in pre-treatment samples from 
+patients who achieved pCR. Seven mutations in PCDHA1 were observed in 
+pre-treatment samples from patients who did not achieve pCR. Several immune gene 
+signatures including IDO1, PD-L1, interferon gamma signaling, CTLA4, 
+cytotoxicity, tumor inflammation signature, inflammatory chemokines, cytotoxic 
+cells, lymphoid, PD-L2, exhausted CD8, Tregs, and immunoproteasome were 
+upregulated in pre-treatment samples from patients who achieved pCR.
+CONCLUSION: Neoadjuvant docetaxel and carboplatin resulted in a pCR of 45.7%. 
+WES and immune profiling differentiated patients with and without pCR.
+TRIAL REGISTRATION: Clinical trial information: NCT02124902, Registered 24 April 
+2014 & NCT02547987, Registered 10 September 2015.
+
+© 2021. The Author(s), under exclusive licence to Springer Science+Business 
+Media, LLC, part of Springer Nature.
+
+DOI: 10.1007/s10549-021-06307-3
+PMCID: PMC8443324
+PMID: 34173924 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests FOA reports consulting for 
+Eisai, Immunomedics, Astra Zeneca, Athenex, Cardinal Health, Pfizer, Abbvie, 
+Best Doctors, and Advance Medical. FOA reports contracted research for 
+Immunomedics, Pfizer, Seattle Genetics, NeoImmuneTech, RNA Diagnostics, and 
+Astellas. MFR reports consulting for Genentech, MacroGenics, Daiichi, Seattle 
+Genetics, and Novartis. MFR reports contracted research for Pfizer. RB 
+consulting for Genentech. RB reports contracted research for Puma Biotechnology, 
+Inc.
+
+
+31. Anticancer Res. 2020 Oct;40(10):5883-5893. doi: 10.21873/anticanres.14608.
+
+Predictive Role of TP53, PIK3CA and MLL2 in ER+ HER2+ Breast Bancer: Biomarker 
+Analysis of Neo-ALL-IN [NCT 01275859].
+
+Park JH(1)(2), Ahn JH(1), Kim JE(1), Jung KH(1), Gong G(3), Lee HJ(3), Son 
+BH(4), Ahn SH(4), Kim HH(5), Shin HJ(5), Moon DH(6), Kim D(7), Kim SB(8).
+
+Author information:
+(1)Department of Oncology, Asan Medical Center, University of Ulsan College of 
+Medicine, Seoul, Republic of Korea.
+(2)Department of Hemato-Oncology, Konkuk University Medical Center, Univeristy 
+of Konkuk College of Medicine, Seoul, Republic of Korea.
+(3)Department of Pathology, Asan Medical Center, University of Ulsan College of 
+Medicine, Seoul, Republic of Korea.
+(4)Department of Surgery, Asan Medical Center, University of Ulsan College of 
+Medicine, Seoul, Republic of Korea.
+(5)Department of Radiology, Asan Medical Center, University of Ulsan College of 
+Medicine, Seoul, Republic of Korea.
+(6)Department of Nuclear Medicine, Asan Medical Center, University of Ulsan 
+College of Medicine, Seoul, Republic of Korea.
+(7)Department of Pathology, Asan Medical Center, University of Ulsan College of 
+Medicine, Seoul, Republic of Korea coonya@gmail.com sbkim3@amc.seoul.kr.
+(8)Department of Oncology, Asan Medical Center, University of Ulsan College of 
+Medicine, Seoul, Republic of Korea coonya@gmail.com sbkim3@amc.seoul.kr.
+
+BACKGROUND/AIM: Somatic mutations were investigated in 21 patients with 
+postmenopausal estrogen receptor (ER)-positive and human epidermal growth factor 
+receptor-2 (HER-2)-positive (ER+HER2+) breast cancer (BC) treated with 
+neoadjuvant letrozole and lapatinib, to identify their distinct molecular 
+landscape.
+PATIENTS AND METHODS: We used tissue samples of 21 patients from phase II Neo 
+ALL-IN cohort, and somatic alterations were examined using targeted exome 
+sequencing performed in Foundation Medicine, Inc. (FMI).
+RESULTS: TP53 (61.9%) and PIK3CA (57.1%) were the two most frequently mutated 
+genes that were inter-correlated (p=0.026). They were associated with 
+unfavorable clinical outcomes, particularly when accompanying PIK3CA mutations 
+at exon 9 in helical domains. Meanwhile, MLL2 alteration was negatively 
+associated with mutations of TP53 or PIK3CA, and it tended to be present in 
+patients with low KI-67 levels and no initial nodal involvement. Moreover, 
+patients with MLL2 mutations numerically showed more favorable overall response 
+rates (ORR) (80% vs. 56.2%) and better 5-year event-free survival (EFS) rates 
+(100% vs. 87.5%) compared to the wild-type.
+CONCLUSION: Mutations in TP53 and PIK3CA hotspot at exon 9 may be potential 
+negative predictors of ER+HER2+ BC treated with neoadjuvant letrozole and 
+lapatinib, while MLL2 inactivating mutation might confer therapeutic benefit in 
+these patients.
+
+Copyright© 2020, International Institute of Anticancer Research (Dr. George J. 
+Delinasios), All rights reserved.
+
+DOI: 10.21873/anticanres.14608
+PMID: 32988919 [Indexed for MEDLINE]
+
+
+32. Breast Cancer Res. 2019 Dec 31;22(1):2. doi: 10.1186/s13058-019-1223-z.
+
+Impact of aromatase inhibitor treatment on global gene expression and its 
+association with antiproliferative response in ER+ breast cancer in 
+postmenopausal patients.
+
+Gao Q(1), López-Knowles E(1)(2), Cheang MCU(3), Morden J(3), Ribas R(1), Sidhu 
+K(2), Evans D(2), Martins V(2), Dodson A(2), Skene A(4), Holcombe C(5), Mallon 
+E(6), Evans A(7), Bliss JM(3), Robertson J(8), Smith I(9), Martin LA(1), Dowsett 
+M(10)(11); POETIC Trial Management Group and Trialists.
+
+Author information:
+(1)Breast Cancer Now Research Centre, ICR, London, UK.
+(2)Ralph Lauren Centre for Breast Cancer Research, Royal Marsden Hospital, 
+London, UK.
+(3)Clinical Trials and Statistics Unit, The Institute of Cancer Research, 
+London, UK.
+(4)Royal Bournemouth Hospital, Castle Lane East, Bournemouth, UK.
+(5)Royal Liverpool University Hospital, 200 London Road, Liverpool, UK.
+(6)Queen Elizabeth University Hospital Glasgow, Govan, UK.
+(7)Poole General Hospital, Longfleet Road, Dorset, UK.
+(8)University of Nottingham, Derby Rd., Nottingham, UK.
+(9)Breast Unit, Royal Marsden Hospital, London, UK.
+(10)Breast Cancer Now Research Centre, ICR, London, UK. 
+Mitchell.Dowsett@icr.ac.uk.
+(11)Ralph Lauren Centre for Breast Cancer Research, Royal Marsden Hospital, 
+London, UK. Mitchell.Dowsett@icr.ac.uk.
+
+BACKGROUND: Endocrine therapy reduces breast cancer mortality by 40%, but 
+resistance remains a major clinical problem. In this study, we sought to 
+investigate the impact of aromatase inhibitor (AI) therapy on gene expression 
+and identify gene modules representing key biological pathways that relate to 
+early AI therapy resistance.
+METHODS: Global gene expression was measured on pairs of core-cut biopsies taken 
+at baseline and at surgery from 254 patients with ER-positive primary breast 
+cancer randomised to receive 2-week presurgical AI (n = 198) or no presurgical 
+treatment (control n = 56) from the POETIC trial. Data from the AI group was 
+adjusted to eliminate artefactual process-related changes identified in the 
+control group. The response was assessed by changes in the proliferation marker, 
+Ki67.
+RESULTS: High baseline ESR1 expression associated with better AI response in 
+HER2+ tumours but not HER2- tumours. In HER2- tumours, baseline expression of 48 
+genes associated with poor antiproliferative response (p < 0.005) including PERP 
+and YWHAQ, the two most significant, and the transcription co-regulators 
+(SAP130, HDAC4, and NCOA7) which were among the top 16 most significant. 
+Baseline gene signature scores measuring cell proliferation, growth factor 
+signalling (ERBB2-GS, RET/GDNF-GS, and IGF-1-GS), and immune activity (STAT1-GS) 
+were significantly higher in poor AI responders. Two weeks of AI caused 
+downregulation of genes involved in cell proliferation and ER signalling, as 
+expected. Signature scores of E2F activation and TP53 dysfunction after 2-week 
+AI were associated with poor AI response in both HER2- and HER2+ patients.
+CONCLUSIONS: There is a high degree of heterogeneity in adaptive mechanisms 
+after as little as 2-week AI therapy; however, all appear to converge on cell 
+cycle regulation. Our data support the evaluation of whether an E2F signatures 
+after short-term exposure to AI may identify those patients most likely to 
+benefit from the early addition of CDK4/6 inhibitors.
+TRIAL REGISTRATION: ISRCTN, ISRCTN63882543, registered on 18 December 2007.
+
+DOI: 10.1186/s13058-019-1223-z
+PMCID: PMC6938628
+PMID: 31892336 [Indexed for MEDLINE]
+
+Conflict of interest statement: MD and LAM receive academic funding from Pfizer, 
+Puma Biotechnology Inc., and AstraZeneca. MD receives honoraria from Myriad 
+Genetics and speaker’s bureau of Roche; is a consultant and advisory board 
+member of Radius, GTx, and Orion Pharma; and has received remuneration from the 
+ICR rewards to Inventors Schemes. MCUC has a patent: US Patent No. 9,631,239 
+with royalties paid. All other authors declare that they have no competing 
+interests.
+
+
+33. Invest New Drugs. 2020 Jun;38(3):831-843. doi: 10.1007/s10637-019-00840-1.
+Epub  2019 Jul 29.
+
+Phase 1 study of the MDM2 inhibitor AMG 232 in patients with advanced P53 
+wild-type solid tumors or multiple myeloma.
+
+Gluck WL(1), Gounder MM(2), Frank R(3), Eskens F(4), Blay JY(5), Cassier PA(5), 
+Soria JC(6)(7), Chawla S(8), de Weger V(9), Wagner AJ(10), Siegel D(11), De Vos 
+F(12), Rasmussen E(13), Henary HA(13).
+
+Author information:
+(1)Prisma Health - Upstate, Institute for Translational Oncology Research, 900 
+W. Faris Rd., 3rd Floor, Greenville, SC, 29605, USA. 
+larry.gluck@prismahealth.org.
+(2)Department of Medicine, Memorial Sloan-Kettering Cancer Center, New York, NY, 
+USA.
+(3)Whittingham Cancer Center, Norwalk, CT, USA.
+(4)Medical Oncology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.
+(5)Department of Medicine, Centre Léon Bérard, Lyon, France.
+(6)Department of Medicine, The Institute Gustave-Roussy, Paris, France.
+(7)Université Paris Sud, Orsay, France.
+(8)Sarcoma Oncology Center, Cancer Center of Southern California, Santa Monica, 
+CA, USA.
+(9)Department of Internal Medicine, Netherlands Cancer Institute, Amsterdam, The 
+Netherlands.
+(10)Center for Sarcoma and Bone Oncology and Department of Medical Oncology, 
+Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA, USA.
+(11)Multiple Myeloma Division, John Theurer Cancer Center at the Hackensack 
+University Medical Center, Hackensack, NJ, USA.
+(12)Medical Oncology, University Medical Center Utrecht, Utrecht University, 
+Utrecht, The Netherlands.
+(13)Oncology Early Development, Amgen Inc., Thousand Oaks, CA, USA.
+
+Background This open-label, first-in-human, phase 1 study evaluated AMG 232, an 
+oral selective MDM2 inhibitor in patients with TP53 wild-type (P53WT), advanced 
+solid tumors or multiple myeloma (MM). Methods In the dose escalation (n = 39), 
+patients with P53WT refractory solid tumors enrolled to receive once-daily AMG 
+232 (15, 30, 60, 120, 240, 480, and 960 mg) for seven days every 3 weeks (Q3W). 
+In the dose expansion (n = 68), patients with MDM2-amplified 
+(well-differentiated and de-differentiated liposarcomas [WDLPS and DDLPS], 
+glioblastoma multiforme [GBM], or other solid tumors [OST]), MDM2-overexpressing 
+ER+ breast cancer (BC), or MM received AMG 232 at the maximum tolerated dose 
+(MTD). Safety, pharmacokinetics, pharmacodynamics, and efficacy were assessed. 
+Results AMG 232 had acceptable safety up to up to 240 mg. Three patients had 
+dose-limiting toxicities of thrombocytopenia (n = 2) and neutropenia (n = 1). 
+Due to these and other delayed cytopenias, AMG 232 240 mg Q3W was determined as 
+the highest tolerable dose assessed in the dose expansion. Adverse events were 
+typically mild/moderate and included diarrhea, nausea, vomiting, fatigue, 
+decreased appetite, and anemia. AMG 232 plasma concentrations increased dose 
+proportionally. Increases in serum macrophage inhibitor cytokine-1 from baseline 
+were generally dose dependent, indicating p53 pathway activation. Per local 
+review, there were no responses. Stable disease (durability in months) was 
+observed in patients with WDLPS (3.9), OST (3.3), DDLPS (2.0), GBM (1.8), and BC 
+(1.4-2.0). Conclusions In patients with P53WT advanced solid tumors or MM, AMG 
+232 showed acceptable safety and dose-proportional pharmacokinetics, and stable 
+disease was observed.
+
+DOI: 10.1007/s10637-019-00840-1
+PMCID: PMC7211202
+PMID: 31359240 [Indexed for MEDLINE]
+
+Conflict of interest statement: Mrinal M. Gounder declares personal fees and 
+advisory board for Bayer, Epizyme, Karyopharm, Amgen Inc., Daichi, Springworks, 
+Tracon, and GlaxoSmithKline. Jean Yves Blay declares research support and 
+honoraria from Amgen Inc., Roche, and Novartis. Philippe A. Cassier declares 
+research support from Novartis, Astra-Zeneca, Plexxikon, Merck Sharp & Dohme, 
+and Debio; institutional research support from Abbvie, Bayer, Bristol-Myers 
+Squibb, GlaxoSmithKline, Merck Sharp & Dohme, Novartis, Roche, Lilly, and Taiho; 
+honoraria from Amgen Inc., Novartis, and AstraZeneca; and travel from 
+Bristol-Myers Squibb, Roche, and Amgen Inc. Jean-Charles Soria declares 
+employment by MedImmune. Sant Chawla declares honoraria, consultant/advisor, 
+research funding, and speakers’ bureau for Amgen Inc., Roche, Threshold 
+Pharmaceuticals, GlaxoSmithKline, CytRx Corporation, Ignyta, Immune Design, 
+TRACON Pharma, SARC, Karyopharm Therapeutics, and Janssen. Andrew J. Wagner 
+declares research support from Amgen Inc.; personal fees from Eli Lilly, Loxo, 
+and Five Prime Therapeutics; and grants from Merck, Sanofi, Daichi-Sankyo, 
+Plexxikon, Karyopharm, Five Prime Therapeutics, and AADI. David Siegel declares 
+a grant from Celgene; speakers bureau and advisory boards for Amgen Inc., 
+Celgene, Bristol Myers-Squibb, Janssen, Takeda, and Karyopharm; and advisory 
+board for Merck. Haby A. Henary and Erik Rasmussen declare employment and stock 
+ownership in Amgen Inc. Larry Gluck, Richard Frank, Ferry Eskens, Vincent de 
+Weger, and Filip De Vos have no conflicts to disclose.

@@ -1,0 +1,1564 @@
+iScience
+
+Article
+
+Clustering of TP53 variants into functional classes
+correlates with cancer risk and identiﬁes different
+phenotypes of Li-Fraumeni syndrome
+
+Graphical abstract
+
+Authors
+
+Emilie Montellier, Nathanae¨ l Lemonnier,
+Judith Penkert, ..., Gae¨ lle Bougeard,
+Christian P. Kratz, Pierre Hainaut
+
+Correspondence
+pierre.hainaut@univ-grenoble-alpes.fr
+
+In brief
+Genomics; Phenotyping
+
+Highlights
+d We sorted TP53 variants into 4 classes based on functional
+
+assays
+
+d We analyzed their correlations with cancer phenotypes in Li-
+
+Fraumeni syndrome
+
+d Each class is associated with distinct cancer risks and
+
+phenotypes
+
+d The classes underscore structural/functional features
+
+causing pathogenicity
+
+Montellier et al., 2024, iScience 27, 111296
+December 20, 2024 ª 2024 The Authors. Published by Elsevier Inc.
+https://doi.org/10.1016/j.isci.2024.111296
+
+ll
+
+iScience
+
+ll
+
+OPEN ACCESS
+
+Article
+Clustering of TP53 variants into functional
+classes correlates with cancer risk and identiﬁes
+different phenotypes of Li-Fraumeni syndrome
+
+Emilie Montellier,1 Nathanae¨ l Lemonnier,1 Judith Penkert,2,3 Claire Freycon,1,4,5 Sandrine Blanchet,1 Amina Amadou,1,6
+Florent Chuffart,1 Nicholas W. Fischer,7 Maria-Isabel Achatz,8 Arnold J. Levine,9 Catherine Goudie,5 David Malkin,7,10
+Gae¨ lle Bougeard,11 Christian P. Kratz,2 and Pierre Hainaut1,12,*
+1University Grenoble Alpes, Inserm 1209, CNRS 5309, Institute for Advanced Biosciences, F38000 Grenoble, France
+2Pediatric Hematology and Oncology, Hannover Medical School, Hannover, Germany
+3Department of Human Genetics, Hannover Medical School, Hannover, Germany
+4Department of Pediatric Hematology-Oncology, Grenoble Alpes University Hospital, Grenoble, France
+5Department of Pediatrics, Division of Hematology-Oncology, Montreal Children’s Hospital, McGill University Health Centre, Montreal, QC,
+Canada
+6Department of Prevention Cancer Environment, Centre Le´ on Be´ rard, Lyon, France
+7Genetics and Genome Biology Program, The Hospital for Sick Children, University of Toronto, Toronto, ON, Canada
+8Oncology Center, Hospital Sı´rio-Liban^es, S~ao Paulo, Brazil
+9Simons Center for Systems Biology, Institute for Advanced Study, Princeton, NJ, USA
+10Division of Hematology/Oncology, The Hospital for Sick Children, Department of Pediatrics, University of Toronto, Toronto, ON, Canada
+11University Rouen Normandie, Inserm U1245, Normandie University, CHU Rouen, Department of Genetics, F-76000 Rouen, France
+12Lead contact
+*Correspondence: pierre.hainaut@univ-grenoble-alpes.fr
+https://doi.org/10.1016/j.isci.2024.111296
+
+SUMMARY
+
+Li-Fraumeni syndrome (LFS) is a heterogeneous predisposition to an individually variable spectrum of cancers
+caused by pathogenic TP53 germline variants. We used a clustering method to assign TP53 missense variants
+to classes based on their functional activities in experimental assays assessing biological p53 functions. Cor-
+relations with LFS phenotypes were analyzed using the public germline TP53 mutation database and validated
+in three LFS clinical cohorts. Class A carriers recapitulated all phenotypic traits of fully penetrant LFS, whereas
+class B carriers showed a slightly less penetrant form dominated by speciﬁc cancers, consistent with the
+notion that these classes identify variants with distinct functional properties. Class C displayed a lower lifetime
+cancer risk associated with attenuated LFS features, consistent with the notion that these variants have hypo-
+morphic features. Class D carriers showed low lifetime cancer risks inconsistent with LFS deﬁnitions. This clas-
+siﬁcation of TP53 variants provides insights into structural/functional features causing pathogenicity.
+
+INTRODUCTION
+
+Li-Fraumeni syndrome (LFS; Mendelian Inheritance in Man
+#151623) is an autosomal dominant cancer predisposition syn-
+drome associated with a high lifetime risk of a broad spectrum
+of cancers caused by pathogenic or likely pathogenic (P/LP)
+TP53 germline (or mosaic) variants, 80% of which are missense.1
+Typically, LFS occurs in three phases, (1) a childhood phase (0–17
+years), characterized by a quartet of early life cancers (adrenocor-
+tical carcinoma [ACC], choroid plexus tumor [CPT], medulloblas-
+toma [MB], and rhabdomyosarcoma [RMS], all of which occur
+almost exclusively before the age of ten years), and a high risk
+of soft tissue sarcoma (STS), osteosarcoma (OS), and central ner-
+vous system tumors (CNS) in adolescence; (2) an early adult
+phase (18–45 years), characterized by premenopausal breast
+cancer, multiple STS, and CNS; and (3) a late adult phase (over
+45 years), characterized by lung adenocarcinoma, STS, colorectal
+
+cancer, and prostate cancer.2 Clinical deﬁnitions are traditionally
+based on so-called ‘‘classic’’ LFS criteria,3 whereas revised
+Chompret criteria4 capture the broad spectrum of LFS-related
+cancers and are aimed at identifying patients for TP53 mutation
+testing. Based on clinical phenotypes, two forms of LFS have
+been identiﬁed, with (1) LFS, deﬁned by the presence of a P/LP
+TP53 variant in persons/families meeting LFS testing criteria or
+with cancer <18 years; and (2) attenuated LFS (aLFS), deﬁned
+by the presence of a P/LP TP53 variant in a person/family who
+does not meet LFS testing criteria.5 This phenotypic distinction
+provides a framework for further investigating subtle differences
+in genotype-phenotype correlations by classifying TP53 variants
+according to their pathogenicity.
+
+The p53 protein is a multi-functional transcription factor regu-
+lating a complex network of cellular and systemic anti-prolifera-
+tive responses.6–8 Loss of these functions, often caused by inac-
+tivating missense mutations in the TP53 gene, impairs several
+
+iScience 27, 111296, December 20, 2024 ª 2024 The Authors. Published by Elsevier Inc.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+1
+
+ll
+
+OPEN ACCESS
+
+coordinated mechanisms of growth suppression that normally
+operate to counteract carcinogenesis.9 The main functional
+feature of tumor-associated somatic mutations is the loss of
+DNA binding and transactivation capacity of the p53 tumor sup-
+pressor protein (loss of function [LOF]), either by altering the
+structure of the DNA-binding domain (DBD) or by destabilizing
+p53 oligomerization, which is required for high-afﬁnity DNA bind-
+ing. Many missense variants cause stable protein expression,
+which, in addition to LOF, may exert dominant-negative effects
+(DNEs) over wild-type allele products and have also been pro-
+posed to exert a number of pro-oncogenic gain-of-function
+(GOF) effects documented in experimental cell and animal
+models,10 the phenotypic consequences of which remain un-
+clear in the context of LFS.
+
+Large-scale systematic studies have assessed the impact of
+thousands of missense variants on biochemical and biological
+p53 protein functions in yeast or cell-based experimental
+assays.11–13 This wealth of information, together with carriers’
+phenotypic traits, is used by the ClinGen TP53 expert panel to
+inform variant
+interpretation for clinical purposes (https://
+clinicalgenome.org/afﬁliation/50013/).14 However, the precise
+correlations between the functional features of TP53 variants
+and clinical LFS phenotypes have not been systematically ad-
+dressed. In the present study, we develop a classiﬁcation of
+TP53 missense variants into 4 functional classes that corre-
+spond to distinct cancer phenotypes, using as primary criteria
+the high-resolution clustering of the functional dataset devel-
+oped by C. Ishioka and collaborators in a yeast-based transac-
+tivation assay (YTA).12 This dataset has systematically measured
+the transactivation capacity of a total of 2,314 missense variants
+toward synthetic reporters controlled by eight different p53 DNA
+response elements, thus providing eight different ‘‘mugshots’’
+for each variant that score quantitative differences in their trans-
+activation capacity but also highlight qualitative features in their
+capacity to distinguish among promoters that have not been sys-
+tematically exploited for variant classiﬁcation so far. Next, we
+have challenged the robustness of the classes based on YTA
+clusters in predicting LFS phenotypes by interpolating them
+with clusters based on saturation mutagenesis screens (SMSs)
+of p53 suppressor activity in an isogenic pair of TP53 wild-type
+and null cell lines11 (Figure 1). Overall, this two-step approach
+supports the deﬁnition of four functional classes of missense
+TP53 variants (A, B, C, and D). To precisely assess their associ-
+ations with LFS phenotypes, we have compared these classes
+with nonsense/frameshift variants (class 0) predicted as
+completely inactivating the p53 protein. Mapping these classes
+on phenotypic LFS data from the public repository of germline
+TP53 variants curated at NCI (https://tp53.cancer.gov/) revealed
+that each class is associated with speciﬁc phenotypic traits
+within the LFS spectrum. Our results provide a reﬁned resolution
+of genotype-phenotype correlations in LFS as well as insights on
+structural/functional features that specify variant pathogenicity.
+
+RESULTS
+
+YTA TP53 variant classes
+Figure 1 outlines the strategy for classifying TP53 variants into
+functional classes and evaluating their correlations with cancer
+
+2
+
+iScience 27, 111296, December 20, 2024
+
+iScience
+Article
+
+phenotypes in TP53 mutation carriers. The list of TP53 missense
+variants and corresponding classes and clusters is presented in
+Table S1. Iterative clustering of the YTA dataset identiﬁed a total
+of 16 clusters of various sizes based on variant similarities in their
+capacity to bind and activate each of the eight promoters con-
+taining different versions of p53 DNA consensus elements
+(from 613 variants in cluster 2_2_1 to 5 variants in cluster 3)
+(Figures S1 and S2A). The ﬁrst layer of clustering broadly sepa-
+rated variants with signiﬁcant loss of activity (cluster 1) from
+‘‘supertrans’’ variants (cluster 3) and variants retaining levels of
+activities similar to those of wild-type p53 (cluster 2). Further
+layers of clustering separated, distinct variant subgroups among
+clusters 1 and 2. Speciﬁcally, cluster 1 was resolved into 6 clus-
+ters, including variants ranging from quasi-complete loss of
+transcriptional activity toward all promoters (cluster 1_1_1,
+‘‘triple_1’’) to variable levels or activity toward some, but not
+all, promoter sequences (among which the largest clusters
+were 1_1_3 and 1_3_1 and 1_3_2). Thus this clustering approach
+could resolve variants into a diversity of structure-function-muta-
+tion subgroups based on their qualitative and quantitative tran-
+scriptional similarities.
+
+To map these clusters onto the distribution of germline TP53
+mutations, we grouped them into four classes (A to D), broadly
+reﬂecting a gradient of activity with A having the lowest overall
+transcriptional activity and D the highest, and B and C displaying
+intermediate and heterogeneous activities toward different re-
+porters (Figure S2). These four YTA classes differed in variant
+distribution within the p53 protein structure (Figures 2A and S3)
+and in their predicted structural/functional effects (Figure S4).
+When compared with biophysical prediction scores (Sorting
+Intolerant From Tolerant, Align Grantham Variation and Gran-
+tham Deviation)16,17 and integrative structural and functional
+scores,18 classes highlighted a gradient from A to D, with A
+and B being enriched in deleterious and non-functional features
+while C and D were enriched in non-deleterious and functional
+features. Class A included all common TP53 cancer mutation
+hotspots and was enriched in variants at residues located within
+the surface of the p53 protein in direct contact with DNA, in
+structural elements supporting the DNA-binding surface, or in
+structural motifs required for the cohesion of the p53 tetrameri-
+zation domain. Class B included variants mapping to the DBD
+of p53, albeit at different residues than class A, mostly located
+within deﬁned sections of the beta-sheets that constitute the
+scaffold of the DBD as well as in loops exposed at the surface
+of the protein but not within its DNA-binding surface. Class C
+and D were enriched in variants that mapped to the N terminus
+or to the extreme C terminus of p53. These sites were poorly rep-
+resented in other classes.
+
+Figure 2B shows the distribution of classes A–D in three TP53
+variant datasets: cancer-related germline variants (NCI; https://
+tp53.cancer.gov/), cancer-related somatic variants (COSMIC;
+https://cancer.sanger.ac.uk/cosmic), and non-cancer-related
+germline variants (gnomAD; https://gnomad.broadinstitute.
+org/). Class A variants were enriched by factors of 4.5- and
+3.3-fold in the COSMIC and NCI datasets, respectively, but
+were counter-selected (0.2-fold) in the gnomAD dataset. Like-
+wise, albeit to a lesser extent, class B variants showed positive
+selection in COSMIC (1.1) and NCI (1.3) datasets, but not in
+
+1
+
+2
+
+3
+
+4
+
+5
+
+iScience
+Article
+
+Yeast-assay based transcriptional activity (YTA)
+scores for missense TP53 variants
+(n = 2,314 variants;
+Kato et al. 2003)
+
+Iterative Ward clustering of YTA scores in 4
+functional missense variant classes
+(A-B-C-D)
+
+Development of variant class 0 including
+nonsense and frameshift variants
+
+Correlations between
+YTA classes and
+predictors of variant
+deleteriousness;
+mapping onto p53
+structure
+
+Genotype-phenotype correlations:
+between YTA classes and cancer spectrum
+in germline TP53 variant carriers
+(n= 3446 carriers; NCI/IARC TP53 database)
+
+Clustering of functional
+human cell-based
+saturation mutagenesis
+(SMS) scores
+(n = 8522 variants;
+Giacomelli et al. 2018)
+
+Interpolation of variant YTA classes
+and SMS clusters :
+correlations with cancer phenotypes in
+the Li-Fraumeni Spectrum
+
+ll
+
+OPEN ACCESS
+
+Figure 1. Strategy for classifying TP53 vari-
+ants into functional classes and evaluating
+their correlations with cancer phenotypes
+in TP53 mutation carriers
+First, we used hierarchical Ward’s clustering to
+interrogate the yeast-based transcriptional activity
+(2,314 variants, YTA dataset).12 This
+dataset
+approach identiﬁed four YTA classes (A to D)
+consistent with predictors of deleteriousness and
+reﬂecting a gradient of transcriptional activity from A
+(lowest activity) to D (quasi-identical to wild-type).
+We also created class 0, including nonsense and
+frameshift variants (p53 null genotype). Next, we
+analyzed lifetime cancer accrual and tumor patterns
+associated with each class using familial and indi-
+vidual data from the NCI germline TP53 mutation
+database (https://tp53.cancer.gov/).15 Third, we
+interpolated each class with clusters of functional
+scores from the human cell suppression saturation
+mutagenesis screens dataset (8,252 variants, SMS
+dataset) developed by Hahn and collaborators.11
+Fourth, we assessed the signiﬁcance and limitations
+of YTA classes by examining their concordance
+with ClinVar expert panel annotations (https://
+clinicalgenome.org/afﬁliation/50013/). Finally, we
+validated the proposed variant classiﬁcation in three
+cohorts of carriers recruited in high-risk cancer
+predisposition clinics in Germany, France, and
+Canada (n = 821). See also Figures S1 and S2, and
+Table S1.
+
+Concordance between YTA classes and
+ClinVar expert panel variant annotations
+(n = 58 variants)
+
+Validation of phenotype/genotype correlations in
+3 clinical cohorts of germline TP53 carriers
+(n = 821 carriers)
+
+gnomAD (0.2). In contrast, class D variants were enriched in gno-
+mAD (1.8) and counter-selected in COSMIC (0.1) and NCI (0.2),
+whereas class C was not enriched in any of the datasets. These
+results are compatible with the notion that classes A to D corre-
+spond to a gradient of cancer-related p53 dysfunction.
+
+YTA classes are associated with distinct phenotypic
+patterns within the LF spectrum
+To explore the correlations between YTA classes and tumor phe-
+notypes within the broad Li-Fraumeni
+(LF) spectrum, we
+analyzed lifetime cancer accrual and tumor patterns using data
+compiled in the NCI germline TP53 mutation database (https://
+tp53.cancer.gov/),15 a repository of germline variants detected
+
+in subjects (n = 3,446) from 1,522 families.
+For comparing the missense variants with
+strict LOF variants, we constructed a class
+‘‘zero’’ (0) that included variants consid-
+ered as ‘‘null’’ for p53, i.e., nonsense and
+frameshift variants that preclude the syn-
+thesis of a functional p53 protein (Fig-
+ure S5). Class 0 includes variants consid-
+ered to have exclusively LOF effects and
+thus provides a reference to evaluate
+possible DNEs and GOF effects carried
+by missense variants in classes A to D.
+Figure 3A shows that class A variants
+were found in 1,426 (53%) patients, fol-
+lowed by class 0 (552, 21%), B (290,
+11%), C (242, 9%), and D (171, 6%).
+Gender distribution differed among classes, with a lower propor-
+tion of males in classes B, C, and D (31.4%, 26.7%, and 32%,
+respectively) than in classes 0 and A (40.9% and 40.6%, respec-
+tively) (Figure 3B). With respect to lifetime cancer accrual, clas-
+ses 0 and A were associated with the most severe proﬁles (me-
+dian age at ﬁrst diagnosis = 28 years) (Figures 3C–3E). Classes C
+and D were associated with attenuated accrual proﬁles (median
+age = 41 years), whereas class B showed an intermediate and
+distinct proﬁle (median age = 33 years), characterized by rapid
+accrual during childhood (similar to classes A and 0) and slower
+accrual during adolescence and adulthood. This gradient of
+pathogenicity was reﬂected in the proportion of carriers with
+multiple cancers as well as cancer free (Figures 3F and 3G)
+
+iScience 27, 111296, December 20, 2024
+
+3
+
+ll
+
+OPEN ACCESS
+
+iScience
+Article
+
+All TP53 missense variants (n=2,314)
+
+Kato yeast assay
+(all TP53 missense
+variants)
+
+gnomAD counts
+(normal sample based
+TP53 variants)
+
+Cosmic counts
+(tumor based TP53
+variants)
+
+Dataset IARC/NCI
+counts (TP53
+germline variants)
+
+A
+
+B
+
+y
+c
+n
+e
+u
+q
+e
+r
+F
+
+s
+t
+n
+a
+i
+r
+a
+v
+f
+
+o
+
+A 402 (17.4%)
+B 208 (9.0%)
+C 671 (29.0%)
+D 1033 (44.64%)
+
+A 38 (3.2%)
+B 18 (1.5%)
+C 159 (13.2%)
+D 987 (82.1%)
+
+A 27397 (78.1%)
+B 3498 (10.0%)
+C 2389 (6.8%)
+D 1812 (5.1%)
+
+A 624 (57.5%)
+B 131 (12.1%)
+C 231 (21.3%)
+D 99 (9.1%)
+
+Figure 2. Distribution of TP53 variants from YTA classes across TP53 structure and datasets
+(A) Localization of TP53 missense variants along the TP53 sequence (left). Heatmap showing the number of variants found at each amino acid position, for each
+YTA classes. The TP53 domains are indicated below the heatmap to visualize the localization of TP53 variants within TP53 secondary structure. Proportion of
+residues within each TP53 domain for the four YTA classes (right).
+(B) Distribution of the variants from the YTA classes within different databases: transactivation yeast assay, gnomAD database, COSMIC database, and IARC/
+NCI LFS dataset. Pie charts represent the number of samples with TP53 missense variants belonging to the four YTA classes. See also Figures S3 and S4.
+
+and was consistent with current deﬁnitions of clinical pheno-
+types (Figures 3I and 3J). Of note, variants in established cancer
+predisposition genes other than TP53 were more frequently
+found in carriers of class D variants than in carriers of any other
+variant class (Figure 3H).
+
+Comparison across classes revealed statistically signiﬁcant
+differences in tumor patterns (Figures 4, S6, and S7; Table S2).
+Classes 0 and A shared topological and morphological tumor
+patterns that recapitulated the broad phenotype of the LF spec-
+trum. This included LFS signature cancers such as childhood
+ACC, CPT, RMS, and MB, teenage OS, and early breast phyl-
+lodes cancers. There were, however, small but statistically sig-
+niﬁcant differences between 0 and A, the latter presenting with
+a higher proportion of brain cancers (risk ratio [RR] = 1.53,
+95% conﬁdence interval [CI] [1.16–2.05]), including in particular
+CPT (Figures 4B, 4C, and S6; Table S2) compared to class 0.
+Compared to 0 and A, class B showed a slightly delayed median
+age of tumor onset as compared to classes 0 and A as well as a
+smaller proportion of most cancers that deﬁne the LF spectrum
+
+(Figures 4B, 4C, and S6), except ACC (RR B vs. A = 2.74 (95% CI
+[1.78; 4.14]); RR B vs. 0 = 3.12 (95% CI [1.84–5.34]) (Table S2).
+Indeed, in class B, ACC was the most common cancer form
+before the age of 10 and was responsible for the rapid cancer
+accrual in early life (Figure 3C) despite the rarity of other child-
+hood signature cancers (i.e., RMS and MB)
+(Figure S6).
+Compared to A, class B also showed a higher proportion of can-
+cer-free carriers (Figure 3G) and differences in the predominant
+forms of CNS cancers (mostly glioblastomas) (Figures 4B and
+S6). Compared to 0, A, and B, class C presented with an atten-
+uated risk of all cancers of the LF spectrum, except ACC (RR C
+vs. A = 2.05 (95% CI [1.20–3.34]) and breast cancers (BCs) (RR C
+vs. A = 1.75 (95% CI [1.32–2.31]) (Figures 4B, 4C, and S6,
+Table S2). In contrast, class C carriers rarely presented with
+OS, CPT, RMS, or MB compared to class 0 and A (Figure S6).
+Class C also presented with a higher proportion of cancer-free
+carriers than any other class (Figure 3G). Finally, class D included
+low penetrance variants, with signature LF cancers such as early
+ACC, CPT, MB, OS, and phyllodes tumors of the breast being, if
+
+4
+
+iScience 27, 111296, December 20, 2024
+
+iScience
+Article
+
+A
+
+Individuals
+with TP53
+germline
+variants
+
+C
+
+B
+
+D
+
+F
+
+Multiple pairwise comparison
+of cancer accrual
+
+E
+
+G
+
+H
+
+I
+
+J
+
+ll
+
+OPEN ACCESS
+
+Figure 3. Relationship between YTA classes
+and clinical phenotype in Li-Fraumeni
+syndrome
+(A) Distribution of TP53 germline carriers in the
+IARC/NCI database into classes. Class 0 includes
+non-missense variants (stop and frameshift).
+(B) Sex distribution of individuals (F, females; M,
+males) for each class.
+(C) Cancer accrual of
+individuals according to
+classes. The inverted Kaplan-Meier presentation
+corresponds to the age of onset of the ﬁrst cancer in
+each individual. The conﬁdence intervals at 95%
+are displayed on the curves, and the p value of the
+log rank test is indicated.
+(D) Pairwise comparison of cancer accrual for each
+class. A multiple pairwise comparison (with Bon-
+ferroni correction) shows the signiﬁcance of differ-
+ences in cancer accrual between the classes
+(adjusted p value).
+(E) Median age of cancer accrual according to the
+classes. The median age is indicated as a dot, and
+the conﬁdence intervals at 95% are indicated by
+bars aside the dot.
+(F) Proportion of individuals developing more than
+one cancer during lifetime. For each class, the
+barplot displays the percentage of individuals with
+more than one cancer.
+(G) Proportion of cancer-free individuals. For each
+class, the barplot shows the percentage of in-
+dividuals who did not develop any cancer.
+(H) Proportion of individuals with a germline variant
+in an established cancer predisposing gene (CPG).
+For each class, the barplot shows the percentage of
+individuals who carry a variant for a CPG other than
+TP53.
+(I) Distribution of clinical classes within TP53 clas-
+ses. The proportion of individuals belonging to the
+following categories are displayed: Li-Fraumeni
+syndrome (LFS), Li-Fraumeni-like syndrome (LFL),
+Chompret criteria (TP53_Chompret), familial history
+of cancer (FH), no familial history of cancer (noFH),
+other, and not applicable (NA).
+(J) Distribution of clinical phenotypes of the LFS
+spectrum deﬁnition within TP53 classes. The
+proportion of individuals belonging to the cate-
+gories LFS, attenuated LFS, and incidental LFS are
+displayed. All TP53 variants are included, regarde-
+less of their ClinVar annotations. See also Fig-
+ure S5.
+
+not absent, signiﬁcantly less represented than in A, B, or C
+(Figures 4B, 4C, and S6). The most frequent early cancers in D
+were hematopoietic malignancies, which are common sporadic
+neoplasia in children, independently of germline TP53 status.
+Class D variants retained quasi-wild-type p53 transcriptional
+properties for at least half of the YTA promoters tested, consis-
+tent with enrichment in variants annotated as benign or likely
+benign (B/LB) by ClinVar. Overall, classes 0 and A were associ-
+ated with the most severe forms of LFS, class B showed a slightly
+less penetrant form with ACC as the most frequent early life
+cancer, class C corresponded to an attenuated form predispos-
+ing to at least some cancers of the LF spectrum (ACC and BC),
+
+whereas class D did not appear to carry a signiﬁcant risk for
+typical LF cancers (Figure 4C).
+
+Dissecting YTA variant classes with functional scores
+from human cell-based assays
+Despite their sensitivity for capturing subtle structural differ-
+ences in DNA interactions caused by mutations, YTA screens
+may lack the physiological relevance of human cell-based as-
+says aimed at directly evaluating the capacity of p53 variants
+to suppress cell growth. To challenge the robustness of YTA
+classes in the light of human cell-based functional data, we
+have interpolated them with a functional score developed in
+
+iScience 27, 111296, December 20, 2024
+
+5
+
+ll
+
+OPEN ACCESS
+
+Giacomelli et al11 (phenotypic selection model; SMS dataset).
+Figure 5A shows that this score was broadly consistent with
+YTA classes, with A having the highest and D the lowest median
+score. However, individual variant scores were widely distrib-
+uted within each class. To further assess this heterogeneity,
+we applied Ward clustering using the three phenotypic enrich-
+ment scores in the SMS dataset. These scores evaluate the ca-
+pacity of TP53 variants to either suppress cell growth or maintain
+cell viability either in the presence or absence of wild-type TP53,
+thus providing metrics to assess LOF and DNE. This analysis
+
+6
+
+iScience 27, 111296, December 20, 2024
+
+iScience
+Article
+
+Figure 4. Association of YTA classes with tu-
+mor spectrum in LFS
+(A) Age-speciﬁc distribution of cancers (all topol-
+ogies combined) for TP53 classes. The rain-cloud
+plots display (1) a density plot showing distribution
+of age of onset for cancers, (2) a box plot showing
+median age of onset as well as quartile and outlier
+values, and (3) a dot plot showing every cancer
+analyzed.
+(B) Distribution of cancers by topology. The most
+frequent LFS topologies are displayed (adrenal
+gland, brain, bones, soft
+tissues, hematopoietic
+system, and breast); all other topologies are referred
+as ‘‘other.’’ Multiple pairwise comparisons of pro-
+portion of topologies within classes are performed
+using logistic model based on Khi2 statistic to
+extract risk ratio, conﬁdence intervals at 95%, and
+an adjusted p value (correction for multiple com-
+parisons using Benjamini-Hochberg method). Sta-
+tistical comparisons are found in Table S2.
+(C) Variation of cancer topology within classes.
+Heatmap synthetizes cancer topology distribution
+from Figure 4B (normalized in row by cancer to-
+pologies), and color scale represents enrichement
+scores. See also Figures S6 and S7.
+
+identiﬁed 3 clusters (G1 to G3), with G1
+containing variants with both LOF and
+DNE, G2 consisting of variants that had
+exclusively LOF effects, and G3 including
+variants with enrichment scores similar to
+wild-type TP53 (neither LOF nor DNE)
+(Figures 5B and 5D). Interpolating G clus-
+ters with YTA classes showed that both
+class A and B included predominantly G1
+and G2 variants, albeit in different propor-
+tions, whereas class C and D contained
+predominantly of G2 and G3 variants (Fig-
+ure 5C). When applied to lifetime cancer
+accrual in germline TP53 carriers, the 3 G
+clusters enable separating two phenotypic
+groups, corresponding to more (G1) or
+less severe (G2 and G3) cancer predispo-
+sition traits, however without clearly sepa-
+rating distinct LF phenotypes (Figure 5E).
+We next evaluated the phenotypic hetero-
+geneity of each YTA class (A–D) by sepa-
+rating them according to SMS clusters
+(G1–G3) (Figure 5E). This analysis revealed
+that YTA classes were remarkably robust,
+showing quasi-identical cancer accrual either for G1 and G2 var-
+iants in the A class or G2 and G3 variants in the D class. The only
+exception was a G3 variant in the A class, p.K305M, identiﬁed so
+far in only 1 family (3 adult patients) that did not match any LFS
+clinical criteria. Within class B and C, separation according to
+G clusters revealed signiﬁcant heterogeneity (p = 0.0076 for B
+and 0.00034 for C). Within each of these classes, variants of
+the G1 cluster tended to show a more severe phenotype than
+those of G2 and G3 clusters. This observation, in addition to
+the differences in accrual proﬁles in A and B classes irrespective
+
+iScience
+Article
+
+ll
+
+OPEN ACCESS
+
+B
+
+C
+
+G2
+n = 1131
+
+G1
+n = 424
+
+G3
+n = 753
+
+A
+
+D
+
+E
+
+Figure 5. Dissecting YTA variant classes with scores derived from human cells
+(A) Distribution of functional scorings from human cell-based assays (phenotypic selection model11) for the 2,314 TP53 missense variants, subdivided by YTA
+classes. Violin plots with dot plots display the distribution of scores, and the median scores are indicated as white triangles.
+(B) Clustering of TP53 missense variants based on scores derived from human cell dataset.11 The three Z scores were used to separate the TP53 variants into
+3 clusters named G1, G2, and G3.
+(C) Distribution of TP53 variants according to clusters G1, G2, and G3 within the YTA classes A, B, C, and D. The histogram represents the proportion of G1, G2,
+and G3 variants within each YTA class.
+(D) Distribution of the three Z scores in the clusters G1, G2, and G3. This clustering results in a gradient of functionality with G1 containing the most disrupted
+variants and G3 the most functional ones.
+(E) Cancer accrual of the G1, G2, and G3 clusters interpolated with the classes A, B, C, and D. Age of ﬁrst cancer is reported for each individual. Top left: all TP53
+variants mixed. Other panels represent variants separated into classes A, B, C, and D. p value of the log rank test is indicated to assess the signiﬁcance of
+differences between groups. See also Figures S8 and S9.
+
+iScience 27, 111296, December 20, 2024
+
+7
+
+ll
+
+OPEN ACCESS
+
+iScience
+Article
+
+Figure 6. Concordance between YTA classes and ClinVar annotations
+(A) Distribution of expert panel-reviewed and non-expert-panel reviewed TP53 variants in the ClinVar classiﬁcation. Variants from the IARC/NCI TP53 germline
+database are indicated in the pie chart. The second row of pie charts represents the breakdown of expert panel-reviewed variants in ClinVar categories
+(pathogenic, likely pathogenic, uncertain signiﬁcance, likely benign, and benign). Mapping of the YTA classes within each ClinVar category is displayed. The
+number of variants for each ClinVar category is indicated within each pie chart.
+
+(legend continued on next page)
+
+8
+
+iScience 27, 111296, December 20, 2024
+
+iScience
+Article
+
+ll
+
+OPEN ACCESS
+
+of G clusters, supports that the YTA classes captured a degree of
+phenotypic severity, which is not represented in the G clustering
+(SMS scores in human cells). As supplementary data, we present
+additional analyses using another systematic human cell-based
+functional score developed by Kotler et al.13 (relative ﬁtness
+score; Figure S8) as well as a comparison between YTA classes
+and TP53_PROF, a machine learning model that integrates
+yeast, cell-based, and computational metrics developed by
+Ben-Cohen et al18 (Figure S9). Overall, these analyses further
+underlined the remarkable consistency between YTA classes
+and other metrics aimed at predicting the impact of missense
+mutations in p53.
+
+Clinical signiﬁcance of YTA classes
+ClinVar expert panel annotations (https://clinicalgenome.org/
+afﬁliation/50013/) are based on expert consensus review of ge-
+notype/phenotype correlations and are the current standard for
+interpreting TP53 germline variants for clinical purposes.14 How-
+ever, these annotations cover only a proportion of all missense
+variants in the NCI germline dataset. We thus assessed the
+concordance between YTA classes and ClinVar expert panel
+as a ﬁrst step to determine whether YTA classes could assist
+in the clinical evaluation of variants that have not yet been anno-
+tated to date. Figure 6A shows that YTA classes were concor-
+dant with expert panel annotations, with A and B classes mostly
+represented among P/PL variants and C and D classes mostly
+represented among B/LB variants. The only exception was
+D49H, a YTA class A – SMS G2 (LOF) variant annotated as LB
+by ClinVar. This variant is documented in only one family (2 pa-
+tients) that matched the LFS Chompret’s criteria (embryonal
+RMS of the cervix at 2 years and Hodgkin’s lymphoma at 15
+years).19 Variants annotated as ‘‘Uncertain Signiﬁcance’’ were
+predominant in class C variants, followed by class B and D var-
+iants, suggesting that YTA classes may help in resolving ambigu-
+ities in variant annotations. Overall, YTA classes were remark-
+ably consistent with expert panel annotations (p < 0.0001)
+(Figures 6B and 3C). Moreover, within classes A, B, and C, can-
+cer accrual in carriers of non-expert panel variants was almost
+perfectly aligned with that of expert panel-curated variants (Fig-
+ure 6C). Thus, YTA classes could adequately predict cancer
+accrual and phenotypes in subjects carrying variants not anno-
+tated by the expert panel.
+
+To further assess the robustness of YTA classes in a clinical
+context, we examined cancer accrual and tumor patterns in
+three independent cohorts of carriers recruited in different
+high-risk cancer predisposition clinics in Germany (n = 146,
+LFS Registry in Hannover), France (n = 578, French LFS cohort),
+and Canada (n = 97, Toronto LFS cohort). These cohorts are
+maintained and annotated mainly independently of the NCI
+germline dataset. Figure 7 shows that, in each cohort, YTA clas-
+ses correctly predicted cancer accrual and distinguished among
+carriers with quantitative and qualitative differences in the LF
+
+spectrum. In all cohorts, class A carriers presented the most se-
+vere phenotype (similar to class 0 in the German and Canadian
+cohort). Compared to A, class B carriers had a distinct and
+less penetrant phenotype, characterized by high risk of early-
+life ACC and slightly delayed overall cancer accrual. Class C car-
+riers often had attenuated phenotypes, nevertheless including
+cancers typical of the LF spectrum (i.e., ACC and BC) but
+excluding most other signature LF childhood cancers, whereas
+in class D, tumor patterns tended to be more heterogeneous,
+with most of carriers not matching LF spectrum deﬁnitions (Fig-
+ure S10). Overall, these observations support that YTA classes
+can help to predict speciﬁc patterns of risk in germline carriers
+and could be particularly helpful for assessing the risk of novel
+variants as well as variants not yet annotated by expert panels
+or ClinVar.
+
+DISCUSSION
+
+This classiﬁcation of TP53 missense variants into 4 functional
+classes (A–D) supports a robust interpolation between geno-
+types (variant characteristics) and phenotypes (cancer risk and
+spectrum). The classiﬁcation correctly separated severe from
+mild or benign variants in all structural domains of the p53 pro-
+tein, including transactivation domain, DBD, and tetramerization
+domain. The classiﬁcation is based on quantitative and qualita-
+tive similarities between variants in YTA and is remarkably
+consistent with human cell-based functional metrics from
+SMSs of TP53 variants. However, interpolating YTA classes
+with clustered SMS scores showed that YTA classes afforded
+superior precision in distinguishing variant carriers with distinct
+phenotypic features of LFS.
+
+Class A identiﬁed a group of severe variants that mostly fell
+within major structural motifs of the DBD of the p53 protein. Car-
+riers of these variants recapitulated all phenotypic traits of severe
+LFS. Interestingly, tumor phenotypes in class A carriers were
+only marginally distinct from those or carriers of null/frameshift
+TP53 variants (class 0), the only difference being a higher propor-
+tion of CNS cancers in class A than in class 0 (RR = 1.53, 95% CI
+[1.16–2.05]). Likewise, separating class A variants into variants
+with DNEs (SMS cluster G1) or simply LOF (SMS cluster G2)
+did not reveal signiﬁcant differences in cancer accrual or pheno-
+typic spectrum. These observations suggest that, in the context
+of LFS, LOF is the main, if not the only functional property of
+TP53 variants that causes disease severity and that mutant-spe-
+ciﬁc effects such as DNEs or GOF effects play only minor, tissue-
+speciﬁc roles.
+
+Most class B variants were distributed within structural mo-
+tifs of the DBD that are not in direct contact with DNA. These
+variants showed less severe structural and functional features
+than class A as well as a greater heterogeneity in their transcrip-
+tional activities, suggesting that they may partially retain wild-
+type activity toward a subset of promoters. Phenotypes in B
+
+(B) Cancer accrual of each YTA class for the subcategory of expert panel-reviewed TP53 variants (top). The ﬁrst cancer of the NCI/IARC TP53 germline database
+is used to monitor cancer accrual. Conﬁdence intervals at 95% and log rank test p value are indicated. Median age of cancer accrual according to the classes
+(bottom). The median age is indicated as a dot, and the conﬁdence intervals at 95% are indicated by bars aside the dot.
+(C) Comparison of cancer accrual for variants annotated by expert panel versus variants not annotated by expert panel (No). Left: cancer accrual within each YTA
+class. Right: the median and conﬁdence intervals.
+
+iScience 27, 111296, December 20, 2024
+
+9
+
+iScience
+Article
+
+ll
+
+OPEN ACCESS
+
+A
+
+French cohort
+
+B
+
+German cohort
+
+C
+
+Canadian cohort
+
+Figure 7. Matching YTA classes to Li-Fraumeni clinical validation cohorts
+For each cohort, the patients’ distribution into TP53 classes are shown in the pie charts (left), as well as the cancer accrual using the age of onset for the ﬁrst
+cancer, conﬁdence intervals at 95% and l rank p values (right).
+(A) Cohort 1 (France) analysis.
+(B) Cohort 2 (Germany) analysis.
+(C) Cohort 3 (Canada) analysis. See also Figure S10.
+
+carriers were slightly and selectively attenuated as compared
+to A carriers, in particular during childhood and adolescence.
+Whereas early signature cancers such as RMS, CPT, MB, or
+OS were infrequent in class B carriers, the proportion of ACC
+was higher than in classes 0 and A. As a result, class B carriers
+
+show a distinct proﬁle of cancer accrual in early life, with high
+risk caused by ACC until age 9, followed by a period of relatively
+low risk between ages 10 and 20. The selectivity of class B var-
+iants for ACC suggests that perinatal adrenal cortical cells are
+exquisitely sensitive to wild-type p53 dosage and that variants
+
+10
+
+iScience 27, 111296, December 20, 2024
+
+iScience
+Article
+
+mediating partial loss of wild-type p53 activity may sufﬁce to
+enhance the risk of early ACC.
+
+Class C included lower penetrance variants that nevertheless
+predisposed to cancers typical of the LF spectrum. This class
+was the most heterogeneous when interpolated with SMS
+clusters. Interestingly, this class included two founder variants
+described as ‘‘hypomorphs,’’ R337H (Brazilian-centric),20 Y107H
+(African-centric),21 as well as R181 C/H, which retain partial
+wild-type p53 activities when tested in standard conditions
+in vitro but cause a signiﬁcant risk for diverse cancers of the LF
+spectrum in both children and adults. It has been suggested
+that these variants may require synergistic alterations in other
+pathways to express their full pathogenic potential. This hypothe-
+sis is supported by the discovery that, in R337H carriers, an
+inactivating variant of
+the putative tumor suppressor XAF1
+(E134*/Glu134Ter/rs146752602) enhances the risk of developing
+sarcomas.22 Thus, class C may be enriched in incompletely inac-
+tivating variants that require other genetic, epigenetic, or meta-
+bolic/biochemical complementation to express their full patho-
+genic potential. This hypothesis may account for the disparities
+of SMS scores associated with these variants: their functional
+impact in any particular cell-based assay may depend upon the
+presence in these cells of factors required for complementing
+the TP53 variant.
+
+Class D represented a homogenous class of less severe vari-
+ants that were associated with strongly attenuated LFS features.
+These observations suggest carriage of a class D variant does
+not in itself predispose to LFS. This hypothesis is supported by
+the fact that pathogenic variants in other cancer predisposition
+genes were more frequently detected in carriers of D variants
+than in any other class. This suggests that, in carriers of D vari-
+ants, cancer predisposition may be at least partially caused by
+other pathogenic variants. However, further analysis is needed
+since this information is not available for the majority of the
+carriers documented in the dataset. Therefore, it cannot be
+excluded that in speciﬁc contexts (e.g., genetic modiﬁers), at
+least some class D variants may contribute to enhance the risk
+of cancers of the LF spectrum. Thus, great care should be exer-
+cised when considering such variants in genetic counseling.
+
+This classiﬁcation provides insights into the concept of atten-
+uation within the LF spectrum.5 The term aLFS has been coined
+to identify an LF phenotype deﬁned by the presence of a germ-
+line P/LP TP53 variant in a person with any cancer who does not
+meet LFS genetic testing criteria and has no cancer diagnosed
+before age 18 years. The YTA classiﬁcation did not identify a
+unique YTA class matching this phenotypic deﬁnition. However,
+there was a gradient in the proportion of individuals with aLFS
+phenotype from class 0 or A (<17%–21%) to class C or D
+(>50%–61%)
+(Figure 4J). Remarkably, even among carriers
+who met LFS genetic testing criteria, YTA classes underscored
+a gradient of phenotypic attenuation, with carriers of B or C var-
+iants presenting, on average, with a less severe phenotype than
+carriers of A or 0 variants. Another key message is that risk atten-
+uation in relation to YTA classes does not obey to a unique, linear
+rule for all cancers that characterize the LF spectrum. In partic-
+ular, carriers of B or C variants retain a risk for early ACC at least
+equal to classes 0 and A, supporting that predisposition to this
+cancer can be high even with relatively mild TP53 variants. In
+
+ll
+
+OPEN ACCESS
+
+contrast, other signature LF cancers, such as OS, CPT, MB, or
+RMS, were remarkably more prevalent in carriers of 0 or A than
+in carriers of B, C, or D variant classes.
+
+Overall, our integrative genotypic/phenotypic analysis pro-
+vides an approach that complement, but does not supersedes,
+expert curation efforts aimed at predicting individual and familial
+risk in germline variant carriers, as well as a basis to identify
+hypomorphic variants that require genetic or epigenetic modiﬁ-
+cation to express their full pathogenic potential.
+
+Limitations of the study
+This study has several limitations. First, it does not take into ac-
+count the fact that at least some mutations causing missense
+variants may also cause aberrant mRNA splicing patterns,
+resulting in loss of p53 protein expression. Such effects may
+confer greater severity to variants currently solely interpreted
+as missense. So far, these effects on splicing have not been eval-
+uated in systematic functional assays. Second, it remains to be
+determined whether the different classes A–D coincide with
+distinct patterns of expression of p53 target genes, in particular
+in normal cells and tissues of carriers of TP53 germline variants.
+
+RESOURCE AVAILABILITY
+
+Lead contact
+Further information and requests for resources should be directed to and will
+be fulﬁlled by the lead contact, Pierre Hainaut (pierre.hainaut@univ-grenoble-
+alpes.fr).
+
+Materials availability
+This study did not generate new unique materials.
+
+Data and code availability
+
+d This paper analyzes existing, publicly available data. The references for
+the datasets are listed in the key resources table of the STAR Methods.
+Newly generated data consisting of TP53 variants classiﬁcation into
+classes based on clustering approach are publicly available as a table
+in supplementary information (Table S1).
+
+d The code used for performing iterative clustering of TP53 variants based
+on YTA, in order to generate the YTA clusters, is available in supple-
+mental data (Data S1 ﬁle).
+
+d Any additional information required to reanalyze the data reported in this
+
+paper is available from the lead contact upon request.
+
+ACKNOWLEDGMENTS
+
+E.M. was a recipient of a European MSCA individual fellowship (846806) and a
+Fondation ARC postdoctoral fellowship. P.H.’s laboratory was supported by
+the IDEX of Universite´ Grenoble Alpes (LIFE project) and Fondation MSDAvenir
+(ERICAN project). C.F.’s research was funded by Fondation ARC and Cance´ r-
+op^ole Lyon Auvergne Rh^one-Alpes. C.P.K.
+is supported by the BMBF
+ADDRess (01GM2205A) and the Deutsche Kinderkrebsstiftung (DKS2024.03).
+D.M. is supported by a Program Project grant from the Terry Fox Research Insti-
+tute (1081) and holds the CIBC Children’s Foundation Chair in Child Health
+Research.
+
+AUTHOR CONTRIBUTIONS
+
+E.M., N.L., and P.H. conceived and designed the study. P.H. supervised
+research. N.L. performed hierarchical clustering. E.M. performed bioinformatic
+analysis and graphical representations with the help of S.B. E.M. analyzed ge-
+notype-phenotype correlations with the help of C.F. J.P., C.P.K., G.B., N.W.F.,
+and D.M. provided clinical data. A.A. and F.C. assisted E.M. with statistical
+
+iScience 27, 111296, December 20, 2024
+
+11
+
+ll
+
+OPEN ACCESS
+
+analyses. J.P., C.P.K., G.B., N.W.F., D.M., M.-I.A., A.J.L., and C.G. contributed
+to the discussion and interpretation of variant classes. E.M. and P.H. wrote the
+manuscript. All authors critically revised the manuscript for important intellec-
+tual content and approved the version for publication.
+
+DECLARATION OF INTERESTS
+
+The authors declare no competing interests.
+
+STAR+METHODS
+
+Detailed methods are provided in the online version of this paper and include
+the following:
+
+d KEY RESOURCES TABLE
+d EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS
+
+B TP53 germline variant dataset
+B TP53 germline variant validation datasets
+
+d METHOD DETAILS
+
+B Iterative clustering on YTA dataset
+B Clustering on human cells assays
+B Correlations between YTA classes and predictors of variant delete-
+
+riousness
+
+B Mapping of YTA classes to p53 protein structure
+B Distribution of YTA classes in germline and somatic TP53 variant
+
+datasets
+
+B Genotype-phenotype correlations
+
+d QUANTIFICATION AND STATISTICAL ANALYSIS
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental information can be found online at https://doi.org/10.1016/j.isci.
+2024.111296.
+
+Received: June 11, 2024
+Revised: September 5, 2024
+Accepted: October 29, 2024
+Published: November 1, 2024
+
+REFERENCES
+
+1. Bougeard, G., Renaux-Petel, M., Flaman, J.-M., Charbonnier, C., Fermey,
+P., Belotti, M., Gauthier-Villars, M., Stoppa-Lyonnet, D., Consolino, E.,
+Brugie` res, L., et al. (2015). Revisiting Li-Fraumeni Syndrome From TP53
+Mutation Carriers. J. Clin. Oncol. 33, 2345–2352. https://doi.org/10.
+1200/JCO.2014.59.5728.
+
+2. Amadou, A., Achatz, M.I.W., and Hainaut, P. (2018). Revisiting tumor pat-
+terns and penetrance in germline TP53 mutation carriers: temporal phases
+of Li-Fraumeni syndrome. Curr. Opin. Oncol. 30, 23–29. https://doi.org/10.
+1097/CCO.0000000000000423.
+
+3. Li, F.P., Fraumeni, J.F., Mulvihill, J.J., Blattner, W.A., Dreyfus, M.G.,
+(1988). A cancer family syndrome in
+
+Tucker, M.A., and Miller, R.W.
+twenty-four kindreds. Cancer Res. 48, 5358–5362.
+
+4. Frebourg, T., Bajalica Lagercrantz, S., Oliveira, C., Magenheim, R., and
+Evans, D.G.; European Reference Network GENTURIS (2020). Guidelines
+for the Li-Fraumeni and heritable TP53-related cancer syndromes. Eur. J.
+Hum. Genet. 28, 1379–1386. https://doi.org/10.1038/s41431-020-0638-4.
+
+5. Kratz, C.P., Freycon, C., Maxwell, K.N., Nichols, K.E., Schiffman, J.D.,
+Evans, D.G., Achatz, M.I., Savage, S.A., Weitzel, J.N., Garber, J.E., et al.
+(2021). Analysis of the Li-Fraumeni Spectrum Based on an International
+Germline TP53 Variant Data Set: An International Agency for Research
+on Cancer TP53 Database Analysis. JAMA Oncol. 7, 1800–1805. https://
+doi.org/10.1001/jamaoncol.2021.4398.
+
+iScience
+Article
+
+7. Kruiswijk, F., Labuschagne, C.F., and Vousden, K.H. (2015). p53 in sur-
+vival, death and metabolic health: a lifeguard with a licence to kill. Nat.
+Rev. Mol. Cell Biol. 16, 393–405. https://doi.org/10.1038/nrm4007.
+
+8. Levine, A.J. (2020). p53: 800 million years of evolution and 40 years of dis-
+covery. Nat. Rev. Cancer 20, 471–480. https://doi.org/10.1038/s41568-
+020-0262-1.
+
+9. Hainaut, P., and Pfeifer, G.P. (2016). Somatic TP53 Mutations in the Era of
+Genome Sequencing. Cold Spring Harb. Perspect. Med. 6, a026179.
+https://doi.org/10.1101/cshperspect.a026179.
+
+10. Stein, Y., Aloni-Grinstein, R., and Rotter, V. (2020). Mutant p53 oncoge-
+nicity: dominant-negative or gain-of-function? Carcinogenesis 41, 1635–
+1647. https://doi.org/10.1093/carcin/bgaa117.
+
+11. Giacomelli, A.O., Yang, X., Lintner, R.E., McFarland, J.M., Duby, M., Kim,
+J., Howard, T.P., Takeda, D.Y., Ly, S.H., Kim, E., et al. (2018). Mutational
+processes shape the landscape of TP53 mutations in human cancer. Nat.
+Genet. 50, 1381–1387. https://doi.org/10.1038/s41588-018-0204-y.
+
+12. Kato, S., Han, S.-Y., Liu, W., Otsuka, K., Shibata, H., Kanamaru, R., and
+Ishioka, C. (2003). Understanding the function-structure and function-mu-
+tation relationships of p53 tumor suppressor protein by high-resolution
+missense mutation analysis. Proc. Natl. Acad. Sci. USA 100, 8424–8429.
+https://doi.org/10.1073/pnas.1431692100.
+
+13. Kotler, E., Shani, O., Goldfeld, G., Lotan-Pompan, M., Tarcic, O., Ger-
+shoni, A., Hopf, T.A., Marks, D.S., Oren, M., and Segal, E. (2018). A
+Systematic p53 Mutation Library Links Differential Functional Impact to
+Cancer Mutation Pattern and Evolutionary Conservation. Mol. Cell 71,
+178–190.e8. https://doi.org/10.1016/j.molcel.2018.06.012.
+
+14. Fortuno, C., Lee, K., Olivier, M., Pesaran, T., Mai, P.L., de Andrade, K.C.,
+Attardi, L.D., Crowley, S., Evans, D.G., Feng, B.-J., et al. (2021). Speciﬁca-
+tions of the ACMG/AMP variant interpretation guidelines for germline TP53
+variants. Hum. Mutat. 42, 223–236. https://doi.org/10.1002/humu.24152.
+
+15. de Andrade, K.C., Lee, E.E., Tookmanian, E.M., Kesserwan, C.A., Man-
+fredi, J.J., Hatton, J.N., Loukissas, J.K., Zavadil, J., Zhou, L., Olivier, M.,
+et al. (2022). The TP53 Database: transition from the International Agency
+for Research on Cancer to the US National Cancer Institute. Cell Death
+Differ. 29, 1071–1073. https://doi.org/10.1038/s41418-022-00976-3.
+
+16. Mathe, E., Olivier, M., Kato, S., Ishioka, C., Hainaut, P., and Tavtigian, S.V.
+(2006). Computational approaches for predicting the biological effect of
+p53 missense mutations: a comparison of three sequence analysis based
+methods. Nucleic Acids Res. 34, 1317–1325. https://doi.org/10.1093/nar/
+gkj518.
+
+17. Ng, P.C., and Henikoff, S. (2001). Predicting deleterious amino acid sub-
+stitutions. Genome Res. 11, 863–874. https://doi.org/10.1101/gr.176601.
+
+18. Ben-Cohen, G., Doffe, F., Devir, M., Leroy, B., Soussi, T., and Rosenberg,
+S. (2022). TP53_PROF: a machine learning model to predict impact of
+missense mutations in TP53. Brief. Bioinform. 23, bbab524.
+
+19. Yamazaki, F., Shima, H., Osumi, T., Narumi, S., Kuroda, T., and Shimada,
+H. (2018). Nodular Lymphocyte-predominant Hodgkin Lymphoma in a
+15-Year-Old Boy With Li-Fraumeni Syndrome Having a Germline TP53
+D49H Mutation. J. Pediatr. Hematol. Oncol. 40, e195–e197. https://doi.
+org/10.1097/MPH.0000000000000948.
+
+20. Achatz, M.I.W., Olivier, M., Le Calvez, F., Martel-Planche, G., Lopes, A.,
+Rossi, B.M., Ashton-Prolla, P., Giugliani, R., Palmero, E.I., Vargas, F.R.,
+et al. (2007). The TP53 mutation, R337H, is associated with Li-Fraumeni
+and Li-Fraumeni-like syndromes in Brazilian families. Cancer Lett. 245,
+96–102. https://doi.org/10.1016/j.canlet.2005.12.039.
+
+21. Indeglia, A., Leung, J.C., Miller, S.A., Leu, J.I.-J., Dougherty, J.F., Clarke,
+N.L., Kirven, N.A., Shao, C., Ke, L., Lovell, S., et al. (2023). An African-
+Speciﬁc Variant of TP53 Reveals PADI4 as a Regulator of p53-Mediated
+Tumor Suppression. Cancer Discov. 13, 1696–1719. https://doi.org/10.
+1158/2159-8290.CD-22-1315.
+
+6. Kastenhuber, E.R., and Lowe, S.W. (2017). Putting p53 in Context. Cell
+
+170, 1062–1078. https://doi.org/10.1016/j.cell.2017.08.028.
+
+22. Pinto, E.M., Figueiredo, B.C., Chen, W., Galvao, H.C.R., Formiga, M.N.,
+Fragoso, M.C.B.V., Ashton-Prolla, P., Ribeiro, E.M.S.F., Felix, G., Costa,
+
+12
+
+iScience 27, 111296, December 20, 2024
+
+iScience
+Article
+
+ll
+
+OPEN ACCESS
+
+T.E.B., et al. (2020). XAF1 as a modiﬁer of p53 function and cancer suscep-
+tibility. Sci. Adv. 6, eaba3231. https://doi.org/10.1126/sciadv.aba3231.
+
+23. Subasri, V., Light, N., Kanwar, N., Brzezinski, J., Luo, P., Hansford, J.R.,
+Cairney, E., Portwine, C., Elser, C., Finlay, J.L., et al. (2023). Multiple
+Germline Events Contribute to Cancer Development in Patients with Li-
+Fraumeni Syndrome. Cancer Res. Commun. 3, 738–754. https://doi.org/
+10.1158/2767-9764.CRC-22-0402.
+
+24. Penkert, J., Str€uwe, F.J., Dutzmann, C.M., Doergeloh, B.B., Montellier, E.,
+Freycon, C., Keymling, M., Schlemmer, H.-P., Sa¨ nger, B., Hoffmann, B.,
+et al. (2022). Genotype-phenotype associations within the Li-Fraumeni
+spectrum: a report from the German Registry. J. Hematol. Oncol. 15,
+107. https://doi.org/10.1186/s13045-022-01332-1.
+
+25. Landrum, M.J., Lee, J.M., Benson, M., Brown, G., Chao, C., Chitipiralla, S.,
+Gu, B., Hart, J., Hoffman, D., Hoover, J., et al. (2016). ClinVar: public
+archive of interpretations of clinically relevant variants. Nucleic Acids
+Res. 44, D862–D868. https://doi.org/10.1093/nar/gkv1222.
+
+27. Gudmundsson, S., Singer-Berk, M., Watts, N.A., Phu, W., Goodrich, J.K.,
+Solomonson, M., Rehm, H.L., MacArthur, D.G., and O’Donnell-Luria, A.;
+Genome Aggregation Database Consortium (2022). Variant interpretation
+using population databases: Lessons from gnomAD. Hum. Mutat. 43,
+1012–1030. https://doi.org/10.1002/humu.24309.
+
+28. Pettersen, E.F., Goddard, T.D., Huang, C.C., Meng, E.C., Couch, G.S.,
+Croll, T.I., Morris, J.H., and Ferrin, T.E. (2021). UCSF ChimeraX: Structure
+visualization for researchers, educators, and developers. Protein Sci. 30,
+70–82. https://doi.org/10.1002/pro.3943.
+
+29. Chen, Y., Dey, R., and Chen, L. (2010). Crystal Structure of the p53 Core
+Domain Bound to a Full Consensus Site as a Self-Assembled Tetramer.
+Structure 18, 246–256. https://doi.org/10.1016/j.str.2009.11.011.
+
+30. Jeffrey, P.D., Gorina, S., and Pavletich, N.P. (1995). Crystal structure of the
+tetramerization domain of the p53 tumor suppressor at 1.7 angstroms.
+Science 267, 1498–1502. https://doi.org/10.1126/science.7878469.
+
+26. Tate, J.G., Bamford, S., Jubb, H.C., Sondka, Z., Beare, D.M., Bindal, N.,
+Boutselakis, H., Cole, C.G., Creatore, C., Dawson, E., et al. (2019).
+COSMIC: the Catalogue Of Somatic Mutations In Cancer. Nucleic Acids
+Res. 47, D941–D947. https://doi.org/10.1093/nar/gky1015.
+
+31. Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O.,
+Tunyasuvunakool, K., Bates, R., (cid:2)Zı´dek, A., Potapenko, A., et al. (2021).
+Highly accurate protein structure prediction with AlphaFold. Nature 596,
+583–589. https://doi.org/10.1038/s41586-021-03819-2.
+
+iScience 27, 111296, December 20, 2024
+
+13
+
+ll
+
+OPEN ACCESS
+
+STAR+METHODS
+
+KEY RESOURCES TABLE
+
+REAGENT or RESOURCE
+
+Deposited data
+
+TP53 germline database
+
+TP53 validation cohorts
+
+TP53 yeast transactivation assay (YTA) dataset
+
+TP53 human cell assays A549 saturation
+mutagenesis screens (SMS) dataset
+
+TP53 human cell assays H1299 relative
+ﬁtness score dataset
+
+TP53 prediction of functionality TP53_PROF
+
+Sorting Intolerant from Tolerant (SIFT) database
+
+Align Grantham Variation Grantham
+Deviation (AGVGD) database
+
+ClinVar database
+
+Cosmic database v97
+
+GnomAD database v3.1.2
+
+Software
+
+R
+
+ChimeraX
+
+iScience
+Article
+
+SOURCE
+
+IDENTIFIER
+
+de Andrade et al.15
+Subasri et al.23
+Penkert et al.24
+Bougeard et al.1
+Kato et al.12
+Giacomelli et al.11
+
+https://tp53.cancer.gov/
+
+https://doi.org/10.1158/2767-9764.CRC-22-0402
+https://doi.org/10.1186/s13045-022-01332-1
+https://doi.org/10.1200/JCO.2014.59.5728
+
+https://doi.org/10.1073/pnas.1431692100
+
+https://doi.org/10.1038/s41588-018-0204-y
+
+Kotler et al.13
+
+https://doi.org/10.1016/j.molcel.2018.06.012
+
+Ben Cohen et al.18
+Ng et al.17
+Mathe et al.16
+
+Landrum et al.25
+Tate et al.26
+Gudmundsson et al.27
+
+https://doi.org/10.1093/bib/bbab524
+
+https://sift.bii.a-star.edu.sg
+
+http://agvgd.hci.utah.edu
+
+https://www.ncbi.nlm.nih.gov/clinvar
+
+https://cancer.sanger.ac.uk/cosmic
+
+https://gnomad.broadinstitute.org
+
+NA
+Pettersen et al.28
+
+https://www.r-project.org/
+
+https://www.cgl.ucsf.edu/chimerax
+
+EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS
+
+TP53 germline variant dataset
+We analyzed the YTA classes on clinical data from the LF spectrum database R20 (germline TP53 variants), released in July 2019 and
+hosted at the NCI (https://tp53.cancer.gov/).15 This database recapitulates clinical data of patients carrying TP53 germline variants.
+The database contains data from 3,446 individuals (from 1,522 families) reported in the scientiﬁc literature since 1990. Individuals
+carrying several TP53 variants were excluded from our analysis because of complexity to determine the contribution of individual
+variants in these patients. Also, individuals carrying the TP53 p.R337H Brazilian variant who were not recruited through familial history
+of cancer were removed, because of bias of analysis (in column ‘‘Ref_ID’’: 138, 196, 259, 323 and 400 were selected in the LF spec-
+trum database). Individuals carrying TP53 missense variants were dispatched in groups corresponding to the YTA classes (A, B, C,
+D). The remaining individuals, carrying non-missense variants were selected based on the type of effect of the variant in order to build
+a class of reference containing non-functional (LOF) variants. We only kept nonsense and frameshift (ft) variants (from column ‘‘Ef-
+fect’’) to consolidate a null class (named class 0) corresponding to disruption of the full-length protein.
+
+TP53 germline variant validation datasets
+Three validation cohorts originating from three different clinics were used to verify the consistency of our observations for the YTA
+classes.
+
+(1) The ‘‘LFS Registry in Hannover’’, Germany, recruits patients with a previously established diagnosis of LFS.24 Only patients
+
+carrying pathogenic or likely pathogenic variants (according to Fortuno criteria) are included. N = 146 individuals.
+
+(2) The ‘‘French LFS Cohort’’ has included germline missense TP53 variants from the French registry (Rouen, France) identiﬁed in
+
+cancer patients who beneﬁted from TP53 analysis.1 N = 578 individuals.
+
+(3) The ‘‘Toronto LFS Cohort’’, Canada, is a multi-institutional collection of data from patients and families carrying germline path-
+
+ogenic variants that were referred to The Hospital for Sick Children.23 N = 97 individuals.
+
+Ethics committee of Hannover Medical School, French National Ethics Committee, and Ethics committee of the Hospital for Sick
+
+Children gave approval for this work.
+
+e1
+
+iScience 27, 111296, December 20, 2024
+
+iScience
+Article
+
+METHOD DETAILS
+
+ll
+
+OPEN ACCESS
+
+Iterative clustering on YTA dataset
+We retrieved transactivation scores from 2,314 TP53 variants12 on eight TP53 promoters (WAF1nWT, MDM2nWT, BAXnWT,
+h1433snWT, AIP1nWT, GADD45nWT, NOXAnWT, P53R2nWT). We performed hierarchical Ward clustering in R v3.6.1 with Euclidean
+distance, and chose three clusters. We performed a second iteration of clustering in the sub-clusters including more than 50 muta-
+tions. Up to three layers of clustering iterations were processed. A total of 16 distinct clusters were thus deﬁned. Dendrograms were
+retrieved with dendextend package, and heatmaps were built using pheatmap package. Final groups of clusters (YTA classes) were
+deﬁned via the following approach: the most disrupted variants (cluster 1_1_1) were assigned to class A; variants of the upper layer
+(layer 1_1 except cluster 1_1_1) were deﬁned as class B; variants of the next upper layer (layer 1 except the layer 1_1) were deﬁned as
+class C; ﬁnally, the less disrupted variants (all variants except layer 1) were deﬁned as class D.
+
+Clustering on human cells assays
+Data from cell-based saturation mutation screens of TP53 variants in A549 cells were used.11 We extracted three metrics for each the
+2,314 TP53 variants of the YTA dataset: A549 p53WT Nutlin.3 Z.score, A549 p53NULL Nutlin.3 Z.score and A549 p53NULL Etopo-
+side Z.score. We performed Ward clustering in R v4.2.2 with Euclidean distance (k = 3; clusters G1, G2 and G3). Dendrogram was
+retrieved with ape package.
+
+Correlations between YTA classes and predictors of variant deleteriousness
+We confronted our classes to various scores attributed to TP53: the transactivation classes as previously deﬁned by the analysis of
+transactivation in yeast assays,12 the Sorting Intolerant from Tolerant (SIFT) database (https://sift.bii.a-star.edu.sg),17 the Align
+Grantham Variation Grantham Deviation (AGVGD) database (http://agvgd.hci.utah.edu),16 the TP53 prediction of functionality
+(TP53_PROF),18 the TP53 functionality scores obtained in human cell lines11,13 and the ClinVar database which aggregates informa-
+tion about genomic variation and its relationship to human health (https://www.ncbi.nlm.nih.gov/clinvar).25 The confrontation of the
+classes with the various TP53 scores was performed using Pareto Plot or Pie Chart representations for categorical values and Scat-
+tered Plots and Violin Plots for numerical values (R, ggplot2 package). Cancer accrual of the subgroups of each YTA class was
+analyzed and the median age and statistical differences were extracted similar to YTA class comparison.
+
+Mapping of YTA classes to p53 protein structure
+The distribution of TP53 mutated residues along the TP53 sequence and domains was analyzed for each YTA class. Heatmaps were
+used to highlight the pattern of distribution of variants along TP53 sequence in the different YTA classes (R, package pheatmap). The
+proportion of variants within each TP53 domain is depicted using cumulative histograms (R, package ggplot2). The localization of
+mutations in the p53 protein structure was assessed using the software ChimeraX28 (https://www.cgl.ucsf.edu/chimerax) together
+with PDB ﬁles of the TP53 binding domain 3KMD29 and the TP53 tetramerization domain 1C26,30 as well as the alpha-fold modelized
+structure.31
+
+Distribution of YTA classes in germline and somatic TP53 variant datasets
+The occurrence of TP53 variants assigned to YTA classes was assessed in different databases: tumor-based variants in the Cosmic
+database v97 (https://cancer.sanger.ac.uk/cosmic),26 normal sample-based variants in the gnomAD database v3.1.2 (https://
+gnomad.broadinstitute.org),27 and TP53 germline variants database R20 released in July 2019 and hosted at the NCI (https://
+tp53.cancer.gov/).15 We used the protein mutation information in the databases to analyze the distribution of variants into YTA
+classes. Pie charts are used to show distribution of variant classes in the different databases, and numerical counts are indicated
+(R, ggplot2 package).
+
+Genotype-phenotype correlations
+Lifetime cancer accrual for the YTA classes was assessed using the age of ﬁrst cancer onset or the cancer-free age of an individual.
+Patients without age indication were not considered for this analysis. The age of median cancer accrual (and conﬁdence intervals at
+95%) was extracted and a Log Rank Mantel-Cox test was run to assess the signiﬁcance of differences between groups. For multiple
+pairwise comparisons, a correction was applied to extract an adjusted p-value (Bonferroni method). These analyses were performed
+using R and the survival and survminer packages. Information about individuals’ sex was retrieved in the corresponding column
+‘‘Sex’’. The proportion of individuals with multiple cancers versus individuals with one cancer was assessed for each YTA class.
+The proportion of cancer-free individuals compared to individuals with cancer was assessed for each class. Tumor distribution
+was determined in the YTA classes by analyzing all tumors described in the dataset (primary and secondary malignancies). We
+used information about cancer organs and subtypes available in the LF spectrum database (columns ‘‘Topography’’ and
+‘‘Morphology’’), and we consolidated groups based on organs of interest for the study of LFS (adrenal gland, brain, bone, soft tissue,
+breast, hematopoietic system, and the mix of all other organs) as well as speciﬁc cancer types (ACC, OS, CPT, MB, glioblastoma,
+phyllodes tumors, and RMS). Graphical representation of proportions of tumor types was performed using R (package ggplot2). The
+distribution of tumor topologies was compared between YTA classes by using logistic model based on Khi2 statistic (multiple
+
+iScience 27, 111296, December 20, 2024
+
+e2
+
+ll
+
+OPEN ACCESS
+
+iScience
+Article
+
+pairwise comparison) to calculate a risk ratio (RR), conﬁdence intervals at 95% (CI 95% low and CI 95% high) and adjusted p-value
+(correction for multiple comparisons by Benjamini-Hochberg method at 5% FDR level) using R software. Mapping of age-speciﬁc
+tumor distribution within YTA classes was assessed by generating rain-cloud plots (R, package ggplot2). Finally, the relationship be-
+tween YTA classes and the clinical deﬁnitions of LFS was evaluated using the LFS spectrum classiﬁcation5 and the column ‘‘Class’’
+from the IARC/NCI database, to build bar-plots of proportions of individuals within each clinical class.
+
+QUANTIFICATION AND STATISTICAL ANALYSIS
+
+Statistical analyses were performed with the software R. Details on statistical tests, adjustments and speciﬁc packages used for data
+presentation are given in each Methods section and in Figure legends.
+
+e3
+
+iScience 27, 111296, December 20, 2024
+
+

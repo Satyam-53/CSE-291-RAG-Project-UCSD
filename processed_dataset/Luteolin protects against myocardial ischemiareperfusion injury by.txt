@@ -1,0 +1,1905 @@
+Journal of Integrative Medicine 22 (2024) 652–664
+
+Contents lists available at ScienceDirect
+
+Journal of Integrative Medicine
+
+j o u r n a l h o m e p a g e : w w w . j c i m j o u r n a l . c o m / j i m
+w w w . j o u r n a l s . e l s e v i e r . c o m / j o u r n a l - o f - i n t e g r a t i v e - m e d i c i n e
+
+Original Research Article
+
+Luteolin protects against myocardial ischemia/reperfusion injury by
+reducing oxidative stress and apoptosis through the p53 pathway
+Pan Zhai a, Xiao-hu Ouyang a, Meng-ling Yang a, Lan Lin a, Jun-yi Li a, Yi-ming Li b, Xiang Cheng c,d, Rui Zhu a,⇑
+,
+De-sheng Hu a,d,e,⇑
+
+a Department of Integrated Traditional Chinese and Western Medicine, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430022,
+Hubei Province, China
+b Department of Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan 430071, Hubei Province, China
+c Department of Cardiology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430022, Hubei Province, China
+d Hubei Key Laboratory of Biological Targeted Therapy, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430022, Hubei Province, China
+e China-Russia Medical Research Center for Stress Immunology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430022,
+Hubei Province, China
+
+a r t i c l e
+
+i n f o
+
+a b s t r a c t
+
+Article history:
+Received 1 September 2023
+Accepted 13 August 2024
+Available online 7 September 2024
+
+Keywords:
+P53 signaling pathway
+Myocardial ischemia/reperfusion injury
+Apoptosis
+Oxidative stress
+Luteolin
+Network pharmacology
+
+Objective: Myocardial ischemia/reperfusion injury (MIRI) is an obstacle to the success of cardiac reperfu-
+sion therapy. This study explores whether luteolin can mitigate MIRI by regulating the p53 signaling
+pathway.
+Methods: Model mice were subjected to a temporary surgical ligation of the left anterior descending
+coronary artery, and administered luteolin. The myocardial infarct size, myocardial enzyme levels, and
+cardiac function were measured. Latent targets and signaling pathways were screened using network
+pharmacology and molecular docking. Then, proteins related to the p53 signaling pathway, apoptosis
+and oxidative stress were measured. Hypoxia/reoxygenation (HR)-incubated HL1 cells were used to val-
+idate the effects of luteolin in vitro. In addition, a p53 agonist and an inhibitor were used to investigate
+the mechanism.
+Results: Luteolin reduced the myocardial infarcted size and myocardial enzymes, and restored cardiac
+function in MIRI mice. Network pharmacology identiﬁed p53 as a hub target. The bioinformatic analyses
+showed that luteolin had anti-apoptotic and anti-oxidative properties. Additionally, luteolin halted the
+activation of p53, and prevented both apoptosis and oxidative stress in myocardial tissue in vivo.
+Furthermore, luteolin inhibited cell apoptosis, JC-1 monomer formation, and reactive oxygen species ele-
+vation in HR-incubated HL1 cells in vitro. Finally, the p53 agonist NSC319726 downregulated the protec-
+tive attributes of luteolin in the MIRI mouse model, and both luteolin and the p53 inhibitor piﬁthrin-a
+demonstrated a similar therapeutic effect in the MIRI mice.
+Conclusion: Luteolin effectively treats MIRI and may ameliorate myocardial damage by regulating apop-
+tosis and oxidative stress through its targeting of the p53 signaling pathway.
+Please cite this article as: Zhai P, Ouyang XH, Yang ML, Lin L, Li JY, Li YM, Cheng X, Zhu R, Hu DS. Luteolin
+protects against myocardial ischemia/reperfusion injury by reducing oxidative stress and apoptosis
+through the p53 pathway. J Integr Med. 2024; 22(6): 652–664.
+(cid:1) 2024 Shanghai Yueyang Hospital Afﬁliated to Shanghai University of Traditional Chinese Medicine. All
+rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+1. Introduction
+
+⇑ Corresponding authors at: Department of Integrated Traditional Chinese and
+Western Medicine, Union Hospital, Tongji Medical College, Huazhong University of
+Science and Technology, Wuhan 430022, Hubei Province, China.
+
+E-mail addresses: zhur@hust.edu.cn (R. Zhu), desheng.hu@hust.edu.cn (D.S. Hu).
+
+Acute myocardial infarction is a prevalent cardiovascular condi-
+tion characterized by signiﬁcant morbidity and mortality on a glo-
+bal scale [1]. Revascularization therapy has become the standard
+treatment for patients with acute myocardial infarction [2], which
+
+https://doi.org/10.1016/j.joim.2024.09.001
+2095-4964/(cid:1) 2024 Shanghai Yueyang Hospital Afﬁliated to Shanghai University of Traditional Chinese Medicine. All rights are reserved, including those for text and data
+mining, AI training, and similar technologies.
+
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+may however lead to myocardial
+ischemia/reperfusion injury
+(MIRI) [3,4]. The apoptosis of cardiomyocytes is an important
+mechanism of MIRI, which may impair myocardial function. How-
+ever, drugs aimed at mitigating myocardial cell apoptosis and their
+potential mechanisms necessitate further study [5].
+
+Luteolin, also known as 30,40,5,7-tetrahydroxy ﬂavone, is pri-
+marily sourced from fruits, vegetables, and edible parts of various
+plants [6]. Luteolin has antioxidative, anticancer, antimicrobial,
+antidiabetic, anti-inﬂammatory, and neuroprotective properties,
+making it widely beneﬁcial in the management of various ailments
+[7]. As an anticancer agent it has been shown to induce apoptosis
+and cell cycle arrest [6]. It can also inhibit nuclear factor-E2 like
+bZIP transcription factor 2 to promote the expression of heme oxy-
+genase 1, thereby exerting signiﬁcant protective effects during
+oxidative stress [8]. Currently, the attention to the luteolin’s appli-
+cation in cardiovascular diseases is gradually gaining [9,10]. Previ-
+ous studies have demonstrated that luteolin can reduce the
+mortality rate among individuals suffering from coronary heart
+disease, as well as ameliorate myocardial damage [11–14]. How-
+ever, the underlying mechanism through which luteolin exerts
+its cardioprotective effect in MIRI is not yet known.
+
+luteolin’s
+
+to measure
+
+To investigate the mechanism by which luteolin exerts its car-
+dioprotective effects, we performed in vitro and in vivo experi-
+ments
+on the
+phosphorylation of p53 and its ability to protect cardiomyocytes
+from ischemia/reperfusion injury. This research emphasizes the
+cardioprotective role of luteolin in mitigating myocardial injury
+through the inhibition of p53-mediated apoptosis and oxidative
+stress.
+
+suppressive
+
+effect
+
+2. Materials and methods
+
+2.1. Materials
+
+Luteolin (purity > 98%; CAS: 491-70-3) and NSC319726 (pu-
+rity > 95%; CAS: 71555-25-4) were purchased from Shanghai Alad-
+din Bio-Chem Technology Co., Ltd. (Shanghai, China). Piﬁthrin-a
+(purity > 98%, CAS: 60477-38-5) was purchased from Shanghai
+Macklin Biochemical Technology Co., Ltd. (Shanghai, China). Lute-
+olin, NSC319726, and piﬁthrin-a were dissolved in dimethyl sul-
+foxide (DMSO) and subsequently mixed with phosphate buffered
+saline (PBS) to achieve a ﬁnal solution with a DMSO concentration
+below 0.01%.
+
+2.2. Animals
+
+This study used 8 weeks old male C57BL/6 mice (Beijing Vital
+River Laboratory Animal Technology Co., Ltd., Beijing, China) that
+had been raised in a speciﬁc-pathogen-free environment with tem-
+perature at (24 ± 2) ℃ and humidity at 55% ± 10% and subjected to
+a 12 h day/night cycle with ad libitum access to food and water. All
+animal study procedures were conducted in strict accordance with
+the guidelines set forth by the Animal Research Institute Commit-
+tee, as sanctioned by the Institutional Animal Care and Use Com-
+mittee of Huazhong University of Science and Technology
+(ethical approval no. 3554).
+
+Mice were divided according to a random number table
+method into the sham group, sham + luteolin (SL) group, ische-
+mia/reperfusion model (IR) group, and ischemia/reperfusion +
+luteolin (IL) group. Each group had six mice. The dosage and
+administration of luteolin in this study followed the methods of
+previous studies [15–18]. The dose was calculated according to
+recommended daily intake for humans [19] and modiﬁed for
+mouse physiology. The IL group was given luteolin at 10 mg/
+
+653
+
+(kg∙d) for 7 d before ischemia/reperfusion surgery and for another
+3 d after the surgery. The sham group underwent thoracotomy
+without coronary artery ligation. The IR group underwent thora-
+cotomy and coronary artery ligation. The SL group was adminis-
+tered the same dosage and duration of luteolin as in the IL
+group without undergoing coronary artery ligation.
+In the
+ischemia/reperfusion + luteolin + NSC319726 (ILN) group,
+NSC319726 at a dose of 10 mg/(kg∙d) was administrated from
+3 d before the ischemia/reperfusion surgery and continued until
+3 d after the surgery. In the ischemia/reperfusion + piﬁthrin-a
+(IPa) group, piﬁthrin-a (1.1 mg/kg) was administered intraperi-
+toneally every other day, commencing on the 7th day before sur-
+gery and was continued until the 3rd day after surgery.
+
+2.3. Establishment of the mouse model of MIRI
+
+Myocardial
+
+ischemia/reperfusion surgery was performed
+according to the experimental model guidelines for myocardial
+ischemia and infarction [20]. The mice were injected with pento-
+barbital (1%, 40 mg/kg) for anesthesia, restrained in a supine posi-
+tion and ventilated at a respiratory rate of 110 times/min. The
+mouse chest movements were then monitored to assess breath-
+ing and conﬁrm successful intubation. Following meticulous hair
+removal and sterilization of the surgical area, the thoracotomy
+was performed to visualize the heart. The left anterior descending
+coronary artery was ligated with sutures under a microscope and
+the slipknot was opened 30 min later. After the mice woke up,
+they were taken off the ventilator and received focused care for
+3 d.
+
+2.4. Myocardial infarction area detection
+
+After euthanizing the mice 3 d post-ischemia/reperfusion sur-
+gery, Evans blue (3%, 1 mL) was injected into the inferior vena cava.
+The hearts of the mice were excised, frozen, uniformly sectioned
+along the longitudinal axis into ﬁve slices (approximately
+2.5 mm in thickness), and sequentially stained with 2% 2,3,5-
+triphenyltetrazolium chloride (TTC) at 37 ℃ for 20 min; subse-
+quently they were ﬁxed with 4% paraformaldehyde for 10 min,
+and photographed. In the stained results, blue indicates the pres-
+ence of healthy myocardial tissue, red represents the area at risk,
+and white represents the infarcted region. The areas were mea-
+sured using Image-Pro Plus 6.0 software (Media Cybernetics, Inc.,
+Rockville, MD, USA) with the percentage of the infarcted area rep-
+resented as the proportion of the white region to the total heart
+section area.
+
+2.5. Echocardiography
+
+The cardiac functions of mice were assessed using M-mode
+echocardiography with a Vevo 2100 Imaging System (FUJIFILM
+VisualSonics, Inc., Toronto, ON, Canada). Two-dimensional targeted
+M-mode traces were recorded from the parasternal short-axis
+view at the mid-papillary muscle level and from the parasternal
+long-axis view below the papillary muscle. A minimum of six con-
+secutive cardiac cycles were obtained. The left ventricular systolic
+diameter (LVIDs), left ventricular diastolic diameter (LVIDd), left
+ventricular end diastolic volume (LVEDV), and left ventricular
+end systolic volume (LVESV) were assessed. The velocities of early
+diastolic ﬁlling peak (E-wave) and late diastolic ﬁlling peak (A-
+wave) of mitral valve blood ﬂow were also examined, along with
+the E-wave deceleration time (DT). The E/A ratio was the ratio of
+the E-wave velocity to the A-wave velocity. The left ventricular
+ejection fraction (LVEF) and the left ventricular fractional shorten-
+ing (LVFS) were calculated as:
+
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+LVEF ¼ LVEDV (cid:2) LVESV
+
+LVEDV
+
+(cid:3) 100%:
+
+LVFS ¼ LVIDd (cid:2) LVIDs
+
+LVIDd
+
+(cid:3) 100%:
+
+2.6. Detection of myocardial enzymes and oxidative stress indicators
+
+Blood samples were collected 1 d post-ischemia/reperfusion
+surgery and centrifuged to retain the serum. Serum creatine kinase
+(CK) and CK muscle/brain subtype (CK-MB) were detected using a
+CK assay kit (A032-1-1) and CK-MB isoenzyme assay kit (E006-1-
+1), respectively, from Nanjing Jiancheng Bioengineering Institute
+(Nanjing, China). The level of cardiac troponin I (cTnI) was assessed
+using an enzyme-linked immunosorbent assay kit (SEKM-0153,
+Solarbio, Inc., Beijing, China). Malondialdehyde (MDA), superoxide
+dismutase (SOD), and glutathione (GSH) were analyzed using assay
+kits (A003-1-1, A001-3-2, and A006-2-1, Nanjing Jiancheng Bio-
+engineering Institute, Nanjing, China). The detections were con-
+ducted following the manufacturers’ guidelines.
+
+2.7. Prediction of luteolin and MIRI-related target genes
+
+The molecular conﬁguration and simpliﬁed molecular input line
+entry speciﬁcation of luteolin were acquired from the PubChem
+database
+(https://pubchem.ncbi.nlm.nih.gov/compound/442428)
+[21]. Information on targets associated with luteolin was gathered
+through the Traditional Chinese Medicine Systems Pharmacology
+SwissTargetPrediction
+(TCMSP,
+(https://www.swisstargetprediction.ch/) [22], and PharmMapper
+(https://lilab-ecust.cn/pharmmapper/index.html) databases. Tar-
+get designations were standardized through the UniProt database
+(https://www.uniprot.org/) [23].
+
+https://www.tcmsp-e.com/),
+
+MIRI-associated target genes were compiled from GeneCard
+(https://www.genecards.org/), Online Mendelian Inheritance in
+Man (OMIM, https://omim.org/search/advanced/geneMap) [24],
+Pharmacogenetics
+and Pharmacogenomics Knowledge Base
+(PharmGkb, https://www.pharmgkb.org/), Therapeutic Target
+Database (TTD, https://idrblab.net) [25], and DrugBank (https://
+go.drugbank.com/) [26]. The intersection between luteolin and
+MIRI-associated targets was visualized with Venny online tool
+(https://bioinfogp.cnb.csic.es/tools/venny/index.html) [27].
+
+2.8. Protein-protein interaction network analysis, and molecular
+docking
+
+‘‘DOSE,”
+
+‘‘clusterProﬁler,”
+
+The analysis of biofunction properties through Gene Ontology
+(GO) and the exploration of molecular pathway via the Kyoto Ency-
+clopedia of Genes and Genomes (KEGG) were conducted using
+packages for the R statistical language environment including
+‘‘org.hs.eg.db,”
+‘‘Enrichment plot,”
+‘‘GGplot2,” and ‘‘Pathview.” The network depicting protein–protein
+interaction (PPI) among targets was acquired via the Search Tool
+for The Retrieval of Interacting Genes/Proteins (STRING) 11.5
+(https://string-db.org/) [28]. The visualization of the PPI network
+was produced using Cytoscape 3.9.1 (Cytoscape Consortium, San
+Diego, CA, USA) [29]. NetworkAnalyzer and CytoNCA plug-ins were
+used for topological investigation of the PPI network. The 2D struc-
+ture of luteolin was procured from the PubChem database (https://
+pubchem.ncbi.nlm.nih.gov/) and transmuted into a 3D structure
+utilizing ChemBio3D Ultra 14.0 (CambridgeSoft, Inc., Cambridge,
+MA, USA). Molecular docking was conducted with AutoDock Vina
+v.1.2.0 (The Scripps Research Institute, La Jolla, CA, USA) [30].
+
+2.9. Western blotting analysis
+
+To extract the nuclear proteins, the nuclear and cytoplasmic
+protein extraction kit (P0027, Beyotime Biotech, Inc., Shanghai,
+China) was used according to the manufacturer’s instructions.
+The right ventricular tissue was isolated and lysed with radioim-
+munoprecipitation assay lysis buffer, phenylmethylsulfonyl ﬂuo-
+ride, and protease inhibitors (Sigma-Aldrich, Inc., St. Louis, MO,
+USA). The protein content was measured with a bicinchoninic acid
+(BCA) protein assay kit (P0010, Beyotime Biotech, Inc., Shanghai,
+China). Lysates were separated electrophoretically on a 10%
+sodium dodecyl sulfate polyacrylamide gel and transferred onto
+polyvinylidene diﬂuoride membranes (IPVH00010, Millipore Cor-
+poration, Billerica, MA, USA). The membrane was blocked with
+5% skimmed milk (232100, BD, Franklin Lakes, NJ, USA) for 1 h, fol-
+lowed by overnight incubation at 4 ℃ with the following primary
+antibodies: 1:1000 p53 (A5761), 1:1000 murine double minute 2
+(Mdm2, A23388), 1:500 lamin B1 (Lmnb1, A11495), 1:1000 cas-
+pase 3 (Casp3, A19654), and 1:1000 cleaved Casp3 (A22869) from
+ABclonal, Inc. (Woburn, MA, USA), 1:1000 B cell lymphoma 2 (Bcl2,
+TU323153s), 1:1000 Bcl-associated X protein (Bax, Tu333334s),
+and 1:1000 phosphorylated p53 (p-p53) (Ser15, TP56395) from
+Abmart Medicine Technology Co., Ltd. (Shanghai, China), and
+1:1000 a-actin (23660–1-AP, Proteintech Group, Inc., Rosemont,
+IL, USA). The membranes were washed in tris-buffered saline with
+0.1% Tween (TBST) and immersed in the secondary antibody
+(AS014, ABclonal, Inc., Woburn, MA, USA) for 1 h at room temper-
+ature. The membrane was washed again with TBST and then sub-
+jected to enhanced chemiluminescence liquid (G3308, Gbcbio
+Technologies, Inc., Guangzhou, China) and visualized using the
+iBrightTM CL1500 Imaging System (A44114, Thermo Fisher Scien-
+tiﬁc, Inc., Waltham, MA, USA).
+
+2.10. Real-time quantitative reverse transcription polymerase chain
+reaction
+
+Total RNA from tissues and cells was extracted using TRIzol
+reagent (ATG Biotechnology Co., Ltd., Nanjing, China). RNA was
+then prepared with SynScript(cid:3) Ⅲ RT SuperMix for quantitative
+polymerase chain reaction (qPCR) (+gDNA remover, TSK314S)
+and 2 (cid:3) TSINGKE(cid:3) Master qPCR Mix (SYBR Green Ⅰ, TSE201)
+according to the manufacturer’s instructions (Tsingke Biotech Co.,
+Ltd., Beijing, China). The detection was conducted using the MA-
+6000 real-time quantitative thermal cycler (Suzhou Molarray Co.,
+Ltd., Suzhou, China). Relative RNA levels were analyzed with the
+2–DDCt method and b-actin served as an internal benchmark. The
+primers were listed in Table 1.
+
+2.11. Terminal deoxynucleotidyl transferase-mediated dUTP nick-end
+labeling assay
+
+The one-step terminal deoxynucleotidyl transferase-mediated
+dUTP nick-end labeling (TUNEL) assay kit (E-CK-A320, Elabscience
+Bionovation, Inc., Houston, TX, USA) and dihydroethidium (DHE,
+S0063S, Beyotime Biotech, Inc., Shanghai, China) were used, and
+the detection was conducted following the manufacturers’
+instructions.
+
+2.12. Reactive oxygen species assays
+
+The measurement of reactive oxygen species (ROS) production
+in the myocardial tissues was conducted with DHE (S0063S, Bey-
+otime Biotech, Inc., Shanghai, China). The myocardial tissues were
+washed with PBS and then incubated with DHE (5 lmol/L) at 37 ℃
+for 30 min. A ﬂuorescence microscope (BX50, Olympus Corpora-
+tion, Tokyo, Japan) was used to assess ﬂuorescence intensity.
+
+654
+
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+Table 1
+The primer sequences.
+
+Gene
+
+b-Actin
+Mdm2
+Trp53
+
+Forward sequence
+
+Reverse sequence
+
+Product length (bp)
+
+50-GGCTGTATTCCCCTCCATCG-30
+50-CAGTAGCAGTGAATCTACAGGGA-30
+50-CTCTCCCCCGCAAAAGAAAAA-30
+
+50-CCAGTTGGTAACAATGCCATGT-30
+50-CTGATCCAACCAATCACCTGAAT-30
+50-CGGAACATCTCGAAGCGTTTA-30
+
+153
+107
+84
+
+Mdm2: murine double minute 2; Trp53: transformation related protein 53.
+
+The ROS production in HL1 cells was measured with an ROS
+assay kit (S0033S, Beyotime Biotech, Inc., Shanghai, China). HL1
+cells were washed with PBS three times and then incubated with
+the ﬂuorescent probe 2,7-dichlorodihydroﬂuorescein diacetate
+(DCFH-DA, 10 lmol/L) at 37 ℃ for 30 min. Cells were acquired
+and analyzed using a CytoFLEXTM ﬂow cytometer (Beckman Coulter,
+Inc., Brea, CA, USA).
+
+2.13. Cell culture and cell viability analysis
+
+The murine cardiac muscle cell line (HL1) was purchased from
+Procell Life Science & Technology Co., Ltd. (CL-06–5, Wuhan,
+China). To establish the hypoxia/reoxygenation (HR) model, HL1
+cells were cultured under hypoxic conditions of 95% N2 + 5% CO2
+for 12 h at 37 ℃. The cells were then relocated to a normoxic incu-
+bation at 37 ℃ for 6 h of reoxygenation. The normal control group
+was cultivated within a conventional incubator setting. In the
+6-hour reoxygenation, the HR model group was incubated with
+PBS, the HR + luteolin group was incubated with luteolin, and
+the HR + luteolin + NSC group was incubated with 10 lmol/L
+NSC319726.
+
+The HL1 cells were nurtured in 96-well plates (1 (cid:3) 104 cells/
+In brief, 10 lL Cell Counting Kit-8 (CCK-8) reagent
+well).
+(GK10001, GlpBio Technology, Montclair, CA, USA) was added to
+each well and incubated with cells for an extra 40 min. The absor-
+bance was measured at a wavelength of 450 nm with Inﬁnite(cid:3) F50
+Plus microplate
+Ltd., Männedorf,
+Switzerland).
+
+(Tecan Group
+
+reader
+
+2.14. Cell apoptosis assay
+
+Cell apoptosis was measured using ﬂow cytometry with the
+Annexin V-ﬂuorescein isothiocyanate (FITC)/propidium iodide
+(PI) apoptosis kit (AP101, Lianke Biotech, Co., Ltd, Hangzhou,
+China). Brieﬂy, the HL1 cells were collected after treatment, and
+then rinsed with PBS for binding and staining. The cells were
+examined under a CytoFLEXTM ﬂow cytometer (Beckman Coulter,
+Inc., Brea, CA, USA).
+
+2.15. JC-1 assay
+
+5,50,6,60-Tetrachloro-1,10,3,30-tetraethylbenzimi-dazoylcarbo
+cyanine iodide (JC-1) ﬂuorescence detection was conducted using
+the JC-1 mitochondrial membrane potential assay kit (C2006, Bey-
+otime Biotech, Inc., Shanghai, China), followed by ﬂuorescence
+imaging analysis using a ﬂuorescence microscope (BX50, Olympus
+Corporation, Tokyo, Japan). Meanwhile, the JC-1 detection was also
+conducted with ﬂow cytometry. The HL1 cells were stained with
+JC-1 staining solution. Subsequently, the CytoFLEXTM ﬂow cytome-
+ter was employed for ﬂuorescence analysis of the cells.
+
+2.16. Statistical analysis
+
+GraphPad Prism 8.2.1 (GraphPad Software, Boston, MA, USA)
+was used for
+statistical analyses. Data are presented as
+mean ± standard error of the mean. The two-tailed Student’s t test
+
+655
+
+was used for comparisons between two groups. For multiple com-
+parisons, one-way analysis of variance test was applied. The com-
+parison between the two groups was performed by unpaired t-test.
+P-value < 0.05 indicates statistical signiﬁcance.
+
+3. Results
+
+3.1. Luteolin decreased myocardial infarction area and enzyme levels
+and reinstated cardiac function after MIRI in vivo
+
+To assess the therapeutic efﬁcacy of luteolin against MIRI, lute-
+olin was administered to MIRI mice, and the myocardial enzymes,
+myocardial infarct size, and cardiac contractility of mice were
+examined. The size of infarcts in myocardial tissue was evaluated
+using Evans blue and TTC dual staining. Fig. 1A and 1B illustrate
+the reduction in the extent of infarctions within the IL group, com-
+pared to the IR group. Serum CK, CK-MB, and cTnI levels were ele-
+vated in the IR group relative to the sham group. Administration of
+luteolin reduced serum CK, CK-MB, and cTnI concentrations in the
+mice of the IL group compared to the IR group (Fig. 1C). The
+echocardiographic ﬁndings revealed notable reductions in LVEF
+and LVFS among the IR group in contrast to the sham group. Con-
+versely, the IL group exhibited heightened levels of these two indi-
+cators in contrast to the IR group, implying the restoration of
+myocardial contractile power in mice subjected to ischemia/reper-
+fusion injury (Fig. 1D and 1E). Luteolin also signiﬁcantly improved
+LVIDd and LVIDs in the IR group (Fig. 1D and 1E), but did not
+improve the E/A ratio or the DT of the mitral valve (Supplementary
+ﬁgure S1). In contrast with the sham group, the provision of lute-
+olin to mice subjected to the sham operation did not induce any
+modiﬁcation in the area of the infarct, cardiac enzymes, or cardiac
+function, indicating that luteolin did not have signiﬁcant toxic side
+effects in the mice (Fig. 1). Collectively, these ﬁndings showed that
+luteolin exerts a protective function in MIRI.
+
+3.2. p53 was identiﬁed as the potential target of luteolin
+
+than 30% and 0.18,
+
+The oral bioavailability and drug-likeness of luteolin were
+greater
+respectively (Supplementary
+Table S1), which indicated that luteolin had a good drug-likeness
+[31,32]. To further study the pharmacological effects of luteolin,
+the TCMSP, SwissTargetPrediction, and PharmMapper databases
+were used to discern the targets of the constituents of the drug.
+A total of 169 predicted target genes of luteolin were identiﬁed
+by screening and further veriﬁed (Supplementary Table S2). Next,
+the GeneCards, DrugBank, OMIM, PharmGkb, and TTD databases
+were used to ﬁnd MIRI-related target genes, and a total of 3176
+genes were identiﬁed (Fig. 2A). There were 104 overlapping genes
+between luteolin-related target genes and MIRI-related ones, and
+this was considered to be the possible target set for luteolin in MIRI
+treatment (Fig. 2B and Supplementary Table S3).
+
+The GO and KEGG enrichment analyses were conducted to
+investigate the biological function of the 104 common target genes
+shared by luteolin and MIRI. GO analysis yielded a total of 1749
+biological processes (BPs), 55 cell components (CCs), and 153
+molecular functions (MFs). The top ﬁve markedly enriched BPs,
+
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+A
+
+Sham
+
+SL
+
+IR
+
+IL
+
+B
+
+)
+
+%
+
+(
+e
+z
+s
+
+i
+
+t
+c
+r
+a
+f
+n
+I
+
+D
+
+E
+
+)
+
+m
+m
+
+(
+d
+D
+V
+L
+
+I
+
+C
+
+)
+L
+m
+U
+
+/
+
+(
+
+K
+C
+
+)
+L
+/
+U
+
+(
+
+B
+M
+K
+C
+
+-
+
+)
+L
+m
+/
+g
+p
+(
+
+l
+
+n
+T
+c
+
+S L IR
+
+IL
+
+S ha m
+
+S L IR
+
+IL
+
+S ha m
+
+S L IR
+
+IL
+
+S ha m
+
+S L IR
+
+IL
+
+S ha m
+
+Sham
+
+SL
+
+IR
+
+IL
+
+)
+
+m
+m
+
+(
+
+s
+D
+V
+L
+
+I
+
+)
+
+%
+
+(
+F
+E
+V
+L
+
+)
+
+%
+
+(
+
+S
+F
+V
+L
+
+S L IR
+
+IL
+
+S ha m
+
+S L IR
+
+IL
+
+S ha m
+
+S L IR
+
+IL
+
+S ha m
+
+S L IR
+
+IL
+
+S ha m
+
+Fig. 1. Luteolin protected against MIRI in vivo. (A) Representative digital images of heart sections visualized with Evans blue and TTC double staining. The blue-stained
+portion indicates the normal region, the red-stained portion, outlined in red, indicates the ischemic region, and the white portion, outlined in black, indicates the infarcted
+region. (B) Percentage of infarct area. The ratio of the infarct area of the largest heart section to the total area of the section was used to calculate the infarct percentage. (C)
+Serum CK, CK-MB, and cTnI levels. (D) Representative M(cid:2)mode echocardiographic images. (E) Quantitative statistical analysis of LVIDd, LVIDs, LVEF, and LVFS. CK: creatine
+kinase; CK-MB: CK muscle/brain subtype; cTnI: cardiac troponin I; IL: ischemia/reperfusion + luteolin; IR: ischemia/reperfusion; LVEF: left ventricular ejection fraction; LVFS:
+left ventricular fractional shortening; LVIDs: left ventricular systolic diameter; LVIDd: left ventricular diastolic diameter; MIRI: myocardial ischemia/reperfusion injury; SL:
+sham + luteolin; TTC: 2,3,5-triphenyltetrazolium chloride. Data are presented as mean ± standard error of the mean, n = 6. ns: not signiﬁcant; *P < 0.05, **P < 0.01, and
+***P < 0.001.
+
+CCs, and MFs are presented in Fig. 2C. The target genes for ‘‘re-
+sponse to oxidative stress” were the most enriched gene sets
+among all the target genes. To ascertain the potential signaling
+
+pathways involved in luteolin-mediated protection in MIRI, the
+KEGG pathway enrichment analysis was used to scrutinize the
+top 20 signaling pathways (Fig. 2D). We discovered that apoptosis
+
+656
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+A
+
+C
+
+Response to oxidative stress
+
+Cellular repsonse to chemical stress
+
+Response to peptide
+
+Cellular repsonse to oxidative stress
+
+Response to UV
+
+Membrane raft
+
+Membrane microdomain
+
+Vesicle lumen
+
+Cytoplasmic vesicle lumen
+
+Ficolin-1-rich granule lumen
+
+Endopeptidase activity
+
+Nuclear receptor activity
+
+Ligand-activated transcription factor activity
+
+Transcription coactivator activity
+
+Nuclear steroid receptor activity
+
+E
+
+B
+
+D
+
+F
+
+PTGS1
+
+RELA
+
+RB1
+
+MMP1
+
+MAPK1
+
+EGFR
+
+HSP90AA1
+
+IFNG
+
+TNF
+
+TP53
+
+AKT1
+
+ESR1
+
+MAPK14
+
+SRC
+
+Fig. 2. Luteolin has the potential to target p53 in the treatment of MIRI. (A) The overlap among MIRI-related target genes returned from different databases. (B) The
+intersection of MIRI-related and luteolin-related targets. (C) GO enrichment analysis of the targets of luteolin in the treatment of MIRI. (D) KEGG pathway enrichment analysis
+of the targets of luteolin in the treatment of MIRI. (E) Protein-protein interaction network analysis of the targets of luteolin in the treatment of MIRI. In the network, circular
+nodes represent proteins, and the lines represent the interactions between the proteins. (F) Topological analysis and hub targets of luteolin in the treatment of MIRI. BP:
+biological process; CC: cell component; GO: Gene Ontology; KEGG: Kyoto Encyclopedia of Genes and Genomes; MF: molecular function; MIRI: myocardial ischemia/
+reperfusion injury.
+
+657
+
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+and p53 signaling pathways were the most related to cell death.
+Therefore, we hypothesized that luteolin may manifest cardiopro-
+tective properties by attenuating oxidative stress or apoptosis.
+
+To assess the interplay between luteolin and MIRI common tar-
+gets, the PPI network analysis was performed. The cohort of 104
+shared targets were imported into the STRING 11.5 database, and
+a combined score (cid:4) 0.9 was set as the threshold. The network com-
+prises 85 nodes interconnected by 261 edges, yielding an average
+degree of 6.14. The AKT serine/threonine kinase 1 (AKT1), heat
+shock protein 90 a family class A member 1 (HSP90AA1),
+mitogen-activated protein kinase 1 (MAPK1), RELA proto-
+oncogene (RELA), and tumor protein p53 (TP53), were strongly con-
+nected to others (Fig. 2E and Supplementary ﬁgure S2). Then, the
+PPI network was imported into the Cytoscape, and topology anal-
+ysis was used to identify the hub targets from these interacting
+proteins. Nine hub targets were screened, namely AKT1, HSP90AA1,
+MAPK1, MAPK14, RELA, TP53, estrogen receptor 1 (ESR1), SRC proto-
+oncogene (SRC), and RB transcriptional corepressor 1 (RB1)
+(Fig. 2F).
+
+Next, a luteolin-MIRI-target-GO-KEGG pathway network was
+constructed (Fig. 3). The targets were ranked from highest to low-
+est based on the degree of the network topology analysis parame-
+ters. TP53, MAPK1, RELA, AKT1, HSP90AA1, interferon c (IFNG),
+epidermal growth factor receptor (EGFR), tumor necrosis factor
+(TNF), matrix metallopeptidase 1 (MMP1), and prostaglandin-
+endoperoxide synthase 1 (PTGS1) had the highest scores. The inter-
+section of these 10 targets with the nine hub genes obtained from
+the PPI analysis (Fig. 2F) yielded ﬁve key genes, namely TP53,
+HSP90AA1, AKT1, MAPK1, and RELA.
+
+Previous investigations have indicated that luteolin mitigates
+myocardial damage through regulating the phosphoinositide-3-
+
+kinase (PI3K)-AKT [33], MAPK [12], and nuclear factor-jB (NF-
+jB) pathways [17,25]; however, whether luteolin can regulate
+p53 and HSP90 pathways to prevent MIRI has not yet been studied.
+Moreover, the p53 signaling cascade emerged as a pivotal pathway
+in the KEGG assessment of luteolin intervention in MIRI (Fig. 2D).
+Therefore, the p53 pathway was selected for further investigation.
+
+3.3. Luteolin alleviated myocardial cell apoptosis and oxidative stress
+caused by MIRI
+
+To evaluate the biological activity and the binding afﬁnity of
+luteolin to p53 protein, molecular docking analysis was performed.
+Luteolin has multiple possible binding sites with p53, with the
+lowest binding energy being –5.4 kcal/mol, indicating an excellent
+strong afﬁnity between luteolin and p53 (Fig. 4A). Mdm2 is a piv-
+otal protein within the intricate framework of the p53 signaling
+pathway. Mdm2 promotes p53 degradation while restraining tran-
+scriptional activity. The levels of mRNA for p53 and Mdm2 within
+the ischemia/reperfusion cardiac tissue were markedly elevated
+in comparison to those in the sham group. However, following
+luteolin administration, there was a decline in p53 mRNA expres-
+sion juxtaposed with an escalation in Mdm2 mRNA expression
+(Fig. 4B). A similar tendency was detected in the protein level, with
+a notable increase in the expression of nuclear protein p-p53
+observed in the IR group. Conversely, luteolin treatment decreased
+the expression of p-p53 (Fig. 4C). These data illustrated that lute-
+olin had facilitated the upregulation of Mdm2 and had suppressed
+the production of p53, whether at the protein or mRNA level. This
+implied that luteolin had protected against myocardial injury by
+impeding the p53 pathway.
+
+Fig. 3. The luteolin-MIRI-target-GO-KEGG pathway network. BP: biological process; CC: cell component; GO: Gene Ontology; KEGG: Kyoto Encyclopedia of Genes and
+Genomes; MF: molecular function; MIRI: myocardial ischemia/reperfusion injury.
+
+658
+
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+A
+
+C
+
+D
+
+p53
+
+luteolin
+
+B
+
+i
+
+n
+o
+s
+s
+e
+r
+p
+x
+e
+A
+N
+R
+m
+3
+5
+p
+
+S L IR IL
+
+S ha m
+
+p53
+
+Mdm2
+
+α-actin
+
+p-p53
+
+Lmnb1
+
+Bax
+
+Bcl2
+
+Casp3
+
+Sham SL IR IL
+
+Cleaved Casp3
+
+α-actin
+
+Sham SL IR IL
+
+53 kDa
+
+95 kDa
+
+42 kDa
+
+55 kDa
+
+70 kDa
+
+21 kDa
+
+26 kDa
+
+35 kDa
+
+17 kDa
+
+42 kDa
+
+n
+
+/
+
+i
+t
+c
+a
+-
+α
+2
+m
+d
+M
+
+S L IR IL
+
+S ha m
+
+x
+a
+B
+/
+2
+c
+B
+
+l
+
+S L IR IL
+
+S ha m
+
+i
+
+n
+o
+s
+s
+e
+r
+p
+x
+e
+A
+N
+R
+m
+2
+m
+d
+M
+
+1
+b
+n
+m
+L
+
+/
+
+3
+5
+p
+-
+p
+
+n
+i
+t
+c
+a
+-
+α
+/
+3
+p
+s
+a
+C
+d
+e
+v
+a
+e
+C
+
+l
+
+S L IR IL
+
+S ha m
+
+S L IR IL
+
+S ha m
+
+S L IR IL
+
+S ha m
+
+E
+
+DAPI
+
+TUNEL
+
+Merged
+
+F
+
+DAPI
+
+DHE
+
+Merged
+
+40 μm
+
+m
+a
+h
+S
+
+L
+S
+
+R
+
+I
+
+L
+I
+
+G
+
+)
+
+%
+
+(
+e
+v
+i
+t
+i
+s
+o
+P
+
+40 μm
+
+m
+a
+h
+S
+
+L
+S
+
+R
+
+I
+
+L
+I
+
+H
+
+)
+
+%
+
+(
+
+S
+O
+R
+
+I
+
+)
+t
+o
+r
+p
+∙
+g
+m
+
+/
+l
+o
+m
+n
+(
+
+A
+D
+M
+
+)
+t
+o
+r
+p
+∙
+g
+m
+
+/
+l
+o
+m
+n
+(
+
+H
+S
+G
+
+)
+t
+o
+r
+p
+∙
+g
+m
+
+/
+l
+o
+m
+n
+(
+
+D
+O
+S
+
+S L IR IL
+
+S ha m
+
+S L IR IL
+
+S ha m
+
+S L IR IL
+
+S ha m
+
+S L IR IL
+
+S ha m
+
+S L IR IL
+
+S ha m
+
+Fig. 4. Luteolin regulates the p53 signaling pathway and inhibits apoptosis and oxidative stress in MIRI. (A) The docking of p53 protein and luteolin. (B) Quantitative analysis
+of p53 and Mdm2 mRNA expression. (C) Representative blots of p53, Mdm2, and the nuclear protein p-p53 in myocardial tissue and quantiﬁcation of p-p53 and Mdm2
+expression. (D) Representative blots of Bax, Bcl2, Casp3, and cleaved Casp3 and quantiﬁcation of Bax and cleaved Casp3 expression. (E) Representative images of apoptotic
+cardiomyocytes (40(cid:3) magniﬁcation). The apoptotic cells were detected by TUNEL (green) and the nuclei were detected by DAPI (blue). (F) Representative images of oxidative
+stress in cardiomyocytes (40(cid:3) magniﬁcation). ROS was detected with DHE ﬂuorescence staining (red) and nuclei were detected with DAPI (blue). (G) The quantitative
+analysis of the TUNEL+ cells. (H) The quantitative analysis of the ROS levels. (I) The quantitative analysis of myocardial MDA content and GSH and SOD activity. Bax: Bcl2-
+associated X protein; Bcl2: B cell lymphoma 2; Casp3: caspase 3; DAPI: 40,6-diamidino-2-phenylindole; DHE: dihydroethidium; GSH: glutathione; IR: ischemia/reperfusion;
+IL: ischemia/reperfusion + luteolin; Lmnb1: lamin B1; MDA: malondialdehyde; Mdm2: murine double minute 2; ROS: reactive oxygen species; SL: sham + luteolin; SOD:
+superoxide dismutase; TUNEL: terminal deoxynucleotidyl transferase-mediated dUTP nick-end labeling. Data are presented as mean ± standard error of the mean, n = 6. ns:
+not signiﬁcant; *P < 0.05, **P < 0.01, and ***P < 0.001.
+
+659
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+Based on the GO and KEGG analyses, it is suggested that the reg-
+ulation of apoptosis and oxidative stress potentially serves as the
+dominant mechanisms through which luteolin exerts its cardio-
+protective effects. The upregulation of Bax and cleaved Casp3
+was noted in the IR group relative to the sham group. After luteolin
+administration, there was a notable increase in Bcl2 expression and
+the Bcl2/Bax ratio, while the expression of cleaved Casp3 protein
+was lower than in the IR group (Fig. 4D). Moreover, the quantity
+of TUNEL+ cells in the myocardial tissue was markedly diminished
+in the IL group when compared to the IR group, indicating that
+luteolin prevented myocardial apoptosis caused by MIRI (Fig. 4E
+and 4G). The ﬂuorescence intensity indicated that the intracellular
+superoxide level was diminished in the IL group compared with
+the IR group (Fig. 4F and 4H). Additionally, luteolin treatment
+reduced MDA levels that were elevated by ischemia/reperfusion,
+and increased activities of GSH and SOD that were reduced by
+ischemia/reperfusion (Fig. 4I). These observations indicated that
+luteolin mitigated the oxidative stress in myocardial tissue that
+was caused by MIRI.
+
+3.4. Luteolin mitigated HR-induced apoptosis and oxidative stress
+responses through regulating p53 in vitro
+
+The effect of luteolin on the survival of HL1 cells under normal
+oxygen conditions was assessed. Luteolin of 5, 10, and 20 lmol/L
+exhibited negligible inﬂuence on HL1 cells compared to the normal
+control group (Supplementary ﬁgure S3A). Then, the therapeutic
+effect of luteolin on HL1 cells incubated with HR was evaluated,
+revealing that luteolin augments HL1 cell viability in a dose-
+dependent fashion (Supplementary ﬁgure S3B). Next, the apoptotic
+cells underwent analysis through Annexin V-FITC/PI staining. The
+proportion of apoptotic cells in the HR + luteolin group markedly
+decreased compared to that of the HR group, indicating that lute-
+olin alleviated HR-induced apoptosis of HL1 cells. However, the
+efﬁcacy of luteolin in reducing HR-induced apoptosis was reversed
+after administration of NSC319726, an agonist of p53 (Fig. 5A),
+indicating that luteolin exerts an anti-apoptotic effect by inhibiting
+p53. Luteolin decreased the expression of HR-mediated p53 and p-
+p53 proteins, as well as the apoptosis related proteins, Bax and
+luteolin administration
+cleaved Casp3 (Fig. 5B).
+increased the level of anti-apoptosis protein Bcl2, as well as the
+Bcl2/Bax ratio (Fig. 5C). Nevertheless, the NSC319726 intervention
+upregulated apoptosis-related proteins. The analysis of JC-1 ﬂuo-
+rescence staining and ﬂow cytometry revealed that HR treatment
+leads to a relative increase in JC-1 monomers compared to aggre-
+gates (Fig. 5D and 5E), and treatment with luteolin resulted in a
+reduced HR-induced monomer content relative to the JC-1 aggre-
+gate content. Notably, the addition of the p53 agonist reversed
+the beneﬁcial effects of luteolin (Fig. 5F). These observations
+strongly suggested that luteolin effectively ameliorates mitochon-
+drial dysfunction induced by HR through p53.
+
+In addition,
+
+The ﬂow cytometry analysis showed that luteolin reversed HR-
+mediated upregulation of DCF expression, which indicated that
+luteolin suppressed the oxidative stress
+response in MIRI
+(Fig. 5G). In addition, luteolin reversed the heightened ﬂuorescence
+intensity of DHE induced by HR. The p53 activator NSC319726
+induced an increase in the concentration of DHE+ cells, despite
+the intervention with luteolin (Fig. 5H and 5I). Furthermore, the
+HR group exhibited greater levels of oxidative stress, and luteolin
+successfully mitigated this stress, as shown by the decreased
+MDA content and the restoration of GSH and SOD activities
+(Fig. 5J). These ﬁndings show that luteolin alleviated the oxidative
+stress caused by HR. However, when using the p53 activator, the
+ability of luteolin to combat oxidative stress was diminished. These
+results establish that luteolin exerts its anti-apoptotic and anti-
+oxidative stress properties by speciﬁcally targeting p53.
+
+3.5. Luteolin exerted a cardioprotective effect on MIRI mice by
+modulating the p53 pathway
+
+To determine whether luteolin could protect cardiomyocyte
+from MIRI by regulating the p53 pathway, we treated MIRI mice
+with the p53 agonist, NSC319726, and the p53 inhibitor,
+piﬁthrin-a, and evaluated the extent of infarction, myocardial
+enzyme levels, and cardiac functionality in mouse hearts. The out-
+comes of Evans blue/TTC dual staining showed a notably larger
+myocardial infarction zone within the ILN group in contrast to
+the IL group. Additionally, the infarct region in the IPa group exhib-
+ited a notable reduction relative to the IR group, and the difference
+between infarct area in the IL and IPa groups was not signiﬁcant
+(Fig. 6A and 6B). Furthermore, the serum concentrations of CK,
+CK-MB, and cTnI showed a decline after the administration of lute-
+olin or piﬁthrin-a. However, the addition of NSC319726 resulted in
+weakening of luteolin’s ability to reduce myocardial enzymes
+(Fig. 6C). Mice from the IL group or the IPa group showed signiﬁ-
+cant improvements in LVEF, LVFS, LVIDd, and LVIDs, compared to
+the IR group. Moreover, the administration of NSC319726 resulted
+in an augmentation of LVIDd and LVIDs, alongside a decrease in
+LVEF and LVFS, thereby inducing a decline in cardiac systolic func-
+tion, compared to the IL group. Furthermore, administration of
+piﬁthrin-a showed no signiﬁcant difference compared to luteolin
+treatment (Fig. 6D and 6E). In terms of assessing cardiac diastolic
+function, we observed that NSC319726, piﬁthrin-a, and luteolin
+had no notable effects on the mitral valve, the ratio of E/A, or the
+deceleration time of the E-wave (Supplementary ﬁgure S4). Taken
+together, these data showed that luteolin improved the cardiac
+dysfunction in MIRI mice by mediating the p53 pathway.
+
+4. Discussion
+
+Luteolin is a promising agent for alleviating pathological cardiac
+hypertrophy and cardiac dysfunction [34] through its powerful
+anti-apoptosis [9] and antioxidant [16] effects. The function of
+luteolin in MIRI and its potential mechanism remain not yet fully
+clariﬁed. In this study, luteolin was shown to diminish myocardial
+infarction size and myocardial enzymes and to reinstate myocar-
+dial contractile capacity in mice, conﬁrming the therapeutic effec-
+tiveness of luteolin on MIRI.
+
+Cardiomyocytes are rich in mitochondria [35]. MIRI can impair
+mitochondrial function, subsequently affecting the energy metabo-
+lism and redox homeostasis of cardiomyocytes, while also leading
+to excessive generation of ROS [36,37]. Previous studies have sug-
+gested that luteolin can inhibit mitochondrial dysfunction induced
+by mitochondrial toxins [38], restore mitochondrial membrane
+potential, preserve overall mitochondrial function, and alleviate
+oxidative stress [39] in Alzheimer’s disease. In this study, luteolin
+was also found to attenuate the increase in mitochondrial mem-
+brane potential elevation caused by HR in HL1 cells and mitigate
+the excess ROS and the intense oxidative stress response.
+
+Network pharmacological analysis showed that p53 served as a
+hub target for luteolin in mitigating MIRI. Molecular docking inves-
+tigations further illustrated that luteolin exhibited a pronounced
+afﬁnity for p53 binding. Normally, p53 is localized in the cytoplasm
+of mouse cardiomyocytes; however, under HR condition, p53
+expression was markedly elevated and translocated to the nucleus
+[40], impacting myocardial systolic function [5]. Inhibiting the
+upregulation and nuclear translocation of p53 was shown to signif-
+icantly reduce apoptosis in anoxic and reoxygenated cardiomy-
+ocytes
+indeed induced
+In our experiments, MIRI
+cardiomyocyte apoptosis and ROS production and concurrently
+increased the expression and phosphorylation of p53. Luteolin
+was able to suppress the expression and phosphorylation of p53,
+
+[40,41].
+
+660
+
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+Fig. 5. Luteolin alleviated the HR-induced damage of HL1 cells by regulating p53. (A) Representative images of HL1 cell apoptosis detected by ﬂow cytometry and
+quantitative analysis. (B) Representative Western blots of Bax, Bcl2, cleaved Casp3, p53, p-p53, and Lmnb1 proteins in HL1 cells. (C) Quantiﬁcation of blots. (D) Representative
+images of JC-1 ﬂuorescent staining. The red color represents JC-1 aggregates, while the green color represents JC-1 monomers. (E) Representative images of JC-1 aggregates
+and monomers visualized with ﬂow cytometry. (F) Quantiﬁcation of JC-1 analyses. (G) The superimposed image depicts the ﬂuorescence intensity of DCF in HL1 cells.
+(H) Representative image of ROS staining. (I) Quantiﬁcation of ROS. (J) Cellular MDA content and GSH and SOD activity of HL1 cells. Bax: BCL2-associated X protein; Bcl2: B
+cell lymphoma 2; Casp3: caspase 3; DAPI: 40,6-diamidino-2-phenylindole; DCF: 2,7-dichlorodihydroﬂuorescein; DHE: dihydroethidium; FITC: ﬂuorescein isothiocyanate;
+GSH: glutathione; HR: hypoxia/reoxygenation; HR + luteolin: hypoxia/reoxygenation + luteolin; HR + luteolin + NSC: hypoxia/reoxygenation + luteolin + NSC319726; Lmnb1:
+lamin B1; MDA: malondialdehyde; Mdm2: murine double minute 2; NC: normal control; NSC: the p53 agonist NSC319726; PI: propidium iodide; ROS: reactive oxygen
+species; SOD: superoxide dismutase; TUNEL: terminal deoxynucleotidyl transferase-mediated dUTP nick-end labeling. Data are presented as mean ± standard error of the
+mean, n = 3. *P < 0.05, **P < 0.01, and ***P < 0.001.
+
+thereby reducing myocardial infarction area and enzymes, and
+restoring cardiac contractility. However, when a p53 agonist was
+administered, the cardioprotective effect of luteolin diminished,
+indicating that the target of luteolin’s cardio-protection is p53.
+
+Luteolin had a protective effect when used to treat endometritis
+through its inhibition of the activation or phosphorylation of p53
+[42]. Moreover, luteolin attenuated p53 induced apoptosis in hep-
+atic tissue [43], obesity [44], and heart failure ailments [45]. How-
+ever, conﬂicting results have been observed in human colon
+cancer, where luteolin promoted and activated p53 expression
+[46,47]. This may be attributed to disease or tissue speciﬁcity, drug
+administration, and biological complexity. Our results showed that
+luteolin suppressed p-p53 activation by reducing p53 expression
+and accumulation, leading to a decrease in MIRI, aligning with
+the results of other studies investigating non-tumor diseases.
+
+p53 induces cell apoptosis by regulating Bax, Bcl2, phorbol-12-
+myristate-13-acetate-induced protein 1, and myeloid cell leukemia
+1 expression [48,49]. The excessive activation of the p53 pathway
+initiates a cascade of ROS related gene activations [50,51]. p-p53
+can also suppress the transcription of antioxidant genes [52]. Fur-
+thermore, oxidative stress can facilitate cellular apoptosis [53].
+Upon ROS stimulation, p53 protein was translocalized to the mito-
+chondrial membrane and facilitated the accelerated opening of
+membrane pores, leading to a decrease in membrane potential,
+and exacerbation of the malignant loop of mitochondrial damage,
+oxidative stress, and cellular apoptosis [54]. In our study, luteolin
+treatment reduced apoptosis and ROS level in myocardium with
+MIRI, accompanied by the decrease of p53. When the p53 agonist
+was added, luteolin’s ability to reduce apoptosis and oxidative
+stress was diminished; further, the p53 inhibitor exerted a similar
+
+661
+
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+Fig. 6. Luteolin exerted a myocardial protective effect regulated by p53. (A) Representative images of heart sections with Evans blue and TTC double staining. (B) The
+percentage of the infarct area. The ratio of the infarct area of the largest heart section to the section’s total area was used to calculate the percentage of infarct area. (C) The
+serum CK, CK-MB, and cTnI levels. (D) Representative M-mode echocardiographic images. (E) LVIDd, LVIDs, LVEF, and LVFS. CK: creatine kinase; CK-MB: CK muscle/brain
+subtype; cTnI: cardiac troponin I; IL: ischemia/reperfusion + luteolin group; ILN: ischemia/reperfusion + luteolin + NSC319726; IPa: ischemia/reperfusion + piﬁthrin-a; IR:
+ischemia/reperfusion; LVEF: left ventricular ejection fraction; LVFS: left ventricular fractional shortening; LVIDs: left ventricular systolic diameter; LVIDd: left ventricular
+diastolic diameter; MIRI: myocardial ischemia/reperfusion injury; TTC: 2,3,5-triphenyltetrazolium chloride. Data are presented as mean ± standard error of the mean, n = 6.
+ns: not signiﬁcant; *P < 0.05, **P < 0.01, and ***P < 0.001.
+
+662
+
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+mitigation of apoptosis and oxidative stress as luteolin, suggesting
+that the p53 pathway serves as a crucial route through which lute-
+olin mitigates apoptosis and oxidative stress in myocardial cells.
+
+Nevertheless, the precise regulatory effects of luteolin on p53
+subunits remain to be further elucidated. For instance, integrating
+molecular dynamics simulations with mutation analyses to
+sequentially alter luteolin’s binding sites on the p53 protein sub-
+structure could provide deeper insights into the mechanistic role
+of luteolin with respect to p53. Moreover, the manner by which
+luteolin improves mitochondrial oxidative stress via the p53 sig-
+naling pathway still requires clariﬁcation, including whether it acts
+through mitochondrial membrane fusion and ﬁssion or through
+cellular energy metabolism. To this end, elucidating luteolin’s
+mechanisms through mitochondrial function assessments, gene
+expression analyses, and proteomics studies would lay a scientiﬁc
+foundation for its application in treating cardiovascular disorders.
+This study suggests that luteolin can reduce apoptosis and
+oxidative stress by suppressing p53 expression, thus alleviating
+myocardial damage in MIRI (Fig. 7). However, the speciﬁc regula-
+tion of the p53 protein subunit by luteolin remains to be further
+conﬁrmed. Whether luteolin affects other downstream signaling
+pathways after modulating the p53 signaling pathway also needs
+to be further investigated.
+
+5. Conclusion
+
+This study investigated the therapeutic efﬁcacy and fundamental
+mechanism of luteolin on MIRI. Luteolin shielded mice from MIRI, as
+indicated by the decreased myocardial infarct size and myocardial
+enzyme levels and augmented systolic function. The results of
+in vivo and in vitro experiments show that luteolin diminished
+p53 expression and impeded nuclear translocation of p-p53, thereby
+averting ROS generation and reducing cellular apoptosis. It is sug-
+gested that luteolin mitigated cellular apoptosis and oxidative stress
+by inhibiting phosphorylation of p53 to alleviate MIRI. This study
+validates luteolin’s potential as a natural drug for MIRI therapy.
+
+Funding
+
+This work was ﬁnancially supported by grants from the
+National Natural Science Foundation of China (No. 82104488,
+81974249, 82274317, and 82161138003).
+
+CRediT authorship contribution statement
+
+PZ conceived the project, analyzed and visualized the data, and
+drafted the manuscript. PZ, XHO, and MLY conducted the experi-
+ments. LL, YML, JYL, and XC revised the manuscript. RZ conceived
+and administrated the project and revised the manuscript. DSH
+supervised, administrated the project, revised the manuscript,
+and acquired funding. All authors read and approved the ﬁnal
+manuscript.
+
+Acknowledgment
+
+The authors would like to thank the National Natural Science
+
+Foundation of China.
+
+Declaration of competing interests
+
+The authors declare that there is no conﬂict of interest.
+
+Appendix A. Supplementary material
+
+Supplementary data to this article can be found online at
+
+https://doi.org/10.1016/j.joim.2024.09.001.
+
+References
+
+[1] Reed GW, Rossi JE, Cannon CP. Acute myocardial infarction. Lancet 2017;389
+
+(10065):197–210.
+
+[2] Ibanez B, James S, Agewall S, Antunes MJ, Bucciarelli-Ducci C, Bueno H, et al.
+2017 ESC Guidelines for the management of acute myocardial infarction in
+patients presenting with ST-segment elevation: the Task Force for the
+
+Fig. 7. Luteolin suppresses the production of pro-apoptotic proteins and decreases the generation of mitochondrial ROS by inhibiting the accumulation and phosphorylation
+of p53, consequently mitigating MIRI. Bax: BCL2-associated X protein; Bcl2: B cell lymphoma 2; Casp3: caspase 3; Mdm2: murine double minute 2; MIRI: myocardial
+ischemia/reperfusion injury; ROS: reactive oxygen species.
+
+663
+
+P. Zhai, X.H. Ouyang, M.L. Yang et al.
+
+Journal of Integrative Medicine 22 (2024) 652–664
+
+management of acute myocardial infarction in patients presenting with ST-
+segment elevation of the European Society of Cardiology (ESC). Eur Heart J
+2018;39(2):119–77.
+
+[29] Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, et al. Cytoscape:
+a software environment for integrated models of biomolecular interaction
+networks. Genome Res 2003;13(11):2498–504.
+
+[3] Ibanez B, Heusch G, Ovize M, Van de Werf F. Evolving therapies for myocardial
+
+ischemia/reperfusion injury. J Am Coll Cardiol 2015;65(14):1454–71.
+
+[4] Frohlich GM, Meier P, White SK, Yellon DM, Hausenloy DJ. Myocardial
+J 2013;34
+
+looking beyond primary PCI. Eur Heart
+
+reperfusion injury:
+(23):1714–22.
+
+[5] Yano T, Abe K, Tanno M, Miki T, Kuno A, Miura T, et al. Does p53 inhibition
+suppress myocardial ischemia-reperfusion injury? J Cardiovasc Pharmacol
+Ther 2018;23(4):350–7.
+
+[6] Imran M, Rauf A, Abu-Izneid T, Nadeem M, Shariati MA, Khan IA, et al. Luteolin,
+a ﬂavonoid, as an anticancer agent: a review. Biomed Pharmacother
+2019;112:108612.
+
+[7] Muruganathan N, Dhanapal AR, Baskar V, Muthuramalingam P, Selvaraj D,
+Aara H, et al. Recent updates on source, biosynthesis, and therapeutic potential
+of natural ﬂavonoid luteolin: a review. Metabolites 2022;12(11):1145.
+
+[8] Kim S, Chin YW, Cho J. Protection of cultured cortical neurons by luteolin
+against oxidative damage through inhibition of apoptosis and induction of
+heme oxygenase-1. Biol Pharm Bull 2017;40(3):256–65.
+
+[9] Chang H, Li C, Huo KY, Wang QY, Lu LH, Zhang Q, et al. Luteolin prevents H2O2-
+induced apoptosis in H9C2 cells through modulating Akt-P53/Mdm2 signaling
+pathway. Biomed Res Int 2016;2016:5125836.
+
+[10] Luo YY, Shang PP, Li DY. Luteolin: a ﬂavonoid that has multiple
+cardio-protective effects and its molecular mechanisms. Front Pharmacol
+2017;8:692.
+
+[11] Wei B, Lin Q, Ji YG, Zhao YC, Ding LN, Zhou WJ, et al. Luteolin ameliorates rat
+myocardial ischaemia–reperfusion injury through activation of peroxiredoxin
+Ⅱ. Br J Pharmacol 2018;175(16):3315–32.
+
+[12] Yu DS, Li MW, Tian YQ, Liu J, Shang J. Luteolin inhibits ROS-activated MAPK
+pathway in myocardial ischemia/reperfusion injury. Life Sci 2015;122:15–25.
+[13] Zhou XR, Ru XC, Xiao C, Pan J, Lou YY, Tang LH, et al. Sestrin2 is involved in the
+Nrf2-regulated
+luteolin-induced
+signaling
+prevention of the diabetic rat heart from ischemia/reperfusion injury. Food
+Funct 2021;12(8):3562–71.
+
+antioxidative
+
+pathway
+
+in
+
+[14] Zhao LL, Zhou Z, Zhu CS, Fu ZH, Yu DS. Luteolin alleviates myocardial ischemia
+via
+Int
+
+Siti1/NLRP3/NF-jB
+
+pathway.
+
+in
+
+reperfusion
+injury
+Immunopharmacol 2020;85:106680.
+
+rats
+
+[15] Jiang YH, Yang WJ, Ding JM, Ji J, Wu LW, Zheng YY, et al. Luteolin pretreatment
+attenuates hepatic ischemia-reperfusion injury in mice by inhibiting
+inﬂammation, autophagy, and apoptosis via the ERK/PPAR athway. PPAR Res
+2022;2022:8161946.
+
+[16] Wang HT, Yao XQ, Huang KL, Zhang J, Xiao JR, Guo J, et al. Low-dose
+dexamethasone in combination with luteolin improves myocardial infarction
+recovery by activating the antioxidative response. Biomed Pharmacother
+2022;151:113121.
+
+[17] Li L, Luo W, Qian YY, Zhu WW, Qian JC, Li JL, et al. Luteolin protects against
+diabetic cardiomyopathy by inhibiting NF-B-mediated inﬂammation and
+activating
+Phytomedicine
+2019;59:152774.
+
+the Nrf2-mediated
+
+antioxidant
+
+responses.
+
+[18] Pan QY, Liu Y, Ma WR, Kan RS, Zhu H, Li DY. Cardioprotective effects and
+possible mechanisms of luteolin for myocardial ischemia-reperfusion injury: a
+systematic review and meta-analysis of preclinical evidence. Front Cardiovasc
+Med 2022;9:685998.
+
+[19] Hostetler GL, Ralston RA, Schwartz SJ. Flavones: food sources, bioavailability,
+
+metabolism, and bioactivity. Adv Nutr 2017;8(3):423–35.
+
+[20] Lindsey ML, Bolli R, Canty Jr JM, Du XJ, Frangogiannis NG, Frantz S, et al.
+Guidelines for experimental models of myocardial ischemia and infarction. Am
+J Physiol Heart Circ Physiol 2018;314(4):H812–38.
+
+[21] Kim SH, Chen J, Cheng TJ, Gindulyte A, He J, He SQ, et al. PubChem in 2021:
+new data content and improved web interfaces. Nucleic Acids Res 2021;49
+(D1):D1388–95.
+
+[22] Gfeller D, Grosdidier A, Wirth M, Daina A, Michielin O, Zoete V.
+SwissTargetPrediction: a web server for target prediction of bioactive small
+molecules. Nucleic Acids Res 2014;42(Web server issue):W32–8.
+
+[23] Szklarczyk D, Santos A, von Mering C, Jensen LJ, Bork P, Kuhn M. STITCH 5:
+augmenting protein-chemical interaction networks with tissue and afﬁnity
+data. Nucleic Acids Res 2016;44(D1):D380–4.
+
+[24] Bai LL, Chen H, Zhou P, Yu J. Identiﬁcation of tumor necrosis factor-a (TNF-a)
+inhibitor in rheumatoid arthritis using network pharmacology and molecular
+docking. Front Pharmacol 2021;12:690118.
+
+[25] Wang YX, Zhang S, Li FC, Zhou Y, Zhang Y, Wang ZW, et al. Therapeutic target
+facilitating research and early
+targeted therapeutics. Nucleic Acids Res 2020;48(D1):
+
+database 2020: enriched resource for
+development of
+D1031–41.
+
+[26] Wishart DS, Feunang YD, Guo AC, Lo EJ, Marcu A, Grant JR, et al. DrugBank 5.0:
+a major update to the DrugBank database for 2018. Nucleic Acids Res 2018;46
+(D1):D1074–82.
+
+[27] Sun L, Dong SF, Ge YB, Fonseca JP, Robinson ZT, Mysore KS, et al. DiVenn: an
+interactive and integrated web-based visualization tool for comparing gene
+lists. Front Genet 2019;10:421.
+
+[28] Szklarczyk D, Gable AL, Lyon D, Junge A, Wyder S, Huerta-Cepas J, et al. STRING
+v11: protein-protein association networks with increased coverage,
+supporting functional discovery in genome-wide experimental datasets.
+Nucleic Acids Res 2019;47(D1):D607–13.
+
+664
+
+[30] Trott O, Olson AJ. AutoDock Vina: improving the speed and accuracy of
+and
+
+efﬁcient optimization,
+
+docking with a new scoring
+multithreading. J Comput Chem 2010;31(2):455–61.
+
+function,
+
+[31] Pinzi L, Rastelli G. Molecular docking: shifting paradigms in drug discovery. Int
+
+J Mol Sci 2019;20(18):4331.
+
+[32] Ru JL, Li P, Wang JN, Zhou W, Li BH, Huang C, et al. TCMSP: a database of
+J
+
+systems pharmacology for drug discovery from herbal medicines.
+Cheminform 2014;6:13.
+
+[33] Fang F, Li DY, Pan HJ, Chen D, Qi LL, Zhang RQ, et al. Luteolin inhibits apoptosis
+and improves cardiomyocyte contractile function through the PI3K/Akt
+pathway in simulated ischemia/reperfusion. Pharmacology 2011;88(3–
+4):149–58.
+
+[34] Wang ZY, Shi W, Wu TB, Peng T, Wang XM, Liu SY, et al. A high-throughput
+drug screening identiﬁes luteolin as a therapeutic candidate for pathological
+cardiac
+Cardiovasc Med
+2023;10:1130635.
+
+hypertrophy
+
+failure.
+
+Front
+
+heart
+
+and
+
+[35] Neubauer S. The failing heartan engine out of fuel. N Engl J Med 2007;356
+
+(11):1140–51.
+
+[36] Ramachandra CJA, Hernandez-Resendiz S, Crespo-Avilan GE, Lin YH,
+and
+in
+
+acute myocardial
+
+infarction
+
+Hausenloy DJ. Mitochondria
+cardioprotection. EBioMedicine 2020;57:102884.
+
+[37] Hernandez-Resendiz S, Prunier F, Girao H, Dorn G, Hausenloy DJ. Targeting
+mitochondrial fusion and ﬁssion proteins for cardioprotection. J Cell Mol Med
+2020;24(12):6571–85.
+
+[38] He ZJ, Li XQ, Wang Z, Cao YQ, Han SX, Li N, et al. Protective effects of luteolin
+against amyloid beta-induced oxidative stress and mitochondrial impairments
+through peroxisome proliferator-activated receptor c-dependent mechanism
+in Alzheimer’s disease. Redox Biol 2023;66:102848.
+
+[39] Zhang XN, Li MY, Yue Y, Zhang Y, Wu AS. Luteoloside prevents sevoﬂurane-
+induced cognitive dysfunction in aged rats via maintaining mitochondrial
+Neuroscience
+function
+2023;516:42–53.
+
+hippocampal
+
+dynamics
+
+neurons.
+
+and
+
+in
+
+[40] Yang Y, Zhang Y, Yang JQ, Zhang MM, Tian T, Jiang Y, et al. Interdependent
+nuclear co-trafﬁcking of ASPP1 and p53 aggravates cardiac ischemia/
+reperfusion injury. Circ Res 2023;132(2):208–22.
+
+[41] Liu H, Pedram A, Kim JK. Oestrogen prevents cardiomyocyte apoptosis by
+suppressing p38a-mediated activation of p53 and by down-regulating p53
+inhibition on p38b. Cardiovasc Res 2011;89(1):119–28.
+
+[42] Wang XY, Yuan T, Yin NN, Ma XF, Zhang ZB, Zhu Z, et al. Luteoloside protects
+the uterus from Staphylococcus aureus-induced inﬂammation, apoptosis, and
+injury. Inﬂammation 2018;41(5):1702–16.
+
+[43] Zhang KK, Wang H, Qu D, Chen LJ, Wang LB, Li JH, et al. Luteolin alleviates
+methamphetamine-induced hepatotoxicity by suppressing the p53 pathway-
+mediated apoptosis, autophagy, and inﬂammation in rats. Front Pharmacol
+2021;12:641917.
+
+[44] Kim JW, Shin SK, Kwon EY. Luteolin protects against obese sarcopenia
+in mice with high-fat diet-induced obesity by ameliorating inﬂammation
+and protein degradation in muscles. Mol Nutr Food Res 2023;67(6):
+e2200729.
+
+[45] Huang H, Xu JY, Zhang SQ, Zhao J, Liu S, Tian L, et al. A network pharmacology-
+based approach to explore the active ingredients and molecular mechanism of
+Shenkui Tongmai granules on a rat model with chronic heart failure. J Pharm
+Pharmacol 2023;75(6):764–83.
+
+[46] Kang KA, Piao MJ, Hyun YJ, Zhen AX, Cho SJ, Ahn MJ, et al. Luteolin promotes
+apoptotic cell death via upregulation of Nrf2 expression by DNA demethylase
+and the interaction of Nrf2 with p53 in human colon cancer cells. Exp Mol Med
+2019;51(4):1–14.
+
+[47] Amin A, Karpowicz PA, Carey TE, Arbiser J, Nahta R, Chen ZG, et al. Evasion of
+anti-growth signaling: a key step in tumorigenesis and potential target for
+treatment and prophylaxis by natural compounds. Semin Cancer Biol 2015;35
+(Suppl):S55–77.
+
+[48] Chen YH, Zhang XJ, Dantas Machado AC, Ding Y, Chen ZC, Qin PZ, et al.
+Structure of p53 binding to the BAX response element reveals DNA unwinding
+and compression to accommodate base-pair insertion. Nucleic Acids Res
+2013;41(17):8368–76.
+
+[49] Wei HD, Qu LZ, Dai SY, Li Y, Wang HL, Feng YL, et al. Structural insight into the
+molecular mechanism of p53-mediated mitochondrial apoptosis. Nat
+Commun 2021;12(1):2280.
+
+[50] Polyak K, Xia Y, Zweier JL, Kinzler KW, Vogelstein B. A model for p53-induced
+
+apoptosis. Nature 1997;389(6648):300–5.
+
+[51] Rivera A, Maxwell SA. The p53-induced gene-6 (proline oxidase) mediates
+apoptosis through a calcineurin-dependent pathway. J Biol Chem 2005;280
+(32):29346–54.
+
+[52] Hussain SP, Amstad P, He P, Robles A, Lupold S, Kaneko I, et al. p53-induced up-
+regulation of MnSOD and GPx but not catalase increases oxidative stress and
+apoptosis. Cancer Res 2004;64(7):2350–6.
+
+[53] Rawat L, Balan M, Sasamoto Y, Sabarwal A, Pal S. A novel combination therapy
+with cabozantinib and honokiol effectively inhibits c-Met-Nrf2-induced renal
+tumor growth through increased oxidative stress. Redox Biol 2023;68:102945.
+[54] Yu FF, Yu SY, Sun L, Zuo J, Luo KT, Wang M, et al. T-2 toxin induces
+mitochondrial dysfunction in chondrocytes via the p53-cyclophilin D
+pathway. J Hazard Mater 2023;465:133090.
+
+

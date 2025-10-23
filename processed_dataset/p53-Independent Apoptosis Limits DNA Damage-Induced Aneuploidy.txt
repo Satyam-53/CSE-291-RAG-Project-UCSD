@@ -1,0 +1,1520 @@
+Copyright (cid:2) 2009 by the Genetics Society of America
+DOI: 10.1534/genetics.109.102327
+
+p53-Independent Apoptosis Limits DNA Damage-Induced Aneuploidy
+
+Laura M. McNamee and Michael H. Brodsky1
+
+Program in Gene Function and Expression and Program in Molecular Medicine, University of Massachusetts Medical School,
+Worcester, Massachusetts 01605
+
+Manuscript received February 28, 2009
+Accepted for publication March 18, 2009
+
+ABSTRACT
+DNA damage or unprotected telomeres can trigger apoptosis via signaling pathways that directly sense
+abnormal DNA structures and activate the p53 transcription factor. We describe a p53-independent
+mechanism that acts in parallel to the canonical DNA damage response pathway in Drosophila to induce
+apoptosis after exposure to ionizing radiation. Following recovery from damage-induced cell cycle arrest,
+p53 mutant cells activate the JNK pathway and expression of the pro-apoptotic gene hid. Mutations in grp,
+a cell cycle checkpoint gene, and puc, a negative regulator of the JNK pathway, sensitize p53 mutant cells to
+ionizing radiation (IR)-induced apoptosis. Induction of chromosome aberrations by DNA damage generates
+cells with segmental aneuploidy and heterozygous for mutations in ribosomal protein genes. p53-
+independent apoptosis limits the formation of these aneuploid cells following DNA damage. We propose
+that reduced copy number of haploinsufﬁcient genes following chromosome damage activates apoptosis
+and helps maintain genomic integrity.
+
+EUKARYOTIC cells employ diverse mechanisms to
+
+preserve the structure and function of
+their
+genome following chromosome damage. Unicellular
+organisms rely on DNA repair systems and cell cycle
+arrest to prevent propagation of genome damage, while
+multicellular organisms can also activate programmed
+cell death pathways to eliminate cells following damage
+(Sancar et al. 2004; Roos and Kaina 2006; Bartek and
+Lukas 2007; Harper and Elledge 2007). In response
+to double-strand DNA breaks (DSBs),
+the Mre11,
+Rad50, and Nbs1 (MRN) complex helps process the
+damage and activates the ATM and ATR kinases. ATM
+and ATR phosphorylate many substrates including the
+downstream kinases Chk1 and Chk2, which regulate
+cell cycle arrest and apoptosis. The p53 transcription
+factor plays an evolutionarily conserved role, connect-
+ing the DNA damage signaling pathway to the core
+apoptotic machinery (Murray-Zmijewski et al. 2006;
+Helton and Chen 2007). Mammalian p53 is directly
+phosphorylated by ATM and Chk2 and activates many
+targets genes
+including pro-apoptotic Bcl-2 family
+members and the cell cycle regulator p21 (Riley et al.
+2008). The p53 paralogs p63 and p73 also contribute to
+p53-dependent apoptosis by helping p53 bind the
+promoters of pro-apoptotic genes in some, but not all
+cell types (Flores et al. 2002; Senoo et al. 2004).
+
+Supporting information is available online at http://www.genetics.org/
+
+cgi/content/full/genetics.109.102327/DC1.
+
+1Corresponding author: 623 Lazare Research Bldg., Program in Gene
+Function and Expression, University of Massachusetts Medical School,
+364 Plantation St., Worcester, MA 01605.
+E-mail: michael.brodsky@umassmed.edu
+
+Genetics 182: 423–435 ( June 2009)
+
+While p53 is required for normal induction of cell
+death following DNA damage, p53-independent mech-
+anisms can also activate a reduced or delayed response
+( Yuan et al. 1999; Irwin et al. 2003; Urist et al. 2004;
+Ozaki and Nakagawara 2005; reviewed in Roos and
+Kaina 2006). Several studies have demonstrated that
+p53-independent death can be enhanced by inactivat-
+ing checkpoints that block cell cycle progression in the
+presence of unrepaired DNA damage. In one example,
+cancer cells lacking p53 required ATM, ATR, Chk1, and
+p38MAPK/MK2 signaling for cell cycle arrest; loss of
+this response led to caspase-3 activation and mitotic
+catastrophe following DNA damage (Reinhardt et al.
+2007). In another case, zebraﬁsh embryos lacking p53
+and Chk1 function required ATM and ATR to activate
+an unusual apoptotic response requiring caspase-2, but
+not caspase-9 or caspase-3 (Sidi et al. 2008).
+
+In Drosophila, rapid induction of apoptosis by
+ionizing radiation (IR) or unprotected telomeres re-
+quires homologs of ATM, Chk2 (TEFU, MNK, respec-
+tively), and p53 (Brodsky et al. 2000a, 2004; Ollmann
+et al. 2000; Xu et al. 2001; Peters et al. 2002; Oikemus
+et al. 2004; Silva et al. 2004; Song et al. 2004). G2 arrest
+requires ATR, ATRIP, and Chk1 (MEI-41, MUS304, and
+GRP, respectively) (Hari et al. 1995; Fogarty et al. 1997;
+Brodsky et al. 2000b, 2004; De Vries et al. 2005).
+Transcriptional targets of p53 include the pro-apoptotic
+genes reaper (rpr), head involution defective (hid), and sickle
+(skl ) (Brodsky et al. 2000a, 2004; Christich et al. 2002;
+Akdemir et al. 2007). hid is essential for the rapid
+induction of apoptosis, while rpr may play a less signiﬁcant
+role (Brodsky et al. 2004; Moon et al. 2008). rpr, hid, and
+
+424
+
+L. M. McNamee and M. H. Brodsky
+
+skl encode proteins that induce apoptosis by directly
+binding and inhibiting DIAP1, leading to activation
+of an initiator caspase, Dronc, and effector caspases
+(Bergmann et al. 2003; Chew et al. 2004; Daish et al.
+2004; Waldhuber et al. 2005; Kondo et al. 2006; Xu et al.
+2006; Steller 2008). Regulation of mitochondrial ultra-
+structure by HID and RPR may also help induce cell
+death after DNA damage (Holley et al. 2002; Olson et al.
+2003; Abdelwahid et al. 2007; Goyal et al. 2007).
+
+While rapid induction of apoptosis following IR
+requires Drosophila p53, there is also p53-independent
+apoptosis following chromosome damage. Mutations in
+the Drosophila ATM/ATR/MRN damage signaling
+pathways lead to loss of telomere protection and high
+levels of spontaneous apoptosis (Bi et al. 2004, 2005;
+Ciapponi et al. 2004, 2006; Oikemus et al. 2004, 2006).
+The apoptosis induced by unprotected telomeres is only
+partly suppressed by loss of p53 or MNK (Oikemus et al.
+2004, 2006). No additional p53 family members con-
+tribute to this response since Drosophila has only a
+single p53 homolog. Similarly, in the absence of p53, a
+delayed or reduced induction of apoptosis is observed
+following IR or telomere loss (Wichmann et al. 2006;
+Titen and Golic 2008). Double-mutant combinations
+of tefu, mus304, and nbs also exhibit spontaneous apo-
+ptosis, suggesting that the activation of apoptosis by
+chromosome damage is independent of the central
+upstream components of the DNA damage response
+pathway (Oikemus et al. 2006).
+
+Here, we characterize the regulation and function of
+p53-independent apoptosis following IR. We show that
+p53-independent apoptosis requires hid, which is a
+target of IR-induced JNK signaling. Mutations in grp or
+the JNK phosphatase puc sensitize p53 mutant cells to
+IR-induced apoptosis, suggesting that cell cycle pro-
+gression and JNK signaling are critical for this response.
+We ﬁnd that this response acts to maintain genomic
+stability by reducing the number of aneuploid adult
+cells induced by IR. We propose that activation of JNK
+and HID in response to aneuploidy induces p53-
+independent apoptosis following IR.
+
+MATERIALS AND METHODS
+
+Drosophila melanogaster genetics: All ﬂies were raised at 25(cid:3).
+Genes and alleles are described in http://ﬂybase.org. w1118 was
+used as the wild-type strain. The following mutant genotypes
+were used: p5311-1b-1 (this allele is used for all experiments except
+in Figure S3B); p535A-1-4; mnkP6; grpfs1; p5311-1b-1; grpfs1 mnkP6; actin-
+Gal4/1; UASp35/1;
+en-Gal4/1;
+UASp35 p5311-1b-1/p5311-1b-1; en-Gal4/1;UASpuc p5311-1b-1/p5311-1b-1;
+en-Gal4/1; UASpuc UASp35 p5311-1b-1/p5311-1b-1; en-Gal4/1; pucA29lacZ
+p5311-1b-11/1UASp35 p5311-1b-1; pucA29-lacZ p5311-1b-1/1p5311-1b-1; grpfs1;
+pucA29-lacZ p5311-1b-1/1p5311-1b-1; brk38-20-lacZ/1; p5311-1b-1; brk38-20-
+lacZ/1;
+en-Gal4/1;UASp35 p5311-1b-1/p5311-1b-1; brk38-20-lacZ/1;
+en-Gal4/1;UASp35/1; droncI29/droncI24; hidX14/hid05014; hidX14
+p5311-1b-1/ hid05014 p5311-1b-1; mwh1; and mwh1 p5311-1b-1.
+
+en-Gal4/1; UASp35/1;
+
+Analysis of X-irradiation-induced changes in apoptosis, cell
+cycle, and gene expression: For 4- and 8-hr time points,
+
+wandering third instar larvae were mock treated or X-irradiated
+with 4000 rad using a Faxitron RX650 X-ray cabinet system
+(Faxitron X-ray Corporation). For 12-, 16-, and 24-hr time
+points, larvae were treated as early third instar in Drosophila
+media and dissected as wandering third instar larvae.
+
+Immunostaining and acridine orange staining were largely
+performed as described previously (Abrams et al. 1993;
+Brodsky et al. 2000b; Oikemus et al. 2004). Imaginal wing
+discs from wandering third instar larvae were dissected in 13
+PBS and ﬁxed in 4% formaldehyde for 30 min at room
+temperature. Samples were washed in 250 ml of PBS 1 0.3%
+Triton X-100 ﬁve times for 5 min each and incubated in
+blocking solution (PBS 1 0.3% Triton X-100 1 5% normal
+goat serum) for 1 hr. Samples were incubated in primary
+antibody diluted in blocking solution overnight at 4(cid:3). The
+posterior expression domain in en-Gal4 experiments was
+marked by expression of endogenous En protein. Primary
+antibodies were used at the following dilutions: rabbit anti-
+cleaved caspase-3 (Cell Signaling Technology), 1:100; mouse
+anti-phospho-H3 (Cell Signaling Technology), 1:500; mouse
+anti-Beta-Gal (Santa Cruz Biotechnology), 1:1000; mouse anti-
+EN (Developmental Studies Hybridoma Bank at the University
+of Iowa, DSHB), 1:10; mouse anti-WG (DSHB), 1:50; mouse
+anti-PTC (DSHB), 1:100; and guinea pig anti-HID (Ryoo et al.
+2004) (gift from Hyung Don Ryoo, New York University
+Medical Center), 1:500. Following primary antibody incuba-
+tion, samples were washed ﬁve times for 5 min each and
+incubated with secondary antibody in blocking solution for
+2 hr at room temperature. Secondary antibodies were used at
+the following dilutions: anti-mouse Alexa 488 (Molecular
+Probes, Eugene, OR), 1:2000; anti-rabbit Alexa 555 (Molecu-
+lar Probes), 1:2000; anti-guinea pig Alexa 488 (Molecular
+Probes), 1:2000; anti-mouse FITC ( Jackson Laboratories, for
+staining with anti-phospho-histone H3 primary), 1:250; and
+anti-mouse Cy5 ( Jackson Laboratories), 1:250. Imaginal wing
+discs were stained with 49,6-diamidino-2-phenylindole (DAPI)
+and mounted in Vectashield (Vector Laboratories, Burlin-
+game, CA). Wide ﬁeld images of wing discs were acquired
+with a Zeiss Axioplan ﬂuorescence microscope, an ORCA-ER
+digital camera (Hamamatsu), and Axiovision 4.5 software.
+Confocal images were acquired with a Leica TCS SP2 confocal
+microscope. At least ﬁve wing discs were scored for each
+genotype and time point.
+
+Quantitative analysis of cleaved-caspase staining: A confo-
+cal z-series was taken through the entire disc at intervals of
+1.42 mm with a 203 objective. A three-dimensional recon-
+struction was generated using Imaris image analysis software
+(version 5.0.1, Bitplane). A high-intensity threshold was used
+to create isosurfaces of regions that stained positive for cleaved
+caspase-3. A low-intensity threshold was used to create an
+isosurface of the background staining observed throughout
+the entire disc. Examples of a maximum-intensity projection,
+low-threshold isosurface, and high-threshold isosurface are
+shown in Figure 1E. The anti-caspase-3 index is the total
+volume of high-intensity isosurfaces divided by the volume of
+the low-intensity isosurface. P-values were calculated with a
+two-tailed Student’s t-test.
+
+Minute assay: Newly laid eggs were collected for 48 hr. Seven
+days later, larvae were X-irradiated with 0, 500, 1000, or 2000
+rad at two different stages, either wandering late third instar or
+second to early third instar larvae still in the media. Late third
+instar larvae were transferred to new vials following IR. For
+larvae irradiated in the media, wandering third instar larvae
+were picked out of the vials over the next 48 hr. After 1 week,
+the numbers of normal and Minute bristles were scored in the
+resulting adults as previously described (Brodsky et al.
+2000b). For each genotype and treatment, bristle phenotypes
+were scored in at least 60 ﬂies unless otherwise noted. Data
+
+p53-Independent Apoptosis
+
+425
+
+Figure
+
+1.—hid
+
+regulates
+
+time points
+
+p53-
+independent apoptosis. (A–D) Apopto-
+sis was assayed in wild-type (wt), p53,
+and hid single-mutant and p53 hid dou-
+ble-mutant imaginal wing discs at differ-
+ent
+following ionizing
+radiation (IR) by staining with an anti-
+body to cleaved caspase 3 (anti-C3).
+(A) Induction of apoptosis is observed
+from 4 to 16 hr following DNA damage
+in wt wing discs. (B–D) Apoptosis is de-
+layed and reduced in p53 and hid single-
+mutant wing discs compared to wild
+type. Apoptosis is not induced in p53
+hid double-mutant wing discs at 16 and
+24 hr following IR. (E–E$) Quantiﬁca-
+tion of anti-C3 staining (see materials
+and methods). (E) A maximum-intensity
+projection of a confocal z-series ob-
+tained from an imaginal wing disc
+stained with anti-C3. (E9) A high-
+intensity threshold was used to create
+an isosurface for anti-C3-stained regions. (E$) A low-intensity threshold was used to create an isosurface for the entire disc.
+(F) The volume of anti-C3-positive tissue divided by total disc volume is expressed as a percentage at 0, 16, and 24 hr after treat-
+ment with IR. Anti-C3 staining does not increase in hid p53 double-mutant discs and is signiﬁcantly lower than observed for p53
+single-mutant discs (P-value ,0.01). For all discs and data points shown, at least ﬁve discs were analyzed. Error bars indicate the
+standard error of the mean.
+
+from three different irradiation experiments were pooled. P-
+values were calculated with a two-tailed Student’s t-test.
+
+mwh assay: Wandering third instar larvae were irradiated
+with 0, 250, or 1000 rad and transferred to new vials. After
+1 week, adult wings were mounted in 1:1 methyl salicylate/
+Canada balsam (Sigma, St. Louis) and individual cells were
+scored for the mwh(cid:2)/(cid:2) phenotype (Brodsky et al. 2000b). For
+each genotype and dose, ﬁve wings were scored. P-values were
+calculated using a two-tailed Student’s t-test.
+
+RESULTS
+
+p53-independent apoptosis requires the pro-apoptotic
+gene hid and the apical caspase gene dronc: Cell death in
+Drosophila wing discs was examined following X-irradi-
+ation of third instar larvae. At least ﬁve discs were
+examined for every genotype and time point shown.
+Mutant alleles are described in materials and methods.
+Four hours after irradiation, high levels of apoptosis are
+induced in wild-type discs (Figure 1A; Figure S1A and
+Figure S2A). p53 or mnk mutant discs exhibit no change
+at 4 hr, but a signiﬁcant increase in apoptosis between 16
+and 24 hr (Figure 1, B and F; Figure S2, B and C). A
+previous study indicated that one or more of the pro-
+apoptotic genes in the Df(3L)H99 region are likely to
+contribute to p53-independent apoptosis following IR
+(Wichmann et al. 2006). In hid single-mutant discs,
+apoptosis is blocked at 4–8 hr following IR and is reduced
+at later time points (Figure 1, A and C; Figure S2, A and
+F). Twenty-four hours following IR, hid, p53 double-
+mutant discs exhibit a 7- and an 11-fold reduction in
+the caspase staining compared to p53 or hid single-
+mutant discs (Figure 1, B–F), demonstrating that hid
+
+contributes to p53-independent apoptosis following IR
+(Figure 1, B–F).
+
+All IR-induced acridine orange and anti-C3 staining
+was blocked at both early and late time points in wing
+discs mutant for the caspase-9 homolog dronc (Figure
+S1B and Figure S2D), indicating that dronc is required
+for both p53-dependent and p53-independent apopto-
+sis. Similarly,
+in discs expressing the anti-apoptotic
+baculovirus protein p35, which inhibits the effector
+caspases Drice and DCP-1 (Xue and Horvitz 1995;
+Kondo et al. 2006; Xu et al. 2006; Baum et al. 2007;
+Lannan et al. 2007), no acridine orange staining was
+observed at any time point (Figure S2E). Because p35
+inhibits effector caspase activity after proteolytic cleav-
+age, cleaved caspase-3 staining can still be observed once
+these caspases are activated ( Yuet al. 2002). When p35 is
+expressed in the posterior half of wild-type or p53
+mutant wing discs, IR-induced caspase staining is in-
+duced in both halves, but the staining is delayed in the
+p35-expressing region (Figure S1, C and D).
+
+Induction of HID by IR was examined in p53 mutant
+discs expressing p35, which allows HID to accumulate
+without causing cell death. HID induction is observed
+16 and 24 hr following irradiation of p53 mutant cells
+expressing p35 (Figure 2A, posterior cells). Overall, our
+analysis of hid and caspase function indicates that p53-
+independent apoptosis following IR utilizes the same
+core apoptotic machinery activated in response to most
+developmental and cell stress signals in Drosophila.
+
+Regulation of p53-independent apoptosis by the JNK
+pathway: Following IR, JNK signaling is activated in a
+p53-dependent manner and inhibition of JNK signaling
+
+426
+
+L. M. McNamee and M. H. Brodsky
+
+Figure 2.—The JNK pathway regulates p53-
+independent induction of HID and apoptosis
+following IR. (A) HID levels are increased follow-
+ing irradiation of p53 mutant wing discs cells.
+The white line marks the boundary between
+anterior (left) and posterior (right). The baculo-
+virus anti-apoptotic protein p35 is expressed in
+posterior cells using UAS-p35 and an engrailed-
+Gal4 driver. Bar, 50 mm. (B) Induction of HID
+by irradiation is blocked in p53 mutant cells that
+express the JNK inhibitor puc. (C) puc expression
+reduces induction of p53-independent apoptosis
+following IR. Apoptosis is assayed by anti-C3
+staining. (D) Quantiﬁcation of anti-C3 staining
+in p53 mutant cells compared to p53 mutant cells
+overexpressing puc in the posterior. For each
+genotype, levels of anti-C3 staining were quanti-
+ﬁed in the anterior (A) and posterior (P) in ﬁve
+discs. Posterior anti-C3 staining is signiﬁcantly re-
+duced in the discs overexpressing puc (n ¼ 5,
+P-value ,0.01). (E) At higher magniﬁcation, irra-
+diation-induced HID (green) and puc-lacZ (red)
+in the
+are expressed in overlapping cells
+posterior of puc-lacZ/1 p53 mutant wings discs
+expressing p35. Most stained cells express both
+puc-lacZ and HID (open arrowhead). Some cells
+express puc-lacZ, but not HID (solid arrowhead).
+Bar, 20 mm.
+
+reduces induction of apoptosis (McEwen and Peifer
+2005). The Drosophila JNK signaling pathway also
+regulates apoptosis in response to other cellular stresses,
+including UV irradiation ( Jassim et al. 2003; Luo et al.
+2007), abnormal expression patterns of the DPP or WG
+morphogens (Adachi-Yamada et al. 1999; Adachi-
+Yamada and O’Connor 2002), or reduced dosage of
+ribosomal protein genes (Moreno et al. 2002).
+
+The role of JNK signaling in p53-independent in-
+duction of HID by IR was examined using puc, a JNK
+target gene encoding a JNK phosphatase. puc acts in a
+negative feedback loop to limit JNK signaling and can
+be used to efﬁciently block JNK activity when overex-
+pressed in a speciﬁc cell type or region (Martin-
+Blanco et al. 1998). puc overexpression in p53 mutant
+discs reduced HID induction after IR (compare poste-
+rior compartments in Figure 2, A and B). puc over-
+expression also reduces anti-C3 staining following IR
+(Figure 2, C and D); the ratio of posterior to anterior
+anti-C3 staining is 1.4 in p53 mutant discs and is reduced
+to 0.3 in p53 mutant discs overexpressing puc in the
+posterior. The incomplete inhibition of apoptosis in
+
+these discs may indicate that a JNK-independent path-
+way also contributes to this response.
+
+A puc-lacZ reporter, puc A29, was used to monitor JNK
+signaling in irradiated discs (Martin-Blanco et al.
+1998; Kanda and Miura 2004). As previously reported
+(McEwen and Peifer 2005), p53-dependent expression
+of the puc reporter is observed 4 hr following IR (data
+not shown). However, p53 mutant discs begin express-
+ing the reporter at later time points following IR (Figure
+3A). In irradiated p53 mutant wing discs expressing p35,
+HID and the puc reporter are expressed in an over-
+lapping set of cells (Figure 2E).
+
+Cells heterozygous for puc mutations exhibit hyper-
+activation of the JNK pathway (Martin-Blanco et al.
+1998), indicating that puc gene dosage is rate limiting
+for JNK activity. If the level of JNK activation determines
+the amount of p53-independent apoptosis, then p53
+mutant discs heterozygous for puc mutations should
+exhibit increased apoptosis following irradiation. At 16
+and 24 hr after IR, there is a 3- and 4-fold increase in
+caspase staining in p53 mutant discs that are also
+heterozygous for puc compared to p53 single-mutant
+
+p53-Independent Apoptosis
+
+427
+
+Figure 3.—grp and puc limit
+p53-independent apoptosis
+fol-
+lowing IR. (A) lacZ expression is
+increased following irradiation of
+pucA29/1 p53 mutant wing discs.
+pucA29 is an enhancer trap line in
+which the lacZ reporter is inserted
+in the puc locus. (B) Induction of
+lacZ is stronger and faster in grp
+pucA29/1 p53 mutant discs, which
+are defective for G2 arrest follow-
+ing IR. (C–E) Apoptosis was as-
+sayed using anti-C3. (C and D)
+puc/1, p53 mutant discs have
+increased apoptosis
+compared
+to p53 single-mutant discs. (E)
+Triple-mutant grp puc-lacZ/1 p53
+mutant discs have increased apo-
+ptosis compared to either puc/1
+p53 or grp p53 double-mutant discs
+(see Figure 4F). (F) Quantiﬁca-
+tion of anti-C3 staining in puc/1 p53 and p53 mutant discs. (G) Quantiﬁcation of anti-C3 staining in p53 single-mutant discs, puc/1
+p53 or grp p53 double-mutant discs, and grp puc-lacZ/1 p53 triple-mutant discs. Apoptosis was examined 24 hr following IR treatment.
+For each disc and data point, at least ﬁve wing discs were examined. Error bars indicate the standard error of the mean.
+
+discs (Figure 3, C, D, and F). The overall correlation of
+puc expression levels and apoptosis suggests that the
+JNK pathway helps regulate p53-independent apoptosis
+following IR.
+
+Drosophila Chk1 is a negative regulator of p53-
+independent apoptosis following IR: The induction of
+p53-independent apoptosis following IR correlates with
+cell cycle progression. IR-induced G2 delay in the wing
+disc lasts up to 8 hr and requires the Drosophila chk1
+kinase homolog grp (Fogarty et al. 1997; Brodsky et al.
+2000a), even in the absence of p53 or MNK function
+(Figure 4, A–D). While IR-induced apoptosis in wild-
+type discs begins during the cell cycle arrest period
+(within 3–4 hr), apoptosis in p53 mutant discs is largely
+observed after mitosis has resumed. In grp p53 double-
+mutant discs, which fail to arrest in G2, increased levels
+of apoptosis are observed at 12 and 16 hr compared to
+p53 single-mutant discs (Figure 4, E, F, and I). Similarly,
+apoptosis is increased in grp mnk double-mutant wing
+discs compared to mnk single-mutant discs (Figure 4, G,
+H, and J). Previous studies have established that
+mutations in mnk and grp do not affect the frequency
+of chromosome breaks following IR ( Jaklevic and Su
+2004; Oikemus et al. 2006), indicating that the increased
+apoptosis is due to a defect in cell cycle arrest, not simply
+an increase in unrepaired DNA breaks.
+
+In mammalian cells that lack both p53 and Chk1
+function, DNA damage can induce a type of mitotic
+catastrophe in which the mitotic marker phosphohi-
+stone H3 and cleaved caspase-3 are present simulta-
+neously in the dying cells (Reinhardt et al. 2007).
+However, in irradiated grp p53 mutant wing discs, these
+markers label two separate cell populations: mitotic cells
+stained with anti-phosphohistone H3 are predominantly
+in the apical region of the disc, while apoptotic cells
+
+stained with anti-cleaved caspase-3 are largely found in
+the basal region (Figure 5, A and B). These results
+suggest that these cells do not undergo apoptosis while
+in M-phase.
+
+The relationship between grp and puc during p53-
+independent apoptosis was also examined. IR-induced
+expression of the puc reporter is faster and stronger in
+grp p53 double-mutant discs compared to p53 single-
+mutant discs (Figure 3, A and B), suggesting that cell
+cycle arrest normally helps delay induction of JNK
+signaling. The effect of both inactivating cell cycle arrest
+and reducing the level of negative feedback signaling by
+puc was also examined: grp puc/1 p53 triple-mutant discs
+have higher levels of apoptosis than either grp p53 or
+puc/1 p53 double-mutant discs (Figure 3, D–G). Thus,
+while the inactivation of cell cycle delay accelerates the
+formation of cells with elevated JNK signaling, decreas-
+ing the negative feedback signal from puc can further
+increase the number of cells
+that undergo p53-
+independent apoptosis following IR.
+
+p53-independent apoptosis reduces the number of
+aneuploid cells recovered following IR: The role of
+in
+p53-dependent and p53-independent apoptosis
+maintaining genomic integrity was examined using an
+assay based on haploinsufﬁciency of ribosomal protein
+genes. In animals exposed to IR or with mutations in
+DNA repair loci, somatic mutations scored by loss of
+heterozygosity (LOH) are typically accompanied by loss
+of multiple genetic markers and the Minute phenotype,
+caused by haploinsufﬁciency of ribosomal protein genes
+(Baker et al. 1978). These results indicate that most
+LOH was due to segmental aneuploidy (loss of large
+chromosomal regions) rather than induction of point
+mutations or mitotic recombination. To probe genetic
+loss across the entire genome, we scored the frequency of
+
+428
+
+L. M. McNamee and M. H. Brodsky
+
+Figure 4.—grp mutations enhance MNK and
+p53-independent apoptosis following irradiation.
+(A–D) Developing wing discs were stained follow-
+ing IR with anti-phospho-Ser10 histone H3 (PH3)
+to detect mitotic cells. Mitotic entry is largely
+blocked at 4 and 8 hr following IR in mnk and
+p53 single-mutant wing discs, but not in grp p53
+or mnk grp double-mutant discs. (E–H) Apoptosis
+was assayed in p53 and mnk single-mutant and grp
+p53 and mnk grp double-mutant imaginal wing
+discs by staining with anti-C3. grp p53 and mnk
+grp double-mutant discs have increased apoptosis
+compared to p53 and mnk single-mutant discs. (I
+and J) Anti-C3 staining was quantiﬁed at 0, 8, 12,
+and 16 hr after treatment with IR. Double-mutant
+discs lacking the cell cycle checkpoint gene grp
+have elevated irradiation-induced staining com-
+pared to single mutants (n ¼ 5). Error bars indi-
+cate the standard error of the mean.
+
+p53-Independent Apoptosis
+
+429
+
+either dose, indicating that p53-dependent apoptosis is
+not essential to eliminate Minute cells following IR
+(Figure 6C). This result is inconsistent with a previous
+study,
+in which an increase in Minute bristles was
+reported following IR of late third instar larvae (Lee
+et al. 2003). When we repeated this experiment using
+the later stage, there was still no signiﬁcant increase in
+Minute bristles in p53 mutant animals (Figure S3A). To
+help control for differences in genetic background,
+additional wild-type and p53 mutant lines were tested.
+Again, no increase in Minute bristles was observed in p53
+mutants compared to wild-type lines (Figure S3B). It is
+possible that the previously reported increase was due to
+a second mutation on the p53 mutant chromosome.
+
+Elimination of aneuploid cells by p53-independent
+apoptosis could compensate for the apoptotic defect in
+p53 mutant animals. To test if p53-independent apopto-
+sis helps limit IR-induced aneuploidy, the frequency of
+IR-induced Minute bristles was also examined in hid p53
+double-mutant animals. At 1000 rad, the frequency
+increased from 2% in p53 single-mutant animals to 5%
+in double mutants (Figure 6, B and C). Thus, in a p53
+mutant background, the p53-independent apoptosis
+induced by IR is required to limit genomic instability
+as measured by the appearance of adult cells heterozy-
+gous for a Minute mutation. If bristle cells are represen-
+tative of the (cid:3)50,000 cells in the developing wing, then
+(cid:3)2500 (5% of 50,000) Minute cells are induced by IR
+per disc and (cid:3)1500 (3% of 50,000) are eliminated by
+apoptosis in a p53 single-mutant disc, but not in a p53 hid
+double-mutant wing disc.
+
+hid is a target of both p53-dependent and p53-
+independent signaling following DNA damage. In hid
+single mutants, IR-induced apoptosis is eliminated at
+early time points, but only partly reduced at later time
+points (Figures 1 and Figure S2F), a phenotype that is
+intermediate between p53 single- and hid p53 double-
+mutant animals. The increased frequency of Minute
+cells in IR-treated hid p53 double mutants compared to
+hid single mutants indicates that p53 helps limit the
+appearance of aneuploid cells when p53-independent
+apoptosis is also blocked (Figure 6C).
+
+Altered brk expression following IR: To explore if IR
+broadly disrupts patterned gene expression in the
+developing wing, we examined the expression of several
+key regulators of wing patterning. Following DNA
+damage, missegregation of rearranged or broken chro-
+mosomes during mitosis generates cells with segmental
+aneuploidy. Reduced copy number of haploinsufﬁcient
+genes, such as the Minute genes, could lead to altered
+gene expression and apoptosis. Phenotypes associated
+with Minute cells in the wing disc include increased
+apoptosis, JNK pathway activation, and ectopic expres-
+sion of the transcriptional repressor brinker (brk) due to
+reduced signaling by the dpp signaling pathway (Moreno
+et al. 2002; Tyler et al. 2007). Whereas both JNK and
+apoptosis are activated by many different types of cellular
+
+Figure 5.—p53-independent apoptosis is not activated in
+cells that are actively progressing through mitosis. (A) An
+X–Y view of a confocal z-series of a grp p53 mutant wing disc,
+16 hr after IR, stained with anti-C3 (red), PH3 (green), and
+DAPI (blue). (B) X–Z cross-section of the same wing disc at
+the region marked with yellow lines above. Little or no over-
+lap of apoptotic and mitotic cells is observed.
+
+Minute cells following IR. Because the 65 Minute loci
+are spread throughout
+the euchromatic genome
+(Marygold et al. 2007), reduced copy number of most
+large genomic regions is likely to result in the Minute
+phenotype. Previous studies have used this phenotype to
+assay the genetic consequences of diverse sources of
+chromosome damage, including mutations in telomere
+protection genes (Oikemus et al. 2004, 2006), telomere
+loss due to dicentric chromosomes (Ahmad and Golic
+1999), mutations in DNA damage response and repair
+genes (Brodsky et al. 2000b; Johnson-Schlitz et al.
+2007), and induction of DNA breaks by P-element
+mobilization (Engels et al. 1987). These studies conﬁrm
+that induction of Minute bristles following IR is due to
+chromosome damage rather than other types of cellular
+damage. It is possible that a small percentage of defective
+bristles are not due to induction of aneuploidy, but these
+events would probably reﬂect other types of genetic
+damage, such as Minute gene point mutations.
+
+Minute cells were scored in adults following X-
+irradiation of early third instar larvae. If apoptosis
+reduces the number of IR-induced aneuploid cells,
+then inhibiting apoptosis should increase the number
+of these cells that survive to adulthood. Following
+irradiation of wild-type larvae with 1000 rad, 2% of
+bristles exhibit the Minute phenotype (Figure 6, A and
+C). No difference in the number of defective bristles was
+seen in p53 mutant compared to wild-type animals at
+
+430
+
+L. M. McNamee and M. H. Brodsky
+
+Figure 6.—p53-independent apoptosis limits
+the accumulation of Minute cells following irradi-
+ation. (A) Aneuploid cells with the Minute phe-
+notype are induced following irradiation of a
+p53 mutant wing disc. Some of these cells are
+eliminated by hid-dependent apoptosis, while
+others survive and differentiate into adult cell
+types. Adult bristles form a stereotypic pattern
+on the notum of an untreated, wild-type animal.
+An example of an adult bristle exhibiting the
+Minute phenotype (shorter and thinner) is indi-
+cated with an arrow. (B) In hid p53 double-
+mutant animals, more IR-induced Minute cells
+escape apoptosis and survive to adulthood. (C)
+The frequency of Minute bristles induced by IR is higher in hid single mutants and hid p53 double-mutant animals compared
+to wild-type or p53 single-mutant animals. A total of 60 animals were scored for each genotype in three independent experiments
+(n ¼ 3, P-value ,0.01). Error bars indicate the standard error of the mean.
+
+stresses,
+including altered gene expression patterns
+(Umemori et al. 2009), brk may be more speciﬁc for
+dpp signaling. brk expression is normally repressed in
+the center of developing wing discs and gradually
+increases toward the anterior and posterior edges of
+the disc (brk-lacZ in Figure 7, A–C). At 24 hr following
+IR, individual cells in the center of p53 mutant discs
+ectopically express brk and expression in the lateral
+regions becomes more irregular (Figure 7, A–C). In-
+hibition of apoptosis by p35 expression increases the
+number of cells with ectopic brk expression. An average
+of 9 cells ectopically express high levels of brk in the
+center of the p53 mutant wing discs expressing p35
+(SEM ¼ 2.6, n ¼ 5 discs, P-value ,0.01, treated compared
+with untreated), while an average of 2.6 cells ectopically
+express brk without p35 (SEM ¼ 1.7, n ¼ 5, P-value ,0.01,
+treated compared with untreated). (These numbers
+signiﬁcantly underestimate the total number of cells with
+abnormal brk expression since we excluded cells within or
+adjacent to the normal brk expression domain in our
+analysis.) Ectopic brk expression following IR is also
+observed in wild-type discs, suggesting that induction of
+this phenotype by IR can occur in parallel to p53-
+dependent apoptosis (Figure S4). In wild-type discs,
+p53-dependent apoptosis is induced within 4 hr of X-
+irradiation, but ectopic expression of brk is not observed
+at this time point (data not shown), indicating that
+altered brk expression is not a secondary consequence
+of induced apoptosis. Because ectopic brk expression is
+sufﬁcient to activate JNK-dependent apoptosis (Martin
+et al. 2004), the observed changes in brk expression could
+contribute to the elimination of Minute cells (Moreno
+et al. 2002).
+
+Although ectopic expression of brk is consistent with
+the generation of Minute cells, it could alternatively
+reﬂect altered expression of genes that act earlier in the
+anterior–posterior patterning hierarchy or reﬂect a
+widespread disruption of patterned gene expression
+following cellular damage by IR. The expression patterns
+of three additional gene products, two with restricted
+
+expression along the anterior–posterior axis (EN and
+PTC) and one with restricted expression along the
+dorsal–ventral axis (WG), were also examined in irradi-
+ated p53 mutant wing discs; no change in expression was
+observed for any of these proteins (Figure 7, D–F). This
+small-scale survey suggests that irradiation does not
+generally disrupt developmental networks and that the
+effect on brk expression is not due to loss of the anterior–
+posterior compartment (reﬂected by EN expression) or
+aberrant activity of the Hedgehog pathway along the
+compartment boundary (reﬂected by PTC expression).
+
+DISCUSSION
+
+While p53 plays a conserved role connecting the DNA
+damage response pathway to the core apoptotic ma-
+chinery, there are also p53-independent mechanisms to
+induce cell death following chromosome damage. We
+ﬁnd that this p53-independent response in Drosophila
+requires the pro-apoptotic gene hid, the apical caspase
+dronc, and downstream effector caspases. Proper regu-
+lation of the JNK phosphatase puc is required for the full
+induction of hid expression and apoptosis following
+irradiation of p53 mutant discs. puc and the cell cycle
+checkpoint gene grp are negative regulators of this
+response and mutations in these genes act additively
+to sensitize p53 mutant cells to IR. This response plays
+an important in vivo role in limiting the accumulation of
+aneuploid cells following IR. We propose that p53-
+independent apoptosis reﬂects a second, indirect mech-
+anism that acts in parallel to the canonical DNA damage
+response pathway to eliminate cells with altered ge-
+nomes following IR (Figure 8): in this model, incorrect
+repair of IR-induced chromosome breaks generates
+cells with segmental aneuploidy, resulting in haploin-
+sufﬁciency of genes required for cell survival.
+
+IR-induced apoptosis without components of the
+canonical DNA damage response pathway: The ATM/
+Chk2/p53 signaling module is activated by local dis-
+ruptions in chromatin structure following DNA damage
+
+p53-Independent Apoptosis
+
+431
+
+and plays a central role in IR-induced apoptosis. In
+mammalian cells lacking p53, components of the DNA
+damage response pathway, such as ATR and p73, have
+been implicated in damage-induced apoptosis (Roos
+and Kaina 2006; Sidi et al. 2008). In this study and
+previous work (Oikemus et al. 2004, 2006; Wichmann
+et al. 2006; Titen and Golic 2008), genetic analysis of
+single and double mutants in components of the
+Drosophila DNA damage response pathway suggests
+that chromosome damage can induce apoptosis
+through a mechanism that does not utilize this pathway.
+Consistent with these results, activation of ATM and
+ATR kinases following IR (as measured by phospho-
+H2Av staining) largely subsides within a few hours of IR
+in embryos (Kusch et al. 2004) and discs (our un-
+published results), well before increased p53-indepen-
+dent apoptosis, JNK target gene expression, or HID.
+
+Furthermore, in a recent study using dicentric chromo-
+somes to induce chromosome breaks and telomere loss,
+all dicentric chromosomes could induce p53-dependent
+apoptosis, but only dicentric chromosomes that led to
+aneuploidy could induce p53-independent apoptosis
+(Titen and Golic 2008).
+
+In p53 or mnk mutant discs, IR-induced apoptosis is
+observed only after cells have recovered from damage-
+induced cell cycle delay. This response is accelerated in
+double-mutant discs that fail to arrest due to mutations
+in the Drosophila chk1 homolog grp. Similarly, p53-
+independent induction of puc by IR is observed after
+resumption of cell cycle progression in single-mutant
+discs and is accelerated by loss of grp. Inhibition of JNK
+signaling by overexpression of puc substantially reduces
+p53-independent
+induction of HID and apoptosis,
+suggesting that this response is partly dependent on
+the JNK pathway. The remaining apoptosis may either
+reﬂect incomplete inhibition of JNK signaling by puc
+overexpression or suggest that an alternative pathway
+acts in parallel to JNK to promote a lower level of p53-
+independent apoptosis. While the only described func-
+tion of puc to date is as an inhibitor of JNK signaling, we
+cannot rule out the possibility that inhibition of other
+pathways by puc contributes to the regulation of p53-
+independent apoptosis. Overall, these results suggest
+that cell cycle arrest helps delay p53-independent
+activation of JNK signaling and apoptosis following IR.
+Regulation of genomic stability by p53-dependent
+and -independent responses: p53-dependent apoptosis
+is hypothesized to help preserve genome stability by
+rapidly eliminating cells with severe chromosome dam-
+age. In mouse models with elevated genomic instability,
+loss of p53 function further increases tumorigenesis
+(Attardi 2005). However, temporal analysis of mouse
+p53 function following irradiation suggests that the
+DNA damage response function of p53 may not be
+
+Figure 7.—brk is ectopically expressed following irradia-
+tion. (A) A lacZ enhancer trap reporter inserted at the brk
+locus is used to monitor brk expression. Without IR, brk is
+expressed at elevated levels in the anterior (left) and posterior
+(right) regions of the developing wing and at lower levels in
+the central region. Bar, 50 mm. (A) Twenty-four hours follow-
+ing IR, ectopic lacZ expression is observed in the medial
+region of brk-lacZ/1 p53(cid:2) discs and more irregular lacZ expres-
+sion is observed in the lateral regions. (B) Higher magniﬁca-
+tion of the medial region of a brk-lacZ/1 p53(cid:2) wing disc.
+Imaginal discs treated with IR contain cells ectopically express-
+ing brk. Medial cells that expressed brk and were clearly separate
+from the normal expression domain (solid arrowheads) were
+used to quantify ectopic brk expression. This is an underesti-
+mate since medial cells with inappropriate levels of lacZ expres-
+sion were not scored if they were within or adjacent to the
+normal brk expression domain (open arrowheads). Bar, 20
+mm. (C) More cells with ectopic brk expression were observed
+following irradiation of brk-lacZ/1 p53(cid:2) wing discs expressing
+the anti-apoptotic protein p35. (D–F) Ectopic expression of
+Wingless, Patched, or Engrailed protein was not observed fol-
+lowing IR. For each genotype ﬁve wing discs were scored.
+
+432
+
+L. M. McNamee and M. H. Brodsky
+
+eliminate aneuploid cells, while p53-dependent apo-
+ptosis may play a more critical role in eliminating cells
+with genetic damage that is not associated with aneu-
+ploidy. Consistent with this interpretation, we ﬁnd that
+p53 does contribute to genomic stability in the Minute
+assay when the p53-independent response is blocked
+(compare hid single-mutant to hid p53 double-mutant
+animals).
+
+We ﬁnd a signiﬁcant increase in the number of
+aneuploid cells recovered following IR when both p53-
+dependent and p53-independent apoptosis are blocked.
+Inhibition of both pathways results in a 2.5-fold increase
+in adult bristle cells with the Minute phenotype, resulting
+in 5% of bristle cells exhibiting this severe morphological
+defect. These results demonstrate that p53-independent
+apoptosis plays an important functional role following IR
+by substantially reducing the eventual number of adult
+aneuploid cells. Because hid mutations affect both p53-
+dependent and p53-independent apoptosis, we cannot
+determine whether this response is required for genomic
+stability in cells with the normal p53 signaling pathway.
+Aneuploidy as a possible apoptotic signal following
+IR: A key unresolved question in this study is what signal
+activates p53-independent puc and hid expression and
+apoptosis following IR. An attractive possibility is that
+aneuploidy itself is the signal. In strong support of this
+hypothesis,
+induction of p53-independent apoptosis
+following telomere loss is observed only if the resulting
+broken chromosome can lead to aneuploidy (Titen and
+Golic 2008). Our analysis of IR-induced Minute bristles
+indicates that many aneuploid cells are generated
+following IR and then eliminated by apoptosis. In
+larvae, chromosome rearrangements appear shortly
+after IR (Gatti et al. 1974). IR-induced changes in the
+expression of brk, puc, and hid are consistent with the
+production of aneuploid cells exhibiting the Minute
+phenotype, although these markers are not speciﬁc for
+aneuploid cells. Since haploinsufﬁciency of the widely
+distributed Minute genes is sufﬁcient to induce apopto-
+sis (Moreno et al. 2002; Coelho et al. 2005) and
+induction of spontaneous apoptosis in Minute hetero-
+zygous animals does not require p53 (L. M. McNamee,
+unpublished results), this mechanism should eventually
+be activated in aneuploid cells induced by IR. While
+Minute genes represent the primary source of loci that
+are haploinsufﬁcient for normal growth (Lindsley et al.
+1972; Marygold et al. 2007), it is also possible that the
+cumulative effect of reduced dosage of many genes in
+aneuploid cells disrupts normal gene expression and
+cell survival. On the basis of these observations, we
+propose that DNA damage indirectly induces apoptosis
+by creating chromosome aberrations leading to seg-
+mental aneuploidy and activating JNK-dependent and
+p53-independent apoptosis (Figure 8). However, we
+cannot easily rule out the possibility that an additional
+response to IR could kill these cells before apoptosis due
+to aneuploidy is activated.
+
+Figure 8.—Model for p53-dependent and p53-independent
+apoptosis. In response to DNA damage, cells sense DNA
+breaks and activate repair, cell cycle delay, and apoptosis. Fol-
+lowing DNA damage, TEFU/dATM and MEI-41/dATR
+kinases activate MNK/dChk2 and p53 to induce apoptosis
+(orange boxes). p53 regulates the pro-apoptotic genes hid
+and rpr, resulting in caspase activation (red box). GRP/dChk1
+promotes cell cycle delay, allowing time for DNA repair. Incor-
+rect repair of chromosome breaks followed by progression
+through mitosis will result in cells with reduced copy number
+of large chromosome regions (segmental aneuploidy). Hap-
+loinsufﬁciency of genes encoding ribosomal proteins or other
+products can induce apoptosis by ectopic brk expression, JNK
+pathway activation, and induction of hid expression. Other ap-
+optotic mechanisms may also act to remove aneuploid cells
+(not shown).
+
+critical for tumor suppression (Christophorou et al.
+2006).
+
+In Drosophila, the role of p53 in limiting genomic
+instability appears to depend on the source of DNA
+damage or the type of genetic alterations assayed. In one
+study, telomere loss following dicentric chromosome
+formation led to an extremely high frequency of larval
+neuroblasts with abnormal karyotypes; p53 helped
+reduce the number of abnormal cells over time (Titen
+and Golic 2008). Another study using a genetic assay
+for LOH at the multiple wing hair (mwh) locus reported
+increased LOH following IR in p53 mutant animals
+(Sogame et al. 2003), a result we have conﬁrmed with an
+independently derived p53 allele (Figure S5). However,
+when using the Minute assay to examine genomic
+instability, we found that p53 function was not essential
+to limit IR-induced aneuploidy, despite the very high
+levels of p53-dependent apoptosis normally induced
+following IR. Several factors might account for the
+different conclusions reached using these assays. In
+the mwh assay, two types of genetic damage not associ-
+ated with aneuploidy, small deletions or mitotic re-
+combination, can be recovered that may not be scored
+in the Minute assay. p53-independent apoptosis may be
+able to compensate in the absence of p53 function to
+
+p53-Independent Apoptosis
+
+433
+
+Haploinsufﬁciency of ribosomal genes could contrib-
+ute to damage-induced apoptosis in vertebrates as well.
+In mice heterozygous for ribosomal protein gene
+mutations, both p53-dependent and p53-independent
+signaling are induced, leading to increased apoptosis
+and reduced growth (Panic et al. 2006; Danilova et al.
+2008). Diamond Blackfan anemia (DBA) is linked to
+haploinsufﬁciency of human ribosomal protein genes
+(Draptchinskaia et al. 1999; Gazda and Sieff 2006;
+Gazda et al. 2006; Cmejla et al. 2007; Choesmel et al.
+2008) and is associated with increased cell death
+(Flygare and Karlsson 2007). As in Drosophila,
+mammalian ribosomal protein genes are widely distrib-
+uted throughout the genome. Thus, genetic or envi-
+ronmental changes resulting in aneuploidy should
+frequently induce the cellular responses associated with
+ribosomal protein gene haploinsufﬁciency.
+
+In summary, we have identiﬁed a p53-independent
+pathway that limits the formation of aneuploid cells
+through JNK- and HID-dependent apoptosis. We hy-
+pothesize that rather than detect damaged chromo-
+somes directly, this mechanism is activated by the
+reduced dosage of critical loci, such as ribosomal pro-
+tein genes, in aneuploid cells.
+
+Inactivation of this response causes an increase in
+visibly defective bristle cells following DNA damage.
+Thus, in Drosophila, this mechanism helps eliminate
+cells that would reduce the ﬁtness of the adult animal.
+We have shown that mutations in a cell cycle checkpoint
+gene and a JNK phosphatase enhance this response
+following IR. These and other components of this
+pathway may provide useful targets to reduce the pro-
+liferation of aneuploid cancer cells or to sensitize cancer
+cells to the effects of DNA-damaging agents.
+
+We especially thank Hyung Don Ryoo for providing polyclonal
+antibody to HID. We also thank Bruce Hay, Hermann Stellar, Andreas
+Bergmann, Gerard Campbell, Takashi Adachi-Yamada, and the
+Bloomington Stock Center for providing Drosophila stocks. We thank
+Neal Silverman, Steve Grossman, and Eric Baehrecke for comments on
+the manuscript. We thank Simon Titen and Kent Golic for sharing
+their results prior to publication. This work was supported by a New
+Scholar in Aging Award from the Ellison Medical Foundation and by a
+grant from the American Cancer Society (RSG-05-026-01-CCG).
+
+LITERATURE CITED
+Abdelwahid, E., T. Yokokura, R. J. Krieser, S. Balasundaram,
+W. H. Fowle et al., 2007 Mitochondrial disruption in Dro-
+sophila apoptosis. Dev. Cell 12: 793–806.
+
+Abrams,
+
+J. M., K. White, L.
+
+I. Fessler and H. Steller,
+1993 Programmed cell death during Drosophila embryogene-
+sis. Development 117: 29–43.
+
+Adachi-Yamada, T., and M. B. O’Connor, 2002 Morphogenetic ap-
+optosis: a mechanism for correcting discontinuities in morpho-
+gen gradients. Dev. Biol. 251: 74–90.
+Adachi-Yamada, T., K. Fujimura-Kamada,
+
+Y. Nishida and
+K. Matsumoto, 1999 Distortion of proximodistal information
+causes JNK-dependent apoptosis in Drosophila wing. Nature 400:
+166–169.
+
+Ahmad, K., and K. G. Golic, 1999 Telomere loss in somatic cells of
+Drosophila causes cell cycle arrest and apoptosis. Genetics 151:
+1041–1051.
+
+Akdemir, F., A. Christich, N. Sogame, J. Chapo and J. M. Abrams,
+2007 p53 directs focused genomic responses in Drosophila.
+Oncogene 26: 5184–5193.
+
+Attardi, L. D., 2005 The role of p53-mediated apoptosis as a crucial
+anti-tumor response to genomic instability: lessons from mouse
+models. Mutat. Res. 569: 145–157.
+
+Baker, B. S., A. T. Carpenter and P. Ripoll, 1978 The utilization
+during mitotic cell division of loci controlling meiotic recombi-
+nation and disjunction in Drosophila melanogaster. Genetics 90:
+531–578.
+
+Bartek, J., and J. Lukas, 2007 DNA damage checkpoints: from initi-
+ation to recovery or adaptation. Curr. Opin. Cell Biol. 19: 238–245.
+Baum, J. S., E. Arama, H. Steller and K. McCall, 2007 The Dro-
+sophila caspases Strica and Dronc function redundantly in pro-
+grammed cell death during oogenesis. Cell Death Differ. 14:
+1508–1517.
+
+Bergmann, A., A. Y. Yang and M. Srivastava, 2003 Regulators of
+IAP function: coming to grips with the grim reaper. Curr. Opin.
+Cell Biol. 15: 717–724.
+
+Bi, X., S. C. Wei and Y. S. Rong, 2004 Telomere protection without a
+telomerase; the role of ATM and Mre11 in Drosophila telomere
+maintenance. Curr. Biol. 14: 1348–1353.
+
+Bi, X., D. Srikanta, L. Fanti, S. Pimpinelli, R. Badugu et al.,
+2005 Drosophila ATM and ATR checkpoint kinases control par-
+tially redundant pathways for telomere maintenance. Proc. Natl.
+Acad. Sci. USA 102: 15167–15172.
+
+Brodsky, M. H., W. Nordstrom, G. Tsang, E. Kwan, G. M. Rubin
+et al., 2000a Drosophila p53 binds a damage response element
+at the reaper locus. Cell 101: 103–113.
+
+Brodsky, M. H., J. J. Sekelsky, G. Tsang, R. S. Hawley and G. M.
+Rubin, 2000b mus304 encodes a novel DNA damage check-
+point protein required during Drosophila development. Genes
+Dev. 14: 666–678.
+
+Brodsky, M. H., B. T. Weinert, G. Tsang, Y. S. Rong, N. M.
+McGinnis et al., 2004 Drosophila melanogaster MNK/
+Chk2 and p53 regulate multiple DNA repair and apoptotic path-
+ways following DNA damage. Mol. Cell. Biol. 24: 1219–1231.
+Chew, S. K., F. Akdemir, P. Chen, W. J. Lu, K. Mills et al., 2004 The
+apical caspase dronc governs programmed and unprogrammed
+cell death in Drosophila. Dev. Cell 7: 897–907.
+
+Choesmel, V., S. Fribourg, A. H. Aguissa-Toure, N. Pinaud,
+P. Legrand et al., 2008 Mutation of ribosomal protein RPS24
+in Diamond-Blackfan anemia results in a ribosome biogenesis
+disorder. Hum. Mol. Genet. 17: 1253–1263.
+
+Christich, A., S. Kauppila, P. Chen, N. Sogame, S. I. Ho et al.,
+2002 The damage-responsive Drosophila gene sickle encodes
+a novel IAP binding protein similar to but distinct from reaper,
+grim, and hid. Curr. Biol. 12: 137–140.
+
+Christophorou, M. A., I. Ringshausen, A. J. Finch, L. B. Swigart
+and G. I. Evan, 2006 The pathological response to DNA dam-
+age does not contribute to p53-mediated tumour suppression.
+Nature 443: 214–217.
+
+Ciapponi, L., G. Cenci, J. Ducau, C. Flores, D. Johnson-Schlitz
+et al., 2004 The Drosophila Mre11/Rad50 complex is required
+to prevent both telomeric fusion and chromosome breakage.
+Curr. Biol. 14: 1360–1366.
+
+Ciapponi, L., G. Cenci and M. Gatti, 2006 The Drosophila Nbs
+protein functions in multiple pathways for the maintenance of
+genome stability. Genetics 173: 1447–1454.
+
+Cmejla, R.,
+
+J. Cmejlova, H. Handrkova,
+
+J. Petrak and
+D. Pospisilova, 2007 Ribosomal protein S17 gene (RPS17)
+is mutated in Diamond-Blackfan anemia. Hum. Mutat. 28:
+1178–1182.
+
+Coelho, C. M., B. Kolevski, C. Bunn, C. Walker, A. Dahanukar
+et al., 2005 Growth and cell survival are unevenly impaired in
+pixie mutant wing discs. Development 132: 5411–5424.
+
+Daish, T. J., K. Mills and S. Kumar, 2004 Drosophila caspase
+DRONC is required for speciﬁc developmental cell death path-
+ways and stress-induced apoptosis. Dev. Cell 7: 909–915.
+
+Danilova, N., K. M. Sakamoto and S. Lin, 2008 Ribosomal protein
+S19 deﬁciency in zebraﬁsh leads to developmental abnormalities
+and defective erythropoiesis through activation of p53 protein
+family. Blood 112: 5228–5237.
+
+de Vries, H. I., L. Uyetake, W. Lemstra, J. F. Brunsting, T. T. Su
+et al., 2005 Grp/DChk1 is required for G2-M checkpoint activa-
+
+434
+
+L. M. McNamee and M. H. Brodsky
+
+tion in Drosophila S2 cells, whereas Dmnk/DChk2 is dispens-
+able. J. Cell Sci. 118: 1833–1842.
+
+Draptchinskaia, N., P. Gustavsson, B. Andersson, M. Pettersson,
+T. N. Willig et al., 1999 The gene encoding ribosomal protein
+S19 is mutated in Diamond-Blackfan anaemia. Nat. Genet. 21:
+169–175.
+
+Engels, W. R., W. K. Benz, C. R. Preston, P. L. Graham, R. W.
+Phillis et al., 1987 Somatic effects of P element activity
+in Drosophila melanogaster: pupal lethality. Genetics 117: 745–
+757.
+
+Flores, E. R., K. Y. Tsai, D. Crowley, S. Sengupta, A. Yang et al.,
+2002 p63 and p73 are required for p53-dependent apoptosis
+in response to DNA damage. Nature 416: 560–564.
+
+Flygare, J., and S. Karlsson, 2007 Diamond-Blackfan anemia:
+erythropoiesis lost in translation. Blood 109: 3152–3154.
+Fogarty, P., S. D. Campbell, R. Abu-Shumays, B. S. Phalle, K. R. Yu
+et al., 1997 The Drosophila grapes gene is related to checkpoint
+gene chk1/rad27 and is required for late syncytial division ﬁdel-
+ity. Curr. Biol. 7: 418–426.
+
+Gatti, M., C. Tanzarella and G. Olivieri, 1974 Analysis of the
+chromosome aberrations induced by x-rays in somatic cells of
+Drosophila melanogaster. Genetics 77: 701–719.
+
+Gazda, H. T., and C. A. Sieff, 2006 Recent insights into the patho-
+genesis of Diamond-Blackfan anaemia. Br. J. Haematol. 135:
+149–157.
+
+Gazda, H. T., A. T. Kho, D. Sanoudou, J. M. Zaucha, I. S. Kohane
+et al., 2006 Defective ribosomal protein gene expression alters
+transcription, translation, apoptosis, and oncogenic pathways in
+Diamond-Blackfan anemia. Stem Cells 24: 2034–2044.
+
+Goyal, G., B. Fell, A. Sarin, R. J. Youle and V. Sriram, 2007 Role
+of mitochondrial remodeling in programmed cell death in Dro-
+sophila melanogaster. Dev. Cell 12: 807–816.
+
+Hari, K. L., A. Santerre, J. J. Sekelsky, K. S. McKim, J. B. Boyd et al.,
+1995 The mei-41 gene of D. melanogaster is a structural and
+functional homolog of the human ataxia telangiectasia gene.
+Cell 82: 815–821.
+
+Harper, J. W., and S. J. Elledge, 2007 The DNA damage response:
+
+ten years after. Mol. Cell 28: 739–745.
+
+Helton, E. S., and X. Chen, 2007 p53 modulation of the DNA dam-
+
+age response. J. Cell Biochem. 100: 883–896.
+
+Holley, C. L., M. R. Olson, D. A. Colon-Ramos and S. Kornbluth,
+2002 Reaper eliminates IAP proteins through stimulated IAP
+degradation and generalized translational inhibition. Nat. Cell
+Biol. 4: 439–444.
+
+Irwin, M. S., K. Kondo, M. C. Marin, L. S. Cheng, W. C. Hahn et al.,
+2003 Chemosensitivity linked to p73 function. Cancer Cell 3:
+403–410.
+
+Jaklevic, B. R., and T. T. Su, 2004 Relative contribution of DNA re-
+pair, cell cycle checkpoints, and cell death to survival after DNA
+damage in Drosophila larvae. Curr. Biol. 14: 23–32.
+
+Jassim, O. W., J. L. Fink and R. L. Cagan, 2003 Dmp53 protects the
+Drosophila retina during a developmentally regulated DNA dam-
+age response. EMBO J. 22: 5622–5632.
+Johnson-Schlitz, D. M., C. Flores
+
+and W. R. Engels,
+2007 Multiple-pathway analysis of double-strand break repair
+mutations in Drosophila. PLoS Genet. 3: e50.
+
+Kanda, H., and M. Miura, 2004 Regulatory roles of JNK in pro-
+
+grammed cell death. J. Biochem. 136: 1–6.
+
+Kondo, S., N. Senoo-Matsuda, Y. Hiromi and M. Miura,
+2006 DRONC coordinates cell death and compensatory prolif-
+eration. Mol. Cell. Biol. 26: 7258–7268.
+
+Kusch, T., L. Florens, W. H. Macdonald, S. K. Swanson, R. L.
+Glaser et al., 2004 Acetylation by Tip60 is required for selec-
+tive histone variant exchange at DNA lesions. Science 306:
+2084–2087.
+
+Lannan, E., R. Vandergaast and P. D. Friesen, 2007 Baculovirus
+caspase inhibitors P49 and P35 block virus-induced apoptosis
+downstream of effector caspase DrICE activation in Drosophila
+melanogaster cells. J. Virol. 81: 9319–9330.
+
+Lee, J. H., E. Lee, J. Park, E. Kim, J. Kim et al., 2003 In vivo p53 func-
+tion is indispensable for DNA damage-induced apoptotic signal-
+ing in Drosophila. FEBS Lett. 550: 5–10.
+
+Lindsley, D. L., L. Sandler, B. S. Baker, A. T. Carpenter, R. E.
+Denell et al., 1972 Segmental aneuploidy and the genetic gross
+structure of the Drosophila genome. Genetics 71: 157–184.
+
+J.,
+
+Luo, X., O. Puig, J. Hyun, D. Bohmann and H. Jasper, 2007 Foxo
+and Fos regulate the decision between cell death and survival in
+response to UV irradiation. EMBO J. 26: 380–390.
+
+Martin, F. A., A. Perez-Garijo, E. Moreno and G. Morata,
+2004 The brinker gradient controls wing growth in Drosophila.
+Development 131: 4921–4930.
+
+Martin-Blanco, E., A. Gampel, J. Ring, K. Virdee, N. Kirov et al.,
+1998 Puckered encodes a phosphatase that mediates a feed-
+back loop regulating JNK activity during dorsal closure in Dro-
+sophila. Genes Dev. 12: 557–570.
+
+Marygold, S.
+
+J. Roote, G. Reuter, A. Lambertsson,
+M. Ashburner et al., 2007 The ribosomal protein genes and Mi-
+nute loci of Drosophila melanogaster. Genome Biol. 8: R216.
+McEwen, D. G., and M. Peifer, 2005 Puckered, a Drosophila MAPK
+phosphatase, ensures cell viability by antagonizing JNK-induced
+apoptosis. Development 132: 3935–3946.
+
+Moon, N. S., L. Di Stefano, E. J. Morris, R. Patel, K. White et al.,
+2008 E2F and p53 induce apoptosis independently during Dro-
+sophila development but intersect in the context of DNA dam-
+age. PLoS Genet. 4: e1000153.
+
+Moreno, E., K. Basler and G. Morata, 2002 Cells compete for de-
+capentaplegic survival factor to prevent apoptosis in Drosophila
+wing development. Nature 416: 755–759.
+
+Murray-Zmijewski, F., D. P. Lane and J. C. Bourdon, 2006 p53/
+p63/p73 isoforms: an orchestra of isoforms to harmonise cell dif-
+ferentiation and response to stress. Cell Death Differ. 13: 962–
+972.
+
+Oikemus, S. R., N. McGinnis, J. Queiroz-Machado, H. Tukachin-
+sky, S. Takada et al., 2004 Drosophila atm/telomere fusion is
+required for telomeric localization of HP1 and telomere position
+effect. Genes Dev. 18: 1850–1861.
+
+Oikemus, S. R.,
+
+J. Queiroz-Machado, K. Lai, N. McGinnis,
+C. Sunkel et al., 2006 Epigenetic telomere protection by Dro-
+sophila DNA damage response pathways. PLoS Genet. 2: e71.
+Ollmann, M., L. M. Young, C. J. Di Como, F. Karim, M. Belvin et al.,
+2000 Drosophila p53 is a structural and functional homolog of
+the tumor suppressor p53. Cell 101: 91–101.
+
+Olson, M. R., C. L. Holley, S. J. Yoo, J. R. Huh, B. A. Hay et al.,
+2003 Reaper is regulated by IAP-mediated ubiquitination.
+J. Biol. Chem. 278: 4028–4034.
+
+Ozaki, T., and A. Nakagawara, 2005 p73, a sophisticated p53 fam-
+ily member in the cancer world. Cancer Sci. 96: 729–737.
+Panic, L., S. Tamarut, M. Sticker-Jantscheff, M. Barkic, D. Solter
+et al., 2006 Ribosomal protein S6 gene haploinsufﬁciency is as-
+sociated with activation of a p53-dependent checkpoint during
+gastrulation. Mol. Cell. Biol. 26: 8880–8891.
+
+Peters, M., C. DeLuca, A. Hirao, V. Stambolic, J. Potter et al.,
+2002 Chk2 regulates irradiation-induced, p53-mediated apo-
+ptosis in Drosophila. Proc. Natl. Acad. Sci. USA 99: 11305–
+11310.
+
+Reinhardt, H. C., A. S. Aslanian, J. A. Lees and M. B. Yaffe,
+2007 p53-deﬁcient cells rely on ATM- and ATR-mediated check-
+point signaling through the p38MAPK/MK2 pathway for survival
+after DNA damage. Cancer Cell 11: 175–189.
+
+Riley, T., E. Sontag, P. Chen and A. Levine, 2008 Transcriptional
+control of human p53-regulated genes. Nat. Rev. Mol. Cell. Biol.
+9: 402–412.
+
+Roos, W. P., and B. Kaina, 2006 DNA damage-induced cell death by
+
+apoptosis. Trends Mol. Med. 12: 440–450.
+
+Ryoo, H. D., T. Gorenc and H. Steller, 2004 Apoptotic cells can
+induce compensatory cell proliferation through the JNK and the
+Wingless signaling pathways. Dev. Cell 7: 491–501.
+
+Sancar, A., L. A. Lindsey-Boltz, K. Unsal-Kacmaz and S. Linn,
+2004 Molecular mechanisms of mammalian DNA repair and
+the DNA damage checkpoints. Annu. Rev. Biochem. 73: 39–85.
+Senoo, M., J. P. Manis, F. W. Alt and F. McKeon, 2004 p63 and p73
+are not required for the development and p53-dependent apo-
+ptosis of T cells. Cancer Cell 6: 85–89.
+
+Sidi, S., T. Sanda, R. D. Kennedy, A. T. Hagen, C. A. Jette et al.,
+2008 Chk1 suppresses a caspase-2 apoptotic response to DNA
+damage that bypasses p53, Bcl-2, and caspase-3. Cell 133: 864–877.
+Silva, E., S. Tiong, M. Pedersen, E. Homola, A. Royou et al.,
+2004 ATM is required for telomere maintenance and chromo-
+some stability during Drosophila development. Curr. Biol. 14:
+1341–1347.
+
+p53-Independent Apoptosis
+
+435
+
+Sogame, N., M. Kim and J. M. Abrams, 2003 Drosophila p53 pre-
+serves genomic stability by regulating cell death. Proc. Natl. Acad.
+Sci. USA 100: 4696–4701.
+
+Song, Y. H., G. Mirey, M. Betson, D. A. Haber and J. Settleman,
+2004 The Drosophila ATM ortholog, dATM, mediates the re-
+sponse to ionizing radiation and to spontaneous DNA damage
+during development. Curr. Biol. 14: 1354–1359.
+
+Steller, H., 2008 Regulation of apoptosis in Drosophila. Cell
+
+Death Differ. 15: 1132–1138.
+
+Titen, S. W., and K. G. Golic, 2008 Telomere loss provokes multiple
+pathways to apoptosis and produces genomic instability in Dro-
+sophila melanogaster. Genetics 180: 1821–1832.
+
+Tyler, D. M., W. Li, N. Zhuo, B. Pellock and N. E. Baker,
+2007 Genes affecting cell competition in Drosophila. Genetics
+175: 643–657.
+
+Umemori, M., O. Habara, T. Iwata, K. Maeda, K. Nishinoue et al.,
+2009 RNAi-mediated knockdown showing impaired cell survival
+in Drosophila wing imaginal disc. Gene Regul. Syst. Biol. 3: 11–20.
+Urist, M., T. Tanaka, M. V. Poyurovsky and C. Prives, 2004 p73
+induction after DNA damage is regulated by checkpoint kinases
+Chk1 and Chk2. Genes Dev. 18: 3041–3054.
+
+Waldhuber, M., K. Emoto and C. Petritsch, 2005 The Drosophila
+caspase DRONC is required for metamorphosis and cell death in
+response to irradiation and developmental signals. Mech. Dev.
+122: 914–927.
+
+Wichmann, A., B. Jaklevic and T. T. Su, 2006 Ionizing radiation in-
+duces caspase-dependent but Chk2- and p53-independent cell
+death in Drosophila melanogaster. Proc. Natl. Acad. Sci. USA 103:
+9952–9957.
+
+Xu, J., S. Xin and W. Du, 2001 Drosophila Chk2 is required for DNA
+damage-mediated cell cycle arrest and apoptosis. FEBS Lett. 508:
+394–398.
+
+Xu, D., Y. Wang, R. Willecke, Z. Chen, T. Ding et al., 2006 The ef-
+fector caspases drICE and dcp-1 have partially overlapping func-
+tions in the apoptotic pathway in Drosophila. Cell Death Differ.
+13: 1697–1706.
+
+Xue, D., and H. R. Horvitz, 1995 Inhibition of the Caenorhabditis
+elegans cell-death protease CED-3 by a CED-3 cleavage site in ba-
+culovirus p35 protein. Nature 377: 248–251.
+
+Yu, S. Y., S. J. Yoo, L. Yang, C. Zapata, A. Srinivasan et al.,
+2002 A pathway of signals regulating effector and initiator
+caspases in the developing Drosophila eye. Development
+129: 3269–3278.
+
+Yuan, Z. M., H. Shioya, T. Ishiko, X. Sun, J. Gu et al., 1999 p73 is
+regulated by tyrosine kinase c-Abl in the apoptotic response to
+DNA damage. Nature 399: 814–817.
+
+Communicating editor: E. Alani
+
+Supporting Information 
+http://www.genetics.org/cgi/content/full/genetics.109.102327/DC1 
+
+p53-Independent Apoptosis Limits DNA Damage-Induced Aneuploidy 
+
+Laura M. McNamee and Michael H. Brodsky 
+
+Copyright © 2009 by the Genetics Society of America 
+DOI: 10.1534/genetics.109.102327 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 SI 
+
+L. McNamee and M. Brodsky 
+
+FIGURE  S1.—Basal  and  apical  caspases  regulate  p53-independent  induction  of  the  apoptotic  marker  anti-C3.  In  all 
+panels, anti-C3 (cleaved caspase 3) staining is used to detect apoptosis. (A) In wild type discs, p53-dependent apoptosis is 
+observed 4 hours following IR. (B) Anti-C3 staining is not induced in wing discs mutant for the apical caspase Dronc. (C 
+and D) The baculovirus protein p35, which blocks the activity of effector caspases following cleavage by apical caspases, is 
+expressed  under  control  of  the  posterior-specific  driver  enGal4.  In  an  otherwise  wild  type  disc,  the  pattern  of  anti-C3 
+staining  is  initially  altered  following  IR  treatment  and  continues  to  accumulate  over  time.  In  a  p53  mutant  wing  disc, 
+more diffuse anti-C3 staining accumulates by 24 hours following IR treatment.  
+
+ 
+ 
+L. McNamee and M. Brodsky 
+
+3 SI 
+
+FIGURE  S2.—Basal  caspases,  apical  caspases  and  HID  regulate  p53-independent  induction  of  the  cell  death  marker 
+acridine orange. (A) p53-dependent apoptosis is observed four hours following IR. (B and C) p53- and MNK-independent 
+apoptosis begins between 8 and 16 hours following IR.  (D and E)  Acridine orange staining is not induced in wings discs 
+lacking  the  apical  caspase  Dronc  or  expressing  the  baculovirus  protein  p35  (under  control  of  the  ubiquitous  actinGal4 
+driver),  which  inhibits  the  activity  of  the  effector  caspases  Dcp-1  and  Drice.  (F  and  G)  The  pro-apoptotic  gene  hid 
+contributes to both p53-dependent apoptosis at early time points and to p53-independent apoptosis at late time points. 
+
+ 
+4 SI 
+
+L. McNamee and M. Brodsky 
+
+FIGURE  S3.—p53-dependent  apoptosis  does  not  reduce  the  number  of  Minute  cells 
+following  IR.      (A)  Wandering  third  instar  p53-  or  wild  type  animals  were  treated  with  500, 
+1000, and 2000 rads of irradiation or mock treated.  This is the same stage used in a previous 
+publication  (LEE  et  al.  2003).  Twenty-five  animals  were  scored  for  each  genotype  in  three 
+independent experiments.  No significant difference in  Minute bristles is observed between wt 
+or p53- at any dose (n = 3, P-value > 0.05). Error bars indicate standard error of the mean.  (B) 
+An  additional  wild  type  chromosome  (p53+)  and  p53- allele  (p535A-1-4)  were  scored  for  Minute 
+bristles after treatment with 1000 rads of irradiation during second to early third instar larvae.  
+The  additional  wild  type  allele  is  an  isogenic  control  for  p5311-1B-1  isolated  in  parallel  to  the 
+original  mutation.  Note  that  the  remaining  data  overlaps  data  presented  for  1000  rads  in 
+Figure  6.  Sixty  animals  were  scored  for  each  genotype  in  three  independent  experiments.  
+There was no significant difference in Minute bristles following IR in these alleles compared to 
+wild type (n = 3, P-value > 0.05). Error bars indicate standard error of the mean.  
+
+ 
+ 
+L. McNamee and M. Brodsky 
+
+5 SI 
+
+FIGURE  S4.—brk  is  ectopically  expressed  following  irradiation  of  discs  with  wild 
+type  p53  function.  (A)  Ectopic  expression  of  brk  following  IR  is  observed  following 
+irradiation of discs with wild type p53 function that express p35; this result indicates 
+that the absence of p53 is not required for this response.  (B) Similar levels of ectopic 
+brk following IR are also observed in p53 mutant wing discs expressing p35. Scale bar 
+= 50µm. 
+
+ 
+ 
+6 SI 
+
+L. McNamee and M. Brodsky 
+
+FIGURE  S5.—p53-dependent  apoptosis  limits  the  accumulation  of  mwh-/-  cells  following  IR.      Wandering  third 
+instar  larvae  heterozygous  for  a  mutation  in  the  mwh  locus  were  treated  with  0,  250,  or  1000  rads.  The  average 
+number of mwh-/- clones (A) or cells (B) per wing was calculated to determine rates of loss of heterozygosity (LOH) as 
+previously described (BAKER et al. 1978; BRODSKY et al. 2000b). p53 mutant wings had more mwh mutant clones and 
+mutant  cells  than  wild  type  at  both  doses  (n  =  5,  P-value  <  0.05),  confirming  a  previously  published  conclusion 
+(SOGAME et al. 2003). Error bars indicate standard error of the mean.  
+
+ 
+ 
+

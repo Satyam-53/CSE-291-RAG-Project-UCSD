@@ -1,0 +1,1425 @@
+Contents lists available at ScienceDirect 
+
+Cellular Signalling 
+
+journal homepage: www.elsevier.com/locate/cellsig 
+
+Downregulation of CPT2 promotes proliferation and inhibits apoptosis 
+through p53 pathway in colorectal cancer 
+
+Fuqiang Liu a, Xiaoqing Li a, Han Yan b, Jiao Wu a, Yichun Yang a, Jin He a, Jun Chen a, 
+Zhongxiang Jiang a, Fan Wu a, Zheng Jiang a, * 
+a Department of Gastroenterology, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China 
+b Department of Gastroenterology, The People's Hospital of Jianyang City, Sichuan 641400, China   
+
+A R T I C L E  I N F O    
+
+A B S T R A C T    
+
+Keywords: 
+CPT2 
+Colorectal cancer 
+Proliferation 
+Apoptosis 
+p53 pathway 
+
+Background: Downregulation of Carnitine palmitoyltransferase-2 (CPT2) has been shown to be highly associated 
+with the progression of several cancers, but little known about its expression, biological functions and mecha-
+nisms in colorectal cancer (CRC). 
+Methods: Bioinformatics analysis of The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) data 
+sets was used to explore the expression of CPT2, the relationship between CPT2 expression and clinicopathologic 
+features, as well as the overall survival of CRC. Cox's proportional hazards regression model was used to analyze 
+independent prognostic factors of CRC. In vitro, CRC tissues were analyzed by RT-qPCR, IHC, IF and western 
+blotting to verify CPT2 expression. Colony formation, CCK-8, cell cycle, apoptosis, transwell and wound healing 
+assays were performed to examine the functions of CPT2 in CRC. In vivo, nude mouse xenograft experiment was 
+used to further examine the effect of CPT2 on tumorigenesis. Furthermore, gene set enrichment analysis (GSEA) 
+was  conducted  to  explore  the  downstream  pathway  of  CPT2.  The  regulation  of  p53  pathway  by  CPT2  was 
+verified by RT-qPCR and Western blotting. 
+Results: CPT2 expression was frequently downregulated in CRC and correlated with poor prognosis. Low CPT2 
+expression  was  significantly  associated  with  age,  lymph  node  metastasis,  distant  metastasis  and  TMN  stage. 
+Univariate and multivariate analysis indicated that low CPT2 expression was an independent prognostic factor 
+for poorer overall survival. Functionally, overexpression of CPT2 in CRC cells induced growth suppression, cell 
+cycle arrest at the G1 phase, enhanced apoptosis and reduced cell migration and invasion. Conversely, knock-
+down of CPT2 contributed to cell proliferation, migration and invasion, increased the proportion of S phase cells, 
+decreased  the  proportion  of  G1  phase  cells  and  inhibited  apoptosis.  Mechanistically,  we  found  that  CPT2 
+overexpression can increase p53 expression by activating p-p53, leading to p21, Bax, cleaved caspase-9, cleaved 
+caspase-3 and cleaved PARP activation and Bcl2, MDM2 deactivation, thereby inhibiting tumor proliferation and 
+promoting apoptosis. CPT2 knockdown yielded opposite results. 
+Conclusion: These findings suggest that CPT2 may be a novel prognostic marker of CRC and downregulation of 
+CPT2 can promote proliferation and inhibit apoptosis through p53 pathway in CRC. Strategies targeting CPT2 
+may be developed as therapies for CRC.   
+
+1. Introduction 
+
+Colorectal cancer is the commonest gastrointestinal malignancy and 
+seriously  harms  human  health.  In  2020,  more  than  1.9  million  new 
+colorectal cancer patients were diagnosed worldwide, and the disease 
+caused  935,  000  deaths.  All  in  all,  colorectal  cancer  ranks  third  in 
+
+incidence,  but  second  in  mortality  only  to  lung  cancer  [1].  Although 
+considerable advances have been made in diagnosis and treatment, the 
+mortality  rate  among  CRC  patients  remains  very  high  and  induces  a 
+major health burden in the world [2,3]. Therefore, it is very important to 
+explore the underlying molecular mechanisms of CRC progression and 
+find new biomarkers or therapeutic targets for CRC. 
+
+* Corresponding author at: Department of Gastroenterology, The First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Chongqing 400016, 
+
+China. 
+
+E-mail address: jiangz1753@tom.com (Z. Jiang).  
+
+https://doi.org/10.1016/j.cellsig.2022.110267 
+Received 6 November 2021; Received in revised form 14 January 2022; Accepted 21 January 2022   
+
+CellularSignalling92(2022)110267Availableonline30January20220898-6568/©2022ElsevierInc.Allrightsreserved.F. Liu et al.                                                                                                                                                                                                                                       
+
+Apoptosis is a form of programmed cell death, which is essential to 
+basic  human  development  and  physiology  [4].  Dysregulation  of 
+apoptosis may be involved in the pathogenesis of various human dis-
+eases including cancer [5]. Evasion of apoptosis is a natural barrier to 
+cancer  development  [6].  Cells  undergo  apoptosis  includes  two  major 
+pathways:  the  extrinsic  pathway  (death  receptor  pathway)  and  the 
+intrinsic  pathway  (the  mitochondrial  pathway)  [7].  Mitochondrial 
+involves  mitochondrial  outer  membrane  per-
+apoptosis,  which 
+meabilization (MOMP) and mitochondrial permeability transition pore 
+opening, plays a critical role in the intrinsic apoptotic pathway [8,9]. In 
+mammalian cells, the balance of Bcl-2 family of anti-apoptotic proteins 
+and the proapoptotic proteins is universally acknowledged as a cellular 
+rheostat that controls the sensitivity of cells to apoptotic stresses [10]. 
+The  Bcl-2  family  of  proteins  controls  cell  death  primarily  by  direct 
+binding  interactions  that  regulate  MOMP  leading  to  the  irreversible 
+release of intermembrane space proteins, subsequent caspase activation 
+and  apoptosis  [11].  Notably,  p53-mediated  apoptosis  employs  this 
+mitochondrial cell death pathway [12]. Evidence suggests that the anti- 
+apoptotic and proapoptotic members of the Bcl-2 family are important 
+effectors of p53-mediated MOMP [13]. p53 is a tumor suppressor pro-
+tein that limits cellular proliferation by inducing cell cycle arrest and 
+apoptosis [14]. Dysregulation of p53 plays a crucial role in the occur-
+rence and development of colorectal cancer [15]. 
+
+Carnitine  palmitoyltransferase  (CPT)  is  a  kind  of  acyltransferase 
+existing in the inner membrane of mitochondria and plays an essential 
+role in the process of fatty acid oxidation (FAO) [16]. The CPT system is 
+made up of two genetically different mitochondrial membrane binding 
+enzymes  CPT1  and  CPT2  [16,17].  CPT1  is  located  in  the  outer  of 
+mitochondrial membrane, includes three tissue-specific subtypes: liver 
+subtype CPT1A, muscle subtype CPT1B and brain subtype CPT1C, while 
+CPT2 is located in the inner of the mitochondrial membrane and is a 
+widespread  protein  [17].  CPT2  gene  is  located  at  human  1p32  and 
+consisted of 658 amino acids (74 ku) [17]. The deficiency or dysfunction 
+of CPT2 usually induces some lipid metabolic diseases, such as obesity, 
+diabetes,  NAFLD  and  Cardiac  hypertrophy  [18–20].  Currently,  abun-
+dant studies have reported that CPT1 was closely related to the occur-
+rence and development of tumor cells in breast cancer [21], lung cancer 
+[22],  CRC  [23],  gastric  cancer  [24],  hepatocellular  carcinoma  (HCC) 
+[25], prostate cancer [26] and ovarian cancer (OC) [27]. While, CPT2 is 
+rarely  studied  in  cancer  compared  with  CPT1.  Recently,  increasing 
+studies  have  demonstrated  that  CPT2  plays  an  important  role  in  the 
+progression of HCC [28,29], triple-negative breast cancer (TNBC) [30] 
+and  OC  [31].  However,  the  role  of  CPT2  in  CRC  remains  largely  un-
+known.  Therefore,  our  research  focuses  on  the  biological  effects  and 
+potential mechanisms of CPT2 in CRC. 
+
+In this study, we investigated the expression and clinicopathological 
+correlation  of  CPT2  in  primary  CRC  and  its  biological  functions.  We 
+further  explored  the  possible  molecular  mechanisms  of  CPT2  in  CRC 
+cells. 
+
+2. Materials and methods 
+
+2.1. Bioinformatics analysis 
+
+To determine the mRNA expression of CPT2 in colorectal cancer, 612 
+Transcriptome Profiling RNA-Seqs of 544 cases that included 449 colon 
+cancer  and  95  rectal  cancer  patients  and  corresponding  548  clinico-
+pathological  data  were  downloaded  from  TCGA  database.  The  612 
+transcripts included 44 normal samples and 568 tumor samples. After 
+data  analysis,  446  complete  clinicopathological  characteristics, 
+including  survival  time  (follow-up  ≥30  days),  survival  status,  age, 
+gender, TMN stage, T stage, M stage and lymph node status were ob-
+tained and the 102 samples with incomplete clinical information were 
+removed. The data sets GSE87211 and GSE44076 associated with CRC 
+were downloaded from GEO database. Differences were compared using 
+Wilcoxon rank sum tests in unpaired samples of TCGA and GEO data and 
+
+the paired samples were analyzed by Wilcoxon signed-rank test. Cate-
+gorical data were analyzed by logistic regression and χ2 test. Kaplan- 
+Meier  analysis  of  CPT2  expression  and  survival  probability  in  the 
+GSE17536  and  GSE14333  datasets  were  obtained  from  the  online 
+database PrognoScan. Kaplan–Meier and Log rank tests were also per-
+formed on the TCGA data. Cox's proportional hazards regression model 
+was used to analyze independent prognostic factors. To further reveal 
+the molecular mechanisms of CPT2 in CRC. We used Pearson correlation 
+to calculate the correlation of CPT2 with other genes in the TCGA data. 
+GSEA version 4.0.3 (Broad Institute, USA) was also used to analyze the 
+TCGA  data.  The  gene  set  “c2.cp.kegg.v7.3.symbols.gmt”  was  down-
+loaded  from  the  Molecular  Signatures  Database  and  used  for  the 
+enrichment  analysis. 1000 permutations were chosen to  calculate the 
+normalized enrichment score (NES), normal p-value, and false discovery 
+rate (FDR q-value) [32]. 
+
+2.2. Patient sample collection 
+
+In this study, 30 fresh CRC tissues and paired cancer-adjacent normal 
+tissues  were  randomly  collected  from  the  First  Affiliated  Hospital  of 
+Chongqing  Medical  University  (Chongqing,  China,  from  June  to 
+September  2020),  with  no  radiotherapy  or  chemotherapy  before  the 
+operation.  Upon  collection,  all  specimens  were  snap-frozen  in  liquid 
+nitrogen  and  stored  at  (cid:0) 80 
+C  until  use.  We  collected  40  cases  of 
+paraffin-embedded CRC tissues and paired cancer-adjacent normal tis-
+sues from the Department of Pathology of Chongqing Medical University 
+(April  2017  to  February  2019),  which  were  used  to  measure  protein 
+levels. This study was approved by the Ethical Review Committee of the 
+First Affiliated Hospital of Chongqing Medical University and performed 
+in accordance with the ethical guidelines of the Declaration of Helsinki. 
+Informed consent was signed by all patients. 
+
+◦
+
+2.3. Cell culture and transfection 
+
+◦
+
+Human CRC cell lines HCT116, HT29, HCT15, SW480, LOVO were 
+purchased from the American Type Culture Collection (Manassas, VA, 
+USA),  NCM460  cell  line  was  donated  by  Dr.  Yongyu  Chen  from  the 
+Second Affiliated Hospital of Chongqing Medical University. HCT116, 
+HT29,  HCT15,  SW480  and  NCM460  were  cultured  in  high  glucose 
+DMEM  (Gibco,  NY,  USA)  containing  10%  fetal  bovine  serum  (FBS) 
+(Biological Industries, Israel). LOVO was cultured in F12/DMEM (Gibco, 
+NY, USA) medium containing 10% FBS. All the cells were cultured at 
+37 
+C in a 5% CO2 humidified atmosphere. Puromycin-resistant lenti-
+virus-CPT2 and blank lentivirus-Vector were purchased from Genechem 
+(Genechem,  shanghai,  China).  HCT116  and  SW480  cells  were  trans-
+fected with the lentivirus according to the manufacturer instructions, 2 
+μg/ml puromycin was used to select the stably transfected cell lines after 
+′
+transfection 48 h. siRNA sequences against human CPT2 (si-CPT2-1, 5
+- 
+′
+CUUGAAGACACCAUUAGGATT-3
+-GACACUAUCACCUU-
+CAAGATT-3
+) and 
+negative control were purchased from Tsingke (Tsingke Biotechnology, 
+Chongqing,  China).  LOVO  cells  were  transfected  using  Lipofectamine 
+2000  (Invitrogen  Preservation,  Carlsbad,  CA,  USA)  according  to  the 
+manufacturer's  protocol,  with  a  concentration  of  10  nM  siRNA.  Cells 
+were  harvested  for  subsequent  assays  at  48–72  h  after  transfection. 
+Overexpression  and  knockdown  efficiency  were  assessed  by  RT-qPCR 
+and western blotting. 
+
+′
+-CAUCUGAAGUACAUUCUCUTT-3
+
+′
+and si-CPT2-3, 5
+
+, si-CPT2-2, 5
+
+′
+
+′
+
+2.4. RNA extraction and reverse transcription-quantitative polymerase 
+chain reaction (RT-qPCR) 
+
+Total RNA was isolated from CRC cells and tissues using Trizol re-
+agent  (Takara,  Japan),  according  to  the  manufacturer's  instructions. 
+Then, RNA was reverse transcribed into cDNA with primescript RT Kit 
+(Takara,  RR037A).  TB  Green  Premix  Ex  TaqII  (Takara,  RR820A)  was 
+used for RT-qPCR analysis. Each sample was examined in triplicate. The 
+
+CellularSignalling92(2022)1102672F. Liu et al.                                                                                                                                                                                                                                       
+
+◦
+C for 30 s, followed by 
+RT-qPCR conditions were pre-denaturation at 95 
+◦
+◦
+40 cycles at 95 
+C for 30 s. 
+C for 5 s, with annealing and extension at 60 
+β-actin was used as a control [33]. Gene expression level was calculated 
+by  the  2  (cid:0) ΔΔCt  method  [34].  The  primer  pairs  used  are  listed  in 
+Table 1. 
+
+2.5. Immunohistochemistry (IHC) and immunofluorescence (IF) 
+
+◦
+
+IHC  staining  was  performed  according  to  a  previously  described 
+procedure [35]. Tissue sections were incubated overnight with primary 
+antibody  CPT2  (ab181114;  1:50,  Abcam),  Ki67  (WL0280a;  1:100, 
+Wanleibio) at 4 
+C. Then, the sections were incubated with secondary 
+antibody (HRP-labeled Goat Anti-Rabbit IgG(H + L), 1:50, Beyotime) for 
+30 min. Finally, the sections were counterstained with hematoxylin. The 
+tissue  sections  were  imaged  with  a  Leica  microscope  imaging  system 
+(Leica  Microsystems,  Germany).  To  evaluate  CPT2  expression,  all 
+immunohistochemical images were analyzed using Image Pro Plus (IPP, 
+version 6.0; Media Cybernetics, Silver Spring, MD, USA), as described 
+previously [36]. The mean optical density (MOD), a quantitative mea-
+sure  of  stain  intensity,  was  analyzed  to  determine  average  protein 
+expression. 
+
+For IF staining, tissue sections were deparaffinized and rehydrated. 
+Antigen retrieval was achieved by microwave treatment in EDTA buffer, 
+pH  9.0  (Beyotime,  Shanghai,  China),  and  blockage  of  non-specific 
+antibody  binding  was  carried  out with  5%  BSA (Beyotime,  Shanghai, 
+China).  Then,  sections  were  incubated  with  primary  antibody  CPT2 
+(ab181114,  1:100,  Abcam)  overnight  at  4 
+C.  After  treatment  with 
+secondary antibody (Cy3-labeled Goat Anti-Rabbit IgG (H + L), 1:500, 
+Beyotime), sections were counterstained with 2 μg/ml DAPI (Beyotime, 
+Shanghai,  China).  Images  were  obtained  under  a  fluorescence  micro-
+scope (Leica Microsystems GmbH). 
+
+◦
+
+2.6. Cell proliferation assays 
+
+2.8. Cell cycle and apoptosis assays 
+
+◦
+
+For  cell  cycle  analysis,  the  stably  transfected  CRC  cells  were  first 
+digested with trypsin, and fixed in 75% ice-cold ethanol for more than 
+C. Next, cells were washed with PBS twice and then incubated 
+24 h at 4
+◦
+C for 20 min. Then, 2 μl propi-
+with 100 μl RNase A (0.1 mg/ml) at 37
+dium  iodide  was  added  to  the  suspension  and  incubated  at  37
+C  for 
+another 20 min. The cell cycle was analyzed using a flow cytometry (BD 
+Biosciences, San Jose, CA, USA) [33]. 
+
+◦
+
+For apoptosis analysis, collected cells were washed twice with PBS 
+and resuspended in 100 ul PBS. Cells were stained in the dark with an 
+Annexin  V-fluorescein  isothiocyanate  (FITC)/PI  kit  (BD  Biosciences, 
+USA)  for  15  min  at  room  temperature.  Apoptosis  was  immediately 
+examined by flow cytometry (BD Biosciences, San Jose, CA, USA) [33]. 
+The CRC cells were pretreated with 50 μM of the caspase inhibitor Z- 
+VAD-FMK  (Beyotime,  shanghai,  China)  for  24  h.  After  treatment,  the 
+apoptosis levels were determined using the same methodology described 
+above. 
+
+2.9. Cell migration and invasion assays 
+
+The 8 μm pore size chambers (Corning Inc., Corning, NY, USA) were 
+used  to  evaluate  cell  migration  and  invasion  capacities  as  described 
+previously [37]. For migration assay, collected cells were resuspended in 
+serum-free medium and added to the upper compartment (5 × 104 cells). 
+The lower chamber contained 700 μl DMEM medium containing 10% 
+fetal  bovine  serum.  For  invasion  assay,  the  Matrigel  (BD  Biosciences, 
+diluted  at  1:8)  was  precoated  on  the  upper  compartment.  After  incu-
+bation (LOVO for 36 h, HCT116 and SW480 for 48 h), cells were fixed 
+with 4% paraformaldehyde for 30 min and stained for 30 min with 1% 
+crystal violet. Cells on the upper side of the chamber were wiped away 
+gently.  Photographed  with  a  phase-contrast  microscope  (Leica  Micro-
+systems,  Germany)  after  fixation  and  staining,  migrated  cells  were 
+counted. 
+
+Cell proliferation was measured with a Cell Counting Kit-8 (CCK-8) 
+(Beyotime, Shanghai, China). Stably transfected CRC cells were inocu-
+lated into 96-well plates at a density of 2000 cells per well and cultured 
+◦
+at 37 
+C in 5% CO2. The CCK-8 reagent was added at 0, 24, 48 and 72 h, 
+and the samples were incubated for 2 h. Each sample's absorbance value 
+was measured at 450 nm with a microplate reader (Infinite 2000 PRO, 
+TECAN, Switzerland) [37]. 
+
+2.10. Wound healing assays 
+
+Cells  were  cultured  in  6-well  plates  at  a  density  of  5  × 105/well. 
+When  the  degree  of  cell  confluence  reached  90%,  cell  layers  were 
+carefully wounded with pipette tips. Cells were washed with PBS and 
+added serum-free medium. Cell migration distance was photographed 
+with a phase-contrast micrographs (Leica Microsystems, Germany) at 0, 
+24 and 48 h [38]. 
+
+2.7. Colony formation assays 
+
+2.11. Western blotting 
+
+Colony  formation  assays  were  performed  as  previously  describe 
+[33]. The stably transfected CRC cells were inoculated into 6-well plates 
+at a density of 1000 per well and cultured at 37 
+C in 5% CO2 for two 
+weeks.  The  cells  were  fixed  with  4%  paraformaldehyde  (Beyotime, 
+Shanghai, China) for 30 min, stained with 1% crystal violet blue solution 
+(Beyotime,  Shanghai,  China)  at  room  temperature  for  30 min,  and 
+washed three times with PBS. The numbers of clones (> 50 cells/colony) 
+were  counted  with  an  inverted  phase  contrast  microscope  (Leica 
+Microsystems, Germany). 
+
+◦
+
+Western blot assays were carried out as described previously [37]. 
+Cell lysing was accomplished with the RIPA buffer (Beyotime, Shanghai, 
+China)  containing  1  mM  PMSF  (Beyotime,  Shanghai,  China)  (RIPA: 
+PMSF = 100:1) and then total protein extracted. The protein concen-
+trations were measured using the BCA protein assay reagent (Beyotime, 
+Shanghai,  China).  Next,  equal  amounts  of  protein  were  separated  by 
+10–12%  sodium  dodecyl  sulfate  polyacrylamide  gel  electrophoresis 
+(SDS-PAGE)  and  transferred  onto  polyvinylidene  difluoride  (PVDF) 
+membranes (Bio-Rad, Hercules, CA, USA). The membranes, were firstly 
+
+Table 1 
+List of primers used in this study.  
+
+PCR 
+
+RT-qPCR 
+
+Primer 
+
+CPT2-F 
+CPT2-R 
+p53-F 
+p53-R 
+β-Actin-F 
+β-Actin-R 
+
+′
+Sequence (5
+
+-3
+
+′
+
+) 
+
+Product size (bp) 
+
+PCR cycles 
+
+◦
+Annealing temperature (
+
+C) 
+
+CTTTGACCGACACTTGTTTGC 
+ATGAACAGCATACCCAACACC    
+TCAACAAGATGTTTTGCCAACTG 
+ATGTGCTGTGACTGCTTGTAGATG    
+AGAAAATCTGGCACCACACCT 
+GATAGCACAGCCTGGATAGCA     
+
+199 
+
+118 
+
+175 
+
+40 
+
+40 
+
+40 
+
+60 
+
+60 
+
+60 
+
+CellularSignalling92(2022)1102673F. Liu et al.                                                                                                                                                                                                                                       
+
+◦
+
+blocked with TBST (TBS containing 0.1% Tween20) containing with 5% 
+nonfat dry milk at room temperature for 2 h and then washed with TBST 
+C 
+for three times, secondly incubated with the primary antibody at 4
+overnight  and  then  washed  with  TBST.  After  that,  membranes  were 
+incubated with the corresponding secondary antibody at room temper-
+ature  for  1  h  and  then  washed  with  TBST  for  another  30 min.  The 
+membranes were examined with a Bio-Rad gel imaging system (Bio-Rad, 
+Hercules, CA, USA) with a western blotting kit (Advansta, Menlo Park, 
+USA). The following primary antibodies were used: GAPDH (10494–1- 
+AP, 1:5000, ProteinTech), CPT2 (ab181114, 1:1000, Abcam), Caspase3 
+(sc-7272,  1:500,  Santa  Cruz),  Cleaved  Caspase3  (WL02117,  1:1000, 
+Wanleibio),  Cleaved  PARP  (WL01932,  1:1000,  Wanleibio),  Caspase9 
+
+(sc-56,076, 1:500, Santa Cruz), Cleaved Caspase9 (WL01838, 1:1000, 
+Wanleibio),  Bax  (ab32503,  1:1000,  Abcam),  Bcl2  (ab32124,  1:1000, 
+Abcam), Snail (WL01863, 1:1000, Wanleibio), N-cadherin (WL01047, 
+1:1000,  Wanleibio),  E-cadherin  (20874-1-AP,  1:5000,  ProteinTech), 
+Vimentin  (10366-1-AP,  1:2000,  ProteinTech),  p53  (10442-1-AP, 
+1:1000, ProteinTech), p-p53 (28961-1-AP, 1:2000, ProteinTech), MDM2 
+(WL01906, 1:1000, Wanleibio), p21 (sc-6246, 1:500, Santa Cruz). 
+
+2.12. Nude mouse xenograft experiments 
+
+Six-week-old  female  BALB/c  nude  mice  (6  in  each  group)  were 
+purchased  from  the  National  Laboratory  Animal  Center  (Shanghai, 
+
+Fig. 1. CPT2 is frequently downregulated in human CRC tissues. (A, B) CPT2 mRNA expression is significantly downregulated in colorectal cancer tissues compared 
+with normal tissues form the GEO datasets. (C, D) CPT2 mRNA expression is lower in CRC tissues compared to normal or paired cancer-adjacent normal tissues in 
+TCGA. (E) Representative IHC staining images of CPT2 in human CRC tissues and cancer- adjacent normal tissues, scale bars: 200 μm and 50 μm. (F) CPT2 protein 
+shows cytoplasmic localization, scale bars: 50 μm. (G) Quantitative analysis of mean optical density (MOD) of CPT2 expression in CRC tissues compared with cancer- 
+adjacent normal tissues. (H) CPT2 mRNA expression in 30 pairs of CRC tissues by RT-qPCR. (I) CPT2 protein expression in 20 pairs of CRC tissues by western blotting. 
+*p < 0.05, **p < 0.01, ***p < 0.001. 
+
+CellularSignalling92(2022)1102674F. Liu et al.                                                                                                                                                                                                                                       
+
+China)  and  raised  in  the  Animal  Experimental  Center  of  Chongqing 
+Medical  University  (Chongqing,  China).  Animal  experiments  were 
+approved by the Ethical Review Committee of the First Affiliated Hos-
+pital of Chongqing Medical University and conformed with the guide-
+lines of the National Institutes of Health guide for the care and use of 
+laboratory animals. The stably transfected HCT116 cells and vector cells 
+(5 × 106  cells were resuspended in 200ul PBS) were injected into sub-
+cutaneous tissues of nude mice and primary tumor size was measured 
+every 3 days after 7 days of injection. Tumor volumes were calculated by 
+the following formula: V = (length × width2)/2. The mice were sacri-
+ficed after 28 days and tumors removed for further analysis [32]. 
+
+2.13. Data statistics 
+
+Statistical analyses were performed by GraphPad Prism 8.0 software 
+and SPSS 20.0 (USA). Student's t-test or one-way analysis of variance 
+(ANOVA)  was  used  to  analyze  the  differences  between  groups.  All  in 
+vitro experiments were independently performed at least three times. 
+Data are shown as mean ± SD. P-value<0.05 was considered statistically 
+significant. 
+
+3. Results 
+
+3.1. In vitro data 
+
+3.1.1. CPT2 is frequently downregulated in human CRC tissues 
+
+In  order  to  determine  CPT2  expression  in  CRC,  the  data  sets 
+GSE87211 and GSE44076 associated with CRC were downloaded from 
+GEO  database,  as  well  as  the  CRC  data  set  from  TCGA  database. 
+
+Bioinformatics analysis revealed that the CPT2 mRNA level was signif-
+icantly lower in the cancer tissues compared to the normal tissues (P <
+0.001)  (Fig.  1A-D).  To  validate  this,  IHC  staining  found  that  the 
+immunoreactivity of CPT2 was lower on CRC tissues (n = 40) compared 
+to cancer-adjacent normal tissues (n = 40) (P < 0.001) (Fig. 1E, G) and 
+IF staining showed that CPT2 expression location was in the cytoplasm 
+(Fig. 1F). Furthermore, RT-qPCR analysis performed on our own sam-
+ples indicated that CPT2 mRNA was lower in CRC tissues (n = 30) than 
+paired cancer-adjacent normal tissues (n = 30) (P < 0.001) (Fig. 1H). 
+Finally, western blotting also showed that CPT2 protein was obviously 
+lower in CRC tissues (n = 20) than paired cancer-adjacent normal tissues 
+(n = 20) (Fig. 1I). These results showed that mRNA and protein levels of 
+CPT2 were significantly downregulated in CRC tissues. 
+
+3.1.2. Downregulated CPT2 is correlated with clinicopathologic features 
+and is an independent predictor of CRC patient prognosis 
+
+To evaluate the clinical significance of CPT2, we analyzed the rela-
+tionship between CPT2 expression and clinicopathological characteris-
+tics of CRC patients from TCGA. The results demonstrated that the CPT2 
+mRNA levels in tumor tissues were significantly different in different age 
+(P  = 0.038) (Fig.  2A),  distant  metastasis  (P = 0.002) (Fig.  2C),  TMN 
+stages  (P  = 0.003)  (Fig.  2D),  lymph  node  metastasis  (P  = 0.004) 
+(Fig.  2E).  However,  it  was  not  associated  with  gender  (P  = 0.969) 
+(Fig.  2B)  and  T  stage  (P  = 0.17)  (Fig.  2F).  CPT2  expression  was 
+decreased  in  advanced  CRC  and  was  negatively  associated  with  age, 
+distant  metastasis,  TNM  stage  and  lymph  node  metastasis,  indicating 
+CPT2 may be related to the progression of CRC. In GSE14333 (P = 0.01) 
+(Fig. 2G), GSE17536 (P = 0.0241) (Fig. 2H) and TCGA (P = 0.0127) 
+(Fig.  2I),  Kaplan-Meier  analysis  showed  that  patients  with  low 
+
+Fig. 2. Downregulated CPT2 correlates with clinicopathologic features of CRC patients and is a Predictor of CRC Patient Prognosis. Correlation between CPT2 mRNA 
+expression and clinicopathologic characteristics of patients with colorectal cancer obtained from TCGA: (A) Age, (B) Gender, (C) M stage, (D) TNM stage, (E) N stage, 
+(F) T stage. (G-I) Kaplan-Meier curves showed that low CPT2 mRNA expression was associated with poor survival probability in patients with CRC. 
+
+CellularSignalling92(2022)1102675F. Liu et al.                                                                                                                                                                                                                                       
+
+expression  of  CPT2  had  a  shorter  survival  time  than  those  with  high 
+expression. The results from Chi-square test demonstrated that age (P =
+0.038),  lymph  node  metastasis  (P  = 0.007),  distant  metastasis  (P  =
+0.031) and TMN stage (P = 0.006) were associated with CPT2 mRNA 
+expression  (Table  2).  Subsequently,  univariate  and  multivariate  ana-
+lyses  were  conducted  to  identify  the  risk  factors  correlated  with  the 
+prognosis  of  CRC  patients  (Table  3).  Univariate  analysis  showed  that 
+age, TNM stage, T stage, distant metastasis, lymph node metastasis and 
+CPT2 expression were significantly associated with OS. Multivariate Cox 
+regression analyses indicated that CPT2 expression, age and T stage can 
+be independent predictors for CRC patients and that low CPT2 expres-
+sion may be associated with a poorer OS. Together, these results indi-
+cated  a  significant  correlation  of  the  expression  of  CPT2  with  the 
+prognosis of CRC. 
+
+3.1.3. CPT2 suppresses the proliferation of CRC cells 
+
+To explore the biological functions of CPT2 in CRC cells processes, 
+we verified the differential expression of CPT2 mRNA and protein levels 
+in five CRC cell lines and NCM460 cell line by RT-qPCR (Fig. 3A) and 
+western blotting (Fig. 3B, C). Because of the relative lower expression of 
+CPT2, the lentivirus-CPT2 and blank lentivirus-vector were transfected 
+into  HCT116  and  SW480  cells  to  overexpress  CPT2.  The  transfection 
+efficiency was confirmed by RT-qPCR (P < 0.001) (Fig. 3D) and western 
+blotting (P < 0.001) (Fig. 3E, F). CCK-8 assay demonstrated that over-
+expression  CPT2  markedly  inhibited  the  proliferation  of  HCT116  and 
+SW480  cells (P < 0.001) (Fig. 3G). The colony formation experiment 
+showed that the number of colonies in the CPT2 groups was much lower 
+than that in the Vector groups (P < 0.01) (Fig. 3H). These results indi-
+cated that CPT2 may play a tumor suppressor to suppress proliferation in 
+CRC cells. 
+
+3.1.4. CPT2 induces cell cycle arrest and apoptosis in CRC cells 
+
+Cell  proliferation  inhibition  is  affected  by  cell  cycle  arrest  and 
+apoptosis. To explore the underlying mechanism which CPT2 inhibits 
+CRC cells growth, we analyzed the effects of CPT2 on cell cycle distri-
+bution  by  flow  cytometry  using  stably  overexpressed  HCT116  and 
+SW480  cells.  Results  found  that  stably  overexpressed  CPT2  groups 
+significantly increased the proportion of G1 phase cells of the HCT116 
+(P < 0.001) and SW480 cell lines (P < 0.01) (Fig. 3I). Flow cytometry 
+
+Table 2 
+Correlations  between  CPT2  mRNA  expression  and  the  clinicopathological 
+characteristics of colorectal cancer patients from The Cancer Genome Atlas.  
+
+Clinicopathological 
+feature 
+
+CPT2 expression 
+
+Total 
+
+Low 
+
+P value 
+
+High 
+
+n = 213 
+(47.76%) 
+
+n = 233 
+(52.24%) 
+
+Age (years)     
+
+≤65 
+>65 
+Gender     
+Male 
+Female 
+T stage     
+T1–2 
+T3–4 
+
+Lymph node metastasis     
+
+N0 
+N1–2 
+
+Distant metastasis     
+
+M0 
+M1 
+
+TNM stage (AJCC)     
+
+Stage I-II 
+Stage III-IV 
+
+n =
+446 
+
+195 
+251 
+
+242 
+204 
+
+93 
+353 
+
+266 
+180 
+
+374 
+72 
+
+257 
+189 
+
+91(46.67%) 
+142(56.57%) 
+
+104(53.33%) 
+109(43.43%)  
+
+0.038* 
+
+129(53.31%) 
+104(50.98%) 
+
+113(46.69%) 
+100(49.02%)  
+
+0.624 
+
+42(45.16%) 
+191(54.11%) 
+
+51(54.84%) 
+162(45.89%)  
+
+0.124 
+
+125(46.99%) 
+108(60.00%) 
+
+141(53.01%) 
+72(40.00%)  
+
+0.007** 
+
+187(50.00%) 
+46(63.89) 
+
+187(50.00%) 
+26(36.11%)  
+
+0.031* 
+
+120(46.69%) 
+113(59.79%) 
+
+137(53.31%) 
+76(40.21%)  
+
+0.006** 
+
+Notes: The bold number represents the P values with significant differences. 
+
+* p < 0.05. 
+** p < 0.01. 
+
+analysis also showed that the CPT2 groups significantly increased the 
+percentage of apoptotic cells in the HCT116 (P < 0.01) and SW480 cell 
+lines (P < 0.001) (Fig. 3J), compared with the Vector groups. 
+
+3.1.5. CPT2 represses migration and invasion of CRC cells through 
+inhibition of EMT 
+
+To determine whether CPT2 can affect CRC cells migration and in-
+vasion. Firstly, we observed that the cell morphology was changed in the 
+stably overexpressed HCT116 and SW480 cells (Fig. 4A), presenting a 
+more adhesive contact pattern while the Vector groups cells still showed 
+scattered distribution, which indicating that CPT2 may be involved in 
+tumor  cells  epithelial  mesenchymal  transition  (EMT).  The  effects  of 
+CPT2  on  CRC  cells  migration  and  invasion  abilities  were  further 
+analyzed  by  transwell  assays.  The  results  showed  that  CPT2  over-
+expression  significantly  decreased  the  numbers  of  migrating  and 
+invading cells (P < 0.001) (Fig. 4C). Then, we performed wound healing 
+assays. Results showed that stably transfected CPT2 cells migrated into 
+wounded areas more slowly than the Vector groups cells at 48 h (P <
+0.001) (Fig. 4D). Furthermore, we further analyzed the correlation be-
+tween the mRNA expression of CPT2 and EMT signaling pathway target 
+genes using TCGA data. We found that there was significantly positive 
+correlation  of  CPT2  with  CDH1  (P  < 0.001)  and  were  the  negative 
+correlation of CPT2 with CDH2 (P < 0.001), VIM (P < 0.001) and SNAI1 
+(P < 0.001) (Fig. 4B). Western blotting showed that the inhibitory effect 
+of CPT2 on CRC cells metastasis was mediated by the upregulation of E- 
+cadherin (CDH1) and downregulation of N-cadherin (CDH2), Vimentin 
+(VIM) and Snail (SNAI1) (Fig. 4E, F). In order to explore whether the 
+effect  of  cell  migration  and  invasion  come  from  apoptosis,  we  added 
+apoptosis inhibitor Z-VAD-FMK (pan-caspase inhibitor) to CRC cells that 
+stably overexpressed CPT2 and found that the effect of CPT2 induced 
+apoptosis could be restored by Z-VAD-FMK (Fig. S1, A). Then, we per-
+formed transwell assays. After migrating 24 h, we found that the number 
+of penetrating cells in both the CPT2 group and the CPT2 + Z-DAV-FMK 
+group  were  significantly  lower  than  that  cells  in  the  Vector  group 
+(Fig. S1, B, C). Interestingly, CCK-8 assays showed that overexpression 
+of CPT2 did not significantly change the absorbance of CRC cells at 24 h 
+compared  with  the  control  group,  as  shown  in  Fig.  3G.  In  summary, 
+these results indicated that the changes of CRC cell migration and in-
+vasion are mainly regulated by CPT2 inhibiting EMT, rather than from 
+the effects of proliferation and apoptosis. 
+
+3.1.6. Knockdown of CPT2 promotes growth, metastasis, invasion and 
+inhibits apoptosis of CRC cells 
+
+To further assess the function of CPT2 on CRC cells, we assessed the 
+effect of CPT2 through siRNA knockdown of CPT2 in LOVO cell line. RT- 
+qPCR (P < 0.01) (Fig. 5A) and western blotting (P < 0.001) (Fig. 5B, C) 
+showed  that  the  highest  knockdown  efficiency  was  exhibited  by 
+siCPT2–3. Knockdown of CPT2, compared with siCtrl treatment, mark-
+edly increased LOVO cell viability, as examined by CCK8 (P < 0.001) 
+(Fig. 5D) and colony formation assays (P < 0.001) (Fig. 5E). We further 
+used  flow  cytometry  to  evaluate  the  effect  of  CPT2  on  cell  cycle  and 
+apoptosis. Knockdown of CPT2 significantly decreased the proportion of 
+G1 phase cells and increased S phase cells of LOVO cell line (P < 0.001) 
+(Fig. 5F). The percentage of apoptosis in LOVO cells was significantly 
+decreased after CPT2 knockdown (P < 0.01) (Fig. 5G). Then, transwell 
+assay showed that the number of migrated and invaded LOVO cells was 
+dramatically higher after CPT2 knockdown, compared with that in the 
+siCtrl group (P < 0.001) (Fig. 5H, I). Moreover, we performed wound 
+healing  assay. The results  showed that  CPT2 knockdown  groups cells 
+migrated into wounded areas more quickly than the siCtrl groups cells at 
+48 h (P < 0.05) (Fig. 5J, K). Western blotting showed that knockdown of 
+CPT2 in LOVO cells upregulated the expression of N-cadherin, Vimentin 
+and  Snail,  concurrently  downregulated  the  expression  of  E-cadherin 
+(Fig.  5L,  M).  These  results  indicated  that  knockdown  of  CPT2  was 
+beneficial to the progression of CRC. 
+
+CellularSignalling92(2022)1102676F. Liu et al.                                                                                                                                                                                                                                       
+
+Table 3 
+Univariate cox regression and multivariate cox regression analyses in patients with colorectal cancer from The Cancer Genome Atlas.  
+
+Clinicopathologic variable 
+
+Univariate analysis 
+
+Multivariate analysis 
+
+Age (continuous variable) 
+Gender 
+Stage 
+T stage 
+Distant metastasis 
+Lymph node status 
+CPT2 expression 
+
+HR 
+
+1.03 
+1.05 
+2.59 
+3.27 
+5.27 
+2.25 
+0.42 
+
+95%CI 
+
+1.01–1.05 
+0.67–1.65 
+1.99–3.36 
+2.09–5.12 
+3.33–8.34 
+1.72–2.93 
+0.28–0.66 
+
+P value 
+
+0.008** 
+0.832 
+<0.001*** 
+<0.001*** 
+<0.001*** 
+<0.001*** 
+<0.001*** 
+
+HR 
+
+1.04 
+0.89 
+1.79 
+1.93 
+1.45 
+1.16 
+0.60 
+
+95%CI 
+
+1.02–1.06 
+0.56–1.41 
+0.83–3.89 
+1.17–3.19 
+0.51–4.16 
+0.74–1.84 
+0.38–0.96 
+
+P value 
+
+0.001** 
+0.618 
+0.139 
+0.010* 
+0.491 
+0.519 
+0.034* 
+
+Abbreviations: HR, hazard ratio. CI, confidence interval. Notes: The bold number represents the P values with significant differences. 
+
+* p < 0.05. 
+** p < 0.01. 
+*** p < 0.001. 
+
+3.1.7. Effect of CPT2 on cell proliferation and apoptosis is related to p53 
+pathway 
+
+(p  = 0.048) 
+
+The crucial role of CPT2 in CRC progression energized us to find the 
+downstream  genes  regulated  by  CPT2.  Firstly,  in  order  to  determine 
+which  pathway  may  be  involved  in  CPT2-mediated  CRC  progression, 
+GSEA  analysis  was  applied  in  TCGA  data.  Results  revealed  that 
+(Fig.  6A),  KEGG_-
+KEGG_COLORECTAL_CANCER 
+P53_SINGALING_PATHWAY (p = 0.024) (Fig. 6B), KEGG_APOPTOSIS (p 
+= 0.012) (Fig. 6C), KEGG_NUCLEOTIDE_EXCISION_REPAIR (p = 0.033) 
+(Fig. 6D) gene sets were enriched in the high-CPT2-expression group. As 
+the p53 signaling pathway plays an important role in the regulation of 
+tumor  progression,  we  speculated  that  CPT2  may  regulate  colorectal 
+tumorigenesis by the p53 signaling pathway. So, we further analyzed the 
+correlation between the mRNA expression of CPT2 and p53 signaling 
+target  genes  using  TCGA  data  (Fig.  6E).  We  found  that  there  was 
+significantly positive correlation of CPT2 with p53 (P < 0.001) and the 
+correlation between CPT2 and p53 signaling downstream target genes, 
+such as p21 (P = 0.004), MDM2 (P < 0.001), BAX (P < 0.001), BCL2 (P 
+< 0.001),  CASP3  (P  < 0.001),  CASP9  (P  < 0.001)  and  PARP1  (P  <
+0.001),  were  also  very  significant.  To  explore  how  CPT2  affects  the 
+expression  and  activity  of  p53,  we  performed  RT-qPCR  and  western 
+blotting analyses. The results showed that p53 expression was signifi-
+cantly increased at mRNA levels following overexpression of CPT2 in 
+HCT116 (P < 0.05) and SW480 (P < 0.01) cells, decreased in LOVO cells 
+after  knockdown  of  CPT2  expression  (P  < 0.05)  (Fig.  6F).Western 
+blotting  showed  CPT2  transfection  elevated  the  total  p53  and  phos-
+phorylated  p53  (p-p53)  expression  remarkably  (P  < 0.05),  while 
+knockdown of CPT2 obtained the opposite results (p < 0.05) (Fig. 6G, 
+H). These results indicated that the interference of CPT2 activated the 
+phosphorylation activity of p53 and increased the expression of p53. We 
+also  found the expression  of p21 was dramatically increased  in CPT2 
+group,  which  is  the  key  G1  cell  cycle  regulator  and  p53  downstream 
+target  gene  [39].  In  the  CPT2  groups,  the  expression  of  MDM2,  an 
+important  negative  regulator  of  p53,  was  lower  than  that  in  Vector 
+groups.  To  further  explore  the  apoptotic  effect  of  CPT2  in  CRC  cells, 
+western  blotting  showed  that  CPT2  overexpression  significantly 
+increased expressions  of Bax, cleaved caspase9, cleaved caspase3 and 
+cleaved PARP, and decreased expression of Bcl2. The total caspase9 and 
+total  caspase3  protein  levels  were  unaffected  compared  with  Vector 
+groups. Whereas, the knockdown of CPT2 in LOVO cells produced the 
+opposite changes the expression of p53 target genes (Fig. 6I, J). These 
+results  revealed  that  CPT2  influenced  CRC  cells  proliferation  and 
+apoptosis through p53 pathway. 
+
+3.2. In vivo data 
+
+3.2.1. CPT2 inhibits xenograft tumor growth 
+
+showed that the average volume (P < 0.001) (Fig. 7C) and weight (P <
+0.01) (Fig. 7D) of tumors in Vector group were significantly higher than 
+the CPT2 group. Hematoxylin-eosin (HE) and IHC staining were carried 
+out to analyze tumor features and CPT2 expression of the xenografts in 
+nude  mice.  Ki-67  staining  and  TUNEL  analyses  were  carried  out  to 
+evaluate cell proliferation and apoptosis, respectively. We observed that 
+tumor cells with frequent nuclear fragmentation in CPT2 group, along 
+with  increased  in  CPT2  staining,  decreased  in  Ki-67  staining  and 
+increased  in  cell  apoptosis  (Fig.  7E,  F).  Finally,  western  blotting 
+demonstrated  an  increase  in  the  expression  of  apoptosis-related  pro-
+teins,  including  p53,  Bax,  Cleaved  caspase-9,  Cleaved  caspase-3  and 
+Cleaved  PARP  in  CPT2  group,  while  Bcl2  was  decreased  (Fig.  7G). 
+Together, these results indicated that CPT2 may partially inhibit CRC 
+tumorigenesis via p53 pathway in vivo. 
+
+4. Discussion 
+
+CRC development is characterized by a multistep process involving a 
+series  of  histological  and  morphological  changes  triggered  by  a 
+sequential accumulation of specific genomic alterations [40]. Therefore, 
+identification of genes associated with the occurrence and development 
+of colorectal cancer may contribute to diagnosis and treatment. Previous 
+studies have reported that CPT2 was frequently downregulated in HCC 
+tissues and promoted the occurrence, development and chemoresistance 
+of  HCC  [28,29].  Consistently,  CPT2  was  downregulation  in  OC  and 
+significantly  associated  with  poor  survival.  In  addition,  the  down-
+regulation  of  CPT2  promotes  OC  proliferation  and  metastasis  via 
+inducing  ROS/NFκB  pathway  [31].  So,  CPT2  is  an  important  gene 
+associated with several cancers. However, the biological functions and 
+molecular mechanisms of CPT2 in CRC remains unknown. 
+
+In  this  study,  we  demonstrated  that  CPT2  was  frequently  down-
+regulated in CRC tissues and was highly correlated with several clini-
+copathological  indicators  such  as  distant  metastasis,  lymph  node 
+metastasis  and  TNM  stage.  Downregulated  CPT2  was  significantly 
+associated with poor survival for CRC patients and CPT2 expression can 
+be an independent predictor of CRC. Consistently, a previous study on 
+rectal cancer pointed out that CPT2 was a protective prognostic factor 
+for CRC patients [41]. Moreover, we further investigated the function of 
+CPT2 as a tumor suppressor in CRC growth and metastasis. Functional 
+studies  had  shown  that  CPT2  overexpression  inhibited  cell  growth, 
+colony formation, migration, invasion and xenotransplantation of CRC 
+cells,  as  well  as  induced  cell  cycle  arrest  in  G1  phase  and  apoptosis. 
+While CPT2 knockdown contributed to cell proliferation, migration and 
+invasion, increased the proportion of S phase cells, decreased the pro-
+portion  of  G1  phase  cells  and  inhibited  apoptosis.  All  these  results 
+indicated that CPT2 may play a very important role in the occurrence 
+and development of CRC. 
+
+To  investigate  whether  CPT2  plays  an  anti-oncogene  role  in  vivo, 
+nude mice were subcutaneously injected with HCT116 cells treated with 
+either CPT2 overexpression vector or empty vector (Fig. 7A, B). Results 
+
+EMT is a biological process in which epithelial cells are transformed 
+into cells with a mesenchymal phenotype through specific procedures 
+[42]. EMT plays a crucial role in the metastasis of CRC [43]. E-cadherin, 
+
+CellularSignalling92(2022)1102677F. Liu et al.                                                                                                                                                                                                                                       
+
+Fig. 3. CPT2 suppresses the proliferation and induces cell cycle arrest and apoptosis of CRC cells. (A) RT-qPCR analysis of CPT2 mRNA expression in NCM460 and 
+CRC cell lines. (B, C) Western blotting analysis of CPT2 protein expression in NCM460 and CRC cell lines. (D–F) Overexpression of CPT2 in HCT116 and SW480 cells 
+was measured by RT-qPCR and western blotting. (G) Cell viabilities evaluated at 0, 24, 48 and 72 h after transfection with CPT2 in HCT116 and SW480 cells. (H) 
+Colony formation of Vector group and CPT2 group in HCT116 and SW480 cells. (I) Cell cycle distribution measured in Vector group and CPT2 group of HCT116 and 
+SW480 cells by flow cytometry. (J) Percentages of apoptotic cells in HCT116 and SW480 cells with CPT2 overexpression were evaluated. *p < 0.05, **p < 0.01, ***p 
+< 0.001. 
+
+CellularSignalling92(2022)1102678F. Liu et al.                                                                                                                                                                                                                                       
+
+Fig. 4. CPT2 represses migration and invasion of CRC cells through inhibition of EMT. (A) Morphological changes of CRC cells infected with control Vector and CPT2 
+by using phase contrast microscopy. (B) The correlation between the mRNA expression of CPT2 and EMT signaling pathway target genes using TCGA data. (C) The 
+cellular migration and invasion abilities of HCT116 and SW480 cells upon expression of CPT2 were measured by transwell assays with or without Matrigel. Scale 
+bars: 100 μm. (D) Cell migration abilities of HCT116 and SW480 cells evaluated by wound healing assays. (E, F) Western blot analysis of EMT, and downstream target 
+markers. *p < 0.05, **p < 0.01, ***p < 0.001. 
+
+CellularSignalling92(2022)1102679F. Liu et al.                                                                                                                                                                                                                                       
+
+Fig. 5. Knockdown of CPT2 promotes growth, metastasis, invasion and inhibits apoptosis of CRC cells. (A-C) Validation of CPT2 knockdown in LOVO cells after 
+transfection with CPT2 siRNA and siCtrl by RT-qPCR and western blotting. (D) The effect of CPT2 knockdown on cell viability was measured with CCK-8. (E) Colony 
+formation of siCtrl group and siCPT2 group in LOVO cells. (F) Cell cycle distribution after CPT2 knockdown in LOVO cells. (G) Percentages of apoptotic cells in LOVO 
+with CPT2 knockdown were evaluated. (H, I) Transwell assays showed cell migration and invasion of LOVO cells after CPT2 knockdown. Scale bars: 100 μm. (J, K) 
+Cell migration abilities of LOVO cells were evaluated by wound healing assays. (L, M) Western blot analysis of EMT, and downstream target markers. *p < 0.05, **p 
+< 0.01, ***p < 0.001. 
+
+CellularSignalling92(2022)11026710F. Liu et al.                                                                                                                                                                                                                                       
+
+Fig. 6. Effect of CPT2 on cell cycle and apoptosis is related to p53 pathway. GSEA analysis showed that gene sets including: (A) KEGG_COLORECTAL_CANCER, (B) 
+KEGG_P53_SINGALING_PATHWAY,  (C)  KEGG_APOPTOSIS,  (D)  KEGG_NUCLEOTIDE_EXCISION_REPAIR  were  enriched  in  the  high-CPT2-expression  group.  (E) 
+Correlation between CPT2 mRNA expression and p53 pathway-related genes in TCGA data. (F) RT-qPCR analysis of p53 in HCT116, SW480, LOVO cells. (G, H) 
+Western blot analysis of p53 and p-p53 in HCT116, SW480, LOVO cells. (I, J) Western blot analysis of p53 pathway, and downstream target genes in HCT116, 
+SW480, LOVO cells. *p < 0.05, **p < 0.01, ***p < 0.001; ns: no statistically significant difference. 
+
+N-cadherin and Vimentin are important epithelial markers and Snail is a 
+key transcription factor of EMT [44,45]. Most EMT transcription factors 
+are  transcriptional  repressors  including  Snail,  Slug  and  Twist.  They 
+repress  epithelial-specific  genes  involved  in  stabilizing  cell–cell  junc-
+tions  (such  as  E-cadherin),  and  increase  components  of  the  mesen-
+chymal migratory machinery [46].In this study, we demonstrated that 
+CPT2 overexpression inhibited the invasion and migration of CRC cells 
+
+and markedly increased E-cadherin expression and reduced N-cadherin, 
+Vimentin, and Snail expression, while CPT2 knockdown yielded oppo-
+site results. As a master regulator of metastasis, p53 directly controls the 
+transcription  of  genes  that  are  involved  in  key  metastasis  pathways, 
+including  cell  adhesion,  motility,  invasion,  EMT,  stemness,  ECM  in-
+teractions,  and  anoikis  [46].  We  also  found  that  CPT2  activated  p53 
+expression.  Activation  of  p53  in  colorectal  cells  acquires  a  more 
+
+CellularSignalling92(2022)11026711F. Liu et al.                                                                                                                                                                                                                                       
+
+Fig. 7. CPT2 inhibits xenograft tumor growth. (A, B) Images of xenograft tumors harvested at the end of the experiment. (C) Growth curves of tumor in the Vector 
+group and the CPT2 group in nude mice. (D) Tumor weight of the Vector group and the CPT2 group in nude mice. (E) Representative photographs of HE staining and 
+IHC expression analyses of CPT2 and Ki-67. (F) TUNEL assays were used to evaluate the apoptosis in xenografts, scale bars: 100 μm. (G) Western blot analysis of p53 
+pathway, and downstream target genes in nude tumor samples. *p < 0.05, **p < 0.01, ***p < 0.001. 
+
+epithelial  phenotype  by  initiating  mesenchymal  epithelial  transition 
+(MET). Furthermore, p53 has been found to play an important role in the 
+maintenance of the epithelial phenotype by regulated independently the 
+expression of E-cadherin and cell invasion [47]. p53 signaling impacts 
+transcription  factors  levels  to  negatively  regulate  EMT.  For  example, 
+activation of p53 down-regulates Snail by inducing miR-34 expression 
+[48].  In  addition,  p53  also  promotes  MDM2-mediated  degradation  of 
+Slug to increase E-cadherin expression and oppose EMT [49]. All in all, 
+these  results  suggested  that  CPT2  might  negatively  regulate  EMT  by 
+activating  p53,  thereby  inhibiting  the  migration  and  invasion of  CRC 
+cells. 
+
+Furthermore, we investigated the molecular mechanism underlying 
+effects of CPT2 on CRC. We found that p53 pathway may be involved in 
+the function of CPT2 in CRC cells. As a master regulator of DNA repli-
+cation  and  cell division,  p53 arrests  cell  cycle and  induces apoptosis, 
+thereby inhibiting cancer development [50]. p21 is a major target of p53 
+activity and can be directly activated to induce the cell cycle arrest at G1 
+phase [39,51]. MDM2 is an E3 ubiquitin-ligase enzyme of the p53 pro-
+tein and MDM2-mediated ubiquitination can promotes p53 degradation 
+[52]. Study pointed that inhibition of MDM2-p53 interaction may be a 
+new  strategy  for  cancer  treatment  [53,54].  Interestingly,  our  results 
+showed  that  CPT2  markedly  upregulated  p53  and  P21,  inactivated 
+
+CellularSignalling92(2022)11026712F. Liu et al.                                                                                                                                                                                                                                       
+
+MDM2 in CPT2 overexpression CRC cells. Meanwhile, the opposite re-
+sults were obtained in CPT2 knockdown CRC cells. These results sug-
+gested that CPT2 inhibited cancer cell proliferation may involve in p53 
+pathway activation. 
+
+In  multicellular organisms,  apoptosis is  the  universal  form of  pro-
+grammed  cell  death  and  plays  a  critical  role  in  the  development  and 
+homeostasis [55]. Two major apoptotic pathways have been described 
+in  cells,  including  the  death  receptor  pathway  and  the  mitochondrial 
+pathway, and p53 has been shown to contribute to the activation of both 
+[7,56].  Mitochondrial  apoptosis  pathways  are  controlled  by  the  large 
+family of Bcl-2-related proteins, enclosing antiapoptotic (such as Bcl-2, 
+Bcl-xl, Bcl-w, Mcl-1), proapoptotic (such as Bax, Bak, Bok) and proap-
+optotic  BH3-only  proteins  (such  as  Bad,  Bik,  Bid,  Bim,  Noxa,  Puma) 
+[57]. Bax and Bak central effectors of apoptosis as they form macropores 
+in the mitochondria outer membrane causing MOMP, while Bcl-2 can 
+block membrane recruitment and integration of Bax, even in the pres-
+ence of a Bax-activating signal [58,59]. Previous study has shown that 
+the  ratio  of Bcl-2/Bax  constituted a  rheostat that set  the  threshold of 
+susceptibility  to  apoptosis  for  the  intrinsic  pathway,  which  amplified 
+death signals by utilizing organelles such as the mitochondrion [55]. In 
+vitro  and  vivo,  we  examined  and  found  that  overexpression  of  CPT2 
+increased  the  p53  expression,  leading  to  proapoptotic  proteins  Bax, 
+cleaved  caspase-9,  cleaved  caspase-3  and  cleaved  PARP  upregulated, 
+but antiapoptotic protein Bcl2 repressed. Proapoptotic protein Bax is the 
+classical target for direct regulation by the p53 tumor suppressor protein 
+and mediates MOMP and apoptosis [60,61]. The activation of Bax causes 
+the MOMP and the cytochrome C release. Then, cytochrome C combines 
+with Apaf–1 and procaspase-9 to produce apoptosome. Apoptosome is a 
+multimeric complex involving Apaf-1, cytochrome C, and the cofactor 
+dATP/ATP,  which  triggers  caspase  9  and  leads  to  caspase  cascade 
+[8,62,63]. Caspase-3 is cleaved and activated by caspase-9. Caspase-3 
+act as executioners in apoptosis, and once it was activated, cleavage of 
+its precursor forms occurs [14]. PARP is the target protein of caspase-3, 
+affecting  the  DNA  repair  of  cancer  cells.  PARP  cleavage  is  frequently 
+observed in cells undergoing apoptosis and is recognized as a marker for 
+caspase-3  activation  [14,64].  Activated  caspase-3  cleaves  PARP  and 
+prevents  DNA  from  repairing  itself  and  finally  leads  to  apoptosis.  In 
+vitro, knockdown of CPT2 downregulated of Bax and upregulated Bcl2 
+by  regulating the  transcription  of  p53, thereby  inhibiting  MOMP  and 
+apoptosis in CRC cells. Based on the good in vitro and in vivo anti-tumor 
+effects of CPT2 in CRC cells, which suggested that CPT2 may be a po-
+tential  anti-colorectal  cancer  agent  by  the  p53-dependent  apoptotic 
+pathway. 
+
+In  conclusion,  we  provide  evidences  showing  that  CPT2,  which  is 
+lowly expressed in CRC tissues and can be an independent predictor of 
+CRC patient prognosis. Overexpression of CPT2 inhibited the prolifera-
+tion, migration, and invasion, induced cell cycle arrest and apoptosis of 
+CRC cells in vitro, knockdown of CPT2 produced the opposite results. 
+Similarly, overexpression of CPT2 reduced tumor growth in vivo. More 
+importantly,  we  found  that  CPT2  can  regulate  the  proliferation  and 
+apoptosis  of  CRC  cells  via  p53  pathway.  CPT2  may  be  a  diagnostic 
+marker  of  CRC  and  strategies  targeting  CPT2  may  be  developed  as 
+therapies for CRC. 
+
+Supplementary data to this article can be found online at https://doi. 
+
+org/10.1016/j.cellsig.2022.110267. 
+
+Authors' contributions 
+
+Fuqiang Liu designed and performed the main experiments. Xiaoqing 
+Li and Han Yan performed bioinformatics analyses. Jiao Wu provided 
+technical assistance for the main experiments. Yichun Yang, Jin He, Jun 
+Chen,  Zhongxiang  Jiang  and  Fan  Wu  collected  samples  and  analyzed 
+data. Fuqiang Liu completed the manuscript with assistance from all the 
+authors. Zheng Jiang analyzed the availability of data and reviewed the 
+manuscript. All authors reviewed and approved the final manuscript. 
+
+Funding 
+
+This article is not funded. 
+
+Declaration of Competing Interest 
+
+The authors declare that they have no competing interests. 
+
+Acknowledgments 
+
+We would like to thank the Chongqing Key Laboratory of Molecular 
+Oncology and Epigenetics (Chongqing, China) for providing technical 
+guidance. 
+
+References 
+
+[1] H. Sung, J. Ferlay, R.L. Siegel, M. Laversanne, I. Soerjomataram, A. Jemal, F. Bray, 
+Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality 
+worldwide for 36 cancers in 185 countries, CA 71 (3) (2021) 209–249. 
+
+[2] U. Ladabaum, J.A. Dominitz, C. Kahi, R.E. Schoen, Strategies for colorectal cancer 
+
+screening, Gastroenterology 158 (2) (2020) 418–432. 
+
+[3] P. Kanth, J.M. Inadomi, Screening and prevention of colorectal cancer, BMJ (Clin. 
+
+Res.Ed.) 374 (2021), n1855. 
+
+[4] P.D. Bhola, A. Letai, Mitochondria-judges and executioners of cell death sentences, 
+
+Mol. Cell 61 (5) (2016) 695–704. 
+
+[5] C.B. Thompson, Apoptosis in the pathogenesis and treatment of disease, Science 
+
+(New York, N.Y.) 267 (5203) (1995) 1456–1462. 
+
+[6] D. Hanahan, R.A. Weinberg, Hallmarks of cancer: the next generation, Cell 144 (5) 
+
+(2011) 646–674. 
+
+[7] D.R. Green, F. Llambi, Cell death signaling, Cold Spring Harbor Perspect. Biol. 7 
+
+(2015). 
+
+[8] S.W. Tait, D.R. Green, Mitochondria and cell death: outer membrane 
+
+permeabilization and beyond, Nat. Rev. Mol. Cell Biol. 11 (9) (2010) 621–632. 
+
+[9] S. Dadsena, A. Jenner, A.J. García-S´aez, Mitochondrial outer membrane 
+
+permeabilization at the single molecule level, Cell.Mol.Life Sci. 78 (8) (2021) 
+3777–3790. 
+
+[10] N. Volkmann, F.M. Marassi, D.D. Newmeyer, D. Hanein, The rheostat in the 
+
+membrane: BCL-2 family proteins and apoptosis, Cell Death Differ. 21 (2) (2014) 
+206–215. 
+
+[11] J. Kale, E.J. Osterlund, D.W. Andrews, BCL-2 family proteins: changing partners in 
+
+the dance towards death, Cell Death Differ. 25 (1) (2018) 65–80. 
+[12] N. Dashzeveg, K. Yoshida, Cell death decision by p53 via control of the 
+mitochondrial membrane, Cancer Lett. 367 (2) (2015) 108–112. 
+
+[13] T. Shibue, S. Suzuki, H. Okamoto, H. Yoshida, Y. Ohba, A. Takaoka, T. Taniguchi, 
+
+Differential contribution of puma and noxa in dual regulation of p53-mediated 
+apoptotic pathways, EMBO J. 25 (20) (2006) 4952–4962. 
+
+[14] Y. Shen, E. White, p53-dependent apoptosis pathways, Adv. Cancer Res. 82 (2001) 
+
+55–84. 
+
+[15] E.R. Fearon, Molecular genetics of colorectal cancer, Annu. Rev. Pathol. 6 (2011) 
+
+479–507. 
+
+[16] D.W. Foster, The role of the carnitine system in human metabolism, Ann. N. Y. 
+
+Acad. Sci. 1033 (2004) 1–16. 
+
+[17] J.P. Bonnefont, F. Djouadi, C. Prip-Buus, S. Gobin, A. Munnich, J. Bastin, Carnitine 
+palmitoyltransferases 1 and 2: biochemical, molecular and medical aspects, Mol. 
+Asp. Med. 25 (5–6) (2004) 495–520. 
+
+[18] A.S. Pereyra, A. Rajan, C.R. Ferreira, J.M. Ellis, Loss of muscle carnitine 
+
+palmitoyltransferase 2 prevents diet-induced obesity and insulin resistance despite 
+long-chain acylcarnitine accumulation, Cell Rep. 33 (6) (2020), 108374. 
+
+[19] J.J. Gu, M. Yao, J. Yang, Y. Cai, W.J. Zheng, L. Wang, D.B. Yao, D.F. Yao, 
+Mitochondrial carnitine palmitoyl transferase-II inactivity aggravates lipid 
+accumulation in rat hepatocarcinogenesis, World J. Gastroenterol. 23 (2) (2017) 
+256–264. 
+
+[20] A.S. Pereyra, L.Y. Hasek, K.L. Harris, A.G. Berman, F.W. Damen, C.J. Goergen, J. 
+
+M. Ellis, Loss of cardiac carnitine palmitoyltransferase 2 results in rapamycin- 
+resistant, acetylation-independent hypertrophy, J. Biol. Chem. 292 (45) (2017) 
+18443–18456. 
+
+[21] K. Linher-Melville, S. Zantinge, T. Sanli, H. Gerstein, T. Tsakiridis, G. Singh, 
+
+Establishing a relationship between prolactin and altered fatty acid β-oxidation via 
+carnitine palmitoyl transferase 1 in breast cancer cells, BMC Cancer 11 (2011) 56. 
+
+[22] K. Zaugg, Y. Yao, P.T. Reilly, K. Kannan, R. Kiarash, J. Mason, P. Huang, S. 
+
+K. Sawyer, B. Fuerth, B. Faubert, et al., Carnitine palmitoyltransferase 1C promotes 
+cell survival and tumor growth under conditions of metabolic stress, Genes Dev. 25 
+(10) (2011) 1041–1051. 
+
+[23] Y.N. Wang, Z.L. Zeng, J. Lu, Y. Wang, Z.X. Liu, M.M. He, Q. Zhao, Z.X. Wang, T. Li, 
+Y.X. Lu, et al., CPT1A-mediated fatty acid oxidation promotes colorectal cancer cell 
+metastasis by inhibiting anoikis, Oncogene 37 (46) (2018) 6025–6040. 
+
+[24] L. Wang, C. Li, Y. Song, Z. Yan, Inhibition of carnitine palmitoyl transferase 1A- 
+induced fatty acid oxidation suppresses cell progression in gastric cancer, Arch. 
+Biochem. Biophys. 696 (2020), 108664. 
+
+[25] Z.J. Brown, Q. Fu, C. Ma, M. Kruhlak, H. Zhang, J. Luo, B. Heinrich, S.J. Yu, 
+
+Q. Zhang, A. Wilson, et al., Carnitine palmitoyltransferase gene upregulation by 
+
+CellularSignalling92(2022)11026713F. Liu et al.                                                                                                                                                                                                                                       
+
+linoleic acid induces CD4(+) T cell apoptosis promoting HCC development, Cell 
+Death Dis. 9 (6) (2018) 620. 
+
+transition, mesenchymal-epithelial transition, stem cells and beta-catenin, Cells 
+Tissues Organs 179 (1–2) (2005) 56–65. 
+
+[26] M. Joshi, G.E. Stoykova, M. Salzmann-Sullivan, M. Dzieciatkowska, L.N. Liebman, 
+
+[44] M. Zeisberg, E.G. Neilson, Biomarkers for epithelial-mesenchymal transitions, 
+
+G. Deep, I.R. Schlaepfer, CPT1A supports castration-resistant prostate cancer in 
+androgen-deprived conditions, Cells 8 (10) (2019). 
+
+[27] H. Shao, E.M. Mohamed, G.G. Xu, M. Waters, K. Jing, Y. Ma, Y. Zhang, S. Spiegel, 
+M.O. Idowu, X. Fang, Carnitine palmitoyltransferase 1A functions to repress FoxO 
+transcription factors to allow cell cycle progression in ovarian cancer, Oncotarget 7 
+(4) (2016) 3832–3846. 
+
+[28] N. Fujiwara, H. Nakagawa, K. Enooku, Y. Kudo, Y. Hayata, T. Nakatsuka, 
+
+Y. Tanaka, R. Tateishi, Y. Hikiba, K. Misumi, et al., CPT2 downregulation adapts 
+HCC to lipid-rich environment and promotes carcinogenesis via acylcarnitine 
+accumulation in obesity, Gut 67 (8) (2018) 1493–1504. 
+
+[29] M. Lin, D. Lv, Y. Zheng, M. Wu, C. Xu, Q. Zhang, L. Wu, Downregulation of CPT2 
+promotes tumorigenesis and chemoresistance to cisplatin in hepatocellular 
+carcinoma, OncoTargets Ther. 11 (2018) 3101–3110. 
+
+[30] X. Guo, A. Wang, W. Wang, Y. Wang, H. Chen, X. Liu, T. Xia, A. Zhang, D. Chen, 
+
+H. Qi, et al., HRD1 inhibits fatty acid oxidation and tumorigenesis by 
+ubiquitinating CPT2 in triple-negative breast cancer, Mol. Oncol. 15 (2) (2021) 
+642–656. 
+
+J. Clin. Invest. 119 (6) (2009) 1429–1437. 
+
+[45] S. Lamouille, J. Xu, R. Derynck, Molecular mechanisms of epithelial-mesenchymal 
+
+transition, Nat. Rev. Mol. Cell Biol. 15 (3) (2014) 178–196. 
+
+[46] E. Powell, D. Piwnica-Worms, H. Piwnica-Worms, Contribution of p53 to 
+
+metastasis, Cancer Discov. 4 (4) (2014) 405–414. 
+
+[47] L. Roger, L. Jullien, V. Gire, P. Roux, Gain of oncogenic function of p53 mutants 
+regulates E-cadherin expression uncoupled from cell invasion in colon cancer cells, 
+J. Cell Sci. 123 (Pt 8) (2010) 1295–1305. 
+
+[48] H. Siemens, R. Jackstadt, S. Hünten, M. Kaller, A. Menssen, U. G¨otz, H. Hermeking, 
+
+miR-34 and SNAIL form a double-negative feedback loop to regulate epithelial- 
+mesenchymal transitions, Cell Cycle (Georgetown, Tex) 10 (24) (2011) 
+4256–4271. 
+
+[49] S.P. Wang, W.L. Wang, Y.L. Chang, C.T. Wu, Y.C. Chao, S.H. Kao, A. Yuan, C. 
+
+W. Lin, S.C. Yang, W.K. Chan, et al., p53 controls cancer cell invasion by inducing 
+the MDM2-mediated degradation of slug, Nat. Cell Biol. 11 (6) (2009) 694–704. 
+[50] B. Vogelstein, D. Lane, A.J. Levine, Surfing the p53 network, Nature 408 (6810) 
+
+(2000) 307–310. 
+
+[31] X. Zhang, Z. Zhang, S. Liu, J. Li, L. Wu, X. Lv, J. Xu, B. Chen, S. Zhao, H. Yang, 
+CPT2 down-regulation promotes tumor growth and metastasis through inducing 
+ROS/NFκB pathway in ovarian cancer, Transl. Oncol. 14 (4) (2021), 101023. 
+[32] W. Wang, J. Wei, H. Zhang, X. Zheng, H. Zhou, Y. Luo, J. Yang, Q. Deng, S. Huang, 
+Z. Fu, PRDX2 promotes the proliferation of colorectal cancer cells by increasing the 
+ubiquitinated degradation of p53, Cell Death Dis. 12 (6) (2021) 605. 
+
+[51] T. Tokino, V.E. Velculescu, D.B. Levy, R. Parsons, J.M. Trent, D. Lin, W.E. Mercer, 
+K.W. Kinzler, B. Vogelstein, W.S. el-Deiry, WAF1, a potential mediator of p53 
+tumor suppression, Cell 75 (4) (1993) 817–825. 
+
+[52] M. Konopleva, G. Martinelli, N. Daver, C. Papayannidis, A. Wei, B. Higgins, M. Ott, 
+J. Mascarenhas, M. Andreeff, MDM2 inhibition: an important step forward in 
+cancer therapy, Leukemia 34 (11) (2020) 2858–2874. 
+
+[33] Z. Ma, S. Lou, Z. Jiang, PHLDA2 regulates EMT and autophagy in colorectal cancer 
+
+[53] L.T. Vassilev, B.T. Vu, B. Graves, D. Carvajal, F. Podlaski, Z. Filipovic, N. Kong, 
+
+via the PI3K/AKT signaling pathway, Aging 12 (9) (2020) 7985–8000. 
+
+[34] K.J. Livak, T.D. Schmittgen, Analysis of relative gene expression data using real- 
+time quantitative PCR and the 2(-Delta Delta C(T)) method, Methods (San Diego, 
+Calif) 25 (4) (2001) 402–408. 
+
+[35] W. Huang, J. Zhu, H. Shi, Q. Wu, C. Zhang, ITGA2 overexpression promotes 
+
+esophageal squamous cell carcinoma aggression via FAK/AKT signaling pathway, 
+OncoTargets Ther. 14 (2021) 3583–3596. 
+
+[36] L.L. Xavier, G.G. Viola, A.C. Ferraz, C. Da Cunha, J.M. Deonizio, C.A. Netto, 
+
+M. Achaval, A simple and fast densitometric method for the analysis of tyrosine 
+hydroxylase immunoreactivity in the substantia nigra pars compacta and in the 
+ventral tegmental area, Brain Res.Protoc. 16 (1–3) (2005) 58–64. 
+
+[37] B. Shao, Y. Feng, H. Zhang, F. Yu, Q. Li, C. Tan, H. Xu, J. Ying, L. Li, D. Yang, The 
+3p14.2 tumour suppressor ADAMTS9 is inactivated by promoter CpG methylation 
+and inhibits tumour cell growth in breast cancer, Journal of cellular and molecular 
+medicine 22 (2) (2018) 1257–1271. 
+
+[38] R. Sun, T. Xiang, J. Tang, W. Peng, J. Luo, L. Li, Z. Qiu, Y. Tan, L. Ye, M. Zhang, et 
+al., 19q13 KRAB zinc-finger protein ZNF471 activates MAPK10/JNK3 signaling but 
+is frequently silenced by promoter CpG methylation in esophageal cancer, 
+Theranostics 10 (5) (2020) 2243–2259. 
+
+[39] J.W. Harper, G.R. Adami, N. Wei, K. Keyomarsi, S.J. Elledge, The p21 cdk- 
+
+interacting protein Cip1 is a potent inhibitor of G1 cyclin-dependent kinases, Cell 
+75 (4) (1993) 805–816. 
+
+[40] K. Simon, Colorectal cancer development and advances in screening, Clin. Interv. 
+
+Aging 11 (2016) 967–976. 
+
+[41] H. Guo, W. Zeng, L. Feng, X. Yu, P. Li, K. Zhang, Z. Zhou, S. Cheng, Integrated 
+
+transcriptomic analysis of distance-related field cancerization in rectal cancer 
+patients, Oncotarget 8 (37) (2017) 61107–61117. 
+
+[42] I. Pastushenko, C. Blanpain, EMT transition states during tumor progression and 
+
+metastasis, Trends Cell Biol. 29 (3) (2019) 212–226. 
+
+[43] T. Brabletz, F. Hlubek, S. Spaderna, O. Schmalhofer, E. Hiendlmeyer, A. Jung, 
+
+T. Kirchner, Invasion and metastasis in colorectal cancer: epithelial-mesenchymal 
+
+U. Kammlott, C. Lukacs, C. Klein, et al., In vivo activation of the p53 pathway by 
+small-molecule antagonists of MDM2, Science (New York, N.Y.) 303 (5659) (2004) 
+844–848. 
+
+[54] J. Momand, D. Jung, S. Wilczynski, J. Niland, The MDM2 gene amplification 
+
+database, Nucleic Acids Res. 26 (15) (1998) 3453–3459. 
+
+[55] N.N. Danial, S.J. Korsmeyer, Cell death: critical control points, Cell 116 (2) (2004) 
+
+205–219. 
+
+[56] K.H. Vousden, p53: death star, Cell 103 (5) (2000) 691–694. 
+[57] J.C. Martinou, R.J. Youle, Mitochondria in apoptosis: Bcl-2 family members and 
+
+mitochondrial dynamics, Dev. Cell 21 (1) (2011) 92–101. 
+
+[58] K. Cosentino, A.J. García-S´aez, MIM through MOM: the awakening of bax and bak 
+
+pores, EMBO J. 37 (17) (2018). 
+
+[59] J. Yang, X. Liu, K. Bhalla, C.N. Kim, A.M. Ibrado, J. Cai, T.I. Peng, D.P. Jones, 
+X. Wang, Prevention of apoptosis by Bcl-2: release of cytochrome c from 
+mitochondria blocked, Science (New York, N.Y.) 275 (5303) (1997) 1129–1132. 
+[60] T. Miyashita, J.C. Reed, Tumor suppressor p53 is a direct transcriptional activator 
+
+of the human bax gene, Cell 80 (2) (1995) 293–299. 
+
+[61] J.E. Chipuk, T. Kuwana, L. Bouchier-Hayes, N.M. Droin, D.D. Newmeyer, 
+
+M. Schuler, D.R. Green, Direct activation of bax by p53 mediates mitochondrial 
+membrane permeabilization and apoptosis, Science (New York, N.Y.) 303 (5660) 
+(2004) 1010–1014. 
+
+[62] P. Li, D. Nijhawan, I. Budihardjo, S.M. Srinivasula, M. Ahmad, E.S. Alnemri, 
+X. Wang, Cytochrome c and dATP-dependent formation of Apaf-1/caspase-9 
+complex initiates an apoptotic protease cascade, Cell 91 (4) (1997) 479–489. 
+[63] Q. Bao, Y. Shi, Apoptosome: a platform for the activation of initiator caspases, Cell 
+
+Death Differ. 14 (1) (2007) 56–65. 
+
+[64] Y.A. Lazebnik, S.H. Kaufmann, S. Desnoyers, G.G. Poirier, W.C. Earnshaw, 
+
+Cleavage of poly(ADP-ribose) polymerase by a proteinase with properties like ICE, 
+Nature 371 (6495) (1994) 346–347. 
+
+CellularSignalling92(2022)11026714

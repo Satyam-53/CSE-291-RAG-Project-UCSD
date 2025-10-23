@@ -1,0 +1,514 @@
+78. Lancet Oncol. 2011 Jun;12(6):527-39. doi: 10.1016/S1470-2045(11)70094-8. Epub
+ 2011 May 11.
+
+TP53 status for prediction of sensitivity to taxane versus non-taxane 
+neoadjuvant chemotherapy in breast cancer (EORTC 10994/BIG 1-00): a randomised 
+phase 3 trial.
+
+Bonnefoi H(1), Piccart M, Bogaerts J, Mauriac L, Fumoleau P, Brain E, Petit T, 
+Rouanet P, Jassem J, Blot E, Zaman K, Cufer T, Lortholary A, Lidbrink E, André 
+S, Litière S, Lago LD, Becette V, Cameron DA, Bergh J, Iggo R; EORTC 10994/BIG 
+1-00 Study Investigators.
+
+Author information:
+(1)Institut Bergonié, Université de Bordeaux, INSERM U916, Bordeaux, France. 
+bonnefoi@bergonie.org
+
+Erratum in
+    Lancet Oncol. 2013 Feb;14(2):e47.
+
+Comment in
+    Lancet Oncol. 2011 Jun;12(6):514-5. doi: 10.1016/S1470-2045(11)70125-5.
+
+BACKGROUND: TP53 has a crucial role in the DNA damage response. We therefore 
+tested the hypothesis that taxanes confer a greater advantage than do 
+anthracyclines on breast cancers with mutated TP53 than in those with wild-type 
+TP53.
+METHODS: In an open-label, phase 3 study, women (age <71 years) with locally 
+advanced, inflammatory, or large operable breast cancers were randomly assigned 
+in a 1:1 ratio to either a standard anthracycline regimen (six cycles of 
+intravenous fluorouracil 500 mg/m², epirubicin 100 mg/m², and cyclophosphamide 
+500 mg/m² every 21 days [FEC100], or fluorouracil 600 mg/m², epirubicin 75 
+mg/m², cyclophosphamide 900 mg/m² [tailored FEC] starting on day 1 and then 
+every 21 days) or a taxane-based regimen (three cycles of docetaxel 100 mg/m², 
+intravenously infused over 1 h on day 1 every 21 days, followed by three cycles 
+of intravenous epirubicin 90 mg/m² and docetaxel 75 mg/m² on day 1 every 21 days 
+[T-ET]) at 42 centres in Europe. Randomisation was by use of a minimisation 
+method that stratified patients by institution and initial tumour stage. The 
+primary endpoint was progression-free survival (PFS) according to TP53 status. 
+Analysis was by intention to treat. This is the final analysis of this trial. 
+The study is registered with ClinicalTrials.gov, number NCT00017095.
+FINDINGS: 928 patients were enrolled in the FEC group and 928 in the T-ET group. 
+TP53 status was not assessable for 183 (20%) patients in the FEC group and 204 
+(22%) patients in the T-ET group mainly because of low tumour-cell content in 
+the biopsy. 361 primary endpoint events were recorded in the FEC group and 314 
+in the T-ET group. In patients with TP53-mutated tumours, 5-year PFS was 59·5% 
+(95% CI 53·4-65·1) in the T-ET group (n=326) and 55·3% (49·2-60·9) in the FEC 
+group (n=318; hazard ratio 0·84, 98% CI 0·63-1·14; p=0·17). In patients with 
+TP53 wild-type tumours, 5-year PFS was 66·8% (95% CI 61·4-71·6) in the T-ET 
+group (n=398) and 64·7% (59·6-69·4) in the FEC group (n=427; 0·89, 98% CI 
+0·68-1·18; p=0·35). For all patients, irrespective of TP53 status, 5-year PFS 
+was 65·1% (95% CI 61·6-68·3) in the T-ET group and 60·8% (57·3-64·2) in the FEC 
+group (0·85, 98% CI 0·71-1·02; p=0·035). At the sites using FEC100 versus T-ET, 
+the most common grade 3 or 4 adverse events were febrile neutropenia (75 [9%] of 
+803 vs 173 [21%] of 809, respectively), and neutropenia (653 [81%] vs 730 [90%], 
+respectively). At the sites using tailored FEC versus T-ET, the most common 
+grade 3 or 4 adverse events were febrile neutropenia (ten [8%] of 118 vs 26 
+[22%] of 116, respectively), and neutropenia (100 [85%] vs 115 [99%], 
+respectively). Two patients died of toxicity during or within 30 days of 
+chemotherapy completion and without disease relapse (one in each group).
+INTERPRETATION: Although TP53 status was prognostic for overall survival, it was 
+not predictive of preferential sensitivity to taxanes. TP53 status tested by use 
+of the yeast assay in this patient population cannot be used to select patients 
+for an anthracycline-based chemotherapy versus a taxane-based chemotherapy.
+FUNDING: US National Cancer Institute, La Ligue Nationale Contre le Cancer, 
+European Union, Pharmacia, and Sanofi-Aventis.
+
+Copyright © 2011 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/S1470-2045(11)70094-8
+PMCID: PMC4172919
+PMID: 21570352 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflicts of interest The other authors declare 
+that they have no conflicts of interest.
+
+
+79. PLoS One. 2011 Apr 27;6(4):e19249. doi: 10.1371/journal.pone.0019249.
+
+Predictive and prognostic impact of TP53 mutations and MDM2 promoter genotype in 
+primary breast cancer patients treated with epirubicin or paclitaxel.
+
+Chrisanthar R(1), Knappskog S, Løkkevik E, Anker G, Ostenstad B, Lundgren S, 
+Risberg T, Mjaaland I, Skjønsberg G, Aas T, Schlichting E, Fjösne HE, Nysted A, 
+Lillehaug JR, Lønning PE.
+
+Author information:
+(1)Section of Oncology, Institute of Medicine, University of Bergen, Bergen, 
+Norway.
+
+BACKGROUND: TP53 mutations have been associated with resistance to 
+anthracyclines but not to taxanes in breast cancer patients. The MDM2 promoter 
+single nucleotide polymorphism (SNP) T309G increases MDM2 activity and may 
+reduce wild-type p53 protein activity. Here, we explored the predictive and 
+prognostic value of TP53 and CHEK2 mutation status together with MDM2 SNP309 
+genotype in stage III breast cancer patients receiving paclitaxel or epirubicin 
+monotherapy.
+EXPERIMENTAL DESIGN: Each patient was randomly assigned to treatment with 
+epirubicin 90 mg/m(2) (n = 109) or paclitaxel 200 mg/m(2) (n = 114) every 3rd 
+week as monotherapy for 4-6 cycles. Patients obtaining a suboptimal response on 
+first-line treatment requiring further chemotherapy received the opposite 
+regimen. Time from last patient inclusion to follow-up censoring was 69 months. 
+Each patient had snap-frozen tumor tissue specimens collected prior to 
+commencing chemotherapy.
+PRINCIPAL FINDINGS: While TP53 and CHEK2 mutations predicted resistance to 
+epirubicin, MDM2 status did not. Neither TP53/CHEK2 mutations nor MDM2 status 
+was associated with paclitaxel response. Remarkably, TP53 mutations (p = 0.007) 
+but also MDM2 309TG/GG genotype status (p = 0.012) were associated with a poor 
+disease-specific survival among patients having paclitaxel but not patients 
+having epirubicin first-line. The effect of MDM2 status was observed among 
+individuals harbouring wild-type TP53 (p = 0.039) but not among individuals with 
+TP53 mutated tumors (p>0.5).
+CONCLUSION: TP53 and CHEK2 mutations were associated with lack of response to 
+epirubicin monotherapy. In contrast, TP53 mutations and MDM2 309G allele status 
+conferred poor disease-specific survival among patients treated with primary 
+paclitaxel but not epirubicin monotherapy.
+
+DOI: 10.1371/journal.pone.0019249
+PMCID: PMC3083424
+PMID: 21556366 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing Interests: The authors have declared 
+that no competing interests exist.
+
+
+80. Breast Cancer Res Treat. 2012 Apr;132(3):781-91. doi:
+10.1007/s10549-011-1412-7.  Epub 2011 Mar 4.
+
+TP53 genomics predict higher clinical and pathologic tumor response in operable 
+early-stage breast cancer treated with docetaxel-capecitabine ± trastuzumab.
+
+Glück S(1), Ross JS, Royce M, McKenna EF Jr, Perou CM, Avisar E, Wu L.
+
+Author information:
+(1)Division of Hematology/Oncology, Department of Medicine, Sylvester 
+Comprehensive Cancer Center, University of Miami, Leonard M. Miller School of 
+Medicine, 1475 NW 12th Ave., Suite 3510, Miami, FL 33136, USA. 
+sgluck@med.miami.edu
+
+To determine rates of pathologic complete response (pCR) and near-complete 
+response (npCR) in operable early-stage breast cancer using neoadjuvant 
+capecitabine plus docetaxel, with or without trastuzumab, and investigate 
+biomarkers of pathologic response. Women with operable early-stage breast cancer 
+were enrolled in a multicenter study of neoadjuvant therapy for four 21-day 
+cycles with capecitabine 825 mg/m(2) plus docetaxel 75 mg/m(2) if human 
+epidermal growth factor receptor 2 (HER2)-negative, and additionally, a standard 
+trastuzumab dose if HER2-positive. Primary endpoint was rate of pCR and npCR. 
+Secondary endpoints were potential associations between response and TP53 
+mutational analysis using the AmpliChip TP53 assay or immunohistochemical (IHC) 
+staining, and genomic subtyping using the PAM50 assay. In patients who completed 
+treatment and surgery, pCR and npCR rates were 15.8% in patients with 
+HER2-negative and 50% in patients with HER2-positive tumors. Stratified by 
+genomic subtype, patients of HER2-enriched subtype had the best response 
+(72.2%), and luminal A (9.1%) and B (4.8%) subtypes, the poorest. Of 147 
+patients tested for TP53 mutations using the AmpliChip assay, 78 variants were 
+detected; 55 were missense. Response rate among TP53-mutated patients was 30%, 
+significantly higher than TP53 wild-type patients (10%; P = 0.0032). Concordance 
+between AmpliChip mutation status versus TP53 IHC staining was 65%, with 
+AmpliChip status predictive of response and IHC status not predictive. 
+Capecitabine plus docetaxel in HER2-negative, and with trastuzumab in 
+HER2-positive patients, provided a good response rate with four cycles of 
+non-anthracycline-containing therapy. TP53 mutational analysis and genomic 
+subtyping were predictive.
+
+DOI: 10.1007/s10549-011-1412-7
+PMID: 21373875 [Indexed for MEDLINE]
+
+
+81. Med Oncol. 2012 Jun;29(2):472-8. doi: 10.1007/s12032-011-9875-2. Epub 2011
+Mar  2.
+
+The TP53 gene polymorphisms and survival of sporadic breast cancer patients.
+
+Bišof V(1), Salihović MP, Narančić NS, Skarić-Jurić T, Jakić-Razumović J, 
+Janićijević B, Rudan P.
+
+Author information:
+(1)Department of Oncology, Clinical Hospital Centre Zagreb, Kišpatićeva 12, 10 
+000 Zagreb, Croatia. vesna.bisof@zg.t-com.hr
+
+The TP53 gene polymorphisms, Arg72Pro and PIN3 (+16 bp), can have prognostic and 
+predictive value in different cancers including breast cancer. The aim of the 
+present study is to investigate a potential association between different 
+genotypes of these polymorphisms and clinicopathological variables with survival 
+of breast cancer patients in Croatian population. Ninety-four women with 
+sporadic breast cancer were retrospectively analyzed. Median follow-up period 
+was 67.9 months. The effects of basic clinical and histopathological 
+characteristics of tumor on survival were tested by Cox's proportional hazards 
+regression analysis. The TNM stage was associated with overall survival by 
+Kaplan-Meier analysis, univariate, and multivariate Cox's proportional hazards 
+regression analysis, while grade was associated with survival by Kaplan-Meier 
+analysis and univariate Cox's proportional hazards regression analysis. 
+Different genotypes of the Arg72Pro and PIN3 (+16 bp) polymorphisms had no 
+significant impact on survival in breast cancer patients. However, in subgroup 
+of patients treated with chemotherapy without anthracycline, the A2A2 genotype 
+of the PIN3 (+16 bp) polymorphism was associated with poorer overall survival 
+than other genotypes by Kaplan-Meier analysis (P = 0.048). The TP53 
+polymorphisms, Arg72Pro and PIN3 (+16 bp), had no impact on survival in 
+unselected sporadic breast cancer patients in Croatian population. However, the 
+results support the role of the A2A2 genotype of the PIN3 (+16 bp) polymorphism 
+as a marker for identification of patients that may benefit from 
+anthracycline-containing chemotherapy.
+
+DOI: 10.1007/s12032-011-9875-2
+PMID: 21365326 [Indexed for MEDLINE]
+
+
+82. Anticancer Res. 2008 Sep-Oct;28(5B):3147-52.
+
+Invasive breast cancer treated with taxol and epirubicin neo-adjuvant 
+chemotherapy: the role in the outcome of the "crosstalk" between Erb receptors 
+and p53.
+
+Sarid D(1), Ron IG, Shoshan L, Barnea I, Shina S, Baratz M, Greenberg J, 
+Merimsky O, Ben-Yosef R, Lev-Ari S, Keidar Y, Yaal-Hahoshen N.
+
+Author information:
+(1)Department of Oncology, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel.
+
+PURPOSE: To correlate p53 and ErbB receptors status with disease-free survival 
+(DFS) and overall survival (OS) in locally advanced breast cancer.
+PATIENTS AND METHODS: Sixty patients were included in a single-center, 
+open-label, phase II trial (1998-2003). Analysis of Erb receptors and p53 status 
+and estrogen receptor/progesterone receptor data were available for 33 patients. 
+Neoadjuvant epirubicin 75 mg/m2 and paclitaxel 175-200 mg/m2 were administered 
+every 21 days. The patients underwent surgery and radiation therapy and adjuvant 
+chemo/hormonotherapy.
+RESULTS: Approximately two thirds of the patients demonstrated overexpression of 
+ErbB receptors and had mutant p53 overexpression. The disease recurred in 11/33 
+patients and 7 died (median follow-up 56 months). Detrimental effects on OS were 
+established in cases of combined defective p53 expression and ErbB1-ErbB3 
+heterodimeric receptor overexpression. In contrast, normal p53 together with the 
+same overexpressed heterodimeric combination of ErbB receptors showed no 
+statistically significant effect.
+CONCLUSION: In terms of the clinical impact of combinations of ErbB receptors 
+with or without mutant p53, only the overexpressed various ErbB1-ErbB3 dimeric 
+combinations and the ErbB1/ErbB2/ErbB3 triplet combination with mutated p53 were 
+related to a significantly poorer outcome. This observation may help in the 
+development of new strategies required for blocking these molecular pathways and 
+improving the outcome of patients with locally advanced breast cancer.
+
+PMID: 19031973 [Indexed for MEDLINE]
+
+
+83. Clin Cancer Res. 2008 Oct 15;14(20):6602-9. doi:
+10.1158/1078-0432.CCR-08-0647.
+
+Chemosensitivity and stratification by a five monoclonal antibody 
+immunohistochemistry test in the NSABP B14 and B20 trials.
+
+Ross DT(1), Kim CY, Tang G, Bohn OL, Beck RA, Ring BZ, Seitz RS, Paik S, 
+Costantino JP, Wolmark N.
+
+Author information:
+(1)Applied Genomics, Inc., Burlingame, California 94010, USA. 
+dross@applied-genomics.com
+
+PURPOSE: To test the association between risk stratification and outcome in a 
+prospectively designed, blinded retrospective study using tissue arrays of 
+available paraffin blocks from the estrogen receptor-expressing, node-negative 
+samples from the National Surgical Adjuvant Breast and Bowel Project B14 and B20 
+tamoxifen and chemotherapy trials.
+EXPERIMENTAL DESIGN: Tissue arrays were stained by immunohistochemistry 
+targeting p53, NDRG1, SLC7A5, CEACAM5, and HTF9C. Risk stratification was done 
+using predefined scoring rules, algorithm for combining scores, and cutoff 
+points for low-risk, moderate-risk, and high-risk patient strata.
+RESULTS: In a univariate Cox model, this test was significantly associated with 
+recurrence-free interval [HR, 1.3 (95% confidence interval, 1.1-1.6); P = 
+0.006]. In a multivariate model it contributed information independent of age, 
+tumor size, and menopausal status (P = 0.007). The Kaplan-Meier estimates of the 
+proportion of recurrence-free after 10 years were 73%, 86%, and 85% for the 
+high-risk, moderate-risk, and low-risk groups (P = 0.001). The Kaplan-Meier 
+estimates of the breast-cancer-specific-death rate were 23%, 10%, and 9% (P < 
+0.0001). Exploratory analysis in patients >/=60 years old showed Kaplan-Meier 
+estimates of the proportion of recurrence-free of 78%, 89%, and 92%. Both 
+high-risk and low-risk groups showed significant improvement on treatment with 
+cytotoxic chemotherapy.
+CONCLUSIONS: Immunohistochemistry using five monoclonal antibodies assigns 
+breast cancer patients to a risk index that was significantly associated with 
+clinical outcome among the estrogen receptor-expressing, node-negative 
+tamoxifen-treated patients. It seems that the test may be able to identify 
+patients who have greater absolute benefit from adjuvant chemotherapy compared 
+with unstratified patient populations. Exploratory analysis suggests that this 
+test will be most useful in clinical decision making for postmenopausal 
+patients.
+
+DOI: 10.1158/1078-0432.CCR-08-0647
+PMCID: PMC2722068
+PMID: 18927301 [Indexed for MEDLINE]
+
+
+84. Acta Oncol. 2008;47(4):608-17. doi: 10.1080/02841860802050746.
+
+Impact of BCL2 and p53 on postmastectomy radiotherapy response in high-risk 
+breast cancer. A subgroup analysis of DBCG82 b&c.
+
+Kyndi M(1), Sørensen FB, Knudsen H, Alsner J, Overgaard M, Nielsen HM, Overgaard 
+J.
+
+Author information:
+(1)Department of Experimental Clinical Oncology, Aarhus University Hospital, 
+Aarhus, Denmark.
+
+PURPOSE: To examine p53 and BCL2 expression in high-risk breast cancer patients 
+randomized to postmastectomy radiotherapy (PMRT).
+PATIENTS AND METHODS: The present analysis included 1 000 of 3 083 high-risk 
+breast cancer patients randomly assigned to PMRT in the DBCG82 b&c studies. 
+Tissue microarray sections were stained with immunohistochemistry for p53 and 
+BCL2. Median potential follow-up was 17 years. Clinical endpoints were 
+locoregional recurrence (LRR), distant metastases (DM), overall mortality, and 
+overall survival (OS). Statistical analyses included Kappa statistics, chi(2) or 
+exact tests, Kaplan-Meier probability plots, Log-rank test, and Cox univariate 
+and multivariate regression analyses.
+RESULTS: p53 accumulation was not significantly associated with increased 
+overall mortality, DM or LRR probability in univariate or multivariate Cox 
+regression analyses. Kaplan-Meier probability plots showed reduced OS and 
+improved DM and LRR probabilities after PMRT within subgroups of both p53 
+negative and p53 positive patients. Negative BCL2 expression was significantly 
+associated with increased overall mortality, DM and LRR probability in 
+multivariate Cox regression analyses. Kaplan-Meier probability plots showed a 
+significantly improved overall survival after PMRT for the BCL2 positive 
+subgroup, whereas practically no survival improvement was seen after PMRT for 
+the BCL2 negative subgroup. In multivariate analysis of OS, however, no 
+significant interaction was found between BCL2 and randomization status. 
+Significant reductions in LRR probability after PMRT were recorded within both 
+the BCL2 positive and BCL2 negative subgroups.
+CONCLUSION: p53 was not associated with survival after radiotherapy in high-risk 
+breast cancer, but BCL2 might be.
+
+DOI: 10.1080/02841860802050746
+PMID: 18465329 [Indexed for MEDLINE]
+
+
+85. RETRACTED ARTICLE
+
+Lancet Oncol. 2007 Dec;8(12):1071-1078. doi: 10.1016/S1470-2045(07)70345-5. Epub 
+2007 Nov 19.
+
+Validation of gene signatures that predict the response of breast cancer to 
+neoadjuvant chemotherapy: a substudy of the EORTC 10994/BIG 00-01 clinical 
+trial.
+
+Bonnefoi H(1), Potti A(2), Delorenzi M(3), Mauriac L(4), Campone M(5), 
+Tubiana-Hulin M(6), Petit T(7), Rouanet P(8), Jassem J(9), Blot E(10), Becette 
+V(6), Farmer P(3), André S(11), Acharya CR(2), Mukherjee S(2), Cameron D(12), 
+Bergh J(13), Nevins JR(2), Iggo RD(14).
+
+Author information:
+(1)Geneva University Hospital, Geneva, Switzerland; European Organization for 
+Research and Treatment of Cancer (EORTC), Brussels, Belgium; Swiss Group for 
+Clinical Cancer Research (SAKK), Berne, Switzerland. Electronic address: 
+bonnefoi@bergonie.org.
+(2)Duke Institute for Genome Sciences and Policy, and Duke University Medical 
+Center, Durham, NC, USA.
+(3)Swiss Institute for Experimental Cancer Research (ISREC), National Centre of 
+Competence in Research (NCCR), Epalinges, Switzerland; Swiss Institute for 
+Bioinformatics (SIB), Lausanne, Switzerland.
+(4)Bergonié Institute, Bordeaux, France.
+(5)René Gauducheau Centre, Nantes, France.
+(6)René Huguenin Centre, St-Cloud, France.
+(7)Paul Strauss Centre, Strasbourg, France.
+(8)Paul Lamarque Centre, Montpellier, France.
+(9)Medical University, Gdansk, Poland.
+(10)Henri Becquerel Centre, Rouen, France.
+(11)Swiss Institute for Experimental Cancer Research (ISREC), National Centre of 
+Competence in Research (NCCR), Epalinges, Switzerland.
+(12)Anglo-Celtic Cooperative Oncology Group (ACCOG), Edinburgh University, 
+Edinburgh, UK.
+(13)Swedish Breast Cancer Group (SweBCG), Karolinska Institute and Radiumhemmet, 
+Karolinska University Hospital, Stockholm, Sweden.
+(14)Swiss Institute for Experimental Cancer Research (ISREC), National Centre of 
+Competence in Research (NCCR), Epalinges, Switzerland; University of St Andrews, 
+Scotland, UK.
+
+Retraction in
+    Lancet Oncol. 2011 Feb;12(2):116. doi: 10.1016/S1470-2045(11)70011-0.
+
+Expression of concern in
+    Lancet Oncol. 2010 Sep;11(9):813-4. doi: 10.1016/S1470-2045(10)70185-6.
+
+Comment in
+    Lancet Oncol. 2007 Dec;8(12):1044-1045. doi: 10.1016/S1470-2045(07)70349-2.
+    . 2015 Nov 20:NOT-OD-16-021.
+
+BACKGROUND: We have previously described gene-expression signatures that predict 
+growth inhibitory and cytotoxic effects of common chemotherapeutic drugs in 
+vitro. The aim of this study was to confirm the validity of these 
+gene-expression signatures in a large series of patients with 
+oestrogen-receptor-negative breast tumours who were treated in a phase III 
+neoadjuvant clinical trial.
+METHODS: This trial compares a non-taxane regimen (fluorouracil, epirubicin, and 
+cyclophosphamide [FEC] for six cycles) with a taxane regimen (docetaxel for 
+three cycles followed by epirubicin plus docetaxel [TET] for three cycles) in 
+women with oestrogen-receptor-negative breast cancer. The primary endpoint of 
+the study is the difference in progression-free survival based on TP53 status 
+and will be reported later. Predicting response with gene signatures was a 
+planned secondary endpoint of the trial and is reported here. Pathological 
+complete response, defined as complete disappearance of the tumour with no more 
+than a few scattered tumour cells detected by the pathologist in the resection 
+specimen, was used to assess chemosensitivity. RNA was prepared from sections of 
+frozen biopsies taken at diagnosis and hybridised to Affymetrix X3P microarrays. 
+In-vitro single-agent drug sensitivity signatures were combined to obtain FEC 
+and TET regimen-specific signatures. This study is registered on the clinical 
+trials site of the US National Cancer Institute website 
+http://www.clinicaltrials.gov/ct/show/NCT00017095.
+FINDINGS: Of 212 patients with oestrogen-receptor-negative tumours assessed, 87 
+patients were excluded. 125 oestrogen-receptor-negative tumours (55 that showed 
+pathological complete responses) were tested: 66 in the FEC group (28 that 
+showed pathological complete responses) and 59 in the TET group (27 that showed 
+pathological complete responses). The regimen-specific signatures significantly 
+predicted pathological complete response in patients treated with the 
+appropriate regimen (p<0.0001). The FEC predictor had a sensitivity of 96% (27 
+of 28 patients [95% CI 82-99]), specificity of 66% (25 of 38 patients [50-79]), 
+positive predictive value (PPV) of 68% (27 of 40 patients [52-80]), and negative 
+predictive value (NPV) of 96% (25 of 26 patients [81-99]). The TET predictor had 
+a sensitivity of 93% (25 of 27 patients [77-98]), specificity 69% (22 of 32 
+patients [51-82]), PPV of 71% (25 of 35 patients [55-84]), and NPV of 92% (22 of 
+24 patients [74-98]). Analysis of tumour size, grade, nodal status, age, and 
+regimen-specific signatures showed that the genomic signatures were the only 
+independent variables predicting pathological complete response at p<0.01. 
+Selection of patients with these signatures would increase the proportion of 
+patients with pathological complete responses from 44% to around 70% in the 
+patients studied here.
+INTERPRETATION: We have validated the use of regimen-specific drug sensitivity 
+signatures in the context of a multicentre randomised trial. The high NPV of 
+both signatures may allow early selection of patients with breast cancer who 
+should be considered for trials with new drugs.
+
+DOI: 10.1016/S1470-2045(07)70345-5
+PMID: 18024211 [Indexed for MEDLINE]
+
+
+86. Cancer Res. 2001 Mar 15;61(6):2505-12.
+
+Influence of TP53 gene alterations and c-erbB-2 expression on the response to 
+treatment with doxorubicin in locally advanced breast cancer.
+
+Geisler S(1), Lønning PE, Aas T, Johnsen H, Fluge O, Haugen DF, Lillehaug JR, 
+Akslen LA, Børresen-Dale AL.
+
+Author information:
+(1)Department of Medicine, Haukeland University Hospital, Bergen, Norway.
+
+TP53 status [mutations, immunostaining, and loss of heterozygosity (LOH)], 
+expression of c-erbB-2, bcl-2, and histological grading were correlated to the 
+response to doxorubicin monotherapy (14 mg/m2) administered weekly to 90 
+patients with locally advanced breast cancer. Mutations in the TP53 gene, in 
+particular those affecting or disrupting the loop domains L2 or L3 of the p53 
+protein, were associated with lack of response to chemotherapy (P = 0.063 for 
+all mutations and P = 0.008 for mutations affecting L2/L3, respectively). 
+Similarly, expression of c-erbB-2 (P = 0.041), a high histological grade (P = 
+0.023), and lack of expression of bcl-2 (P = 0.018) all predicted 
+chemoresistance. No statistically significant association between either p53 
+immunostaining or TP53 LOH and response to therapy was recorded, despite the 
+finding that both were associated with TP53 mutation status (p53 immunostaining, 
+P < 0.001; LOH, P = 0.021). Lack of immunostaining for p53 despite mutation of 
+the TP53 gene was particularly seen in tumors harboring nonsense mutations or 
+deletions/splices (7 of 10 negative for staining compared with 4 of 16 with 
+missense mutations). TP53 mutations (total/affecting L2/L3 domains) were 
+associated with expression of c-erbB-2 (P < 0.001 for both), high histological 
+grade (P = 0.001 and P = 0.025), and bcl-2 negativity (P = 0.003 and P = 0.002). 
+TP53 mutations, histological grade, and expression of bcl-2 (but not LOH or 
+c-erbB-2 expression) all predicted for relapse-free as well as breast 
+cancer-specific survival in univariate analysis (Ps between <0.0001 and 0.0155), 
+but only tumor grade was found to be predictive in multivariate analysis (P = 
+0.01 and P = 0.0007, respectively). Our data are consistent with the hypothesis 
+that certain TP53 mutations predict for resistance to doxorubicin in breast 
+cancer patients. However, the observation that the majority of patients with 
+TP53 mutations affecting or disrupting the L2/L3 domains with LOH in addition (n 
+= 12) obtained a partial response (n = 4) or stabilization of disease (n = 5) 
+during chemotherapy suggests redundant mechanisms to compensate for loss of p53 
+function. Our findings are consistent with the hypothesis that other defects may 
+act in concert with loss of p53 function, causing resistance to doxorubicin in 
+breast cancers.
+
+PMID: 11289122 [Indexed for MEDLINE]
+
+
+87. Clin Cancer Res. 2000 Jan;6(1):50-6.
+
+TP53 mutation and p53 overexpression for prediction of response to neoadjuvant 
+treatment in breast cancer patients.
+
+Kandioler-Eckersberger D(1), Ludwig C, Rudas M, Kappel S, Janschek E, Wenzel C, 
+Schlagbauer-Wadl H, Mittlböck M, Gnant M, Steger G, Jakesz R.
+
+Author information:
+(1)Department of Surgery, University of Vienna Medical School, Austra. 
+Daniela.Kandioler@akh-wien.ac.at
+
+The value of p53 to predict the cytotoxic effect of two commonly used 
+chemotherapy regimens was assessed in patients with advanced breast cancer. 
+Response to a DNA-damaging combination therapy [fluorouracil, epirubicin, 
+cyclophosphamide (FEC] considered to induce p53-dependent apoptosis was compared 
+with a microtubule stabilizing therapy (paclitaxel) expected to be independent 
+of p53 function. The p53 status of the patients' breast tumors was assessed 
+using both immunohistochemistry (IHC) and direct sequencing of the entire p53 
+gene. p53 findings were correlated with treatment response, and linkage between 
+p53 function and cellular response was assessed by terminal deoxynucleotidyl 
+transferase-mediated nick end labeling assay. In a series of 67 breast tumors, 
+19% had TP53 gene mutations, 40% had a positive p53 IHC, and 12% had both. In 
+the FEC group, treatment failure was related to both the presence of TP53 gene 
+mutations (P = 0.0029) and a positive IHC (P < 0.0001). Apoptosis was almost 
+exclusively found in tumors having normal p53 in both parameters (P < 0.0001). 
+In the paclitaxel group, treatment response was neither related to apoptosis nor 
+to normal p53. Combination of sequencing and IHC results revealed a significant 
+association between abnormal p53 and response to paclitaxel (P = 0.011). We 
+found TP53 mutations, as well as p53 protein overexpression, to be associated 
+with response to chemotherapy. Whereas clinical response to FEC was found to be 
+dependent on normal p53, the cytotoxicity of paclitaxel was related to defective 
+p53. The efficiency of paclitaxel during mitosis might be supported by lack of 
+G1 arrest due to p53 deficiency. Therefore, patients with p53-deficient tumors 
+may benefit from paclitaxel.
+
+PMID: 10656431 [Indexed for MEDLINE]

@@ -1,0 +1,616 @@
+Perspective
+A Second Career for p53 as A Broad-Spectrum Antiviral?
+
+Joe B. Harford
+
+SynerGene Therapeutics, Inc., Potomac, MD 20854, USA; harfordj@synergeneus.com
+
+Abstract: As the world exits the global pandemic caused by the previously unknown SARS-CoV-2,
+we also mark the 30th anniversary of p53 being named “molecule of the year” by Science based on its
+role as a tumor suppressor. Although p53 was originally discovered in association with a viral protein,
+studies on its role in preventing carcinogenesis have far overshadowed research related to p53(cid:48)s role in
+viral infections. Nonetheless, there is an extensive body of scientiﬁc literature demonstrating that p53
+is a critical component of host immune responses to viral infections. It is striking that diverse viruses
+have independently developed an impressive repertoire of varied mechanisms to counter the host
+defenses that are mediated by and through p53. The variety of ways developed by viruses to disrupt
+p53 in their hosts attests to the protein’s importance in combatting viral pathogens. The present
+perspective aims to make the case that p53 ought to be considered a virus suppressor in addition to a
+tumor suppressor. It is hoped that additional research aimed at more fully understanding the role of
+p53 in antiviral immunity will result in the world being better positioned for the next pandemic than
+it was when SARS-CoV-2 emerged to produce COVID-19.
+
+Keywords: p53; TP53; gene therapy; tumor suppressor; innate immunity; host antiviral defenses;
+broad-spectrum antiviral
+
+1. The Role of p53 in Cancer and the Potential of TP53 Gene Therapy
+
+When p53 was named “molecule of the year” by Science in December 1993, the ac-
+companying editorial stated “p53 and its fellow tumor suppressors are generating an
+excitement that suggests prevention now and hope for a cure of a terrible killer in the
+not-too-distant future” [1]. Although the “not-too-distant future” was not deﬁned in the
+editorial, cancer is still with us, and researchers are still seeking to understand how p53
+functions as a tumor suppressor and how best to translate this understanding to beneﬁt
+cancer patients [2,3]. Contributing to the excitement around p53 back then were reports by
+two independent groups that simultaneously published papers in Nature [4] and Science [5]
+demonstrating that germline alterations in the TP53 gene explained the propensity to
+develop cancers within what have come to be called Li-Fraumeni families. In the ensuing
+years, p53 solidiﬁed its reputation as a tumor suppressor with more than half of sporadic
+human tumors carrying some form of TP53 alteration [6]. Even in tumors that have wild-
+type p53, dysregulations in pathways either upstream or downstream of p53 are frequently
+seen.
+
+Based on p53’s tumor suppressor activity, TP53 gene therapy to restore wild-type
+p53 has long been envisioned as a potential approach in cancer treatment [3]. Both viral
+and non-viral gene delivery technologies have been employed to achieve expression of
+exogenous wild-type p53 in tumors. One example of TP53 gene therapy is found in the
+investigational agent termed SGT-53, which is an immuno-lipid nanoparticle comprising a
+cationic liposome targeted via a single chain antibody fragment recognizing the human
+transferrin receptor and carrying as its payload a plasmid expression vector encoding
+human wild-type p53 [7,8]. SGT-53 has been shown to be well tolerated by patients in two
+Phase I trials [9,10] and is now being assessed in patients with advanced pancreatic cancers
+in a Phase II trial (ClinicalTrials.gov Identiﬁer: NCT02340117; accessed 13 November 2023).
+
+Citation: Harford, J.B. A Second
+
+Career for p53 as A Broad-Spectrum
+
+Antiviral? Viruses 2023, 15, 2377.
+
+https://doi.org/10.3390/v15122377
+
+Academic Editors: Parikshit Bagchi
+
+and Anupam Mukherjee
+
+Received: 16 November 2023
+
+Revised: 30 November 2023
+
+Accepted: 1 December 2023
+
+Published: 3 December 2023
+
+Copyright: © 2023 by the author.
+
+Licensee MDPI, Basel, Switzerland.
+
+This article is an open access article
+
+distributed under
+
+the terms and
+
+conditions of the Creative Commons
+
+Attribution (CC BY) license (https://
+
+creativecommons.org/licenses/by/
+
+4.0/).
+
+Viruses 2023, 15, 2377. https://doi.org/10.3390/v15122377
+
+https://www.mdpi.com/journal/viruses
+
+virusesViruses 2023, 15, 2377
+
+2 of 9
+
+2. The Function of p53 as a Pleiotropic Transcription Factor
+
+One of the more useful and inﬂuential descriptions of cancer envisions the disease
+as having ten hallmarks that include alterations in metabolism, angiogenesis, genetic
+instability, immune evasion, cell death, replicative immortality, sustained proliferation,
+invasion/metastasis, inﬂammation, and the tumor microenvironment [11]. Each of these
+hallmarks have been individually linked to p53 [12], reinforcing the notion that p53(cid:48)s ability
+to act as a tumor suppressor derives from its inﬂuence on multiple cellular pathways. We
+now know that p53 acts as a pleiotropic transcription factor in regulating a relatively large
+number of downstream target genes involved in cell cycle arrest, senescence, DNA repair,
+cellular metabolism, and cell death [13]. One function of p53 that has drawn considerable
+attention from researchers in the ﬁeld of oncology over the last three decades is its role in
+responses to the DNA damage caused by ionizing radiation and certain chemotherapeutic
+agents that are used in the treatment of cancer patients. When cells are exposed to ionizing
+radiation, a frequently used stimulus of p53 activity, induction of about 500 different genes
+and repression of a smaller number of genes are observed [14,15]. Both ionizing radiation
+and certain chemotherapeutic agents can lead to double-strand breaks in cellular DNA
+(see Figure 1, upper panel), with p53 being a major determinant of this transcriptional
+response [16]. The fate of cells with damaged DNA can be either DNA repair and emergence
+from cell cycle arrest or irreversible growth arrest and death via apoptosis [2,3]. Although
+the cellular fate that prevails differs from one cell type to another, both of these DNA
+damage responses are regulated transcriptionally by p53. The familiar moniker “guardian
+of the genome” [17] derives from the DNA damage responses regulated transcriptionally by
+p53. Traditional cancer treatment modalities can induce DNA damage; thus, disruption of
+p53 tends to render tumors less sensitive to radiotherapy and certain chemotherapies [18].
+The resultant radio- and chemoresistance of tumors contributes to the association seen
+between p53 disruption and poorer patient outcomes in a number of cancer types [19–21].
+Restoration of p53 in tumors via gene therapy has long been seen as a way of sensitizing
+cancers to these traditional treatment modalities [22], and TP53 gene therapy has been
+most often envisioned in the context of a combination therapy involving chemotherapy
+and/or radiotherapy. For example, the previously mentioned Phase II trial of SGT-53
+(ClinicalTrials.gov Identiﬁer: NCT02340117; accessed 13 November 2023) combines TP53
+gene therapy with the standard-of-care chemotherapeutic regimen for advanced pancreatic
+cancers.
+
+As the age of immunotherapies in oncology has emerged, it has become clear that
+disruption of p53 can also affect the immune system’s ability to identify and destroy tu-
+mors [23,24], which is central to effective cancer immunotherapy. A current mainstay of
+immunotherapy against tumors is the use of immune checkpoint inhibitors (ICIs) [25,26]. The
+ability of tumor-targeted TP53 gene therapy to augment the antitumor efﬁcacy of ICIs has
+now been documented in several preclinical models [27–31]. As with the more traditional
+cancer treatment modalities, the response (or lack thereof) of tumors to immunotherapy
+is governed by an elaborate network of expressed genes, many of which are regulated
+directly or indirectly by p53, the pleiotropic transcription factor. Available data suggest
+that restoration of p53 via gene therapy alters the expression of a number of immunogenic
+markers on the surface of tumor cells and induces immunogenic cell death to render tumors
+more immunologically “hot”, i.e., responsive to immunotherapy (see Figure 1, middle
+panel) [27–31]. The pleiotropic nature of p53 as a transcription factor means that the loss
+or alteration of p53 would be expected to impact multiple cellular pathways involved in
+antitumor immune responses. It follows that any restoration of p53 function could move
+cancer cells back toward normalcy on multiple fronts, including not only their response
+to traditional therapies (i.e., radiotherapy and chemotherapy) but also to immunotherapy
+based on ICIs. Indeed, it appears that multiple p53-regulated genes participate in turning
+an immunologically “cold” tumor “hot” [27–31]. An attractive aspect of p53 restoration via
+gene therapy is that one can actually be agnostic as to which of the many p53-regulated
+genes are contributing to enhanced responses of tumors expressing exogenous p53. With
+
+Viruses 2023, 15, 2377
+
+3 of 9
+
+p53 restoration comes all of the downstream genes and pathways that appear to play an
+important role in improving responsiveness to both more traditional therapeutic regimens
+and antitumor immunotherapies.
+
+Figure 1. P53 serves as both “guardian of the genome” and “guardian of immune integrity”. Upper
+panel: Double-strand DNA breaks can occur when cells are exposed to environmental stresses,
+including ionizing radiation or DNA-modifying chemicals used in cancer treatments. In response
+to the DNA damage, p53 modulates the expression of many genes, including those involved in cell
+cycle arrest, DNA repair, and apoptosis. The fate of the damaged cell can either be an exit from
+cell cycle arrest with its DNA repaired or apoptotic death. In either case, the genome is effectively
+“guarded” [17]. Middle panel: Tumor cells with disruption of p53-mediated pathways can evade
+immune surveillance to qualify as an immunologically “cold” tumor, i.e., one that does not trigger a
+robust immune response and is refractory to cancer immunotherapy. Restoration of p53 (e.g., via gene
+therapy) can convert the “cold” tumor into an immunologically “hot” tumor that is more responsive
+to the immune checkpoint inhibitors (ICIs) used in cancer immunotherapy. Lower panel: Infecting
+viruses of diverse types seek to disrupt p53-mediated host pathways to create an environment that is
+more “virus-friendly”, i.e., favoring their replication and spread [32]. Maintaining or elevating p53
+(e.g., via gene therapy) would be expected to enhance host antiviral responses mediated by interferons
+(IFNs) and/or trigger apoptosis (“altruistic suicide” [33]), thereby limiting viral propagation.
+
+3. The Role of p53 in Host Defenses against Viral Infections
+
+The same p53 that generated all the excitement three decades ago as a tumor suppres-
+sor is also a virus suppressor, and this fact should generate some excitement of its own.
+The discovery of p53 in 1979 was in the context of its association with a viral protein (SV40
+large T-antigen) [2]. In addition, a linkage between p53 and infectious diseases was evident
+in early studies with p53 knockout mice. These mice developed tumors as anticipated,
+
+Viruses 2023, 15, x FOR PEER REVIEW 3 of 10   in turning an immunologically “cold” tumor “hot” [27–31]. An attractive aspect of p53 restoration via gene therapy is that one can actually be agnostic as to which of the many p53-regulated genes are contributing to enhanced responses of tumors expressing exoge-nous p53. With p53 restoration comes all of the downstream genes and pathways that appear to play an important role in improving responsiveness to both more traditional therapeutic regimens and antitumor immunotherapies.  Figure 1. P53 serves as both “guardian of the genome” and “guardian of immune integrity”. Upper panel: Double-strand DNA breaks can occur when cells are exposed to environmental stresses, in-cluding ionizing radiation or DNA-modifying chemicals used in cancer treatments. In response to the DNA damage, p53 modulates the expression of many genes, including those involved in cell cycle arrest, DNA repair, and apoptosis. The fate of the damaged cell can either be an exit from cell cycle arrest with its DNA repaired or apoptotic death. In either case, the genome is eﬀectively “guarded” [17]. Middle panel: Tumor cells with disruption of p53-mediated pathways can evade immune surveillance to qualify as an immunologically “cold” tumor, i.e., one that does not trigger a robust immune response and is refractory to cancer immunotherapy. Restoration of p53 (e.g., via gene therapy) can convert the “cold” tumor into an immunologically “hot” tumor that is more re-sponsive to the immune checkpoint inhibitors (ICIs) used in cancer immunotherapy. Lower panel: Infecting viruses of diverse types seek to disrupt p53-mediated host pathways to create an environ-ment that is more “virus-friendly”, i.e., favoring their replication and spread [32]. Maintaining or elevating p53 (e.g., via gene therapy) would be expected to enhance host antiviral responses medi-ated by interferons (IFNs) and/or trigger apoptosis (“altruistic suicide” [33]), thereby limiting viral propagation.   Viruses 2023, 15, 2377
+
+4 of 9
+
+but about one-quarter of them died of unresolved infections prior to the appearance of
+tumors, suggesting that the loss of p53 resulted in a compromised immune system [34].
+Subsequently, p53 knockout mice were shown to exhibit more severe disease after infec-
+tions by inﬂuenza viruses [35]. In contrast, ﬁbroblasts derived from “super p53 mice”
+having an extra copy of p53 exhibited higher resistance to the vesicular stomatitis virus [36],
+suggesting that even a rather modest increase in the TP53 copy number can render cells
+more resistant to viral infections.
+
+Viruses and their hosts do battle at the molecular level with the host using its gene
+products to detect viral infection and to suppress viral propagation. On the other hand,
+viruses employ diverse strategies to counter any mechanisms of their would-be host that
+impede viral replication. From the perspective of the virus, p53 is a defensive weapon of
+the host that needs to be neutralized or circumvented in some way. Why do viruses ﬁnd it
+so necessary to oppose host p53? The answer appears to be in the many genes and cellular
+pathways that are downstream of p53. Triggering programmed cell death (apoptosis or
+ferroptosis) in response to “stresses” is considered a “canonical” function of p53 that is
+central to its tumor suppressor activity. Viral infections are also stressful, and apoptosis
+can be triggered by the incoming viral genomic DNA or RNA. This cell death in response
+to foreign viral nucleic acids may accomplish “altruistic suicide” that is a component
+of innate immunity [33], whereby the early death of the initially infected cells impedes
+viral replication and limits the spread of the virus to neighboring cells. In addition, the
+antiviral activity of p53 involves the regulation of diverse pathways producing interferons
+(IFNs). Regulation of type 1 IFNs is complicated and involves several p53-regulated cellular
+pathways, including increases in interferon regulatory factors IRF5, IRF7, and IRF9, each of
+which is transcriptionally regulated by p53 [37–39]. Signaling mediated by IFNs induces
+expression of a number of genes collectively referred to as IFN-stimulated genes (ISGs).
+These ISGs are varied, with some recognizing viral RNA replicative intermediates and
+others impeding viral replication by degrading viral RNA or inhibiting its translation to
+reduce the levels of viral proteins in the infected cell [40,41].
+
+All available evidence suggests that p53 is a key participant in innate as well as
+adaptive antiviral immune responses [42,43]. Because p53 transcriptionally regulates many
+downstream genes=, viruses can negate a plethora of cellular defensive pathways by
+focusing their mechanisms for host evasion on p53. A virus with the ability to disable host
+p53 would reduce cellular levels of type 1 IFNs and thereby evade the range of its antiviral
+effects, including protection of uninfected bystander cells [40]. In analogy to its role as a
+tumor suppressor, it is likely there is more to p53’s viral suppressor activity than driving
+apoptosis and production of type 1 IFNs. Just as it has proven difﬁcult to determine which
+of p53’s various activities is most crucial for its tumor suppressor functions [44], it will
+also likely prove challenging to distinguish which of the many p53-regulated genes and
+pathways are most critical for its viral suppressor activity. Nonetheless, the role of p53 in
+immune responses is generally now very well documented [23,43]. Disruption of p53 in
+tumors can affect the recruitment as well as the activity of myeloid and T cells, contributing
+to immune evasion by cancer cells. The growing appreciation of the role of p53 in immune
+responses has led to the suggestion that p53 be given the additional moniker “guardian of
+immune integrity” [32].
+
+During evolutionary adaptation to their hosts, diverse viruses have developed a wide
+range of strategies to reduce p53 levels or attenuate its activity [43,45–48]. Many viruses
+encode subversive proteins that, in analogy to SV40 large T-antigen, directly interact with
+p53 to affect its activities, whereas other viruses use more indirect means of disrupting
+p53-mediated cellular processes. A detailed description of the various strategies by which
+viruses target and circumvent p53-mediated antiviral pathways is beyond the scope of
+this perspective. Sufﬁce to say that, in order to thrive, viruses must subvert host defense
+mechanisms in which p53 participates, and some viruses employ more than one anti-p53
+strategy. Dr. Arnold Levine, one of the discoverers of p53, has stated that “almost every
+successful virus has developed ways to inactivate p53” [43]. The very diversity of the
+
+Viruses 2023, 15, 2377
+
+5 of 9
+
+repertoire of mechanisms used by viruses to disable p53 clearly attests to the importance of
+p53 in host antiviral defenses.
+
+Among the viruses with countermeasures against p53 are the coronaviruses that
+include SARS-CoV-2, the etiological agent in the COVID-19 pandemic, which sadly has
+been a very successful virus in terms of its ability to infect humans. Two cell types that
+are part of the ﬁrst line of defense against airborne viruses are lung alveolar macrophages
+and plasmacytoid dendritic cells, the latter being a major source of type 1 IFNs. Alveolar
+macrophages appear to be the ﬁrst immune cells encountered by incoming respiratory
+viruses [49], and SARS-CoV-2 RNA has been detected in alveolar macrophages [50]. Several
+reports suggest that SARS-CoV-2 induces a relatively weak expression of IFNs in the
+lungs [50,51]. Use of type 1 IFNs against the coronaviruses SARS-CoV and MERS-CoV has
+been studied [52], and vapor inhalation of IFN-alpha in combination with ribavirin has
+been used against COVID-19 in China [53]. Although the interplay between coronaviruses
+and the type 1 IFN response is complicated [54], coronaviruses encode a protease with
+deubiquitinating activity that effectively reduces the level of p53 present in host cells
+following viral infection [46]. The weak IFN response in the lungs of COVID-19 patients
+would be consistent with the virus using this protease to reduce the p53 levels in the
+lung cells that would otherwise combat the infection via p53-regulated IFN pathways.
+Would alveolar macrophages be more effective in halting a SARS-CoV-2 infection if their
+p53 levels could be increased via TP53 gene therapy? The investigational agent SGT-53
+was designed to treat cancers that overexpress transferrin receptors. The rationale for
+repurposing this investigational agent to boost innate immunity against SARS-CoV-2 has
+been described [55] and is schematically depicted in Figure 2. Of particular relevance is the
+fact that both alveolar macrophages and plasmacytoid dendritic cells express transferrin
+receptors [56,57], and so both of these critical defensive cell types should be targeted by
+SGT-53 that uses cellular transferrin receptors to achieve TP53 gene delivery.
+
+Figure 2. The potential use of TP53 gene therapy against coronaviruses infections. Coronaviruses, like
+other viruses, seek to thwart host defenses by decreasing p53 levels in the infected host cells. In the
+case of coronaviruses, this is accomplished via a protease that degrades p53 (upper panel). SGT-53 is
+a nanocomplex for TP53 gene therapy that was developed for oncology applications. SGT-53 has been
+proposed as an antiviral agent to combat coronaviruses like SARS-CoV-2 [55] by virtue of enhancing
+host innate immune responses regulated by p53 (lower panel). SGT-53 is a nanocomplex carrying a
+plasmid with the gene for wild-type human p53 within a cationic liposome that is decorated with
+a targeting moiety in the form of a single-chain monoclonal antibody fragment that recognizes the
+human transferrin receptor. SGT-53 was developed as a cancer therapeutic agent [7,8].
+
+Viruses 2023, 15, x FOR PEER REVIEW 6 of 10    Figure 2. The potential use of TP53 gene therapy against coronaviruses infections. Coronaviruses, like other viruses, seek to thwart host defenses by decreasing p53 levels in the infected host cells. In the case of coronaviruses, this is accomplished via a protease that degrades p53 (upper panel). SGT-53 is a nanocomplex for TP53 gene therapy that was developed for oncology applications. SGT-53 has been proposed as an antiviral agent to combat coronaviruses like SARS-CoV-2 [55] by virtue of enhancing host innate immune responses regulated by p53 (lower panel). SGT-53 is a nanocomplex carrying a plasmid with the gene for wild-type human p53 within a cationic liposome that is deco-rated with a targeting moiety in the form of a single-chain monoclonal antibody fragment that rec-ognizes the human transferrin receptor. SGT-53 was developed as a cancer therapeutic agent [7,8] 4. The Next Pandemic In the next pandemic caused by a hypothetical unknown virus that will emerge in the future, an approach based on enhancing innate antiviral immunity might prove ad-vantageous over those strategies based on vaccines, since prophylactic vaccines require isolation and identiﬁcation of the infectious agent and will take considerable time and eﬀort to develop, test, and dispense. Moreover, success in producing antiviral vaccines is far from guaranteed—there is still no available HIV vaccine nearly 40 years after this virus was identiﬁed as the etiological agent in AIDS. The eﬀectiveness of a vaccine is generally restricted to the virus for which it was designed (and perhaps some closely related vari-ants), so vaccines tend not to be broad-spectrum protectors. In contrast, the innate immune system is poised to oppose any and all infectious agents whether known or unknown. Boosting innate immunity has the potential to protect against any virus that might come along in the future, even if that virus is being encountered by humans for the very ﬁrst time. In addition to the possibility of another viral pandemic beyond COVID-19 caused by an unknown virus, the U.S. Center for Disease Control and Prevention has identiﬁed cer-tain viruses as potential weapons of mass destruction or agents with potential use in bio-logical terrorism [58]. The very nature of bioterrorism would predict that the identiﬁcation of a potentially deadly virus being employed by the terrorists would likely come only sometime after the ﬁrst victims have been exposed. Warﬁghters facing an adversary using potentially deadly biological agents are also likely to be exposed to initially unidentiﬁed viruses. In either scenario, it would be desirable to have a life-saving option that could be more rapidly beneﬁcial to virus-exposed individuals than is aﬀorded by the lengthy path of identifying the culprit pathogen and developing a vaccine. The ideal therapeutic to ad-dress emerging or even newly created viruses that are released either unintentionally or intentionally by a malicious party engaging in biowarfare of bioterrorism would be a Viruses 2023, 15, 2377
+
+6 of 9
+
+4. The Next Pandemic
+
+In the next pandemic caused by a hypothetical unknown virus that will emerge
+in the future, an approach based on enhancing innate antiviral immunity might prove
+advantageous over those strategies based on vaccines, since prophylactic vaccines require
+isolation and identiﬁcation of the infectious agent and will take considerable time and
+effort to develop, test, and dispense. Moreover, success in producing antiviral vaccines
+is far from guaranteed—there is still no available HIV vaccine nearly 40 years after this
+virus was identiﬁed as the etiological agent in AIDS. The effectiveness of a vaccine is
+generally restricted to the virus for which it was designed (and perhaps some closely
+related variants), so vaccines tend not to be broad-spectrum protectors. In contrast, the
+innate immune system is poised to oppose any and all infectious agents whether known
+or unknown. Boosting innate immunity has the potential to protect against any virus that
+might come along in the future, even if that virus is being encountered by humans for the
+very ﬁrst time.
+
+In addition to the possibility of another viral pandemic beyond COVID-19 caused by
+an unknown virus, the U.S. Center for Disease Control and Prevention has identiﬁed certain
+viruses as potential weapons of mass destruction or agents with potential use in biological
+terrorism [58]. The very nature of bioterrorism would predict that the identiﬁcation of a
+potentially deadly virus being employed by the terrorists would likely come only sometime
+after the ﬁrst victims have been exposed. Warﬁghters facing an adversary using potentially
+deadly biological agents are also likely to be exposed to initially unidentiﬁed viruses. In
+either scenario, it would be desirable to have a life-saving option that could be more rapidly
+beneﬁcial to virus-exposed individuals than is afforded by the lengthy path of identifying
+the culprit pathogen and developing a vaccine. The ideal therapeutic to address emerging
+or even newly created viruses that are released either unintentionally or intentionally by a
+malicious party engaging in biowarfare of bioterrorism would be a countermeasure that
+provides post-exposure protection against a broad spectrum of potential infectious agents,
+thereby allowing ﬁrst responders and caregivers to remain agnostic regarding the precise
+nature of the infectious agent being employed. Increasing the level of cellular expression of
+a general virus suppressor like p53 may well be a means of achieving such broad-spectrum
+protection for individuals exposed to an unidentiﬁed viral threat agent.
+
+Therapeutic targeting of p53 and certainly TP53 gene therapy as an antiviral strategy
+are unorthodox notions. Antiviral drug development has historically been driven by
+the viral life cycle, with most antiviral agents being small chemical compounds (e.g.,
+nucleoside analogs, protease inhibitors, integrase inhibitors, etc.) that directly target either
+viral replication per se or inhibit a cellular process required for viral replication [59,60].
+Viruses replicate intracellularly and rely on the host’s synthetic machinery; thus, ﬁnding
+drugs capable of targeting viral replication without affecting critical processes of the host
+cell has proven challenging. The overlap between processes involved in viral replication
+and those used by our own cells can lead to untoward side effects of antiviral drugs. For
+example, nucleoside analogs are being used as antivirals, but these drugs can be toxic
+and/or mutagenic to host cells [61]. The product labels for approved antiviral drugs
+tend to list numerous potential serious side effects, and concerns about adverse events
+associated with these drugs are heightened when they are given to certain individuals (e.g.,
+children, the elderly, pregnant women, immune-compromised individuals, or those with
+other pre-existing conditions). TP53 gene therapy as an antiviral strategy differs from more
+traditional antiviral drugs in that it aims to boost innate immunity by increasing the level
+of a normal human protein that is already being expressed at some level in every cell of the
+body. Thus, restoring p53 expression in cells where its level or activity has been diminished
+by viral infection offers the possibility of broad-spectrum, pathogen-agnostic protection
+with minimal toxicity. It should be noted that very good safety proﬁles were observed in
+the Phase I SGT-53 oncology trials [9,10]. The extensive body of evidence of successful
+viruses with mechanisms to combat host p53-based defenses certainly makes exploring p53
+maintenance and/or its restoration worthy of additional research in virology.
+
+Viruses 2023, 15, 2377
+
+7 of 9
+
+5. Summary and Perspectives
+
+Not all cellular organisms face the threat of developing a tumor, but all such organisms
+do encounter infectious agents. It would therefore appear likely that the role of p53 (and
+closely related proteins p63 and p73) in innate immunity predates its better-known function
+as a tumor suppressor that earned it the distinction of “molecule of the year” back in 1993.
+Indeed, the DNA-binding domains that enable p53 and its relatives to function as tran-
+scription factors have been preserved over large evolutionary timeframes [2], suggesting
+functions in gene regulation that predate the need to suppress tumors. Nonetheless, in a
+word-association game, if participants are given the prompt of “p53”, the most common
+response would likely be “tumor suppressor”. A response of “virus suppressor” would
+be equally valid. The antiviral roles played by p53 in innate immunity have undoubtedly
+taken a back seat to its role in cancers in terms of research efforts. Since 1993, research on
+p53 has accelerated and the vast majority of this effort has focused on oncology. A crude
+bibliometric analysis using “p53” as a search term to probe for publications indexed in
+PubMed® (https://pubmed.ncbi.nlm.nih.gov; accessed on 13 November 2023) revealed
+over 5000 p53 papers published in 2022 compared to under 1000 back in 1993. This anal-
+ysis found a total of over 115,000 publications using “p53” as a search term. Of these
+papers, over 100,000 (~87%) were also hits for “p53 AND tumor”. This compares to under
+10,000 papers (~8%) that were hits with “p53 AND virus”. It appears that research on the
+connection between p53 and viral infections may actually be diminishing over time. In
+2022, over 5000 publications emerge from PubMed® with “p53” as a search term and less
+than 300 (~5%) of these papers are hits with “p53 AND virus”. Whereas annual “p53” as
+well as “p53 AND tumor” publications have increased dramatically between 2000 and
+2022, papers on “p53 AND virus” have decreased by ~40% over that same period. As
+we exit the global pandemic caused by SARS-CoV-2, a formerly unknown virus, it seems
+paradoxical that the interest in p53(cid:48)s antiviral activity among researchers (as reﬂected in
+publication numbers) would be waning. Since the list of viruses that interfere with p53 in
+one way or another is long [45–48], restoration of p53 might very well be useful in aborting
+infections by a broad spectrum of viruses, including that newly emerging virus that will
+bring on the next pandemic. Our ﬁrst line of defense against that pathogen (and the one
+after that one) will be innate immunity. There remains much to be learned by exploring the
+mechanisms by which p53 opposes viral infections and probing the variety of means used
+by different viruses to evade p53-mediated host defenses. This understanding may help
+equip the world to handle the next viral pandemic more effectively than it did the last. In
+the not-too-distant future, p53 may regain its title as “molecule of the year” on the basis of
+its second career as a broad-spectrum virus suppressor.
+
+Funding: This research received no external funding.
+
+Acknowledgments: The author wishes to thank Sang Soo Kim and Esther H. Chang for their helpful
+comments on this perspective.
+
+Conﬂicts of Interest: The author is a shareholder and employee of SynerGene Therapeutics, Inc.,
+that is developing SGT-53 as a cancer therapy.
+
+References
+
+Koshland, D.E., Jr. Molecule of the year. Science 1993, 262, 1953. [CrossRef]
+1.
+Levine, A.J. p53: 800 million years of evolution and 40 years of discovery. Nat. Rev. Cancer 2020, 20, 471–480. [CrossRef]
+2.
+3. Hassin, O.; Oren, M. Drugging p53 in cancer: One protein, many targets. Nat. Rev. Drug Discov. 2023, 22, 127–144. [CrossRef]
+4.
+
+Srivastava, S.; Zou, Z.; Pirollo, K.; Blattner, W.; Chang, E.H. Germ-line transmission of a mutated p53 gene in a cancer-prone
+family with Li–Fraumeni syndrome. Nature 1990, 348, 747–749. [CrossRef] [PubMed]
+
+5. Malkin, D.; Li, F.P.; Strong, L.C.; Fraumeni, J.F., Jr.; Nelson, C.E.; Kim, D.H.; Kassel, J.; Gryka, M.A.; Bischoff, F.Z.; Tainsky,
+M.A.; et al. Germ line p53 mutations in a familial syndrome of breast cancer, sarcomas, and other neoplasms. Science 1990, 250,
+1233–1238. [CrossRef] [PubMed]
+
+6. Hainaut, P.; Pfeifer, G.P. Somatic TP53 Mutations in the Era of Genome Sequencing. Cold Spring Harb. Perspect. Med. 2016, 6,
+
+a026179. [CrossRef] [PubMed]
+
+Viruses 2023, 15, 2377
+
+8 of 9
+
+7.
+
+Kim, S.-S.; Rait, A.; Kim, E.; Pirollo, K.F.; Nishida, M.; Farkas, N.; Dagata, J.A.; Chang, E.H. A nanoparticle carrying the p53 gene
+targets tumors including cancer stem cells, sensitizes glioblastoma to chemotherapy and improves survival. ACS Nano 2014, 8,
+5494–5514. [CrossRef] [PubMed]
+
+9.
+
+8. Harford, J.B.; Kim, S.-S.; Pirollo, K.F.; Rait, A.; Chang, E.H. SGT-53: A Novel Nanomedicine Capable of Augmenting Cancer
+Immunotherapy in Immune Aspects of Biopharmaceuticals and Nanomedicines; Jenny Stanford Publishing: Singapore, 2018; Volume 3,
+pp. 929–970.
+Senzer, N.; Nemunaitis, J.; Nemunaitis, D.; Bedell, C.; Edelman, G.; Barve, M.; Nunan, R.; Pirollo, K.F.; Rait, A.; Chang, E.H. Phase
+I study of a systemically delivered p53 nanoparticle in advanced solid tumors. Mol. Ther. 2013, 21, 1096–1103. [CrossRef]
+10. Pirollo, K.F.; Nemunaitis, J.; Leung, P.K.; Nunan, R.; Adams, J.; Chang, E.H. Safety and Efﬁcacy in Advanced Solid Tumors of
+a Targeted Nanocomplex Carrying the p53 Gene Used in Combination with Docetaxel: A Phase 1b Study. Mol. Ther. 2016, 24,
+1697–1706. [CrossRef]
+
+11. Hanahan, D.; Weinberg, R.A. Hallmarks of cancer: The next generation. Cell 2011, 144, 646–674. [CrossRef]
+12. Baker, S.; Ali, I.; Silins, I.; Pyysalo, S.; Guo, Y.; Högberg, J.; Stenius, U.; Korhonen, A. Cancer Hallmarks Analytics Tool (CHAT): A
+text mining approach to organize and evaluate scientiﬁc literature on cancer. Bioinformatics 2017, 33, 3973–3981. [CrossRef]
+13. Menendez, D.; Inga, A.; Resnick, M.A. The expanding universe of p53 targets. Nat. Rev. Cancer 2009, 9, 724–737. [CrossRef]
+14. Riley, T.; Sontag, E.; Chen, P.A.; Levine, A. Transcriptional control of human p53-regulated genes. Nat. Rev. Mol. Cell Biol. 2008, 9,
+
+402–412. [CrossRef] [PubMed]
+
+15. Beckerman, R.; Prives, C. Transcriptional regulation by p53. Cold Spring Harb. Perspect. Biol. 2010, 2, a000935. [CrossRef] [PubMed]
+16. Rashi-Elkeles, S.; Elkon, R.; Shavit, S.; Lerenthal, Y.; Linhart, C.; Kupershtein, A.; Amariglio, N.; Rechavi, G.; Shamir, R.; Shiloh, Y.
+Transcriptional modulation induced by ionizing radiation: p53 remains a central player. Mol. Oncol. 2011, 5, 336–348. [CrossRef]
+[PubMed]
+
+17. Lane, D.P. Cancer. p53, guardian of the genome. Nature 1992, 358, 15–16. [CrossRef]
+18. El-Deiry, W.S. The role of p53 in chemosensitivity and radiosensitivity. Oncogene 2003, 22, 7486–7495. [CrossRef] [PubMed]
+19. Munro, A.J.; Lain, S.; Lane, D.P. P53 abnormalities and outcomes in colorectal cancer: A systematic review. Br. J. Cancer 2005, 92,
+
+434–444. [CrossRef] [PubMed]
+
+20. Lee, E.-J.; Kim, T.-J.; Kim, D.S.; Choi, C.H.; Lee, J.-W.; Lee, J.-H.; Bae, D.-S.; Kim, B.-G. p53 alteration independently predicts poor
+outcomes in patients with endometrial cancer: A clinicopathologic study of 131 cases and literature review. Gynecol. Oncol. 2010,
+116, 533–538. [CrossRef]
+
+21. Petitjean, A.; Achatz, M.I.W.; Borresen-Dale, A.L.; Hainaut, P.; Olivier, M. TP53 mutations in human cancers: Functional selection
+
+and impact on cancer prognosis and outcomes. Oncogene 2007, 26, 2157–2165. [CrossRef]
+
+22. Lu, C.; El-Deiry, W.S. Targeting p53 for enhanced radio- and chemo-sensitivity. Apoptosis 2009, 14, 597–606. [CrossRef] [PubMed]
+23. Blagih, J.; Buck, M.D.; Vousden, K.H. p53, cancer and the immune response. J. Cell Sci. 2020, 133, jcs237453. [CrossRef] [PubMed]
+24. Liu, Y.; Leslie, P.L.; Zhang, Y. Life and Death Decision-Making by p53 and Implications for Cancer Immunotherapy. Trends Cancer
+
+25.
+
+2021, 7, 226–239. [CrossRef] [PubMed]
+Sharma, P.; Goswami, S.; Raychaudhuri, D.; Siddiqui, B.A.; Singh, P.; Nagarajan, A.; Liu, J.; Subudhi, S.K.; Poon, C.; Gant, K.L.;
+et al. Immune checkpoint therapy—Current perspectives and future directions. Cell 2023, 186, 1652–1669. [CrossRef] [PubMed]
+26. Mellman, I.; Chen, D.S.; Powles, T.; Turley, S.J. The cancer-immunity cycle: Indication, genotype, and immunotype. Immunity
+
+2023, 56, 2188–2205. [CrossRef] [PubMed]
+
+27. Kim, S.-S.; Harford, J.B.; Moghe, M.; Rait, A.; Chang, E.H. Combination with SGT-53 overcomes tumor resistance to a checkpoint
+
+inhibitor. Oncoimmunology 2018, 7, e1484982. [CrossRef] [PubMed]
+
+28. Moore, E.C.; Sun, L.; Clavijo, P.E.; Friedman, J.; Harford, J.B.; Saleh, A.D.; Van Waes, C.; Chang, E.H.; Allen, C.T. Nanocomplex-
+based TP53 gene therapy promotes anti-tumor immunity through TP53- and STING-dependent mechanisms. Oncoimmunology
+2018, 7, e1404216. [CrossRef]
+
+29. Kim, S.-S.; Harford, J.B.; Moghe, M.; Doherty, C.; Chang, E.H. A Novel P53 Nanomedicine Reduces Immunosuppression and
+Augments Anti-PD-1 Therapy for Non-Small Cell Lung Cancer in Syngeneic Mouse Models. Cells 2022, 11, 3434. [CrossRef]
+30. Kim, S.; Harford, J.B.; Moghe, M.; Slaughter, T.; Doherty, C.; Chang, E.H. A tumor-targeting nanomedicine carrying the p53 gene
+crosses the blood–brain barrier and enhances anti-PD-1 immunotherapy in mouse models of glioblastoma. Int. J. Cancer 2019, 145,
+2535–2546. [CrossRef]
+
+31. Chada, S.; Wiederhold, D.; Menander, K.B.; Sellman, B.; Talbott, M.; Nemunaitis, J.J.; Ahn, H.M.; Jung, B.-K.; Yun, C.-O.; Sobol, R.E.
+Tumor suppressor immune gene therapy to reverse immunotherapy resistance. Cancer Gene Ther. 2022, 29, 825–834. [CrossRef]
+32. Muñoz-Fontela, C.; Mandinova, A.; Aaronson, S.A.; Lee, S.W. Emerging roles of p53 and other tumour-suppressor genes in
+
+immune regulation. Nat. Rev. Immunol. 2016, 16, 741–750. [CrossRef]
+
+33. Chernyak, B.V.; Lyamzaev, K.G.; Mulkidjanian, A.Y. Innate Immunity as an Executor of the Programmed Death of Individual
+
+Organisms for the Beneﬁt of the Entire Population. Int. J. Mol. Sci. 2021, 22, 13480. [CrossRef]
+
+34. Donehower, L.A.; Harvey, M.; Slagle, B.L.; McArthur, M.J.; Montgomery, C.A., Jr.; Butel, J.S.; Bradley, A. Mice deﬁcient for p53 are
+
+developmentally normal but susceptible to spontaneous tumours. Nature 1992, 356, 215–221. [CrossRef] [PubMed]
+
+35. Muñoz-Fontela, C.; Pazos, M.; Delgado, I.; Murk, W.; Mungamuri, S.K.; Lee, S.W.; García-Sastre, A.; Moran, T.M.; Aaronson, S.A.
+p53 serves as a host antiviral factor that enhances innate and adaptive immune responses to inﬂuenza a virus. J. Immunol. 2011,
+187, 6428–6436. [CrossRef] [PubMed]
+
+Viruses 2023, 15, 2377
+
+9 of 9
+
+36. Munoz-Fontela, C.; Garcia, M.A.; Garcia-Cao, I.; Collado, M.; Arroyo, J.; Esteban, M.; Serrano, M.; Rivas, C. Resistance to viral
+
+infection of super p53 mice. Oncogene 2005, 24, 3059–3062. [CrossRef] [PubMed]
+
+37. Mori, T.; Anazawa, Y.; Iiizumi, M.; Fukuda, S.; Nakamura, Y.; Arakawa, H. Identiﬁcation of the interferon regulatory factor 5 gene
+
+(IRF-5) as a direct target for p53. Oncogene 2002, 21, 2914–2918. [CrossRef] [PubMed]
+
+38. Yuan, L.; Chen, Z.; Song, S.; Wang, S.; Tian, C.; Xing, G.; Chen, X.; Xiao, Z.-X.; He, F.; Zhang, L. p53 degradation by a coronavirus
+
+papain-like protease suppresses type I interferon signaling. J. Biol. Chem. 2015, 290, 3172–3182. [CrossRef]
+
+39. Muñoz-Fontela, C.; Macip, S.; Martínez-Sobrido, L.; Brown, L.; Ashour, J.; García-Sastre, A.; Lee, S.W.; Aaronson, S.A. Transcrip-
+
+tional role of p53 in interferon-mediated antiviral immunity. J. Exp. Med. 2008, 205, 1929–1938. [CrossRef]
+
+40. McNab, F.; Mayer-Barber, K.; Sher, A.; Wack, A.; O’Garra, A. Type I interferons in infectious disease. Nat. Rev. Immunol. 2015, 15,
+
+87–103. [CrossRef]
+
+41. Yang, E.; Li, M.M.H. All About the RNA: Interferon-Stimulated Genes That Interfere with Viral RNA Processes. Front. Immunol.
+
+2020, 11, 605024. [CrossRef]
+
+42. Miciak, J.; Bunz, F. Long story short: p53 mediates innate immunity. Biochim. Biophys. Acta 2016, 1865, 220–227. [CrossRef]
+43. Levine, A.J. P53 and The Immune Response: 40 Years of Exploration—A Plan for the Future. Int. J. Mol. Sci. 2020, 21, 541.
+
+[CrossRef] [PubMed]
+
+44. Thomas, A.F.; Kelly, G.L.; Strasser, A. Of the many cellular responses activated by TP53, which ones are critical for tumour
+
+suppression? Cell Death Differ. 2022, 29, 961–971. [CrossRef]
+
+45. Aloni-Grinstein, R.; Charni-Natan, M.; Solomon, H.; Rotter, V. p53 and the Viral Connection: Back into the Future (double dagger).
+
+Cancers 2018, 10, 178. [CrossRef] [PubMed]
+
+46. Cardozo, C.M.; Hainaut, P. Viral strategies for circumventing p53: The case of severe acute respiratory syndrome coronavirus.
+
+Curr. Opin. Oncol. 2021, 33, 149–158. [CrossRef]
+
+47. Lazo, P.A.; Santos, C.R. Interference with p53 functions in human viral infections, a target for novel antiviral strategies? Rev. Med.
+
+Virol. 2011, 21, 285–300. [CrossRef]
+Sato, Y.; Tsurumi, T. Genome guardian p53 and viral infections. Rev. Med. Virol. 2013, 23, 213–220. [CrossRef]
+
+48.
+49. Pribul, P.K.; Harker, J.; Wang, B.; Wang, H.; Tregoning, J.S.; Schwarze, J.; Openshaw, P.J.M. Alveolar macrophages are a major
+determinant of early responses to viral lung infection but do not inﬂuence subsequent disease development. J. Virol. 2008, 82,
+4441–4448. [CrossRef]
+
+50. Chu, H.; Chan, J.F.; Wang, Y.; Yuen, T.T.; Chai, Y.; Hou, Y.; Shuai, H.; Yang, D.; Hu, B.; Huang, X.; et al. Comparative Replication
+and Immune Activation Proﬁles of SARS-CoV-2 and SARS-CoV in Human Lungs: An Ex Vivo Study with Implications for the
+Pathogenesis of COVID-19. Clin. Infect. Dis. 2020, 71, 1400–1409. [CrossRef]
+
+51. Blanco-Melo, D.; Nilsson-Payant, B.E.; Liu, W.C.; Uhl, S.; Hoagland, D.; Moller, R.; Jordan, T.X.; Oishi, K.; Panis, M.; Sachs, D.;
+et al. Imbalanced Host Response to SARS-CoV-2 Drives Development of COVID-19. Cell 2020, 181, 1036–1045.e9. [CrossRef]
+Stockman, L.J.; Bellamy, R.; Garner, P. SARS: Systematic review of treatment effects. PLoS Med. 2006, 3, e343. [CrossRef]
+52.
+53. Lu, H. Drug treatment options for the 2019-new coronavirus (2019-nCoV). Biosci. Trends 2020, 14, 69–71. [CrossRef] [PubMed]
+54.
+
+Sa Ribero, M.; Jouvenet, N.; Dreux, M.; Nisole, S. Interplay between SARS-CoV-2 and the type I interferon response. PLoS Pathog.
+2020, 16, e1008737. [CrossRef]
+
+55. Harford, J.B.; Kim, S.S.; Pirollo, K.F.; Chang, E.H. TP53 Gene Therapy as a Potential Treatment for Patients with COVID-19.
+
+Viruses 2022, 14, 739. [CrossRef] [PubMed]
+
+56. Hirata, T.; Bitterman, P.B.; Mornex, J.F.; Crystal, R.G. Expression of the transferrin receptor gene during the process of mononuclear
+
+phagocyte maturation. J. Immunol. 1986, 136, 1339–1345. [CrossRef] [PubMed]
+
+57. Lippitsch, A.; Chukovetskyi, Y.; Baal, N.; Bein, G.; Hackstein, H. Unique high and homogenous surface expression of the
+transferrin receptor CD71 on murine plasmacytoid dendritic cells in different tissues. Cell. Immunol. 2017, 316, 41–52. [CrossRef]
+58. Bioterrorism Agents/Diseases. Available online: https://emergency.cdc.gov/agent/agentlist-category.asp (accessed on 13
+
+November 2023).
+
+59. Bugert, J.J.; Hucke, F.; Zanetta, P.; Bassetto, M.; Brancale, A. Antivirals in medical biodefense. Virus Genes 2020, 56, 150–167.
+
+[CrossRef]
+
+60. Kausar, S.; Khan, F.S.; Rehman, M.I.M.U.; Akram, M.; Riaz, M.; Rasool, G.; Khan, A.H.; Saleem, I.; Shamim, S.; Malik, A. A review:
+
+Mechanism of action of antiviral drugs. Int. J. Immunopathol. Pharmacol. 2021, 35, 20587384211002621. [CrossRef]
+
+61. Zhou, S.; Hill, C.S.; Sarkar, S.; Tse, L.V.; Woodburn, B.M.D.; Schinazi, R.F.; Sheahan, T.P.; Baric, R.S.; Heise, M.T.; Swanstrom, R.
+β-D-N4-hydroxycytidine Inhibits SARS-CoV-2 through Lethal Mutagenesis but Is Also Mutagenic to Mammalian Cells. J. Infect.
+Dis. 2021, 224, 415–419. [CrossRef]
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+

@@ -1,0 +1,3735 @@
+Received: 28 January 2025- Revised: 16 May 2025- Accepted: 19 May 2025
+
+O R I G I N A L A R T I C L E
+
+DOI: 10.1002/cncr.35943
+
+Transmission ratio distortion of germline TP53 variants in
+Li–Fraumeni syndrome families
+
+Naama Halpern MD, MBA, MPA1,2
+Yehudit Peerless MD1 | Ben Boursi MD, MPH1,2,4
+Yael Goldberg MD2,5 |
+Eitan Friedman MD2,7 | Rinat Bernstein-Molho MD1,2,8
+
+|
+
+Inbal Kedar MSc5 | Hagit Shani MD6 |
+
+Iris Kventsel MD3 | Gal Strauss MD1,2 |
+
+| Michal Yalon MD3 |
+
+1The Jusidman Cancer Center, Sheba Medical
+Center, Ramat Gan, Israel
+
+Abstract
+
+2Faculty of Medical and Health Sciences,
+School of Medicine, Tel-Aviv University,
+Tel-Aviv, Israel
+
+3Department of Pediatric Hemato-Oncology,
+Edmond and Lilly Safra Children's Hospital and
+Cancer Research Center, Sheba Medical
+Center, Ramat Gan, Israel
+
+4Perelman School of Medicine at the
+University of Pennsylvania, Philadelphia,
+Pennsylvania, USA
+
+5The Recanati Genetics Unit, Rabin Medical
+Center, Beilinson Hospital, Petah Tikva, Israel
+
+6Preimplantation Genetic Diagnosis Center,
+Danek Gertner Institute of Human Genetics,
+Sheba Medical Center, Ramat Gan, Israel
+
+7The Meirav High-Risk Clinic, Sheba Medical
+Center, Ramat Gan, Israel
+
+8The Suzanne Levy-Gertner Oncogenetics
+Unit, Danek Gertner Institute of Human
+Genetics, Sheba Medical Center, Ramat Gan,
+Israel
+
+Correspondence
+
+Naama Halpern, The Jusidman Cancer Center,
+Sheba Medical Center, Tel Hashomer
+5262100, Israel.
+Email: naama.halpern@sheba.gov.il
+
+Background: Li–Fraumeni syndrome (LFS) is a rare autosomal-dominant cancer-
+
+predisposition syndrome caused by germline pathogenic or likely pathogenic vari-
+
+ants (P/LPVs) in the TP53 gene. Classical autosomal-dominant inheritance predicts a
+
+50% transmission rate of TP53 P/LPV from each carrier parent to their offspring.
+
+However, clinical observations suggest higher-than-expected carrier proportions,
+
+indicating a potential transmission ratio distortion (TRD). The objective of this study
+
+was to investigate TRD in Israeli LFS families.
+
+Methods: Data from families with an LFS diagnosis who were followed at Sheba
+
+Medical Center between 2015 and 2024 were reviewed. Families that had complete
+
+clinical data and offspring were included. Pedigree analyses classified carriers as
+
+confirmed, obligate, or probable. Observed carrier proportions were compared with
+
+the expected 50% rate using one-sample t-tests.
+
+Results: Among 171 individuals from 20 families, 100 (58.5%) were identified as
+
+TP53 P/LPV confirmed or obligatory carriers, significantly exceeding the expected
+
+50% inheritance rate (p = .027). A second analysis, which included 11 probable
+
+carriers, resulted in a carrier proportion of 64.9% (p < .001). TRD was observed
+
+across all phenotypic groups. No significant differences in TRD were observed by
+
+sex or variant type.
+
+Conclusions: This study revealed significant TRD in TP53 P/LPV inheritance among
+
+Israeli LFS families. A potential mechanism involves the role of TP53 in the cell cycle,
+
+in which reduced TP53 function may enhance embryonic cell proliferation, offering
+
+a survival or implantation advantage. TRD in LFS has implications for genetic
+
+counseling, reproductive decision making, and clinical management. These findings
+
+underscore the need for further research to validate TRD across diverse pop-
+
+ulations and elucidate the underlying mechanisms.
+
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits use, distribution and reproduction in any
+medium, provided the original work is properly cited and is not used for commercial purposes.
+
+© 2025 The Author(s). Cancer published by Wiley Periodicals LLC on behalf of American Cancer Society.
+
+Cancer. 2025;e35943.
+https://doi.org/10.1002/cncr.35943
+
+wileyonlinelibrary.com/journal/cncr
+
+1 of 8
+
+-
+
+2 of 8
+
+-
+
+TRANSMISSION RATIO DISTORTION IN LI–FRAUMENI SYNDROME
+
+K E Y W O R D S
+hereditary cancer syndromes, Li–Fraumeni syndrome, TP53, transmission ratio distortion
+
+INTRODUCTION
+
+Such insights underscore the variability in the presentation of LFS,
+
+necessitating nuanced approaches to diagnosis and management.
+
+Li–Fraumeni syndrome (LFS; Online Mendelian Inheritance in Man
+
+The classical AD inheritance pattern of LFS predicts a 50% risk of
+
+identifier 151623)
+
+is a rare autosomal-dominant (AD) cancer-
+
+transmission to offspring from affected carriers. However, observa-
+
+predisposition syndrome primarily caused by germline pathogenic
+or likely pathogenic variants (P/LPVs) in the TP53 gene.1 The esti-
+
+tions in Israeli LFS families suggest a higher-than-expected preva-
+
+lence of TP53 P/LPV carriers among offspring, raising questions
+
+mated prevalence of LFS is between 1 in 3000 and 1 in 10,000 in-
+
+about deviations from Mendelian inheritance. This phenomenon,
+
+dividuals in the general population, with certain founder mutations
+
+including Brazilian, Ashkenazi
+identified among specific groups,
+Jewish, and Palestinian populations.2–5 LFS is associated with a wide
+
+spectrum of malignancies, manifesting in both childhood and adult-
+
+known as transmission ratio distortion (TRD), has been described in
+other genetic disorders.13–15 The proposed biologic mechanisms
+
+underlying TRD are thought to involve fertilization or early embry-
+onic development.13 Studies conducted in mice and humans suggest
+
+hood, including sarcomas, breast cancer, brain tumors, and adreno-
+cortical carcinomas.6–8
+
+that variations in TP53 may influence gamete function as well as
+embryo implantation.16–18
+
+Although the syndrome is clinically heterogeneous, it is charac-
+
+The objective of this study was to investigate the presence of
+
+terized by high penetrance, with females typically presenting with
+
+TRD in Israeli families affected by LFS, offering new insights into the
+
+cancer at a younger age compared with males (33.7 and 45.0 years,
+respectively).8 However, recent studies have suggested that earlier
+
+estimates of penetrance may have been inflated because of selection
+
+bias in early series, which primarily included families with severe
+clinical manifestations.5,8–11 The increased use of next-generation
+
+sequencing (NGS) and multigene panels has identified TP53 P/LPV
+
+inheritance dynamics of this syndrome and its implications for ge-
+
+netic counseling and risk assessment.
+
+MATERIALS AND METHODS
+
+carriers who do not meet the classic clinical criteria for LFS, leading to
+
+For this study, we reviewed clinical and genetic data from families
+
+refined classifications, such as attenuated Li–Fraumeni syndrome
+(ALFS).6,9,12 This phenotype encompasses TP53 P/LPV carriers with a
+
+history of cancer who do not meet the traditional diagnostic criteria
+for LFS and typically have no malignancy onset before age 18 years.9,12
+
+with at least two generations harboring a known TP53 P/LPV who
+
+were followed at the High-Risk Clinic at Sheba Medical Center be-
+
+tween 2015 and 2024. The clinic serves as a reference center;
+
+consequently, the majority of LFS carriers in Israel are monitored and
+
+F I G U R E 1 Participant flowchart: criteria and outcomes.
+
+HALPERN ET AL.
+
+e
+l
+a
+m
+
+f
+o
+
+.
+
+o
+N
+
+y
+h
+t
+l
+a
+e
+h
+
+f
+o
+
+.
+
+o
+N
+
+s
+r
+e
+i
+r
+r
+a
+c
+
+h
+s
+r
+e
+i
+r
+r
+a
+c
+
+e
+l
+b
+a
+b
+o
+r
+p
+
+g
+s
+r
+e
+i
+r
+r
+a
+c
+
+f
+o
+
+.
+
+o
+N
+
+f
+o
+
+.
+
+o
+N
+
+f
+o
+
+.
+
+o
+n
+
+l
+a
+t
+o
+T
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+F
+
+y
+r
+o
+t
+a
+g
+i
+l
+
+b
+o
+
+s
+r
+e
+i
+r
+r
+a
+C
+
+f
+o
+
+.
+
+o
+n
+
+l
+a
+t
+o
+T
+
+s
+l
+a
+u
+d
+i
+v
+i
+d
+n
+
+i
+
+F
+O
+L
+/
+E
+N
+D
+
+A
+T
+—
+n
+o
+i
+t
+a
+c
+fi
+i
+s
+s
+a
+l
+c
+
+n
+i
+e
+t
+o
+r
+P
+
+s
+r
+e
+i
+r
+r
+a
+c
+
+f
+
+o
+i
+t
+a
+r
+
+e
+s
+r
+e
+i
+r
+r
+a
+c
+
+d
+d
+e
+z
+y
+l
+a
+n
+a
+
+c
+e
+p
+y
+t
+o
+n
+e
+h
+P
+
+b
+s
+s
+a
+l
+c
+
+a
+s
+s
+a
+l
+c
+
+n
+o
+x
+E
+
+.
+
+6
+6
+4
+5
+0
+0
+0
+_
+M
+N
+
+t
+n
+a
+i
+r
+a
+v
+e
+n
+
+i
+l
+
+m
+r
+e
+G
+
+y
+l
+i
+
+m
+a
+F
+
+.
+t
+r
+o
+h
+o
+c
+
+e
+h
+t
+
+f
+o
+
+s
+c
+i
+t
+s
+i
+r
+e
+t
+c
+a
+r
+a
+h
+c
+
+l
+
+r
+a
+l
+u
+c
+e
+o
+m
+d
+n
+a
+
+l
+a
+c
+i
+n
+
+i
+l
+
+C
+
+1
+
+E
+L
+B
+A
+T
+
+1
+2
+
+S
+F
+L
+
+a
+t
+a
+d
+
+o
+N
+
+a
+t
+a
+d
+
+o
+N
+
+-
+3
+
+A
+N
+
+l
+
+A
+e
+d
+2
+-
+7
+9
+c
+
+.
+
+8
+
+3
+
+0
+
+0
+
+2
+
+1
+
+9
+
+2
+
+0
+
+5
+
+5
+
+5
+
+3
+
+3
+
+1
+
+1
+
+2
+
+-
+
+3 of 8
+
+)
+s
+e
+u
+n
+i
+t
+n
+o
+C
+5 (
+
+6
+
+5
+
+1
+
+0
+
+2
+
+1
+
+6
+
+4
+
+1
+
+7
+
+2
+
+7
+
+6
+
+2
+
+1
+
+3
+
+1
+
+6
+
+3
+
+2
+
+0
+
+0
+
+1
+
+0
+
+1
+
+0
+
+0
+
+1
+
+2
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+0
+
+1
+
+1
+
+1
+
+0
+
+1
+
+0
+
+0
+
+0
+
+0
+
+3
+
+2
+
+1
+
+0
+
+0
+
+0
+
+0
+
+0
+
+2
+
+2
+6
+0
+
+.
+
+0
+1
+
+.
+
+6
+0
+
+.
+
+4
+0
+
+.
+
+0
+1
+
+.
+
+5
+0
+
+.
+
+6
+8
+0
+
+.
+
+3
+4
+0
+
+.
+
+5
+0
+
+.
+
+3
+5
+0
+
+.
+
+8
+7
+0
+
+.
+
+9
+6
+0
+
+.
+
+7
+6
+0
+
+.
+
+6
+0
+
+.
+
+5
+0
+
+.
+
+6
+0
+
+.
+
+6
+0
+
+.
+
+4
+6
+0
+
+.
+
+3
+1
+
+0
+1
+
+3
+
+2
+
+5
+
+2
+
+2
+1
+
+6
+
+1
+
+0
+1
+
+7
+
+9
+
+6
+
+3
+
+2
+
+3
+
+3
+
+7
+
+5
+
+5
+
+5
+
+4
+
+4
+1
+
+4
+1
+
+2
+
+9
+
+5
+
+4
+
+5
+
+5
+
+0
+1
+
+S
+F
+L
+
+c
+i
+s
+s
+a
+l
+C
+
+F
+O
+L
+/
+E
+N
+D
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+f
+n
+o
+N
+
+S
+F
+L
+
+c
+i
+s
+s
+a
+l
+C
+
+F
+O
+L
+/
+E
+N
+D
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+f
+n
+o
+N
+
+S
+F
+L
+A
+
+F
+O
+L
+/
+E
+N
+D
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+f
+n
+o
+N
+
+S
+F
+L
+
+a
+t
+a
+d
+
+o
+N
+
+a
+t
+a
+d
+
+o
+N
+
+F
+O
+L
+
+t
+o
+n
+
+S
+F
+L
+A
+
+/
+E
+N
+D
+
+t
+o
+N
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+F
+
+0
+1
+
+9
+1
+
+S
+F
+L
+
+c
+i
+s
+s
+a
+l
+C
+
+F
+O
+L
+/
+E
+N
+D
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+f
+n
+o
+N
+
+9
+
+S
+F
+L
+
+c
+i
+s
+s
+a
+l
+C
+
+a
+t
+a
+d
+
+o
+N
+
+a
+t
+a
+d
+
+o
+N
+
+3
+1
+
+S
+F
+L
+A
+
+d
+e
+fi
+i
+s
+s
+a
+l
+c
+n
+U
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+f
+n
+o
+N
+
+S
+F
+L
+
+c
+i
+s
+s
+a
+l
+C
+
+a
+t
+a
+d
+
+o
+N
+
+a
+t
+a
+d
+
+o
+N
+
+S
+F
+L
+A
+
+F
+O
+L
+/
+E
+N
+D
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+f
+n
+o
+N
+
+S
+F
+L
+
+F
+O
+L
+/
+E
+N
+D
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+f
+n
+o
+N
+
+S
+F
+L
+
+c
+i
+s
+s
+a
+l
+C
+
+F
+O
+L
+/
+E
+N
+D
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+f
+n
+o
+N
+
+F
+O
+L
+
+t
+o
+n
+
+S
+F
+L
+
+/
+E
+N
+D
+
+t
+o
+N
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+F
+
+S
+F
+L
+A
+
+a
+t
+a
+d
+
+o
+N
+
+a
+t
+a
+d
+
+o
+N
+
+n
+o
+r
+t
+n
+
+i
+
+6
+
+6
+
+4
+
+7
+
+8
+
+0
+1
+
+7
+
+5
+
+-
+3
+
+n
+o
+r
+t
+n
+
+i
+
+8
+
+1
+1
+
+7
+
+5
+
+C
+0
+2
+2
+Y
+
+Q
+4
+7
+1
+R
+
+s
+f
+2
+2
+1
+V
+
+S
+5
+4
+2
+G
+
+R
+4
+3
+3
+G
+
+H
+3
+7
+2
+R
+
+R
+4
+3
+3
+G
+
+l
+
+G
+T
+e
+d
+6
+6
+3
+_
+5
+6
+3
+c
+
+.
+
+G
+>
+A
+9
+5
+6
+c
+
+.
+
+A
+>
+G
+8
+3
+6
+c
+
+.
+
+A
+>
+G
+3
+3
+7
+c
+
+.
+
+C
+>
+G
+0
+0
+0
+1
+c
+
+.
+
+A
+>
+G
+8
+1
+8
+c
+
+.
+
+C
+>
+G
+0
+0
+0
+1
+c
+
+.
+
+s
+f
+2
+5
+2
+L
+
+l
+
+e
+d
+3
+6
+7
+_
+4
+5
+7
+c
+
+.
+
+H
+8
+5
+1
+R
+
+A
+>
+G
+3
+7
+4
+c
+
+.
+
+A
+N
+
+G
+>
+A
+2
+-
+7
+9
+c
+
+.
+
+W
+7
+6
+2
+R
+
+T
+>
+C
+9
+9
+7
+c
+
+.
+
+s
+f
+e
+l
+I
+4
+9
+3
+*
+
+S
+5
+4
+2
+G
+
+Q
+5
+4
+1
+L
+
+l
+
+4
+e
+d
+9
+7
+1
+1
+_
+6
+7
+1
+1
+c
+
+.
+
+A
+>
+G
+3
+3
+7
+c
+
+.
+
+A
+>
+T
+4
+3
+4
+c
+
+.
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+0
+1
+
+1
+1
+
+2
+1
+
+3
+1
+
+4
+1
+
+5
+1
+
+6
+1
+
+F
+O
+L
+
+t
+o
+n
+
+1
+1
+
+S
+F
+L
+
+/
+E
+N
+D
+
+t
+o
+N
+
+n
+o
+i
+t
+c
+n
+u
+f
+
+l
+a
+i
+t
+r
+a
+P
+
+2
+5
+
+K
+1
+3
+1
+N
+
+A
+>
+C
+3
+9
+3
+c
+
+.
+
+8
+1
+
+F
+O
+L
+/
+E
+N
+D
+
+S
+F
+L
+
+c
+i
+s
+s
+a
+l
+C
+
+t
+o
+N
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+f
+n
+o
+N
+
+0
+1
+
+C
+7
+3
+3
+R
+
+T
+>
+C
+9
+0
+0
+1
+c
+
+.
+
+7
+1
+
+F
+O
+L
+
+t
+o
+n
+
+S
+F
+L
+A
+
+/
+E
+N
+D
+
+t
+o
+N
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+F
+
+0
+1
+
+R
+4
+3
+3
+G
+
+C
+>
+G
+0
+0
+0
+1
+c
+
+.
+
+4 of 8
+
+-
+
+e
+l
+a
+m
+
+f
+o
+
+.
+
+o
+N
+
+y
+h
+t
+l
+a
+e
+h
+
+f
+o
+
+.
+
+o
+N
+
+s
+r
+e
+i
+r
+r
+a
+c
+
+h
+s
+r
+e
+i
+r
+r
+a
+c
+
+2
+
+2
+
+9
+5
+
+4
+
+2
+
+7
+6
+
+e
+l
+b
+a
+b
+o
+r
+p
+
+g
+s
+r
+e
+i
+r
+r
+a
+c
+
+f
+o
+
+.
+
+o
+N
+
+0
+
+0
+
+1
+1
+
+f
+o
+
+.
+
+o
+N
+
+f
+o
+
+.
+
+o
+n
+
+l
+a
+t
+o
+T
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+F
+
+y
+r
+o
+t
+a
+g
+i
+l
+
+b
+o
+
+s
+r
+e
+i
+r
+r
+a
+C
+
+f
+o
+
+.
+
+o
+n
+
+l
+a
+t
+o
+T
+
+s
+l
+a
+u
+d
+i
+v
+i
+d
+n
+
+i
+
+F
+O
+L
+/
+E
+N
+D
+
+A
+T
+—
+n
+o
+i
+t
+a
+c
+fi
+i
+s
+s
+a
+l
+c
+
+n
+i
+e
+t
+o
+r
+P
+
+s
+r
+e
+i
+r
+r
+a
+c
+
+f
+
+o
+i
+t
+a
+r
+
+e
+s
+r
+e
+i
+r
+r
+a
+c
+
+d
+d
+e
+z
+y
+l
+a
+n
+a
+
+c
+e
+p
+y
+t
+o
+n
+e
+h
+P
+
+b
+s
+s
+a
+l
+c
+
+a
+s
+s
+a
+l
+c
+
+n
+o
+x
+E
+
+.
+
+6
+6
+4
+5
+0
+0
+0
+_
+M
+N
+
+t
+n
+a
+i
+r
+a
+v
+e
+n
+
+i
+l
+
+m
+r
+e
+G
+
+y
+l
+i
+
+m
+a
+F
+
+0
+
+0
+
+2
+1
+
+2
+6
+0
+
+.
+
+7
+6
+0
+
+.
+
+5
+6
+0
+
+.
+
+5
+
+2
+
+8
+
+3
+
+1
+1
+1
+
+1
+7
+1
+
+S
+F
+L
+A
+
+F
+O
+L
+/
+E
+N
+D
+
+l
+a
+n
+o
+i
+t
+c
+n
+u
+f
+n
+o
+N
+
+S
+F
+L
+A
+
+a
+t
+a
+d
+
+o
+N
+
+a
+t
+a
+d
+
+o
+N
+
+5
+
+6
+
+H
+8
+5
+1
+R
+
+Q
+3
+1
+2
+R
+
+A
+>
+G
+3
+7
+4
+c
+
+.
+
+A
+>
+G
+8
+3
+6
+c
+
+.
+
+9
+1
+
+0
+2
+
+l
+a
+t
+o
+T
+
+)
+d
+e
+u
+n
+i
+t
+n
+o
+C
+
+(
+
+1
+
+E
+L
+B
+A
+T
+
+.
+
+y
+t
+i
+
+v
+
+i
+t
+c
+a
+
+l
+a
+n
+o
+i
+t
+p
+i
+r
+c
+s
+n
+a
+r
+t
+
+,
+
+A
+T
+
+;
+
+l
+
+e
+b
+a
+c
+i
+l
+
+p
+p
+a
+n
+o
+n
+
+,
+
+A
+N
+
+;
+
+n
+o
+i
+t
+c
+n
+u
+f
+
+f
+o
+
+s
+s
+o
+
+l
+
+,
+
+F
+O
+L
+
+;
+
+e
+m
+o
+r
+d
+n
+y
+s
+
+i
+
+n
+e
+m
+u
+a
+r
+F
+-
+i
+L
+
+,
+
+S
+F
+L
+
+;
+t
+c
+e
+f
+f
+e
+
+e
+v
+i
+t
+a
+g
+e
+n
+-
+t
+n
+a
+n
+m
+o
+d
+
+i
+
+,
+
+E
+N
+D
+
+;
+
+n
+o
+i
+t
+e
+e
+d
+
+l
+
+,
+l
+
+e
+d
+
+;
+
+e
+m
+o
+r
+d
+n
+y
+s
+
+i
+
+n
+e
+m
+u
+a
+r
+F
+–
+L
+
+i
+
+d
+e
+t
+a
+u
+n
+e
+t
+t
+a
+
+,
+
+S
+F
+L
+A
+
+:
+s
+n
+o
+i
+t
+a
+i
+
+v
+e
+r
+b
+b
+A
+
+.
+)
+s
+r
+e
+i
+r
+r
+a
+c
+
+l
+
+e
+b
+a
+b
+o
+r
+p
+
+d
+n
+a
+
+,
+
+s
+r
+e
+i
+r
+r
+a
+c
+
+y
+r
+o
+t
+a
+g
+i
+l
+
+b
+o
+
+,
+
+s
+r
+e
+i
+r
+r
+a
+c
+
+d
+e
+m
+r
+fi
+n
+o
+c
+
+,
+
+e
+v
+i
+t
+a
+g
+e
+n
+
+d
+e
+t
+s
+e
+t
+
+o
+h
+w
+s
+l
+a
+u
+d
+i
+v
+i
+d
+n
+i
+(
+
+s
+d
+o
+h
+t
+e
+M
+d
+n
+a
+
+s
+l
+a
+i
+r
+e
+t
+a
+M
+n
+
+i
+
+d
+e
+b
+i
+r
+c
+s
+e
+d
+
+s
+a
+
+s
+i
+s
+y
+
+l
+a
+n
+a
+
+e
+h
+t
+
+.
+
+s
+r
+e
+i
+r
+r
+a
+c
+
+l
+
+e
+b
+a
+b
+o
+r
+p
+
+d
+n
+a
+
+,
+
+y
+r
+o
+t
+a
+g
+i
+l
+
+b
+o
+
+,
+
+d
+e
+m
+r
+fi
+n
+o
+c
+
+s
+e
+d
+u
+l
+c
+n
+I
+d
+
+s
+e
+d
+u
+l
+c
+n
+I
+e
+
+.
+
+s
+l
+a
+u
+d
+i
+v
+i
+d
+n
+
+i
+
+d
+e
+t
+s
+e
+t
+
+e
+h
+t
+
+g
+n
+o
+m
+a
+
+)
+s
+r
+e
+i
+r
+r
+a
+c
+
+l
+
+e
+b
+a
+b
+o
+r
+p
+
+d
+n
+a
+
+,
+
+y
+r
+o
+t
+a
+g
+i
+l
+
+b
+o
+
+,
+
+d
+e
+m
+r
+fi
+n
+o
+c
+
+i
+
+g
+n
+d
+u
+l
+c
+n
+i
+(
+
+s
+r
+e
+i
+r
+r
+a
+c
+
+f
+o
+
+r
+e
+b
+m
+u
+n
+
+l
+a
+t
+o
+T
+
+f
+
+.
+
+n
+o
+i
+t
+c
+e
+t
+e
+d
+
+n
+o
+i
+t
+a
+t
+u
+m
+
+f
+o
+
+e
+m
+
+i
+t
+
+e
+h
+t
+
+t
+a
+
+s
+r
+e
+i
+r
+r
+a
+c
+
+e
+e
+r
+f
+-
+r
+e
+c
+n
+a
+C
+h
+
+.
+
+s
+d
+o
+h
+t
+e
+M
+d
+n
+a
+
+s
+l
+a
+i
+r
+e
+t
+a
+M
+n
+
+i
+
+d
+e
+n
+fi
+e
+d
+
+s
+A
+g
+
+.
+
+s
+d
+o
+h
+t
+e
+M
+d
+n
+a
+
+s
+l
+a
+i
+r
+e
+t
+a
+M
+n
+
+i
+
+d
+e
+b
+i
+r
+c
+s
+e
+d
+
+s
+a
+
+n
+o
+i
+t
+a
+c
+fi
+i
+s
+s
+a
+l
+c
+
+e
+p
+y
+t
+o
+n
+e
+h
+P
+c
+
+1
+2
+.
+l
+a
+
+t
+e
+
+i
+l
+l
+
+e
+m
+o
+c
+a
+i
+G
+y
+b
+
+d
+e
+b
+i
+r
+c
+s
+e
+d
+
+0
+2
+.
+l
+a
+
+t
+e
+
+o
+t
+a
+K
+y
+b
+
+d
+e
+b
+i
+r
+c
+s
+e
+d
+
+s
+A
+a
+
+s
+A
+b
+
+TRANSMISSION RATIO DISTORTION IN LI–FRAUMENI SYNDROME
+
+followed at this facility. Inclusion criteria required knowledge of the
+
+carrier status of all offspring of a specific individual along with the
+
+availability of demographic data and information on the presence or
+
+absence of malignancies. Data on malignancies were confirmed
+
+based on pathology reports for patients who were actively followed
+
+in the clinic and on pedigree information for individuals who died.
+
+Data collection was conducted under an Institutional Review Board-
+
+approved protocol.
+
+We provided each TP53 variants' functional data and their
+
+dominant-negative activity based on the TP53 Database.19–21
+
+Pedigree analyses were conducted to assess the carrier status of
+
+offspring from confirmed carriers (genotyped individuals carrying
+
+TP53 P/LPVs), obligatory carriers (individuals whose offspring and
+
+another family member [sibling, nephew, niece, etc.] tested positive
+
+for TP53 P/LPVs), and probable carriers (individuals diagnosed with a
+
+malignancy before age 30 years who are a first-degree relative of a
+
+confirmed or obligatory carrier).
+
+Based on clinical and genetic criteria, families were categorized
+
+into three distinct phenotypic groups: (1) classic LFS included TP53
+
+P/LPV carriers who met traditional clinical diagnostic criteria for
+LFS6; (2) Chompret criteria–based LFS7,22; and (3) ALFS, comprised
+
+of TP53 P/LPV carriers with a history of cancer who did not meet
+
+LFS testing criteria and had no cancer diagnosis before age 18
+years.12 The observed proportion of TP53 P/LPV carriers among
+
+offspring was compared with the expected 50% inheritance rate
+
+predicted for AD conditions. We performed a one-sample t-test to
+
+determine whether the observed carrier proportions deviated
+
+significantly from the Mendelian expectation. Statistical analysis was
+
+conducted using Stata/IC software version 16.0 (StataCorp).
+
+RESULTS
+
+In total, 171 individuals from 20 distinct families met the study criteria
+(Figure 1, Table 1).20,21 Among them, 100 patients (58.5%) were
+
+identified as TP53 P/LPV confirmed or obligatory carriers, significantly
+
+exceeding the expected 50% inheritance rate for AD conditions
+
+(p = .027). A second analysis, which included 11 probable carriers
+
+(Table 2), increased the carrier proportion to 64.9% (p < .001).
+
+The average number of individuals tested per family was 8.5
+
+(range, 3–21), whereas the average number of carriers per family was
+
+5.5 (range, 2–13). Two families (10%) exhibited a carrier proportion
+
+below 50% (40% and 43%, both with a phenotype of LFS), and three
+
+families (15%) displayed the expected 50% inheritance rate (two with
+
+ALFS phenotype and one with LFS phenotype). Among identified
+
+carriers, 67 individuals (60.0%) were cancer-free at the time of gen-
+
+otyping, and 59 (53.1%) were males. We analyzed the inheritance ratio
+
+based on the parent's sex and observed no significant difference: the
+
+carrier rate was 61% when inherited from the mother and 66.6% when
+
+inherited from the father (p = not significant). Moreover, no clear
+
+correlation was identified in our cohort between the functional clas-
+
+sification of the variants, their dominant-negative activity, and the
+
+severity of either the phenotype or the TRD.
+
+HALPERN ET AL.
+
+T A B L E 2 Probable carriers' characteristics and malignancies.
+
+Probable carriera
+
+1a
+
+1b
+
+1c
+
+2a
+
+2b
+
+5a
+
+7a
+
+10a
+
+11a
+
+11b
+
+17
+
+Sex
+
+Female
+
+Male
+
+Male
+
+Male
+
+Female
+
+Male
+
+Male
+
+Male
+
+Male
+
+Male
+
+Male
+
+Malignancy
+
+Adrenocortical
+
+Pancreaticobiliary
+
+Liver
+
+Brain
+
+Breast
+
+Unknown
+
+Neuroblastoma
+
+Sarcoma
+
+Sarcoma
+
+Medulloblastoma, leukemia
+
+Brain
+
+-
+
+5 of 8
+
+Age at diagnosis, years
+
+4
+
+16
+
+21
+
+29
+
+25
+
+11
+
+3
+
+6
+
+2
+
+10,12
+
+10
+
+aThe number indicates the family to which the probable carrier belongs, and the letter is the individual identifier.
+
+Pedigrees of the three families that exhibited significant TRD are
+
+presented in Figure 2.
+
+DISCUSSION
+
+might confer an advantage during mitosis, favoring skewed inheri-
+tance patterns that align with early theories of TRD.13 Although
+
+these mechanisms remain speculative, they suggest potential path-
+
+ways by which TP53 variants might affect early embryogenesis and
+
+inheritance distortion, although elucidating the precise etiology of
+
+TRD in TP53 mutation carriers is beyond the scope of the current
+
+This study identifies a significant TRD in TP53 P/LPV inheritance in
+
+study.
+
+Israeli LFS families, with a higher-than-expected prevalence of car-
+
+Genetic explanations, such as founder effects, appear less likely
+
+riers among offspring. To our knowledge, this phenomenon has not
+
+been previously reported in LFS. TRD has been described in several
+
+other hereditary syndromes, such as hereditary paraganglioma-
+
+pheochromocytoma, long-QT syndrome, and hereditary retinoblas-
+toma.14,15,23 Although this has not been explicitly described in the
+
+literature for LFS, exploring the pedigrees presented in previous
+publications might support our findings.4,24
+
+to explain our findings. Whereas rare founder mutations, such as the
+Brazilian p.R337H variant3 and the Ashkenazi Jewish p.G334R
+variant,4 have been documented, only three families in our cohort
+
+carried the Ashkenazi variant, exhibiting variable inheritance rates of
+
+60%, 50%, and 40%. In addition, the absence of consanguinity across
+
+our cohort rules out inbreeding as a contributing factor.
+
+Several limitations of this study should be acknowledged. The
+
+One potential explanation for why this phenomenon has not
+
+cohort included 20 families, limiting the generalizability of the find-
+
+been reported in other non-Israeli cohorts may be demographic dif-
+
+ings. Nonetheless, the large number of carriers per family provides
+
+ferences. The average number of children per family in Israel is 2.9,
+
+robust statistical power within the cohort. Referral bias toward
+
+which is the highest among Organization for Economic Cooperation
+
+families with severe phenotypes also is a consideration. However, the
+
+and Development countries, compared with fewer than two children
+
+inclusion of ALFS families (eight families) and the proportion of
+
+in most other Organization for Economic Cooperation and Devel-
+opment nations.25 Larger family sizes increase the likelihood of
+
+cancer-free and male carriers reduce the likelihood of significant bias.
+
+Phenotypic variability further complicates interpretation. Fam-
+
+detecting deviations from Mendelian inheritance ratios, making TRD
+
+ilies with classical LFS consistently exhibited inheritance rates above
+
+more apparent in the Israeli population.
+
+50%, whereas ALFS families mostly had rates above 50% (six of eight
+
+From a biologic perspective, the role of TP53 in regulating the
+
+families) or exactly 50% (two families). In contrast, families classified
+
+cell cycle and apoptosis may contribute to the observed TRD.
+
+under broader Chompret criteria exhibited more variability in in-
+
+Reduced levels of functional TP53 protein in mouse embryos have
+
+heritance patterns.
+
+been associated with enhanced cell proliferation during early em-
+
+If validated in larger, ethnically diverse LFS cohorts, the observed
+
+bryonic development, potentially conferring a selective advantage
+that improves embryonic survival or implantation success.17 Build-
+
+TRD could have implications for genetic counseling and risk assess-
+
+ment. Traditional AD inheritance models assume a 50% transmission
+
+ing on this, it may be hypothesized that certain TP53 variants in-
+
+rate, which forms the basis of counseling for families. Skewed in-
+
+fluence mitochondrial function, promoting embryonic survival under
+
+heritance introduces uncertainty, particularly in reproductive deci-
+
+hypoxia or pseudohypoxia conditions. In addition, the permissive
+
+sion making,
+
+in which the observed patterns may lead to
+
+state for mutation and recombination observed in TP53 carriers
+
+overestimation or underestimation of risk.
+
+6 of 8
+
+-
+
+TRANSMISSION RATIO DISTORTION IN LI–FRAUMENI SYNDROME
+
+F I G U R E 2 Pedigrees of three families exhibiting significant transmission ratio distortion. (A) Pedigree of family 2. (B) Pedigree of family 7.
+(C) Pedigree of family 12. CA-NOS indicates carcinoma, not otherwise specified; d, death; DCIS, ductal carcinoma in situ; mth, months; NOS,
+not otherwise specified; yrs, years.
+
+HALPERN ET AL.
+
+-
+
+7 of 8
+
+F I G U R E 2 (Continued)
+
+CONCLUSION
+
+writing—review and editing; and investigation. Yehudit Peerless:
+
+Writing—review and editing;
+
+investigation; formal analysis; data
+
+This study underscores a novel aspect of TP53 inheritance in LFS,
+
+curation; supervision; and resources. Ben Boursi: Conceptualization;
+
+with potential implications for genetic counseling and clinical man-
+
+investigation; writing—original draft; methodology; formal analysis;
+
+agement. Our findings provide a foundation for future research into
+
+supervision; and writing—review and editing. Michal Yalon: Investi-
+
+TRD in LFS and possibly in other genetic syndromes. Validation in
+
+gation; writing—review and editing; and project administration. Yael
+
+larger, ethnically diverse cohorts and exploration of the underlying
+
+Goldberg: Investigation; writing—original draft; methodology; writing
+
+biologic mechanisms are critical next steps.
+
+—review and editing; and supervision. Inbal Kedar: Investigation;
+
+writing—review and editing; resources; and data curation. Hagit
+
+AUTH OR CON TRIBUTIONS
+
+Shani: Writing—review and editing; investigation; and supervision.
+
+Naama Halpern: Conceptualization; investigation; writing—original
+
+Eitan Friedman: Conceptualization;
+
+investigation; writing—original
+
+draft; methodology; validation; visualization; writing—review and
+
+draft; writing—review and editing; methodology; formal analysis;
+
+editing; project administration; data curation; supervision; and re-
+
+and supervision. Rinat Bernstein-Molho: Conceptualization; investi-
+
+sources. Iris Kventsel: Conceptualization;
+
+investigation; writing—
+
+gation; writing—original draft; methodology; validation; visualization;
+
+original draft; methodology; supervision; and writing—review and
+
+writing—review and editing; formal analysis; data curation; and
+
+editing. Gal Strauss: Data curation; project administration; resources;
+
+supervision.
+
+8 of 8
+
+-
+
+TRANSMISSION RATIO DISTORTION IN LI–FRAUMENI SYNDROME
+
+C O N F L IC T O F I N T EREST STATEMEN T
+
+Rinat Bernstein-Molho reports travel support from Gilead Sciences
+
+Inc. and Pfizer and support for other professional activities from
+
+AstraZeneca outside the submitted work. The remaining authors
+
+disclosed no conflicts of interest.
+
+D A T A A V A I LA BI LI TY STATEMENT
+
+The data sets generated during and/or analyzed during the current
+
+study are available from the corresponding author upon reasonable
+
+request.
+
+O R C ID
+
+Naama Halpern
+
+https://orcid.org/0000-0002-8926-4154
+
+Ben Boursi
+
+https://orcid.org/0000-0002-1304-8340
+
+Rinat Bernstein-Molho
+
+https://orcid.org/0000-0002-4068-9514
+
+R E F E R E N C ES
+
+1. Malkin D, Li FP, Strong LC, et al. Germ line p53 mutations in a fa-
+milial syndrome of breast cancer, sarcomas, and other neoplasms.
+Science. 1990;250(4985):1233-1238. doi:10.1126/science.1978757
+
+2. de Andrade KC, Strande NT, Kim J, et al. Genome-first approach of
+the prevalence and cancer phenotypes of pathogenic or likely
+pathogenic germline TP53 variants. HGG Adv. 2024;5(1):100242.
+doi:10.1016/j.xhgg.2023.100242
+
+3. Paskulin DD, Giacomazzi J, Achatz MI, et al. Ancestry of the Bra-
+zilian TP53 c.1010G>A (p.Arg337His, R337H) founder mutation:
+clues from haplotyping of short tandem repeats on chromosome
+17p. PLoS One. 2015;10(11):e0143262. doi:10.1371/journal.pone.
+0143262
+
+4. Powers J, Pinto EM, Barnoud T, et al. A rare TP53 mutation pre-
+dominant in Ashkenazi Jews confers risk of multiple cancers. Cancer
+Res. 2020;80(17):3732-3744. doi:10.1158/0008-5472.can-20-1390
+5. Arnon J, Zick A, Maoz M, et al. Clinical and genetic characteristics of
+carriers of the TP53 c.541C>T, p.Arg181Cys pathogenic variant
+causing hereditary cancer in patients of Arab-Muslim descent. Fam
+Cancer. 2024;23(4):531-542. doi:10.1007/s10689-024-00391-2
+Li FP, Fraumeni JF Jr, Mulvihill JJ, et al. A cancer family syndrome in
+twenty-four kindreds. Cancer Res. 1988;48(18):5358-5362.
+
+6.
+
+7. Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li–
+Fraumeni syndrome from TP53 mutation carriers. J Clin Oncol.
+2015;33(21):2345-2352. doi:10.1200/jco.2014.59.5728
+
+8. de Andrade KC, Khincha PP, Hatton JN, et al. Cancer incidence,
+patterns, and genotype–phenotype associations in individuals with
+pathogenic or likely pathogenic germline TP53 variants: an obser-
+vational cohort study. Lancet Oncol. 2021;22(12):1787-1798. doi:10.
+1016/S1470-2045(21)00580-5
+
+9. Rana HQ, Gelman R, LaDuca H, et al. Differences in TP53 mutation
+carrier phenotypes emerge from panel-based testing. J Natl Cancer
+Inst. 2018;110(8):863-870. doi:10.1093/jnci/djy001
+
+10. Ferreira AM, Brondani VB, Helena VP, et al. Clinical spectrum of Li-
+Fraumeni syndrome/Li-Fraumeni-like syndrome in Brazilian in-
+dividuals with the TP53 p.R337H mutation. J Steroid Biochem Mol
+Biol. 2019;190:250-255. doi:10.1016/j.jsbmb.2019.04.011
+
+11. Fortuno C, Pesaran T, Dolinsky J, et al. p53 major hotspot variants
+are associated with poorer prognostic features in hereditary cancer
+
+patients. Cancer Genet. 2019;235–236:21-27. doi:10.1016/j.
+cancergen.2019.05.002
+
+12. Kratz CP, Freycon C, Maxwell KN, et al. Analysis of the Li-Fraumeni
+spectrum based on an international germline TP53 variant data set:
+an International Agency for Research on Cancer TP53 Database
+analysis. JAMA Oncol. 2021;7(12):1800-1805. doi:10.1001/
+jamaoncol.2021.4398
+
+13. Huang LO, Labbe A, Infante-Rivard C. Transmission ratio distortion:
+review of concept and implications for genetic association studies.
+Hum Genet. 2013;132(3):245-263. doi:10.1007/s00439-012-1257-0
+14. Davidoff DF, Lim ES, Benn DE, et al. Distortion in transmission of
+pathogenic SDHB- and SDHD-mutated alleles from parent to offspring.
+Endocr Relat Cancer. 2023;30(5):e220233. doi:10.1530/erc-22-0233
+Imboden M, Swan H, Denjoy I, et al. Female predominance and
+transmission distortion in the long-QT syndrome. N Engl J Med.
+2006;355(26):2744-2751. doi:10.1056/nejmoa042786
+
+15.
+
+16. Kang HJ, Feng Z, Sun Y, et al. Single-nucleotide polymorphisms in
+the p53 pathway regulate fertility in humans. Proc Natl Acad Sci U S
+A. 2009;106(24):9761-9766. doi:10.1073/pnas.0904280106
+17. Ganeshan L, Jin XL, O’Neill C. The induction of tumour suppressor
+protein P53 limits the entry of cells into the pluripotent inner cell
+mass lineage in the mouse embryo. Exp Cell Res. 2017;358(2):227-
+233. doi:10.1016/j.yexcr.2017.06.020
+
+18. Palomares AR, Castillo-Domínguez AA, Ruiz-Galdón M, Rodriguez-
+Wallberg KA, Reyes-Engel A. Genetic variants in the p53 pathway
+influence implantation and pregnancy maintenance in IVF treat-
+ments using donor oocytes. J Assist Reprod Genet. 2021;38(12):3267-
+3275. doi:10.1007/s10815-021-02324-9
+
+19. National Cancer Institute (NCI). The TP53 Database. NCI; 2025.
+
+Accessed January 28, 2025. https://tp53.cancer.gov/
+
+20. Kato S, Han SY, Liu W, et al. Understanding the function–structure and
+function–mutation relationships of p53 tumor suppressor protein by
+high-resolution missense mutation analysis. Proc Natl Acad Sci U S A.
+2003;100(14):8424-8429. doi:10.1073/pnas.1431692100
+
+21. Giacomelli AO, Yang X, Lintner RE, et al. Mutational processes shape
+the landscape of TP53 mutations in human cancer. Nat Genet.
+2018;50(10):1381-1387. doi:10.1038/s41588-018-0204-y
+
+22. Chompret A, Abel A, Stoppa-Lyonnet D, et al. Sensitivity and pre-
+dictive value of criteria for p53germline mutation screening. J Med
+Genet. 2001;38(1):43-47. doi:10.1136/jmg.38.1.43
+
+23. Naumova A, Sapienza C. The genetics of retinoblastoma, revisited.
+
+Am J Hum Genet. 1994;54(2):264-273.
+
+24. Kamihara J, Rana HQ, Garber JE. Germline 53 mutations and the
+syndrome. Hum Mutat.
+
+changing landscape of Li–Fraumeni
+2014;35(6):654-662. doi:10.1002/humu.22559
+
+25. Organisation for Economic Co-operation and Development (OECD).
+Society at a Glance 2024: OECD Social Indicators. OECD Publishing;
+2024. Accessed January 21, 2025. https://www.oecd.org/en/
+publications/society-at-a-glance-2024_918d8db3-en.html
+
+How to cite this article: Halpern N, Kventsel I, Strauss G,
+
+et al. Transmission ratio distortion of germline TP53 variants
+
+in Li–Fraumeni syndrome families. Cancer. 2025;e35943.
+
+doi:10.1002/cncr.35943
+
+

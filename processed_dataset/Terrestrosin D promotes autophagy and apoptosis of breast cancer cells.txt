@@ -1,0 +1,1005 @@
+Phytomedicine 143 (2025) 156883 
+
+Contents lists available at ScienceDirect
+
+Phytomedicine
+
+journal homepage: www.elsevier.com/locate/phymed
+
+Original Article
+
+Terrestrosin D promotes autophagy and apoptosis of breast cancer cells 
+through PSMD1-dependent activation of P53 pathway
+
+, Cheng-Jie Wu b, Pei-Wen Ye b, Qian Zhang b
+
+Li-Ling Jia a
+Xiao-Lei Hu b,*
+a Department of Anaesthesia, Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, 030001, PR China
+b Breast Center, Department of General Surgery, Southern Medical University Nanfang Hospital, Guangzhou, Guangdong, 510515, PR China
+
+, Hua Liu a, Tu-Ping Li a,  
+
+A R T I C L E  I N F O
+
+A B S T R A C T
+
+Keywords:
+Triple-negative breast cancer
+Terrestrosin D
+Autophagy
+Apoptosis
+P53
+PSMD1
+
+Background  and  purpose:  Breast  cancer,  particularly  triple-negative  breast  cancer  (TNBC),  poses  a  significant 
+threat to women’s health. In tumor cells, autophagy and apoptosis are double-edged swords, playing complex 
+roles in cancer progression and treatment. This study aimed to investigate whether Terrestrosin D (TED) exerts 
+antitumor effects on TNBC by modulating autophagy and apoptosis, and to elucidate the underlying molecular 
+mechanisms.
+Methods: The antiproliferative and pro-apoptotic effects of TED on TNBC cells were assessed using CCK-8, EdU 
+assay,  Live/Dead  staining,  and  flow  cytometry.  Autophagy  was  monitored  through  immunofluorescence  and 
+confocal microscopy. RNA sequencing was performed to identify the pathways and molecular targets involved. 
+The anti-TNBC effects of TED were further evaluated in vivo using tumor xenograft models. Western blotting was 
+conducted to validate the relationship between PSMD1, P53, and TED-induced antitumor activity.
+Results:  TED  exhibited  significant  antitumor  effects  both  in  vitro  and  in  vivo.  Cellular  phenotypic  analyses 
+revealed that TED promoted autophagy and apoptosis. Transcriptomic analyses indicated that TED stabilizes P53 
+expression and activates the P53 signaling pathway by inhibiting the function of PSMD1.
+Conclusion: TED exhibits potent antitumor effects on TNBC by promoting autophagy and apoptosis. It achieves 
+this through PSMD1 inhibition, stabilizing P53 expression, and activating the P53 pathway. Notably, this study is 
+the first to demonstrate that TED directly targets PSMD1, a key proteasomal regulator, thereby unveiling a novel 
+mechanism for P53 stabilization in TNBC. These findings provide new insights into the therapeutic modulation of 
+the PSMD1 - P53 axis by natural compounds and support the development of TED as a multi-functional agent for 
+aggressive breast cancers.
+
+Introduction
+
+Breast  cancer,  the  most  prevalent  malignancy  among  women,  ac-
+counts for approximately 32 % of all cancer cases (Sung et al., 2021). 
+Triple-negative breast cancer (TNBC) represents a particularly aggres-
+sive subtype characterized by a lack of effective treatment options and 
+clear  prognostic  markers  (Bianchini  et  al.,  2016).  Due  to  its 
+non-responsiveness  to  current  targeted  therapies,  TNBC  is  associated 
+with  poor  clinical  outcomes  (Garrido-Castro  et  al.,  2019).  Identifying 
+
+new  therapeutic  agents  for  TNBC  is  therefore  of  significant  clinical 
+importance.
+
+Terrestrosin  D  (TED)  is  a  major  spirostanol  saponin  isolated  from 
+Fructus  Tribuli,  a  traditional  medicine  with  a  history  spanning  thou-
+sands of years (Sun et al., 2022). Previous studies have demonstrated 
+TED’s  therapeutic  potential  in  alleviating  inflammatory  damage  (Qiu 
+et al., 2019; Guo et al., 2022), lung fibrosis (Yang et al., 2022), and its 
+ability to inhibit tumor growth and angiogenesis in prostate cancer (Wei 
+et  al.,  2014).  However,  its  effects  on  TNBC  remain  unexplored.  This 
+
+Abbreviations: 3-MA, 3-methyladenine; AMPK, adenosine 5‘-monophosphate-activated protein kinase; Baf-A1, bafilomycin A1; BAX, BCL-2-associated X protein; 
+BCL2, B-cell lymphoma-2; CETSA, cellular thermal shift assay; CHX, cycloheximide; CQ, chloroquine; DARTS, drug affinity responsive target stability; FER-1, fer-
+rostatin-1; MDM2, murine double minute2; mTOR, mammalian target of rapamycin; PTX, paclitaxel; TED, terrestrosin D; TTM, tetrathiomolybdate; TNBC, triple- 
+negative breast cancer; UPS, ubiquitin–proteasome system.
+
+* Corresponding author.
+
+E-mail address: xlhu@smu.edu.cn (X.-L. Hu). 
+
+https://doi.org/10.1016/j.phymed.2025.156883
+Received 6 February 2025; Received in revised form 30 March 2025; Accepted 19 May 2025  
+Available online 20 May 2025 
+0944-7113/© 2025 Elsevier GmbH. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+study  aims  to  investigate  the  antitumor  activity  of  TED  in  TNBC  and 
+elucidate its underlying mechanisms.
+
+Apoptosis,  a  tightly  regulated  programmed  cell  death  process,  is 
+critical for eliminating malignant or hyperplastic cells and controlling 
+tumor  progression  (Elmore,  2007).  Autophagy,  a  strictly  regulated 
+catabolic process, also plays a dual role in cancer, functioning as both a 
+tumor suppressor and promoter depending on the context (Levy et al., 
+2017).  Autophagy  and  apoptosis  are  intricately  connected  and  often 
+share  upstream  regulatory  signals  during  cancer  cell  death  (Mari˜no 
+et al., 2014). While TED has been shown to induce both autophagy and 
+apoptosis in various cancers, the precise mechanisms underlying these 
+effects, particularly in TNBC, remain undefined.
+
+The tumor suppressor P53 plays a pivotal role in regulating apoptosis 
+and  autophagy  (Wang  et  al.,  2016;  Aubrey  et  al.,  2018).  Normally 
+expressed  at  low  levels,  P53  levels  rise  in  response  to  DNA  damage, 
+promoting apoptosis by upregulating pro-apoptotic factors such as BAX 
+and  downregulating  anti-apoptotic  factors  like  BCL2  (Wu  and  Deng, 
+2002; Zhang et al., 2021; Wang, 2023). P53 also regulates autophagy 
+through  both  transcription-dependent  and  transcription-independent 
+pathways.  In  the  transcription-independent  pathway,  P53  activates 
+AMPK, which in turn inhibits mTOR to induce autophagy (Thoreen and 
+Sabatini,  2005;  Ge  et  al.,  2022).  In  the  transcription-dependent 
+pathway,  P53  promotes  autophagy  by  upregulating  genes  such  as 
+PTEN,  TSC1,  or  DRAM,  thereby  negatively  regulating  mTOR  activity 
+(Lorin et al., 2010; Chen et al., 2020; Kato et al., 2021; Luo et al., 2021).
+The  ubiquitin–proteasome  system  (UPS)  is  a  critical  proteolytic 
+mechanism that maintains protein homeostasis by degrading ubiquiti-
+nated proteins. The 26S proteasome complex, a key component of the 
+UPS, consists of the 20S core and 19S regulatory particles. Among its 
+subunits, the non-ATPase 1 (PSMD1) protein is a vital component of the 
+19S regulatory particle and is closely associated with cancer progression 
+and aggressiveness. PSMD1 mediates the degradation of key proteins, 
+including NOXA and P53, thereby regulating cancer cell proliferation 
+and apoptosis.
+
+This study demonstrates that TED exerts significant antitumor effects 
+on TNBC both in vitro and in vivo. Mechanistically, TED inhibits PSMD1, 
+stabilizing  P53  expression  and  activating  the  P53  signaling  pathway. 
+These  findings  suggest  that  TED  is  a  promising  therapeutic  agent  for 
+TNBC  and  provide  valuable  insights  into  the  molecular  mechanisms 
+underlying its antitumor activity.
+
+Materials and methods
+
+Reagents
+
+The Anti-Cancer Active Compound Library and Terrestrosin D (TED) 
+were  purchased  from  TargetMol  (Boston,  USA).  Additional  reagents, 
+including  Z-VAD-FMK  (FMK),  Ferrostatin-1  (FER-1),  Bafilomycin  A1 
+(Baf-A1),  Tetrathiomolybdate  (TTM),  3-Methyladenine  (3-MA),  Chlo-
+roquine (CQ), Cycloheximide (CHX), and MG132, were obtained from 
+Selleck Chemicals (Houston, USA). Antibodies used in this study include 
+Cleaved PARP (9541T, 1:1000, CST), Cleaved Caspase-3 (25,128–1-AP, 
+1:1000, Proteintech), Bax (A19684, 1:1000, ABclonal), Bcl-2 (A19693, 
+1:1000,  ABclonal),  GAPDH  (60,004–1-Ig,  1:10,000,  Proteintech), 
+Beclin-1  (11,306–1-AP,  1:1000,  Proteintech),  P62  (18,420–1-AP, 
+1:5000,  Proteintech),  LC3  (14,600–1-AP,  1:1000,  Proteintech),  P53 
+(10,442–1-AP,  1:5000,  Proteintech),  MDM2  (66,511–1-Ig,  1:1000, 
+Proteintech),  PSMD1  (A16420,  1:1000,  ABclonal),  HA  (51,064–2-AP, 
+1:5000,  Proteintech),  SNAI1  (13,099–1-AP,  1:1000,  Proteintech),  N- 
+cadherin  (22,018–1-AP,  1:2000,  Proteintech),  Vimentin  (A11952, 
+1:1000, ABclonal), E-cadherin (20,874–1-AP, 1:5000, Proteintech), and 
+Claudin-1 (28,674–1-AP, 1:1000, Proteintech).
+
+Cell culture and treatment
+
+Cell  lines  used  in  this  study  were  obtained  from  the  National 
+
+2 
+
+Collection  of  Authenticated  Cell  Cultures  (Shanghai,  China).  These 
+included  the  human  mammary  epithelial  cell  line  MCF10A,  breast 
+cancer  cell lines  MCF7, T47D,  BT474,  SKBR3,  MDA-MB-468,  BT-549, 
+and the human embryonic kidney epithelial cell line 293FT. MCF10A 
+was cultured in cell-specific medium (Pricella Biotechnology, Wuhan, 
+China), while other cell lines were maintained in DMEM supplemented 
+with  10  %  fetal  bovine  serum  (FBS,  ExCelll  Bio,  Shanghai)  and  1  % 
+penicillin-streptomycin  (Pricella  Biotechnology,  Wuhan,  China).  Cells 
+were  cultured  at  37 
+C  in  a  humidified  atmosphere  of  5  %  CO2, 
+confirmed  to  be  free  of  mycoplasma  contamination,  and  passaged  no 
+>30 times post-thawing.
+
+◦
+
+Cell apoptosis assay
+
+Apoptosis  was  assessed  using  the  Annexin  V-FITC/PI  Apoptosis 
+Detection Kit (Beyotime, Shanghai, China). Cells were incubated with 
+the Annexin V-FITC/PI working solution for 15 min at room temperature 
+in the dark. Analysis was performed using a FACScan flow cytometer 
+(BD Biosciences, San Jose, CA, USA).
+
+EdU assay
+
+The EdU-594 Kit (Beyotime, Shanghai, China) was used to assess cell 
+proliferation. Cells were treated with drugs and incubated with the EdU 
+working  solution  for  2  h,  followed  by  fixation,  permeabilization,  and 
+addition of the EdU reaction solution. Proliferating cells were visualized 
+by Alexa Fluor 594 under a fluorescence microscope, and nuclei were 
+counterstained with DAPI.
+
+Live/dead staining assay
+
+◦
+
+The cytotoxic effects of TED were analyzed using the Calcein/PI Cell 
+Viability/Cytotoxicity Assay Kit (Beyotime, Shanghai, China). Treated 
+cells were incubated with calcein AM/PI staining solution for 30 min at 
+37 
+C,  protected  from  light.  Live  cells  displayed  green  fluorescence 
+(calcein AM), while dead cells exhibited red fluorescence (PI). Images 
+were captured using a fluorescence microscope, and dead cell percent-
+ages were calculated.
+
+Cell viability assay
+
+Cells were seeded in 96-well plates, treated with TED for specified 
+durations, and incubated with CCK8 reagent (APExBIO, Houston, USA) 
+◦
+for 2 h at 37 
+C. Absorbance was measured at 450 nm using a microplate 
+reader.
+
+GFP-LC3/mRFP-GFP-LC3 puncta assay
+
+MDA-MB-231 and MDA-MB-468 cells were infected with GFP-LC3 or 
+mRFP-GFP-LC3 lentivirus to establish stable cell lines. Following drug 
+treatment,  autophagosome  formation  was  assessed  using  fluorescence 
+microscopy. Double-positive (yellow) puncta indicated autophagosome 
+formation, while red puncta marked autophagosome maturation.
+
+Confocal co-localization of LC3 and lysosomal markers
+
+Cells were seeded on glass coverslips and treated with TED or DMSO 
+for 24 h. After treatment, cells were fixed with 4 % paraformaldehyde 
+for 20 min at room temperature, followed by permeabilization with 0.1 
+% Triton X-100 for 10 min. Cells were then blocked with 5 % bovine 
+serum  albumin  (BSA)  and  incubated  overnight  at  4 
+C  with  primary 
+antibodies against LC3 and LAMP1. After washing, cells were incubated 
+with  Alexa  Fluor  488-conjugated  secondary  antibody  for  LC3  (green) 
+and Alexa Fluor 594-conjugated secondary antibody for LAMP1 (red) for 
+1 h at room temperature. Nuclei were counterstained with DAPI. Fluo-
+rescence  images  were  acquired  using  a  confocal  laser  scanning 
+
+◦
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+microscope.
+
+Drug affinity responsive target stability (DARTS)
+
+LAC-20,250,307–006,  and  conducted  in  accordance  with  the  ARRIVE 
+guidelines and institutional regulations for the care and use of labora-
+tory animals.
+
+Cell lysates treated with or without TED were incubated for 30 min at 
+room temperature, followed by digestion with proteinase K. Digestion 
+was halted with PMSF, and candidate protein expression was assessed 
+via Western blotting.
+
+Statistical analysis
+
+Data are presented as mean ± SD. Statistical analysis was performed 
+using GraphPad Prism 8.0. Statistical significance was denoted as * (0.01 
+< p < 0.05), ** (0.001 < p < 0.01), and *** (p < 0.001).
+
+Cellular thermal shift assay (CETSA)
+
+Cell lysates were treated with TED or DMSO, incubated for 1 h, and 
+C. Supernatants were collected 
+
+◦
+
+divided into aliquots heated at 50–66 
+and analyzed via Western blotting.
+
+Co-IP assay
+
+◦
+Cell lysates were incubated with antibodies overnight at 4 
+
+C. Protein 
+A/G beads were added, incubated for 3 h, and washed. The samples were 
+analyzed via Western blotting.
+
+Transwell assays
+
+50,000 cells were seeded into the upper chamber of Transwell inserts 
+with serum-free medium and TED. DMEM with 15 % FBS was added to 
+the  lower  chamber.  After  24  h,  cells  were  fixed,  stained  with  crystal 
+violet, and analyzed microscopically.
+
+Quantitative real-time PCR
+
+Total RNA was extracted from MDA-MB-231 cells using TRIzol re-
+agent following the manufacturer’s instructions. cDNA was synthesized 
+using a reverse transcription kit. Quantitative real-time PCR (qPCR) was 
+performed using SYBR Green Master Mix on a StepOnePlus™ Real-Time 
+PCR  System  (Applied  Biosystems).  GAPDH  was  used  as  an  internal 
+control.  Relative  gene  expression  levels  were  calculated  using  the  2^- 
+ΔΔCt method. The primers used in this study are listed below: TMEFF1 
+forward,  5′-  TTGTTGGGAAAGAAAGATGATGGA  (cid:0) 3′  and  reverse,  5′- 
+GATGCAGTAACCATTGAGGTTTT  (cid:0) 3′;  PAK6  forward,  5′-  GACTC-
+CATCCTGCTGACCCTC  (cid:0) 3′  and  reverse,  5′-  CACCTCAGTGGCATA-
+CAAAGACC (cid:0) 3′; GAPDH forward, 5′-CATGAGAAGTATGACAACAGCCT- 
+3′ and reverse 5′-AGTCCTTCCACGATACCAAAGT-3′; HSPA6 forward, 5′- 
+(cid:0) 3′  and  reverse  5′-  GCTCATTGAT-
+CAAGGTGCGCGTATGCTAC 
+GATCCGCAACAC (cid:0) 3′;DRD5 forward, 5′- CTATTTCCAGACCCTTCCGCT 
+(cid:0) 3′ and reverse 5′- CTGCCTTGTCTCTGTGCCAAT (cid:0) 3′; CASP8 forward, 
+reverse  5′-  TTCAC-
+5′-  GAAGATAATCAACGACTATG 
+TATCCTGTTCTCT  (cid:0) 3′;  IGFBP3  forward,  5′-  TGTGGCCATGACTGAG-
+GAAA (cid:0) 3′ and reverse 5′- TGCCGACCTTCTTGGGTTT (cid:0) 3′;
+
+(cid:0) 3′  and 
+
+Western blotting
+
+Proteins were extracted with RIPA lysis buffer containing protease 
+inhibitors  and  quantified  using  a  BCA  kit.  Samples  were  subjected  to 
+SDS-PAGE,  transferred  to  PVDF  membranes,  blocked,  and  incubated 
+with  primary  and  secondary  antibodies.  Protein  bands  were  detected 
+using ECL reagents and a chemiluminescence system.
+
+Tumor xenograft assay
+
+Orthotopic TNBC models were established by injecting 2 × 10⁶ MDA- 
+MB-231 cells into the mammary fat pads of BALB/c nude mice. After 
+tumor formation, mice were treated with TED bi-daily for three weeks. 
+Tumor  tissues  and  major  organs  were  collected  for  analysis.  Tumor 
+volume was calculated as V = (length × width2) / 2. All animal exper-
+iments were approved by the Institutional Animal Care and Use Com-
+mittee of Nanfang hospital, under the ethical approval number IACUC- 
+
+3 
+
+Results
+
+TED dose-dependently induced TNBC cell death
+
+Based on a Natural Product Library consisting of 500 natural prod-
+ucts  derived  from  plants,  animals,  or  microorganisms  with  known  or 
+potential  antitumor  activity,  a  method  for  screening  compounds  was 
+applied  to  identify  compounds  with  anticancer  properties  in  TNBC 
+(Fig. 1A). First, the inhibitory efficacy of 500 compounds against TNBC 
+cell lines was assessed at a concentration of 10 μM. 46 compounds with 
+inventory rates >50 % were selected (Fig. 1B and Supplementary Table 
+1).  Subsequently,  we  conducted  a  comprehensive  literature  search  of 
+these 46 compounds and discovered that there is currently no existing 
+literature  regarding  the  anti-tumor  efficacy  of  TED  in  breast  cancer. 
+Therefore,  TED  became  our  research  focus  (Fig.  1C).  To  guide  the 
+experimental  design,  we  first  determined  the  IC50  values  of  TED  in 
+multiple cell lines. MDA-MB-231 and BT-549 cells exhibited the highest 
+sensitivity (IC50 ≈ 5 μM), while MCF-10A cells showed relatively low 
+sensitivity  (Supplementary  Fig.  1  A-D).  Therefore,  a  concentration 
+gradient of 2.5–10 μM was employed in the CCK-8 assay and subsequent 
+in  vitro  experiments  to  ensure  coverage  of  the  biologically  relevant 
+range. The CCK8 experiments demonstrated a dose-dependent reduction 
+in cell viability following TED treatment (Fig. 1D, E). Subsequently, we 
+conducted an EdU proliferation assay in conjunction with a live or dead 
+staining assay in cell treated with TED. Interestingly, compared with the 
+DMSO group, TED did not exert a significant inhibitory effect on cell 
+proliferation (Fig. 1F,  G), conversely, it exhibited  a notable ability to 
+induce cell death in TNBC cells (Fig. 1H, I). The findings imply that TED 
+has  the  potential  to  impede  the  progression  of  breast  cancer  tumors 
+through its facilitation of cell death.
+
+TED promotes apoptosis and autophagy in TNBC
+
+To  revealing  the  mechanisms  by  which  TED  facilitates  TNBC  cell 
+death, we used a panel of cell death inhibitors to rescue the cell viability 
+under  TED  treatment  including  copper  chelator  (tetrathiomolybdate, 
+TTM), iron chelator (ferrostatin-1, Fer-1), autophagy inhibitor (bafilo-
+mycin  A1,  Baf-A1),  and  apoptosis  inhibitor  (Z-VAD-FMK,  ZMK).  Our 
+results indicated  that the autophagy inhibitor and  apoptosis inhibitor 
+partially  restored  TED  induced  cell  death,  while  the  copper  and  iron 
+chelators had no significant effect (Fig. 2A, B, C).
+
+To confirm the effect of TED on TNBC cell apoptosis, flow cytometry 
+was employed to assess the apoptotic rate in TNBC cells, as illustrated in 
+Fig. 2D and E. The results demonstrated that TED treatment significantly 
+increased apoptosis in TNBC cells. Furthermore, results of the Western 
+blot  demonstrated  that  the  TED  treatment  led  to  an  increase  in  the 
+expression of the pro-apoptotic protein Bax, cleaved PARP and cleaved 
+caspase-3,  while  there  was  a  reduction  in  the  expression  of  the  anti- 
+apoptotic protein Bcl-2. (Fig. 2H).
+
+A  substantial  body  of  evidence  indicates  that  the  activation  of 
+cellular  autophagy  is  associated  with  the  promotion  of  apoptosis.  To 
+observe  the  effect  of  TED  on  autophagy,  we  transfected  the  GFP-LC3 
+plasmid into TNBC cells to construct the GFP-LC3 single fluorescence 
+autophagy  indicator  system.  The  results  obtained  from  confocal  indi-
+cated a notable increase in autophagosomes (green puncta) following 
+TED  treatment  and  it  was  concentration  dependent  (Fig.  2F,  G). 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+Fig. 1. Screening of natural compounds identifies Terrestrosin D (TED) as an anticancer agent for TNBC. (A) Overview of the natural product library screening 
+process. (B) Initial screening results showing compounds with inhibitory rates above 50 %. (C) Chemical structure of Terrestrosin D. (D, E) Dose-dependent inhibition 
+of TNBC cell viability by TED as assessed by CCK8 assays. (F, G) EdU staining and quantification of proliferation following TED treatment. (H, I) PI staining for cell 
+Live/Dead evaluation. Bars, SDs; * 0.01 < p < 0.05, ** 0.001 < p < 0.01, and *** p < 0.001.
+
+4 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+Fig. 2. TED induces apoptosis and autophagy in TNBC cells. (A-C) Inhibitor assays showing partial rescue of cell viability using apoptosis and autophagy in-
+hibitors. (D, E) Flow cytometry analysis demonstrates increased apoptotic cell populations following TED treatment. (F, G) Confocal microscopy of GFP-LC3 puncta 
+indicating autophagosome accumulation. (H, I) Western blot analysis of autophagy- and apoptosis-related markers in TED-treated cells. Bars, SDs; * 0.01 < p < 0.05, 
+** 0.001 < p < 0.01, and *** p < 0.001.
+
+5 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+Consistently, the above results were confirmed by the increased LC3 and 
+Beclin1  expression  and  decreased  P62  expression  in  the  TED-treated 
+TNBC cells (Fig. 2I).
+
+To determine that the accumulation of autophagosomes as well as 
+the increase in LC3 was due to TED promoting autophagic flow rather 
+than  the  blockage  of  the  autolysosomal  degradation  pathway.  A dual 
+fluorescence-labeled indicator system for LC3 was constructed (Fig. 3A). 
+The  early  autophagy  inhibitor  3-MA  (3-Methyladenine)  (blocking  the 
+activation  of  early  autophagy)  and  the  late  autophagy  inhibitor  CQ 
+(Chloroquine) (inhibiting the fusion of autophagosome and lysosome) 
+were added to TED at the same time. The accumulation of early auto-
+phagosomes (yellow puncta, GFP+ and RFP+) as well as late autopha-
+gosomes (red puncta, GFP(cid:0) and RFP+) was observed by fluorescence 
+microscopy  (Fig.  3B).  The  results  showed  that  the  initiation  of  auto-
+phagy could be greatly inhibited by 1 mM 3-MA, and autophagy acti-
+vated by TED was inhibited. Compared with CQ concentration of 1uM, 
+10uM  could  completely  block  the  late  process  of  autophagy,  and  the 
+number  of  autophagosomes  was  further  increased  when  TED  and  CQ 
+were  added  at  the  same  time.  Moreover,  TED  had  little  effect  on  the 
+number  of  late  autophagosomes  (Fig.  3C,  D,  E,  F).  WB  results  also 
+showed the same trend (Fig. 3G, H). These results suggest that the effect 
+of  TED  on  autophagy  is  through  promoting  the  initiation  of  early 
+autophagic  flow rather than inhibiting late lysosomal fusion. Overall, 
+the aforementioned results indicate that TED can exert concentration- 
+dependent  promotion  of  autophagy  and,  consequently,  apoptosis  in 
+TNBC cells.
+
+To better complement the findings from the mRFP-GFP-LC3 system, 
+we performed a confocal co-localization analysis of LC3 and the lyso-
+somal  marker  LAMP1.  The  results  showed  a  significant  increase  in 
+LC3–LAMP1  co-localization  following  TED  treatment,  indicating 
+enhanced  autophagosome–lysosome  fusion.  This  finding  supports  the 
+conclusion  that  TED  facilitates  the  progression  of  autophagy  to  the 
+degradation stage, further confirming its role in activating a complete 
+autophagic response (Supplementary Fig. 2).
+
+To investigate whether TED-induced apoptosis is mediated through 
+the activation of autophagy, we used the autophagy inhibitor 3-methyl-
+adenine (3-MA) to block autophagy and evaluated the apoptosis rate via 
+flow cytometry. In both MDA-MB-231 and  BT-549 cells, we observed 
+that  TED-induced  apoptosis  was  markedly  attenuated  upon  3-MA 
+treatment  (Fig.  3I).  These  results  suggest  that  autophagy  plays  a 
+pivotal  role  in  mediating  TED-induced  apoptosis  in  TNBC  cells,  indi-
+cating  that  apoptosis  is  at  least  partially  dependent  on  autophagic 
+activation.
+
+TED activates the P53 pathway
+
+To  elucidate  the  potential  mechanisms  by  which  TED  promotes 
+apoptosis.  We  performed  transcriptome  sequencing  of  MDA-MB-231 
+cells treated with TED or DMSO for 48 h, with three biological repli-
+cates (n = 3) per group. To validate the reliability of the RNA-seq data, 
+We selected six representative differentially expressed genes (TMEFF1, 
+PAK6,  HSPA6,  DRD5,  CASP8,  and  IGFBP3)  for  qPCR  validation.  The 
+mRNA expression levels determined by qPCR were in strong agreement 
+with the transcriptomic data, further supporting the robustness of the 
+RNA-seq analysis (Supplementary Fig. 3). The differential genes of the 
+two groups were subjected to KEGG analysis, and found the involvement 
+of the p53 signaling pathway, a classical pathway known to be associ-
+ated with cellular autophagy and apoptosis (Fig. 4A). P53 protein is a 
+key protein in the p53 pathway and has been reported as a tumor sup-
+pressor  protein.  It  can  regulate  the  expression  of  a  variety  of  genes, 
+including apoptosis-related genes such as BAX, BCL2, CASPASE, and up- 
+regulate upstream regulators such as PTEN, AMPK, mTOR to promote 
+autophagy through a transcription-dependent pathway. We added TED 
+to  TNBC  cells  and  by  WB  we  found  that  TED  could  increase  P53 
+expression  in  cells  in  a  concentration-dependent  manner  (Fig.  4B). 
+Therefore, we speculated that TED might inhibit the protein degradation 
+
+of p53. We then added CHX to inhibit protein synthesis in TNBC cells 
+and observed the degradation of P53 at different time points (0, 1, 2, 3, 
+4, 5 h). Compared to the DMSO control group, the TED group was found 
+to have a slower rate of p53 protein degradation (Fig. 4C).
+
+Considering that MDM2-dependent ubiquitination degradation is the 
+major  mode  of  P53  degradation,  we  observed  by  CoIP  assay  that  the 
+binding of p53 to MDM2 was significantly reduced after the addition of 
+TED, which may account for the increased P53 expression (Fig. 4D). We 
+then wondered whether TED could be a direct target for P53 or MDM2, 
+thus protecting p53 from degradation by direct binding. We therefore 
+used the CETSA assay, which is a direct method of measuring the degree 
+of drug binding to the target. However, P53 and MDM2 are not directly 
+targeted by TED (Fig. 4E, F).
+
+TED directly targets PSMD1 and relies on PSMD1 to inhibit tumor 
+progression
+
+In order to find out how TED inhibits P53 degradation, we used the 
+transcriptome data after treatment and the CLUE database to predict the 
+direct  targets  of  TED  (Fig.  5A,  B,  C).  Specifically,  if  the  expression 
+pattern of differential genes after treatment is very similar to the dif-
+ferential  gene  expression  pattern  of  a  gene  that  is  knocked  down  or 
+overexpressed, then, We believe that this gene may be the target of the 
+drug. In our results, PSMD1, PSMA1  and CTSB had higher similarity, 
+while PSMD1 had the highest score and was significantly higher than the 
+other genes (Fig. 5C). Therefore, the PSMD1 gene became the focus of 
+our  consideration.  We  hypothesized  that  TED  might  inhibit  PSMD1 
+expression. So whether TED regulates its expression by directly binding 
+to PSMD1. CETSA assay confirmed our conjecture. The results showed 
+that the PSMD1 protein became more stable after the addition of TED, 
+and  the  amount  of  degraded  protein  decreased  significantly  with  the 
+increase  of  temperature  (Fig.  5D).  Another  experimental  method  for 
+drug target identification, the DARTS assay, can also be used for drug 
+target screening and validation, based on the principle that the binding 
+of a small molecule drug to a target protein leads to a decrease in the 
+sensitivity of the target protein to proteases. As shown in the Fig. 5E, our 
+results indicate that TED can protect PSMD1 from degradation in the 
+presence of different protease concentrations.
+
+We  hypothesised  that  TED  exerts  its  anti-tumour  activity  through 
+PSMD1. Therefore, we knocked down PSMD1 in tumour cells to observe 
+whether  the  anticancer  activity  of  TED  was  affected.  CCK8  results 
+showed that the effect of TED in inhibiting cell viability was attenuated 
+after  knocking  down  PSMD1  (Fig.  5F).WB  results  showed  that  TED’s 
+regulatory  effect  on  apoptosis-related  genes  BAX,BCL2  as  well  as 
+autophagy-related genes LC3 was decreased (Fig. 5G).
+
+In  addition,  we  investigated  the  expression  of  PSMD1  in  breast 
+cancer and its oncogenic effects in vitro and in vivo. In breast cancer, the 
+expression of PSMD1 was significantly higher than that in normal tissues 
+(Fig. 6A), and the high expression of PSMD led to a worse prognosis for 
+patients(Fig.  6B).  WB  validation  of  breast  cancer  clinical  samples 
+collected at hospital also showed that PSMD1 was highly expressed in 
+breast cancer (Fig. 6C). In cells, PSMD1 expression was also higher in the 
+breast cancer cell line than in the normal cell line MCF10A (Fig. 6D).We 
+subsequently constructed stable transient cell lines knocking down as 
+well as overexpressing PSMD1 in triple-negative breast cancer cell lines 
+(Fig.  6E,  Supplementary  Fig.  4).The  results  of  the  CCK8  experiments 
+showed  that knock down  PSMD1 inhibited cell  viability in vitro,  and 
+conversely,  overexpression  of  PSMD1  resulted  in  an  increase  in  cell 
+viability (Fig. 6F, G, H, I). For in vivo experiments, we constructed a 
+subcutaneous transplantation tumour model in nude mice. The results 
+showed that knockdown of PSMD1 resulted in reduced tumour weight 
+and  volume  compared  with  the  control  group  (Fig.  6K,  l),  and  the 
+opposite was true for overexpression (Fig. 6M, N). The results of the in 
+vivo and in vitro experiments suggest that PSMD1 may play a role as a 
+pro-carcinogenic gene in breast cancer, and knockdown of PSMD1 can 
+inhibit the progression of breast cancer.
+
+6 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+Fig. 3. TED promotes autophagic flux in TNBC cells. (A) Schematic of dual-fluorescence LC3 system. (B-F) Confocal microscopy of autophagosomes and auto-
+lysosomes after treatment with TED and inhibitors (3-MA and CQ). (G, H) Western blot analysis confirms TED-induced autophagic flux. (I) Apoptosis analysis by flow 
+cytometry in TNBC cells treated with TED ± 3-MA, showing that 3-MA reduces TED-induced apoptosis. Bars, SDs; * 0.01 < p < 0.05, ** 0.001 < p < 0.01, and *** p 
+< 0.001.
+
+7 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+Fig.  4. TED  activates  the  P53  signaling  pathway.  (A)  KEGG  analysis  of  transcriptomic  data  identifies  P53  pathway  involvement.  (B)  Western  blot  showing 
+concentration-dependent increase in P53 expression after TED treatment. (C) Cycloheximide assays indicate reduced P53 degradation in TED-treated cells. (D) Co-IP 
+assays reveal decreased P53-MDM2 binding following TED treatment. (E, F) CETSA assays onfirmed that TED did not directly bind to P53 and MDM2.
+
+PSMD1 promotes ubiquitination degradation of P53
+
+Our previous findings suggest that TED can activate the P53 pathway 
+by  indirectly  inhibiting  ubiquitinated  degradation of  P53.  As  a  direct 
+target of TED, PSMD1 may be a key protein mediating P53 protein. The 
+PSMD1 protein is a 26 s protease subunit, increased proteasome activity 
+causes altered degradation of some proteins. Therefore, we wanted to 
+verify whether PSMD1 expression causes degradation of P53. First, we 
+found  increased  expression  of  P53  protein  in  PSMD1  knockdown  cell 
+lines  and  decreased  P53  expression  after  overexpression  of  PSMD1 
+(Fig. 7A, B). Subsequently, protein degradation experiments involving 
+CHX showed that the rate of P53 degradation was significantly accel-
+erated after overexpression of PSMD1 (Fig. 7C). In general, proteins are 
+degraded  in  two  ways,  one  is  the  autophagic  lysosomal  degradation 
+pathway  and  the  other  is  the  ubiquitin  proteasomal  degradation 
+pathway. To determine the mode of P53 degradation in breast cancer 
+cells, we introduced the proteasome inhibitor MG132 and the lysosomal 
+inhibitor CQ in stable cell lines overexpressing PSMD1, respectively, It 
+was found that the P53 degradation process mediated by PSMD1 was 
+reverted  by  the  addition  of  MG132,  i.e.,  inhibition  of  the  ubiquitin 
+proteasome  degradation  pathway.  Whereas  CQ  was  unable  to  reply 
+PSMD1-mediated  P53  degradation  (Fig.  7D).  Here,  we  found  that 
+
+PDMD1 was inhibiting P53 expression by promoting the ubiquitin pro-
+teasome  degradation  pathway  of  P53  and  thereby  inhibiting  P53 
+expression.  Subsequently,  we  performed  an  Ubiquitination  assay  to 
+detect the ubiquitination level of P53 in cell lines overexpressing as well 
+as  knocking  down  PSMD1  by  simultaneous  overexpression  of  HA-UB 
+followed by the addition of MG132 to inhibit proteasomal degradation 
+of the protein. In both MDA-MB-231 and BT-549 cells, P53 ubiquitina-
+tion  was  increased  after  PSMD1  overexpression  and  decreased  after 
+PSMD1 knockdown (Fig. 7E, F). The above results suggest that PSMD1 
+can promote the ubiquitination degradation of p53. And TED may have 
+caused  autophagy  and  apoptosis  in  TNBC  cells  by  inhibiting  the 
+expression of PSMD1, which in turn led to the increased expression of 
+P53, thus activating the P53 pathway.
+
+TED inhibited TNBC cell growth in vivo
+
+To investigate the inhibitory effect of TED on breast cancer in vivo, 
+we  established  an  orthotopic  injection  model  of  breast  cancer.  Mice 
+were randomly divided into three groups: vehicle control, TED low dose 
+(5  mg/kg),  and  TED  high  dose  (10  mg/kg).  TED  was  administered 
+intraperitoneally every 2 days for a total of 20 days, while the control 
+group  received  saline  injections.  At  the  endpoint,  tumors  and  major 
+
+8 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+Fig. 5. TED targets PSMD1 to stabilize P53. (A-C) Transcriptomic and CLUE database analysis identify PSMD1 as a potential TED target. (D, E) CETSA and DARTS 
+assays confirm TED-PSMD1 binding. (F, G) Knockdown of PSMD1 reduces TED’s effects on cell viability and autophagy/apoptosis-related markers. Bars, SDs; * 0.01 
+< p < 0.05, ** 0.001 < p < 0.01, and *** p < 0.001.
+
+organs  (lung,  liver,  kidney)  were  harvested,  and  serum  was  collected 
+(Fig. 8A). We compared the size of the tumor and found that TED could 
+significantly  inhibit  the  growth  of  the  tumor  without  affecting  the 
+weight of the nude mice (Fig. 8B, C, D, E). The two indicators of ALT and 
+AST  in  the  serum  of  the  nude  mice  were  also  in  the  normal  range 
+(Fig.  8F,  G),  indicating  that  TED  did  not  cause  damage  to  the  liver 
+function of the nude mice, which was also proved by HE staining of the 
+liver. In addition, HE staining of lung and kidney was consistent with 
+normal (Fig. 8H). These results indicate that TED can inhibit the growth 
+of  breast  cancer  cells  in  vivo  without  obvious  toxic  side  effects.  We 
+extracted  proteins  from  the  collected  tumours  and  examined  the 
+expression  of  PSMD1,  P53, BAX,BCL2,  and  LC3,  and  the  results  were 
+consistent with the cellular experiments (Fig. 8I).
+
+TED inhibits the metastasis of breast cancer cells and enhances the efficacy 
+of chemotherapy
+
+investigate whether TED can improve breast cancer in these two aspects. 
+Transwell assay showed that the migration and invasion ability of MDA- 
+MB-231 and BT-549 cells were significantly inhibited with the increase 
+of  TED  concentration.  At  the  protein  level,  the  epithelial  cell  surface 
+markers  E-cadherin  and  Clauding-1  were  up-regulated,  while  the 
+mesenchymal  markers  N-cadherin,  SNAIL  and  Vimentin  were  down- 
+regulated  after  TED  treatment,  which  was  consistent  with  the  results 
+of cell experiments. We evaluated the impact of combining low doses of 
+TED  and  PTX  using  the  CCK8  assay.  As  illustrated  in  the  figure,  the 
+combination of TED and PTX demonstrated a significantly greater effect 
+compared  to  the  control  group,  and  exhibited  superior  cytotoxicity 
+compared to PTX administered alone. Collectively, our results show that 
+TED  can  inhibit  tumor  cell  metastasis  and  improve  the  sensitivity  of 
+chemotherapy drugs, suggesting that TED may have great potential in 
+clinical treatment.
+
+Discussion
+
+Tumor  metastasis  and  poor  chemotherapy  effect  of  breast  cancer 
+patients are urgent clinical problems to be solved. Here, we wanted to 
+
+Autophagy  and  apoptosis  are  tightly  interconnected  processes 
+
+9 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+Fig. 6. PSMD1 as a pro-oncogenic factor in TNBC. (A, B) PSMD1 expression is significantly elevated in breast cancer tissues and correlates with poor prognosis. (C) 
+PSMD1 was highly expressed in tumor tissues. (D) PSMD1 expression is higher in TNBC cell lines than in normal cells. (E-I) Knockdown of PSMD1 reduces cell 
+viability and tumor progression in vitro. (J-N) In vivo experiments confirm reduced tumor weight and volume following PSMD1 knockdown. Bars, SDs; * 0.01 < p <
+0.05, ** 0.001 < p < 0.01, and *** p < 0.001.
+
+critical to maintaining cellular homeostasis. While both can act as tumor 
+suppressors,  they  are  often  dysregulated  in  cancer,  contributing  to 
+tumor  progression  and  therapeutic  resistance.  TED’s  dual  ability  to 
+enhance autophagic flux and induce apoptosis in TNBC cells is consistent 
+with prior studies that highlight the synergistic interplay between these 
+pathways  in promoting cell death in cance (Mari˜no et  al., 2014). For 
+instance,  TED  increased  autophagosome  formation  and  expression  of 
+autophagy-related proteins LC3 and Beclin-1 while reducing P62 levels, 
+indicating  activation  of  autophagic  flux  rather  than  inhibition  of 
+
+lysosomal degradation. Simultaneously, TED upregulated pro-apoptotic 
+proteins  Bax  and  cleaved  caspase-3  while  downregulating  the 
+anti-apoptotic protein Bcl-2. This dual activation may provide a more 
+robust  therapeutic  strategy  against  TNBC,  a  cancer  type  notoriously 
+resistant to conventional therapies (Lehmann et al., 2011).
+
+The pivotal role of P53 as a tumor suppressor is well-established. It 
+regulates  critical  processes  such  as  DNA  repair,  cell  cycle  arrest, 
+apoptosis, and autophagy. In TNBC, mutations or dysregulation of P53 
+often lead to aggressive tumor growth and poor prognosis (Aubrey et al., 
+
+10 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+Fig.  7. PSMD1  promotes  ubiquitin-proteasomal  degradation  of  P53.  (A,  B)  P53  expression  increases  after  PSMD1  knockdown  and  decreases  after  PSMD1 
+overexpression. (C) Cycloheximide assays reveal accelerated P53 degradation with PSMD1 overexpression. (D) MG132 proteasome inhibitor reverses P53 degra-
+dation  mediated  by  PSMD1.  (E,  F)  Ubiquitination  assays  confirm  enhanced  P53  ubiquitination  with  PSMD1  overexpression  and  reduced  ubiquitination  with 
+PSMD1 knockdown.
+
+2018). P53 has been widely recognized as a crucial regulator of auto-
+phagy in addition to its classical roles in apoptosis and cell cycle arrest. 
+The  impact  of  P53  on  autophagy  is  context-dependent  and  can  vary 
+based on its subcellular localization. Nuclear P53 can transcriptionally 
+activate autophagy-related genes such as DRAM1, SESN1/2, and AMPK, 
+thereby promoting autophagic flux (Crighton et al., 2006; Budanov and 
+Karin, 2008). Conversely, cytoplasmic P53  has been  shown to inhibit 
+autophagy 
+through  mTOR  activation  under  certain  conditions 
+(Tasdemir et al., 2008). In our study, TED-mediated stabilization of P53 
+may  contribute  to  enhanced  autophagic  activity  by  favoring  nuclear 
+localization  and  transcriptional  activation  of  autophagy  regulators. 
+These  findings  suggest  that  TED  may  activate  a  coordinated 
+tumor-suppressive  program  involving  both  apoptosis  and  autophagy 
+through the P53 pathway, reinforcing its potential as a multi-functional 
+therapeutic agent in TNBC.
+
+Our results show that TED stabilizes P53 expression by inhibiting its 
+degradation  via  the  ubiquitin-proteasome  pathway.  Specifically,  TED 
+directly binds to PSMD1, a key component of the 19S regulatory particle 
+
+in the proteasome complex, thereby preventing P53 ubiquitination and 
+subsequent degradation. This novel mechanism highlights PSMD1 as a 
+critical  mediator  of  TNBC  progression  and  a  promising  therapeutic 
+target. Furthermore, the downregulation of PSMD1 not only inhibited 
+TNBC cell viability but also enhanced P53 stability, reinforcing its role in 
+tumor suppression.
+
+In addition to its role in regulating P53 stability, recent studies have 
+implicated PSMD1 in other cancer-related signaling pathways, including 
+NF-κB and Wnt/β-catenin. PSMD1, as a key component of the 26S pro-
+teasome  regulatory  subunit,  contributes  to  the  degradation  of  IκBα, 
+thereby facilitating NF-κB activation and promoting cancer cell survival 
+and  inflammation-driven  tumor  progression.  Moreover,  PSMD1  has 
+been shown to influence Wnt signaling by modulating β-catenin degra-
+dation,  linking  proteasomal  regulation  to  cancer  stemness  and  meta-
+static  potential.  These  findings  suggest  that  PSMD1  may  serve  as  a 
+broader  oncogenic  regulator  beyond  its  interaction  with  P53,  and  its 
+inhibition  may  affect  multiple  tumor-promoting  pathways.  Further 
+studies  are  warranted  to  explore  these  alternative  mechanisms  in  the 
+
+11 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+Fig. 8. TED inhibits TNBC growth in vivo without significant toxicity. (A-E) TED treatment reduces tumor size and weight in an orthotopic TNBC mouse model 
+(Each group included six mice (n = 6)). (F-H) Liver and kidney functions remain unaffected, as confirmed by ALT/AST levels and histological analysis. (I) Western 
+blot analysis of tumor tissue shows consistent expression patterns of PSMD1, P53, and related markers. (J-l) Effects of TED on migration, invasion, and EMT markers. 
+(M) enhances the efficacy of chemotherapy. Bars, SDs; * 0.01 < p < 0.05, ** 0.001 < p < 0.01, and *** p < 0.001.
+
+12 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+context of TNBC.
+
+Notably, PSMD1 has been implicated in various malignancies as a 
+pro-oncogenic  factor  (Adler  et  al.,  2023;  Park  et  al.,  2023).  Its  high 
+expression  in  breast  cancer  tissues  correlates  with  poor  prognosis,  as 
+observed in our study and supported by previous reports. By targeting 
+PSMD1,  TED  effectively  disrupts  proteasome  function,  restoring  P53 
+activity  and  suppressing  tumor  progression.  This  aligns  with  earlier 
+findings  where  proteasome  inhibitors  demonstrated  efficacy  in  stabi-
+lizing P53 and inducing apoptosis in cancer cells (Cao et al., 2020).
+
+In addition to its cytotoxic effects, TED significantly inhibited TNBC 
+metastasis by modulating epithelial-to-mesenchymal transition (EMT). 
+EMT markers such as E-cadherin and Claudin-1 were upregulated, while 
+N-cadherin, Vimentin, and SNAIL were downregulated following TED 
+treatment. These findings suggest that TED not only suppresses primary 
+tumor growth but also reduces metastatic potential, addressing one of 
+the  most  critical  challenges  in  TNBC  management  (Lamouille  et  al., 
+2014).
+
+Moreover, the combination of TED with paclitaxel (PTX) showed a 
+synergistic  effect  in  reducing  cell  viability,  suggesting  its  potential  to 
+enhance chemotherapy efficacy. Given that TNBC patients often expe-
+rience poor responses to chemotherapy due to intrinsic resistance, TED 
+could  serve  as  a  chemosensitizer,  improving  treatment  outcomes  and 
+reducing the required doses of conventional drugs, thereby minimizing 
+side effects (Yin et al., 2020).
+
+Importantly, our study is the first to report TED as a direct inhibitor 
+of PSMD1, linking proteasomal regulation to P53-mediated autophagy 
+and apoptosis in TNBC (Fig. 9). Previous studies have largely focused on 
+global proteasome inhibition, whereas our findings pinpoint PSMD1 as a 
+specific  and  actionable  node.  This  advances  the  understanding  of  se-
+lective  proteasome  modulation  and  opens  a  new  avenue  for  targeted 
+
+cancer therapy using natural compounds.
+
+While  this  study  highlights  TED’s  therapeutic  potential,  further 
+research  is  warranted  to  investigate  its  pharmacokinetics,  long-term 
+toxicity,  and  efficacy  in  clinical  settings.  Although  our  in  vivo  data 
+showed no obvious signs of hepatorenal toxicity at therapeutic doses, a 
+recent study has reported potential hepatorenal adverse effects of TED at 
+higher concentrations or prolonged exposure (Sun et al., 2022). There-
+fore,  systematic  toxicological  evaluation  under  various  dosing  condi-
+tions will be essential to ensure its safety profile. Moreover, elucidating 
+the broader implications of PSMD1 inhibition in other cancer types and 
+identifying  potential  off-target  effects  of  TED  will  be  critical  for  its 
+successful clinical translation.
+
+In  conclusion,  TED  represents  a  promising  candidate  for  TNBC 
+therapy by targeting PSMD1 to stabilize P53, promote autophagy, and 
+induce apoptosis. Its ability to inhibit metastasis and enhance chemo-
+therapy  sensitivity  underscores  its  potential  as  a  multifaceted  thera-
+peutic agent. These findings contribute to the growing body of evidence 
+supporting  the  role  of  natural  compounds  in  cancer  treatment  and 
+provide a foundation for future clinical investigations.
+
+CRediT authorship contribution statement
+
+Li-Ling Jia: Writing – review & editing, Writing – original draft, Data 
+curation,  Conceptualization,  Funding  acquisition.  Cheng-Jie  Wu: 
+Methodology,  Investigation.  Pei-Wen  Ye:  Investigation.  Qian  Zhang: 
+Investigation. Hua Liu: Software. Tu-Ping Li: Software. Xiao-Lei Hu: 
+Supervision, Funding acquisition, Formal analysis, Conceptualization.
+
+Fig. 9. Proposed molecular mechanism by which Terrestrosin D (TED) exerts antitumor effects in triple-negative breast cancer (TNBC). 
+TED directly inhibits PSMD1, a subunit of the 26S proteasome complex, thereby preventing the ubiquitin-mediated degradation of P53. Stabilized P53 activates its 
+downstream signaling pathways, promoting both apoptosis and autophagy. TED also suppresses epithelial–mesenchymal transition (EMT), contributing to reduced 
+tumor progression and metastasis.
+
+13 
+
+L.-L. Jia et al.                                                                                                                                                                                                                                    
+
+Phytomedicine 143 (2025) 156883 
+
+Declaration of competing interest
+
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+
+Supplementary materials
+
+Supplementary material associated with this article can be found, in 
+
+the online version, at doi:10.1016/j.phymed.2025.156883.
+
+References
+
+Adler, J., Oren, R., Shaul, Y., 2023. Depleting the 19S proteasome regulatory PSMD1 
+
+subunit as a cancer therapy strategy. Cancer Med. 12, 10781–10790.
+
+Aubrey, B.J., Kelly, G.L., Janic, A., Herold, M.J., Strasser, A., 2018. How does p53 induce 
+apoptosis and how does this relate to p53-mediated tumour suppression. Cell Death 
+Differ. 25, 104–113.
+
+Bianchini, G., Balko, J.M., Mayer, I.A., Sanders, M.E., Gianni, L., 2016. Triple-negative 
+
+breast cancer: challenges and opportunities of a heterogeneous disease. Nat. Rev. 
+Clin. Oncol. 13, 674–690.
+
+Budanov, A.V., Karin, M., 2008. p53 Target genes sestrin1 and sestrin2 connect 
+
+genotoxic stress and mTOR signaling. Cell 134, 451–460.
+
+Cao, Y., Zhu, H., He, R., Kong, L., Shao, J., Zhuang, R., Xi, J., Zhang, J., 2020. 
+
+Proteasome, a promising therapeutic target for multiple diseases beyond cancer. 
+Drug Des. Devel. Ther. 14, 4327–4342.
+
+Chen, L., Liu, S., Tao, Y., 2020. Regulating tumor suppressor genes: post-translational 
+
+modifications. Signal. Transduct. Target. Ther. 5, 90.
+
+Crighton, D., Wilkinson, S., O’Prey, J., Syed, N., Smith, P., Harrison, P.R., Gasco, M., 
+Garrone, O., Crook, T., Ryan, K.M., 2006. DRAM, a p53-induced modulator of 
+autophagy, is critical for apoptosis. Cell 126, 121–134.
+
+Elmore, S., 2007. Apoptosis: a review of programmed cell death. Toxicol. Pathol. 35, 
+
+495–516.
+
+Garrido-Castro, A.C., Lin, N.U., Polyak, K., 2019. Insights into molecular classifications 
+of triple-negative breast cancer: improving patient selection for treatment. Cancer 
+Discov. 9, 176–198.
+
+Ge, Y., Zhou, M., Chen, C., Wu, X., Wang, X., 2022. Role of AMPK mediated pathways in 
+
+autophagy and aging. Biochimie 195, 100–113.
+
+Lehmann, B.D., Bauer, J.A., Chen, X., Sanders, M.E., Chakravarthy, A.B., Shyr, Y., 
+
+Pietenpol, J.A., 2011. Identification of human triple-negative breast cancer subtypes 
+and preclinical models for selection of targeted therapies. J. Clin. Invest. 121, 
+2750–2767.
+
+Levy, J., Towers, C.G., Thorburn, A., 2017. Targeting autophagy in cancer. Nat. Rev. 
+
+Cancer 17, 528–542.
+
+Lorin, S., Pierron, G., Ryan, K.M., Codogno, P., Djavaheri-Mergny, M., 2010. Evidence for 
+the interplay between JNK and p53-DRAM signalling pathways in the regulation of 
+autophagy. Autophagy 6, 153–154.
+
+Luo, Y.D., Fang, L., Yu, H.Q., Zhang, J., Lin, X.T., Liu, X.Y., Wu, D., Li, G.X., Huang, D., 
+Zhang, Y.J., Chen, S., Jiang, Y., Shuai, L., He, Y., Zhang, L.D., Bie, P., Xie, C.M., 
+2021. p53 Haploinsufficiency and increased mTOR signalling define a subset of 
+aggressive hepatocellular carcinoma. J. Hepatol. 74, 96–108.
+
+Mari˜no, G., Niso-Santano, M., Baehrecke, E.H., Kroemer, G., 2014. Self-consumption: the 
+
+interplay of autophagy and apoptosis. Nat. Rev. Mol. Cell Biol. 15, 81–94.
+
+Park, H.C., Kim, H., Kim, J.Y., Lee, H.Y., Lee, J., Cha, W., Ahn, S.H., Jeong, W.J., 2023. 
+PSMD1 as a prognostic marker and potential target in oropharyngeal cancer. BMC 
+Cancer 23, 1242.
+
+Qiu, M., An, M., Bian, M., Yu, S., Liu, C., Liu, Q., 2019. Terrestrosin D from Tribulus 
+terrestris attenuates bleomycin-induced inflammation and suppresses fibrotic 
+changes in the lungs of mice. Pharm. Biol. 57, 694–700.
+
+Sun, X.C., Song, X., Guo, F., Yuan, Y.H., Wang, S.Y., Wang, S., Liu, K.L., Lv, X.Y., Han, B., 
+Zhang, C., Liu, J.T., 2022. Terrestrosin D, a spirostanol saponin from Tribulus 
+terrestris L. with potential hepatorenal toxicity. J. Ethnopharmacol. 283, 114716.
+Sung, H., Ferlay, J., Siegel, R.L., Laversanne, M., Soerjomataram, I., Jemal, A., Bray, F., 
+
+2021. Global cancer statistics 2020: GLOBOCAN estimates of incidence and 
+mortality worldwide for 36 cancers in 185 countries. CA Cancer J. Clin. 71, 
+209–249.
+
+Tasdemir, E., Chiara Maiuri, M., Morselli, E., Criollo, A., D’Amelio, M., Djavaheri- 
+
+Mergny, M., Cecconi, F., Tavernarakis, N., Kroemer, G., 2008. A dual role of p53 in 
+the control of autophagy. Autophagy 4, 810–814.
+
+Thoreen, C.C., Sabatini, D.M., 2005. AMPK and p53 help cells through lean times. Cell 
+
+Metab. 1, 287–288.
+
+Wang, E.S., 2023. MDM2 and BCL-2: to p53 or not to p53. Blood 141, 1237–1238.
+Wang, S., Zhang, J., Wang, Y., Chen, M., 2016. Hyaluronic acid-coated PEI-PLGA 
+nanoparticles mediated co-delivery of doxorubicin and miR-542-3p for triple 
+negative breast cancer therapy. Nanomedicine 12, 411–420.
+
+Wei, S., Fukuhara, H., Chen, G., Kawada, C., Kurabayashi, A., Furihata, M., Inoue, K., 
+Shuin, T., 2014. Terrestrosin D, a steroidal saponin from Tribulus terrestris L., 
+inhibits growth and angiogenesis of human prostate cancer in vitro and in vivo. 
+Pathobiology 81, 123–132.
+
+Wu, X., Deng, Y., 2002. Bax and BH3-domain-only proteins in p53-mediated apoptosis. 
+
+Guo, J., Qi, C., Liu, Y., Guo, X., Meng, Y., Zhao, J., Fu, J., Di, T., Zhang, L., Guo, X., 
+
+Front. Biosci. 7, d151–d156.
+
+Liu, Q., Wang, Y., Li, P., Wang, Y., 2022. Terrestrosin D ameliorates skin lesions in an 
+imiquimod-induced psoriasis-like murine model by inhibiting the interaction 
+between substance P and dendritic cells. Phytomedicine 95, 153864.
+
+Kato, T., Murata, D., Anders, R.A., Sesaki, H., Iijima, M., 2021. Nuclear PTEN and p53 
+suppress stress-induced liver cancer through distinct mechanisms. Biochem. Biophys. 
+Res. Commun. 549, 83–90.
+
+Lamouille, S., Xu, J., Derynck, R., 2014. Molecular mechanisms of epithelial- 
+
+mesenchymal transition. Nat. Rev. Mol. Cell Biol. 15, 178–196.
+
+Yang, X., Zhao, G., Bo, Y., Yang, D., Dong, Z., Wu, G., Xu, N., An, M., Zhao, L., 2022. 
+Mechanisms exploration of terrestrosin D on pulmonary fibrosis based on plasma 
+metabolomics and network pharmacology. Biomed. Chromatogr. 36, e5441.
+
+Yin, L., Duan, J.J., Bian, X.W., Yu, S.C., 2020. Triple-negative breast cancer molecular 
+
+subtyping and treatment progress. Breast. Cancer Res. 22, 61.
+
+Zhang, J., Xie, Y., Fan, Q., Wang, C., 2021. Effects of karanjin on dimethylhydrazine 
+
+induced colon carcinoma and aberrant crypt foci are facilitated by alteration of the 
+p53/Bcl2/BAX pathway for apoptosis. Biotech. Histochem. 96, 202–212.
+
+14 
+
+

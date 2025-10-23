@@ -1,0 +1,929 @@
+Tumor Biol. (2016) 37:4203–4212
+DOI 10.1007/s13277-015-4029-3
+
+RESEARCH ARTICLE
+
+Curcumin induces apoptosis in p53-null Hep3B cells
+through a TAp73/DNp73-dependent pathway
+
+Jinhong Wang & Hai Xie & Feng Gao & Tingkun Zhao &
+Hongming Yang & Bai Kang
+
+Received: 9 October 2014 / Accepted: 27 November 2014 / Published online: 22 October 2015
+# International Society of Oncology and BioMarkers (ISOBM) 2015
+
+Abstract Curcumin has anticancer functions in various tu-
+mors. It has been shown to induce apoptosis through p53-
+dependent pathways. p73 gene is a member of the p53 family
+which encodes both a tumor suppressor (transactivation-com-
+petent p73 (TAp73)) and a putative oncogene (dominant-
+negative p73 (DNp73)); the former shares similarity with the
+tumor suppressor p53, and the latter behaves as dominant-
+negative proteins that interfere with the activity of TAp73. To
+understand the p73-dependent mechanisms that are engaged
+during curcumin-induced apoptosis, we established a p73
+overexpression cell models using p53-deficient Hep3B cells
+(Hep3BTAp73/DNp73). Our results demonstrated that curcumin
+at concentrations of 40 and 80 μM induced DNA damage,
+increased TAp73/DNp73 ratio, and also led to apoptosis in the
+Hep3BTAp73/DNp73 cells. The apoptotic cell death was concur-
+rent with the loss of mitochondrial membrane potential; re-
+lease of cytochrome c from mitochondria; and the cleavage of
+caspase 9, caspase 3, and poly(ADP-ribose) polymerase
+(PARP). These results demonstrated a p73-dependent mecha-
+nism for curcumin-induced apoptosis that involves the
+mitochondria-mediated pathway.
+
+Keywords Curcumin . TAp73 . DNp73 . DNA damage .
+Apoptosis
+
+J. Wang (*) : F. Gao : T. Zhao : H. Yang : B. Kang
+Department of Pharmacology, Weifang Medical University,
+Weifang 261053, China
+e-mail: jinrongwangwf@126.com
+
+H. Xie
+Department of Nuclear Medicine, Weifang Medical University,
+Weifang 261053, China
+
+Abbreviations
+BAX
+BCL-2-associated X protein
+BCL-2 B-cell leukemia/lymphoma 2
+MMP Mitochondrial membrane potential
+TAp73
+DNp73 Dominant-negative p73
+
+Transactivation-competent p73
+
+Introduction
+
+Curcumin is a diferuloylmethane derived from the dried
+ground rhizome of the perennial herb curcuma species
+Curcuma longa. Curcumin has been used for centuries in
+traditional Indian and Chinese medicine. Recent studies show
+that curcumin possesses potent anti-inflammatory, anti-oxi-
+dant, chemo-preventive, and chemo-therapeutic activities [1,
+2]. In vitro treatment, curcumin suppresses the proliferation
+of a variety of cancer cells, including carcinomas of the
+breast, prostate, esophagus, pancreas, kidney, brain, and
+lung [3–7].
+
+The tumor suppressor p53 is a transcription factor that is
+activated by cellular stresses such as DNA damage and onco-
+gene stimulation [8]. Upon activation, p53 may induce cell
+cycle arrest, DNA repair, cellular senescence, and apoptosis
+[9, 10]. Thus, p53 acts to maintain genome stability and
+eliminate damaged or abnormally proliferating cells. Follow-
+ing cellular stresses, p53 is stabilized and binds to DNA as a
+tetramer, in a sequence-specific manner that results in the
+transcriptional activation of a series of target proteins includ-
+ing p21, BCL-2-associated X protein (BAX), BCL-2 antago-
+nist killer, and B-cell leukemia/lymphoma 2 (BCL-2) [11–14].
+Previous studies have also demonstrated important roles for
+p53 in curcumin-induced apoptosis. For instance, curcumin
+can induce human HT-29 colon adenocarcinoma cell apopto-
+sis by activating p53 and regulating apoptosis-related protein
+
+4204
+
+Tumor Biol. (2016) 37:4203–4212
+
+expression [15, 16]. In another case, curcumin treatment can
+improve the general health of patients with colorectal cancer
+via the mechanism of increased p53 molecule expression in
+tumor cells and consequently speeds up tumor cell apoptosis
+[17]. Unfortunately, loss of p53 function is the most common
+event during tumorigenesis in diverse types of human cancer;
+thus, many tumor cells lack the functional p53 [18, 19].
+However, little is known about the function of curcumin in
+p53-mutant (or deficient) cancer cells.
+
+p73, as a p53 family member, is also responsive to the
+DNA damage that leads to apoptosis [20, 21]. The p73 gene
+encodes two isoforms that differ in their N-termini and which
+can be functionally classified as transactivation-competent
+(TAp73) and dominant-negative (DNp73) proteins [22, 23].
+The TAp73 shares similarities with p53 with regard to DNA
+damage-induced apoptosis through its activation of p53-
+responsive genes [24, 25]. The DNp73 has a very important
+regulatory role, as it exerts a dominant-negative effect on p53
+and TAp73 by inhibiting their transactivation activity. Thus,
+DNp73 confers drug resistance to tumor cells harboring p53
+and/or TAp73 [24]. Its inhibitory function is exerted either at
+the oligomerization level, or by competing for binding to the
+p53/TAp73 DNA target sequence [26]. In addition, the
+DNp73 promoter contains an efficient p53/TAp73-
+responsive element that can be transactivated by p53 and/or
+TAp73, and therefore creates a dominant-negative feedback
+loop that regulates the function of p53 and/or TAp73 [27, 28].
+Several lines of evidences indicate that the presence and
+participation of different spliced forms of p73 might be one
+reason for the different cell fates observed in response to DNA
+damage [29, 30]. However, it is still unknown whether TAp73
+and/or DNp73 participates in curcumin-induced apoptosis.
+
+Release of cytochrome c from mitochondria is a key initia-
+tive step in mitochondria-dependent apoptosis, and the release
+of cytochrome c from mitochondria into the cytosol is funda-
+mental to apoptosome formation and initiator caspases (such as
+caspase 9) and executioner caspases (such as caspase 3) acti-
+vation [31]. The activated caspase 9 and caspase 3 in turn
+cleave a variety of cellular substrates, most notably
+poly(ADP-ribose) polymerase (PARP) [32]. One of the most
+important functions of PARP is to help repair single-strand
+DNA nicks. Thus, cleaved PARP is a useful marker of
+mitochondria-dependent apoptosis [33].
+
+In this current study, we sought to analyze the p73 roles
+during curcumin-induced apoptosis. Using the p53-deficient
+and little p73 expression Hep3B cells, we first established a
+curcumin-induced apoptotic model. Then, we carried out a set
+of analyses assessing cell viability, percentages of apoptotic
+cells, extent of DNA damage, and mitochondrial membrane
+potentials (MMP). Finally, we analyzed the protein levels of
+TAp73, DNp73, pro-caspase 9, cleaved caspase 9, pro-
+caspase 3, cleaved caspase 3, pro-PARP, cleaved PARP, and
+cytochrome c. Our results, as detailed below, suggest that
+
+there exists a p53-independent but p73-dependent apoptotic
+pathway in response to curcumin exposure, which is mediated
+through the mitochondrial pathway.
+
+Materials and methods
+
+Reagents
+
+Dulbecco’s modified Eagle’s medium (DMEM) and fetal
+bovine serum (FBS) were purchased from Gibco Invitrogen
+Corp. (Gibco Laboratories, Grand Island, NY, USA). 3-(4,5-
+dimethylthiazol-2-yl)-2,5-diphenyl-2H-tetrazolium bromide
+(MTT), curcumin, and propidium iodide (PI) were purchased
+from Sigma-Aldrich (USA). The nucleus/nucleus-free cytosol
+protein isolation kit was supplied by KeyGEN (Nanjing,
+China). Expression plasmids for human TAp73 and DNp73
+have been described previously [34]. Primer sequences were
+5-TGCTGTACGTCGGTGACC-3 (sense DNp73), 5-CGAC
+GGCTGCAGAGCGAG-3 (sense TAp73), and 5-TCG AAG
+GTG GAGCTGGGTTG-3 (antisense for both). TAp73,
+DNp73, and β-actin antibodies were obtained from Santa
+Cruz Biotechnology (Santa Cruz, CA, USA). Messenger
+RNA (mRNA) extracted kit and SYBR Green I mix (for
+quantitative PCR (Q-PCR)) were supplied by Qiagen and
+Invitrogen, respectively. Caspase 9 and caspase 3 antibodies,
+as well as IRDye-conjugated anti-rabbit and anti-mouse sec-
+ondary antibodies, were purchased from Bioworld Technolo-
+gy (St. Louis Park, MN, USA). Cytochrome c antibody and
+the mitochondria-free cytosol protein isolation kit were sup-
+plied by Boster (Wuhan, China), and the annexin V-
+fluorescein isothiocyanate (FITC)/propidium iodide (PI) apo-
+ptosis detection kit was obtained from MultiSciences Biotech-
+nology (Hangzhou, China).
+
+Cell culture and treatment
+
+Hep3B cells were supplied by the Cell Bank of Type Culture
+Collection of the Chinese Academy of Science (Shanghai,
+China). Hep3B cells were cultured in DMEM medium which
+contained 10 % (v/v) FBS. The cells were cultured at 37 °C in
+a humidified 5 % CO2 atmosphere. Curcumin was dissolved
+in dimethyl sulfoxide (DMSO) to make a stock solution (final
+concentration: 80 mM).
+
+Establishment of TAp73- and DNp73-overexpressing Hep3B
+cells (Hep3BTAp73/DNp73)
+
+For transfection of the plasmid, Hep3B cells were seeded at
+3×105 per well in six-well plates. Then, the adherent cells
+were trypsinized by 0.25 % trypsin and diluted in the DMEM.
+Lipofectamine 2000 transfection reagent was diluted into
+Opti-MEM I medium (final concentration: 5 %) and incubated
+
+Tumor Biol. (2016) 37:4203–4212
+
+4205
+
+containing 2.5 M NaCl, 100 mM EDTA, 1 % Triton X-100,
+10 mM Tris-HCl, and 1 % N-lauroylsarcosine sodium, pH 10.
+Slides were placed in an electrophoresis unit for 40 min to
+allow DNA to relax in the electrophoretic solution consisting
+of 300 mM NaOH and 1 mM EDTA, pH>13, at 4 °C. Then,
+the slides were subjected to electrophoresis (4 °C) for 20 min
+at electric field strength of 0.86 V/cm, 25 V, 300 mA. After
+electrophoresis, the slides were neutralized in 0.4 M Tris-HCl
+(pH 7.5). DNA was stained with PI at a concentration of
+2 μg/ml. Slides were analyzed using a fluorescence micro-
+scope (Olympus) equipped with a UV-1 filter block at 360 nm
+connected to the computer-based image analysis system
+CASP-Comet Assay Software. One hundred images were
+randomly selected from each sample, and the olive tail mo-
+ment (OTM) was measured.
+
+Measurement of mitochondrial membrane potential
+
+MMP was measured using the rhodamine 123 fluorescent dye
+according to the method described previously [37]. Loss of
+MMP results in the release of rhodamine 123 from the
+
+at room temperature for 10 min. The plasmids were also
+diluted into Opti-MEM I medium (final concentration
+50 nM). Diluted Lipofectamine 2000 transfection agent and
+diluted plasmid were combined and incubated at room tem-
+perature for an additional 20 min. The transfection mixture
+was added to six-well plates. Cell suspensions were overlaid
+onto the transfection complexes. After 6-h incubation, the
+medium was removed and the cells were cultured in normal
+medium. Q-PCR and Western blotting were performed to
+validate the transfected efficiency.
+
+Assessment of cell viability
+
+Cell viability was determined by the mitochondrial-dependent
+reduction of MTT as previously described [35]. Both Hep3B
+and Hep3BTAp73/DNp73 cells were seeded in 96-well plates at
+5×103 cells per well. Twenty-four hours after plating, cells
+were treated with curcumin at concentrations of 10, 20, 40,
+and 80 μM. At 24 h after treatment, the supernatant was
+removed and 100 μl (500 μg/ml) MTT solution was added
+to each well. After 4 h of incubation at 37 °C, the MTT
+solution from each well was removed. A volume of 150 μl
+DMSO was added, and the plates were shaken for 5 min to
+dissolve formazan crystals. The optical density at 570 nm for
+each well was determined using a microtiter plate reader
+(BioTek, Winooski, VT). Cell viability was represented as
+the absorbance of treated sample/absorbance of control
+group×100 %.
+
+Measurement of cell apoptosis
+
+The percentage of apoptosis for the two cell lines were ana-
+lyzed by staining with annexin V-FITC and propidium iodide.
+Both of the cells were seeded in six-well plates at 4×105 cells
+per well. After treatment with the indicated concentrations of
+curcumin, cells were trypsinized and resuspended in buffer
+containing 1 % (v/v) annexin V-FITC and 2 % (v/v) propidium
+iodide and incubated in the dark at room temperature for
+10 min. Analysis was performed using a flow cytometer
+(BD Biosciences, Franklin Lakes, NJ, USA), and the charac-
+teristics of cells were analyzed by ModFit software (Verity
+Software House, Topsham, ME, USA).
+
+Assessment of DNA damage
+
+DNA damage was assessed by single cell gel electrophoresis
+(comet assay) [36]. Briefly, at the end of the curcumin treat-
+ment, cells were re-suspended in 0.75 % low melting point
+(LMP) agarose in phosphate-buffered saline (PBS) (pH 7.4)
+and placed on microscope slides pre-coated with 0.5 % normal
+melting point (NMP) agarose. To prevent additional DNA
+damage, all the steps were conducted under reduced light or
+in the dark. Cells were lysed for 1 h at 4 °C in a buffer
+
+Fig. 1 Hep3B cells were co-transfected with plasmids encoding TAp73
+and DNp73. a Real-time PCR for detecting the mRNA levels of TAp73
+and DNp73 after TAp73 and DNp73 overexpression plasmids co-
+transfected into Hep3B cells. b Western blotting for detecting the
+protein level of TAp73 after TAp73 and DNp73 overexpression
+plasmids co-transfected into Hep3B cells; Blank without any plasmid,
+Negative control with empty plasmid. c Western blotting for detecting the
+protein level of DNp73 after TAp73 and DNp73 overexpression plasmids
+co-transfected into Hep3B cells
+
+4206
+
+Tumor Biol. (2016) 37:4203–4212
+
+mitochondria into the cytosol and a resulting increase in
+intracellular fluorescence [38]. At the end of the curcumin
+treatment, a total of 1×106 cells were harvested and incubated
+with rhodamine 123 (10 μg/μl) at 37 °C for 30 min in the dark.
+The rhodamine 123-stained cells were then resuspended in
+PBS and analyzed directly by flow cytometry.
+
+Western blotting analysis
+
+Expression levels of TAp73, DNp73, cytochrome c, caspase
+9, caspase 3, and PARP were analyzed by Western blotting.
+
+After treatment with the indicated concentrations of curcumin,
+1 × 107 cells were harvested for protein extraction.
+Mitochondria-free proteins were extracted according to the
+manufactures’ protocols. The whole-cell lysate was extracted
+with a RIPA buffer (1 M Tris-HCl, 5 M NaCl, 1 % Nonidet
+P-40, 1 % sodium deoxycholate, 0.05 % SDS, 1 mM
+phenylmethyl sulfonyl fluoride). The proteins were denatured
+at 96 °C for 5 min after mixing with 5 μl SDS-loading buffer,
+separated by 12 % sodium dodecyl sulfate-polyacrylamide gel
+(SDS-PAGE) and transferred to polyvinylidene fluoride
+(PVDF) membranes (Millipore, USA). The membranes were
+
+Fig. 2 Both Hep3B and the
+stable TAp73/DNp73-expressing
+(Hep3BTAp73/DNp73) cells were
+treated with indicated
+concentrations of curcumin for
+24 h. a Cell viability was
+evaluated by the MTT assay.
+Mean absorption was normalized
+to control levels with controls
+being 100 %. The values
+represent averages of three
+independent experiments with six
+replicate measurements. b
+Representative dot plot of Hep3B
+and Hep3BTAp73/DNp73 cells from
+three independent experiments. c
+The results of three independent
+experiments were pooled, and
+averaged values are shown
+graphically. Data are presented as
+mean±SD. **P<0.01, compared
+to control group
+
+Tumor Biol. (2016) 37:4203–4212
+
+4207
+
+then blocked with TBS containing 5 % nonfat milk at 4 °C for
+1 h, incubated with the specific primary antibodies (1:400
+dilution for all) at 4 °C overnight, then with the corresponding
+IRDye-conjugated secondary antibodies (1:5000 dilution for
+all) at room temperature for 1 h. Membranes were visualized
+using the Odyssey Infrared Imaging System and Odyssey v1.2
+(LI-COR, NE, USA). The relative densities of the protein
+bands were analyzed using Quantity One software (Bio-Rad,
+CA, USA). The relative expressions of target proteins were
+normalized to the corresponding intensities of β-actin.
+
+At the top of Fig. 3 are representative immunofluores-
+images corresponding to Hep3BTAp73/DNp73 cells.
+cent
+At the bottom of Fig. 3 are semi-quantitative represen-
+tations of the comet images. We found that, compared
+to the control group,
+the OTM was significantly in-
+creased in 40 and 80μ M curcumin-treated groups
+(P < 0.05); however,
+there was no significant change
+observed in 10 and 20 μM curcumin-treated groups
+(P>0.05).
+
+Results
+
+Transfected efficiency of TAp73 and DNp73 expression
+plasmid
+
+The transfection efficiency in Hep3B after 24-h incubation
+with TAp73 and DNp73 plasmids was evaluated by Q-PCR
+and Western blotting methods. The results for Q-PCR are
+shown in Fig. 1a, for Western blotting are shown in
+Fig. 1b, c (TAp73 and DNp73, respectively). The mRNA
+and protein levels in the transfected cells were significantly
+higher than those in the control cells. Thus, we select the
+Hep3BTAp73/DNp73 cells to study p73 functions in following
+assays.
+
+Effect of curcumin on cell survival ratio
+
+The cell viability and apoptosis ratio of different concentra-
+tions (0, 10, 20, 40, and 80 μM) of curcumin on Hep3B and
+Hep3BTAp73/DNp73 cells were assessed using the MTT reduc-
+tion assay and annexin V-FITC /PI double-staining assay at
+24 h post-treatment. As shown in Fig. 2a, viabilities of
+Hep3BTAp73/DNp73 cells were significantly reduced by 40
+and 80 μM curcumin at 24 h (P<0.01). However, there was
+no significant change in the viability at 24 h for all curcumin-
+treated groups in the Hep3B cells (P>0.05). The results of
+flow cytometry are consistent with the cell viability assay; as
+shown in Fig. 2b, high levels of apoptotic Hep3BTAp73/DNp73
+cells were detected in the 40 and 80 μM curcumin-treated
+groups at 24 h, and these numbers were significantly higher
+than those observed in the control groups (P<0.01) (Fig. 2c);
+however, compared to the control group, there was no signif-
+icant change in the apoptotic Hep3B cells at 24 h for all
+curcumin-treated groups (P>0.05). The data were consistent
+with the cell viability results. Based on the above results, the
+24-h time point was chosen for further analyses.
+
+Effect of curcumin on DNA damage
+
+The extent of curcumin-induced DNA damage in
+Hep3BTAp73/DNp73 cells was determined using comet assay.
+
+Effect of curcumin on MMP
+
+To determine whether curcumin-induced apoptotic cell
+the MMP of
+death was mitochondria associated,
+Hep3BTAp73/DNp73 cells was measured using rhodamine
+123 staining. As shown in Fig. 4a, increased rhodamine
+123-positive Hep3BTAp73/DNp73 cells were observed in
+40 and 80 μM curcumin-treated groups. The quantita-
+tive results are shown in Fig. 4b and indicate that the
+populations of rhodamine 123-stained cells in the 40
+and 80 μM curcumin-treated groups were significantly
+than in the corresponding un-treated groups
+higher
+(P<0.01).
+
+Effect of curcumin on protein levels of TAp73 and DNp73
+
+To investigate whether curcumin can activate TAp73 and
+DNp73, the inductions of TAp73 and DNp73 were examined
+by Western blotting, and the relative density of the bands was
+
+Fig. 3 The Hep3BTAp73/DNp73 cell was treated with indicated
+concentrations of curcumin for 24 h. DNA damage level was assessed
+by comet assay. Fluorescence images of comets for the Hep3BTAp73/DNp73
+cells from one of the three independent experiments were presented. The
+results of three independent experiments were pooled, and averaged values
+are shown graphically. Data are presented as mean±SD. **P<0.01,
+compared to control group, *P<0.05, compared to control group
+
+Tumor Biol. (2016) 37:4203–4212
+
+4208
+
+Fig. 4 The Hep3BTAp73/DNp73
+cell was treated with indicated
+concentrations of curcumin for
+24 h. The mitochondrial
+membrane potential (MMP) was
+determined using rhodamine 123
+and flow cytometry. a
+Representative dot plot of
+Hep3BTAp73/DNp73 cells from
+three independent experiments. b
+The results of three independent
+experiments were pooled, and
+averaged values are shown
+graphically. Mean fluorescence
+was normalized to control levels
+with controls being 100 %. Data
+were presented as mean±SD.
+**P<0.01, compared to control
+group
+
+Fig. 5 The Hep3BTAp73/DNp73
+cell was treated with indicated
+concentrations of curcumin for
+24 h. Western blotting analysis
+was performed using the
+corresponding antibodies to
+check expression and distribution
+of the proteins. a TAp73 and
+DNp73 protein levels in the
+whole-cell lysate. b Densitometry
+data for TAp73 expression of
+three independent experiments
+were standardized by β-actin. c
+Densitometry data for DNp73
+expression of three independent
+experiments were standardized by
+β-actin. d The ratios of TAp73/
+DNp73. Data were presented as
+mean±SD. **P<0.01, compared
+to control group
+
+Tumor Biol. (2016) 37:4203–4212
+
+4209
+
+calculated. After treatment of Hep3BTAp73/DNp73 cells with
+curcumin for 24 h, as shown in Fig. 5a, in the whole-cell
+lysate, an obvious increase of TAp73 and a corresponding
+decrease of DNp73 in the 40 and 80 μM curcumin-treated
+groups were observed; as shown in Fig. 5b, c, compared to the
+corresponding controls, the differences were significant
+(P<0.01). Additionally, as shown in Fig. 5d, the ratio of
+TAp73/DNp73 in 40 and 80 μM curcumin-treated groups
+was also significantly increased (P<0.01).
+
+Effect of curcumin on caspases and its associated protein
+levels
+
+To investigate whether the curcumin-induced apoptosis is
+caspase associated,
+the protein levels of caspase 3,
+cleaved caspase 3, caspase 9, cleaved caspase 9, PARP,
+and cleaved PARP were examined by Western blotting,
+and the relative density of the bands was calculated.
+After treatment of Hep3BTAp73/DNp73 cells with curcumin
+for 24 h, as shown in Fig. 6a, in the whole-cell lysate,
+curcumin markedly increased cleaved caspase 9, caspase
+3, and PARP and obviously decreased pro-caspase 9,
+pro-caspase 3, and pro-PARP in the 40 and 80 μM
+curcumin-treated groups (P<0.01 for all) (Fig. 6b–d).
+
+Effect of curcumin on cytochrome c release
+
+To investigate whether the curcumin-induced apoptosis
+is mitochondria dependent,
+the protein levels of cyto-
+chrome c in the mitochondria-free cytosolic extracts
+were examined by Western blotting, and the relative
+density of the bands was calculated. After treatment of
+Hep3BTAp73/DNp73 cells with curcumin for 24 h, as
+shown in Fig.7a,
+extracts, curcumin markedly increased the cytochrome
+c released level in the 40 and 80 μM curcumin-treated
+groups; compared to the control group, the differences
+were significant (P<0.01).
+
+in the mitochondria-free cytosolic
+
+Discussion
+
+Curcumin is a turmeric polyphenol used in cancer therapy
+and has been reported to induce apoptosis through the
+activation of p53-dependent pathways [39, 40]. Similar
+to the previous studies, we found that there is no differ-
+ence of cell viability after 10–80 μM curcumin 24 h post-
+treatment in p53-deficient Hep3B cells; however, 40 and
+
+Fig. 6 The Hep3BTAp73/DNp73 cell was treated with indicated
+concentrations of curcumin for 24 h. Western blotting analysis was
+performed using the corresponding antibodies to check expression of
+the proteins. a Pro-caspase 3, cleaved caspase 3, pro-caspase 9, cleaved
+caspase 9, pro-PARP, and cleaved PARP protein levels in the whole-cell
+lysate. b Densitometry data for caspase 3 and cleaved caspase 3 protein
+levels of three independent experiments were standardized by β-actin. c
+
+Densitometry data for caspase 9 and cleaved caspase 9 protein levels of
+three independent experiments were standardized by β-actin. d
+Densitometry data for PARP and cleaved PARP protein levels of three
+independent experiments were standardized by β-actin. Data were
+presented as mean ± SD. **P < 0.01, compared to control group;
+##P<0.01, compared to control group; △△P<0.01, compared to control
+group
+
+4210
+
+Tumor Biol. (2016) 37:4203–4212
+
+ultimately leading to mitotic arrest, apoptosis, and cell
+cycle arrest [47–52]. The comet assay or single cell gel
+(SCG) assay is a new method that allows efficient deter-
+mination of single-strand breaks (SSB) and double-strand
+breaks (DSB), as well as alkali-labile sites in the DNA of
+single cells [53, 54]. Thus, comet assay is a sensitive
+method to determine the extent of DNA damage for
+recognizing precancerous cells (live cells with unrepaired
+DNA damage) and to evaluate the effectiveness of anti-
+cancer agents (percentage of apoptotic cells). Our data
+showed that, after 24-h treatment with 40 and 80 μM
+curcumin, DNA damage extent was increased in which
+treatment group cell apoptosis was also induced.
+
+p53 plays pivotal roles in connecting the DNA damage
+response to mitochondria-dependent apoptosis [55, 56].
+p73, a p53 family member, has also been predicted to
+act as a “functional link” due to its significant sequence
+similarity to p53 [57]. Unlike p53, which is mutated or
+inactivated in more than 50 % of human tumors, p73
+mutations are rarely observed in cancers [28, 57]. Instead,
+high levels of DNp73 proteins are commonly observed in
+human tumors, and like p53, TAp73 is a tumor suppressor
+gene that when specifically deleted in mice (TAp73-/-)
+leads to enhanced tumor susceptibility [58]. TAp73 also
+mediates chemotherapy-induced apoptosis, while DNp73
+expression leads to chemoresistance [59]. These studies
+suggest a paradigm in which the balance between the
+various proapoptotic TAp73 and anti-apoptotic DNp73
+isoforms determines whether specific p73 isoform-
+dependent signaling pathways lead to apoptosis or survival
+in tumor cells in response to DNA damage. In the present
+study, we found that curcumin-induced DNA damage
+caused increase of TAp73 levels but decrease of DNp73
+protein levels, resulting in the increase of TAp73/DNp73
+ratio. These results, combined with the disruption of
+MMP; release of cytochrome c from mitochondria; and
+cleavage of pro-caspase 9, pro-caspase 3, and pro-PARP,
+indicate that the increased DNA damage contributes to the
+induction of mitochondria-associated apoptosis via a p73-
+dependent pathway.
+
+In conclusion, our study demonstrates that curcumin-
+induced DNA damage accumulation increases TAp73/
+DNp73 ratio in the TAp73 and DNp73 overexpression
+Hep3B cells which in turn trigger apoptosis. This
+curcumin-induced apoptosis is mitochondria associated.
+Further studies need to be conducted to characterize the
+detailed mechanisms responsible for p73 activation as
+well as subsequent events leading to mitochondria-
+associated apoptosis in response to curcumin.
+
+Acknowledgments This work was supported by grants from National
+Natural Science Foundation of China (No. 82042282) and grants from
+Natural Science Foundation of Shandong Province (No. ZR2014HL106).
+
+Fig. 7 The Hep3BTAp73/DNp73 cell was treated with indicated
+concentrations of curcumin for 24 h. Western blotting analysis was
+performed using the corresponding antibodies to check expression of
+the proteins. a Cytochrome c protein levels in mitochondria-free
+cytosolic extracts. b Densitometry data for cytochrome c protein levels
+of three independent experiments were standardized by β-actin. Data
+were presented as mean±SD. **P<0.01, compared to control group
+
+80 μM curcumin significantly reduced the cell viability in
+the p53 family member, p73, overexpression Hep3B cells
+(Hep3BTAp73/DNp73). This result was further confirmed by
+flow cytometry, which demonstrated that c urcumin failed
+to induce cell death in p53-deficient Hep3B cells, but 40
+and 80 μM curcumin induced apoptosis in Hep3BTAp73/
+DNp73 cells after 24 h of treatment.
+
+DNA damage can initiate genomic instability, ulti-
+mately leading to cancer [41, 42]. Paradoxically, howev-
+er, induction of DNA damage is also used to kill cancer
+cells, and most anticancer agents act by introducing
+sufficient DNA damage into the cancer cells to activate
+cell apoptosis [43]. Some anticancer agents can generate
+DNA damage directly such as cisplatin which can bind
+to purine bases of DNA leading to mono-, inter-, and
+intra-strand adducts, causing distortion of the DNA dou-
+ble helix, and ultimately resulting in activation of DNA
+damage response including cell cycle arrest and apopto-
+sis [44–46]. However, many others generate DNA dam-
+age indirectly such as curcumin which can induce ROS
+generation and results in oxidative DNA damage,
+
+Tumor Biol. (2016) 37:4203–4212
+
+References
+
+1. Teiten MH, Gaascht F, Eifes S, Dicato M, Diederich M.
+Chemopreventive potential of curcumin in prostate cancer. Genes
+Nutr. 2010;5:61–74.
+
+2. Shureiqi I, Baron JA. Curcumin chemoprevention: the long road to
+
+clinical translation. Cancer Prev Res (Phila). 2011;4:296–8.
+
+3. Shehzad A, Lee J, Lee YS. Curcumin in various cancers. Biofactors.
+
+2013;39:56–68.
+
+4. Tian F, Song M, Xu PR, Liu HT, Xue LX. [Curcumin promotes
+apoptosis of esophageal squamous carcinoma cell lines through
+inhibition of NF-kappaB signaling pathway]. Ai Zheng. 2008;27:
+566–70.
+
+5. Swamy MV, Citineni B, Patlolla JM, Mohammed A, Zhang Y, Rao
+CV. Prevention and treatment of pancreatic cancer by curcumin in
+combination with omega-3 fatty acids. Nutr Cancer. 2008;60 Suppl
+1:81–9.
+
+6. Khar A, Ali AM, Pardhasaradhi BV, Varalakshmi CH, Anjum
+R, Kumari AL. Induction of stress response renders human
+tumor cell lines resistant to curcumin-mediated apoptosis: role
+of reactive oxygen intermediates. Cell Stress Chaperones.
+2001;6:368–76.
+
+7. Kang SK, Cha SH, Jeon HG. Curcumin-induced histone
+hypoacetylation enhances caspase-3-dependent glioma cell death
+and neurogenesis of neural progenitor cells. Stem Cells Dev.
+2006;15:165–74.
+
+8. Lee HE, Han N, Kim MA, Lee HS, Yang HK, Lee BL, et al. DNA
+damage response-related proteins in gastric cancer: ATM, Chk2 and
+p53 expression and their prognostic value. Pathobiology. 2014;81:
+25–35.
+
+9. Vazquez A, Bond EE, Levine AJ, Bond GL. The genetics of the p53
+pathway, apoptosis and cancer therapy. Nat Rev Drug Discov.
+2008;7:979–87.
+
+10. Yu X, Robinson JF, Gribble E, Hong SW, Sidhu JS, Faustman EM.
+Gene expression profiling analysis reveals arsenic-induced cell cycle
+arrest and apoptosis in p53-proficient and p53-deficient cells through
+differential gene pathways. Toxicol Appl Pharmacol. 2008;233:
+389–403.
+
+11. Li GY, Xie P, Li HY, Hao L, Xiong Q, Qiu T. Involment of p53, Bax,
+and Bcl-2 pathway in microcystins-induced apoptosis in rat testis.
+Environ Toxicol. 2011;26:111–7.
+
+12. Lin W, Tongyi S. Role of Bax/Bcl-2 family members in green tea
+polyphenol induced necroptosis of p53-deficient Hep3B cells.
+Tumour Biol. 2014;35:8065–75.
+
+13. Vuletic A, Konjevic G, Milanovic D, Ruzdijic S, Jurisic V.
+Antiproliferative effect of 13-cis-retinoic acid is associated with
+granulocyte differentiation and decrease in cyclin B1 and Bcl-2
+protein levels in G0/G1 arrested HL-60 cells. Pathol Oncol Res.
+2010;16:393–401.
+
+14. Jurisic V, Bogdanovic G, Kojic V, Jakimov D, Srdic T. Effect of TNF-
+alpha on Raji cells at different cellular levels estimated by various
+methods. Ann Hematol. 2006;85:86–94.
+
+15. He ZY, Shi CB, Wen H, Li FL, Wang BL, Wang J. Upregulation of
+p53 expression in patients with colorectal cancer by administration of
+curcumin. Cancer Invest. 2011;29:208–13.
+
+16. Song G, Mao YB, Cai QF, Yao LM, Ouyang GL, Bao SD. Curcumin
+induces human HT-29 colon adenocarcinoma cell apoptosis by acti-
+vating p53 and regulating apoptosis-related protein expression. Braz
+J Med Biol Res. 2005;38:1791–8.
+
+17. Guo LD, Chen XJ, Hu YH, Yu ZJ, Wang D, Liu JZ. Curcumin
+inhibits proliferation and induces apoptosis of human colorectal
+cancer cells by activating the mitochondria apoptotic pathway.
+Phytother Res. 2013;27:422–30.
+
+18. Muller PA, Vousden KH. Mutant p53 in cancer: new functions and
+
+therapeutic opportunities. Cancer Cell. 2014;25:304–17.
+
+4211
+
+19. Di Fiore R, Marcatti M, Drago-Ferrante R, D'Anneo A, Giuliano M,
+Carlisi D, et al. Mutant p53 gain of function can be at the root of
+dedifferentiation of human osteosarcoma MG63 cells into 3AB-OS
+cancer stem cells. Bone. 2014;60:198–212.
+
+20. Urist M, Tanaka T, Poyurovsky MV, Prives C. p73 induction after
+DNA damage is regulated by checkpoint kinases Chk1 and Chk2.
+Genes Dev. 2004;18:3041–54.
+
+21. Zaika E, Wei J, Yin D, Andl C, Moll U, El-Rifai W, et al. p73 protein
+
+regulates DNA damage repair. Faseb J. 2011;25:4406–14.
+
+22. Ferru A, Denis S, Guilhot J, Gibelin H, Tourani JM, Kraimps JL,
+et al. Expression of TAp73 and DeltaNp73 isoform transcripts in
+thyroid tumours. Eur J Surg Oncol. 2006;32:228–30.
+
+23. Lo Iacono M, Monica V, Saviozzi S, Ceppi P, Bracco E, Papotti M,
+et al. p63 and p73 isoform expression in non-small cell lung cancer
+and corresponding morphological normal lung tissue. J Thorac
+Oncol. 2011;6:473–81.
+
+24. Bailey SG, Cragg MS, Townsend PA. Family friction as DeltaNp73
+antagonises p73 and p53. Int J Biochem Cell Biol. 2011;43:482–6.
+25. Zawacka-Pankau J, Kostecka A, Sznarkowska A, Hedstrom E,
+Kawiak A. p73 tumor suppressor protein: a close relative of p53
+not only in structure but also in anti-cancer approach? Cell Cycle.
+2010;9:720–8.
+
+26. Grob TJ, Novak U, Maisse C, Barcaroli D, Luthi AU, Pirnia F, et al.
+Human delta Np73 regulates a dominant negative feedback loop for
+TAp73 and p53. Cell Death Differ. 2001;8:1213–23.
+
+27. Benosman S, Meng X, Von Grabowiecki Y, Palamiuc L, Hritcu L,
+Gross I, et al. Complex regulation of p73 isoforms after alteration of
+amyloid precursor polypeptide (APP) function and DNA damage in
+neurons. J Biol Chem. 2011;286:43013–25.
+
+28. Rufini A, Agostini M, Grespi F, Tomasini R, Sayan BS, Niklison-
+Chirou MV, et al. p73 in cancer. Genes Cancer. 2011;2:491–502.
+29. Lunghi P, Costanzo A, Mazzera L, Rizzoli V, Levrero M, Bonati A.
+The p53 family protein p73 provides new insights into cancer
+chemosensitivity and targeting. Clin Cancer Res. 2009;15:6495–502.
+30. Oswald C, Stiewe T. In good times and bad: p73 in cancer. Cell
+
+Cycle. 2008;7:1726–31.
+
+31. Boulares AH, Yakovlev AG, Ivanova V, Stoica BA, Wang G,
+Iyer S, et al. Role of poly(ADP-ribose) polymerase (PARP)
+cleavage in apoptosis. Caspase 3-resistant PARP mutant
+in-
+creases rates of apoptosis in transfected cells. J Biol Chem.
+1999;274:22932–40.
+
+32. Napso T, Fares F. Zebularine induces prolonged apoptosis effects via
+the caspase-3/PARP pathway in head and neck cancer cells. Int J
+Oncol. 2014;44:1971–9.
+
+33. Mohan S, Abdul AB, Abdelwahab SI, Al-Zubairi AS, Sukari MA,
+Abdullah R, et al. Typhonium flagelliforme induces apoptosis in
+CEMss cells via activation of caspase-9, PARP cleavage and cyto-
+chrome c release: its activation coupled with G0/G1 phase cell cycle
+arrest. J Ethnopharmacol. 2010;131:592–600.
+
+34. Zaika AI, Slade N, Erster SH, Sansome C, Joseph TW, Pearl M, et al.
+DeltaNp73, a dominant-negative inhibitor of wild-type p53 and
+TAp73, is up-regulated in human tumors. J Exp Med. 2002;196:
+765–80.
+
+35. Sanchez NS, Konigsberg M. Using yeast to easily determine mito-
+chondrial functionality with 1-(4,5-dimethylthiazol-2-yl)-3,5-diphe-
+nyltetrazolium bromide (MTT) assay. Biochem Mol Biol Educ.
+2006;34:209–12.
+
+36. Dhawan A, Bajpayee M, Parmar D. Comet assay: a reliable tool for
+the assessment of DNA damage in different models. Cell Biol
+Toxicol. 2009;25:5–32.
+
+37. Hartig S, Fries S, Balcarcel RR. Reduced mitochondrial membrane
+potential and metabolism correspond to acute chloroform toxicity of
+in vitro hepatocytes. J Appl Toxicol. 2005;25:310–7.
+
+38. Nicholls DG. Fluorescence measurement of mitochondrial mem-
+brane potential changes in cultured cells. Methods Mol Biol.
+2012;810:119–33.
+
+4212
+
+Tumor Biol. (2016) 37:4203–4212
+
+39. Liu E, Wu J, Cao W, Zhang J, Liu W, Jiang X, et al. Curcumin
+induces G2/M cell cycle arrest in a p53-dependent manner and
+upregulates ING4 expression in human glioma. J Neurooncol.
+2007;85:263–70.
+
+40. Choudhuri T, Pal S, Agwarwal ML, Das T, Sa G. Curcumin induces
+apoptosis in human breast cancer cells through p53-dependent Bax
+induction. FEBS Lett. 2002;512:334–40.
+
+41. Roy SS, Chakraborty P, Bhattacharya S. Intervention in cyclophos-
+phamide induced oxidative stress and DNA damage by a flavonyl-
+thiazolidinedione based organoselenocyanate and evaluation of its
+efficacy during adjuvant therapy in tumor bearing mice. Eur J Med
+Chem. 2014;73:195–209.
+
+42. Wang Z, Wang F, Tang T, Guo C. The role of PARP1 in the DNA
+damage response and its application in tumor therapy. Front Med.
+2012;6:156–64.
+
+43. Ronald S, Awate S, Rath A, Carroll J, Galiano F, Dwyer D,
+et al. Phenothiazine inhibitors of TLKs affect double-strand
+break repair and DNA damage response recovery and poten-
+tiate tumor killing with radiomimetic therapy. Genes Cancer.
+2013;4:39–53.
+
+44. Itamochi H, Kigawa J, Akeshima R, Sato S, Kamazawa S, Takahashi
+M, et al. Mechanisms of cisplatin resistance in clear cell carcinoma of
+the ovary. Oncology. 2002;62:349–53.
+
+45. Schloffer D, Horky M, Kotala V, Wesierska-Gadek J. Induction of
+cell cycle arrest and apoptosis in human cervix carcinoma cells
+during therapy by cisplatin. Cancer Detect Prev. 2003;27:481–93.
+46. da Silva GN, de Castro Marcondes JP, de Camargo EA, da Silva
+Passos Junior GA, Sakamoto-Hojo ET, Salvadori DM. Cell cycle
+arrest and apoptosis in TP53 subtypes of bladder carcinoma cell lines
+treated with cisplatin and gemcitabine. Exp Biol Med (Maywood).
+2010;235:814–24.
+
+47. Behmand B, Wagner JR, Sanche L, Hunting DJ. Cisplatin intrastrand
+adducts sensitize DNA to base damage by hydrated electrons. J Phys
+Chem B. 2014;118:4803–8.
+
+48. Ummat A, Rechkoblit O, Jain R, Roy Choudhury J, Johnson RE,
+Silverstein TD, et al. Structural basis for cisplatin DNA damage
+tolerance by human polymerase eta during cancer chemotherapy.
+Nat Struct Mol Biol. 2012;19:628–32.
+
+49. Thayyullathil F, Chathoth S, Hago A, Patel M, Galadari S. Rapid
+reactive oxygen species (ROS) generation induced by curcumin leads
+to caspase-dependent and -independent apoptosis in L929 cells. Free
+Radic Biol Med. 2008;45:1403–12.
+
+50. Blakemore LM, Boes C, Cordell R, Manson MM. Curcumin-induced
+mitotic arrest is characterized by spindle abnormalities, defects in
+chromosomal congression and DNA damage. Carcinogenesis.
+2013;34:351–60.
+
+51. Cao J, Liu Y, Jia L, Jiang LP, Geng CY, Yao XF, et al. Curcumin
+attenuates acrylamide-induced cytotoxicity and genotoxicity in
+HepG2 cells by ROS scavenging. J Agric Food Chem. 2008;56:
+12059–63.
+
+52. Lu JJ, Cai YJ, Ding J. Curcumin induces DNA damage and caffeine-
+insensitive cell cycle arrest in colorectal carcinoma HCT116 cells.
+Mol Cell Biochem. 2011;354:247–52.
+
+53. Cortes-Gutierrez EI, Hernandez-Garza F, Garcia-Perez JO, Davila-
+Rodriguez MI, Aguado-Barrera ME, Cerda-Flores RM. Evaluation
+of DNA single and double strand breaks in women with cervical
+neoplasia based on alkaline and neutral comet assay techniques. J
+Biomed Biotechnol. 2012;2012:385245.
+
+54. Benitez-Bribiesca L, Sanchez-Suarez P. Oxidative damage,
+bleomycin, and gamma radiation induce different types of DNA
+strand breaks in normal lymphocytes and thymocytes. A comet assay
+study. Ann N Y Acad Sci. 1999;887:133–49.
+
+55. Zhou M, Gu L, Li F, Zhu Y, Woods WG, Findley HW. DNA damage
+induces a novel p53-survivin signaling pathway regulating cell cycle
+and apoptosis in acute lymphoblastic leukemia cells. J Pharmacol
+Exp Ther. 2002;303:124–31.
+
+56. Chao C, Saito S, Kang J, Anderson CW, Appella E, Xu Y. p53
+transcriptional activity is essential for p53-dependent apoptosis fol-
+lowing DNA damage. Embo J. 2000;19:4967–75.
+
+57. Moll UM, Slade N. p63 and p73: roles in development and tumor
+
+formation. Mol Cancer Res. 2004;2:371–86.
+
+58. Ozaki T, Nakagawara A. p73, a sophisticated p53 family member in
+
+the cancer world. Cancer Sci. 2005;96:729–37.
+
+59. Murray-Zmijewski F, Lane DP, Bourdon JC. p53/p63/p73 isoforms:
+an orchestra of isoforms to harmonise cell differentiation and re-
+sponse to stress. Cell Death Differ. 2006;13:962–72.
+
+

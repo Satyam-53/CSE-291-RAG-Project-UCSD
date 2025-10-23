@@ -1,0 +1,6935 @@
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+Mutant p53 gains oncogenic functions
+through a chromosomal instability-induced
+cytosolic DNA response
+
+Received: 4 January 2023
+
+Accepted: 5 December 2023
+
+Check for updates
+
+;
+,
+:
+)
+(
+
+0
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+;
+,
+:
+)
+(
+
+0
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+4,9,10, Javier A. Gomez
+
+Mei Zhao 1,12, Tianxiao Wang1,2,12, Frederico O. Gleber-Netto 1, Zhen Chen3,
+Daniel J. McGrail
+Wencai Ma6, Li Shen6, Qi Wang 6, Ximing Tang7, Sen Pathak8,
+Maria Gabriela Raso 7, Jared K. Burks
+Asha S. Multani8, Curtis R. Pickering1,11, Junjie Chen 3, Jeffrey N. Myers
+Ge Zhou 1
+
+5, Shiaw-Yih Lin 4, Jing Wang 6,
+
+5, Wutong Ju 1, Mayur A. Gadhikar1,
+
+1 &
+
+Inactivating TP53 mutations leads to a loss of function of p53, but can also
+often result in oncogenic gain-of-function (GOF) of mutant p53 (mutp53)
+proteins which promotes tumor development and progression. The GOF
+activities of TP53 mutations are well documented, but the mechanisms
+involved remain poorly understood. Here, we study the mutp53 interactome
+and ﬁnd that by targeting minichromosome maintenance complex compo-
+nents (MCMs), GOF mutp53 predisposes cells to replication stress and chro-
+mosomal instability (CIN), leading to a tumor cell-autonomous and cyclic
+GMP–AMP synthase (cGAS)-stimulator of interferon genes (STING)-dependent
+cytosolic DNA response that activates downstream non-canonical nuclear
+factor kappa light chain enhancer of activated B cell (NC-NF-κB) signaling.
+Consequently, GOF mutp53-MCMs-CIN-cytosolic DNA-cGAS-STING-NC-NF-κB
+signaling promotes tumor cell metastasis and an immunosuppressive tumor
+microenvironment through antagonizing interferon signaling and regulating
+genes associated with pro-tumorigenic inﬂammation. Our ﬁndings have
+important implications for understanding not only the GOF activities of TP53
+mutations but also the genome-guardian role of p53 and its inactivation during
+tumor development and progression.
+
+The tumor suppressor p53 is among the most important factors that
+preserve genomic stability and integrity1. Early studies of p53 function
+and the consequences of TP53 mutation demonstrated that p53 reg-
+ulates DNA-damage-induced cell cycle checkpoints and inactivation of
+which enables genomic instability2–4, indicating that p53 acts as the
+“guardian of the genome” which prevents cells from developing
+potentially tumor-promoting mutations and abnormal genomes5. A
+recent study in a mouse model of pancreatic ductal adenocarcinoma
+further showed that the inactivation of p53 does not merely open a
+gateway to genetic chaos but, rather, can enable a predictable pattern
+
+of cancer genomic development (i.e., accumulation of deletions,
+genome doubling, and the emergence of gains and ampliﬁcations),
+suggesting that p53 and its inactivation play a deterministic role in the
+ordered development of CIN in cancer6. Although in vivo evidence has
+indicated that p53 suppresses tumorigenesis by inducing a set of
+transcriptional programs that prevent the proliferation of cells and
+that ongoing p53 inactivation is needed to sustain malignant
+disease4,7–11, this latest study suggested that p53 inactivation is not
+sufﬁcient in and of itself for malignant transformation; the acquisition
+of recurrent chromosomal copy number alterations (CNAs) is also
+
+A full list of afﬁliations appears at the end of the paper.
+
+e-mail: jmyers@mdanderson.org; gzhou@mdanderson.org
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+required6. Because CNAs/aneuploidy achieved by CIN cause a wide
+range of tumorigenic consequences12,
+it is important to further
+understand whether the oncogenic phenotypes associated with CIN—
+altered proliferation13, cell survival14, drug resistance15, metastasis16,
+immune evasion and resistance to immunotherapy17, and shorter
+patient survival in many cancers18,19 are attributable to altered gene
+expression programs due to the gain and/or loss of genes, or whether
+CIN itself has also a direct impact on the development of these onco-
+genic phenotypes. Similarly, a better understanding of how p53 inac-
+tivation enables the development of CIN is also critical. That is, it
+remains unclear whether p53 inactivation-induced CIN is due only to
+the loss of the transcription programs of wild-type p53 (wtp53) or
+whether other mechanisms are also involved.
+
+Inactivating mutations in TP53 are the most common cancer dri-
+ver mutations and present a route to malignant transformation in
+more than half of all human cancers20–22. Although inactivating muta-
+tions of TP53 lead to loss of function (LOF) of wtp53 and/or dominant-
+negative mutp53s, studies using mouse models clearly indicate that
+some mutp53s can confer oncogenic GOF activities to promote
+tumorigenesis and metastasis23,24. So far, mutp53 GOF activities, such
+as the promotion of cell proliferation, survival, invasion, cancer-
+promoting metabolism, drug resistance, and pro-tumorigenic inﬂam-
+mation, have been observed in in vitro and in vivo experimental
+models, and many GOF mechanisms, such as mutp53 interaction with
+transcription factors and/or cellular proteins that impact transcription
+programs and cellular functions, have been proposed25–33. However,
+these proposed mechanisms are often context-dependent, and many
+mutp53-mediated GOF phenotypes vary across experimental settings
+(e.g., in different cells or clones). Interestingly, in striking contrast to all
+of the previously proposed mechanisms, a recent study demonstrated
+that expression of GOF mutp53 has no close causal relationship with
+GOF phenotypes including gene expression changes, enhanced pro-
+liferation, tumorigenicity, tumor growth, metabolic alterations, and
+drug resistance. Moreover, that study demonstrated that GOF phe-
+notypes are only associated with aneuploidy in cells with mutp5334.
+This ﬁnding strongly suggests that the consequences of CIN in mutp53
+cells may contribute to many previously reported mutp53 GOF phe-
+notypes. Given the strong propensity for cells with mutp53 to become
+aneuploid and the overlap of oncogenic phenotypes related to mutp53
+GOF and aneuploidy, it has been suggested that GOF phenotypes
+identiﬁed in mutp53 models must be carefully validated relative to
+corresponding chromosomal changes34. Therefore, while this study
+highlighted the importance of CIN in mutp53 GOF-associated pheno-
+types and suggested that acquisition of aneuploidy may be a unifying
+mechanism that accounts for many context-speciﬁc GOF phenotypes
+previously attributed to mutp53 proteins, the underlying mechanisms
+that link GOF mutp53 and CIN still remain unclear.
+
+Although LOF mutations of p53 impair cell cycle checkpoints and
+DNA repair, which can lead to the development of CIN2–4, accumulating
+evidence has also shown that many mutp53s not only lose the genome-
+guardian role of wtp53 but also gain oncogenic functions to promote
+CIN through targeting various proteins
+involved in genome
+stabilization26. Six MCMs form a MCM2-7 hexameric complex. As the
+key DNA replication regulator, the MCM2-7 complex forms the DNA
+replication licensing system, which assembles the replication
+machinery at replication origins with the origin recognition complex
+during replication initiation. This complex forms the catalytic core of
+the Cdc45/Mcm2-7/GINS helicase that unwinds DNA during
+elongation35. Therefore, disruption and/or dysregulation of the MCM2-
+7 complex predisposes cells to replication stress, CIN, and the devel-
+opment of cancers36–39. Here, we examined the mutp53 interactome
+and identiﬁed MCMs as the protein targets through which mutp53
+exerts its GOF activities to predispose cancer cells with mutp53 to
+replication stress and CIN. In turn, these events lead to a tumor cell-
+intrinsic cytosolic DNA response involving cGAS-STING-dependent
+
+activation of downstream NC-NF-κB signaling, which promotes tumor
+metastasis and tumor immunosuppression.
+
+Results
+GOF mutp53 interacts with MCMs
+To identify the mutp53 interactome, we expressed G245D mutp53 in
+p53-deﬁcient head and neck squamous cell carcinoma (HNSCC) UM-
+SCC-1 cells and used them for quantitative proteomic analyses using
+both stable isotope labeling with amino acids in cell culture (SILAC)
+and immunoprecipitation (IP) with 2 different p53 antibodies (DO-1
+and Pab240) (Supplementary Fig. 1a). After puriﬁcation, the protein
+complexes were quantitatively analyzed by liquid chromatography
+coupled with tandem mass spectrometry. In 8 independent experi-
+ments, we identiﬁed 33 proteins that interacted with G245D mutp53 in
+UM-SCC-1 cells (Supplementary Data 1). Many of them, such as the
+p6340, FAM83A41, FUBP142, TGM243, SNRPN44, MCM545, and MCM746,
+were previously shown to interact with wtp53 and/or mutp53s, which
+validated the reliability of our approach. Metascape enrichment
+analysis47 of puriﬁed G245D mutp53-interacting proteins showed that
+the gene ontology (GO) term “regulation of DNA replication initiation”
+involving MCM5, MCM7, and WRNIP1 was signiﬁcantly enriched (Fig. 1a
+and Source Data to Fig. 1a), which strongly suggests that mutp53s play
+an important role in regulation of DNA replication initiation.
+
+To investigate the mechanisms involved, the speciﬁc interaction
+of MCM5 and MCM7 with mutp53s was further validated by reciprocal
+IP assays using cell lines with various endogenous p53 mutations in the
+presence or absence of interferon γ (IFN-γ), which was previously
+shown to promote the interaction of MCM5 and Stat148 (Fig. 1b, c and
+Supplementary Fig. 1b–e). Furthermore, our IP assay of cells co-
+transfected with exogenous wtp53 or mutp53s and MCM5 demon-
+strated that (1) mutp53s (i.e., R273H, G245D, R175H) bound to MCM5
+(Fig. 1d, lanes 4–6 and Fig. 1e); (2) wtp53 and mutp53 R248Q did not
+bind (or weakly bound) to MCM5 (Fig. 1d, lanes 3, 7 and Fig. 1e), sup-
+porting the idea that wtp53 and these various mutp53 proteins have
+different properties28; (3) both N-terminal transactivation domain- and
+DNA-binding domain-deleted R273H mutp53s (i.e., R273H-ΔTA and
+R273H-ΔDBD) bound to MCM5 (Fig. 1d, lanes 8 and 11), whereas
+C-terminal domain deletion of R273H mutp53 resulted in loss of
+MCM5-binding activity (Fig. 1d,
+lane 10), suggesting that R273H
+mutp53 binds to MCM5 through its C-terminal domain; (4) although
+R273H/L and several other mutp53s also interacted with other com-
+ponents of the MCM2-7 complex (e.g., MCM2, MCM3, and MCM7),
+they bound most strongly to MCM5 (Fig. 1f, g and Supplementary
+Fig. 1c–e). Finally, although R248Q mutp53 did not bind to MCM5
+(Fig. 1d, lane 7 and Supplementary Fig. 1f, lane 6), our IP results using
+UM-SCC-1 cell line expressing R248Q mutp53 showed that it strongly
+bound to MCM7 (Supplementary Fig. 1g, lane 4), suggesting that dif-
+ferent mutp53s interact with the components of the MCM2-7 complex
+differently. Collectively, our results demonstrate that mutp53s interact
+with MCMs.
+
+GOF mutp53 predisposes cells to replication stress and CIN
+through MCM5
+MCM5 and MCM7 are two of the 6 components of the MCM2-7 het-
+erohexameric complex. Given that MCM2-7 forms the DNA replication
+helicase system that is important for high-ﬁdelity DNA replication and
+genomic stability35–39,49–51, we examined the functional role of the
+mutp53-MCM5 interaction in the development of replication stress
+and CIN. To this end, we introduced the expression of exogenous
+immortalized, non-
+wtp53 or GOF mutp53s in TP53-knockout,
+transformed human normal epithelial hTERT HAK cl41 cells and p53-
+deﬁcient UM-SCC-1 cancer cells. In response to a low concentration
+(100 μM) of hydroxyurea (an inhibitor of the enzyme ribonucleotide
+reductase that depletes the pool of available deoxyribonucleotides
+and induces replication stress), cells expressing G245D, R273H, or
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+2
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+a
+
+10
+
+d
+
+R-HSA-72163: mRNA Splicing - Major Pathway
+GO:0030174: Regulation of DNA-templated DNA replication initiation
+M18: PID Integrin1 pathway  
+GO:0006457: Protein folding
+R-HSA-1474290: Collagen formation
+ GO:0030048: Actin filament-based movement
+WP5115: Network map of SARS-CoV-2 signaling pathway
+GO:0032774: RNA biosynthetic process
+GO:0006338: Chromatin remodeling
+
+2
+
+0
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+b
+
+95KD
+
+56KD
+
+20KD
+
+l
+l
+
+e
+c
+
+f
+o
+0
+4
+/
+1
+
+t
+u
+p
+n
+
+i
+
+e
+t
+a
+s
+y
+
+l
+
+IP
+
+IgG
+
+p53 
+
+Ctr Ctr
+
+shp53
+
+IB:
+MCM5
+
+3.9
+
+0.2
+
+2.3
+
+1
+
+0.03
+
+0 2.1 1
+
+p53
+
+IgG
+
+n/a
+
+0.8 1.1 1
+
+MDA1586 (R273L)
+
+c
+
+56KD
+
+95KD
+
+20KD
+
+l
+l
+
+e
+c
+
+f
+o
+0
+4
+/
+1
+
+t
+u
+p
+n
+
+i
+
+e
+t
+a
+s
+y
+
+l
+
+IP
+
+IgG MCM5
+
+ -   -    +
+
+IFN-(cid:2) 
+p53
+
+4.1
+
+0.1
+
+1.4
+
+1
+
+0.3
+
+0
+
+1
+
+1
+
+n/a
+
+1 1.1 1
+
+PCI-15B (R273C)
+
+MCM5
+
+IgG
+
+g
+
+6
+
+4
+-log10 (p-value)
+
+Flag-HA-p53  -    -    WT   R175H
+
+R273H-(cid:2)336
+R273H-(cid:2)161
+R273H-(cid:2)TA
+(cid:2)DBD
+R248Q
+R273H
+-   +   +   +    +   +   +    +   +   +    +     
+
+G245D
+
+e
+
+TA
+
+DBD
+
+TET NER
+
+wtp53
+
+1
+
+60 102                292            393
+
+f
+
+MCM5-binding
+
+MCM5-V5-His
+
+95KD
+
+56KD
+
+43KD
+
+95KD
+
+56KD
+
+43KD
+
+IP: HA
+
+1/40 
+lysate
+input
+
+0
+     0     1     4.4    4.1   3.1   0.2   5   3.4  0.7 11.3
+
+ 0
+
+     0       1     0.9    1    1.1   1.1  1  0.95  0.7 0.6
+
+1
+     1     1   0.99
+
+   0.98
+
+   1
+
+  1   0.95
+
+  0.88
+
+ 1.2 1.1
+
+0
+      1      0.7     0.5     0.5   0.6   0.4   0.5   0.5  0.7 1.6
+
+0
+    0      1     1    0.95    1.2  1.6   1.4  1.3 0.9 1.1
+
+1
+0.9
+      0.9     0.8    1    0.8   0.9   0.9   0.8   0.7 1
+1     2    3    4     5     6    7    8    9   10   11 
+293FT 
+
+IB:
+V5 (MCM5)
+
+175
+*
+
+Flag (mutp53)
+
+IgG 
+(heavy chain)
+
+V5 (MCM5)
+
+Flag (mutp53)
+
+161
+
+245
+*
+
+273
+*
+
+248
+*
+
+273
+*
+
+273
+*
+
+273
+*
+
+Actin
+
+336
+
+NLS
+
+(cid:2)DBD
+
+MCM4
+MCM2
+Flag-HA-R273H mutp53 -   -     -    -    -     -   +    +    +   +    +   +    
+
+MCMs-V5-His
+
+MCM6
+
+MCM6
+
+MCM2
+
+MCM3
+
+MCM5
+
+MCM3
+
+MCM7
+
+MCM4
+
+MCM5
+
+MCM7
+
+R175H 
+
+G245D 
+
+R273H
+
+R248Q
+
+R273H-(cid:2)TA
+
+R273H-(cid:2)161
+
+R273H-(cid:2)336
+
+-
+
++
+
++
+
++
+
+-
+
++
+
++
+
+-
+
++
+
+IB:
+
+V5 (MCMs)
+
+Flag (mutp53)
+
+IgG (light chain)
+
+V5 (MCMs)
+
+Flag (mutp53)
+
+non-specific
+
+n/a n/a  n/a   n/a   n/a   n/a  0.1 1.1 1
+
+0.2 0.8 0.5
+
+n/a  n/a  n/a  n/a   n/a   n/a  0.9 1
+
+1
+
+1 1.1 1.1
+
+n/a   n/a   n/a   n/a  n/a  n/a  1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+95KD
+
+56KD
+
+IP: HA
+
+20 KD
+
+95KD
+
+95KD
+
+130KD
+
+95KD
+
+95KD
+
+18.5
+
+0
+
+1
+
+0
+
+n/a   n/a  n/a   n/a   n/a  n/a  2.6 6.1 1 4.2 5.7 10.7
+
+1/40  
+lysate
+input
+
+43KD
+
+n/a  n/a   n/a  n/a   n/a   n/a 
+n/a  n/a   n/a  n/a   n/a   n/a 
+
+1.2 1.1
+1.1 0.9
+
+1
+1
+
+1 1.1 1.1 Flag (mutp53)
+non-specific
+1 1.1 1.1
+
+n/a  n/a   n/a  n/a   n/a   n/a  1.3   3.4   21  1.0  3.1   1.0
+293FT
+
+Normalized relative 
+R273H mutp53
+-mediated MCMs binding 
+
+13.1
+
+0.2
+
+1
+
+0.6
+
+0.03
+
+0
+
+1
+
+0.4
+
+56KD
+
+20KD
+
+n/a
+
+0.74
+0.97
+MDA1586 (R273L)
+
+1
+
+l
+l
+
+e
+c
+
+f
+o
+0
+4
+/
+1
+
+t
+u
+p
+n
+
+i
+
+e
+t
+a
+s
+y
+
+l
+
+IP
+
+IgG p53 
+
+Ctr Ctr
+
+shp53
+
+IB:
+MCM5
+
+1.9
+
+0.1
+
+1
+
+0.4
+
+8.2
+
+0.2
+
+1
+
+0.3
+
+MCM3
+
+MCM2
+
+MCM7
+
+p53
+
+IgG 
+
+Fig. 1 | mutp53 interacts with MCMs. a Bar graph of enriched terms across input
+gene lists (colored by P-values) from SILAC/immunoprecipitation (IP) puriﬁcation
+and mass spectrometry of G245D mutp53 interactome in UM-SCC-1 stable cells
+from Metascape analysis. Pairwise similarities between any two enriched terms
+were computed based on a Kappa-test score. The similarity matrix was then hier-
+archically clustered and a 0.3 similarity threshold was applied to trim the resultant
+tree into separate clusters. The most signiﬁcant (lowest P-value) term within each
+cluster was chosen to represent the cluster in the bar graph. b p53 antibody (DO-1)
+IP/Western blot analysis using MDA1586 cell lysates and MCM5 antibody. Cells with
+mutp53 knockdown (shp53) were used as the control to evaluate the speciﬁcity of
+
+the IP. Normalized quantitative results (densitometry) calculated using NIH Image J
+software are shown under each blot. IB, immunoblotting. c MCM5 antibody IP/
+Western blot analysis using PCI-15B cell lysates and p53 antibody. IFN-γ, 200 IU,
+30 min. d HA antibody IP/Western blot analysis of HEK293-FT cells co-transfected
+with V5-tagged MCM5 and Flag-HA-tagged wtp53 or various mutp53s. e Summary
+of the results from d. f HA antibody IP/Western blot analysis of HEK293-FT cells co-
+transfected with Flag-HA-tagged R273H mutp53 and various V5-tagged MCM
+components. g p53 antibody IP/Western blot analysis using MDA1586 cells and
+various MCM antibodies. Shp53, cells with mutp53 knockdown. Source data are
+provided as a Source Data ﬁle.
+
+R248Q mutp53, but not those expressing wtp53 or the C-terminus
+truncated Δ336 mutp53 that does not bind to MCM5 (Fig. 1d, lanes 3 &
+10), exhibited greater chromatin accumulation of both mutp53s and
+phosphorylated and/or total replication protein A 32 kd subunit
+(RPA32), a marker of replication stress, than did the control cells
+(Fig. 2a, lanes 12 vs. 8 and 10; Fig. 2b, lanes 18 vs. 14, 22 vs. 14; Sup-
+plementary Fig. 1h, lanes 4 and 6 vs. 2 and Supplementary Fig. 1i, lanes
+6 vs. 4). Consistent with this, more nuclear RPA32 foci were seen in
+mutp53-expressing hTERT HAK cl41-p53KO-c1 cells treated with
+hydroxyurea than in control cells without mutp53 expression (Sup-
+plementary Fig. 1j). Given the strong interaction between MCM5 and
+G245D or R273H/L mutp53 (Fig. 1f, g and Supplementary Fig. 1f), we
+focused the following studies on investigation of the functional role of
+the interaction between MCM5 and G245D or R273H/L mutp53 in
+regulation of DNA replication, and then we further explored its con-
+sequential biological implications.
+
+In line with the strong interaction of MCM5 and R273H mutp53,
+R273H mutp53-induced chromatin accumulation of RPA32 in response
+to hydroxyurea treatment was efﬁciently suppressed by over-
+expression of MCM5 (Fig. 2b, lanes 20 vs. 18, 24 vs. 22; Supplementary
+Fig. 1k, lanes 16 vs. 14 and Supplementary Fig. 1l, lanes 16 vs. 14) but not
+by expression of MCM2 (Supplementary Fig. 1l, compare lanes 16 vs. 14
+to 8 vs. 6) that has weak R273H/L mutp53 binding (Fig. 1f, g). To further
+test the speciﬁcity of MCM5’s impact, we generated an inactive MCM5
+mutant (R732A & K734A) that was unable to interact with other com-
+ponents of the MCM2-7 complex48, such as MCM3 (Supplementary
+Fig. 1m, lanes 5 vs. 6) but still maintained R273H mutp53-binding
+
+activity (Supplementary Fig. 1n, lanes 8 vs. 7). This mutant MCM5
+exhibited greater inhibition of R273H mutp53-induced chromatin
+accumulation of RPA32 than did the wild-type MCM5 in the presence
+of hydroxyurea (Supplementary Fig. 1o, compare lanes 10 vs. 6 to 8 vs.
+6). This was because, in addition to inhibition of mutp53, over-
+expression of the wild-type MCM5 subunit alone likely disrupted the
+stoichiometry of the MCM2-7 complex (i.e., dominant-negative effect),
+thereby impairing MCM2-7 complex function and predisposing cells to
+replication stress (Supplementary Fig. 1k, l, lanes 11 and 12 vs. 9 and 10
+and Supplementary Fig. 1o, lanes 4 vs. 2), whereas expression of R732A
+and K734A mutant MCM5 did not impact the MCM2-7 complex, but
+only bound to and inhibited mutp53.
+
+In further support of the role of mutp53-MCM5 signaling in pre-
+disposing cells to replication stress, the knockdown of endogenous
+mutp53 in MDA1586 (R273L mutp53) and PCI-15B (R273C mutp53) cells
+led to much less chromatin accumulation (Fig. 2c, lanes 4 vs. 2 and
+Supplementary Fig. 2a, lanes 4 vs. 2), fewer nuclear foci of RPA32
+(Supplementary Fig. 2b), and fewer stalled and more newly initiated
+DNA forks in the DNA ﬁber assay (Supplementary Fig. 2c–e) than were
+seen in parental control cells treated with hydroxyurea. However,
+further knockdown of MCM5 (Supplementary Fig. 2f, g) rescued RPA32
+chromatin accumulation (Fig. 2c, lanes 6 vs. 4, 8 vs. 4 and Supple-
+mentary Fig. 2h, lanes 6 vs. 4, 8 vs. 4), formation of RPA32 nuclear foci
+(Supplementary Fig. 2i), and stalled DNA forks (Supplementary
+Fig. 2c–e) under the same condition.
+
+In line with these results, more chromosomal abnormalities were
+seen in immortalized, non-transformed human normal epithelial hTERT
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+3
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+HU 
+(100(cid:4)(cid:3)M, 48h) 
+pRPA32
+RPA32
+20KD
+
+a
+
+Cytosol
+
+Chromatin-bound
+
+b
+
+Cytosol
+
+Chromatin-bound
+
+e
+b
+a
+B
+p
+
+T
+W
+
+D
+5
+4
+2
+G
+
+e
+b
+a
+B
+p
+
+T
+W
+
+D
+5
+4
+2
+G
+
+ -   +   -  +   -   +  -   +  -   +   -   + 
+
+HU 
+(100(cid:4)(cid:3)M, 48h) 
+
+pBabe
+
+G245D
+
+R273H
+
+pBabe
+
+G245D
+
+R273H
+
+PLVX 
+
+MCM5
+
+PLVX 
+
+MCM5
+
+PLVX 
+
+MCM5
+
+PLVX 
+
+MCM5
+
+PLVX 
+
+MCM5
+
+PLVX 
+
+MCM5
+
+  -    +    -   +    -    +    -    +    -   +    -    +
+
+  -   +    -    +   -    +    -    +    -   +    -    +
+
+56KD
+
+34KD
+
+72KD
+
+43KD
+
+34KD
+
+95KD
+
+56KD
+
+72KD
+
+34KD
+
+95KD
+
+56KD
+
+43KD
+
+c
+
+d
+n
+u
+o
+b
+-
+n
+
+i
+t
+
+a
+m
+o
+r
+h
+C
+
+l
+
+o
+s
+o
+t
+y
+C
+
+n/a n/a 1   5.2   7.9   20 n/a n/a 1    1.9   2.1     3
+
+1   0.8   1.1    1   1.2    1.1    1   1.5   0.9  1.3   0.9  1.9
+
+n/a  n/a   n/a  n/a  n/a   n/a    1    0.9   0.8  0.8   0.9    1
+
+p53
+
+pRPA32
+
+RPA32
+
+ORC2
+
+RPA32
+20KD
+
+MCM5
+72KD
+
+56KD
+p53
+
+MEK1/2
+
+MEK1/2
+43KD
+
+1    0.9   1.3    1    1.2   1.1   1.3    1    1.1    1    1.3    0.7       
+
+1    1.3   1.1  1.4    0.9  1.7   1.1  1.4   1.2   1.8    1    1.3       
+
+1    0.6    2.1   2.2  1.6   0.7   2.1    2    1.7    0.9   2.9  3.4       
+
+1    1.7   2.4   2.7  1.5   1.7    3.1    3     2.1   1.7   3.3   3.3       
+
+MCM5
+72KD
+
+n/a   n/a   n/a   n/a   1    1.1     1      1    0.9  1.3   1.3   1.2    
+
+n/a   n/a   n/a   n/a   1    1.9   1.5   1.8    0.9  1.7  1.7   2.1    
+
+p53
+
+43KD
+
+ORC2
+56KD
+
+1    0.8   0.9   0.9  0.8   0.9
+n/a  n/a   n/a  n/a  n/a   n/a
+ 1   2   3   4    5   6   7   8   9  10  11 12
+hTERT HAK cl41-p53KO-c1 stable  cells
+
+0.9     1     0.9   1    1.1   1.2   1.1   1.1  1.1  1.2   1.1   1.1
+ 1    2     3    4     5     6    7    8    9    10   11  12      13   14  15  16   17  18   19   20  21   22  23   24 
+hTERT HAK cl41-p53KO-c1 stable  cells
+
+ 1      1     1.1  1.1   1.1   1.2   1.2   1.1   1.1   1.1  1.1    1
+
+d
+
+e
+b
+a
+B
+p
+
+H
+3
+7
+2
+R
+
+shp53
+sh-NT
+
+Lenti-Ctr
+sh-NT
+ -    +    -    +    -    +    -    +
+
+shp53
+shMCM5-C
+
+shp53
+shMCM5-G
+
+HU 
+(100 (cid:3)M, 48h) 
+
+RPA32
+
+ 1      2.5      0.7     1.7       1       2.5     2.1       2.4    
+
+MCM5
+
+ 1      1.1      0.7      0.9     0.3      0.5      0.6     0.4    
+
+ 1         1        0.4     0.5     0.4    0.5     0.2     0.3    
+
+0.9       1        1         1       1       1       0.9      1  
+1    2     3     4    5    6    7    8  
+
+1     1.6      0.9     1.1     1.1     1.5     1.1      1.2     
+
+p53
+
+ORC2
+
+RPA32
+
+MCM5
+
+1      1.2      1.1      1.1     0.4      0.4    0.3      0.2     
+
+1        1        0.4    0.4     0.5      0.5      0.3     0.4
+
+0.9      1       0.9      1         1       1         1        1
+MDA1586 (R273L) stable cells
+
+p53
+
+MEK1/2
+
+-HU
+
+HU (100 (cid:3)M, 24h) 
+
+e
+
+s
+e
+
+i
+t
+i
+l
+
+a
+m
+r
+o
+n
+b
+a
+
+l
+
+Normal Metaphase
+
+Breaks
+
+Fusions 
+
+Fragments
+
+Tetraploidy/polypoidy 
+
+100
+
+90
+
+80
+
+70
+
+60
+
+50
+
+)
+e
+s
+a
+h
+p
+a
+
+t
+
+e
+m
+
+(
+
+40
+
+30
+
+20
+
+%
+
+a
+m
+o
+s
+o
+m
+o
+r
+h
+C
+HU (100 (cid:3)M, 72h) -       +       -      +       -      +      -       +
+R273H
+pBabe
+MCM5
+MCM5
+(n=55)
+(n=36)
+
+R273H
+MCM5
+(n=48)
+
+R273H
+PLVX
+(n=45)
+
+R273H
+PLVX
+(n=44)
+
+pBabe
+MCM5
+(n=37)
+
+pBabe
+PLVX
+(n=35)
+
+pBabe
+PLVX
+(n=51)
+
+10
+
+0
+
+hTERT HAK cl41-p53KO-c1 stable  cells
+
+hTERT HAK cl41-p53KO-c1 stable  cells
+
+Fig. 2 | GOF mutp53 predisposes cells to replication stress and CIN
+through MCM5. a–c Western blot analyses using the cytosol and chromatin-bound
+fractions from the indicated stable cell lines. Overexpression in stable cell lines was
+established by sequential retroviral (pBabe-wt/mutp53s) and lentiviral (pLVX-
+MCM5) infections (a, b). Gene downregulation in cell lines was established by
+sequential lenti-shp53 and two independent doxycycline (DOX)-inducible-shMCM5
+lentiviral infections (shMCM5-C or -G) (c). In c, cells were cultured in a medium with
+DOX (200 ng/mL) for 48 to 96 h before further hydroxyurea (HU) treatment. NT,
+non-target. pBabe and pLVX were the control empty vectors. pRPA32, phospho-
+
+RPA32. MEK1/2, mitogen-activated protein kinase 1/2. ORC2, origin recognition
+complex 2. d Examples of the metaphase spreads of hTERT HAK cl41-p53KO-c1
+stable cells in the absence or presence of HU treatment. Representative chromo-
+somal abnormalities are marked by arrows (red, fragments/double minutes; light
+blue, fusions). e Summary of chromosomal abnormalities (breaks, fragments,
+fusions, and tetraploidy/polyploidy) in the metaphase spreads of hTERT HAK cl41-
+p53KO-c1 stable cells in the absence or presence of HU treatment. Source data are
+provided as a Source Data ﬁle.
+
+HAK cl41-p53KO-c1 cells expressing R273H or G245D mutp53 than in
+control cells, especially in the presence of hydroxyurea (Fig. 2d, e and
+Supplementary Fig. 2j, k). In contrast, the downregulation of endo-
+genous R273L mutp53 in MDA1586 cells reduced the chromosomal
+abnormalities in response to hydroxyurea treatment (Supplementary
+Fig. 2l, m). Most importantly, these mutp53-induced chromosomal
+abnormalities were further inhibited by further MCM5 overexpression
+(Fig. 2e). Taken together, our results not only show that GOF mutp53
+predisposes cells to replication stress and CIN but also strongly suggest
+that this predisposition is due to mutp53 and MCM5 interaction that
+leads to functional disruption of MCM2-7 complex.
+
+GOF mutp53-MCM5-mediated replication stress and CIN stimu-
+late cytosolic DNA and 2′3′-cyclic GMP–AMP (cGAMP)
+accumulation
+Replication stress and CIN induced by chromosomal mis-
+segregation can activate innate immune signaling through the
+
+introduction of genomic DNA into the cytosol and activation of the
+cGAS-STING pathway16,52. In agreement with this, we found that
+overexpression of G245D or R273H mutp53 in p53-null UM-SCC-1
+cells (Supplementary Fig. 3a) resulted in more accumulation of
+both cytoplasmic double-stranded DNA (dsDNA) and single-
+stranded DNA (ssDNA) than in control cells in either the absence
+or presence of hydroxyurea (Fig. 3a, b and Supplementary
+Fig. 3b–h). Consistent with its “dominant-negative effect” on the
+MCM2-7 complex, MCM5 overexpression alone in the absence of
+mutp53 increased the accumulation of cytosolic dsDNA (Fig. 3a, b)
+in response to hydroxyurea treatment in UM-SCC-1 cells, but
+overexpression of MCM5 in the presence of mutp53 inhibited
+mutp53-induced cytosolic dsDNA and ssDNA accumulation under
+the same conditions (Fig. 3a, b and Supplementary Fig. 3c–e, g, h).
+Furthermore, knocking down mutp53 in MDA1586 or PCI-15B cells
+signiﬁcantly decreased both cytosolic dsDNA and ssDNA accu-
+mulation, but this decreased DNA accumulation was rescued by
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+4
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+a
+
+-HU
+
++HU
+
+c
+
+-HU
+
++HU
+
+g
+
+I
+
+P
+A
+D
+A
+N
+D
+s
+d
+
+I
+
+P
+A
+D
+A
+N
+D
+s
+d
+
+I
+
+P
+A
+D
+A
+N
+D
+s
+d
+
+I
+
+P
+A
+D
+A
+N
+D
+s
+d
+
+i
+
+HU
+
+l
+
+B
+e
+R
+
+I
+
+P
+A
+D
+
+I
+
+P
+A
+D
+
+l
+
+B
+e
+R
+
+HU
+
+l
+
+B
+e
+R
+
+I
+
+P
+A
+D
+
+I
+
+P
+A
+D
+B
+e
+R
+
+l
+
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+further knocking down MCM5 expression in these cells (Fig. 3c, d
+and Supplementary Fig. 3i–n). Consistently, overexpression of
+R273H mutp53 in p53-null UM-SCC-1 cells resulted in more intra-
+cellular cGAMP accumulation than in the control cells in either the
+absence or presence of hydroxyurea (Supplementary Fig. 3o).
+Moreover, MCM5 overexpression alone in the absence of mutp53
+increased the accumulation of cGAMP in response to hydroxyurea
+
+treatment, but overexpression of MCM5 and, especially, over-
+expression of R732A/K734A mutant MCM5 in the presence of
+R273H mutp53 inhibited mutp53-induced intracellular cGAMP
+accumulation under the same conditions (Supplementary Fig. 3o).
+Collectively, these results demonstrate that GOF mutp53 pro-
+motes cytoplasmic DNA and cGAMP accumulation, which is sup-
+pressed by MCM5 overexpression.
+
+pBabe-
+pLVX
+
+pBabe-
+MCM5
+
+G245D-
+PLVX
+
+G245D-
+MCM5
+
+b
+
+UM-SCC-1 stable cells 
+
+Lenti-ctrl
+-shNT
+
+shp53-
+shNT
+
+shp53-
+shMCM5-C
+
+shp53-
+shMCM5-G
+
+d
+
+A
+N
+D
+s
+d
+
+c
+
+i
+l
+
+o
+s
+o
+t
+y
+c
+d
+e
+z
+
+i
+l
+
+a
+m
+r
+o
+N
+
+UM-SCC-1 stable cells 
+
+p
+
+<0.0001
+
+p=
+
+0.0015
+
+p=
+
+0.1128
+
+p=
+
+0.0035
+
+p
+
+<0.0001
+
+p
+
+<0.0001
+
+5000
+
+4500
+
+4000
+
+)
+I
+F
+M
+
+(
+
+l
+l
+e
+c
+
+r
+e
+p
+
+A
+N
+D
+s
+d
+c
+i
+l
+
+o
+s
+o
+t
+y
+c
+d
+e
+z
+i
+l
+a
+m
+r
+o
+N
+
+3500
+HU (100 (cid:3)M, 48h)
+
+-      +      -      +       -      +      -      +
+
+pBabe-
+pLVX
+
+pBabe-
+MCM5
+
+G245D-
+pLVX
+
+G245D-
+MCM5
+
+MDA1586 (R273L mutp53) stable cells 
+
+p
+
+<0.0001
+
+p
+
+<0.0001
+
+p
+<0.0001
+
+p
+
+<0.0001
+
+p
+<0.0001
+
+p
+
+<0.0001
+
+)
+I
+F
+M
+
+(
+
+l
+l
+
+e
+c
+
+r
+e
+p
+
+3000
+
+2500
+
+2000
+
+1500
+
+1000
+
+HU (100 (cid:3)M, 48h)
+
+-       +      -      +       -      +      -      +
+
+Lenti-ctrl
+-shNT
+
+shp53-
+shNT
+
+shp53-
+shMCM5
+-C
+
+shp53-
+shMCM5
+-G
+
+e
+
+i
+
+l
+
+e
+c
+u
+N
+
+l
+
+o
+s
+o
+t
+y
+C
+
+56KD
+
+72KD
+
+95KD
+
+56KD
+
+72KD
+
+56KD
+
+72KD
+
+95KD
+
+56KD
+
+43KD
+
+pBabe-
+pLVX
+
+pLVX-
+MCM5
+
+R273H-
+pLVX
+
+R273H-
+MCM5
+
+-   +   -   +   -   +   -   +
+
+f
+
+HU (100 (cid:3)M, 
+48h)
+
+p52
+
+1      1     1.1  1.5   1.4   2.3  1.3   1.8     
+
+Rel B
+
+1    0.6   0.9   0.8  1.7   1.9    1.3    1     
+
+MCM5
+
+1     1     1.6   1.4   1.1  1.1  1.4    1.4     
+
+p53
+
+i
+
+l
+
+e
+c
+u
+N
+
+56KD
+
+72KD
+
+95KD
+
+56KD
+
+Lenti-ctr
+-shNT
+
+shp53-
+shNT
+
+shp53-
+shMCM5
+-G
+-   +   -   +   -   +   -   +
+
+shp53-
+shMCM5 
+-C
+
+HU (100 (cid:3)M, 
+48h)
+
+p52
+
+1    0.9   0.3  0.5   0.3   0.6   0.7     1     
+
+Rel B
+
+1   0.9   0.8   0.8   0.8   1.1   0.7   0.8     
+
+MCM5
+
+1   1.1    0.7   0.9   0.3  0.5   0.5   0.4    
+
+p53
+
+n/a   n/a   n/a   n/a   1    1.3   0.9     1   
+
+1     1     0.2   0.2   0.2  0.4   0.1   0.1     
+
+ORC2
+
+72KD
+
+ORC2
+
+1    0.9    1    0.8    1     0.7    1    0.9     
+1   2   3    4   5   6   7    8       
+p52
+
+1     1.1    1   1.2   1.3  1.4   1.3.  1.4     
+
+1       1      1     1    1.2  1.2   1.2.  1.1     
+
+Rel B
+
+MCM5
+
+1    0.8   1.2   1.3    1      1    1.8  1.9     
+
+p53
+
+56KD
+
+72KD
+
+95KD
+
+56KD
+
+l
+
+o
+s
+o
+t
+y
+C
+
+1   1.1   1.1  1.3   1.1   1.1    1      1     
+1   2    3   4   5   6    7   8       
+
+p52
+
+1      1    0.8  0.8   0.9   0.8   0.9     1     
+
+1      1    0.9  0.9   0.9  0.9   0.7    0.8     
+
+Rel B
+
+1      1    1.1    1    0.3   0.2   0.1   0.1     
+
+MCM5
+
+p53
+
+n/a   n/a   n/a   n/a   1    1.4    1.1   1.6   
+
+1      1     0.1   0.1   0.1  0.1  0.04 0.04     
+
+MEK1/2
+
+43KD
+
+MEK1/2
+
+1       1      1     1     1   0.9   0.9   0.8     
+UM-SCC-1 stable cells 
+
+1      1    1.1  1.2   1.1   1.2   1.2   1.2     
+MDA1586 (R273L) stable cells 
+
+MDA1586 (R273L) stable cells 
+pBabe
+PLVX
+
+pBabe
+MCM5
+
+   -                   +                     -                   +                   -                    +                    -                   +
+
+G245D
+PLVX
+
+G245D
+MCM5
+
+h
+
+)
+I
+F
+M
+
+(
+
+l
+l
+
+e
+c
+
+l
+
+r
+e
+p
+B
+e
+R
+r
+a
+e
+
+l
+
+c
+u
+n
+d
+e
+z
+i
+l
+
+a
+m
+r
+o
+N
+
+j
+
+)
+I
+F
+M
+
+(
+
+l
+l
+e
+c
+
+r
+e
+p
+B
+l
+e
+R
+r
+a
+e
+l
+c
+u
+n
+d
+e
+z
+i
+l
+a
+m
+r
+o
+N
+
+UM-SCC-1 stable cells 
+
+p
+
+<0.0001
+
+p
+
+<0.0001
+
+4000
+
+p=
+
+0.0612
+
+p
+
+<0.0001
+
+p=
+
+0.9848
+
+3000
+
+2000
+
+1000
+
+-     +     -    +     -     +     -    +
+
+pBabe
+PLVX
+
+pBabe
+MCM5
+
+G245D
+PLVX
+
+G245D
+MCM5
+
+HU
+ (100 (cid:3)M, 48h)
+
+MDA1586 (R273L mutp53) stable cells 
+p
+
+<0.0001
+
+p=
+
+0.0003
+
+p
+
+<0.0001
+
+p=
+
+0.0097
+
+5000
+
+p
+
+<0.0001
+
+p=
+
+0.0003
+
+4000
+
+3000
+
+2000
+
+1000
+
+0
+
+ -     +      -     +      -     +      -     +
+shp53
+Lenti-ctrl
+shMCM5-G
+shNT
+
+shp53
+shMCM5-C
+
+shp53
+shNT
+
+HU
+ (100 (cid:3)M, 48h)
+
+Lenti-ctrl
+shNT
+
+shp53
+shNT
+
+shp53
+shMCM5-C
+
+shp53
+shMCM5-G
+
+   -                   +                    -                    +                    -                   +                    -                    +
+
+UM-SCC-1 stable cells 
+
+MDA1586 (R273L mutp53) stable cells 
+
+Fig. 3 | GOF mutp53-MCM5-mediated replication stress and CIN stimulate
+cytosolic DNA accumulation and NC-NF-κB activation. a, c Representative
+immunoﬂuorescence (IF) staining images of cytosolic dsDNA in the indicated
+stable cell lines in the absence or presence of hydroxyurea (HU) (100 μM, 48 h).
+Scale bar, 10 μm. b, d Violin plots of the mean ﬂuorescent intensity (MFI) per cell of
+cytosolic dsDNA in the indicated stable cell lines. Bars represent the median ±
+quartiles; n = 167 (pBabe-PLVX), 82 (pBabe-PLVX + HU), 110 (pBabe-MCM5), 227
+(pBabe-MCM5 + HU), 106 (G245D-PLVX), 227 (G245D-PLVX + HU), 221 (G245D-
+MCM5), 183 (G245D-MCM5 + HU) (b); n = 560 (Lenti-ctrl-shNT), 202 (Lenti-ctrl-
+shNT + HU), 346 (shp53-shNT), 196 (shp53-shNT + HU), 376 (shp53-shMCM5-C),
+259 (shp53-shMCM5-C + HU), 280 (shp53-shMCM5-G), 98 (shp53-shMCM5-G + HU)
+(d). e, f Western blot analyses of the cytosolic and nuclear fractions of the indicated
+
+cells. g, i Representative IF staining images of RelB in the indicated stable cell lines
+in the absence or presence of hydroxyurea (HU; 100 μM, 48 h). Scale bar, 10 μm.
+h, j Violin plots of the MFI of nuclear RelB per cell in the indicated stable cell lines.
+Bars represent the median ± quartiles; n = 48 (pBabe-pLVX), 54 (pBabe-pLVX + HU),
+26 (pBabe-MCM5), 78 (pBabe-MCM5 + HU), 41 (G245D-pLVX), 74 (G245D-pLVX +
+HU), 28 (G245D-MCM5), 105 (G245D-MCM5 + HU) (h); n = 250 (Lenti-ctrl-shNT), 138
+(Lenti-ctrl-shNT + HU), 73 (shp53-shNT), 105 (shp53-shNT + HU), 181 (shp53-
+shMCM5-C), 203 (shp53-shMCM5-C + HU), 174 (shp53-shMCM5-G), 112 (shp53-
+shMCM5-G + HU) (j). Cells were incubated with doxycycline (200 ng/mL) for 48 h
+before further HU treatment (c), (d), (f), (i), and (j). Signiﬁcances were tested by the
+Kruskal–Wallis test with Dunn’s multiple comparisons. Source data are provided as
+a Source Data ﬁle.
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+5
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+GOF mutp53-MCM5-CIN-induced cytosolic DNA activates
+NC-NF-κB signaling
+Cytosolic DNA activates the cGAS-STING signaling pathway through
+cGAMP, which in turn activates downstream TANK-binding kinase 1
+(TBK1), promoting the phosphorylation and nuclear translocation of
+transcription factors such as IFN regulatory factor 3 (IRF3) and NF-
+κB53,54. To our surprise, mutp53 expression in UM-SCC-1 cells
+appeared to stimulate only NC-NF-κB signaling (i.e., a higher level of
+nuclear p52/RelB accumulation) when compared with control cells
+treated with or without hydroxyurea (Fig. 3e, lanes 5 vs. 1, 6 vs. 2;
+Fig. 3g, h; Supplementary Fig. 3p, lanes 7 vs. 5, 8 vs. 6 and Supple-
+mentary Fig. 3q, lanes 5 vs. 1, 6 vs. 2), whereas nuclear pIRF3 and
+canonical NF-κB signaling (i.e., nuclear p-p65) were largely unaf-
+fected (Supplementary Fig. 3p). Consistent with this, knockdown of
+endogenous mutp53 in MDA1586 or PCI-15B cells signiﬁcantly
+decreased nuclear p52/RelB accumulation (Fig. 3f, lanes 3 vs. 1, 4 vs. 2;
+Fig. 3i, j; Supplementary Fig. 3r, lanes 7 vs. 5, 8 vs. 6 and Supple-
+mentary Fig. 3s, lanes 3 vs. 1, 4 vs. 2), suggesting that GOF mutp53
+promotes NC-NF-κB signaling in these cells. In addition, knockdown
+of mutp53 in MDA1586 and PCI-15B cells also reduced the nuclear
+accumulation of p-p65 and/or pIRF3, especially in the presence of
+hydroxyurea (Supplementary Fig. 3r, lanes 8 vs. 6 and Supplementary
+Fig. 3s, lanes 3 vs. 1, 4 vs. 2), indicating mutp53 activated canonical
+NF-κB signaling in these cells. Nevertheless, our results showed that
+in the absence of hydroxyurea, NC-NF-κB signaling was activated by
+mutp53 in all 3 tested cell lines (UM-SCC-1, MDA1586, and PCI-15B)
+(Fig. 3e–j and Supplementary Fig. 3p–s), supporting previous
+observations that cGAS-STING signaling results in TBK1-dependent
+activation of p65/p50 canonical NF-κB signaling and also activates
+RelB/p52 NC-NF-κB signaling in a TBK1-independent manner54. Fur-
+thermore, overexpression of MCM5 and especially overexpression of
+R732A/K734A mutant MCM5 in UM-SCC-1 cells inhibited mutp53-
+induced nuclear RelB/p52 accumulation in response to hydroxyurea
+treatment (Fig. 3e, lanes 7 vs. 5, 8 vs. 6; Fig. 3g, h and Supplementary
+Fig. 3q, compare lanes 10 vs. 6 to 8 vs. 6), whereas further knockdown
+of MCM5 in mutp53-downregulated MDA1586 and PCI-15B cells
+restored the nuclear p52/RelB accumulation that had been impaired
+by mutp53 loss (Fig. 3f, lanes 6 vs. 4, 8 vs. 4; Fig. 3i, j and Supple-
+mentary Fig. 3s, lanes 5 vs. 3, 6 vs. 4, 7 vs. 3, 8 vs. 4). Taken together,
+our results strongly suggest that GOF mutp53-MCM5 signaling not
+only predisposes cells to replication stress and CIN that lead to
+cytosolic DNA and cGAMP accumulation, but also drives activation of
+NC-NF-κB signaling.
+
+GOF mutp53 promotes tumor cell invasion and metastasis
+through MCM5-CIN-cytosolic DNA-cGAS-STING-induced
+NC-NF-κB signaling
+We and others have previously shown that the promotion of tumor cell
+invasion and metastasis is one of the most important features of
+mutp53 GOF23,24,55. In support of the involvement of cGAS-STING-
+signaling in NC-NF-κB activation, knockdown of either CGAS or STING1
+inhibited mutp53-mediated NC-NF-κB signaling (Fig. 4a–c). Moreover,
+knockdown of CGAS, STING1, or RelB in mutp53-overexpressing human
+UM-SCC-1 or mouse p53-null 4T1 stable cells (Fig. 4d–f) impaired not
+only mutp53-mediated in vitro transwell migration and invasion
+(Fig. 4g–p) but also mutp53-induced in vivo lung metastases after cells
+were injected into the tail veins of nude mice (Fig. 4q–s and Supple-
+mentary Fig. 4a–c) or the mammary fat pads of BALB/c mice (Fig. 4t–w
+and Supplementary Fig. 4d). Moreover, overexpression of MCM5 or
+R732A/K734A mutant MCM5 in UM-SCC-1 stable cells in the presence
+of mutp53 inhibited mutp53-induced in vitro transwell invasion (Sup-
+plementary Fig. 4e–h) and in vivo lung metastasis from cells injected
+into the tail veins of nude mice (Supplementary Fig. 4i, j). Consistently,
+while knockdown of R273L mutp53 in MDA1586 cells inhibited in vitro
+invasion and in vivo lung metastasis from tail-vein injection, further
+
+knockdown of MCM5 in these cells rescued the impaired invasion and
+lung metastasis caused by mutp53 knockdown (Supplementary
+Fig. 4k–o). Taken together, these results demonstrate that MCM5-
+cGAS-STING-NC-NF-κB signaling plays an important role in mutp53
+GOF-mediated tumor cell invasion and metastasis.
+
+GOF mutp53-MCM5-CIN-cytosolic DNA-cGAS-STING-induced
+NC-NF-κB signaling promotes tumor immunosuppression
+Our results also showed that compared with the control, expression of
+murine R270H mutp53 in mouse breast cancer 4T1 cells exhibited GOF
+activity to promote tumor growth when cells were injected into the
+mammary fat pads of syngeneic BALB/c mice, but this GOF activity was
+abolished by further knockdown of RelB expression (Fig. 5a). In con-
+trast, when the same group of 4T1 stable cells was orthotopically
+injected into immunodeﬁcient SCID mice, all tumors grew faster than
+in immunocompetent BALB/c mice (Fig. 5b vs. 5a), but no mutp53 GOF
+activity was observed; neither expression of R270H mutp53 nor further
+knockdown of RelB had an impact on tumor growth when compared
+with the control in SCID mice (Fig. 5b). All these results indicate that
+R270H mutp53 promotes RelB-dependent tumor immunosuppression
+in immunocompetent BALB/c mice. In support of this, increased
+nuclear RelB localization was observed in R270H mutp53-expressing
+4T1 tumors from BALB/c mice (Fig. 5c, d and Supplementary Fig. 5a). In
+addition, multiplex immunoﬂuorescence staining or multiplexed ion
+beam imaging (MIBI) (Supplementary Fig. 5b, c) showed that R270H
+mutp53-expressing 4T1 tumors had less inﬁltration of CD3+CD8+ and
+CD3+ T cells, granzyme B+ cells, dendritic cells (DCs) and lymphoid
+tissue-resident CD11b+ classical dendritic cells (cDCs) in BALB/c mice
+compared with the control (Fig. 5e–m), suggesting that expression of
+R270H mutp53 engendered a immunosuppressive tumor micro-
+environment (TME) in 4T1 tumors. Moreover, further knockdown of
+RelB expression tended to restore the decreased immune cell inﬁl-
+tration induced by mutp53 expression (Fig. 5f, g, i, k, and m). This RelB-
+dependent
+R270H
+mutp53 strongly suggests that tumor cell-intrinsic mutp53-NC-NF-κB
+role in mutp53-induced tumor
+signaling plays an important
+immunosuppression.
+
+immunosuppressive
+
+induced
+
+TME
+
+by
+
+via
+
+NF-κB + IL-6-JAK-STAT3
+
+GOF mutp53-MCM5-CIN-cytosolic DNA-cGAS-STING-induced
+NC-NF-κB signaling antagonizes interferon (IFN) signaling
+In support of our identiﬁcation of mutp53-MCM5-cGAS-STING signal-
+ing, results of RNA-sequencing (RNAseq) and Gene Set Enrichment
+Analysis (GSEA) showed that IFN signaling (hallmarks of IFNα/γ
+response) and inﬂammation-related signaling (i.e., hallmarks of TNFα
+signaling + inﬂammatory
+signaling
+response) pathways were among the signaling pathways that were
+most signiﬁcantly altered by modulating expression of R273H mutp53,
+STING, RelB, and MCM5 in UM-SCC-1 and MDA1586 cells (Fig. 6a and
+Supplementary Fig. 5e). Speciﬁcally, expression of R273H mutp53
+generally increased IFN pathway gene expression, but subsequent
+STING1 knockdown reduced it (Fig. 6a–c and Supplementary Fig. 6a).
+However, in the presence of hydroxyurea, many R273H mutp53-
+induced IFN signaling genes were suppressed when compared with
+controls without hydroxyurea treatment (Fig. 6a and Supplementary
+Fig. 6b). More importantly, inhibition of NC-NF-κB signaling through
+RelB knockdown in p53-null UM-SCC-1 cells (Supplementary Fig. 5d) or
+R273H mutp53-expressing UM-SCC-1 cells resulted in increased
+expression of many IFN pathway genes (Fig. 6a–c; Supplementary
+Figs. 5e and 6a, c), suggesting that mutp53-induced NC-NF-κB signal-
+ing plays an important role in suppression of IFN signaling gene
+expression.
+
+Our results also showed that MCM5 overexpression increases IFN
+pathway gene expression in the absence of mutp53 in UM-SCC-1 cells
+(Fig. 6a and Supplementary Fig. 6d–g). However, MCM5 over-
+expression in the presence of mutp53 reduced the expression of many
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+6
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+a
+
+Cytosol
+
+Nuclei
+
+b
+
+Cytosol
+
+Nuclei
+
+c
+
+R273H
+shNT
+
+R273H
+shcGAS
+-2
+
+R273H
+shcGAS
+-1
+    -  +  -  + -  + 
+
+HU 
+(200(cid:4)(cid:3)M, 48h)
+72KD
+Rel B
+
+R273H
+shNT
+
+R273H
+shcGAS
+-1
+
+R273H
+ shcGAS
+-2
+
+-  +  -  +  -  + 
+
+R273H
+shNT
+
+R273H
+shSting
+-2
+
+R273H
+shSting
+-1
+    -  +  -  + -  + 
+
+HU 
+(200(cid:4)(cid:3)M, 48h)
+72KD
+Rel B
+
+72KD
+Rel B
+
+R273H
+shNT
+
+R273H
+shSting
+-1
+
+R273H
+shSting
+-2
+
+-  +  -  +  -   + 
+
+HU 
+(200(cid:4)(cid:3)M, 48h)
+72KD
+Rel B
+
+72KD
+Rel B
+
+Cytosol
+
+Nuclei
+
+G245D
+shNT
+
+G245D
+shSting
+-1
+
+G245D
+shNT
+
+G245D
+shSting
+-1
+
+-  +  -  +   -  +  -   + 
+
+1    1  0.8 0.9  0.9 0.9  1   1.4  0.9 0.3 0.6  0.2 
+
+1  0.9   1   0.9  1   0.9   1   1.1 0.7 0.4  0.5  0.7
+
+1   1.2 1.2 1.2   1    0.7 0.6 0.2
+
+56KD
+p52
+
+p100
+95KD
+72KD
+cGAS
+
+56KD
+p53
+
+MEK1/2
+43KD
+
+1     1    1    1    1  1.1   
+
+ 1   2.4  0.9 0.8 0.9 0.9 
+
+1    1   0.7 0.9 0.8  0.9    
+
+ 1   1.1  0.8 0.5 0.7 0.5 
+
+1     1   0.3 0.6 0.2 0.5
+
+ 1   1.2  0.3 0.4 0.2 0.3
+
+56KD
+p52
+
+p100
+95KD
+72KD
+cGAS
+
+56KD
+p53
+
+56KD
+p52
+
+p100
+95KD
+
+Sting
+34KD
+
+56KD
+p53
+
+1    1   0.9 0.8  0.8 0.9 
+
+ 1  1.7  0.7 1.1 0.7  1.5
+
+1   0.9   1   1     1    1 
+
+ 1  1.4  0.7 0.7  0.7  1.3
+
+1   1.1 0.1 0.1  0.1 0.2 
+
+ 1  1.9    0   0    0.1  0.3
+
+1    1   2.1 2.5 2.5 2.5  
+
+ 1   2.4 2.9 3.4  3.2 3.5
+
+1    1    1  1.2  1.3 1.5      
+
+ 1  1.2   1  0.9  1.1  1.2
+
+1   0.9  0.8 0.8 0.8 0.8     
+1   2  3  4   5  6    7  8  9  10 11 12   
+UM-SCC-1 R273H mutp53 stable cells 
+
+ 1  0.9 1.1   1   1.1 1.1
+
+1    1    1   0.9   1    1      
+1   2  3  4   5  6    7  8  9  10 11 12   
+UM-SCC-1 R273H mutp53 stable cells 
+
+ 1    1    1    1     1    1
+
+ORC2
+72KD
+
+MEK1/2
+43KD
+
+56KD
+p52
+
+p100
+95KD
+
+Sting
+34KD
+
+56KD
+p53
+
+56KD
+p52
+
+p100
+95KD
+
+Sting
+34KD
+
+56KD
+p53
+
+ORC2
+72KD
+
+1  1.2    1  1.2
+
+  1   1.8  0.2 0.3
+
+1   1.3  1.2 1.2  
+
+  1    0.9 0.7 0.6
+
+p100
+95KD
+
+e
+
+1   1.2 0.1   0
+
+  1     1    0    0
+
+Sting
+34KD
+
+56KD
+
+p53
+
+72KD
+
+pBabe
+shNT
+
+R273H
+shNT
+
+R273H
+shRelB
+-1
+
+R273H
+shRelB
+-2
+
+ 1       1.4     0.5      0.5   
+
+1  1.7 1.5 2.1 
+
+  1   1.4   1  1.7
+
+56KD
+
+ORC2
+72KD
+
+ n/a        1      1.8     2.3   
+
+MEK1/2
+43KD
+
+d
+
+72KD
+
+56KD
+
+43KD
+
+72KD
+Rel B
+
+56KD
+
+p52
+
+f
+
+pBabe
+shNT
+
+G245D
+shNT
+
+G245D
+shRelB
+-1
+
+G245D
+shRelB
+-2
+
+RelB
+
+ 1      1.2     0.5      0.3   
+
+56KD
+
+pLVX-
+pLKO.1
+-NT
+
+R270H-
+pLKO.1
+-NT
+
+R270H-
+pLKO.1
+-shRelB
+-1
+
+R270H-
+pLKO.1
+-shRelB
+-2
+
+n/a      1     1.9      2.1  
+
+p53
+
+72KD
+
+Actin
+
+ n/a        1      1.3         1  
+
+ 1         0.9       0.2      0.1   
+
+p53
+
+RelB
+
+Actin
+
+ 1      1.1      1       1.1   
+UM-SCC-1 stable cells 
+
+43KD
+
+1    1   1.1  1
+  1    1     1  0.8
+1   2  3   4   5   6  7   8
+UM-SCC-1 G245D mutp53 stable cells 
+k
+
+UM-SCC-1 stable cells 
+
+j
+
+43KD
+
+p
+
+<0.0001
+
+s
+
+l
+l
+
+e
+c
+d
+e
+d
+a
+v
+n
+
+i
+
+l
+l
+
+e
+w
+s
+n
+a
+r
+T
+
+l
+
+d
+e
+i
+f
+
+i
+
+i
+
+c
+p
+o
+c
+s
+o
+r
+c
+m
+0
+0
+1
+×
+r
+e
+p
+
+p
+
+<0.0001
+
+p=
+
+0.0157
+
+250
+
+200
+
+150
+
+100
+
+50
+
+0
+
+pBabe
+shNT
+
+R273H
+shNT
+
+R273H
+shSting
+-1
+
+R273H
+shSting
+-2
+
+ 1        1       1.1      0.9   
+UM-SCC-1 stable cells 
+l
+
+pBabe
+shNT
+
+G245D
+shNT
+
+G245D
+shSting
+-1
+
+s
+
+l
+l
+
+e
+c
+
+d
+e
+d
+a
+v
+n
+
+i
+
+l
+l
+
+e
+w
+s
+n
+a
+r
+T
+
+UM-SCC-1 stable cells 
+
+pBabe
+shNT
+
+R273H
+shNT
+
+R273H
+shRelB-1
+
+R273H
+shRelB-2
+
+1        1.1         1       1  
+murine 4T1 stable cells
+
+UM-SCC-1 stable cells 
+
+RelB
+
+p53
+
+Actin
+
+l
+
+d
+e
+i
+f
+
+i
+
+i
+
+c
+p
+o
+c
+s
+o
+r
+c
+m
+0
+0
+1
+×
+r
+e
+p
+
+p
+<0.0001
+
+p
+
+<0.0001
+
+300
+
+200
+
+100
+
+0
+
+pBabe
+shNT
+
+G245D
+shNT
+
+G245D
+shSting
+-1
+
+UM-SCC-1  stable cells 
+p
+
+<0.0001
+
+p
+<0.0001
+
+p
+<0.0001
+
+250
+
+200
+
+150
+
+100
+
+50
+
+0
+
+p
+
+s
+
+l
+l
+
+e
+c
+d
+e
+d
+a
+v
+n
+
+i
+
+l
+l
+
+e
+w
+s
+n
+a
+r
+T
+
+d
+e
+
+l
+
+i
+f
+
+i
+
+i
+
+c
+p
+o
+c
+s
+o
+r
+c
+m
+0
+0
+1
+×
+r
+e
+p
+
+h
+
+UM-SCC-1 stable cells 
+
+i
+
+p
+
+<0.0001
+
+p
+
+<0.0001
+
+p
+
+<0.0001
+
+pBabe
+shNT
+
+R273H
+shNT
+
+R273H
+shSting
+-1
+
+R273H
+shSting
+-2
+
+g
+
+pBabe
+shNT
+
+R273H
+shNT
+
+R273H
+shcGAS
+-1
+
+R273H
+shcGAS
+-2
+
+UM-SCC-1 stable cells 
+
+s
+
+l
+l
+
+e
+c
+
+d
+e
+d
+a
+v
+n
+
+i
+
+l
+l
+
+e
+w
+s
+n
+a
+r
+T
+
+l
+
+d
+e
+i
+f
+
+i
+
+c
+p
+o
+c
+s
+o
+r
+c
+m
+0
+0
+1
+×
+
+i
+
+r
+e
+p
+
+400
+
+300
+
+200
+
+100
+
+0
+
+pBabe
+shNT
+
+R273H
+shNT
+
+R273H
+shcGAS
+-1
+
+pBabe-
+shNT
+
+G245D-
+shNT
+
+G245D-
+shRelB-1
+
+G245D-
+shRelB-2
+
+UM-SCC-1 stable cells 
+
+R273H
+shcGAS
+-2
+n
+
+UM-SCC-1  stable cells 
+p
+
+<0.0001
+
+p
+
+<0.0001
+
+p
+
+<0.0001
+
+o
+
+s
+
+l
+l
+
+e
+c
+d
+e
+d
+a
+v
+n
+
+i
+
+l
+l
+
+e
+w
+s
+n
+a
+r
+T
+
+150
+
+l
+
+d
+e
+i
+f
+
+i
+
+i
+
+c
+p
+o
+c
+s
+o
+r
+c
+m
+0
+0
+1
+×
+r
+e
+p
+
+100
+
+50
+
+0
+
+m
+
+q
+
+UM-SCC-1  stable cells 
+
+5 x 105 human UM-SCC-1 stable cells 
+injected into nude mouse tail vein 
+
+18 weeks 
+study endpoint
+
+lung metastasis
+
+(1) pBabe-shNT
+
+(2) R273H-shNT
+
+(3) R273H-shSting-1
+
+(4) R273H-shSting-2
+
+(5) R273H-shRelB-1
+
+(6) R273H-shRelB-2
+
+Human UM-SCC-1 stable
+
+ cell tail-vein injection
+
+t
+
+1.5 x 105 murine 4T1 stable cells injected into 
+syngeneic BALB/c or NOD SCID 
+mammary fat pad 
+
+4 weeks 
+study endpoint
+
+primary tumor
+
+lung metastasis
+
+Murine 4T1 stable cell
+
+(1) pLVX-pLKO.1-NT
+
+(2) R270H-pLKO.1-NT
+
+orthotopic injection
+
+(3) R270H-shRelB-1
+
+(4) R270H-shRelB-2
+
+r
+
+g
+n
+u
+L
+
+E
+&
+H
+
+u
+
+g
+n
+u
+L
+
+E
+&
+H
+
+E
+&
+H
+
+pBabe
+shNT
+
+G245D
+shNT
+
+G245D
+shRelB
+-1
+
+G245D
+shRelB
+-2
+
+UM-SCC-1  stable cells 
+
+pBabe-
+shNT
+
+R273H-
+shNT
+
+R273H-
+shSting-1
+
+R273H-
+shSting-2
+
+R273H-
+shRelB-1
+
+R273H-
+shRelB-2
+
+6 mm
+
+ 6 mm
+
+ 6 mm
+
+ 6 mm
+
+ 6 mm
+
+ 6 mm
+
+5 mm
+
+6 mm
+
+6 mm
+
+ 6 mm
+
+ 6 mm
+
+ 6 mm
+
+Representative nude mouse  lungs and the corresponding H&E sections from human UM-SCC-1 stable cell tail-vein injection   
+
+pLVX-pLKO.1-NT
+
+R270H-pLKO.1-NT
+
+R270H-shRelB-1
+
+R270H-shRelB-2
+
+s
+
+n
+
+i
+
+a
+e
+r
+a
+c
+i
+t
+a
+t
+s
+a
+t
+e
+m
+
+f
+o
+%
+e
+g
+a
+r
+e
+v
+A
+
+v
+
+ 6 mm
+
+ 6 mm
+
+ 6 mm
+
+ 6 mm
+
+ 6 mm
+
+ 6 mm
+
+ 6 mm
+
+(cid:5)(cid:6)(cid:7)(cid:8)(cid:3)(cid:4)(cid:9)(cid:10)(cid:11)(cid:12)(cid:3)
+
+ 6 mm
+
+w
+
+200 (cid:3)m
+
+200 (cid:3)m
+
+200 (cid:3)m
+
+200 (cid:3)m
+
+Representative BALB/c mouse lungs and the corresponding H&E sections from  murine 4T1 stable cell orthotopic injection   
+
+n
+
+i
+
+a
+e
+r
+a
+c
+i
+t
+a
+t
+s
+a
+t
+e
+m
+
+f
+o
+%
+e
+g
+a
+r
+e
+v
+A
+
+pBabe
+shNT
+
+R273H
+shNT
+
+R273H
+shRelB
+-1
+
+R273H
+shRelB
+-2
+
+p
+
+<0.0001
+
+p
+
+<0.0001
+
+p
+
+<0.0001
+
+p
+<0.0001
+
+p
+<0.0001
+
+pBabe
+shNT
+
+R273H
+shNT
+
+R273H
+shSting
+-1
+
+R273H
+shSting
+-2
+
+R273H
+shRelB
+-1
+
+R273H
+shRelB
+-2
+
+)
+p
+u
+o
+r
+g
+/
+0
+1
+-
+8
+=
+n
+(
+
+p
+u
+o
+r
+g
+
+h
+c
+a
+e
+m
+o
+r
+f
+
+30
+
+20
+
+10
+
+0
+
+s
+n
+o
+i
+t
+c
+e
+s
+
+g
+n
+u
+
+l
+
+f
+o
+
+s
+t
+e
+s
+
+l
+
+i
+
+a
+u
+d
+v
+d
+n
+
+i
+
+i
+
+3
+
+ Lung metastases from 4T1 stable cell orthotopic 
+injection into syngeneic BALB/c mice
+
+p=
+
+0.0011
+
+p=
+
+0.0098
+
+p=
+
+0.0065
+
+i
+
+c
+p
+o
+c
+s
+o
+r
+c
+a
+m
+
+f
+o
+
+#
+
+g
+n
+u
+
+l
+
+r
+e
+p
+
+l
+
+s
+e
+u
+d
+o
+n
+
+i
+
+s
+s
+a
+t
+s
+a
+t
+e
+m
+
+30
+
+20
+
+10
+
+0
+
+-10
+
+pLVX
+pLKO.1
+-NT
+
+R270H
+shRelB
+-1
+
+R270H
+shRelB
+-2
+
+R270H
+pLKO.1
+-NT
+p
+
+<0.0001
+
+s
+n
+o
+i
+t
+c
+e
+s
+
+g
+n
+u
+
+l
+
+f
+o
+
+s
+t
+e
+s
+
+l
+
+i
+
+a
+u
+d
+v
+d
+n
+
+i
+
+i
+
+3
+
+p
+
+<0.0001
+
+p
+
+<0.0001
+
+)
+p
+u
+o
+r
+g
+/
+1
+1
+=
+n
+(
+
+p
+u
+o
+r
+g
+
+h
+c
+a
+e
+m
+o
+r
+f
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+pLVX
+pLKO.1
+-NT
+
+R270H
+pLKO.1
+-NT
+
+R270H
+shRelB
+-1
+
+R270H
+shRelB
+-2
+
+mutp53-induced IFN genes (Fig. 6a and Supplementary Fig. 6d, e, h–k).
+Consistently, knockdown of R273L mutp53 in MDA1586 cells reduced
+IFN signaling gene expression, but subsequent knockdown of MCM5 in
+these cells upregulated expression of many IFN pathway genes that
+had been lost due to mutp53 knockdown (Fig. 6a and Supplementary
+Fig. 6l–q). These data provide further evidence that MCM5 is involved
+in mutp53-mediated IFN signaling.
+
+GOF mutp53-MCM5-CIN-cytosolic DNA-cGAS-STING-NC-NF-κB-
+mediated IFN signaling inhibition and inﬂammation-related
+gene expression are associated with immunosuppression and
+tumor progression
+While NC-NF-κB signaling was shown to inhibit IFN signaling, our
+results also indicated that knockdown of RelB impaired R273H mutp53-
+induced inﬂammation-related signaling pathways (Fig. 6a and
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+7
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+Fig. 4 | GOF mutp53 promotes tumor cell invasion and metastasis through
+cGAS-STING-NC-NF-κB signaling. a–e Western blot analyses of UM-SCC-1 stable
+cells with CGAS (a), STING1 (b, c) or RelB knockdown (d, e). f Western blot analysis of
+murine 4T1 stable cells that were ﬁrst stably introduced with mouse R270H mutp53
+(equivalent to human R273H mutp53) and then with RelB knockdown. g–p CGAS,
+STING or RelB knockdown impairs mutp53-mediated migration and invasion.
+Shown are representative images (g, i, k, m, and o) and the summary graphs
+(h, j, l, n, and p) of the invasion of the indicated stable cell lines. n = 12 (pBabe-
+shNT), 9 (R273H-shNT), 10 (R273H-shcGAS-1), 10 (R273H-shcGAS-2) (h); n = 3 in
+each group (j, n, and p); n = 12 (pBabe-shNT), 11 (G245D-shNT), 10 (G245D-shSting-
+1) (l). Scale bar, 100 μm (g, i, k, m, and o). q and t Schematic representation created
+with BioRender.com of tail-vein injection of human UM-SCC-1 stable cell lines into
+nude mice (q) or orthotopic injection of murine 4T1 stable cell lines into BALB/c
+mice (t). r, u Representative macroscopic and corresponding microscopic
+
+hematoxylin and eosin (H & E) staining images of mouse lungs from nude mice
+18 weeks after tail-vein injection with human UM-SCC-1 stable cells (106 cells/
+mouse) (r) or from BALB/c mice 4 weeks after mammary fat pad injection with the
+indicated mouse 4T1 stable cell lines (1.5 × 105 cells/mouse) (u). Arrows: lung
+metastatic nodules/lesions. The lower panels in u are the magniﬁed images of the
+corresponding box areas in the middle panels. s Mean percentage of lung micro-
+scopic tumor metastasis areas from r. n = 3 in each group. See the Methods for
+details. v Numbers of lung macroscopic metastasis nodules from u. n = 11 in each
+group. w Mean percentage of microscopic metastasis areas from u. n = 3 in each
+group. See the Methods for details. pBabe and pLVX: empty control vectors. shNT
+and pLKO.1-NT: non-target shRNA controls. Data shown present the mean ± SD (h),
+(j), (l), (n), (p), (s), and (w) or ± quartiles (v). Signiﬁcances were tested using one-
+way ANOVA with Tukey’s multiple comparisons test. Source data are provided as a
+Source Data ﬁle.
+
+Supplementary Fig. 6r–z), suggesting that some genes in these path-
+ways are positively regulated by NC-NF-κB signaling. Consistent with
+this, hierarchical clustering of single-sample GSEA (ssGSEA) for IFN and
+inﬂammation-related signaling pathways in HPV-negative and TP53-
+mutant oral squamous cell carcinoma (OSCC) in The Cancer Genome
+Atlas (TCGA) database identiﬁed a group of patients with low scores
+for the IFN pathway but high scores for the inﬂammation-related
+pathways (designated as “IFN-low/Inf-high” in Fig. 6d). This could
+indicate repression of IFN genes but activation of inﬂammation-related
+genes by NC-NF-κB signaling, as suggested by our cell line data.
+Importantly, the IFN-low/Inf-high patients had the worst overall, dis-
+ease-speciﬁc, and progression-free survival among all the other groups
+(IFN-high/Inf-high [All High], IFN-low/Inf-low [All Low] and IFN-high/
+Inf-low) (Fig. 6e, f and Supplementary Fig. 7a). Consistent with this,
+compared with all other groups, IFN-low/Inf-high tumors exhibited a
+trend toward the strongest epithelial-mesenchymal transition (EMT)
+phenotype (Fig. 6g), which is often associated with HNSCC metastasis
+and adverse pathological features56. Moreover, although both IFN-low/
+Inf-high and All High tumors displayed more leukocytes and Th1 cell
+and lymphocyte inﬁltration fractions, indicating more immune activity
+than in other groups (Supplementary Fig. 7b–d), IFN-low/Inf-high
+tumors had the lowest inﬁltration of activated natural killer (NK) cells
+and T follicular helper (Tfh) cells among all groups (Fig. 6h, i), and had
+lower CD8+ T cells, IFN-γ response, and M1 macrophages—but more
+M0 macrophages—than did the IFN-high/Inf-low and All High groups
+(Fig. 6j and Supplementary Fig. 7e–g). In addition, our analyses indi-
+cated the presence of similar molecular patterns in TP53 mutant larynx
+and lung squamous carcinomas, in which a trend toward high EMT
+signature and low inﬁltration of activated NK, Tfh, and CD8+ T cells was
+also observed in tumors with the “IFN-low/Inf-high” molecular phe-
+notype (Supplementary Fig. 8a–j). Together, these results showed that
+IFN-low/Inf-high tumors are associated with an immunosuppressive
+tumor microenvironment, strongly suggesting that mutp53-MCMs-
+CIN-cytosolic DNA-STING-induced NC-NF-κB signaling, through inhi-
+bition of IFN and activation of inﬂammation-related signaling in tumor
+cells, has an important role in tumor progression and the resistance to
+anti-tumor immunity of tumors with TP53 mutations (Fig. 6k).
+
+Discussion
+p53 was characterized as the “guardian of the genome” over 30 years
+ago5. Its importance in maintaining genomic integrity and inhibiting
+tumor development was recently re-demonstrated by Lowe and col-
+leagues in a study showing that p53 can enable the predictable
+development of CIN that is required for p53 loss-induced tumor
+malignancy6. However, whether the development of CIN is attributable
+to only p53 LOF or whether mutp53 GOF can also contribute to CIN
+development is still not clear. Since the concept of mutp53 GOF was
+introduced in the 1990s57,58, many context-dependent and conﬂicting
+ﬁndings regarding the oncogenic GOF phenotypes associated with
+overexpression of mutp53 proteins and related mechanisms have been
+
+reported25–33. Of note, an important recent study from Pietenpol and
+colleagues used both in vitro studies and an immunocompromised
+nude mouse model to convincingly demonstrate that acquisition of
+CIN is also required for mutp53-associated GOF phenotypes34. This
+intriguing ﬁnding suggests that the acquisition of aneuploidy may be a
+unifying mechanism that accounts for many context-speciﬁc GOF
+phenotypes previously attributed to mutp53 proteins34. Since all
+inactivating p53 mutations will result in CIN, the different roles of LOF,
+dominant-negative, and GOF p53 mutations in enabling CIN develop-
+ment are still not clear, although an increased frequency of aneuploidy
+has been observed in p53 GOF mutant isogenic cell lines34. The work
+presented here conﬁrms these other investigators’ ﬁndings, highlights
+the importance of CIN in p53 mutation-induced oncogenic pheno-
+types, and further demonstrates that there is indeed a causal rela-
+tionship between mutp53 GOF and CIN, in which mutp53 actively
+predisposes cells to replication stress and CIN through interaction with
+MCMs and consequent deregulation of the MCM2-7 complex. Taken in
+aggregate with these recent reports from other laboratories showing
+that CIN is the prerequisite for p53 inactivation-induced malignancy
+and for mutp53 GOF-associated phenotypes6,34, our ﬁndings reveal the
+underlying mechanistic relationships between mutp53 GOF activity
+and enhanced propensity to CIN.
+
+to anti-tumor
+
+It has been shown previously that CIN can activate chronic cGAS-
+STING signaling, which can promote tumor metastasis and survival
+through TBK1-independent activation of NC-NF-κB and IL-6-STAT3
+signaling14,16,52,59.
+In contrast, acute activation of the cGAS-STING
+pathway often leads
+immunity through TBK1-
+dependent activation of IRF3 and canonical NF-κB p65/p50 signaling,
+which mediate the transcription of type I IFN signaling53,60–62. Given
+these dual but opposing roles (i.e., anti-tumorigenic vs. pro-
+tumorigenic roles) of the cGAS-STING pathway, understanding how
+this pathway is regulated in tumor cells to lead to different outcomes is
+very important for studies of tumorigenesis and tumor progression.
+Consistent with this, the cGAS-STING pathway is rarely inactivated in
+primary tumors, but many tumors develop a variety of still poorly
+understood mechanisms that suppress downstream type I IFN signal-
+ing under chronic cGAS-STING signaling triggered by CIN52,59. Here, in
+addition to supporting that CIN induces NC-NF-κB signaling16,52, our
+results showed that mutp53-MCM5-CIN-cGAS-STING-induced NC-NF-
+κB signaling not only promotes metastasis but also has an inhibitory
+role in IFN signaling. Our ﬁndings are consistent with previous studies
+showing that activation of NC-NF-κB antagonizes canonical NF-κB
+signaling and STING-mediated type I IFN signaling63,64. Therefore, these
+results strongly support an important role for mutp53-CIN in inducing
+tumor cell-intrinsic resistance to anticancer immunity through NC-NF-
+κB-mediated inhibition of IFN signaling or IFN tachyphylaxis—a pro-
+cess of reduction in IFN responsiveness to repetitive stimulation—
+which was recently shown by Bakhoum and colleagues to play an
+important role in CIN-induced immune suppression and metastasis65.
+Moreover, NC-NF-κB signaling also positively regulates some genes
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+8
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B
+l
+e
+R
+c
+i
+l
+
+o
+s
+o
+t
+y
+c
+/
+r
+a
+e
+l
+c
+u
+N
+
+s
+r
+o
+m
+u
+t
+1
+T
+4
+f
+o
+o
+i
+t
+a
+r
+
+300
+
+200
+
+100
+
+0
+
+-100
+
+pLVX-
+pLKO.1
+-NT
+
+R270H-
+pLKO.1
+-NT
+
+CD3+
+
+CD8+
+
+CD3+CD8+
+
+p=
+
+0.7284
+
+p=
+
+0.0530
+
+p=
+
+0.0198
+
+800
+
+600
+
+400
+
+200
+
+0
+
+)
+s
+a
+e
+r
+a
+r
+o
+m
+u
+t
+
+f
+o
+2
+
+m
+m
+/
+s
+t
+n
+u
+o
+C
+
+(
+
+pLVX
+pLKO.1
+-NT
+
+R270H
+pLKO.1
+-NT
+
+R270H
+shRelB
+-1
+
+p=
+
+0.0314
+
+3000
+
+p=
+
+0.0013
+
+2000
+
+1000
+
+0
+
+pLVX
+pLKO.1
+-NT
+
+R270H
+pLKO.1
+-NT
+
+R270H
+shRelB
+-1
+
+s
+C
+D
+c
+b+
+1
+1
+D
+C
+
+t
+n
+e
+d
+i
+s
+e
+r
+-
+e
+u
+s
+s
+i
+t
+d
+o
+h
+p
+m
+y
+L
+
+i
+
+-
+
+y
+t
+i
+s
+n
+e
+d
+)
+a
+8
+D
+C
++
+b
+1
+1
+D
+C
++
+c
+1
+1
+D
+C
+
+(
+
+)
+s
+a
+e
+r
+a
+r
+o
+m
+u
+t
+
+f
+o
+2
+
+m
+m
+/
+s
+t
+n
+u
+o
+c
+(
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+c
+
+H & E
+
+DAPI (nuclei)
+Cytoplasm
+
+DAPI (nuclei)
+Rel B
+
+d
+
+p
+
+<0.0001
+
+Article
+
+a
+
+Primary tumor growth of murine 4T1 stable
+cells in syngeneic BALB/c mice
+
+b
+
+)
+3
+m
+m
+
+(
+e
+m
+u
+o
+v
+
+l
+
+r
+o
+m
+u
+
+t
+
+y
+r
+r
+a
+m
+
+i
+r
+
+P
+
+600
+
+500
+
+400
+
+300
+
+200
+
+100
+
+0
+
+pLVX-pLKO.1-NT (n=11)
+
+R270H-pLKO.1-NT (n=11)
+
+R270H-shRelB-1 (n=11)
+
+R270H-shRelB-2 (n=11)
+
+p
+= p
+0
+
+= p
+0
+<
+0
+
+.
+
+0
+0
+0
+6
+
+.
+
+0
+0
+0
+1
+
+.
+
+0
+1
+1
+6
+
+0
+
+7
+
+14
+
+21 24
+
+Primary tumor growth of murine 4T1 stable
+ cells in immunodeficient NOD SCID mice  
+600
+
+500
+
+400
+
+300
+
+200
+
+100
+
+0
+
+0
+
+pLVX-pLKO.1-NT (n=5)
+
+R270H-pLKO.1-NT (n=5)
+
+R270H-shRelB-2 (n=5)
+
+R270H-shRelB-1 (n=5)
+
+7
+
+14
+
+21 24
+
+pLVX-
+pLKO.1
+-NT
+
+R270H-
+pLKO.1
+-NT
+
+)
+3
+m
+m
+
+(
+e
+m
+u
+o
+v
+
+l
+
+r
+o
+m
+u
+
+t
+
+y
+r
+r
+a
+m
+
+i
+r
+
+P
+
+e
+
+(i) H & E
+
+days after cell inoculation
+
+days after cell inoculation
+
+4T1 stable cell tumors
+
+(ii) CD3
+
+(iii) CD8
+
+(iv) CD3 CD8
+
+(v) Phenotype
+
+f
+
+j
+
+p=
+
+0.0048
+
+p=
+
+0.0175
+
+p=
+
+0.0535
+
+g
+
+y
+t
+i
+
+s
+n
+e
+d
+
+l
+l
+
+e
+c
+
++
+
+3
+D
+C
+
+)
+s
+a
+e
+r
+a
+r
+o
+m
+u
+t
+
+f
+o
+
+2
+
+m
+m
+/
+s
+t
+n
+u
+o
+c
+(
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+0
+
+4T1 stable cell tumor
+
+h
+
+p=
+
+0.0030
+
+p=
+
+0.0535
+
+p=
+
+0.0259
+
+Granzyme B
+
+Phenotype:
+
+ Granzyme B
+
+i
+
+)
+s
+a
+e
+r
+a
+r
+o
+m
+u
+t
+
+f
+o
+
+2000
+
+1500
+
+1000
+
+2
+
+/
+
+m
+m
+s
+t
+n
+u
+o
+c
+(
+
+500
+
+0
+
+y
+t
+i
+s
+n
+e
+d
+B
+e
+m
+y
+z
+n
+a
+r
+G
+
+y
+t
+i
+
+s
+n
+e
+d
+
+l
+l
+e
+c
+
++
+
+8
+D
+C
++
+
+3
+D
+C
+
+pLVX
+pLKO.1
+-NT
+
+R270H
+pLKO.1
+-NT
+
+R270H
+shRelB
+-1
+
+R270H
+shRelB
+-2
+
+pLVX
+pLKO.1
+-NT
+
+R270H
+pLKO.1
+-NT
+
+R270H
+shRelB
+-1
+
+R270H
+shRelB
+-2
+
+4T1 stable cell tumor
+
+k
+
+p=
+
+0.0526
+
+l
+
+p=
+
+0.0038
+
+CD11c
+
+CD11b
+
+CD8a
+
+Phenotype:
+
+Lymphoid tissue-resident CD11b+ 
+cDCs (CD11c+CD11b+CD8a-)
+
+m
+
+CD11c
+
+F4/80
+
+Phenotype:
+
+DCs (CD11c+F4/80-/low)
+
+)
+w
+o
+
+l
+/
+-
+
+0
+8
+/
+4
+F
++
+
+c
+1
+1
+D
+C
+
+(
+
+l
+l
+e
+c
+c
+i
+t
+i
+r
+d
+n
+e
+D
+
+4T1 stable cell tumor
+
+)
+s
+a
+e
+r
+a
+r
+o
+m
+u
+t
+
+f
+o
+2
+
+m
+m
+/
+s
+t
+n
+u
+o
+c
+(
+y
+t
+i
+s
+n
+e
+d
+
+4000
+
+3000
+
+2000
+
+1000
+
+0
+
+pLVX
+pLKO.1
+-NT
+
+R270H
+pLKO.1
+-NT
+
+R270H
+shRelB
+-1
+
+4T1 stable cell tumor
+
+Fig. 5 | GOF mutp53-NC-NF-κB signaling promotes tumor immunosuppression.
+a, b Primary tumor growth of mouse 4T1 stable cells orthotopically injected into
+BALB/c (a) or NOD SCID (b) mice. n = 11 in each group (a); n = 5 in each group (b).
+c Representative H & E and corresponding RelB immunoﬂuorescent images in
+4T1 stable cell tumors from BALB/c mice. Middle panel: cytosol vs. nuclei images
+from artiﬁcial intelligence (AI)-based analyses (see Methods). Scale bar, 50 μm.
+d Quantitative RelB nuclei/cytosol ratio from 4T1 stable cell tumors from BALB/c
+mice. n = 57,370 (pLVX-pLKO.1-NT), 78,073 (R270H-pLKO.1-NT). e Representative H
+& E and corresponding multiplex CD3 and CD8 immunoﬂuorescent images from a
+4T1 stable cell tumor from BALB/c mouse (panels i–iv). Panel v: AI-based CD3 and
+CD8 phenotyping image of panels ii–iv. Scale bar, 50 μm. f, g Quantitative results of
+CD3+ and CD8+ cells in tumor areas of 4T1 stable cell tumors from BALB/c mice (see
+Methods). n = 4 in each group. Each point represents the data generated from
+
+counting T cells in all tumor areas (0.3–1.7 × 106 cells) of a whole section from
+different tumors in each group. h, j, and l Representative MIBI images (left) and
+phenotypes (right) of immune cell markers as indicated in 4T1 stable cell tumors
+from BALB/c mice. Scale bars, 36 μm (h, l) and 26 μm (j). i, k, and m Quantitative
+results of granzyme B+ cells (i), DCs (k), and lymphoid tissue-resident CD11b+ cDCs
+(m) in 4T1 stable cell tumors from BALB/c mice. n = 13 (pLVX-pLKO.1-NT), 13
+(R270H-pLKO.1-NT), 12 (R270H-shRelB1) (i, k, and m). Data shown present the
+mean ± SEM (a) and (b), or ±quartiles (d), or ±SD (f), (g), (i), (k), and (m). Sig-
+niﬁcances were tested using one-way ANOVA with Tukey’s multiple comparisons
+test (a), two-tailed Wilcoxon-signed rank test (d), Kruskal–Wallis test with Dunn’s
+multiple comparisons test (f), (g), (i), (k), and (m). Source data are provided as a
+Source Data ﬁle.
+
+in addition to its anti-tumor immunity,
+
+involved in inﬂammation-related signaling, including IL-6-STAT3 sig-
+naling (Fig. 6a and Supplementary Fig. 6r–z), suggesting that it may
+play an important role in pro-tumorigenic inﬂammation. Given that the
+is also
+immune system,
+involved in tumor-promoting inﬂammation66 and selection of tumor
+suppressor inactivation67 during tumor development and progression,
+our identiﬁcation of GOF mutp53-induced, CIN-cGAS-STING–driven
+NC-NF-κB activation has provided us a novel mechanistic insight into
+how tumor cells with inactivating p53 mutations interact with immune
+system to evade anti-tumor immunity.
+
+It has previously been shown that GOF mutp53 can activate
+canonical NF-κB signaling through direct interaction with p65
+(RelA)68–71 and DAB2IP72 or NC-NF-κB signaling through stimulation
+of NFKB2 (p52/p100 subunit) expression73,74. Here, our ﬁndings
+
+provide additional evidence of the complexity of mutp53-mediated
+NF-κB activation. Since canonical NF-κB signaling is rapid and
+transient, whereas NC-NF-κB signaling is usually slow but
+persistent75, our identiﬁcation of mutp53-induced and MCM5-CIN-
+cGAS-STING-mediated activation of NC-NF-κB may have important
+implications for understanding the previously described GOF role
+in prolonged NF-κB activation and chronic
+of mutp53
+since canonical NF-κB activation
+inﬂammation68. Moreover,
+requires stimulation by extracellular ligands, whereas NC-NF-κB
+signaling can be activated by CIN16,52, our ﬁnding of GOF mutp53-
+MCM5-CIN-cGAS-STING-NC-NF-κB signaling not only demonstrates
+a novel GOF mechanism of mutp53 but also strongly suggests that
+NC-NF-κB activation is a common mechanism involved in all inac-
+tivating p53 mutations that lead to CIN.
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+9
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+UM-SCC-1 stable cells
+
+UM-SCC-1 stable cells
+
+MDA1586 stable cells
+
+R273H-shNT vs
+pBabe-shNT
+-
+
+R273H-shNT vs
+pBabe-shNT
++
+
+R273H-shNT vs
+R273H-shSting1
+-
+
+R273H-shNT vs
+R273H-shSting1
++
+
+R273H-shNT vs
+R273H-shRelB1
+-
+
+R273H-shNT vs
+R273H-shRelB1
++
+
+pBabe-shNT vs
+pBabe-shRelB1
+-
+
+pBabe-PLVX
+vs
+pBabe-MCM5
+
+R273H-PLVX
+vs
+pBabe-PLVX
+
+R273H-PLVX
+vs
+R273H-MCM5
+
+Crt-shNT
+vs
+shp53 shNT
+
+shp53-shNT
+vs shp53
+shMCM5-C
+
+shp53--shNT
+vs shp53 
+shMCM5-G
+
+a
+
+GSEA Hallmark Pathways
+
+HU (100 mM, 48h)
+Hallmark Interferon Alpha Response
+
+Hallmark Interferon Gamma Response
+
+Hallmark TNFA Signaling via NFKB
+
+Hallmark Inflammatory Response
+
+Hallmark IL6 JAK STAT3 Signaling
+
+NES
+
+-3.00 -2.25 -1.50 -0.75 0.00 0.75 1.50 2.25 3.00
+
+HALLMARK INTERFERON ALPHA RESPONSE GENES
+
+Gene expression level
+
+Higher
+
+Lower
+
+HALLMARK INTERFERON GAMMA RESPONSE GENES
+
+IFN-High & Inf-Low
+
+IFN-Low & Inf-High
+
+All high
+
+All low
+
+Gene expression level
+
+Higher
+
+Lower
+
+UM-SCC-1 stable cells
+R273H-shNT (+HU)
+R273H-shRelB1 (+HU)
+pBabe-shNT (+HU)
+R273H-shSting1 (+HU)
+
+UM-SCC-1 stable cells
+
+R273H-shNT (+HU)
+R273H-shRelB1 (+HU)
+pBabe-shNT (+HU)
+R273H-shSting1 (+HU)
+
+Hallmark GSEA Pathways
+
+Hallmark TNFA Signaling via NFKB
+
+Hallmark IL6 JAK STAT3 Signaling
+
+Hallmark Inflammatory Response
+
+Hallmark Interferon Alpha Response
+
+Hallmark Interferon Gamma Response
+
+b
+
+c
+
+d
+
+e
+
+i
+
+i
+
+g
+n
+v
+v
+r
+u
+S
+
+1.0
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0.0
+
+0
+
+All high (n=58, 26 deaths)
+All low (n=86, 40 deaths)
+IFN H / Inf L (n=52, 17 deaths)
+IFN L / Inf H (n=25, 15 deaths)
+24
+
+36
+
+12
+
+48
+
+60
+
+f
+
+g
+
+i
+
+i
+
+g
+n
+v
+v
+r
+u
+S
+
+1.0
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0.0
+
+0
+
+e
+r
+u
+t
+a
+n
+g
+S
+T
+M
+E
+
+i
+
+4
+
+2
+
+0
+
+-2
+
+48
+
+60
+
+All high (n=55, 13 deaths)
+All low (n=79, 22 deaths)
+IFN H / Inf L  (n=50, 10 deaths)
+IFN L / Inf H (n=25, 12 deaths)
+24
+
+36
+
+12
+
+5Y OS (months)
+
+Log rank test
+
+IFNL/Inf H
+IFNL/Inf H
+IFNL/Inf H
+IFNL/Inf H
+
+vs.
+vs.
+vs.
+vs.
+
+All high
+All low
+IFNH/Inf L
+All others
+
+p=0.057 
+p=0.053 
+p=0.007 
+p=0.012 
+
+5Y DSS (months)
+
+Log rank test
+
+IFNL/Inf H
+IFNL/Inf H
+IFNL/Inf H
+IFNL/Inf H
+
+vs.
+vs.
+vs.
+vs.
+
+All high
+All low
+IFNH/Inf L
+All others
+
+p=0.009 
+p=0.010
+p=0.003
+p=0.001
+
+j
+
+k
+
+Signature enrichement score
+
+Lower
+
+Higher
+
+h
+
+0.12
+
+0.09
+
+0.06
+
+0.03
+
+d
+e
+t
+a
+v
+i
+t
+c
+A
+s
+
+l
+l
+
+e
+C
+K
+N
+
+0.00
+
+IFN H/Inf L
+
+IFN L/Inf H
+
+All high
+
+All low
+
+IFN H/Inf L
+
+IFN L/Inf H
+
+All high
+
+All low
+
+Kruskal-Wallis test p=0.003
+
+Steel-Dwass test
+
+IFN L/Inf H
+IFN L/Inf H
+
+IFN L/Inf H
+
+vs.
+vs.
+vs.
+
+All high
+All low
+
+p=0.159
+p=0.005
+
+IFN H/Inf L
+
+p=0.005
+
+Kruskal-Wallis test p<0.001
+
+Steel-Dwass test
+
+IFN L/Inf H
+IFN L/Inf H
+
+IFN L/Inf H
+
+vs.
+vs.
+vs.
+
+All high
+All low
+
+p<0.001
+p=0.003
+
+IFN H/Inf L
+
+p<0.001
+
+8
+D
+C
+s
+
+l
+l
+
+e
+C
+T
+
+0.32
+
+0.24
+
+0.16
+
+0.08
+
+0.00
+
+IFN H/Inf L
+
+IFN L/Inf H
+
+All high
+
+All low
+
+IFN H/Inf L
+
+IFN L/Inf H
+
+All high
+
+All low
+
+nuclei
+
+MCMs
+
+mutp53
+
+mutant p53
+
+3
+F
+R
+
+I
+
+3
+F
+R
+
+I
+
+p50
+
+p65
+
+Type I IFN & pro-
+
+cytokines, etc.
+
+MCM2-7 complex
+
+Replication stress
+
+Chromosomal 
+instability
+
+???
+
+cytokines, etc.
+
+p52
+
+RelB
+
+immune cell recruitment & 
+
+Anti-tumor immunity
+Senescence, etc.
+
+Metastasis
+Immunosuppression
+Tumor progression
+
+Cytosolic DNA
+
+cGAS
+
+3
+F
+R
+
+I
+
+3
+F
+R
+
+I
+
+Ub
+
+Ub
+
+Ub
+
+Ub
+
+p50
+
+p65
+
+IκBα
+
+Ub
+
+Ub
+
+Ub
+
+Ub
+
+p100 RelB
+
+Kruskal-Wallis test p=0.007
+
+Steel-Dwass test
+
+IFN L/Inf H
+IFN L/Inf H
+
+IFN L/Inf H
+
+vs.
+vs.
+vs.
+
+All high
+All low
+
+p=0.001
+p=0.031
+
+IFN H/Inf L
+
+p=0.035
+
+Kruskal-Wallis test p<0.001
+
+cGAMP
+
+TBK1-dependent 
+
+non-canonical NF-κB
+
+Steel-Dwass test
+
+IFN L/Inf H
+IFN L/Inf H
+
+IFN L/Inf H
+
+vs.
+vs.
+vs.
+
+All high
+All low
+
+p<0.001
+p=0.547
+
+IFN H/Inf L
+
+p<0.001
+
+canonical NF-κB
+
+IKKα
+
+NIK
+
+TBK1-independent
+
+3
+F
+R
+
+I
+
+TBK1
+
+IKK
+
+STING
+
+ERGIC
+
+cytoplasm
+
+i
+
+r
+e
+p
+e
+H
+
+l
+
+l
+
+r
+a
+u
+c
+
+i
+l
+l
+
+o
+F
+s
+
+l
+l
+
+e
+C
+T
+
+0.20
+
+0.15
+
+0.10
+
+0.05
+
+0.00
+
+Although our current study focused on the MCM5-G245D or
+-R273H mutp53 interaction because MCM5 has a much higher R273H/L
+mutp53-binding afﬁnity than do other MCM subunits, R273H mutp53
+also interacts with other subunits of the MCM2-7 complex (Fig. 1f, g)76.
+Interestingly, whereas R248Q mutp53 did not bind to MCM5 well
+(Fig. 1d, lane 7 and Supplementary Fig. 1f, lane 6), it strongly bound to
+MCM7 (Supplementary Fig. 1g, lane 4). More importantly, R248Q
+
+mutp53 showed a greater potential to induce replication stress than
+did R273H mutp53 in UM-SCC-1 cells even though its expression level
+was lower than that of R273H mutp53 (Supplementary Fig. 1h, lanes 5
+and 6 vs. 3 and 4). Since the interaction with MCM7 and/or other MCM
+subunits, like the interaction with MCM5, is also likely to disrupt the
+stoichiometry of the MCM2-7 complex, especially when MCM2-7
+complex assembly is much needed (e.g., under replication stress), it
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+10
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+Fig. 6 | GOF mutp53-induced MCM5-STING-NC-NF-κB signaling antagonizes IFN
+signaling and regulates inﬂammation-related genes associated with immuno-
+suppression and tumor progression of OSCC. a Summary of normalized
+enrichment scores (NES) of GSEA Hallmark pathways of IFN and inﬂammation-
+related signaling that were signiﬁcantly enriched (false-discovery rate q-values
+[FDRq] <25%]) for the indicated comparisons of cell lines. +HU: 100 μM, 48 h.
+b, c Hierarchical clustering analyses of the 97 genes (x-axis) in the Hallmark IFNα
+response gene set (b) and of the 200 genes in the Hallmark IFNγ response gene set
+(c) for the indicated comparisons of UM-SCC-1 stable cell lines in the presence of
+HU (+HU: 100 μM, 48 h). d Hierarchical clustering analysis of single-sample GSEA
+scores for the Hallmark GSEA IFN and inﬂammation-related (Inf) signaling pathways
+for each of the 221 TCGA patients with HPV-negative, TP53-mutant OSCC (x-axis).
+The analysis revealed 4 patient groups with distinct gene expression proﬁles.
+e, f Five-year overall survival (OS) and disease-speciﬁc survival (DSS) for the 221
+
+patients with HPV-negative TP53-mutant OSCC with the indicated IFN and Inf gene
+expression proﬁles. L, low; H, high. g–j Box plots of EMT and immune enrichment
+scores of the 221 HPV-negative and TP53-mutant OSCCs with the indicated IFN and
+Inf gene expression proﬁles. The number of patients in each group was IFNH/
+InfL = 52, IFNL/InfH = 25, All High = 58, and All Low = 86. Shown are the mean immune
+enrichment scores (±SD) in each group. Boxes represent the interquartile range
+(IQR) and the horizontal line indicates the median. The whiskers extend to the last
+data point within 1.5×IQR. Signiﬁcances were tested using Kruskal–Wallis test and
+the two-sided steel-dwass test (g–j). k A working model of the mutp53 GOF
+mechanism involving mutp53-MCMs-CIN-cytosolic DNA-cGAS-STING-NC-NF-κB
+signaling that promotes tumor metastasis, immunosuppression, and tumor pro-
+gression. Created with BioRender.com (k). Source data are provided as a Source
+Data ﬁle.
+
+strongly suggests that GOF mutp53s, through their differential impacts
+on the different subunits of the MCM2-7 complex, predispose cells to
+DNA replication stress and genomic instability that lead to mutp53
+GOF activities.
+
+of
+
+aneuploidy
+
+drives mutp53-associated
+
+In summary, our work reveals a tumor cell-intrinsic mechanism of
+mutp53 GOF involving mutp53-MCMs-induced CIN, leading to the
+activation of cytosolic DNA-cGAS-STING-NC-NF-κB signaling, which
+plays an important role in promoting metastasis and immunosup-
+pression (Fig. 6k). Supported by recent studies showing that the
+acquisition
+GOF
+phenotypes34, that STING activity is often increased in TP53–mutant
+compared with wt TP53 tumors77, and that cGAS and STING are
+required for CIN-driven tumor progression65, our ﬁndings provide
+signiﬁcant insight into not only the GOF mechanisms of TP53 muta-
+tions but also all inactivating mutations of p53 that lead to genomic
+instability to promote immune suppression and metastasis during
+tumor development and tumor progression. This suggests that a
+strategy for targeting tumor cell-intrinsic NC-NF-κB signaling could be
+an impactful approach to treating cancers with TP53 inactivation-
+induced CIN.
+
+Methods
+Cell lines and cell culture
+Immortalized human normal head and neck epithelial hTERT HAK
+cl41 cells78 (wtp53) (provided by Dr. Aloysius J. Klingelhutz, University
+of Iowa Research Foundation) were cultured at 37 °C in a 5% CO2
+atmosphere in oral keratinocyte medium (ScienCell, #2611) supple-
+mented with oral keratinocyte growth supplement (ScienCell, #2652).
+UM-SCC-1 (p53 protein-deﬁcient, UM-SCC-1 cell has splice site muta-
+tion rendering the cells null for p53 protein expression and resulting in
+loss of p53 function79) (provided by Dr. Thomas E. Carey, University of
+Michigan), MDA1586 (R273L mutp53) (provided by Dr. Peter Sacks,
+New York University), PCI-15B (R273C mutp53) (provided by Dr. Jen-
+nifer Grandis, University of Pittsburgh School of Medicine), Detroit 562
+(R175H mutp53) (ATCC, CCL-138), HN5 (C238S mutp53) (provided by
+Dr. D. M. Easty, Ludwig Institute for Cancer Research), Ca9-22 (R248W
+mutp53) (Japan Health Science Research Resource Bank), 4T1 (p53-
+null) (MD Anderson Cytogenetics and Cell Authentication Core),
+HEK293-FT (Thermoﬁsher, R70007), and all stable cell lines subse-
+quently established from these cells were cultured at 37 °C under 5%
+CO2 in Dulbecco’s modiﬁed Eagle medium (DMEM) supplemented
+with 10% fetal calf serum and 2 mM L-glutamine in the presence of
+penicillin (50 U/mL) and streptomycin (50 μg/mL). All the cell lines
+used in this study tested negative for mycoplasma and were authen-
+ticated and veriﬁed by short tandem repeat proﬁling performed on
+cellular DNA submitted to the MD Anderson Cytogenetics and Cell
+Authentication Core Facility or the Fragment Analysis Facility of Johns
+Hopkins University. The detailed short tandem repeats allelic patterns
+of each cell line were reported previously80 and are listed in Supple-
+mentary Data 2.
+
+Overexpression and knockdown DNA constructs
+Retroviral pBabe-puro-based human wt/mutp53 overexpression and
+lentiviral pLVHMshp53 vectors were described previously81,82. wt/
+mutp53s were synthesized by polymerase chain reaction (PCR) and
+cloned into an XbaI-digested Flag-HA-pcDNA3.1 vector using the In-
+Fusion cloning strategy (Takara Bio) to get Flag and HA double-tagged
+constructs. Similarly, MCMs were synthesized by reverse transcription
+PCR and cloned into EcoRI-digested pcDNA3.1/V5-His-A or pLVX-IRES-
+mCherry vectors using In-Fusion cloning. A TP53 CRISPR/Cas9 knock-
+out plasmid was obtained from Santa Cruz Biotech. Murine R270H
+mutp53 was generated by site-directed mutagenesis using pMXs-p53
+as a template and then cloned into a pLVX-IRES-hygro vector using In-
+Fusion cloning. The sequences of all the constructs were validated by
+sequencing analyses. Lentiviral short hairpin RNAs (shRNAs) against
+MCM5, CGAS, STING1 (TMEM173), and human and murine RelB were
+purchased from Dharmacon or Sigma-Aldrich. Information on all the
+vectors, primers, and shRNAs is listed in Supplementary Data 3.
+
+Generation of stable cell lines
+hTERK HAK Cl41-p53KO cells were obtained from hTERT HAK
+Cl41 cells by transient transfection (using Lipofectamine 2000) with
+the TP53 CRISPR/Cas9 knockout plasmid and then sorting by ﬂow
+cytometry for single-cell GFP-positive clones. Stable hTERK HAK Cl41-
+p53KO-c1 and UM-SCC-1 cells overexpressing wtp53 or various
+mutp53s were obtained from pools of cells after retroviral infection
+and puromycin (1 μg/mL) selection. Retroviruses used for infections
+were generated by transfecting various pBabe wtp53 or mutp53 vec-
+tors with the packaging vectors pCMV-VSV-G and pCMV-gag-pol into
+HEK293-FT cells. MCM5 or MCM5 R732A/K734A expression was
+achieved by lentiviral infection using virus generated from HEK293-FT
+cells transfected with a pLVX-MCM5/MCM5 R732A & K734A-IRES-
+mCherry plasmid and the lentiviral packaging vectors pCMV-dR8.2
+dvpr and pMD2.G; cells stably expressing MCM5 or MCM5 R732A/
+K734A were selected and sorted for mCherry expression. Doxycycline-
+inducible MCM5 or MCM2 expression was achieved by lentiviral
+infection using a virus generated from HEK293-FT cells transfected
+with TRE3G-MCM5/MCM2-PGK-Tet3G-bsd and the lentiviral packaging
+vectors, followed by blasticidin (ThermoFisher, #A1113903) selection.
+Murine R270H mutp53 expression was achieved by lentiviral infection
+using a virus generated from HEK293-FT cells transfected with a pLVX-
+R270H-IRES-hygro plasmid and its packaging vectors psPAX2 and
+pMD2.G, followed by hygromycin (ThermoFisher, #10687010) selec-
+tion. Stable knockdown of TP53 was achieved by lentiviral infection
+using a virus generated from HEK293-FT cells transfected with
+pLVHMshp53 and the lentiviral packaging vectors, followed by sorting
+of GFP-positive cells. Stable knockdown of cGAS, STING1, and RELB was
+achieved by lentiviral infection using a virus generated from HEK293-
+FT cells transfected with pGIPZ-shRNAs and the lentiviral packaging
+vectors, followed by sorting of GFP-positive cells. Stable knockdown of
+MCM5 was achieved by lentiviral infection using a virus generated from
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+11
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+HEK293-FT cells transfected with doxycycline-inducible SMART-
+shRNAs-mCMV-TurboRFP vector and the lentiviral packaging vec-
+tors, followed by sorting of RFP-positive cells in the presence of dox-
+ycycline (200 ng/mL) (Fisher Scientiﬁc #BP26531). Stable knockdown
+of murine RELB was achieved using a virus generated from HEK293-FT
+cells transfected with pLKO.1-puro-shRNAs and the lentiviral packa-
+ging vectors, followed by puromycin selection. Information on all the
+plasmids used is provided in Supplementary Data 3.
+
+Mutp53 interactome screening by quantitative immunopreci-
+pitation using stable isotope labeling with amino acids in cell
+culture (SILAC)
+To identify GOF mutp53 interactome, we selected p53-deﬁcient UM-
+SCC-1 cell line and G245D mutp53 since our previous study showed
+that overexpression of G245D mutp53 alone or in combination with
+expression of a constitutively active phosphoinositide 3-kinase PIK3CA
+H1047R in UM-SCC-1 cells exhibited a great mutp53 GOF function to
+promote cell invasive growth and metastasis in an orthotopic nude
+mouse model (manuscript in preparation). To this end, UM-SCC-1-
+pBabe, UM-SCC-1-mutp53G245D, and UM-SCC-1-mutp53G245D &
+PIK3CA H1047R cells were labeled via passaging for up to 8 cell divi-
+sions in DMEM containing L-arginine (Arg 0) and L-lysine (Lys 0)
+(“light”) or L-arginine-U-13C6
+15N2 (Lys 8)
+(“heavy”). For immunoprecipitation (IP)-mass spectrometry (MS),
+1 × 107 cells were lysed with NETN buffer (0.5% NP-40, 1 mM EDTA,
+20 mM Tris-HCl [pH 8.0], and 100 mM NaCl with freshly added pro-
+tease and phosphatase inhibitors (1 mM phenylmethylsulfonyl ﬂuoride
+[PMSF], 1 μg/mL pepstatin, 1 μg/mL aprotinin, 1 mM sodium vanadate,
+15 mM β-glycerophosphate, and 50 mM NaF) on ice for 30 min. The
+lysates were incubated with 20 μL of p53 antibody-agarose (see Sup-
+plementary Data 4) for 2 h at 4 °C. After 4 washes with NETN buffer, the
+paired samples were combined and then boiled in 2× Laemmli buffer
+(4% sodium dodecyl sulfate [SDS], 20% glycerol, 120 mM Tris-HCl, pH
+6.8) before SDS-polyacrylamide gel electrophoresis (SDS-PAGE). The
+entire sample lane of SDS gel was excised into 3 fractions and then
+destained, and digested with trypsin at 37 °C overnight. On the next
+day, the digested peptides were extracted with acetonitrile and
+vacuum-dried before MS analyses.
+
+15N4 (Arg 10) and L-lysine-U-13C6
+
+Mass spectrometry and data analysis
+The digested peptides were dissolved in 0.1% formic acid, then loaded
+into a nanoscale liquid chromatography system (EASY-nLC 1000 liquid
+chromatography system, ThermoFisher), and separated with a 75-min
+discontinuous gradient of 4–24% ACN/0.1% formic acid. The ﬂow rate
+was set at 800 nL/min. After peptide separation, they were analyzed by
+Q Exactive Plus (ThermoFisher). The settings for mass spectrometry
+included data-dependent mode, precursor MS scan range at
+375–1300 m/z; mass resolution for MS1 and MS2 of 140,000 and
+17,500, respectively; AGC for MS1 and MS2 of 3 × 106 and 2 × 105,
+respectively; the top 25 precursor ions were selected to analyze by MS2
+with collision energy at 27.
+
+Raw MS data were processed by MaxQuant software (version
+1.5.8.3) with an FDR < 0.01 at the PSM and protein level. MS tolerance
+for MS1 was 20 ppm, and for MS2 was 0.5 Da. Oxidation of methionine,
+acetylation of N-term, and carbamidomethyl of cysteine were selected
+as variable modiﬁcations. The minimum length for peptides was 7
+amino acids. A target-decoy approach with a reversed database was
+used for protein and peptide identiﬁcation. The human FASTA data-
+base was downloaded from UniProt (April 2017) containing 70946
+entries. Peptides and proteins were quantiﬁed by MaxQuant with
+default settings. Two different cell line comparisons (i.e., G245D
+mutp53 vs. pBabe; G245D mutp53 and PIK3CA H1047R vs. pBabe) were
+analyzed. In each group, duplicates with both heavy (H)/light (L) and
+reverse L/H SILAC labeling were used for IP with 2 different p53 anti-
+bodies (DO-1 and Pab240, respectively; see Supplementary Data 4).
+
+Therefore, in total, 8 experiments were carried out. MS data were
+searched in the Maxquant database. The cutoff values for candidates
+were a median fold change higher than 1.5 (G245D/pBabe or G245D +
+PIK3CA/pBabe) and a P-value (two-sided t-test) lower than 0.05 in all 8
+experiments. Finally, metascape enrichment analysis47 was used to
+analyze the results.
+
+Immunoprecipitation
+Cells were lysed in an extraction buffer (30 mM Tris-HCl, pH 7.4, 1%
+Triton-X-100, 150 mM NaCl, 10% glycerol, 10 mM MgCl2, 10 mM KCl,
+2 mM CaCl2, 1 mM PMSF, 1 mM NaF, and 1× protease inhibitor cocktail
+[Millipore Sigma #11697498001]). Lysates were clariﬁed by cen-
+trifugation at 15,000 × g for 10 min. For IP, the supernatants were
+incubated with the appropriate antibodies overnight at 4 °C with
+constant rotation. After the addition of Dynabeads protein G beads
+(ThermoFisher #10003D), the lysates were incubated for an additional
+5 to 10 min at room temperature. Next, the beads were separated
+magnetically and washed up to 6 times with the extraction buffer
+before the addition of SDS Laemmli sample buffer for SDS-PAGE and
+immunoblotting. The antibodies used are listed in Supplemen-
+tary Data 4.
+
+Immunoblotting
+In addition to nuclear and chromatin extracts, total cell extracts were
+obtained from cells pelleted and lysed by radioimmunoprecipitation
+assay (RIPA) buffer with 1× protease inhibitor cocktail. The con-
+centration of total cell extracts was determined using a Bradford
+protein assay. Proteins were separated by SDS-PAGE and transferred to
+polyvinylidene diﬂuoride membranes. See Supplementary Data 4 for
+antibody information. Blots were developed with SuperSignal West
+Pico Chemiluminescent Substrate (ThermoFisher) according to the
+manufacturer’s instructions, exposed to autoradiographic ﬁlms
+(LabScientiﬁc by ThermoFischer), and scanned on an Epson Perfection
+V800 Photo Scanner. Protein bands’ densitometry was measured and
+calculated using NIH Image J software. Uncropped and unprocessed
+scans of the blots are provided in the Source Data ﬁles.
+
+Nuclear extracts and chromatin fraction isolation
+A previously described method83 was used with modiﬁcations.
+Brieﬂy, to isolate nuclear extracts, cells were resuspended in buffer
+A (10 mM HEPES, pH 7.9, 10 mM KCl, 1.5 mM MgCl2, 0.34 M sucrose,
+10% glycerol, 1 mM dithiothreitol [DTT], 1× protease inhibitor
+cocktail, 0.1 mM PMSF). Triton-X-100 (0.1%) was added, and the
+cells were incubated for 5 to 10 min on ice. Nuclei were collected as
+pellets (P1) by low-speed centrifugation (5 min, 1300 g, 4 °C). The
+supernatant (the cytosolic fraction) was further clariﬁed by high-
+speed centrifugation (15 min, 15,000 g, 4 °C) to remove cell debris
+and insoluble aggregates. To obtain nuclear extracts, nuclear pel-
+lets were washed twice with buffer A, and then directly resuspended
+and dissolved in Laemmli buffer with sonication in a Branson digital
+sonicator. Alternatively, to isolate the chromatin fraction, nuclear
+pellets (P1) were washed once in buffer A and then lysed in buffer B
+(3 mM EDTA, 0.2 mM EGTA, 1 mM DTT, 1× protease inhibitor cock-
+tail). The insoluble chromatin fraction was collected by cen-
+trifugation (5 min, 1700g, 4 °C) and washed once in buffer B under
+the same conditions. The ﬁnal
+insoluble chromatin pellet was
+resuspended and dissolved in Laemmli buffer with sonication. The
+concentrations of nuclear or chromatin proteins were determined
+by a Pierce 660-nm protein assay (#22660) with Ionic Detergent
+Compatibility Reagent (#22663) before the nuclear or chromatin
+fraction was subjected to SDS-PAGE and immunoblotting.
+
+Metaphase chromosome spread preparation
+For hTERK HAK cl41-p53KO-c1 stable cells, 1.2 × 105 cells were plated in
+a 6-well plate with 3 mL oral keratinocyte medium, incubated for 24 h
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+12
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+at 37 °C, and then treated with hydroxyurea (100 μM) for 24 to 72 h at
+37 °C. The cells were then washed once with phosphate-buffered saline
+(PBS) and treated with colcemid (0.2 mg/mL, Millipore Sigma
+#10295892001) for 18 h. For MDA1586 cells, 6 × 104 cells were plated in
+a 6-well plate with 3 mL DMEM for 24 h at 37 °C and then treated with
+hydroxyurea (200 μM) for 18 h at 37 °C. The cells were then washed
+once with PBS and treated with colcemid (0.15 mg/mL) for 6 h. After
+colcemid treatment, cells were trypsinized, transferred to 15-mL con-
+ical tubes, and centrifuged. The cell pellets were treated with hypo-
+tonic solution (0.075 M KCl) for 20 min at room temperature and then
+ﬁxed in a methanol and acetic acid mixture (3:1 v/v) for 15 min at room
+temperature and washed 3 times with ﬁxative. The samples were then
+sent to MD Anderson’s Cytogenetics and Cell Authentication Core
+Facility for the generation of chromosome spreads on glass slides
+according to the standard protocol. Slides were stained with 4%
+Giemsa and analyzed for various chromosomal aberrations, including
+chromosome and chromatid breaks, fusions, fragments, and tetra-
+ploidy. At least 35 metaphases were analyzed from each sample. Ima-
+ges were captured using a Nikon 80i microscope equipped with
+karyotyping software from Applied Spectral Imaging, Inc.
+
+DNA ﬁber assay
+Cells were treated with 25 mM CldU for 20 min followed by 200 μM
+hydroxyurea and 250 μM IdU for 4 h. Then, cells were lysed in spreading
+buffer (200 mM Tris-HCl pH 7.4, 50 mM EDTA, 0.5% SDS), streaked onto
+glass slides, dried, and ﬁxed in 3:1 methanol/acetic acid for 10 min. DNA
+was denatured with 2 N HCl for 30 min, blocked in 10% horse serum, and
+stained overnight with rat anti-BrdU antibody and 1:300 mouse anti-
+BrdU antibody overnight at 4 °C. Slides were washed in TBST containing
+1 M salt followed by PBS, and then stained with secondary antibodies
+(anti-rat Alexa Fluor 568 and anti-mouse Alexa Fluor 488 antibodies) for
+1 h at room temperature. Slides were mounted with Vectashield and
+imaged using a Nikon Eclipse TE100. See Supplementary Data 4 for
+antibody information.
+
+Immunoﬂuorescent microscopy
+For detection of cytosolic ssDNA and dsDNA, cells growing on
+coverslips were washed with PBS 2 times, ﬁxed with 4% paraf-
+ormaldehyde in PBS for 30 min, and then permeabilized with 0.02%
+(for UM-SCC-1 and MDA1586 cells) or 2 × 10−7% (for PCI-15B cells)
+saponin for 1 to 5 min and blocked with 5% bovine serum albumin
+(BSA) in PBS for 30 min. For ssDNA S1 nuclease (ThermoFisher Sci-
+entiﬁc, FEREN0321) and dsDNase (Life Technologies, #EN0771)
+treatment, cells were permeabilized with saponin for 2 min and
+treated with either nuclease for 10 min before ﬁxation using 4%
+paraformaldehyde in PBS. The coverslips were then incubated with
+an anti-ssDNA or anti-dsDNA antibody overnight at 4 °C, washed,
+and then stained with a secondary antibody conjugated to an Alexa
+Fluor 647 or Alexa Fluor 477 anti-mouse IgG and DAPI (1 μg/mL) for
+1 h at room temperature. Cells were then mounted on the slides with
+an antifade mounting medium (Vector Laboratories, #H-1000).
+Images were acquired by using an Andor Revolution XDi WD spin-
+ning disk confocal microscope. Imaris ×64 9.3.0 software was used
+to deﬁne the boundaries of cells and nuclei using the colors of GFP
+(MDA1586 and PCI-15B stable cell lines) or RFP (UM-SCC-1 stable cell
+line) and DAPI, then the mean ﬂuorescence intensity of ssDNA/
+dsDNA in the cytosol of each cell was quantiﬁed. For detection of
+nuclear RPA32, p53, Rad51, and RelB, cells were ﬁxed and permea-
+bilized with 0.5% Triton 100 in PBS for 15 min, then blocked with 5%
+BSA-PBST (PBS + 0.1% Tween 20) for 30 min. Cells were incubated
+with each individual primary antibody overnight at 4 °C and then
+with a ﬂuorescence-conjugated secondary antibody for 1 h at room
+temperature, mounted on the slides, imaged, and quantiﬁed as
+described above. Information on the antibodies used is provided in
+Supplementary Data 4.
+
+Quantiﬁcation of cytosolic DNA
+To isolate cytosolic DNA, 1 × 107 cells were lysed, and the nuclear,
+cytosolic, and mitochondrial fractions were obtained using a mito-
+isolation kit for cell culture (ThermoFisher Scientiﬁc,
+chondrial
+#89874). In order to enable subsequent DNA puriﬁcation, protease
+inhibitors were not used. Mitochondria were puriﬁed by centrifugation
+at 12,000 × g to minimize their contamination of the cytosolic fraction.
+DNA was isolated from the nuclear, cytosolic, and mitochondrial
+fractions using a DNeasy blood and tissue kit (Qiagen, #69504), and
+dsDNA was quantiﬁed using an AccuBlue high-sensitivity dsDNA
+quantitation kit (Biotium, #31006).
+
+cGAMP measurement
+Cells treated with or without HU were lysed by RIPA buffer with a 1×
+protease inhibitor cocktail. Cell lysates were used to measure cGAMP
+concentration using a 2′,3′-cyclic GAMP competitive ELISA kit (Invi-
+trogen, #EIAGAMP) according to the manufacturer’s protocol.
+
+In vitro invasion and migration assay
+A 24-well BioCoat growth factor reduced Matrigel invasion chamber
+(Corning, #354483) was used for invasion and migration assays.
+Speciﬁcally, 5 × 104 UM-SCC-1 or 1 × 105 MDA1586 stable cells were
+seeded in the upper chambers and incubated with serum-free
+DMEM; DMEM supplemented with 10% fetal bovine serum was
+added to the lower chamber. The plates were placed in an incubator
+(37 °C) under 5% CO2 for 24 h. The cells in the upper chamber were
+removed using cotton swabs, and the cells that had invaded and
+migrated to the lower chamber were stained with a solution of 0.2%
+crystal violet in 25% methanol. Then the chamber membranes were
+mounted on glass slides and examined with a Leica DMLA micro-
+scope. At least three random 100× ﬁelds were selected for each cell
+line. Cell numbers were counted and analyzed using Image J
+software (NIH).
+
+Animal study
+Animal experiments were performed in accordance with protocols
+approved by the MD Anderson Cancer Center Institutional Animal
+Care and Use Committee (IACUC). For human cell line studies, stable
+cells were injected into the tail veins of 5- to 6-week-old athymic male
+nude mice (Harlan, athymic nu/nu) as previously described81. Mice
+lines were fed a doxycycline-
+injected with MDA1586 stable cell
+containing rodent diet (Envigo, #TD.01306). For murine 4T1 cell stu-
+dies, stable cells were injected into the 4th mammary fat pads of
+8-week-old female BALB/cJ or NOD SCID (NOD.Cg-Prkdcscid/J) mice
+(Jackson Laboratories). Tumor growth was measured by digital cali-
+pers, and tumor volumes were calculated using the formula V = (L ×
+W × W)/2. At the end of the experiments, mice were sacriﬁced, primary
+tumor and/or lungs were collected and ﬁxed, embedded in parafﬁn,
+sectioned, and stained with hematoxylin and eosin (H & E). To calculate
+the rate of microscopic metastasis (Fig. 4s, w and Supplementary
+Fig. 4o), 3 consecutive H & E-stained sections per lung, 100 to 300 μm
+apart, were selected, stained with H & E and scanned with an Aperio
+AT2 microscope (Leica) into an e-slide manager system. E-slides were
+viewed with Halo software (V2.3.2089.52; Indica Labs). The lung tissue
+section area, tumor nodule number, and tumor nodule size were
+measured by either manual or automatic methods. The manual
+method was used for tissues with countable metastatic nodules.
+Tumor nodules were identiﬁed and counted, and the area (mm2) of
+each nodule and the whole lung tissue (excluding large air ducts, large
+blood vessels, portal tissue, and lymph nodes, but including tumor
+tissue) was measured. Total tumor areas were summed, and the per-
+centage of the lung area containing tumor was calculated. The auto-
+matic method was used for cases with tumor nodules that could not be
+counted and measured manually. In this case, the software’s tissue
+annotation was set, and tissue classiﬁers for tumors, normal lungs, air
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+13
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+ducts, and blood clots were developed. Then the lung normal tissue
+area and tumor area were measured using these classiﬁers. Total tumor
+areas and tumor area percentages in the lung sections were calculated.
+To summarize the results, one of the 3 sections from each lung (total
+8-10 lungs/group) was selected, and their lung metastatic rates were
+summed and averaged as one set. Shown in Fig. 4s, w and Supple-
+mentary Fig. 4o are the mean metastatic rates of 3 different sets
+(shown as 3 points) of H & E sections, in which each point represents
+the result from 8-10 individual sections from different lungs in
+each group.
+
+Immunohistochemistry and multiplex immunoﬂuorescence
+staining
+Paraformaldehyde-ﬁxed, parafﬁn-embedded mouse lungs were sec-
+tioned. After deparafﬁnization and rehydration, antigens were
+retrieved by boiling in Dako target retrieval solution (#S1699) for
+15 min. Endogenous peroxidase was blocked by incubating in 3%
+hydrogen peroxide for 30 min, and sections were then blocked by 5%
+BSA in Tris-buffered saline + polysorbate 20 (TBST) for 1 h at room
+temperature. For IHC staining, sections were incubated with primary
+antibodies diluted in 2.5% BSA in TBST at 4 °C overnight, then with a
+horseradish peroxidase-conjugated secondary antibody at room
+temperature for 1 h. Finally, results were visualized by using a Dako
+liquid DAB+ substrate chromogen system (K3468). For CD3+, CD8+,
+and RelB multiplex immunoﬂuorescence staining, an Opal 7-color kit
+(Akoya Biosciences, #NEL811001KT) was used according to the man-
+ufacturer’s protocol. See Supplementary Data 4 for antibody
+information.
+
+Multiplex immunoﬂuorescent image acquisition and analysis
+Immunoﬂuorescent slides and adjacent H & E sections were scanned
+with the Vectra Polaris imaging system (Akoya Biosciences) following
+the manual’s instructions, with high-power ﬁeld scan (×40) using the
+ﬂuorescent mode and bright ﬁeld mode, respectively. The microscope
+captured the multispectral ﬂuorescent spectra separately at the cor-
+responding tyramide Opal ﬂuorophore wavelength, with preset
+exposure times, and then these captures were stacked in 1 image
+(QPTiff) without disrupting the unique ﬂuorescent spectral signature
+of the markers. The QPTiff image was analyzed in Visiopharm software
+for the regions of interest, necrosis, and tumor, for the entire section
+from selected tumors.
+
+Tuning strategies for cellular identiﬁcation and phenotyping
+All digitized images were analyzed using the Visiopharm software
+platform. Regions of interest (tumor and necrosis) were identiﬁed by a
+deep-learning algorithm using adjacent H & E sections and were sub-
+sequently overlayered to the corresponding ﬂuorescent slides in the
+Visiopharm platform. For detecting nuclei, a pre-trained deep-learning
+algorithm available with the Visiopharm platform (U-Net architecture)
+was used. The convolutional neural network was trained to identify 3
+components of the ﬂuorescent images: (a) DAPI+ nuclei; (b) boundaries
+of DAPI+ nuclei; and (c) background. The algorithm magniﬁcation was
+set to 20× to maximize the ability to capture details in the images.
+Once nuclei in the sample were identiﬁed, the nuclear labels were
+expanded by 5 pixels in all directions to approximate the boundaries of
+cells, not just DAPI+ nuclei, to deﬁne the cytoplasm. Finally, the cell
+segmentation was conﬁrmed via visual
+inspection conducted by
+trained personnel.
+
+For phenotyping cells, a targeted approach to generate the spe-
+ciﬁc list of phenotypes (i.e., biomarker combinations) was used. Spe-
+ciﬁcally, we were interested in ﬁnding phenotypes that were positive
+for a single biomarker (i.e., RelB, CD3+, or CD8+) and double positive
+for 2 biomarkers (i.e., CD3+CD8+). For a given cell, the classiﬁcation of
+each biomarker was gated using 2 independently controlled para-
+meters: signal intensity and percent coverage. During the design of the
+
+generalized classiﬁcation algorithm, classiﬁcation parameters were
+iteratively adjusted to maximize accuracy and minimize the occur-
+rence of false positives and false negatives for each biomarker. Bio-
+marker classiﬁcations were visually inspected and conﬁrmed by
+multiple researchers. Once the parameters for accurate classiﬁcation
+were optimized, those settings were applied to all images. Once the
+algorithms were applied to the images, a list of output variables,
+including counts of each identiﬁed phenotype per region (i.e., tumor
+and necrosis) was generated. For quantiﬁcation of the RelB nuclei/
+cytoplasm ratio, 10 to 12 regions in the center of the tumor region from
+3 sections from 3 different tumors per group (in total 57,370 and
+78,073 cells) were randomly selected (Fig. 5d), and the spatial location
+in Cartesian coordinates (e.g., center x and center y coordinates) for
+each cell on the whole slide were generated. RelB mean ﬂuorescent
+intensity (MFI) of the nuclei and RelB MFI of the whole cell were
+extracted using Visiopharm for all the cells found in the region of
+interest, and the RelB nuclei/cytoplasm ratio was calculated using the
+following formula:
+
+Relative RelB Nuceli=Cytoplasm Ratio
+
+(cid:1)
+
+=
+
+Nuclei RelB MFI (cid:1) Whole Cell RelB MFI
+Whole Cell RelB Mean Intensity
+
+(cid:3)
+
+ð1Þ
+
+(cid:3) 100
+
+For T-cell phenotyping, the entire tumor area from each tumor
+section (approximately 0.3–1.7 × 106 cells/section, a total of 4 tumor
+sections from 4 different tumors per group) was selected (Fig. 5f, g).
+
+Multiplexed ion beam imaging technology
+Multiplexed ion beam imaging (MIBI) technology and service provided
+by IONPATH (Menlo Park, California) were used for NK and dendritic
+cell staining (Fig. 5h–m). For full details of the MIBI methods, see the
+companion paper84. Brieﬂy, antibodies were conjugated to isotopic
+metal reporters. Formalin-ﬁxed parafﬁn-embedded tissue sections
+were stained with metal isotope-labeled antibodies and then imaged
+using time-of-ﬂight secondary ion mass spectrometry. The masses of
+detected species are then assigned to target biomolecules given the
+unique metal isotope label of each antibody, creating multiplexed
+images. From each group, 12–13 regions of interest (ROIs) (800 μm ×
+800 μm/ROI) of tumor areas were selected from each group
+(3 tumors/group, 4–5 ROIs/tumor) using the corresponding H&E
+images for guidance. Multiplexed image sets were extracted, slide
+background-subtracted, denoised, and aggregate ﬁltered. Cell seg-
+mentation takes advantage of the multiplexed nature of MIBI data by
+combining the nuclear dsDNA signal with cytoplasmic and membrane
+markers to accurately delineate and identify single cells in the tissue
+image dataset. Cell classiﬁcation was performed with a machine
+learning framework that exploits the morphology and intensity of
+biomarkers to identify positive regions. For the markers present in the
+panel, a set of deep-learning models was trained based on expert
+annotation on a subset of data. These annotations capture the varia-
+bility in staining patterns of the biomarkers in the tissues. Once
+trained, the models were applied to all the images to yield a model
+score for every segmented cell to be positive for biomarkers used to
+phenotype cells. A probability threshold was chosen by the pathologist
+for each biomarker based on a manual review of images. Cells with a
+probability greater than the threshold were called positive for that
+biomarker. Expression of markers was quantiﬁed at the single-cell level
+using summed intensities. The accuracy of cell classiﬁcation was
+visually veriﬁed by a pathologist. See Supplementary Data 4 for MIBI
+antibody information.
+
+Bulk RNA sequencing and analyses
+Triplicated bulk RNA was isolated from each sample using the RNeasy
+Plus Mini Kit (Qiagen, # 74134), and then sequenced by Novogene
+using an Illumina HiSeq4000 sequencer. The quality of the raw FASTQ
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+14
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+ﬁles was checked with the FASTQC package (https://www.
+bioinformatics.babraham.ac.uk/projects/fastqc/). The TopHat pack-
+age (2.1.1)85 or STAR (2.7.9a) was used to align the RNAseq data to the
+human reference genome GRCh38 to generate bam ﬁles. The bam ﬁles
+were sorted by Samtools software (1.8)86. The sorted bam ﬁles were
+then converted to SAM ﬁles. HTSeq software (0.11.0)87 was used to
+count the number of reads falling in the exonic regions of each gene.
+The read counts represented the RNA expression level of each gene or
+region. We combined the HTSeq read count results for each sample to
+obtain the raw gene expression matrix data. We examined the matrix
+to ﬁlter out genes with low overall read counts across samples (≤ 5
+reads in all of the samples), which were not included in our group
+comparisons. The data were normalized using the Variance stabilizing
+transformation in the DESeq (1.34.0) package for R85. To identify dif-
+ferentially expressed genes, a 2-sample t-test was used to determine
+whether there was a signiﬁcant difference between each gene’s mean
+expression level in the 2 groups. To adjust for multiple tests, we
+applied the Benjamini–Hochberg procedure86. Genes with a false-
+discovery rate (FDR) (q-value) less than or equal to 0.1 were considered
+to be signiﬁcantly differentially expressed.
+
+GSEA was conducted together with analysis of the molecular
+signatures database (MSigDB) to determine biologically meaningful
+gene sets that were enriched between the 2 biological conditions in the
+comparisons88
+(https://www.gsea-msigdb.org/gsea/index.jsp). GSEA
+analysis was conducted by using the Hallmark gene set (h.all.v7.0.-
+symbols.gmt) as the gene set database89 (https://www.gsea-msigdb.
+org/gsea/msigdb/human/genesets.jsp?collection=H) and performing
+1000 permutations. GSEA calculates an enrichment score (ES) for each
+gene set from the Hallmark database by ranking the user gene list
+based on its degree of overrepresentation in one of the 2 groups being
+compared. Highly ranked genes are overrepresented in one group,
+while lower-ranked genes are overrepresented in the second one. The
+degree of overrepresentation of each Hallmark gene set among higher
+or lower-ranked genes deﬁnes its ES. A positive ES indicates enrich-
+ment of a given gene set in one group, and a negative ES indicates
+enrichment in the other group. To account for differences in the size of
+the gene sets and in other variables and allow comparisons among
+gene sets, the ES was normalized to a normalized ES (NES). In this
+study, we used the NES to analyze and represent our data. Gene sets
+were considered signiﬁcantly enriched at an FDR q-value < 0.25.
+
+The Cancer Genome Atlas (TCGA) analyses
+Data from OSCC patients from TCGA were used to evaluate our
+molecular ﬁndings in a clinical context. Clinical data were retrieved
+from Liu et al.90. The TCGA MC3 head and neck cancer mutation data
+(MAF ﬁle)91 was retrieved using the R packages PoisonAlien/
+TCGAmutations92
+(https://github.com/PoisonAlien/TCGAmutations)
+and MAFtools93 (https://github.com/PoisonAlien/maftools). RNAseq
+data were recovered from the National Cancer Institute’s Genomic
+Data Commons (GDC) (https://portal.gdc.cancer.gov/)94. We included
+in our in silico cohort 221 patients with oral cavity tumors that were
+HPV-negative and TP53 mutant and had whole-exome and RNAseq data
+available. To validate our in silico ﬁndings, we retrieved genomic and
+clinicopathological data from squamous carcinomas from TCGA95,96
+(https://gdc.cancer.gov/about-data/publications/PanCan-Squamous-
+2018). We selected lung (n = 399) and larynx (n = 100) squamous cell
+carcinoma samples, exhibiting TP53 mutations, and negative for HPV
+infection95.
+
+EMT scores for the selected samples were computed based on a
+pan-cancer EMT signature. The signature was derived from TCGA
+RNAseq data consisting of 11 tumor types (n = 1934 tumors). The
+score was calculated by taking the difference between the average
+of mesenchymal gene expression and the average of epithelial gene
+expression97.
+Immune features for the selected samples were
+
+retrieved from Thorsson et al.98, which reported immunogenomic
+characterization of all TCGA tumors. Immune enrichment scores
+were calculated and considered as continuous variables in our
+analyses. In order to estimate the enrichment of speciﬁc Hallmark
+gene sets (h.all.v7.0.symbols.gmt) (https://data.broadinstitute.org/
+gsea-msigdb/msigdb/release/7.0/) among the TCGA samples, we
+used ssGSEA, an extension of GSEA. The algorithm calculates
+separate ESs for each pairing of a sample and gene set. Each ssGSEA
+ES represents the degree to which the genes in a particular gene set
+are coordinately upregulated or downregulated within a sample.
+The calculated ssGSEA scores for each Hallmark gene set were
+treated as continuous variables in our analysis.
+
+The generated data were analyzed using JMP 15.0 software. Hier-
+archical clustering analysis was conducted using the Ward method for
+deﬁning distances between clusters. Associations between categorical
+variables and 5-year overall, disease-speciﬁc, and progression-free
+survival were evaluated with the log-rank test. Associations between
+categorical and continuous variables were tested by the Kruskal–Wallis
+test followed by post hoc analysis using the Steel-Dwass test.
+
+Statistics and reproducibility
+Statistical methods are provided with the ﬁgure legends or ﬁgures. All
+the western blots shown in the paper are representative images from at
+least three independent experiments.
+
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+
+Data availability
+Source data for Figs. 1–6 and Supplementary Figs. 1–8 are provided
+with this paper; TCGA genomic and clinical data is available through
+the National Cancer Institute’s Genomic Data Commons web portal
+(https://portal.gdc.cancer.gov/); SILAC MS/MS proteomic mass spec-
+trometry proteomics data generated in this study have been deposited
+in the ProteomeXchange Consortium via the PRIDE partner repository
+with the accession number PXD047094; bulk RNAseq data generated
+in this study have been deposited in NCBI’s Gene Expression Omnibus
+under GEO series accession number GSE164433. Source data are pro-
+vided in this paper.
+
+References
+1.
+
+2.
+
+Eischen, C. M. Genome stability requires p53. Cold Spring Harb.
+Perspect. Med. 6, a026096 (2016).
+Livingstone, L. R. et al. Altered cell cycle arrest and gene ampliﬁ-
+cation potential accompany loss of wild-type p53. Cell 70,
+923–935 (1992).
+
+3. Wahl, G. & Vafa, O. Genetic instability, oncogenes, and the p53
+
+5.
+
+6.
+
+4.
+
+pathway. Cold Spring Harb. Symp. Quant. Biol. 65, 511–520 (2000).
+Kastan, M. B. Wild-type p53: tumors can’t stand it. Cell 128,
+837–840 (2007).
+Lane, D. P. Cancer. p53, guardian of the genome. Nature 358,
+15–16 (1992).
+Baslan, T. et al. Ordered and deterministic cancer genome evolu-
+tion after p53 loss. Nature 608, 795–802 (2022).
+Feldser, D. M. et al. Stage-speciﬁc sensitivity to p53 restoration
+during lung cancer progression. Nature 468, 572–575 (2010).
+8. Morris, J. P. 4th et al. alpha-Ketoglutarate links p53 to cell fate
+during tumour suppression. Nature 573, 595–599 (2019).
+9. Ventura, A. et al. Restoration of p53 function leads to tumour
+
+7.
+
+regression in vivo. Nature 445, 661–665 (2007).
+
+10. Martins, C. P., Brown-Swigart, L. & Evan, G. I. Modeling the ther-
+
+apeutic efﬁcacy of p53 restoration in tumors. Cell 127,
+1323–1334 (2006).
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+15
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+11. Xue, W. et al. Senescence and tumour clearance is triggered by p53
+
+38. Das, M., Singh, S., Pradhan, S. & Narayan, G. MCM paradox: abun-
+
+restoration in murine liver carcinomas. Nature 445,
+656–660 (2007).
+
+12. Chunduri, N. K. & Storchova, Z. The diverse consequences of
+
+aneuploidy. Nat. Cell. Biol. 21, 54–62 (2019).
+
+13. Williams, B. R. et al. Aneuploidy affects proliferation and sponta-
+
+neous immortalization in mammalian cells. Science 322,
+703–709 (2008).
+
+14. Hong, C. et al. cGAS-STING drives the IL-6-dependent survival of
+chromosomally instable cancers. Nature 607, 366–373 (2022).
+15. Kim, C. et al. Chemoresistance evolution in triple-negative breast
+
+cancer delineated by single-cell sequencing. Cell 173,
+879–893.e813 (2018).
+
+16. Bakhoum, S. F. et al. Chromosomal instability drives metastasis
+through a cytosolic DNA response. Nature 553, 467–472 (2018).
+17. Davoli, T., Uno, H., Wooten, E. C. & Elledge, S. J. Tumor aneuploidy
+correlates with markers of immune evasion and with reduced
+response to immunotherapy. Science 355, eaaf8399 (2017).
+18. Bielski, C. M. et al. Genome doubling shapes the evolution and
+
+prognosis of advanced cancers. Nat. Genet. 50, 1189–1195 (2018).
+19. Taylor, A. M. et al. Genomic and functional approaches to under-
+
+standing cancer aneuploidy. Cancer Cell 33, 676–689.e673 (2018).
+20. Martincorena, I. et al. Universal patterns of selection in cancer and
+
+somatic tissues. Cell 173, 1823 (2018).
+
+21. Consortium, I. T. P.-C. A. o. W. G. Pan-cancer analysis of whole
+
+genomes. Nature 578, 82–93 (2020).
+
+dance of eukaryotic replicative helicases and genomic integrity.
+Mol. Biol. Int. 2014, 574850 (2014).
+
+39. Seo, Y. S. & Kang, Y. H. The human replicative helicase, the CMG
+complex, as a target for anti-cancer therapy. Front. Mol. Biosci. 5,
+26 (2018).
+
+40. Li, Y. & Prives, C. Are interactions with p63 and p73 involved in
+
+mutant p53 gain of oncogenic function? Oncogene 26,
+2220–2225 (2007).
+
+41. Salama, M. et al. Fam83F induces p53 stabilisation and promotes its
+
+activity. Cell Death Differ. 26, 2125–2138 (2019).
+
+42. Dixit, U., Liu, Z., Pandey, A. K., Kothari, R. & Pandey, V. N. Fuse
+binding protein antagonizes the transcription activity of tumor
+suppressor protein p53. BMC Cancer 14, 925 (2014).
+
+43. Malkomes, P. et al. Transglutaminase 2 promotes tumorigenicity of
+colon cancer cells by inactivation of the tumor suppressor p53.
+Oncogene 40, 4352–4367 (2021).
+
+44. Stelzl, U. et al. A human protein-protein interaction network: a
+
+resource for annotating the proteome. Cell 122, 957–968 (2005).
+
+45. Schaefer-Ramadan, S., Aleksic, J., Al-Thani, N. M. & Malek, J. A.
+
+Novel protein contact points among TP53 and minichromosome
+maintenance complex proteins 2, 3, and 5. Cancer Med. 11,
+4989–5000 (2022).
+
+46. Qiu, W. G. et al. Identiﬁcation, validation, and targeting of the
+
+mutant p53-PARP-MCM chromatin axis in triple negative breast
+cancer. NPJ Breast Cancer 3, 1 (2017).
+
+22. Gerstung, M. et al. The evolutionary history of 2,658 cancers. Nature
+
+47. Zhou, Y. et al. Metascape provides a biologist-oriented resource for
+
+578, 122–128 (2020).
+
+23. Lang, G. A. et al. Gain of function of a p53 hot spot mutation in a
+mouse model of Li-Fraumeni syndrome. Cell 119, 861–872 (2004).
+24. Olive, K. P. et al. Mutant p53 gain of function in two mouse models
+
+of Li-Fraumeni syndrome. Cell 119, 847–860 (2004).
+
+25. Oren, M. & Rotter, V. Mutant p53 gain-of-function in cancer. Cold
+
+Spring Harb. Perspect. Biol. 2, a001107 (2010).
+
+26. Hanel, W. & Moll, U. M. Links between mutant p53 and genomic
+
+instability. J. Cell. Biochem. 113, 433–439 (2012).
+
+the analysis of systems-level datasets. Nat. Commun. 10,
+1523 (2019).
+
+48. DaFonseca, C. J., Shu, F. & Zhang, J. J. Identiﬁcation of two residues
+
+in MCM5 critical for the assembly of MCM complexes and Stat1-
+mediated transcription activation in response to IFN-gamma. Proc.
+Natl Acad. Sci. USA 98, 3034–3039 (2001).
+
+49. Ferguson, R. L., Pascreau, G. & Maller, J. L. The cyclin A centrosomal
+localization sequence recruits MCM5 and Orc1 to regulate centro-
+some reduplication. J. Cell. Sci. 123, 2743–2749 (2010).
+
+27. Mantovani, F., Collavin, L. & Del Sal, G. Mutant p53 as a guardian of
+
+the cancer cell. Cell Death Differ. 26, 199–212 (2019).
+
+28. Freed-Pastor, W. A. & Prives, C. Mutant p53: one name, many pro-
+
+50. Ferguson, R. L. & Maller, J. L. Cyclin E-dependent localization of
+MCM5 regulates centrosome duplication. J. Cell. Sci. 121,
+3224–3232 (2008).
+
+teins. Genes Dev. 26, 1268–1286 (2012).
+
+29. Muller, P. A. & Vousden, K. H. Mutant p53 in cancer: new functions
+and therapeutic opportunities. Cancer Cell 25, 304–317 (2014).
+
+30. Kim, M. P. & Lozano, G. Mutant p53 partners in crime. Cell Death
+
+Differ. 25, 161–168 (2018).
+
+31. Schulz-Heddergott, R. et al. Therapeutic ablation of gain-of-
+
+function mutant p53 in colorectal cancer inhibits stat3-mediated
+tumor growth and invasion. Cancer Cell 34, 298–314.e297
+(2018).
+
+32. Cooks, T., Harris, C. C. & Oren, M. Caught in the cross ﬁre: p53 in
+
+inﬂammation. Carcinogenesis 35, 1680–1690 (2014).
+
+33. Pilley, S., Rodriguez, T. A. & Vousden, K. H. Mutant p53 in cell-cell
+
+interactions. Genes Dev. 35, 433–448 (2021).
+
+34. Redman-Rivera, L. N. et al. Acquisition of aneuploidy drives mutant
+p53-associated gain-of-function phenotypes. Nat. Commun. 12,
+5184 (2021).
+
+35. Simon, N. E. & Schwacha, A. The Mcm2-7 replicative helicase: a
+promising chemotherapeutic target. Biomed. Res. Int. 2014,
+549719 (2014).
+
+37.
+
+36. Woodward, A. M. et al. Excess Mcm2-7 license dormant origins of
+replication that can be used under conditions of replicative stress. J.
+Cell. Biol. 173, 673–683 (2006).
+Ibarra, A., Schwob, E. & Mendez, J. Excess MCM proteins protect
+human cells from replicative stress by licensing backup origins of
+replication. Proc. Natl Acad. Sci. USA 105, 8956–8961
+(2008).
+
+51. McKinley, K. L. & Cheeseman, I. M. Large-scale analysis of CRISPR/
+Cas9 cell-cycle knockouts reveals the diversity of p53-dependent
+responses to cell-cycle defects. Dev. Cell 40, 405–420.e402 (2017).
+
+52. Bakhoum, S. F. & Cantley, L. C. The multifaceted role of chromo-
+somal instability in cancer and its microenvironment. Cell 174,
+1347–1360 (2018).
+
+53. Ablasser, A. & Chen, Z. J. cGAS in action: expanding roles in
+immunity and inﬂammation. Science 363, eaat8657 (2019).
+54. Abe, T. & Barber, G. N. Cytosolic-DNA-mediated, STING-dependent
+proinﬂammatory gene induction necessitates canonical NF-kappaB
+activation through TBK1. J. Virol. 88, 5328–5341 (2014).
+
+55. Tanaka, N. et al. Gain-of-function mutant p53 promotes the onco-
+genic potential of head and neck squamous cell carcinoma cells by
+targeting the transcription factors FOXO3a and FOXM1. Oncogene
+37, 1279–1292 (2018).
+
+56. Puram, S. V. et al. Single-cell transcriptomic analysis of primary and
+
+metastatic tumor ecosystems in head and neck cancer. Cell 171,
+1611–1624.e1624 (2017).
+
+57. Dittmer, D. et al. Gain of function mutations in p53. Nat. Genet. 4,
+
+42–46 (1993).
+
+58. Halevy, O., Michalovitz, D. & Oren, M. Different tumor-derived p53
+
+mutants exhibit distinct biological activities. Science 250,
+113–116 (1990).
+
+59. Hong, C., Tijhuis, A. E. & Foijer, F. The cGAS paradox: contrasting
+
+roles for cGAS-STING pathway in chromosomal instability. Cells 8,
+1228 (2019).
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+16
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+60. Li, T. & Chen, Z. J. The cGAS-cGAMP-STING pathway connects DNA
+damage to inﬂammation, senescence, and cancer. J. Exp. Med. 215,
+1287–1299 (2018).
+
+82. Zhou, G. et al. Gain-of-function mutant p53 promotes cell growth
+and cancer cell metabolism via inhibition of AMPK activation. Mol.
+Cell 54, 960–974 (2014).
+
+61. Dou, Z. et al. Cytoplasmic chromatin triggers inﬂammation in
+
+senescence and cancer. Nature 550, 402–406 (2017).
+
+62. Gluck, S. et al. Innate immune sensing of cytosolic chromatin
+
+fragments through cGAS promotes senescence. Nat. Cell Biol. 19,
+1061–1070 (2017).
+
+63. Hou, Y. et al. Non-canonical NF-kappaB antagonizes STING sensor-
+
+mediated DNA sensing in radiotherapy. Immunity 49,
+490–503.e494 (2018).
+
+64. Jin, J. et al. Noncanonical NF-kappaB pathway controls the pro-
+
+duction of type I interferons in antiviral innate immunity. Immunity
+40, 342–354 (2014).
+
+65. Li, J. et al. Non-cell-autonomous cancer progression from chro-
+
+mosomal instability. Nature 620, 1080–1088 (2023).
+
+66. Del Poggetto, E. et al. Epithelial memory of inﬂammation limits
+
+tissue damage while promoting pancreatic tumorigenesis. Science
+373, eabj0486 (2021).
+
+67. Martin, T. D. et al. The adaptive immune system is a major driver of
+selection for tumor suppressor gene inactivation. Science 373,
+1327–1335 (2021).
+
+83. Mendez, J. & Stillman, B. Chromatin association of human origin
+recognition complex, cdc6, and minichromosome maintenance
+proteins during the cell cycle: assembly of prereplication com-
+plexes in late mitosis. Mol. Cell Biol. 20, 8602–8612 (2000).
+84. Risom, T. et al. Transition to invasive breast cancer is associated
+
+with progressive changes in the structure and composition of
+tumor stroma. Cell 185, 299–310.e218 (2022).
+
+85. Trapnell, C., Pachter, L. & Salzberg, S. L. TopHat: discovering splice
+junctions with RNA-Seq. Bioinformatics 25, 1105–1111 (2009).
+86. Li, H. et al. The sequence alignment/map format and SAMtools.
+
+Bioinformatics 25, 2078–2079 (2009).
+
+87. Anders, S., Pyl, P. T. & Huber, W. HTSeq–a Python framework to
+work with high-throughput sequencing data. Bioinformatics 31,
+166–169 (2015).
+
+88. Subramanian, A. et al. Gene set enrichment analysis: a knowledge-
+based approach for interpreting genome-wide expression proﬁles.
+Proc. Natl Acad. Sci. USA 102, 15545–15550 (2005).
+
+89. Liberzon, A. et al. The Molecular Signatures Database (MSigDB)
+hallmark gene set collection. Cell Syst. 1, 417–425 (2015).
+
+68. Cooks, T. et al. Mutant p53 prolongs NF-kappaB activation and
+
+90. Liu, J. et al. An integrated TCGA pan-cancer clinical data resource to
+
+promotes chronic inﬂammation and inﬂammation-associated col-
+orectal cancer. Cancer Cell 23, 634–646 (2013).
+
+drive high-quality survival outcome analytics. Cell 173,
+400–416.e411 (2018).
+
+69. Rahnamoun, H. et al. Mutant p53 shapes the enhancer landscape of
+
+91. Broad-Institute-TCGA-Genome-Data-Analysis-Center. Mutation
+
+cancer cells in response to chronic immune signaling. Nat. Com-
+mun. 8, 754 (2017).
+
+Analysis (MutSig 2CV v3.1), <https://doi.org/10.7908/
+C18C9VM5> (2016).
+
+70. Schneider, G. et al. Cross talk between stimulated NF-kappaB and
+the tumor suppressor p53. Oncogene 29, 2795–2806 (2010).
+71. Weisz, L. et al. Mutant p53 enhances nuclear factor kappaB acti-
+
+vation by tumor necrosis factor alpha in cancer cells. Cancer Res.
+67, 2396–2401 (2007).
+
+72. Di Minin, G. et al. Mutant p53 reprograms TNF signaling in cancer
+cells through interaction with the tumor suppressor DAB2IP. Mol.
+Cell 56, 617–629 (2014).
+
+73. Vaughan, C. A. et al. p53 mutants induce transcription of NF-
+
+kappaB2 in H1299 cells through CBP and STAT binding on the NF-
+kappaB2 promoter and gain of function activity. Arch. Biochem.
+Biophys. 518, 79–88 (2012).
+
+74. Scian, M. J. et al. Tumor-derived p53 mutants induce NF-kappaB2
+
+gene expression. Mol. Cell. Biol.25, 10097–10110 (2005).
+
+75. Sun, S. C. Non-canonical NF-kappaB signaling pathway. Cell Res.
+
+21, 71–85 (2011).
+
+76. Polotskaia, A. et al. Proteome-wide analysis of mutant p53 targets in
+breast cancer identiﬁes new levels of gain-of-function that inﬂu-
+ence PARP, PCNA, and MCM4. Proc. Natl Acad. Sci. USA 112,
+E1220–1229 (2015).
+
+92. Ellrott, K. et al. Scalable open science approach for mutation calling
+
+of tumor exomes using multiple genomic pipelines. Cell Syst. 6,
+271–281.e277 (2018).
+
+93. Mayakonda, A., Lin, D. C., Assenov, Y., Plass, C. & Koefﬂer, H. P.
+
+Maftools: efﬁcient and comprehensive analysis of somatic variants
+in cancer. Genome Res. 28, 1747–1756 (2018).
+
+94. Broad-Institute-TCGA-Genome-Data-Analysis-Center. Firehose
+
+stddata__2016_01_28 run, <https://doi.org/10.7908/
+C11G0KM9> (2016).
+
+96.
+
+95. Campbell, J. D. et al. Genomic, pathway network, and immunologic
+features distinguishing squamous carcinomas. Cell Rep. 23,
+194–212.e196 (2018).
+(GDC), G. D. C. Genomic, Pathway Network, and Immunologic
+Features Distinguishing Squamous Carcinomas, <https://gdc.
+cancer.gov/about-data/publications/PanCan-Squamous-2018>
+(2018).
+
+97. Mak, M. P. et al. A patient-derived, pan-cancer EMT signature
+
+identiﬁes global molecular alterations and immune target enrich-
+ment following epithelial-to-mesenchymal transition. Clin. Cancer
+Res. 22, 609–620 (2016).
+
+77. Kogan, A. A. et al. Activating STING1-dependent immune signaling
+
+98. Thorsson, V. et al. The immune landscape of cancer. Immunity 48,
+
+in TP53 mutant and wild-type acute myeloid leukemia. Proc. Natl
+Acad. Sci. USA 119, e2123227119 (2022).
+
+78. Farwell, D. G. et al. Genetic and epigenetic changes in human
+epithelial cells immortalized by telomerase. Am. J. Pathol. 156,
+1537–1547 (2000).
+
+79. Wilkie, M. D. et al. TP53 mutations in head and neck cancer cells
+
+determine the Warburg phenotypic switch creating metabolic vul-
+nerabilities and therapeutic opportunities for stratiﬁed therapies.
+Cancer Lett. 478, 107–121 (2020).
+
+80. Zhao, M. et al. Assembly and initial characterization of a panel of 85
+genomically validated cell lines from diverse head and neck tumor
+sites. Clin. Cancer Res. 17, 7248–7264 (2011).
+
+81. Neskey, D. M. et al. Evolutionary action score of TP53 identiﬁes high-
+risk mutations associated with decreased survival and increased
+distant metastases in head and neck cancer. Cancer Res. 75,
+1527–1536 (2015).
+
+812–830.e814 (2018).
+
+Acknowledgements
+The authors would like to thank Amy Ninetto, Scientiﬁc Editor, Research
+Medical Library, MD Anderson Cancer Center, for editing the manu-
+script; This research was partly performed in the Flow Cytometry &
+Cellular Imaging Core Facility, which is supported in part by the National
+Institutes of Health through M. D. Anderson’s Cancer Center Support
+Grant P30 CA016672. This work was also supported by National Insti-
+tutes of Health grants (1 R50 CA243707-01A1, J.K.B., R01-DE014613, J.W.,
+R01-DE028061, C.R.P., R01-CA216437, J.C., R01-DE024601, R01-
+DE014613 and R01-DE030875, J.N.M., R01-DE014613 and R01-
+DE030875, G.Z.), and by MD Anderson Cancer Center Institutional
+Research Grant (600382-30-122489-21, G.Z.). The funders had no role in
+study design, data collection and analysis, decision to publish, or pre-
+paration of the manuscript.
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+17
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Article
+
+https://doi.org/10.1038/s41467-023-44239-2
+
+Author contributions
+G.Z. and J.N.M. conceived the project. M.Z. and T.W. performed most of
+the experiments. W.J. and M.A.G. provided research assistance. F.O.G.,
+W.M. and L.S. analyzed TCGA and RNAseq data; F.O.G. performed sta-
+tistical analyses; Z.C. performed SILAC assays; D.J.M. performed DNA
+ﬁber assay. J.A.G. performed multiplex IHC data analyses; Q.W. per-
+formed MIBI data analyses; X.T. scored the mouse lung metastases;
+A.S.M. performed chromosome spread assay and analyses; S.P., M.G.R.,
+J.K.B., S-Y.L., J.W., C.R.P., J.C., J.N.M. and G.Z. oversaw and interpreted
+data. G.Z. wrote the manuscript with input from all authors. All authors
+read and approved the ﬁnal manuscript.
+
+Competing interests
+The authors declare no competing interests.
+
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-023-44239-2.
+
+Correspondence and requests for materials should be addressed to
+Jeffrey N. Myers or Ge Zhou.
+
+contribution to the peer review of this work. A peer review ﬁle is avail-
+able.
+
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons license and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this license, visit http://creativecommons.org/
+licenses/by/4.0/.
+
+Peer review information Nature Communications thanks Floris Foijer,
+Shelly Kalaora, and the other, anonymous, reviewer(s) for their
+
+© The Author(s) 2024
+
+1Department of Head and Neck Surgery, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA. 2Department of Head and Neck
+Surgery, Key Laboratory of Carcinogenesis and Translational Research, Peking University Cancer Hospital & Institute, 100142 Beijing, China. 3Department of
+Experimental Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA. 4Department of Systems Biology, The
+University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA. 5Department of Leukemia, The University of Texas MD Anderson Cancer Center,
+Houston, TX 77030, USA. 6Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston,
+TX 77030, USA. 7Department of Translational Molecular Pathology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA.
+8Department of Genetics, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA. 9Present address: Center for Immunotherapy and
+Precision Immuno-Oncology, Cleveland Clinic, Cleveland, OH 44195, USA. 10Present address: Lerner Research Institute, Cleveland Clinic, Cleveland,
+OH 44195, USA. 11Present address: Department of Surgery—Otolaryngology, Yale School of Medicine, New Haven, CT 06250, USA. 12These authors con-
+tributed equally: Mei Zhao, Tianxiao Wang.
+e-mail: jmyers@mdanderson.org; gzhou@mdanderson.org
+
+Nature Communications |  
+
+ (2024) 15:180 
+
+18
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

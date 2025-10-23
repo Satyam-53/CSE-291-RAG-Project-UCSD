@@ -1,0 +1,1992 @@
+Contents lists available at ScienceDirect 
+
+Cancer Treatment Reviews 
+
+journal homepage: www.elsevier.com/locate/ctrv 
+
+Tumour Review 
+
+Germline TP53 pathogenic variants and breast cancer: A narrative review 
+
+Eva Blondeaux a,*, Luca Arecco b,c, Kevin Punie d, Rossella Graffeo e, Angela Toss f, 
+Carmine De Angelis g, Lucia Trevisan h, Giulia Buzzatti h, Sabine C. Linn i, Peter Dubsky j, 
+Mara Cruellas k, Ann H. Partridge l, Judith Balma˜na k, Shani Paluch-Shimon m, 
+Matteo Lambertini b,c 
+a Clinical Epidemiology Unit, IRCCS Ospedale Policlinico San Martino, Genoa, Italy 
+b Department of Internal Medicine and Medical Specialties (DiMI), School of Medicine, University of Genova, Genoa, Italy 
+c Department of Medical Oncology, U.O. Clinica di Oncologia Medica, IRCCS Ospedale Policlinico San Martino, Genoa, Italy 
+d Department of General Medical Oncology, University Hospitals Leuven, KU Leuven, Leuven, Belgium 
+e Oncology Institute of Southern Switzerland, EOC, Bellinzona, Switzerland 
+f Department of Oncology and Hematology, University Hospital of Modena, Modena, Italy 
+g Department of Clinical Medicine and Surgery, University Federico II, Naples, Italy 
+h Hereditary Cancer Unit, Oncologia Medica 2, IRCCS Ospedale Policlinico San Martino, Genoa, Italy 
+i Department of Medical Oncology, The Netherlands Cancer Institute, Amsterdam, The Netherlands 
+j Breast Centre, Hirslanden Klinik St Anna, Luzern, Switzerland 
+k Department of Medical Oncology, Vall d’Hebron University Hospital, Vall d’Hebron Institute of Oncology (VHIO), Barcelona, Spain 
+l Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA 
+m Breast Cancer Unit, Sharett Institute of Oncology, Hadassah Medical Center & Faculty of Medicine, Hebrew University, 91120 Jerusalem, Israel   
+
+A R T I C L E  I N F O    
+
+A B S T R A C T    
+
+Keywords: 
+Breast cancer 
+TP53 
+Prognosis 
+Treatment 
+
+Approximately 10% of breast cancers are associated with the inheritance of a pathogenic variant (PV) in one of 
+the breast cancer susceptibility genes. Multiple breast cancer predisposing genes, including TP53, are responsible 
+for the increased breast cancer risk. 
+
+Tumor protein-53 (TP53) germline PVs are associated with Li-Fraumeni syndrome, a rare autosomal dominant 
+inherited  cancer  predisposition  syndrome  associated  with  early-onset  pediatric  and  multiple  primary  cancers 
+such as soft tissue and bone sarcomas, breast cancer, brain tumors, adrenocortical carcinomas and leukemias. 
+Women harboring a TP53 PV carry a lifetime risk of developing breast cancer of 80–90%. 
+
+The aim of the present narrative review is to provide a comprehensive overview of the criteria for offering 
+TP53  testing,  prevalence  of  TP53  carriers  among  patients  with  breast  cancer,  and  what  is  known  about  its 
+prognostic and therapeutic implications. A summary of the current indications of secondary cancer surveillance 
+and survivorship issues are also provided. Finally, the spectrum of TP53 alteration and testing is discussed. 
+
+The optimal strategies for the treatment of breast cancer in patients harboring TP53 PVs poses certain chal-
+lenges. Current guidelines favor the option of performing mastectomy rather than lumpectomy to avoid adjuvant 
+radiotherapy and subsequent risk of radiation-induced second primary malignancies, with careful consideration 
+of radiation when indicated post-mastectomy. Some studies suggest that patients with breast cancer and germline 
+TP53 PV might have worse survival outcomes compared to patients with breast cancer and wild type germline 
+TP53 status. Annual breast magnetic resonance imaging (MRI) and whole-body MRI are recommended as sec-
+ondary prevention.   
+
+Introduction 
+
+Breast cancer is the most common cancer diagnosis in women and 
+the majority are considered sporadic cases [1]. Around 10% of breast 
+
+malignancies are associated with a germline pathogenic variant in one of 
+the  breast  cancer  susceptibility  genes  and  family  history  is  often  the 
+telltale  of  an  underlying  inherited  predisposition  [2,3].  BRCA1  and 
+BRCA2  pathogenic  variants  are  responsible  for  less  than  half  of  the 
+
+* Corresponding author at: IRCCS Ospedale Policlinico San Martino, Clinical Epidemiology Unit, Largo Rosanna Benzi 10, 16132 Genova, Italy. 
+
+E-mail address: evablondeaux@gmail.com (E. Blondeaux).  
+
+https://doi.org/10.1016/j.ctrv.2023.102522 
+Received 5 December 2022; Received in revised form 24 January 2023; Accepted 26 January 2023   
+
+CancerTreatmentReviews114(2023)102522Availableonline31January20230305-7372/©2023TheAuthors.PublishedbyElsevierLtd.ThisisanopenaccessarticleundertheCCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).E. Blondeaux et al.                                                                                                                                                                                                                             
+
+variants involved in increased breast cancer risk and pathogenic variants 
+in multiple other breast cancer predisposing genes, including TP53, are 
+responsible for the remaining [4–6]. 
+
+Tumor protein-53 (TP53) gene is a tumor suppressor which controls 
+cell  growth  and  division.  It  protects  cells  against  genome  changes 
+resulting from DNA damage by suppressing proliferation or activating 
+apoptosis  [7]. TP53  germline pathogenic  variants  are  associated  with 
+heritable  TP53-related  cancer  syndromes,  classically  named  Li- 
+Fraumeni  syndrome  (https://www.omim.org/entry/151623),  a  rare 
+autosomal dominant inherited cancer predisposition syndrome histori-
+cally associated with early-onset pediatric and multiple primary cancers 
+such  as  soft  tissue  and  bone  sarcomas,  breast  cancer,  brain  tumors, 
+adrenocortical carcinomas, gastrointestinal, lung, pancreatic and pros-
+tate  cancers  and  leukemias  [8–12].  More  recently  TP53  pathogenic 
+variants were associated also with an increased risk of prostate cancer 
+[13]. The cumulative cancer risk associated with Li-Fraumeni syndrome 
+has been estimated to be approximately 50% by the age of 40 years and 
+up to 90% by the age of 60 years [14] with females reported to have a 
+higher  risk  than  males,  mostly  due  to  the  increased  risk  of  premeno-
+pausal breast cancer [15–17]. Indeed, healthy women harboring a TP53 
+pathogenic variant carry a lifetime risks of developing breast cancer of 
+around 80–90%, higher than the risk of healthy BRCA carriers (lifetime 
+risk of around 60–85%) [18–21]. 
+
+The aim of the present narrative review is to give a comprehensive 
+overview of all the aspects to be considered during the counselling of 
+women with a new diagnosis of breast cancer and carrying (or suspected 
+to carry) a TP53 pathogenic variant. Criteria for offering TP53 testing, 
+prevalence  of  TP53 carriers  among  patients with  breast cancer,  prog-
+nostic and therapeutic implications are provided. Current indications of 
+secondary  cancer  surveillance  and  survivorship  issues  are  discussed. 
+Finally, the spectrum of TP53 alteration and testing is discussed. 
+
+Criteria for offering TP53 testing and prevalence of TP53 carriers 
+among patients with breast cancer 
+
+Different  criteria  for  offering  TP53  testing  have  been  proposed 
+
+(Table 1). 
+
+The  first  Li-Fraumeni  syndrome  criteria  were  proposed  by  Li  and 
+Fraumeni  in  1988  [22].  Subsequently,  less  stringent  Li-Fraumeni-like 
+criteria were proposed in order to expand the proband’s cancer types 
+to include childhood cancers, brain cancers, and adrenal cortical carci-
+noma, and to change the relatives’ age at the time of diagnosis to < 60 
+years  [23,24].  Broader  criteria  were  proposed  by  Chompret  and  col-
+leagues in 2001 and a modified version of the Chompret criteria was 
+proposed by Bougeard and colleagues in 2015 with the recommendation 
+to offer TP53 testing to patients with breast cancer diagnosis before age 
+31,  regardless  of  family  history  [25,26].  Sensitivity  and  specificity  of 
+these criteria have been estimated to be around 90% and 50% respec-
+tively [26,29–31]. However,  TP53 carriers could also  be identified in 
+families who do not fulfill these clinical criteria due to a wide variety of 
+phenotypes within the same syndrome, different tumor spectrum, age at 
+diagnosis  or  sporadic  occurrence  of  a  germline  pathogenic  variant 
+[26,30].  Indeed,  it  is  estimated  that  at  least  14%  of  germline  TP53 
+carriers  have  a  de  novo  pathogenic  variant  [32].  Thus,  the  lack  of  a 
+positive family history does not exclude the possibility of the identifi-
+cation of a TP53 pathogenic variant in the patient [33]. 
+
+In 2020, the European Reference Network GENTURIS expanded the 
+revised  Chompret  criteria.  Children  and  adolescents  with  acute 
+lymphoblastic leukemia, medulloblastoma or jaw osteosarcoma, as well 
+as  children  with  any  type  of  cancer  from  southern  and  south-eastern 
+Brazilian families and patients affected by second primary malignancy 
+within  the  radiotherapy  field  of  a  first  core  TP53  tumor  were  also 
+considered eligible for TP53 testing [27]. Despite the available evidence 
+regarding the higher prevalence of human epidermal growth factor re-
+ceptor 2 (HER2) positive breast cancer among TP53 carriers [34], none 
+of the above-mentioned criteria consider histopathological features of 
+
+Table 1 
+Criteria for offering TP53 testing.  
+
+Criteria 
+
+Year 
+
+General criteria 
+
+Classic Li–Fraumeni 
+
+1988 
+
+criteria [22] 
+
+Birch criteria (LFL)  
+
+1994 
+
+[23] 
+
+Eeles criteria (LFL)  
+
+1995 
+
+[24] 
+
+Chompret criteria  
+
+2001 
+
+[25] 
+
+Modified Chompret 
+
+2015 
+
+criteria [26] 
+
+GENTURIS criteria*  
+
+2020 
+
+[27] 
+
+Proband with sarcoma diagnosed before 45 years 
+AND 
+First-degree relative with any cancer before 45 
+years 
+AND 
+First or second-degree relative with any cancer 
+before 45 years or a sarcoma at any age 
+Proband with any childhood cancer, or a sarcoma, 
+or a brain tumor or ACC before 45 years 
+AND 
+First or second-degree relative with a core LFS 
+cancer (sarcoma, breast cancer, brain tumor, ACC 
+or leukemia) at any age 
+AND 
+First or second-degree relative with any cancer 
+before 60 years 
+Two first- or second-degree relatives with core LFS 
+malignancies (sarcoma, premenopausal breast 
+cancer, brain tumor ACC, leukemia, lung 
+[bronchoalveolar] cancer) at any age 
+Proband affected by a narrow spectrum cancer (i. 
+e., sarcomas, brain tumors, breast cancer, and 
+ACC) before 36 years and at least one first or 
+second-degree relative affected by a narrow 
+spectrum tumor (other than breast cancer if the 
+proband is affected by breast cancer) before 46 
+years or multiple primary tumors 
+OR 
+Proband with multiple primary tumors; two of 
+which belong to the narrow spectrum with the first 
+of which occurred before 36 years 
+OR 
+Proband with ACC 
+Proband with tumor belonging to LFS tumor 
+spectrum (e.g., soft tissue sarcoma, osteosarcoma, 
+brain tumor, breast cancer, ACC, leukemia, 
+bronchoalveolar lung cancer) before 46 years and 
+at least one first- or second-degree relative with an 
+above LFS tumor (except breast cancer if proband 
+has breast cancer) before 56 years or with multiple 
+tumors at any age 
+OR 
+Proband with multiple tumors (except multiple 
+breast tumors), two of which belong to LFS tumor 
+spectrum and the first occurring before 46 years 
+OR 
+Patient with ACC, choroid plexus carcinoma, or 
+rhabdomyosarcoma of embryonal anaplastic 
+subtype, irrespective of family history 
+OR 
+Breast cancer before age 31 years 
+Patient with a TP53 core tumor (breast cancer, 
+soft-tissue sarcoma, osteosarcoma, central nervous 
+system tumor, ACC) before 46 years and at least 
+one first- or second-degree relative with a core 
+tumor before 56 years 
+OR 
+Patient with multiple tumors, including two TP53 
+core tumors, the first of which occurred before 46 
+years, irrespective of family history 
+OR 
+Patient with ACC, choroid plexus carcinoma, or 
+rhabdomyosarcoma of embryonal anaplastic 
+subtype, irrespective of family history 
+OR 
+Breast cancer before age 31 years 
+OR 
+Children and adolescents with hypodiploid ALL or 
+otherwise unexplained sonic hedgehog-driven 
+medulloblastoma or jaw osteosarcoma 
+OR 
+Patients who develop a second primary tumor, 
+within the radiotherapy field of a first core TP53 
+tumor which occurred before 46 years 
+
+(continued on next page) 
+
+CancerTreatmentReviews114(2023)1025222E. Blondeaux et al.                                                                                                                                                                                                                             
+
+Table 1 (continued ) 
+
+Criteria 
+
+Year 
+
+General criteria 
+
+Evans criteria* [28] 
+
+2020 
+
+OR 
+Children with any cancer from southern and 
+south-eastern Brazilian families a 
+Invasive breast carcinoma or DCIS before 31 years 
+OR 
+Bilateral invasive breast carcinoma or DCIS or 
+multifocal invasive breast carcinoma or HER2 +
+invasive breast carcinoma or phyllode tumor 
+before 36 years 
+OR 
+Invasive breast carcinoma and a second TP53 core 
+tumor in the patient before 46 years 
+OR 
+Invasive breast carcinoma before 46 years and one 
+first- or second-degree relative with a TP53 core 
+tumor before 56 years 
+
+Abbreviations:  ACC,  adrenocortical  carcinoma;  LFS,  Li–Fraumeni  syndrome; 
+LFL, Li–Fraumeni-like; ALL, acute lymphoblastic leukemia; DCIS, ductal carci-
+noma in situ; HER2, human epidermal growth factor receptor 2. 
+
+* Breast cancer-specific testing criteria, not formally tested for sensitivity and 
+
+specificity. 
+
+a To be tested for the p.R337H Brazilian founder germline TP53 variant. 
+
+breast  cancer.  In  breast  cancer-specific  testing  criteria  proposed  by 
+Evans and colleagues, different age thresholds are proposed for patients 
+with HER2 positive breast cancer or phyllode tumor [28]. 
+
+Recommendations  about  TP53  testing  derive  from  several  studies 
+evaluating the prevalence of TP53 germline carriers in selected patients 
+with breast cancer (Table 2). 
+
+In  highly  selected  cohorts  of  patients  around  5%  harbor  a  TP53 
+
+germline pathogenic variant, including women with breast cancer who 
+meet  the  criteria  of  heritable  TP53-related  cancer  syndromes  or  even 
+family  history  of  breast  cancer 
+those  who  have  a  strong 
+[26,30,36,37,41,42,51–53].  Whereas  the  frequency  of  TP53  germline 
+carriers  in  unselected  patients  with  breast  cancer  is  less  then  0.5% 
+[5,6,54].  In  two  population-based  study  that  aimed  to  estimate  the 
+cancer risk related to different breast cancer susceptibility genes, TP53 
+pathogenic variant were identified in 19 (0.06%) out of 32,247 unse-
+lected  patients  with  breast  cancer  (CARRIERS  consortium)  and  in  7 
+(0.01%)  out  of  48,826  unselected  patients  with  breast  cancer  (Breast 
+Cancer Association Consortium) [5,6]. 
+
+In a cohort of 364 female patients from the Netherlands diagnosed 
+with breast cancer before the age of 30 years, 8 (2.2%) patients harbored 
+a (likely) pathogenic TP53 variant [33]. Among them, 6 patients had a 
+personal or familial history suggestive of Li-Fraumeni syndrome [33]. In 
+an Australian population-based cohort of invasive breast cancers, TP53 
+(likely) pathogenic variants were detected in 2 (4%) out of 52 women 
+diagnosed before age of 30 unselected for family history and in 3 (7%) 
+out  of  42  women  diagnosed  in  their  30s  with  two  or  more  first-  or 
+second-degree relatives with breast or ovarian cancer [40]. In a cohort of 
+100 Polish females with breast cancer diagnosed before the age of 30 
+years and positive family history of cancer, prevalence of TP53 patho-
+genic variant was 4% [48]. 
+
+To note that the identification of a pathogenic variant can be influ-
+enced  by  the  method  used  to  detect  the  variant,  thus  absolute  fre-
+quencies of TP53 germline carriers should be interpreted with caution. 
+The  introduction  of  next-generation  sequencing  technique,  the 
+broader diagnostic criteria and more inclusive testing criteria will lead 
+to a considerably higher prevalence of germline TP53 pathogenic vari-
+ants  detection  and  the  identification  of  less  penetrant  Li-Fraumeni 
+
+Table 2 
+Studies exploring TP53 germline pathogenic variant prevalence among selected patients with breast cancer.  
+
+Author 
+
+Year 
+
+Selection criteria 
+
+No. of pts 
+tested 
+
+BRCA1/2 
+status 
+
+TP53 (likely) pathogenic 
+variant prevalence (%) 
+
+Evans DGR et al [35] 
+
+2002 
+
+Walsh T et al [36] 
+
+2006 
+
+Probands with sarcoma and BC (BC in proband or in a first degree 
+relative) in family not fulfilling LFS 
+Probands from families with 4 or more cases of BC or ovarian cancer 
+
+Lalloo F et al [37] 
+
+2006 
+
+BC ≤ 30 years 
+
+Manoukian S et al [38] 
+
+2007 
+
+Ginsburg OM et al  
+
+2009 
+
+[39] 
+
+Gonzalez KD et al [30] 
+Mouchawar Jet al  
+
+2009 
+2010 
+
+[40] 
+
+Lee DSC et al [41] 
+McCuaig JM et al [42] 
+Rath MG et al [43] 
+Carraro DM et al [44] 
+Bougeard G et al [26] 
+Eccles DM et al [45] 
+Hahn EC et al [46] 
+
+Unrelated individuals from families with one case of sarcoma and at least 
+one case of BC 
+BC < 30 years 
+
+BC between 30 and 49 years 
+(a) women diagnosed with BC before the age of 30 years irrespective of 
+family history 
+(b) women diagnosed with BC between 30 and 39 years with two or more 
+first- or second-degree relatives with BC or ovarian cancer 
+BC < 37 years 
+BC < 30 years 
+HER2-positive BC, <51 years 
+BC < 35 years 
+BC < 31 years 
+HER2-positve BC, <31 years 
+
+2012 
+2012 
+2013 
+2013 
+2015 
+2016 
+2018  Women with BC diagnosed before 46 years and without Chompret 
+
+Bakhuizen JJ et al  
+
+2019 
+
+[33] 
+
+criteria for LFS or LFL 
+BC < 30 years 
+
+Gallardo-Alvarado LN 
+
+2019 
+
+BC < 45 years 
+
+et al [47] 
+
+Rogo˙za-Janiszewska E 
+
+2020 
+
+BC ≤ 30 years 
+
+et al [48] 
+
+Siraj AK et al [49] 
+
+2021 
+
+BC ≤ 40 years 
+
+Waks AG et al [50] 
+
+2022 
+
+BC ≤ 35 years 
+
+21 
+
+300 
+
+100 
+
+23 
+
+95 
+
+Negative 
+
+4.8% (1/21) 
+
+12% BRCA1/2 
+mutated 
+18% BRCA1/2 
+mutated 
+Negative 
+
+1% (3/300) 
+
+4% (4/100) 
+
+13% (3/23) 
+
+Negative 
+
+0% (0/95) 
+
+14 
+(a) 52 
+
+Negative 
+Negative 
+
+7.1% (1/14) 
+(a) 4% (2/52)   
+
+(b) 42 
+
+Negative 
+
+(b) 7% (3/42) 
+
+83 
+28 
+213 
+43 
+NR 
+71 
+239 
+
+364 
+
+78 
+
+100 
+
+464 
+
+92 
+
+Negative 
+Negative 
+Negative 
+Negative 
+NR 
+Negative 
+Negative 
+
+19/364 
+BRCA1/2 
+mutated 
+Negative 
+
+4.8% (4/83) 
+21.4% (6/28) 
+1.4% (3/213) 
+2.3% (1/43) 
+6% (NR) 
+8.5% (5/71) 
+2.5% (6/239) 
+
+2.2% (8/364) 
+
+6.4% (5/78) 
+
+Negative 
+
+4% (4/100) 
+
+57/464 BRCA1/ 
+2 
+mutated 
+13/92 BRCA1/2 
+mutated 
+
+1.5% (7/464) 
+
+1.1% (1/92) 
+
+Abbreviations: BC, breast cancer; FH, familial history; LFS, Li-Fraumeni syndrome; LFL, Li-Fraumeni-Like syndrome; NR, not reported. 
+
+CancerTreatmentReviews114(2023)1025223E. Blondeaux et al.                                                                                                                                                                                                                             
+
+syndrome [19,37]. In fact, multigene panel studies gave the possibility 
+to  broaden the phenotypic  spectrum of Li-Fraumeni  syndrome identi-
+fying  TP53  germline  pathogenic  variants  in  individuals  who  do  not 
+fulfill  established  clinical  criteria  for  Li-Fraumeni  syndrome  testing 
+[12,54,55]. 
+
+Breast cancer subtypes arising in TP53 carriers 
+
+Patients  harboring  TP53  pathogenic  variants  may  develop  distinct 
+breast cancer subtypes. Some previous reports suggested that patients 
+harboring germline TP53 pathogenic variants are more likely to develop 
+HER2-positive breast cancers (Table 3). 
+
+In particular, a multicenter international case-control analysis of the 
+BRIDGES study including 42,680 patients and 46,387 controls aimed to 
+characterize tumors associated with different breast cancer susceptibil-
+ity genes [34]. Among the 42,680 patients included, 51 harbored a TP53 
+pathogenic variant. TP53 carriers were found to have a greater chance to 
+develop HER2-positive breast cancers (46% of cases) [34]. Moreover, 
+TP53 carriers were more likely to have mixed lobular and ductal tumors 
+than ductal carcinoma (OR 7.01, 95% CI 3.04–16.17) [34]. In a Brazilian 
+cohort of 91 TP53 female carriers, breast cancer was the first malignancy 
+diagnosed in 90% of the women, of whom 78% had an early-onset breast 
+cancer (i.e. age ≤ 45 years) [64]. Moreover, bilateral breast cancer was 
+observed in 29% of the patients. Overall, 41% of the tumors were HER2- 
+positive, and 33% were positive for both hormone receptor and HER2 
+[64]. 
+
+Many other studies with<50 patients provided similar results with a 
+prevalence of HER2 positivity ranging between 34 and 83% (Table 3) 
+[33,56–63], clearly higher than expected in an unselected breast cancer 
+population (15–20%) [65,66]. 
+
+Breast cancer prognosis 
+
+Several studies evaluated survival outcomes of patients with breast 
+
+Table 3 
+Tumor subtypes among TP53 carriers.  
+
+Author 
+
+Year 
+
+TP53 
+carriers 
+with BC 
+N 
+
+HER2 
+positive 
+tumors 
+N 
+
+Wilson JRF et al  
+
+2010 
+
+12* 
+
+10* (83%) 
+
+[56] 
+
+Melhem-Bertrandt A 
+
+2012 
+
+30 
+
+20 (67%) 
+
+et al [57] 
+
+Masciari S et al [58] 
+Bakhuizen JJ et al  
+
+2012 
+2019 
+
+32* 
+8 
+
+20 (63%) 
+5 (63%) 
+
+[33] 
+
+Packwood K et al  
+
+2019 
+
+36 
+
+20 (56%) 
+
+[59] 
+
+Le A et al [60] 
+Alyami H et al [61] 
+
+2020 
+2021 
+
+38* 
+21* 
+
+22 (58%) 
+10 (53%) 
+
+Kuba MG et al [62] 
+
+2021 
+
+17 
+
+9 (53%) 
+
+Rippinger N et al  
+
+2021 
+
+32 
+
+11 (34%) 
+
+2022 
+
+51 
+
+NR (46%) 
+
+[63] 
+
+Breast Cancer 
+Association 
+Consortium, 
+Mavaddat N et al  
+[34] 
+
+Sandoval RL et al  
+
+2022 
+
+87 
+
+32 (41%) 
+
+[64] 
+
+– 
+
+– 
+
+– 
+– 
+
+– 
+
+– 
+
+2 cases of malignant 
+phyllodes tumor 
+2 cases of HER2 
+negative BC by IHC 
+(1 + ) but positive 
+by FISH. 
+10 cases (31.3%) of 
+luminal B-like BC 
+OR for HER2 + BC 
+7.14 (95%CI 
+3.34–15.28) 
+
+43 cases (55%) of 
+luminal-like BC 
+
+Abbreviations:  HER2,  human  epidermal  growth  factor  receptor  2;  OR,  odds 
+ratio;  IHC,  immunohistochemistry;  FISH,  Fluorescence  In  Situ  Hybridization; 
+BC, breast cancer. 
+
+* invasive breast cancers. 
+
+cancer according to somatic TP53 pathogenic variants [67–70]. How-
+ever, few data are available regarding clinical outcomes of patients with 
+breast cancer according to germline TP53 mutation status. In a cohort of 
+10,053 unselected Chinese patients with early-stage breast cancer, the 
+50 patients with a germline TP53 pathogenic variant had significantly 
+worse relapse-free survival (adjusted HR = 2.24; 95%CI 1.15–4.33; p =
+0.02),  distant  relapse-free  survival  (adjusted  HR  = 2.73;  95%CI 
+1.41–5.30; p = 0.003) and overall survival (adjusted HR = 4.60; 95%CI, 
+2.26–9.41; p < 0.001) as compared to patients with early stage breast 
+cancer  and  wild  type  TP53  germline  status  [8].  A  second  study, 
+including  the  first  cohort  of  10,053  unselected  Chinese  patients  with 
+breast cancer and a second cohort of 1820 patients with breast cancer 
+selected  by  age  at  diagnosis  or  family  history  of  any  cancer,  demon-
+strated that the rate of ipsilateral breast tumor recurrence after breast 
+conserving surgery was significantly higher in TP53 carriers than in non- 
+carriers (21.1% vs 3.8%) [71]. Moreover, the 10-year risk of contralat-
+eral breast cancer in TP53 carriers was significantly higher than that in 
+non-carriers (17.9% vs 3.6%; HR 7.0 95% CI 3.3–14.9; p < 0.001) [71]. 
+A  study  conducted  by  Hyder  and  colleagues  in  England  aimed  to 
+determine the risk of contralateral breast cancer in BRCA1 (N = 218), 
+BRCA2  (N  = 132),  and  TP53  (N  = 47)  carriers  with  very  early-onset 
+(<36  years)  breast  cancer  [72].  Results  indicate  that  the  risk  of 
+contralateral  breast  cancer  was  significantly  higher  in  TP53  carriers 
+compared to BRCA1 and BRCA2 carriers. The 10 and 20-year cumulative 
+risk  of  contralateral  breast  cancer  was  53%  (95%CI  30–81)  and  82% 
+(95%CI 50–99) for TP53 carriers as compared to 32% (95% CI 24–43) 
+and  57%  (95%  CI  45–69)  in  BRCA1  carriers  and  21%  (95%  CI 
+13.0–32.1) and 45% (95% CI 31.4–61.9) for BRCA2 carriers [72]. The 
+difference in 10-year cumulative risk of contralateral breast cancer in 
+TP53 carriers among these two studies (i.e., 17.9% in the Chinese and 
+53%  in  the  English  study)  could  be  attributable  to  the  different  pop-
+ulations, being unselected for the first one and highly selected for the 
+second one. 
+
+To our knowledge, no data are available regarding survival outcomes 
+of metastatic breast cancer patients according to germline TP53 muta-
+tional status. 
+
+Special  considerations  regarding  breast  cancer  treatment  in  TP53 
+
+carriers are required. 
+
+As  suggested  by  different  studies,  the  risk  of  secondary  radiation- 
+induced  malignancies  reaches  up  to  more  than  30%  among  patients 
+with  TP53  pathogenic  variants  treated  with  adjuvant  radiotherapy. 
+Among 16 Brazilian patients with breast cancer and germline TP53 p. 
+R337H pathogenic variant, 12 received adjuvant radiotherapy. After a 
+median follow-up exceeding 50 months, 2 (16.7%) patients developed a 
+radiotherapy-induced  sarcoma  [73].  In  a  group  of  18  patients  with  a 
+TP53  pathogenic  variant  treated  with  radiation  in  a  curative  setting, 
+after a median follow-up of 12.5 years, 2 (11.1%) patients developed a 
+radiation-induced  malignancy:  one  patient  developed  thyroid  cancer, 
+and the other developed sarcoma in the radiation field [60]. In a French 
+cohort of 8 Li–Fraumeni patients with breast cancer, 6 received radio-
+therapy and 2 of them (33.3%) developed a secondary malignancy in the 
+radiation field after a median follow-up of 6 years [74]. The secondary 
+malignancies  documented  were  an  angiosarcoma  and  a  fibrosarcoma 
+[74]. Moreover, one patient developed papillary thyroid carcinoma in-
+side the radiation field [74]. Other smaller case-series showed similar 
+results [61,75–77]. 
+
+Due  to  the  risk  of  radiation-induced  secondary  malignancies  after 
+radiotherapy,  a  careful  decision-making  process  with  regard  to 
+risk–benefit  ratios  on  the  use  of  radiotherapy  in  patients  with  breast 
+cancer  harboring  a  germline  TP53  pathogenic  variant  is  warranted. 
+Current  guidelines  recommend  that  decisions  about  adjuvant  radio-
+therapy should be considered with a multidisciplinary team and patient, 
+with careful weighing of the risks and benefits, especially for patients 
+
+Other findings 
+
+Anticancer treatments 
+
+CancerTreatmentReviews114(2023)1025224E. Blondeaux et al.                                                                                                                                                                                                                             
+
+who need adjuvant radiotherapy after mastectomy [78]. 
+
+To our knowledge, no evidence is available on the safety of radiation- 
+guided imaging, such as bone scintigraphy, computed tomography scans 
+and positron emission tomography scans, in patients with TP53 patho-
+genic variant. 
+
+Regarding  surgical  management,  several  considerations  should  be 
+made. Current guidelines recommend that radiation therapy should be 
+avoided  whenever  possible  due  to  the  risk  of  radiation-induced  sec-
+ondary malignancies and that mastectomy rather than lumpectomy is 
+preferable  [27,78–80].  Moreover,  as  observed  in  BRCA  carriers  who 
+have a significantly increased risk of further loco-regional disease but no 
+increased risk of dying when treated with breast conserving surgery as 
+compared to mastectomy, we might assume that similarly, mastectomy 
+could also play a role in reducing the role of locoregional recurrences in 
+TP53  carriers  [81].  However,  no  robust  data  are  available  in  this 
+population. 
+
+No  information  on  the  prognostic  impact  of  the  timing  of  risk- 
+reducing mastectomy on life expectancy is available among TP53 car-
+riers.  A  study  performed  in  BRCA  carriers  seem  to  indicate  that  the 
+benefit  of  risk-reducing  mastectomy  is  higher  if  mastectomy  is  per-
+formed  at  the  age  of  25  years  but  the  benefit  declines  rapidly  with 
+increasing age at surgery [82]. Thus, due to the higher risk of contra-
+lateral breast cancer in TP53 carriers compared to BRCA1 and BRCA2 
+carriers,  current  guidelines  recommend  discussing  contralateral  risk- 
+reducing mastectomy [78]. However, the other cancer risks associated 
+with TP53 pathogenic variants should be taken into account during the 
+surgical counselling [72]. 
+
+Regarding the use of chemotherapy, Kasper and colleagues suggested 
+that radiotherapy and genotoxic chemotherapies could increase the risk 
+of new tumor development in a Li-Fraumeni syndrome mouse model. In 
+particular, TP53 mutant mice exposed to genotoxic agent (i.e. etoposide) 
+had an increased risk of tumor development, whereas the exposure to 
+non-genotoxic  mitotic  spindle  agents  (i.e.  docetaxel)  had  no  impact 
+[83].  In  humans,  the  demonstration  of  the  potential  contribution  of 
+chemotherapy to the development of subsequent primary tumors among 
+TP53 carriers derives from patients treated for childhood cancers [84]. 
+Based on these findings, the European Reference Network  GENTURIS 
+recommends that priority should be given to surgical or ablative treat-
+ments, avoiding radiotherapy and preferring the use of non-genotoxic 
+chemotherapies  in  the  treatment  of  TP53-associated  neoplasms  [27]. 
+Focusing on breast cancer treatment, despite HER2-positive tumors is 
+the most frequent subtype among patients with TP53 pathogenic vari-
+ants, no data on treatment response to different chemotherapeutic and 
+targeted therapy agents are available. A small study showed that TP53 
+carriers treated with carboplatin-containing neoadjuvant chemotherapy 
+reached a higher rate of pathological complete response as compared to 
+patients  treated  with  standard  anthracycline-based  or  taxane-based 
+chemotherapy regimens [8]. Recently, poly ADP ribose polymerase in-
+hibitors (PARPi) have been studied in patients with a pathogenic variant 
+in homologous recombination genes other than BRCA. However, TP53 is 
+not involved in the homologous recombination path, thus germline TP53 
+carriers were excluded from both the TBCRC-048 and the Talazoparib 
+Beyond BRCA trial [85,86]. 
+
+Survivorship 
+
+Guidelines recommend that TP53 carriers should follow a dedicated 
+cancer surveillance protocol [27,87,88]. Guidelines and recommenda-
+tions for second primary cancer surveillance among adult female TP53 
+carriers are summarized in Table 4. 
+
+Current  guidelines  agree  to  recommend  annual  breast  magnetic 
+resonance imaging (MRI) (from age 20) for breast cancer surveillance, 
+and  to  discuss  with  patients  the  possibility  to  undergo  risk-reducing 
+mastectomy  [27,78,80,89–91,88,87,92].  On  the  contrary,  there  is  no 
+consensus on the use of mammography, only routinely recommended by 
+the NCCN guidelines and by the TORONTO protocol, [80,89] or in case 
+
+Table 4 
+Guidelines and recommendations for surveillance in adult female TP53 carriers.   
+
+Breast cancer 
+surveillance 
+
+Other cancers 
+surveillance 
+
+TORONTO PROTOCOL  
+
+[89] 
+
+- Clinical breast 
+examination, every 6 
+months from age 20–25 
+or 5–10 years before the 
+earliest case of breast 
+cancer in the family. 
+- Annual mammography 
+and breast MRI from age 
+20 to 75 or 5–10 years 
+before the earliest case of 
+breast cancer in the 
+family- Breast US with 
+mammography  
+(as indicated by breast 
+density) 
+- Consider RRM 
+
+Modified TORONTO 
+
+protocol - 
+American guidelines  
+[90] 
+
+- Clinical breast 
+examination every 6 
+months from age 20 
+- Annual breast MRI from 
+age 20 to 75 
+- Consider RRM 
+
+ESMO guidelines [78] 
+
+ESO-ESMO (BCY5) 
+guidelines [91] 
+
+NCCN guidelines [80] 
+
+- Clinical breast 
+examination every 6–12 
+months from age 20–25 
+- Annual breast MRI from 
+age 20 to 75. If MRI is not 
+available, 
+mammography may be 
+considered. 
+- Consider RRM 
+
+- Annual breast MRI and 
+mammography with or 
+without ultrasound 
+
+- Clinical breast 
+examination, every 6–12 
+months from age 20 
+- Annual breast MRI from 
+age 20 to 75 
+- Mammography 
+considering 
+tomosynthesis from age 
+30 
+- Consider RRM 
+
+- Complete clinical 
+examination (including 
+neurologic exam) and 
+blood test every 3–4 
+months 
+Brain tumor 
+- Annual brain MRI 
+Soft tissue and bone 
+sarcoma 
+- Annual WBMRI 
+GI tumors 
+- Colonoscopy every 2 
+years from age 25 or 10 
+years before the earliest 
+known colorectal cancer 
+in the family 
+Melanoma 
+- Annual dermatological 
+examination 
+- Complete clinical 
+examination every 6 
+months 
+Brain tumor 
+- Annual brain MRI (only 
+first MRI with 
+gadolinium 
+enhancement) 
+Soft tissue and bone 
+sarcoma 
+- Annual WBMRI 
+Alternated to: 
+- Annual US of abdomen 
+and pelvis 
+GI tumors 
+- Upper endoscopy and 
+colonoscopy every 2–5 
+years from age 25 
+Melanoma 
+- Annual dermatological 
+examination 
+- Consider 6-monthly 
+complete blood count 
+Brain tumor and 
+sarcoma 
+- Consider annual 
+WBMRI 
+- Annual neurological 
+examination 
+GI tumors 
+- Colonoscopy every 5 
+years from the age of 25 
+or as clinically indicated 
+Melanoma 
+- Annual dermatological 
+examination 
+- Annual brain MRI 
+- Annual WBMRI 
+(without Gadolinium 
+enhancement) 
+- Clinical exam including 
+neurologic examination 
+every 6–12 months 
+Brain Tumor 
+- Annual brain MRI 
+Sarcoma 
+- Annual WBMRI 
+GI tumors 
+- Colonoscopy and upper 
+endoscopy every 2–5 
+years from age 25 or 5 
+years before the earliest 
+known colon or gastric 
+cancer in the family 
+
+(continued on next page) 
+
+CancerTreatmentReviews114(2023)1025225E. Blondeaux et al.                                                                                                                                                                                                                             
+
+Table 4 (continued )  
+
+Table 4 (continued )  
+
+Breast cancer 
+surveillance 
+
+Other cancers 
+surveillance 
+
+Breast cancer 
+surveillance 
+
+Other cancers 
+surveillance 
+
+The European Reference 
+Network GENTURIS 
+guidelines [27]  
+
+- Annual breast MRI from 
+age 20 to 65 
+- Consider RRM 
+
+UKCGG Consensus 
+
+Group guidelines [88] 
+
+- Annual breast MRI from 
+age 20–70 
+
+Kumamoto et al 2021 [87] 
+
+- Breast exam twice a 
+year from the age of 20 
+- Breast MRI every year 
+from 20 to 75 years 
+- Consider RRM 
+
+Australian 
+
+Recommendations  
+[92] 
+
+- Clinical breast 
+examination every 6 
+months from age 20 
+- Annual breast MRI from 
+age 20 
+- Consider RRM 
+
+Melanoma 
+- Annual dermatological 
+examination from the 
+age of 18 
+- Annual clinical 
+examination 
+Brain Tumor 
+- Annual brain MRI until 
+50 years alternated to 
+WBMRI (only the first 
+with gadolinium 
+enhancement) 
+Sarcoma 
+- Annual WBMRI 
+(without gadolinium 
+enhancement) 
+GI tumors 
+- Colonoscopy every 5 
+years from age 18 (Only 
+if the carrier received 
+abdominal radiotherapy 
+for a previous cancer or if 
+there is a family history 
+of colorectal tumors 
+suggestive of an 
+increased genetic risk) 
+- Routine clinical 
+examination not 
+recommended 
+Brain tumor 
+- Annual brain MRI (only 
+first MRI with 
+gadolinium 
+enhancement) 
+Soft tissue and bone 
+sarcoma 
+- Annual WBMRI 
+(without gadolinium 
+enhancement) 
+GI tumors 
+- Colonoscopy only 
+indicated when family 
+history of colorectal 
+cancer or polyposis is 
+present 
+- Gastric endoscopy not 
+indicated 
+Melanoma 
+- Annual dermatology 
+review 
+- Clinical examination 
+every 6 months 
+Brain tumor 
+- Annual brain MRI (only 
+first with gadolinium 
+enhancement) 
+Soft tissue and bone 
+sarcoma 
+- Annual WBMRI 
+alternated to: 
+- Annual US of abdomen 
+and pelvis 
+GI tumors 
+- Upper endoscopy and 
+colonoscopy every 2–5 
+years from age of 25 
+Melanoma 
+- Annual dermatological 
+examination 
+Brain tumor 
+- Annual brain MRI (only 
+first with gadolinium 
+enhancement) 
+Soft tissue and bone 
+sarcoma  
+
+- Annual WBMRI (only 
+first with gadolinium 
+enhancement) 
+GI tumors 
+- Upper endoscopy and 
+colonoscopy every 2–5 
+years from age 20–25 or 
+younger dependent on 
+family history 
+Melanoma 
+- Annual dermatological 
+examination from age 18 
+
+Abbreviations:  MRI,  magnetic  resonance  imaging;  US,  ultrasound;  RRM,  risk 
+reducing  mastectomy;  WBMRI,  whole-body  magnetic  resonance  imaging;  GI, 
+gastrointestinal. 
+
+the  MRI  could  not  be  performed  also  taking  into  consideration  that 
+microcalcification are not optimally detected by MRI. 
+
+Considering the high risk of developing other tumors correlated with 
+the  presence  of  a  germline  TP53  pathogenic  variant,  especially  brain 
+malignancies,  soft  tissue  and  bone  sarcoma,  melanoma,  and  the 
+increased rate of gastrointestinal cancer, all guidelines agree to recom-
+mend annual whole-body MRI (generally from the age of 20) and annual 
+brain  MRI.  Overall,  there  is  agreement  among  guidelines  that  MRI 
+should  be  preferred  for  secondary  prevention  over  radiation-guided 
+imaging.  Conversely,  there  is  no  consensus  whether  or  not  to  offer 
+endoscopy  surveillance  of  the  upper  and  lower  gastrointestinal  tract: 
+most guidelines suggest to tailor the indication and timing according to 
+the family history. Many trials are currently ongoing with the aim of 
+determine  diagnostic  efficacy  of  different  surveillance  imaging  tech-
+niques  and  protocols  among  patients  with  TP53  pathogenic  variants 
+(NCT03176836, NCT01464086, NCT02950987). 
+
+In summary, according to guidelines, surveillance for breast cancer 
+should be based on annual breast MRI starting at the age of 20 and risk- 
+reducing surgery should be discussed with the patients (Fig. 1). For brain 
+tumors and sarcoma, annual whole-body MRI should be performed since 
+birth while gastrointestinal and melanoma secondary prevention should 
+be considered in adulthood (Fig. 2). 
+
+Regular follow up of patients with breast cancer should be scheduled 
+based on current guidelines, considering not only the type of tumor, its 
+biology and the treatment received, but also minimizing the diagnostic 
+radiation  in  order  to  reduce  the  risk  of  radiation-induced  secondary 
+malignancies in these patients. Contrast-free diffusion-weighted whole- 
+body MRI has proved to be effective for staging and follow-up in patients 
+with breast cancer [89,93–96]. 
+
+Finally, although limited evidence exist on the topic, all TP53 car-
+riers should be made aware of their risk of malignancy and the possible 
+symptoms as well as encouraged to make positive lifestyle choices (e.g., 
+not smoking, limit alcohol and red meat consumption, high fruits and 
+vegetables  intake,  physical  exercise,  sun  protection).  An  analysis  of 
+lifestyle factors and health behavior among TP53 carriers suggested that 
+women  with  a  TP53  carriers  have  healthier  diet  and  smoked  less 
+compared  to  their  relatives  although  no  difference  was  observed  in 
+physical activity [97]. 
+
+Other components of survivorship care in TP53 carriers should be 
+acknowledged.  Survivorship  trajectory of  cancer  patients is  made  not 
+only by surveillance of recurrence and second primary malignancies but 
+also  by  dealing  with  physical  effects  of  cancer  and  chronic  medical 
+conditions, psychological effects and its social, work and financial im-
+plications [98]. 
+
+Spectrum of TP53 alterations and testing diagnostic perspective 
+
+In  case  a  TP53  pathogenic  variant  with  minor  allele  frequency  is 
+
+CancerTreatmentReviews114(2023)1025226E. Blondeaux et al.                                                                                                                                                                                                                             
+
+Fig. 1. Surveillance for breast cancer in germline TP53 female carriers. 
+Dark green indicates high agreement, light green indicates medium agreement and yellow indicates very low agreement between guidelines 
+Filled arrows indicate agreement on the timing of examinations recommended between guidelines 
+Shaded arrows indicate discordance on the timing of examinations recommended between guidelines 
+*To be considered in case the MRI could not be performed. Recommended only by NCCN guidelines and by the TORONTO protocol. Attention should be paied to 
+radiation-induced malignancies. 
+**as indicated by breast density 
+Footnote: no universal recomendation for mammography and breast ultrasound 
+
+Fig. 2. Surveillance for cancers other than breast in TP53 carriers. 
+Dark green indicates high agreement, light green indicates medium agreement 
+Filled arrows indicate agreement on the timing of examinations recommended between guidelines 
+Shaded arrows indicate discordance on the timing of examinations recommended between guidelines 
+* Annual WBMRI can be alternated to annual US of abdomen and pelvis (one radiological evaluation performed every 6 months) 
+** every 2–5 years. Recommended if the carrier received abdominal radiotherapy or if there is a family history of upper GI and/or colorectal tumors 
+
+found,  mosaicism  and  clonal  hematopoiesis  should  be  considered. 
+Pathogenic variants are assumed to be of germline origin when the allele 
+frequency  is  approximately  50%;  however,  low  variant  allele  fre-
+quencies (i.e., < 25–35%) might be found in a genetic report. In this 
+case,  minor  allele  frequency  pathogenic  variant  is  the  result  of  a 
+
+mutational  event  happened  at  a  post-zygotic  stage  thus  only  tissues 
+derived from the mutated cell will carry the pathogenic variant [99]. If 
+the mutation is restricted to the hematopoietic compartment, it is called 
+clonal hematopoiesis. Large cohort studies have demonstrated that the 
+prevalence of clonal hematopoiesis increases with age and that clonal 
+
+CancerTreatmentReviews114(2023)1025227E. Blondeaux et al.                                                                                                                                                                                                                             
+
+hematopoiesis  can  be  found  in  a  significant  portion  of  the  healthy 
+population [100–103]. Clonal hematopoiesis has most frequently been 
+reported with TP53 gene compared to other breast cancer susceptibility 
+gene  [99].  Thus,  in  case  of  detection  of  minor  allele  frequency  TP53 
+pathogenic variant the possibility of mosaicism should be ruled out as in 
+this case different therapeutic and genetic counselling needs are impli-
+cated [99]. 
+
+Identification of a TP53 pathogenic variant does not always translate 
+into the diagnosis of Li-Fraumeni syndrome. The different pathogenic 
+variants can have different penetrance and thus different phenotypes. A 
+pathogenic  variant  with  reduced  penetrance  will  possibly  lead  to  an 
+older age of occurrence of cancers of the Li-Fraumeni syndrome spec-
+trum. For example, the funder mutation p.R181C in the TP53 gene was 
+found among 9 out of 453 Palestinian young women with breast cancer. 
+None of the families that harbored the TP53 p.R181C likely pathogenic 
+variant  fulfilled  the  clinical  criteria  for  Li-Fraumeni  syndrome[104]. 
+Similarly, the penetrance of the p.R337H TP53 pathogenic variant seem 
+to be incomplete. In Southern Brazil, the population prevalence of TP53 
+p.R337H pathogenic variant is 0.3%. In the Brazilian population, this 
+variant seems to be associated with adrenocortical tumors in children 
+but  not  with  other  cancers  typical  of  the  Li-Fraumeni  syndrome 
+[105–107]. 
+
+Understanding the factors that lead to phenotypic differences among 
+TP53 carries is important to tailor the surveillance program and coun-
+selling.  The  classification  of  the  Li-Fraumeni  spectrum  suggested  by 
+Kratz and colleagues seem to be a valid approach to classify the different 
+phenotypic spectrums of TP53 variants [108]. Authors classified germ-
+line TP53 variants of 3034 persons into: phenotypic Li-Fraumeni syn-
+drome (i.e., absence of a pathogenic/likely pathogenic TP53 variant in 
+person  meeting  clinical  Li-Fraumeni  syndrome  criteria),  Li-Fraumeni 
+syndrome  (i.e,  presence  of  a  pathogenic/likely  pathogenic  TP53 
+variant  in  person  meeting  Li-Fraumeni  syndrome  testing  criteria), 
+attenuated Li-Fraumeni syndrome (i.e., presence of a pathogenic/likely 
+pathogenic TP53 variant in a person with cancer who does not meet Li- 
+Fraumeni syndrome testing criteria), incidental Li-Fraumeni syndrome 
+(i.e, presence of a pathogenic/likely pathogenic TP53 variant in a person 
+without a history of cancer). Results showed that patients who met Li- 
+Fraumeni syndrome genetic testing criteria have more frequently early 
+adrenal, brain, connective tissue, or bone tumors. While carriers who did 
+not meet Li-Fraumeni syndrome genetic testing criteria had more breast 
+and other cancers (45% of them occurring after age 45 years) [108]. 
+
+Identification  of  germline  TP53  pathogenic  variants  in  a  breast 
+cancer individual triggers cascade genetic testing of relatives (including 
+children)  for  early  diagnosis  through  increased  surveillance  and  pre-
+vention. As the information regarding the identification of a pathogenic 
+variant in the family relies in proband (proband-mediated procedure), it 
+is uncertain whether all eligible relatives access testing. To our knowl-
+edge,  no  results  on  the  uptake  of  TP53  testing  among  at-risk  family 
+members are available. Moreover, testing of asymptomatic children at 
+risk of Li Fraumeni syndrome remained controversial for a long time, 
+due to the lack of proven medical benefit of screening, concern about 
+informed  consent  and  potential  stigmatization  and  discrimination  to-
+wards the minor [109]. However, due to emerging screening protocols 
+showing potential efficacy, testing of at-risk children is becoming more 
+widespread  in  those  institutions  where  access  to  whole-body  MRI  is 
+available [89,94]. Nevertheless, future research should also focus on the 
+long-term clinical and psychosocial impacts of TP53 genetic testing and 
+early detection of such pathogenic variants in minors. 
+
+Finally,  among  young  carriers  of  a  pathogenic  variant  in  breast 
+cancer  susceptibly  genes,  further  burden  is  given  by  family  planning 
+with  the  50%  risk  of  transmission  of  the  pathogenic  variant  to  the 
+offspring. Thus, current guidelines recommend that TP53 carriers should 
+be  offered  preimplantation  genetic  testing  (in  the  case  of  in  vitro 
+fertilization)  or  prenatal  diagnosis  (in  case  of  natural  conception) 
+[110,111].  However,  barriers  to  the  uptake  of  these  techniques  are 
+similar  to  the  ones  faced  by  BRCA  carriers  and  include  the  lack  of 
+
+availability  and  high  cost  of  the  procedure,  ethical  regulations  and 
+burden of additional psychological distress [110]. To our knowledge, no 
+information is available regarding awareness, acceptance, and uptake of 
+preimplantation  genetic  testing  and  prenatal  testing  among  TP53 
+carriers. 
+
+Conclusions 
+
+In  patients  with  breast  cancer,  the  prevalence  of  patients  with 
+germline pathogenic variants in TP53 ranges from <0.5% in unselected 
+patients with breast cancer to around 5–10% in highly selected patients 
+with breast cancer such as those with very young age at diagnosis or 
+with  strong  family history.  Regarding locoregional treatment,  current 
+guidelines recommend  that radiotherapy should be avoided and mas-
+tectomy should be preferred to lumpectomy [27,78,79]. Moreover, risk- 
+reducing  contralateral  mastectomy  should  be  discussed,  and  annual 
+breast  MRI  screening  is  recommended  as  secondary  prevention 
+[27,78,79]. Whole-body MRI should be used for secondary cancer sur-
+veillance. No information is available regarding potential differences in 
+treatment  efficacy  and  indications  among  TP53  carriers.  Considering 
+their  potential  worse  breast  cancer  prognosis  and  risk  of  developing 
+secondary  malignancies,  special  attention  should  be  paid  to  signs  or 
+symptoms suggesting the occurrence of these events. 
+
+The identification of a TP53 pathogenic variant is not a straightfor-
+ward to the diagnosis of Li-Fraumeni syndrome as different penetrance 
+and phenotypes are present. No information on the uptake of cascade 
+testing  to  at-risk  family  individuals  is  available  and  limited  evidence 
+exist on the implication of genetic testing in minors. Current guidelines 
+recommend  that  preimplantation  genetic  testing  and  prenatal  testing 
+should be offered to patients willing to conceive [110,111]. Finally, the 
+identification of a minor allele frequency of pathogenic variant needs 
+further  evaluations  to  rule  out  the  possibility  of  mosaicism  that  can 
+affect both cascade testing and preimplantation and prenatal testing. 
+
+Considering the limited data available to counsel patients with breast 
+cancer and germline TP53 pathogenic variants, the low level of evidence 
+on some of the topic presented, the relatively rarity of this condition, and 
+the  interpretation  of  TP53  found  in  the  blood  for  other  reason  (e.g. 
+clonal hematopoiesis and mosaicism), collaborative research efforts are 
+strongly encouraged in order to provide more solid answers to improve 
+and better tailor the care of this special patient population. 
+
+CRediT authorship contribution statement 
+
+Eva Blondeaux: Conceptualization, Writing – original draft, Writing 
+– review & editing, Funding acquisition. Luca Arecco: Writing – review 
+&  editing,  Visualization.  Kevin  Punie:  Writing  –  review  &  editing, 
+Visualization, Supervision. Rossella Graffeo: Writing – review & edit-
+ing, Visualization, Supervision. Angela Toss: Writing – review & edit-
+ing, Visualization, Supervision. Carmine De Angelis: Writing – review 
+& editing, Visualization, Supervision. Lucia Trevisan: Writing – review 
+&  editing, Visualization. Giulia Buzzatti: Writing –  review &  editing, 
+Visualization. Sabine C. Linn: Writing – review & editing, Visualization, 
+Supervision. Peter Dubsky: Writing – review & editing, Visualization, 
+Supervision. Mara Cruellas: Writing – review & editing, Visualization. 
+Ann H. Partridge: Writing – review & editing, Visualization, Supervi-
+sion. Judith Balma˜na: Writing –  review &  editing, Visualization, Su-
+pervision.  Shani  Paluch-Shimon:  Writing  –  review  &  editing, 
+Visualization,  Supervision.  Matteo  Lambertini:  Conceptualization, 
+Writing  –  original  draft,  Writing  –  review  &  editing,  Visualization, 
+Supervision. 
+
+Declaration of Competing Interest 
+
+The  authors  declare  the  following  financial  interests/personal  re-
+lationships which may be considered as potential competing interests: 
+‘Eva Blondeaux reports research grant (to the Institution) from Gilead 
+
+CancerTreatmentReviews114(2023)1025228E. Blondeaux et al.                                                                                                                                                                                                                             
+
+to pursue research effort in the field of TP53 pathogenic variants. Kevin 
+Punie  reports  honoraria  for  consultancy/advisory  roles  from  Astra 
+Zeneca, Eli Lilly, Exact Sciences, Focus Patient, Gilead Sciences, MSD, 
+Novartis,  Pfizer,  Roche,  Seagen;  honoraria  for  consultancy/advisory 
+roles paid to my institution from Astra Zeneca, Eli Lilly, Exact Sciences, 
+Gilead, MSD, Novartis, Pfizer, Roche, Seagen. Research funding paid to 
+my  institution  from  Sanofi  and  MSD.  Stock  options:  Need  Inc.  Travel 
+support:  Astra  Zeneca,  Novartis,  Pfizer,  PharmaMar,  Roche.  Carmine 
+De Angelis reports advisory role for Roche, Lilly, Novartis, Astrazeneca, 
+Pfizer,  Seagen,  Gilead,  and  GSK  and  speaker  honoraria  from  Roche, 
+Lilly, Novartis, Pfizer, Seagen, and GSK, Travel Grants from Gilead and 
+research support (to the Institution) from Novartis outside the submitted 
+work.  Sabine  C.  Linn  reports  an  advisory  role  for  AstraZeneca  and 
+Daiichi Sankyo Europe GmbH (paid to the institution), travel and ac-
+commodation  expenses  from  Daiichi  Sankyo  Europe  GmbH,  and 
+research  support  (to  the  institution)  from  Genentech/Roche,  AstraZe-
+neca, Bristol Myers Squibb, Tesaro (now GSK), Merck, Immunomedics 
+(now Gilead), Eurocept Pharmaceuticals, Agendia, and Novartis. Mara 
+Cruellas reports speaker honoraria from Roche and Astrazeneca. Shani 
+Paluch-Shimon reports - advisory Board consultancy, speaker’s bureau: 
+AstraZeneca, Pfizer, Novartis, Lilly, Roche, MSD, Exact Sciences. Gilead. 
+Travel:  Roche.  Research  Funding:  Pfizer.  Matteo  Lambertini  reports 
+advisory  role  for  Roche,  Lilly,  Novartis,  Astrazeneca,  Pfizer,  Seagen, 
+Gilead,  MSD  and  Exact  Sciences  and  speaker  honoraria  from  Roche, 
+Lilly, Novartis, Pfizer, Sandoz, Libbs, Daiichi Sankyo and Takeda, Travel 
+Grants from Gilead and research support (to the Institution) from Gilead 
+outside the submitted work. All the other authors declare no conflict of 
+interest.’ 
+
+Acknowledgment 
+
+Funding:  The  project  was  partially  funded  by  a  Gilead  Sciences 
+
+Medical Grant (Fellowship Program 2022) (no grant number). 
+
+ROLE OF THE FUNDING SOURCE 
+The  funding  source  was  not  involved  in  conceptualization,  in  the 
+writing of the manuscript; and in the decision to submit the article for 
+publication 
+
+References 
+
+[1] Rosenberg SM, Newman LA, Partridge AH. Breast cancer in young women: rare 
+
+disease or public health problem? JAMA Oncol 2015;1(7):877–8. 
+
+[2] Euhus DM. Understanding mathematical models for breast cancer risk assessment 
+
+and counseling. Breast J 2001;7(4):224–32. 
+
+[3] Tung N, Lin NU, Kidd J, Allen BA, Singh N, Wenstrup RJ, et al. Frequency of 
+germline mutations in 25 cancer susceptibility genes in a sequential series of 
+patients with breast cancer. J Clin Oncol Off J Am Soc Clin Oncol 2016;34(13): 
+1460–8. 
+
+[4] Pharoah PDP, Dunning AM, Ponder BAJ, Easton DF. Association studies for 
+
+finding cancer-susceptibility genetic variants. Nat Rev Cancer 2004;4(11): 
+850–60. 
+
+[5] Breast Cancer Association Consortium, Dorling L, Carvalho S, Allen J, Gonz´alez- 
+Neira A, Luccarini C, et al. Breast Cancer Risk Genes — Association Analysis in 
+More than 113,000 Women. N Engl J Med. 2021;384(5):428–39. 
+
+[6] Hu C, Hart SN, Gnanaolivu R, Huang H, Lee KY, Na J, et al. A population-based 
+study of genes previously implicated in breast cancer. N Engl J Med 2021;384(5): 
+440–51. 
+
+[7] Olivier M, Hollstein M, Hainaut P. TP53 mutations in human cancers: origins, 
+consequences, and clinical use. Cold Spring Harb Perspect Biol 2010;2(1): 
+a001008. 
+
+[8] Sheng S, Xu Y, Guo Y, Yao L, Hu L, Ouyang T, et al. Prevalence and clinical impact 
+of TP53 germline mutations in Chinese women with breast cancer. Int J Cancer 
+2020;146(2):487–95. 
+
+[9] Li FP, Fraumeni JF. Soft-tissue sarcomas, breast cancer, and other neoplasms. A 
+
+familial syndrome? Ann Intern Med 1969;71(4):747–52. 
+
+[10] Wasserman JD, Novokmet A, Eichler-Jonsson C, Ribeiro RC, Rodriguez- 
+
+Galindo C, Zambetti GP, et al. Prevalence and functional consequence of TP53 
+mutations in pediatric adrenocortical carcinoma: a children’s oncology group 
+study. J Clin Oncol Off J Am Soc Clin Oncol 2015;33(6):602–9. 
+
+[11] Zhang J, Walsh MF, Wu G, Edmonson MN, Gruber TA, Easton J, et al. Germline 
+
+mutations in predisposition genes in pediatric cancer. N Engl J Med 2015;373 
+(24):2336–46. 
+
+[12] Amadou A, Achatz MIW, Hainaut P. Revisiting tumor patterns and penetrance in 
+germline TP53 mutation carriers: temporal phases of Li-Fraumeni syndrome. Curr 
+Opin Oncol 2018;30(1):23–9. 
+
+[13] Maxwell KN, Cheng HH, Powers J, Gulati R, Ledet EM, Morrison C, et al. 
+
+Inherited TP53 variants and risk of prostate cancer. Eur Urol 2022;81(3):243–50. 
+[14] Lustbader ED, Williams WR, Bondy ML, Strom S, Strong LC. Segregation analysis 
+of cancer in families of childhood soft-tissue-sarcoma patients. Am J Hum Genet 
+1992;51(2):344–56. 
+
+[15] Wu CC, Shete S, Amos CI, Strong LC. Joint effects of germ-line p53 mutation and 
+sex on cancer risk in Li-Fraumeni syndrome. Cancer Res 2006;66(16):8287–92. 
+[16] Fang S, Krahe R, Bachinski LL, Zhang B, Amos CI, Strong LC. Sex-specific effect of 
+the TP53 PIN3 polymorphism on cancer risk in a cohort study of TP53 germline 
+mutation carriers. Hum Genet 2011;130(6):789–94. 
+
+[17] Hwang SJ, Lozano G, Amos CI, Strong LC. Germline p53 mutations in a cohort 
+
+with childhood sarcoma: sex differences in cancer risk. Am J Hum Genet 2003;72 
+(4):975–83. 
+
+[18] Evans DGR, Birch JM, Ramsden RT, Sharif S, Baser ME. Malignant transformation 
+and new primary tumours after therapeutic radiation for benign disease: 
+substantial risks in certain tumour prone syndromes. J Med Genet 2006;43(4): 
+289–94. 
+
+[19] Schon K, Tischkowitz M. Clinical implications of germline mutations in breast 
+
+cancer: TP53. Breast Cancer Res Treat 2018;167(2):417–23. 
+
+[20] Kuchenbaecker KB, Hopper JL, Barnes DR, Phillips KA, Mooij TM, Roos-Blom MJ, 
+
+et al. Risks of breast, ovarian, and contralateral breast cancer for BRCA1 and 
+BRCA2 mutation carriers. JAMA 2017;317(23):2402. 
+
+[21] Mai PL, Best AF, Peters JA, DeCastro RM, Khincha PP, Loud JT, et al. Risks of first 
+
+and subsequent cancers among TP53 mutation carriers in the National Cancer 
+Institute Li-Fraumeni syndrome cohort. Cancer 2016;122(23):3673–81. 
+[22] Li FP, Fraumeni JF, Mulvihill JJ, Blattner WA, Dreyfus MG, Tucker MA, et al. 
+
+A cancer family syndrome in twenty-four kindreds. Cancer Res 1988;48(18): 
+5358–62. 
+
+[23] Birch JM, Hartley AL, Tricker KJ, Prosser J, Condie A, Kelsey AM, et al. 
+
+Prevalence and diversity of constitutional mutations in the p53 gene among 21 Li- 
+Fraumeni families. Cancer Res 1994;54(5):1298–304. 
+
+[24] Eeles RA. Germline mutations in the TP53 gene. Cancer Surv 1995;25:101–24. 
+[25] Chompret A, Abel A, Stoppa-Lyonnet D, Brugi´eres L, Pag´es S, Feunteun J, et al. 
+Sensitivity and predictive value of criteria for p53 germline mutation screening. 
+J Med Genet 2001;38(1):43–7. 
+
+[26] Bougeard G, Renaux-Petel M, Flaman JM, Charbonnier C, Fermey P, Belotti M, 
+et al. Revisiting Li-Fraumeni syndrome from TP53 mutation carriers. J Clin Oncol 
+Off J Am Soc Clin Oncol 2015;33(21):2345–52. 
+
+[27] Frebourg T, Bajalica Lagercrantz S, Oliveira C, Magenheim R, Evans DG, 
+
+Network ER, et al. Guidelines for the Li-Fraumeni and heritable TP53-related 
+cancer syndromes. Eur J Hum Genet EJHG 2020;28(10):1379–86. 
+[28] Evans DG, Woodward ER, Bajalica-Lagercrantz S, Oliveira C, Frebourg T. 
+
+Germline TP53 testing in breast cancers: why, when and how? Cancers 2020;12 
+(12):E3762. 
+
+[29] Tinat J, Bougeard G, Baert-Desurmont S, Vasseur S, Martin C, Bouvignies E, et al. 
+2009 version of the Chompret criteria for Li Fraumeni syndrome. J Clin Oncol Off 
+J Am Soc Clin Oncol. 2009;27(26):e108–109; author reply e110. 
+
+[30] Gonzalez KD, Noltner KA, Buzin CH, Gu D, Wen-Fong CY, Nguyen VQ, et al. 
+
+Beyond Li Fraumeni syndrome: clinical characteristics of families with p53 
+germline mutations. J Clin Oncol Off J Am Soc Clin Oncol 2009;27(8):1250–6. 
+[31] Ruijs MWG, Verhoef S, Rookus MA, Pruntel R, van der Hout AH, Hogervorst FBL, 
+
+et al. TP53 germline mutation testing in 180 families suspected of Li-Fraumeni 
+syndrome: mutation detection rate and relative frequency of cancers in different 
+familial phenotypes. J Med Genet 2010;47(6):421–8. 
+
+[32] Renaux-Petel M, Charbonnier F, Th´ery JC, Fermey P, Lienard G, Bou J, et al. 
+
+Contribution of de novo and mosaic TP53 mutations to Li-Fraumeni syndrome. 
+J Med Genet 2018;55(3):173–80. 
+
+[33] Bakhuizen JJ, Hogervorst FB, Velthuizen ME, Ruijs MW, van Engelen K, van 
+
+Os TA, et al. TP53 germline mutation testing in early-onset breast cancer: findings 
+from a nationwide cohort. Fam Cancer 2019;18(2):273–80. 
+
+[34] Breast Cancer Association Consortium, Mavaddat N, Dorling L, Carvalho S, Allen 
+J, Gonz´alez-Neira A, et al. Pathology of Tumors Associated With Pathogenic 
+Germline Variants in 9 Breast Cancer Susceptibility Genes. JAMA Oncol. 2022;8 
+(3):e216744. 
+
+[35] Evans DGR, Birch JM, Thorneycroft M, McGown G, Lalloo F, Varley JM. Low rate 
+of TP53 germline mutations in breast cancer/sarcoma families not fulfilling 
+classical criteria for Li-Fraumeni syndrome. J Med Genet 2002;39(12):941–4. 
+
+[36] Walsh T, Casadei S, Coats KH, Swisher E, Stray SM, Higgins J, et al. Spectrum of 
+mutations in BRCA1, BRCA2, CHEK2, and TP53 in families at high risk of breast 
+cancer. JAMA 2006;295(12):1379–88. 
+
+[37] Lalloo F, Varley J, Moran A, Ellis D, O’dair L, Pharoah P, et al. BRCA1, BRCA2 
+
+and TP53 mutations in very early-onset breast cancer with associated risks to 
+relatives. Eur J Cancer Oxf Engl 1990. 2006;42(8):1143–50. 
+
+[38] Manoukian S, Peissel B, Pensotti V, Barile M, Cortesi L, Stacchiotti S, et al. 
+
+Germline mutations of TP53 and BRCA2 genes in breast cancer/sarcoma families. 
+Eur J Cancer Oxf Engl 2007;43(3):601–6. 
+
+[39] Ginsburg OM, Akbari MR, Aziz Z, Young R, Lynch H, Ghadirian P, et al. The 
+
+prevalence of germ-line TP53 mutations in women diagnosed with breast cancer 
+before age 30. Fam Cancer 2009;8(4):563–7. 
+
+[40] Mouchawar J, Korch C, Byers T, Pitts TM, Li E, McCredie MRE, et al. Population- 
+based estimate of the contribution of TP53 mutations to subgroups of early-onset 
+breast cancer: Australian Breast Cancer Family Study. Cancer Res 2010;70(12): 
+4795–800. 
+
+CancerTreatmentReviews114(2023)1025229E. Blondeaux et al.                                                                                                                                                                                                                             
+
+[41] Lee DSC, Yoon SY, Looi LM, Kang P, Kang IN, Sivanandan K, et al. Comparable 
+
+frequency of BRCA1, BRCA2 and TP53 germline mutations in a multi-ethnic 
+Asian cohort suggests TP53 screening should be offered together with BRCA1/2 
+screening to early-onset breast cancer patients. Breast Cancer Res BCR 2012;14 
+(2):R66. 
+
+[42] McCuaig JM, Armel SR, Novokmet A, Ginsburg OM, Demsky R, Narod SA, et al. 
+Routine TP53 testing for breast cancer under age 30: ready for prime time? Fam 
+Cancer 2012;11(4):607–13. 
+
+[43] Rath MG, Masciari S, Gelman R, Miron A, Miron P, Foley K, et al. Prevalence of 
+
+germline TP53 mutations in HER2+ breast cancer patients. Breast Cancer Res 
+Treat 2013;139(1):193–8. 
+
+[44] Carraro DM, Koike Folgueira MAA, Garcia Lisboa BC, Ribeiro Olivieri EH, 
+
+Vitorino Krepischi AC, de Carvalho AF, et al. Comprehensive analysis of BRCA1, 
+BRCA2 and TP53 germline mutation and tumor characterization: a portrait of 
+early-onset breast cancer in Brazil. PLoS One 2013;8(3):e57581. 
+
+[45] Eccles DM, Li N, Handwerker R, Maishman T, Copson ER, Durcan LT, et al. 
+
+Genetic testing in a cohort of young patients with HER2-amplified breast cancer. 
+Ann Oncol Off J Eur Soc Med Oncol 2016;27(3):467–73. 
+
+[46] Hahn EC, Bittar CM, Vianna FSL, Netto CBO, Biazús JV, Cericatto R, et al. TP53 p. 
+Arg337His germline mutation prevalence in Southern Brazil: further evidence for 
+mutation testing in young breast cancer patients. PloS One 2018;13(12): 
+e0209934. 
+
+[47] Gallardo-Alvarado LN, Tusi´e-Luna MT, Tussi´e-Luna MI, Díaz-Ch´avez J, 
+
+Segura YX, Bargallo-Rocha E, et al. Prevalence of germline mutations in the TP53 
+gene in patients with early-onset breast cancer in the Mexican population. BMC 
+Cancer 2019;19(1):118. 
+
+[48] Rogo ˙za-Janiszewska E, Mali´nska K, G´orski B, Scott RJ, Cybulski C, Klu´zniak W, 
+et al. Prevalence of germline TP53 variants among early-onset breast cancer 
+patients from Polish population. Breast Cancer Tokyo Jpn 2021;28(1):226–35. 
+
+[49] Siraj AK, Masoodi T, Bu R, Parvathareddy SK, Iqbal K, Azam S, et al. Prevalence of 
+germline TP53 mutation among early onset middle eastern breast cancer patients. 
+Hered Cancer Clin Pract 2021;19(1):49. 
+
+[50] Waks AG, Kim D, Jain E, Snow C, Kirkner GJ, Rosenberg SM, et al. Somatic and 
+germline genomic alterations in very young women with breast cancer. Clin 
+Cancer Res Off J Am Assoc Cancer Res 2022;28(11):2339–48. 
+
+[51] Arcand SL, Akbari MR, Mes-Masson AM, Provencher D, Foulkes WD, Narod SA, 
+et al. Germline TP53 mutational spectrum in French Canadians with breast 
+cancer. BMC Med Genet 2015;12(16):24. 
+
+[52] Arcand SL, Maugard CM, Ghadirian P, Robidoux A, Perret C, Zhang P, et al. 
+
+Germline TP53 mutations in BRCA1 and BRCA2 mutation-negative French 
+Canadian breast cancer families. Breast Cancer Res Treat 2008;108(3):399–408. 
+
+[53] Lalloo F, Varley J, Ellis D, Moran A, O’Dair L, Pharoah P, et al. Prediction of 
+
+pathogenic mutations in patients with early-onset breast cancer by family history. 
+Lancet Lond Engl 2003;361(9363):1101–2. 
+
+[54] Rana HQ, Gelman R, LaDuca H, McFarland R, Dalton E, Thompson J, et al. 
+Differences in TP53 mutation carrier phenotypes emerge from panel-based 
+testing. J Natl Cancer Inst 2018;110(8):863–70. 
+
+[55] Fortuno C, James PA, Spurdle AB. Current review of TP53 pathogenic germline 
+
+variants in breast cancer patients outside Li-Fraumeni syndrome. Hum Mutat 
+2018;39(12):1764–73. 
+
+[56] Wilson JRF, Bateman AC, Hanson H, An Q, Evans G, Rahman N, et al. A novel 
+HER2-positive breast cancer phenotype arising from germline TP53 mutations. 
+J Med Genet 2010;47(11):771–4. 
+
+[57] Melhem-Bertrandt A, Bojadzieva J, Ready KJ, Obeid E, Liu DD, Gutierrez- 
+
+Barrera AM, et al. Early onset HER2-positive breast cancer is associated with 
+germline TP53 mutations. Cancer 2012;118(4):908–13. 
+
+[58] Masciari S, Dillon DA, Rath M, Robson M, Weitzel JN, Balmana J, et al. Breast 
+cancer phenotype in women with TP53 germline mutations: a Li-Fraumeni 
+syndrome consortium effort. Breast Cancer Res Treat 2012 Jun;133(3):1125–30. 
+[59] Packwood K, Martland G, Sommerlad M, Shaw E, Moutasim K, Thomas G, et al. 
+
+Breast cancer in patients with germline TP53 pathogenic variants have typical 
+tumour characteristics: the Cohort study of TP53 carrier early onset breast cancer 
+(COPE study). J Pathol Clin Res 2019;5(3):189–98. 
+
+[60] Le AN, Harton J, Desai H, Powers J, Zelley K, Bradbury AR, et al. Frequency of 
+radiation-induced malignancies post-adjuvant radiotherapy for breast cancer in 
+patients with Li-Fraumeni syndrome. Breast Cancer Res Treat 2020;181(1): 
+181–8. 
+
+[61] Alyami H, Yoo TK, Cheun JH, Lee HB, Jung SM, Ryu JM, et al. Clinical features of 
+breast cancer in South Korean patients with germline TP53 gene mutations. 
+J Breast Cancer 2021;24(2):175–82. 
+
+[62] Kuba MG, Lester SC, Bowman T, Stokes SM, Taneja KL, Garber JE, et al. 
+
+Histopathologic features of breast cancer in Li-Fraumeni syndrome. Mod Pathol 
+Off J U S Can Acad Pathol Inc. 2021;34(3):542–8. 
+
+[63] Rippinger N, Fischer C, Sinn HP, Dikow N, Sutter C, Rhiem K, et al. Breast cancer 
+characteristics and surgery among women with Li-Fraumeni syndrome in 
+Germany-A retrospective cohort study. Cancer Med 2021;10(21):7747–58. 
+[64] Sandoval RL, Polidorio N, Leite ACR, Cartaxo M, Pisani JP, Quirino CV, et al. 
+
+Breast cancer phenotype associated with Li-Fraumeni syndrome: a brazilian 
+cohort enriched by TP53 p.R337H carriers. Front Oncol. 2022;12:836937. 
+[65] Sj¨ogren S, Ingan¨as M, Lindgren A, Holmberg L, Bergh J. Prognostic and predictive 
+value of c-erbB-2 overexpression in primary breast cancer, alone and in 
+combination with other prognostic markers. J Clin Oncol Off J Am Soc Clin Oncol 
+1998;16(2):462–9. 
+
+[66] Howlader N, Altekruse SF, Li CI, Chen VW, Clarke CA, Ries LAG, et al. US 
+
+incidence of breast cancer subtypes defined by joint hormone receptor and HER2 
+status. J Natl Cancer Inst. 2014;106(5):dju055. 
+
+[67] Langerød A, Zhao H, Borgan Ø, Nesland JM, Bukholm IRK, Ikdahl T, et al. TP53 
+mutation status and gene expression profiles are powerful prognostic markers of 
+breast cancer. Breast Cancer Res BCR 2007;9(3):R30. 
+
+[68] Shahbandi A, Nguyen HD, Jackson JG. TP53 mutations and outcomes in breast 
+cancer: reading beyond the headlines. Trends Cancer 2020;6(2):98–110. 
+[69] Eikesdal HP, Knappskog S, Aas T, Lønning PE. TP53 status predicts long-term 
+survival in locally advanced breast cancer after primary chemotherapy. Acta 
+Oncol Stockh Swed 2014;53(10):1347–55. 
+
+[70] Andersson J, Larsson L, Klaar S, Holmberg L, Nilsson J, Ingan¨as M, et al. Worse 
+survival for TP53 (p53)-mutated breast cancer patients receiving adjuvant CMF. 
+Ann Oncol Off J Eur Soc Med Oncol 2005;16(5):743–8. 
+
+[71] Guo Y, Wan Q, Ouyang T, Li J, Wang T, Fan Z, et al. Risk of ipsilateral breast 
+tumor recurrence and contralateral breast cancer in patients with and without 
+TP53 variant in a large series of breast cancer patients. Breast 2022;1(65):55–60. 
+[72] Hyder Z, Harkness EF, Woodward ER, Bowers NL, Pereira M, Wallace AJ, et al. 
+Risk of contralateral breast cancer in women with and without pathogenic 
+variants in BRCA1, BRCA2, and TP53 genes in women with very early-onset (<36 
+years) breast cancer. Cancers 2020;12(2):E378. 
+
+[73] Petry V, Bonadio RC, Cagnacci AQC, Senna LAL, Campos R do NG, Cotti GC, et al. 
+
+Radiotherapy-induced malignancies in breast cancer patients with TP53 
+pathogenic germline variants (Li-Fraumeni syndrome). Fam Cancer 2020;19(1): 
+47–53. 
+
+[74] Heymann S, Delaloge S, Rahal A, Caron O, Frebourg T, Barreau L, et al. Radio- 
+induced malignancies after breast cancer postoperative radiotherapy in patients 
+with Li-Fraumeni syndrome. Radiat Oncol Lond Engl 2010;8(5):104. 
+[75] Nandikolla AG, Venugopal S, Anampa J. Breast cancer in patients with Li- 
+
+Fraumeni syndrome - a case-series study and review of literature. Breast Cancer 
+Dove Med Press 2017;9:207–15. 
+
+[76] Kappel S, Janschek E, Wolf B, Rudas M, Teleky B, Jakesz R, et al. TP53 germline 
+mutation may affect response to anticancer treatments: analysis of an intensively 
+treated Li-Fraumeni family. Breast Cancer Res Treat 2015;151(3):671–8. 
+[77] Varley JM, McGown G, Thorncroft M, James LA, Margison GP, Forster G, et al. 
+Are there low-penetrance TP53 Alleles? Evidence from childhood adrenocortical 
+tumors. Am J Hum Genet 1999;65(4):995–1006. 
+
+[78] Sessa C, Balma˜na J, Bober SL, Cardoso MJ, Colombo N, Curigliano G, et al. Risk 
+reduction and screening of cancer in hereditary breast-ovarian cancer syndromes: 
+ESMO Clinical Practice Guideline. Ann Oncol 2022. S092375342204193X. 
+[79] Tung NM, Boughey JC, Pierce LJ, Robson ME, Bedrosian I, Dietz JR, et al. 
+
+Management of hereditary breast cancer: American Society of Clinical Oncology, 
+American Society for Radiation Oncology, and Society of Surgical Oncology 
+Guideline. J Clin Oncol Off J Am Soc Clin Oncol 2020;38(18):2080–106. 
+[80] Daly MB, Pal T, Berry MP, Buys SS, Dickson P, Domchek SM, et al. Genetic/ 
+
+familial high-risk assessment: breast, ovarian, and pancreatic, version 2.2021, 
+NCCN clinical practice guidelines in oncology. J Natl Compr Cancer Netw JNCCN 
+2021;19(1):77–102. 
+
+[81] Davey MG, Davey CM, Ryan ´EJ, Lowery AJ, Kerin MJ. Combined breast 
+conservation therapy versus mastectomy for BRCA mutation carriers – A 
+systematic review and meta-analysis. Breast 2021;56:26–34. 
+
+[82] Giannakeas V, Narod SA. The expected benefit of preventive mastectomy on 
+breast cancer incidence and mortality in BRCA mutation carriers, by age at 
+mastectomy. Breast Cancer Res Treat 2018;167(1):263–7. 
+
+[83] Kasper E, Angot E, Colasse E, Nicol L, Sabourin JC, Adriouch S, et al. Contribution 
+of genotoxic anticancer treatments to the development of multiple primary 
+tumours in the context of germline TP53 mutations. Eur J Cancer Oxf Engl 2018; 
+1990(101):254–62. 
+
+[84] Teepen JC, van Leeuwen FE, Tissing WJ, van Dulmen-den BE, van den Heuvel- 
+Eibrink MM, van der Pal HJ, et al. Long-term risk of subsequent malignant 
+neoplasms after treatment of childhood cancer in the DCOG LATER study cohort: 
+role of chemotherapy. J Clin Oncol Off J Am Soc Clin Oncol 2017;35(20): 
+2288–98. 
+
+[85] Gruber JJ, Afghahi A, Timms K, DeWees A, Gross W, Aushev VN, et al. A phase II 
+study of talazoparib monotherapy in patients with wild-type BRCA1 and BRCA2 
+with a mutation in other homologous recombination genes. Nat Cancer 2022;3 
+(10):1181–91. 
+
+[86] Tung NM, Robson ME, Ventz S, Santa-Maria CA, Nanda R, Marcom PK, et al. 
+TBCRC 048: Phase II Study of Olaparib for Metastatic Breast Cancer and 
+Mutations in Homologous Recombination-Related Genes. J Clin Oncol [Internet]. 
+2020 Oct 29 [cited 2022 Oct 26]; Available from: https://ascopubs.org/doi/pdf/ 
+10.1200/JCO.20.02151?role=tab. 
+
+[87] Kumamoto T, Yamazaki F, Nakano Y, Tamura C, Tashiro S, Hattori H, et al. 
+
+Medical guidelines for Li-Fraumeni syndrome 2019, version 1.1. Int J Clin Oncol 
+2021;26(12):2161–78. 
+
+[88] Hanson H, Brady AF, Crawford G, Eeles RA, Gibson S, Jorgensen M, et al. UKCGG 
+Consensus Group guidelines for the management of patients with constitutional 
+TP53 pathogenic variants. J Med Genet. 2020;jmedgenet-2020-106876. 
+
+[89] Villani A, Shore A, Wasserman JD, Stephens D, Kim RH, Druker H, et al. 
+
+Biochemical and imaging surveillance in germline TP53 mutation carriers with 
+Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. 
+Lancet Oncol 2016;17(9):1295–305. 
+
+[90] Kratz CP, Achatz MI, Brugi`eres L, Frebourg T, Garber JE, Greer MLC, et al. Cancer 
+screening recommendations for individuals with Li-Fraumeni syndrome. Clin 
+Cancer Res Off J Am Assoc Cancer Res 2017;23(11):e38–45. 
+
+[91] Paluch-Shimon S, Cardoso F, Partridge AH, Abulkhair O, Azim HA, Bianchi- 
+Micheli G, et al. ESO-ESMO 5th international consensus guidelines for breast 
+cancer in young women (BCY5). Ann Oncol Off J Eur Soc Med Oncol. 2022; 
+S0923-7534(22)01858-0. 
+
+CancerTreatmentReviews114(2023)10252210E. Blondeaux et al.                                                                                                                                                                                                                             
+
+[92] 749-TP53 (Li-Fraumeni) – risk management (adult) | eviQ [Internet]. [cited 2022 
+Dec 5]. Available from: https://www.eviq.org.au/cancer-genetics/adult/risk- 
+management/749-tp53-li-fraumeni-risk-management-adult. 
+
+[93] Saya S, Killick E, Thomas S, Taylor N, Bancroft EK, Rothwell J, et al. Baseline 
+
+results from the UK SIGNIFY study: a whole-body MRI screening study in TP53 
+mutation carriers and matched controls. Fam Cancer 2017;16(3):433–40. 
+[94] Ballinger ML, Best A, Mai PL, Khincha PP, Loud JT, Peters JA, et al. Baseline 
+surveillance in Li-Fraumeni syndrome using whole-body magnetic resonance 
+imaging: a meta-analysis. JAMA Oncol 2017;3(12):1634–9. 
+
+[95] Petralia G, Padhani AR. Whole-body magnetic resonance imaging in oncology: 
+
+uses and indications. Magn Reson Imaging Clin N Am 2018;26(4):495–507. 
+[96] Omran M, Blomqvist L, Brandberg Y, Pal N, Kogner P, Ståhlbom AK, et al. Whole- 
+
+body MRI within a surveillance program for carriers with clinically actionable 
+germline TP53 variants - the Swedish constitutional TP53 study SWEP53. Hered 
+Cancer Clin Pract 2020;13(18):1. 
+
+[97] Nees J, Kiermeier S, Struewe F, Keymling M, Maatouk I, Kratz CP, et al. Health 
+behavior and cancer prevention among adults with Li-Fraumeni syndrome and 
+relatives in Germany-A cohort description. Curr Oncol Tor Ont 2022;29(10): 
+7768–78. 
+
+[98] Vaz-Luis I, Masiero M, Cavaletti G, Cervantes A, Chlebowski RT, Curigliano G, 
+
+et al. ESMO Expert Consensus Statements on Cancer Survivorship: promoting 
+high-quality survivorship care and research in Europe. Ann Oncol [Internet]. 
+2022 [cited 2022 Oct 25];0(0). Available from: https://www.annalsofoncology. 
+org/article/S0923-7534(22)03792-9/fulltext. 
+
+[102] Xie M, Lu C, Wang J, McLellan MD, Johnson KJ, Wendl MC, et al. Age-related 
+
+mutations associated with clonal hematopoietic expansion and malignancies. Nat 
+Med 2014;20(12):1472–8. 
+
+[103] Genovese G, K¨ahler AK, Handsaker RE, Lindberg J, Rose SA, Bakhoum SF, et al. 
+Clonal hematopoiesis and blood-cancer risk inferred from blood DNA sequence. 
+N Engl J Med 2014;371(26):2477–87. 
+
+[104] Lolas Hamameh S, Renbaum P, Kamal L, Dweik D, Salahat M, Jaraysa T, et al. 
+Genomic analysis of inherited breast cancer among Palestinian women: Genetic 
+heterogeneity and a founder mutation in TP53. Int J Cancer 2017;141(4):750–6. 
+
+[105] Giacomazzi J, Graudenz MS, Osorio CABT, Koehler-Santos P, Palmero EI, 
+
+Zagonel-Oliveira M, et al. Prevalence of the TP53 p.R337H mutation in breast 
+cancer patients in Brazil. PloS One 2014;9(6):e99893. 
+
+[106] Cust´odio G, Parise GA, Kiesel Filho N, Komechen H, Sabbaga CC, Rosati R, et al. 
+Impact of neonatal screening and surveillance for the TP53 R337H mutation on 
+early detection of childhood adrenocortical tumors. J Clin Oncol Off J Am Soc 
+Clin Oncol 2013;31(20):2619–26. 
+
+[107] Sandoval RL, Masotti C, de Macedo MP, Ribeiro MFSA, Leite ACR, Meireles SI, 
+et al. Identification of the TP53 p.R337H Variant in Tumor Genomic Profiling 
+Should Prompt Consideration of Germline Testing for Li-Fraumeni Syndrome. 
+JCO Glob Oncol. 2021;7:GO.21.00097. 
+
+[108] Kratz CP, Freycon C, Maxwell KN, Nichols KE, Schiffman JD, Evans DG, et al. 
+Analysis of the Li-Fraumeni spectrum based on an international germline TP53 
+variant data set: an international agency for research on cancer TP53 database 
+analysis. JAMA Oncol 2021;7(12):1800–5. 
+
+[99] Batalini F, Peacock EG, Stobie L, Robertson A, Garber J, Weitzel JN, et al. Li- 
+
+[109] Evans DG, Lunt P, Clancy T, Eeles R. Childhood predictive genetic testing for Li- 
+
+Fraumeni syndrome: not a straightforward diagnosis anymore-the interpretation 
+of pathogenic variants of low allele frequency and the differences between 
+germline PVs, mosaicism, and clonal hematopoiesis. Breast Cancer Res BCR 2019; 
+21(1):107. 
+
+Fraumeni syndrome. Fam Cancer 2010;9(1):65–9. 
+
+[110] Vukovi´c P, Peccatori FA, Massarotti C, Miralles MS, Beketi´c-Oreˇskovi´c L, 
+
+Lambertini M. Preimplantation genetic testing for carriers of BRCA1/2 
+pathogenic variants. Crit Rev Oncol Hematol 2021;157:103201. 
+
+[100] Jacobs KB, Yeager M, Zhou W, Wacholder S, Wang Z, Rodriguez-Santiago B, et al. 
+Detectable clonal mosaicism and its relationship to aging and cancer. Nat Genet 
+2012;44(6):651–8. 
+
+[101] Jaiswal S, Fontanillas P, Flannick J, Manning A, Grauman PV, Mar BG, et al. Age- 
+
+related clonal hematopoiesis associated with adverse outcomes. N Engl J Med 
+2014;371(26):2488–98. 
+
+[111] Paluch-Shimon S, Cardoso F, Sessa C, Balmana J, Cardoso MJ, Gilbert F, et al. 
+Prevention and screening in BRCA mutation carriers and other breast/ovarian 
+hereditary cancer syndromes: ESMO Clinical Practice Guidelines for cancer 
+prevention and screening. Ann Oncol Off J Eur Soc Med Oncol 2016;27(suppl 5): 
+v103–10. 
+
+CancerTreatmentReviews114(2023)10252211

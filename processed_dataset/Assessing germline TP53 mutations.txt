@@ -1,0 +1,6638 @@
+Danishevich et al. 
+Hereditary Cancer in Clinical Practice            (2025) 23:5  
+https://doi.org/10.1186/s13053-025-00307-w
+
+RESEARCH
+
+Hereditary Cancer
+in Clinical Practice
+
+Open Access
+
+Assessing germline TP53 mutations in cancer 
+patients: insights into Li-Fraumeni syndrome 
+and genetic testing guidelines
+Anastasiia Danishevich1*, Daria Fedorova1, Natalia Bodunova1, Maria Makarova2,3, Maria Byakhova4, 
+Anna Semenova4, Vsevolod Galkin4, Maria Litvinova1,5, Sergey Nikolaev1, Irina Efimova6, Pavel Osinin1, 
+Tatyana Lisitsa7,8, Anastasiya Khakhina7, German Shipulin7, Tatiana Nasedkina9, Syuykum Shumilova9, 
+Oleg Gusev10, Airat Bilyalov1,11, Elena Shagimardanova1,10, Leyla Shigapova11, Marina Nemtsova2,5,6, 
+Olesya Sagaydak2, Mary Woroncow12,13, Saida Gadzhieva14 and Igor Khatkov1* 
+
+Abstract 
+Background  Germline TP53 gene variants are intricately linked to Li-Fraumeni syndrome, a rare and aggressive 
+hereditary cancer syndrome. This study investigated the frequency and spectrum of TP53 pathogenic variants associ-
+ated with Li-Fraumeni syndrome in a large cohort of mainly breast cancer patients from Russia.
+
+Methods  The study analyzed 3,455 genomic DNA samples from cancer patients using next-generation sequencing 
+panels and whole-genome sequencing. Clinically significant TP53 variants were identified and validated using Sanger 
+sequencing. The clinical and family history characteristics of patients with TP53 variants were analyzed.
+
+Results  The analysis identified 13 (0.4%) individuals with clinically significant germline TP53 variants, all of whom 
+were females with either unilateral breast cancer or breast cancer as part of multiple primary malignant neoplasms. 
+The average age of breast cancer manifestation was 39.9 years, with a median of 36 years. Only 38.5% of the TP53 
+mutation carriers met the modified Chompret criteria for TP53 testing.
+
+Conclusions  The findings underscore the necessity of thorough phenotype and family history analysis in genetic 
+counseling to effectively diagnose LFS, and emphasize the importance of identifying TP53 variant carriers for devel-
+oping treatment strategies, prognosis, and monitoring, as well as for identifying high-risk family members. The study 
+also highlights that the current guidelines fail to identify over half of the TP53 mutation carriers, suggesting the need 
+for a more comprehensive approach to genetic testing in suspected hereditary cancer cases.
+
+Keywords  TP53, NGS, Li-Fraumeni syndrome, Germline mutations
+
+*Correspondence:
+Anastasiia Danishevich
+a.danishevich@mknc.ru
+Igor Khatkov
+i.hatkov@mknc.ru
+Full list of author information is available at the end of the article
+
+© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which 
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the 
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or 
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line 
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory 
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this 
+licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons Public Domain Dedication waiver (http://creativecom-
+mons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+
+Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 2 of 13
+
+Background
+Hereditary  malignant  neoplasms  (MN)  are  observed 
+across  virtually  all  primary  tu-mor  sites,  constituting 
+an  average  of  10%  of  all  initially  detected  tumors.  The 
+heightened  predisposition  to  oncological  diseases  stems 
+from  the  presence  of  germline  mutations  in  oncogenes 
+and  tumor  suppressor  genes.  These  mutations  signifi-
+cantly  contribute  to  the  development  of  hereditary  can-
+cer syndromes (HCS). HCS often manifest with a specific 
+spectrum  of  MN,  wherein  the  risk  of  developing  can-
+cer  in  specific  locations  varies  from  moderate  to  high, 
+depending upon the affected gene and the type of struc-
+tural aberration, thereby determining the degree of can-
+cer awareness in each particular case.
+
+One of the most significant HCS is the TP53-associated 
+cancer syndrome, also known as Li-Fraumeni Syndrome 
+(LFS). LFS was initially described by Joseph Fraumeni and 
+Frederick  Li  in  1969,  following  a  retrospective  analysis 
+of a cohort of children with rhabdomyosarcoma. Subse-
+quently, an autosomal dominant inheritance pattern was 
+identified  for  LFS.  The  exact  prevalence  of  the  disease 
+remains  undetermined  to  date.  LFS  is  characterized  by 
+early onset and a wide spectrum of tumors with the most 
+common  including  soft  tissue  sarcomas  (26.4%),  central 
+nervous system (CNS) tumors (13.1%), soft tissue sarco-
+mas (11.6%), osteosarcomas (9.1%), adrenocortical carci-
+noma (5.2%), hematologic malignancies (4.7%), colorectal 
+cancer  (3.6%),  lung  cancer  (3.6%),  gastric  cancer  (3.1%), 
+alongside  MN  at  other  sites  (19.4%)  [1]. The  cumulative 
+risk of developing at least one neoplasm reaches 40–50% 
+by  the  age  of  30  and  80–100%  –  by  the  age  of  70  [1, 2]. 
+Germline mutations in the TP53 gene serve as the initiat-
+ing event in the development of LFS, defining the initial 
+stages of carcinogenesis. In 70–80% of cases with clinical 
+manifestations  of  LFS,  germline  mutations  in  the  TP53 
+gene  are  detected  [3],  while  estimates  suggest  that  the 
+
+contribution of de novo mutation variants ranges from 7 
+to  20%  out  of  identified  cases  [4].  Somatic  mutations  in 
+TP53 are also considered the most prevalent alteration in 
+the formation of many types of MN and can be detected 
+in 50% of tumors [5].
+
+The p53 protein is encoded by the TP53 gene, located 
+on chromosome 17p13.1. It comprises 11 exons, with the 
+first being non-coding. There are at least 12 isoforms of 
+the p53 protein: p53 (or p53α), p53 (β, γ), Δ40p53 (α, β, 
+γ), Δ133p53 (α, β, γ), and Δ160p53 (α, β, γ) (Fig. 1). Vari-
+ous  protein  isoforms  arise  from  molecular  mechanism 
+variations: alternative splicing (intron 2, α/β/γ segments), 
+alternative promoters (P1 and P2), alternative translation 
+initiation (start codons 1, 40, 133, 160) [6]. These p53 iso-
+forms  exhibit  distinct  functional  features,  and  their  cel-
+lular proportions vary depending on the type of healthy 
+or  tumorous  tissue.  The  canonical  form  of  p53  is  most 
+common in the cell. Among all isoforms, it possesses the 
+largest molecular mass (53 kDa), consisting of 393 amino 
+acids, and is divided into 7 domains (Fig. 1).
+
+The p53 protein is activated in response to DNA dam-
+age,  hypoxia,  metabolic  dysfunction,  heat  shock,  and 
+oncogene  expression  (Fig.  2).  It  ensures  genome  stabil-
+ity  by  performing  various  functions,  including  cell  cycle 
+control,  initiation  of  DNA  damage  re-pair,  and,  in  cases 
+where  restoration  of  the  defect  is  impossible,  triggering 
+apoptosis.  In  the  absence  of  stress  stimuli,  the  concen-
+tration of p53 in the cell remains low and is maintained 
+through a balance between its synthesis and degradation. 
+Excess amount of p53 can lead to programmed cell death, 
+while  a  deficiency  of  one  increases  the  malignant  trans-
+formation risk. By impeding the proliferation of cells with 
+damaged  DNA,  p53  serves  as  a  crucial  oncosuppressor 
+[7].
+
+Mutations in the TP53 gene can affect the function of 
+
+the p53 protein in different ways:
+
+Fig. 1  Structure of the TP53 gene and different isoforms of the p53 protein. The N-terminal domains TAD1 and TAD2 (transactivation domain) are 
+required for the activation of functionally related p53 target genes. The PXXP domain (proline-rich domain) plays an important role in the apoptotic 
+activity of p53. The DNABD domain (DNA-binding domain, DNA-binding domain, “zinc finger”) directly interacts with DNA. NLS (nuclear localization 
+domain) is a nuclear localization domain, OD (oligomerization domain) is an oligomerization (tetramerization) domain, NEG (negative-regulation 
+domain) is a negative regulation domain that ensures the detachment of DNABD from DNA
+
+Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 3 of 13
+
+Fig. 2  The main signaling pathways of the p53 protein in the cell. DNA damage caused by various stress factors (UV radiation, radiation, viral 
+infection) activates protein kinases ATR, ATM, DNA-PK, which belong to the PIKK family. One of the signaling pathways of these protein kinases 
+includes the p53 protein, the degradation of which as a result slows down and its concentration increases. The p53 protein acts as a transcription 
+factor, activating some genes (GADD45, MDM2, BAX, BAK, p21) and suppressing others (BCL-2, BCL-XL). In some signaling pathways, p53 interacts 
+with other proteins, for example with mitochondrial anti-apoptotic proteins during the initiation of apoptosis [6]. One of the protein regulators 
+of p53 is MDM2, which interacts with p53 according to the principle of negative feedback. The p53 protein enhances MDM2 transcription, 
+while MDM2 acts as a ubiquitin ligase to promote p53 degradation. The p21 protein inhibits the complex of cyclin and cyclin-dependent kinases, 
+in the event of DNA damage, preventing the transition from G1 to S phase and thus stopping the cell cycle. In the absence of the p21 protein, 
+the cyclin-dependent kinase CDK phosphorylates the Rb protein, and the transcription factor E2F is involved in DNA synthesis. If DNA damage 
+cannot be repaired, p53 initiates apoptosis, including regulating the expression of bcl-2 family genes
+
+1  Loss-of-function  (LOF):  Complete  or  partial  loss  of 
+
+the wild-type protein function.
+
+2  Dominant-negative  (DN):  Dominant-negative  effect, 
+where  the  mutant  protein  forms  tetramers  with  the 
+wild-type protein and suppresses p53 function in the 
+cell.
+
+3  Gain-of-function  (GOF):  Acquisition  of  atypical 
+functions,  such  as  the  ability  to  activate  promoters 
+atypical for the p53 protein.
+
+Various  mechanisms  can  implement  each  of  these 
+
+effects, and they may coexist.
+
+Testing  for  TP53  gene  mutation  carriage  should  be 
+conducted  before  initiating  treatment,  as  the  test  result 
+can influence the therapeutic strategy. Recommendations 
+
+for TP53 gene mutation testing are presented in Table 1 
+[8]. Having an increased risk of developing MN at other 
+sites, patients carrying TP53 mutations should be recom-
+mended  to  avoid  radiotherapy  and  DNA-toxic  chemo-
+therapy.  In  these  cases,  surgical  methods  should  be 
+preferred when choosing a treatment strategy [9].
+
+Only  isolated  cases  of  Russian  families  with  LFS  diag-
+nosis, are published elsewhere. The exact incidence of Li-
+Fraumeni  syndrome  among  Russian  cancer  patients  has 
+not yet been defined. The aim of this study was to inves-
+tigate  the  frequency  and  spectrum  of  TP53  pathogenic 
+variants associated with LFS in a large cohort of mainly 
+of  breast  cancer  patients  from  Russia.  Also,  the  geno-
+type–phenotype  correlations  from  13  unrelated  patients 
+diagnosed with TP53-associated MN are presented.
+
+ Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 4 of 13
+
+Table 1  Recommendations for TP53 gene germline variants testing (2020) [10]
+
+Recommendation 1 Patients meeting the modified Chompret criteria:
+
+— Familial presentation: proband with a TP53 core tumor (breast cancer, soft-tissue sarcoma, osteosarcoma, central nervous sys-
+tem tumor, adrenocortical carcinoma) before 46 y.o. AND at least one first- or second-degree relative with a core tumor before 56 
+y.o. or
+- Multiple primitive tumors: proband with multiple tumors, including 2 TP53 core tumors, the first of which occurred before 46 y.o., 
+irrespective of family history; or—Rare tumors: patient with adrenocortical carcinoma, choroid plexus carcinoma, or rhabdomyo-
+sarcoma of embryonal anaplastic subtype, irrespective of family history; or
+- Very early-onset breast cancer: Breast cancer before 31 y.o.,
+irrespective of family history
+
+Recommendation 2 Children and adolescents should be tested for germline TP53
+
+variants if presenting with:
+• Hypodiploid acute lymphoblastic leukemia (ALL); or
+• Otherwise unexplained sonic hedgehog-driven medulloblastoma; or
+• Jaw osteosarcoma
+
+Recommendation 3 Patients who develop a second primary tumor, within the radiotherapy field of a first core TP53 tumor which occurred before 46 
+
+y.o., should be tested for germline TP53 variants
+
+Recommendation 4 a. Patients older than 46 y.o. presenting with breast cancer without personal or familial history fulfilling the Chompret Criteria 
+
+should not be tested for germline TP53 variants
+b. Any patient presenting with isolated breast cancer and not fulfilling the Chompret Criteria, in whom a disease-causing TP53 
+variant has been identified, should be referred to an expert multidisciplinary team for discussion
+
+Recommendation 5 Children with any cancer from southern and south-eastern Brazilian families should be tested for the p.R337H Brazilian founder 
+
+germline TP53 variant
+
+Methods
+This  study  analyzed  the  mutational  distribution  of 
+clinically  significant  TP53  germline  variants  in  3455 
+patients  with  diagnosed  cancer  and  suspected  heredi-
+tary  cancer  syndrome.  These  patients  were  identified 
+across  various  medical  institutions  using  molecular 
+genetic  methods  based  on  Next-Generation  Sequenc-
+ing (NGS): multi-gene NGS panel testing (1655 studies) 
+and whole-genome sequencing (WGS, 1800 studies).
+
+Out  of  the  total  cohort,  3247  were  females  (94%) 
+and  208  were  males  (4%).  Among  the  examined  indi-
+viduals,  2957  were  diagnosed  with  breast  cancer 
+(85.6%),  including  cases  occurring  before  the  age  of 
+31  (100/2957,  3.4%),  bilateral  breast  cancer  (138/2957, 
+4.7%),  and  breast  cancer  as  part  of  MPMN  involving 
+other  locations  (205/2957,  6.9%).  Addition-ally,  498 
+individuals  (14.4%)  presented  with  tumors  in  the  ova-
+ries,  colon,  pancreas,  and  other  locations.  The  average 
+age  of  solid  tumor  manifestation  in  the  studied  group 
+of  3455  patients  was  46.47  y.o.  (95%  CI:  46.12–46.83; 
+range 11–86 y.o.y.o.).
+
+NGS  Panels.  The  study  involved  analyzing  1655 
+peripheral  blood  samples  from  patients  receiving  spe-
+cialized  care  at  the  Moscow  Clinical  Research  Center 
+named  after  A.S.  Loginov. This  analysis  utilized  multi-
+gene  custom  NGS  panels  in  the  laboratories  of  the 
+Centre for Strategic Planning and Management of Bio-
+medical  Health  Risks  (Moscow,  Russia),  Engelhardt 
+Institute  of  Molecular  Biology  of  Russian  Academy  of 
+Sciences  (Moscow,  Russia)  and  Kazan  Federal  (Kazan, 
+Russia)  using  the  Illumina  MiSeq  sequencer  (Tables  2 
+
+and  3).  Sample  preparation,  sequencing,  and  bioinfor-
+matic  processing  followed  the  methodology  previously 
+described in article [11].
+
+WGS was conducted on 1800 patients receiving treat-
+ment in six state-funded healthcare institutions in Mos-
+cow:  Moscow  City  Clinical  Hospital  No.1,  Moscow 
+Clinical  Scientific  Center  Named  after  Loginov,  Mos-
+cow  City  Clinical  Hospital  No.62,  Moscow  City  Clinical 
+Hospital  named  after  S.P.  Botkin,  Moscow  City  Clinical 
+Hospital  named  after  D.D.  Pletnev,  and  Moscow  Medi-
+cal Cluster "Kommunarka". The patient selection criteria, 
+materials, and methods are detailed in article [12].
+
+The  methodology  of  molecular  genetic  diagnostics, 
+quality  control,  and  genome-wide  sequencing,  as  well 
+as the examination of gene panels, was described in our 
+previous article [13, 14].
+
+The  clinical  significance  of  nucleotide  sequence  vari-
+ants was analyzed according to the recommendations of 
+the American College of Medical Genetics and Genom-
+ics  (ACMG).  This  analysis  employed  specialized  bioin-
+formatic  algorithms  and  databases,  including  OMIM 
+(Online Mendelian Inheritance in Man), NCBI (National 
+Center  for  Bio-technology  Information),  VarSome  (The 
+Human  Genomics  Community),  and  others,  as  well  as 
+scientific literature data. Population frequencies of iden-
+tified variants were assessed using the gnomAD (Genome 
+Aggregation Database).
+
+This study presents the carrier status results of clini-
+cally  significant  variants  in  the  coding  region  of  the 
+TP53,  20  base  pairs  proximal  to  the  5’  end  and  20 
+base  pairs  distal  to  the  3’  end  of  each  exon  have  been 
+
+Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 5 of 13
+
+Table 2  Gene list for the NGS-panels
+
+Laboratory
+
+Number 
+of 
+samples
+
+Number 
+of studied 
+genes
+
+Genes
+
+Kazan Federal University
+
+166
+
+61
+
+Engelhardt Institute of Molecular Biology 833
+
+60
+
+Centre for Strategic Planning and Man-
+agement of Biomedical Health Risks
+
+656
+
+44
+
+APC, ATM, ATR, BARD1, BLM, BRCA1, BRCA2, BRIP1, BUB1, CDH1, CDKN2A, CHEK1, 
+CHEK2, CTNNA1, EPCAM, ERCC1, ERCC2, FAM175A, FANCB, FANCC, FANCD2, FANCF, 
+FANCG, FANCI, FANCL, FANCM, MCPH1, MDM1, MLH1, MRE11A, MSH2, MSH3, MSH6, 
+MUTYH, NBEAL1, NBN, NF1, PALB2, PMS2, POLD1, POLE, PPM1D, PTEN, RAD50, 
+RAD51C, RAD51D, RAD52, RAD54B, RBBP8, RECQL4, RINT1, SETBP1, SLX4, SMAD4, 
+STK11, TP53, TP53BP1, TSC1, TSC2, XPC, XRCC2 including promoter regions
+
+ATM, BRCA1, PALB2, RAD50, MRE11A, NBN, RAD51D, RAD51C, RAD54B, BLM, XRCC2, 
+TP53, BRCA2, BARD1, ATR, CHEK2, FANCM, RECQL4, FANCF, FANCI, FANCC, FANCG, 
+FANCL, MLH1, CDKN2A, MSH2, MSH6, PTEN, CHEK1, BRIP1, RBBP8, SLX4, FAM175a, 
+RAD52, RINT1, CDK12, CDH1, STK11, PMS2, MUTYH, PPM1D, APC, MCPH1, NF1, 
+EPCAM, BUB1, FANCD2, TP53, BP1, MRE11, POLD1, POLE, SMAD4, MSH3, CTNNA1, 
+ERCC2, FANCB, ERCC1, TSC1, TSC2, XPC
+
+APC, ATM, AXIN2, BARD1, BLM, BMPR1A, BRCA1, BRCA2, BRIP1, CDH1, CDKN2A, 
+CHEK2, DICER1, EPCAM, GALNT12, GREM1, MEN1, MLH1, MLH3, MSH2, MSH3, MSH6, 
+MUTYH, NBN, NF1, NTHL1, PALB2, PMS2, POLD1, POLE, PTCH1, PTCH2, PTEN, RAD51C, 
+RAD51D, RET, SMAD4, STK11, SUFU, TP53, TSC1, TSC2, VHL, WT1
+
+Table 3  Samples for NGS-testing
+
+Name of the medical organization that carried out the 
+collection of biosamples
+
+Research method
+
+Number of 
+samples
+
+Executing Lab
+
+Moscow Clinical Scientific Center Named after Loginov
+
+City Clinical Oncological Hospital No. 1
+
+Moscow City Clinical Hospital named after S.P. Botkin
+
+Moscow City Clinical Hospital No.62
+
+Moscow City Clinical Hospital named after D.D. Pletnev
+
+Moscow Medical Cluster "Kommunarka"
+
+Total
+
+NGS panel
+
+NGS panel
+
+NGS panel
+
+WGS
+
+WGS
+
+WGS
+
+WGS
+
+WGS
+
+WGS
+
+3455
+
+166
+
+656
+
+833
+
+716
+
+768
+
+88
+
+112
+
+40
+
+76
+
+Kazan Federal University
+
+Centre for Strategic Planning and Man-
+agement of Biomedical Health Risks
+
+Engelhardt Institute of Molecular Biology
+
+LLC Evogen
+
+LLC Evogen
+
+LLC Evogen
+
+LLC Evogen
+
+LLC Evogen
+
+LLC Evogen
+
+analyzed. Point mutation, microinsertion, deletion and 
+duplication  (< 20  bp)  at  exon  level  can  be  simultane-
+ously  detected.  Certain  copy  number  variants  (CNV) 
+such  as  large  fragment  of  heterozygous  gene,  special 
+mutations  such  as  dynamic  mutation,  complex  recom-
+bination,  structural  variants  (e.g.:  large  fragment  dele-
+tion,  duplication  and  inversion  rearrangement),  large 
+fragment  heterozygous  insertion  (e.g.:  Alu-induced 
+insertion)  as  well  as  mutations  in  gene  regulatory 
+region  and  deep  intronic  region  was  excluded  from 
+calculations  to  facilitate  a  valid  comparison  of  results 
+between NGS panels and WGS.
+
+Clinically  significant  variants  were  validated  using  the 
+Sanger sequencing. Data processing was performed using 
+GraphPad  Prism  v.9.5.1  (https:// www. graph pad. com/) 
+through  descriptive  statistical  methods:  proportions  are 
+presented  in  percentages,  means  with  95%  confidence 
+
+intervals,  and  statistical  tests  considered  a  significance 
+level of p < 0.05.
+
+Results
+In a comprehensive analysis of 3455 genomic DNA sam-
+ples  from  breast  cancer  patients,  13  individuals  (0.4%) 
+unrelated  to  each  other  were  identified  with  clinically 
+significant  germline  variants  in  the  TP53  gene.  Nota-
+bly,  all  mutation  carriers  were  females,  with  either  uni-
+lateral  breast  cancer  (9/13;  69.2%)  or  breast  cancer  as 
+part of MPMN (4/13; 30.8%): bilateral breast cancer in 3 
+cases and Hodgkin lymphoma in 1 case. The average age 
+of  manifestation  of  breast  cancer  was  39.9  y.o.  (95%  CI: 
+33.1–46.8, range 28–66 y.o.), with a median age of mani-
+festation – 36.0 y.o.
+
+Among  the  TP53  mutation  carriers,  84.6%  (11/13) 
+had  pathogenic  variants  (P),  15.4%  (2/13)  had  likely 
+
+ Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 6 of 13
+
+pathogenic variants (LP). In 11 cases missense variants 
+in 1 case 9 bp exon 7 in frame deletion (c.754_762del) 
+and in 1 case splice acceptor variant in intron 4 (c.376-
+1G > C)  were  identified.  All  detected  variants  affected 
+regions of the TP53 gene associated with the synthesis 
+of the DNA-binding domain (DNABD) of the p53 pro-
+tein (Fig. 3).
+
+Among  the  surveyed  patients,  38.5%  (5/13)  met  the 
+modified  Chompret  criteria.  The  remaining  61.5% 
+(n = 8)  of  individuals  diagnosed  with  breast  cancer 
+were  older  than  31  y.o.  at  diagnosis,  and  their  family 
+history  did  not  align  with  recommendations  for TP53 
+mutation  testing.  Clinical  and  family  history  charac-
+teristics  of  patients  with  identified  variants  are  pre-
+sented in Table 4.
+
+A  notable  69.2%  (9/13)  of  patients  reported  a  fam-
+ily cancer history. Among them, 38.4% (5/13) had first 
+or second-degree relatives with confirmed breast can-
+cer. In 30.8% (4/13) of cases, there was a clustering of 
+oncological diseases across multiple generations, illus-
+trated in the pedigrees of these patients in Fig. 4.
+
+Histological types in breast cancer included unspeci-
+fied  invasive  carcinoma  (13/15,  86.6%),  ductal  car-
+cinoma  in  situ  with  foci  of  invasion  (1/15,  6.6%),  and 
+ductal carcinoma in situ (1/15, 6.6%). The clinical and 
+morphological features of breast cancer in TP53 muta-
+tion carriers are outlined in Table 5.
+
+Discussion
+The  frequency  of  identified  TP53  clinically  significant 
+germline  variants  was  0.4%  (13/3455)  and  in  all  cases 
+TP53  mutations  were  identified  in  females  with  breast 
+cancer.  Therefore,  the  proportion  of  TP53-associated 
+breast cancer within all breast cancer cases in our cohort 
+was  0.44%  (13/2957),  consistent  with  existing  literature 
+[19].  The  predominance  of  this  localization  of  cancer 
+types is attributed to the high prevalence of breast cancer 
+patients in our cohort and the elevated risk of breast can-
+cer in the spectrum of tumors typical for LFS.
+
+Among patients with breast cancer aged up to 31 y.o., 
+the  proportion  of  carriers  of  pathogenic  TP53  variants 
+was 3.0% (3/100), aligning with previously reported rates 
+of 3.8%-6.0% for patients ≤ 31 y.o. [19, 20].
+
+According  to  the  TP53  Database  (version  R20,  ISB-
+CGC,  https:// Tp53. isb- cgc. org/),  the  most 
+frequent 
+germline  variants  in  the  TP53  gene  are  located  at  posi-
+tions  Arg175,  Arg213,  Gly245,  Arg248,  Arg273,  Arg282, 
+and  Arg337,  accounting  for  40%  (937/2358)  of  missense 
+mutations in the database. Excluding the position Arg337, 
+characteristic of the southern Brazilian population, these 
+positions account for 32% of mutations. In our study, var-
+iants categorized as frequent according to the TP53 Data-
+base accounted for 30.8% of the identified TP53 variants: 
+c.524G > A  (Arg175;  n = 1;  7.7%),  c.743G > A  (Arg248; 
+n = 2;  15.4%),  and  c.818G > A  (Arg273;  n = 1;  7.7%).  The 
+majority  of  TP53  variants  in  our  study,  consistent  with 
+
+Fig. 3  Structure and mutations of the TP53 gene (NM_000546.6). A. Spectrum of identified mutations in the TP53 gene. B. Domains of protein p53 
+[15]
+
+Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 7 of 13
+
+a
+t
+l
+e
+d
+(
+s
+t
+l
+u
+s
+e
+r
+
+)
+s
+e
+r
+o
+c
+s
+
+.
+
+7
+0
+0
+L
+A
+
+.
+
+7
+0
+0
+L
+D
+
+.
+
+5
+1
+0
+G
+D
+0
+0
+0
+G
+A
+
+.
+
+.
+
+0
+0
+1
+L
+A
+
+.
+
+4
+0
+0
+L
+D
+
+.
+
+8
+9
+0
+G
+A
+
+.
+
+4
+0
+0
+G
+D
+
+.
+
+0
+0
+0
+L
+A
+
+.
+
+0
+0
+0
+L
+D
+
+.
+
+0
+0
+0
+G
+A
+
+.
+
+0
+0
+0
+G
+D
+
+.
+
+0
+0
+0
+L
+A
+
+.
+
+0
+0
+0
+L
+D
+
+.
+
+0
+0
+0
+G
+A
+
+.
+
+1
+0
+0
+G
+D
+
+.
+
+1
+0
+0
+L
+A
+
+.
+
+0
+0
+0
+L
+D
+
+.
+
+0
+0
+0
+G
+A
+
+.
+
+2
+0
+0
+G
+D
+
+.
+
+1
+0
+0
+L
+A
+
+.
+
+0
+0
+0
+L
+D
+
+.
+
+0
+0
+0
+G
+A
+
+.
+
+2
+0
+0
+G
+D
+
+.
+
+2
+1
+0
+L
+A
+
+.
+
+5
+0
+0
+L
+D
+
+.
+
+0
+0
+0
+G
+A
+
+.
+
+6
+5
+0
+G
+D
+
+.
+
+0
+0
+0
+L
+A
+
+.
+
+0
+0
+0
+L
+D
+
+.
+
+0
+0
+0
+G
+A
+
+.
+
+0
+0
+0
+G
+D
+
+.
+
+0
+0
+0
+L
+A
+
+.
+
+0
+0
+0
+L
+D
+
+.
+
+0
+0
+0
+G
+A
+
+.
+
+0
+0
+0
+G
+D
+
+.
+
+1
+0
+0
+L
+A
+
+.
+
+0
+0
+0
+L
+D
+
+.
+
+3
+0
+0
+G
+A
+
+.
+
+0
+0
+0
+G
+D
+
+n
+o
+i
+t
+a
+c
+fi
+i
+s
+s
+a
+l
+c
+
+3
+5
+P
+T
+e
+h
+t
+n
+
+i
+
+t
+e
+r
+p
+m
+o
+h
+C
+
+)
+s
+i
+s
+o
+n
+g
+a
+i
+d
+(
+
+I
+
+A
+e
+c
+i
+l
+
+p
+S
+
+c
+n
+u
+f
+
+,
+s
+s
+a
+l
+c
+F
+O
+L
+
+G
+M
+C
+A
+
+n
+o
+i
+t
+a
+c
+o
+
+l
+
+V
+N
+S
+
+.
+
+5
+6
+4
+5
+0
+0
+0
+_
+M
+N
+
+)
+8
+3
+g
+h
+(
+V
+N
+S
+
+y
+r
+o
+t
+s
+i
+h
+y
+l
+i
+
+m
+a
+F
+
+a
+i
+r
+e
+t
+i
+r
+C
+
+e
+g
+A
+
+s
+e
+t
+i
+s
+N
+M
+
+x
+e
+S
+
+s
+t
+n
+a
+i
+r
+a
+v
+3
+5
+P
+T
+d
+e
+fi
+i
+t
+n
+e
+d
+
+i
+
+h
+t
+i
+
+w
+s
+t
+n
+e
+i
+t
+a
+p
+
+f
+
+o
+s
+c
+i
+t
+s
+i
+r
+e
+t
+c
+a
+r
+a
+h
+c
+c
+i
+t
+s
+e
+n
+m
+a
+n
+a
+d
+n
+a
+
+l
+
+a
+c
+n
+
+i
+
+i
+l
+
+C
+
+4
+e
+l
+b
+a
+T
+
+F
+N
+
+ ,
++
+F
+O
+L
+
+A
+/
+N
+
+,
+
+A
+/
+N
+
+F
+N
+
+ ,
++
+F
+O
+L
+
+F
+N
+
+ ,
++
+F
+O
+L
+
+F
+P
+
+,
+-
+F
+O
+L
+
+F
+P
+
+,
+-
+F
+O
+L
+
+P
+
+P
+
+P
+
+P
+
+P
+
+P
+
+e
+n
+e
+g
+
+4
+x
+E
+
+C
+>
+G
+5
+9
+9
+5
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+.
+
+:
+
+.
+
+g
+r
+A
+5
+2
+1
+r
+h
+T
+p
+G
+>
+C
+4
+7
+3
+c
+
+.
+
+4
+t
+n
+
+I
+
+-
+6
+7
+3
+c
+
+.
+
+G
+>
+C
+7
+3
+2
+5
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+.
+
+:
+
+5
+x
+E
+
+5
+x
+E
+
+5
+x
+E
+
+5
+x
+E
+
+ T
+>
+C
+9
+3
+1
+5
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+.
+
+:
+
+C
+>
+G
+1
+
+.
+
+s
+i
+H
+8
+5
+1
+g
+r
+A
+p
+A
+>
+G
+3
+7
+4
+c
+
+.
+
+.
+
+s
+i
+H
+5
+7
+1
+g
+r
+A
+p
+A
+>
+G
+4
+2
+5
+c
+
+.
+
+ T
+>
+C
+8
+8
+0
+5
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+.
+
+:
+
+s
+i
+H
+1
+8
+1
+g
+r
+A
+p
+
+.
+
+,
+
+A
+>
+G
+2
+4
+5
+c
+
+.
+
+,
+
+ T
+>
+C
+0
+7
+0
+5
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+.
+
+:
+
+s
+i
+H
+1
+8
+1
+g
+r
+A
+p
+
+.
+
+,
+
+A
+>
+G
+2
+4
+5
+c
+
+.
+
+r
+e
+S
+7
+8
+1
+y
+G
+p
+
+l
+
+.
+
+,
+
+A
+>
+G
+9
+5
+5
+c
+
+.
+
+,
+
+ T
+>
+C
+3
+5
+0
+5
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+:
+
+.
+
+,
+
+ T
+>
+C
+0
+7
+0
+5
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+.
+
+:
+
+,
+
+ T
+>
+C
+0
+2
+2
+4
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+.
+
+:
+
+d
+e
+d
+
+i
+
+,
+r
+e
+c
+n
+a
+c
+t
+s
+a
+e
+r
+b
+—
+
+r
+e
+h
+t
+o
+M
+
+8
+2
+t
+a
+
+a
+m
+o
+c
+r
+a
+S
+S
+N
+C
+
+o
+N
+
+s
+e
+Y
+
+a
+m
+o
+c
+r
+a
+S
+h
+c
+a
+m
+o
+t
+S
+S
+N
+C
+
+s
+e
+Y
+
+s
+g
+n
+u
+L
+r
+e
+c
+n
+a
+c
+t
+s
+a
+e
+r
+b
+
+o
+N
+
+e
+v
+i
+t
+a
+g
+e
+n
+
+s
+e
+Y
+
+6
+3
+
+8
+3
+
+6
+3
+
+5
+3
+
+8
+2
+
+8
+3
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+)
+2
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+)
+1
+
+:
+
+N
+M
+P
+M
+
+F
+
+1
+0
+P
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+F
+
+2
+0
+P
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+F
+
+3
+0
+P
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+F
+
+4
+0
+P
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+F
+
+5
+0
+P
+
+s
+g
+n
+u
+L
+r
+e
+c
+n
+a
+c
+t
+s
+a
+e
+r
+b
+
+o
+N
+
+7
+4
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+)
+1
+
+:
+
+N
+M
+P
+M
+
+F
+
+6
+0
+P
+
+A
+/
+N
+
+,
+-
+F
+O
+L
+
+P
+L
+
+5
+x
+E
+
+F
+N
+
+ ,
++
+F
+O
+L
+
+F
+N
+
+ ,
++
+F
+O
+L
+
+A
+/
+N
+
+,
+
+A
+/
+N
+
+P
+
+P
+
+P
+
+7
+x
+E
+
+7
+x
+E
+
+7
+x
+E
+
+l
+
+n
+G
+8
+4
+2
+g
+r
+A
+p
+
+.
+
+,
+
+A
+>
+G
+3
+4
+7
+c
+
+.
+
+.
+
+o
+y
+0
+5
+t
+a
+r
+e
+c
+n
+a
+c
+
+l
+
+n
+G
+8
+4
+2
+g
+r
+A
+p
+
+.
+
+,
+
+A
+>
+G
+3
+4
+7
+c
+
+.
+
+.
+
+o
+y
+5
+5
+t
+a
+
+,
+
+ T
+>
+C
+0
+2
+2
+4
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+.
+
+:
+
+r
+e
+c
+n
+a
+c
+t
+s
+a
+e
+r
+b
+—
+
+r
+e
+h
+t
+o
+M
+
+o
+N
+
+G
+G
+ T
+A
+G
+T
+0
+0
+2
+4
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+.
+
+:
+
+,
+l
+
+e
+d
+2
+6
+7
+_
+4
+5
+7
+c
+
+.
+
+ T
+>
+G
+A
+G
+T
+
+l
+
+e
+d
+4
+5
+2
+e
+
+l
+I
+
+_
+2
+5
+2
+u
+e
+L
+p
+
+.
+
+e
+v
+i
+t
+a
+g
+e
+n
+
+s
+e
+Y
+
+t
+s
+a
+e
+r
+b
+—
+t
+n
+u
+a
+
+l
+
+a
+n
+r
+e
+t
+a
+M
+
+s
+e
+Y
+
+e
+v
+i
+t
+a
+g
+e
+n
+
+o
+N
+
+3
+3
+
+0
+2
+
+9
+2
+
+9
+4
+
+9
+2
+
+t
+n
+a
+i
+r
+a
+v
+(
+
+t
+s
+B
+
+I
+I
+I
+
+a
+m
+o
+h
+p
+m
+y
+
+l
+
+)
+s
+i
+s
+o
+r
+e
+c
+s
+
+l
+
+l
+
+r
+a
+u
+d
+o
+n
+
+f
+
+o
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+)
+2
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+F
+
+9
+0
+P
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+F
+
+0
+1
+P
+
+’
+
+i
+
+s
+n
+k
+g
+d
+o
+H
+
+)
+1
+
+:
+
+N
+M
+P
+M
+
+F
+
+8
+0
+P
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+)
+2
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+F
+
+7
+0
+P
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 8 of 13
+
+a
+t
+l
+e
+d
+(
+s
+t
+l
+u
+s
+e
+r
+
+)
+s
+e
+r
+o
+c
+s
+
+.
+
+2
+0
+0
+L
+A
+
+.
+
+0
+0
+0
+L
+D
+
+.
+
+4
+0
+0
+G
+A
+
+.
+
+0
+0
+0
+G
+D
+
+.
+
+4
+0
+0
+L
+A
+
+.
+
+0
+0
+0
+L
+D
+
+.
+
+8
+0
+0
+G
+A
+
+.
+
+0
+0
+0
+G
+D
+
+.
+
+2
+0
+0
+L
+A
+
+.
+
+0
+0
+0
+L
+D
+
+.
+
+1
+0
+0
+G
+A
+
+.
+
+0
+0
+0
+G
+D
+
+n
+o
+i
+t
+a
+c
+fi
+i
+s
+s
+a
+l
+c
+
+3
+5
+P
+T
+e
+h
+t
+n
+
+i
+
+t
+e
+r
+p
+m
+o
+h
+C
+
+)
+s
+i
+s
+o
+n
+g
+a
+i
+d
+(
+
+A
+/
+N
+
+,
+-
+F
+O
+L
+
+F
+P
+
+,
+-
+F
+O
+L
+
+F
+N
+
+ ,
++
+F
+O
+L
+
+P
+
+P
+L
+
+P
+
+e
+n
+e
+g
+
+8
+x
+E
+
+.
+
+c
+A
+>
+G
+1
+2
+8
+3
+7
+6
+7
+g
+7
+1
+r
+h
+c
+
+.
+
+:
+
+.
+
+o
+y
+5
+7
+t
+a
+C
+C
+—
+
+r
+e
+h
+t
+o
+m
+d
+n
+a
+r
+G
+
+o
+N
+
+5
+5
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+)
+1
+
+:
+
+N
+M
+P
+M
+
+F
+
+1
+1
+P
+
+.
+
+l
+
+n
+G
+7
+6
+2
+g
+r
+A
+p
+A
+>
+G
+0
+0
+8
+c
+
+.
+
+p
+r
+T
+7
+6
+2
+g
+r
+A
+p
+ T
+>
+C
+9
+9
+7
+
+.
+
+8
+x
+E
+
+ T
+>
+C
+0
+2
+8
+3
+7
+6
+7
+7
+1
+r
+h
+c
+
+:
+
+e
+v
+i
+t
+a
+g
+e
+n
+
+o
+N
+
+s
+i
+H
+3
+7
+2
+g
+r
+A
+p
+
+.
+
+,
+
+A
+>
+G
+8
+1
+8
+c
+
+.
+
+8
+x
+E
+
+,
+
+ T
+>
+C
+2
+0
+8
+3
+7
+6
+7
+7
+1
+r
+h
+c
+
+:
+
+C
+R
+—
+
+r
+e
+h
+t
+o
+m
+d
+n
+a
+r
+g
+
+l
+
+a
+n
+r
+e
+t
+a
+M
+
+o
+N
+
+8
+3
+
+6
+6
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+)
+2
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+F
+
+2
+1
+P
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+F
+
+3
+1
+P
+
+I
+
+A
+e
+c
+i
+l
+
+p
+S
+
+c
+n
+u
+f
+
+,
+s
+s
+a
+l
+c
+F
+O
+L
+
+G
+M
+C
+A
+
+n
+o
+i
+t
+a
+c
+o
+
+l
+
+V
+N
+S
+
+.
+
+5
+6
+4
+5
+0
+0
+0
+_
+M
+N
+
+)
+8
+3
+g
+h
+(
+V
+N
+S
+
+y
+r
+o
+t
+s
+i
+h
+y
+l
+i
+
+m
+a
+F
+
+a
+i
+r
+e
+t
+i
+r
+C
+
+e
+g
+A
+
+s
+e
+t
+i
+s
+N
+M
+
+x
+e
+S
+
+)
+
+d
+e
+u
+n
+i
+t
+n
+o
+c
+(
+
+4
+e
+l
+b
+a
+T
+
+s
+c
+i
+m
+o
+n
+e
+G
+d
+n
+a
+s
+c
+i
+t
+e
+n
+e
+G
+
+l
+
+a
+c
+i
+d
+e
+M
+
+f
+o
+e
+g
+e
+
+l
+l
+
+o
+C
+n
+a
+c
+i
+r
+e
+m
+A
+s
+n
+o
+i
+t
+a
+d
+n
+e
+m
+m
+o
+c
+e
+r
+G
+M
+C
+A
+
+,
+s
+
+l
+
+m
+s
+a
+p
+o
+e
+n
+t
+n
+a
+n
+g
+
+i
+l
+
+a
+m
+y
+r
+a
+m
+
+l
+
+i
+r
+p
+e
+p
+i
+t
+l
+u
+m
+N
+M
+P
+M
+
+,
+r
+e
+c
+n
+a
+c
+l
+
+a
+t
+c
+e
+r
+C
+R
+
+,
+r
+e
+c
+n
+a
+c
+n
+o
+o
+c
+C
+C
+
+l
+
+,
+r
+e
+c
+n
+a
+c
+t
+s
+a
+e
+r
+b
+C
+B
+
+,
+s
+
+l
+
+m
+s
+a
+p
+o
+e
+n
+t
+n
+a
+n
+g
+
+i
+l
+
+a
+M
+N
+M
+
+s
+n
+o
+i
+t
+a
+i
+v
+e
+r
+b
+b
+A
+
+d
+e
+r
+n
+
+i
+
+d
+e
+t
+h
+g
+
+i
+l
+
+i
+
+h
+g
+h
+e
+r
+e
+w
+
+)
+5
+0
+(
+
+.
+
+ff
+o
+t
+u
+c
+d
+e
+d
+n
+e
+m
+m
+o
+c
+e
+r
+e
+h
+t
+g
+n
+d
+e
+e
+c
+x
+e
+s
+e
+r
+o
+c
+s
+a
+t
+l
+e
+d
+e
+h
+t
+
+i
+
+l
+l
+
+A
+
+i
+
+.
+)
+d
+e
+s
+u
+s
+a
+w
+w
+o
+d
+n
+w
+s
+r
+i
+a
+p
+e
+s
+a
+b
+0
+0
+5
+±
+—
+e
+s
+a
+c
+r
+u
+o
+n
+i
+(
+
+t
+i
+
+d
+n
+u
+o
+r
+a
+w
+o
+d
+n
+w
+a
+n
+h
+t
+i
+
+i
+
+i
+
+w
+n
+o
+i
+t
+i
+s
+o
+p
+y
+n
+a
+t
+a
+g
+n
+i
+c
+i
+l
+
+p
+s
+
+s
+t
+c
+e
+ff
+a
+
+t
+n
+a
+i
+r
+a
+v
+e
+h
+t
+
+t
+a
+h
+t
+y
+t
+i
+l
+i
+
+b
+a
+b
+o
+r
+p
+e
+h
+t
+
+s
+a
+d
+e
+t
+e
+r
+p
+r
+e
+t
+n
+
+i
+
+e
+b
+n
+a
+c
+d
+n
+a
+1
+o
+t
+0
+m
+o
+r
+f
+e
+g
+n
+a
+r
+
+s
+e
+r
+o
+c
+s
+a
+t
+l
+e
+D
+
+.
+]
+6
+1
+[
+
+r
+o
+t
+c
+i
+d
+e
+r
+p
+o
+c
+i
+l
+i
+s
+n
+
+i
+
+I
+
+A
+e
+c
+i
+l
+
+p
+S
+m
+o
+r
+f
+d
+e
+r
+i
+u
+q
+c
+a
+s
+e
+r
+o
+c
+s
+a
+t
+l
+e
+d
+s
+n
+a
+t
+n
+o
+c
+n
+m
+u
+o
+c
+s
+t
+l
+u
+s
+e
+r
+
+l
+
+i
+
+I
+
+A
+e
+c
+i
+l
+
+p
+S
+e
+h
+T
+
+.
+
+3
+
+.
+
+i
+
+g
+F
+e
+e
+s
+
+i
+
+,
+s
+e
+e
+r
+g
+d
+e
+P
+r
+e
+c
+n
+a
+C
+e
+h
+T
+
+L
+D
+
+,
+
+e
+r
+o
+c
+s
+
+s
+s
+o
+
+l
+
+r
+o
+t
+p
+e
+c
+c
+a
+L
+A
+
+,
+
+l
+
+e
+b
+a
+
+l
+i
+
+a
+v
+a
+a
+t
+a
+d
+o
+n
+A
+/
+N
+
+,
+]
+8
+1
+[
+
+l
+
+a
+n
+o
+i
+t
+c
+n
+u
+f
+y
+l
+l
+
+a
+i
+t
+r
+a
+p
+F
+P
+
+,
+t
+n
+a
+i
+r
+a
+v
+
+l
+
+a
+n
+o
+i
+t
+c
+n
+u
+f
+-
+n
+o
+n
+F
+N
+
+,
+]
+7
+1
+[
+e
+c
+n
+e
+s
+e
+r
+p
+”
+n
+o
+i
+t
+c
+n
+u
+f
+
+f
+o
+s
+s
+o
+l
+“
+–
+±
+F
+O
+L
+
+,
+
+c
+i
+n
+e
+g
+o
+h
+t
+a
+p
+y
+l
+e
+k
+i
+l
+
+P
+L
+
+,
+
+c
+i
+n
+e
+g
+o
+h
+t
+a
+p
+P
+
+,
+s
+t
+n
+a
+i
+r
+a
+v
+c
+i
+t
+e
+n
+e
+g
+f
+o
+n
+o
+i
+t
+a
+t
+e
+r
+p
+r
+e
+t
+n
+
+i
+
+e
+h
+t
+n
+o
+
+i
+
+e
+r
+o
+c
+s
+n
+a
+g
+r
+o
+n
+o
+d
+G
+D
+
+,
+
+i
+
+e
+r
+o
+c
+s
+n
+a
+g
+r
+o
+t
+p
+e
+c
+c
+a
+G
+A
+
+,
+
+e
+r
+o
+c
+s
+
+s
+s
+o
+
+l
+
+r
+o
+n
+o
+d
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 9 of 13
+
+Fig. 4  Pedigrees of patients with cancer among relatives in several generations (P02, P03, P05, P06). The onset age for alive relatives and the death 
+age if a relative died. Our study also revealed two pairs of unrelated patients with recurring TP53 variants (c.542G > A and c.743G > A)
+
+scientific  literature,  were  represented  by  missense  vari-
+ants within the DNABD domain.
+
+One TP53 variant identified in our study absent in the 
+GnomAD  population  frequency  database  and  are  not 
+described in literature or databases. In patient P02, har-
+boring  the  variant  c.376-1G > C  in  intron  4,  the  family 
+history and clinical features align with Chompret criteria 
+(Fig. 4). Scientific literature describes a different nucleo-
+tide  substitution  in  the  same  DNA  position—c.376-
+1G > A,  clinically  significant,  disrupting  the  canonical 
+splice  acceptor  site  and  detected  in  patients  exhibiting 
+features  of  LFS  [21–24].  Such  genetic  alterations  pre-
+dominantly result in protein loss of function (LOF) [25]. 
+Based on this data, the previously undescribed variant is 
+annotated as pathogenic.
+
+In  the  present  study,  it  was  observed  that  a  signifi-
+cant  proportion  of  TP53  pathogenic  variants  appear 
+to  occur  outside  of  LFS  families,  which  is  a  notewor-
+thy  finding.  However,  a  recent  report  from  a  larger 
+
+study  indicates  a  higher  proportion  of  carriers  com-
+plying  with  the  modified  Chompret  criteria  [26].  This 
+discrepancy  may  be  attributed  to  the  lower  sensitivity 
+of  the  Chompret  criteria  in  our  study,  which  could  be 
+due  to  the  small  number  of  patients  in  the  group  of 
+TP53 mutation carriers. A larger cohort may provide a 
+more comprehensive understanding of the relationship 
+between TP53 variants and compliance with the Chom-
+pret  criteria,  highlighting  the  need  for  further  investi-
+gation in this area.
+
+Our study revealed two pairs of unrelated patients har-
+boring described pathogenic variants. The first pair (P05 
+and P06) exhibited variant c.542G > A in exon 5, leading 
+to  the  p.Arg181His  substitution.  The  minor  allele  fre-
+quency is 0.00001314 (GnomAD Genomes). Patient P05, 
+aged  38,  was  diagnosed  with  unilateral  breast  cancer, 
+whereas  patient  P06,  aged  47,  was  diagnosed  with  syn-
+chronous  bilateral  breast  cancer.  Both  reported  familial 
+history of breast cancer and lung cancer (Fig. 4).
+
+ Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 10 of 13
+
++
+2
+r
+e
+H
+B
+m
+u
+L
+
+)
+
+I
+
++
+H
+S
+F
+ ,
++
+2
+(
+
++
+2
+R
+E
+H
+
++
+2
+r
+e
+H
+B
+m
+u
+L
+
+-
+2
+r
+e
+H
+B
+m
+u
+L
+
+-
+2
+r
+e
+H
+B
+m
+u
+L
+
+-
+2
+r
+e
+H
+B
+m
+u
+L
+
+l
+
+-
+e
+p
+i
+r
+T
+
+l
+
+-
+e
+p
+i
+r
+T
+
+-
+–
+
+-
+2
+R
+E
+H
+
++
+2
+R
+E
+H
+
+-
+2
+R
+E
+H
+
+-
+2
+R
+E
+H
+
+-
+2
+R
+E
+H
+
+-
+2
+R
+E
+H
+
+-
+–
+
+-
+2
+r
+e
+H
+B
+m
+u
+L
+
+)
+
++
+1
+(
+-
+2
+R
+E
+H
+
+-
+–
+
+-
+–
+
++
+2
+r
+e
+H
+
+-
+R
+H
+
+l
+
+-
+e
+p
+i
+r
+T
+
+)
+
++
+3
+(
+
++
+2
+R
+E
+H
+
+-
+2
+R
+E
+H
+
++
+2
+r
+e
+H
+B
+m
+u
+L
+
+-
+2
+r
+e
+H
+B
+m
+u
+L
+
++
+2
+r
+e
+H
+B
+m
+u
+L
+
++
+2
+r
+e
+H
+
+-
+R
+H
+
+l
+
+-
+e
+p
+i
+r
+T
+
+)
+
++
+3
+(
+
++
+2
+R
+E
+H
+
+)
+
++
+1
+(
+-
+2
+R
+E
+H
+
+)
+
++
+3
+(
+
++
+2
+R
+E
+H
+
+)
+
++
+3
+(
+
++
+2
+R
+E
+H
+
+-
+2
+R
+E
+H
+
+A
+/
+N
+
+0
+7
+
+0
+9
+
+5
+3
+
+2
+5
+
+0
+7
+
+A
+/
+N
+
+3
+2
+
+-
+–
+
+0
+5
+
+-
+–
+
+0
+9
+
+0
+3
+
+0
+4
+
+0
+5
+
+0
+3
+
+2
+3
+
+0
+
+6
+
+4
+
+0
+
+,
+
+8
+%
+9
+9
+
+s
+o
+p
+
+-
+–
+
+8
+
+-
+–
+
+0
+
+0
+
+5
+
+6
+
+6
+
+0
+
+0
+
+0
+
+4
+
+5
+
+0
+
+3
+G
+
+2
+G
+
+2
+G
+
+3
+G
+
+s
+o
+p
+
+A
+/
+N
+
+8
+
+,
+
+%
+0
+9
+
+-
+–
+
+8
+
+-
+–
+
+0
+
+0
+
+8
+
+8
+
+8
+
+0
+
+0
+
+2
+G
+
+-
+–
+
+2
+G
+
+-
+–
+
+2
+G
+
+A
+/
+N
+
+3
+G
+
+3
+G
+
+2
+G
+
+3
+G
+
+2
+G
+
+%
+0
+8
+
+%
+0
+9
+–
+0
+8
+
+A
+/
+N
+
+e
+c
+ffi
+o
+
+2
+r
+e
+H
+
+%
+
+,
+
+7
+6
+K
+
+i
+
+e
+r
+o
+c
+s
+r
+o
+%
+
+,
+
+R
+P
+
+e
+r
+o
+c
+s
+r
+o
+%
+
+,
+
+R
+E
+
+e
+d
+a
+r
+G
+
+u
+t
+i
+s
+n
+
+i
+
+C
+D
+
+C
+U
+
+I
+
+-
+–
+
+C
+U
+
+I
+
+u
+t
+i
+s
+n
+
+i
+
+C
+D
+
+i
+
+c
+o
+
+f
+
+h
+t
+i
+
+w
+
+n
+o
+i
+s
+a
+v
+n
+
+i
+
+f
+
+o
+
+C
+U
+
+I
+
+C
+U
+
+I
+
+C
+U
+
+I
+
+C
+U
+
+I
+
+C
+U
+
+I
+
+T
+H
+
+C
+U
+
+I
+
+C
+U
+
+I
+
+C
+U
+
+I
+
+C
+U
+
+I
+
+C
+U
+
+I
+
+A
+/
+N
+
+C
+U
+
+I
+
+t
+s
+V
+
+I
+
+,
+
+s
+g
+n
+u
+
+l
+
+e
+h
+t
+o
+t
+
+s
+t
+
+,
+
+m
+1
+M
+1
+N
+2
+T
+c
+
+t
+s
+A
+
+I
+
+,
+
+0
+M
+0
+N
+c
+1
+T
+p
+
+t
+s
+A
+
+I
+
+,
+
+0
+M
+0
+N
+1
+T
+p
+
+t
+s
+a
+
+I
+I
+
+,
+
+0
+M
+0
+N
+2
+T
+c
+
+t
+s
+A
+
+I
+I
+I
+
+,
+
+0
+M
+2
+N
+2
+T
+p
+
+t
+s
+A
+
+I
+
+,
+
+0
+M
+0
+N
+1
+T
+p
+
+t
+s
+0
+0
+M
+0
+N
+s
+i
+T
+p
+
+t
+s
+A
+
+I
+I
+
+,
+
+0
+M
+0
+N
+2
+T
+c
+
+x
+M
+3
+N
+2
+T
+c
+
+-
+–
+
+t
+r
+A
+C
+
+I
+I
+I
+
+,
+
+0
+M
+3
+N
+3
+T
+
+t
+s
+B
+
+I
+I
+
+,
+
+0
+M
+1
+N
+2
+T
+p
+
+t
+s
+B
+
+I
+I
+I
+
+,
+
+0
+M
+f
+1
+N
+b
+4
+t
+s
+
+t
+s
+A
+
+I
+
+,
+
+0
+M
+0
+N
+b
+1
+T
+c
+
+t
+s
+A
+
+I
+I
+
+,
+
+0
+M
+0
+N
+2
+T
+p
+
+t
+s
+B
+
+I
+I
+I
+
+,
+
+0
+M
+f
+2
+N
+b
+4
+T
+c
+y
+
+t
+s
+A
+
+I
+I
+
+,
+
+0
+M
+0
+N
+2
+T
+c
+
+6
+3
+
+8
+3
+
+6
+3
+
+5
+3
+
+8
+2
+
+8
+3
+
+7
+4
+
+3
+3
+
+0
+2
+
+9
+2
+
+9
+4
+
+9
+2
+
+5
+5
+
+8
+3
+
+6
+6
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+)
+1
+
+:
+
+N
+M
+P
+M
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+)
+2
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+)
+1
+
+:
+
+N
+M
+P
+M
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+)
+2
+
+’
+
+i
+
+s
+n
+k
+g
+d
+o
+H
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+)
+1
+
+:
+
+N
+M
+P
+M
+
+F
+
+F
+
+F
+
+F
+
+F
+
+F
+
+F
+
+F
+
+1
+0
+P
+
+2
+0
+P
+
+3
+0
+P
+
+4
+0
+P
+
+5
+0
+P
+
+6
+0
+P
+
+7
+0
+P
+
+8
+0
+P
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+)
+1
+
+:
+
+N
+M
+P
+M
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+)
+2
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+F
+
+F
+
+F
+
+F
+
+0
+1
+P
+
+1
+1
+P
+
+2
+1
+P
+
+3
+1
+P
+
+B
+
+I
+I
+I
+
+a
+m
+o
+h
+p
+m
+y
+
+l
+
+t
+s
+a
+e
+r
+b
+t
+f
+e
+
+l
+
+)
+2
+
+t
+s
+a
+e
+r
+b
+t
+h
+g
+i
+r
+
+F
+
+9
+0
+P
+
+e
+g
+a
+t
+S
+
+)
+s
+i
+s
+o
+n
+g
+a
+i
+d
+(
+
+e
+g
+A
+
+s
+e
+t
+i
+s
+N
+M
+
+x
+e
+S
+
+a
+m
+o
+n
+i
+c
+r
+a
+c
+l
+
+a
+t
+c
+u
+d
+–
+u
+t
+i
+s
+n
+
+i
+
+C
+D
+
+,
+
+a
+m
+o
+n
+i
+c
+r
+a
+c
+d
+e
+fi
+i
+c
+e
+p
+s
+n
+u
+e
+v
+i
+s
+a
+v
+n
+
+i
+
+C
+U
+
+I
+
+,
+
+e
+p
+y
+t
+b
+u
+s
+
+l
+
+i
+
+l
+
+l
+
+a
+c
+i
+g
+o
+o
+b
+r
+a
+u
+c
+e
+o
+m
+T
+B
+M
+
+l
+
+,
+s
+u
+t
+a
+t
+s
+
+r
+o
+t
+p
+e
+c
+e
+r
+e
+v
+i
+t
+i
+s
+o
+p
+
+.
+s
+o
+p
+
+,
+s
+r
+o
+t
+p
+e
+c
+e
+r
+e
+n
+o
+r
+e
+t
+s
+e
+g
+o
+r
+p
+R
+P
+
+,
+s
+r
+o
+t
+p
+e
+c
+e
+r
+n
+e
+g
+o
+r
+t
+s
+e
+R
+E
+
+,
+
+e
+p
+y
+t
+
+l
+
+l
+
+a
+c
+i
+g
+o
+o
+t
+s
+i
+h
+T
+H
+
+:
+s
+n
+o
+i
+t
+a
+i
+v
+e
+r
+b
+b
+A
+
+l
+
+e
+b
+a
+
+l
+i
+
+a
+v
+a
+a
+t
+a
+d
+o
+n
+A
+/
+N
+
+,
+
+e
+p
+y
+t
+b
+u
+s
+e
+v
+i
+t
+a
+g
+e
+n
+e
+p
+i
+r
+t
+
+l
+
+-
+e
+l
+p
+i
+r
+T
+
+,
+
+e
+p
+y
+t
+b
+u
+s
+
+l
+
+i
+
+a
+n
+m
+u
+l
+-
+n
+o
+n
+-
+R
+H
+
+,
+
+e
+p
+y
+t
+b
+u
+s
+
+l
+
+i
+
+a
+n
+m
+u
+
+l
+
+–
+m
+u
+L
+
+,
+
+u
+t
+i
+s
+n
+
+i
+
+e
+n
+e
+g
+3
+5
+P
+T
+e
+h
+t
+n
+
+i
+
+s
+n
+o
+i
+t
+a
+t
+u
+m
+h
+t
+i
+
+w
+s
+t
+n
+e
+i
+t
+a
+p
+n
+
+i
+
+r
+e
+c
+n
+a
+c
+t
+s
+a
+e
+r
+b
+
+f
+
+o
+s
+e
+r
+u
+t
+a
+e
+f
+
+l
+
+i
+
+l
+
+a
+c
+g
+o
+o
+h
+p
+r
+o
+m
+d
+n
+a
+
+l
+
+a
+c
+n
+
+i
+
+i
+l
+
+C
+
+5
+e
+l
+b
+a
+T
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 11 of 13
+
+The  second  pair  (P08  and  P09)  exhibited  variant 
+c.743G > A  in  exon  7,  resulting  in  the  p.Arg248Gln  sub-
+stitution. The substitution at position Arg248 is the most 
+prevalent  according  to  TP53  Database,  accounting  for 
+9.1%  of  all  described  germline  pathogenic  TP53  vari-
+ants.  Patient  P09,  aged  49,  had  unilateral  breast  cancer, 
+while patient P08 had Hodgkin’s lymphoma at age 20 and 
+breast cancer at age 29. Both reported a familial history 
+of breast cancer (Table 4).
+
+Our  study  involved  138  patients  with  synchronous/
+metachronous  bilateral  breast  cancer,  accounting  for 
+4.7%  (138/2957)  of  all  breast  cancer  patients.  Among 
+TP53  mutation  carriers,  23.1%  (3/13)  exhibited  bilat-
+eral  breast  cancer  (OR = 5.9289,  95%  CI:  1.6130–
+21.7933,  p-value = 0.0074).  Kwong  A.  et  al.  [27]  results 
+indicated  an  OR = 7.0011  (95%  CI:  2.8449–17.2292, 
+p-value < 0.0001),  aligning  with  our  findings.  Thus,  syn-
+chronous/metachronous  bilateral  breast  cancer  is  sig-
+nificantly  more  prevalent  among  breast  cancer  patients 
+with  TP53  gene  mutations  compared  to  those  without 
+mutations.
+
+Functional characteristics of TP53 mutations
+
+In the study by Giacomelli AO et al. [17] an experimen-
+tal  assessment  of  various  TP53  gene  mutations  impact 
+on p53 protein function was demonstrated. Several thou-
+sands  malignant  tumor  cell  lines  with  different  TP53 
+
+mutations  were  analyzed,  subjected  to  substances  acti-
+vating  p53:  nutlin-3  (inhibitor  of  MDM2  and  p53  bind-
+ing)  or  etoposide  (topoisomerase  II  inhibitor,  causing 
+DNA damage). The presence of Dominant Negative (DN) 
+and  Loss  of  Function  (LOF)  effects  for  each  mutation 
+was  determined  through  experiments.  Analyzing  TP53 
+Database  data  reveals  that  these  characteristics  statisti-
+cally significantly influence the age of disease manifesta-
+tion (Fig. 5). For breast cancer patients the average age of 
+manifestation is 38.9 y.o. with LOF + (95% CI: 36.4–41.3) 
+and  53.6  y.o.  (95%  CI:  47.0–60.1)  with  LOF—  muta-
+tions.  This  pattern  holds  true  for  malignant  tumors  at 
+other locations. For lung cancer, the average age of man-
+ifestation  is  50.7  (95%  CI:  44.3–57.1)  and  60.4  (95%  CI: 
+52.2–70.7)  y.o.,  and  for  brain  cancer,  it  is  22.5  (95%  CI: 
+18.5–26.6)  and  34.9  (95%  CI:  25.0–44.8)  y.o.  (LOF + and 
+LOF- respectively).
+
+In  the  study  by  Kato  S  et  al.  [18]  the  assessment  of 
+p53  protein  function  with  different  mutations  was  con-
+ducted using a different method. For each TP53 mutation 
+in  yeast  culture  the  median  transcriptional  activity  of 
+p53  was  calculated  across  8  specific  promoters  (activity 
+expressed  as  a  percentage  of  wild-type  protein  activity). 
+Missense  variants  were  classified  as  "non-functional"  if 
+the median was ≤ 20%; "partially functional" if the median 
+was > 20% and ≤ 75%; "functional" if the median was > 75% 
+and ≤ 140%;  and  finally,  "super-functional"  if  the  median 
+
+Fig. 5  Age of manifestation of cancer depending on the location and functional type of mutation. LOF ± – presence or absence of the loss 
+of function effect according to Giacomelli et al. [17], NF is a non-functional variant, PF is a partially functional variant according to data from [18]. 
+The majority of mutations in the TP53 gene identified in our study are classified as LOF + /NF. LOF—/PF mutations were detected in 5 patients (P05, 
+P06, P07, P11, P12). Given the wide age range at manifestation for each functional mutation type, this parameter does not allow to perform precise 
+prognosis for a specific carrier. However, it may be valuable for assessing the clinical significance of the variant and evaluating the risk of early 
+manifestation of cancer in a family
+
+ Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 12 of 13
+
+was > 140. According to scientific literature in TP53 Data-
+base  most  breast  cancer  patients  with  breast  cancer  are 
+carriers  of  non-functional  (107/133)  or  partially  func-
+tional  (21/133)  variants,  with  an  average  age  of  tumor 
+manifestation of 39.2 (95% CI: 36.7–41.8) and 48.7 (95% 
+CI:  42.3–55.1)  y.o.  respectively.  Functional  and  super-
+functional  variants  (5/133)  in  breast  cancer  patients  are 
+classified as benign or likely benign according to ACMG 
+criteria.
+
+Thus, functional features of the p53 protein determined 
+in cell culture experiments can help determine the clini-
+cal significance of different TP53 mutations.
+
+Conclusion
+Our  study  presents  a  spectrum  of  pathogenic  and  likely 
+pathogenic germline variants of the TP53 gene in a large 
+cohort  of  Russian  patients  diagnosed  with  various  can-
+cers, along with clinical characteristics and family onco-
+logical history of carrier patients. All clinically significant 
+TP53 gene variants were identified in women with breast 
+cancer (including bilateral breast cancer and breast can-
+cer  as  part  of  multiple  primary  malignant  neoplasms). 
+Only  5  out  of  13  mutation  carriers  (38.5%)  met  modi-
+fied  Chompret  criteria,  indicating  candidates  for  molec-
+ular-genetic  testing  of  the  TP53  gene. Therefore,  relying 
+solely  on  these  criteria  in  clinical  practice  for  determin-
+ing indications for genetic testing would fail to identify a 
+half of the mutation’s carriers. This conclusion should be 
+considered in medical-genetic counseling and molecular-
+genetic searches in cases of suspected hereditary cancer, 
+particularly  LFS  syndrome  in  patients  diagnosed  with 
+breast cancer.
+
+Authors’ contributions
+Conceptualization, Anastasiia Danishevich and Daria Fedorova; Data curation, 
+Pavel Osinin and Airat Bilyalov; Formal analysis, Irina Efimova; Investigation, 
+Tatyana Lisitsa, Anastasiya Kha-khina, Syuykum Shumilova, Elena Shagima-
+rdanova and Leyla Shigapova; Project administration, Natalia Bodunova, 
+Maria Makarova, Maria Byakhova, Anna Semenova, Vsevolod Galkin, German 
+Shipulin, Tatiana Nasedkina, Saida Gadzhieva and Igor Khatkov; Supervision, 
+Maria Litvinova, Oleg Gusev, Marina Nemtsova, Olesya Sagaydak and Maria 
+Vorontsova; Writing – original draft, Anastasiia Danishevich, Daria Fedorova, 
+Maria Makarova; Writing – review & editing, Anastasiia Danishevich, Maria 
+Makarova and Sergey Nikolaev. All authors have read and agreed to the pub-
+lished version of the manuscript.
+
+Funding
+This study was sponsored by the Moscow Center for Innovative Technologies 
+in Healthcare.
+
+Data availability
+No datasets were generated or analysed during the current study.
+
+Declarations
+
+Ethics approval and consent to participate
+Ethics committee name: The Local Ethics Committee of the Moscow Clinical 
+Scientific Center, named after A. S. Loginov. Approval code: 46326/15.1. 
+Approval date: 10 May 2022.
+
+Competing interests
+The authors declare no competing interests.
+
+Author details
+1 SBHI Moscow Clinical Scientific Center Named After Loginov of Moscow 
+Healthcare Department, Moscow 111123, Russia. 2 Evogen LLC, Mos-
+cow 115191, Russia. 3 Russian Scientific Center of Roentgenoradiology 
+of the Ministry of Health of the Russian Federation, Moscow 117997, Russia. 
+4 City Clinical Oncological Hospital No. 1 of Moscow Healthcare Department, 
+Moscow 117152, Russia. 5 Federal State Autonomous Educational Institution 
+of Higher Education I.M. Sechenov First Moscow State Medical University 
+of the Ministry of Health of Russian Federation (Sechenov University), Mos-
+cow 119991, Russia. 6 Medical Genetic Research Center Named After Academi-
+cian N.P. Bochkov, Moscow 115522, Russia. 7 FSBI ”Centre for Strategic Planning 
+and Management of Biomedical Health Risks” of the Federal Medical and Bio-
+logical Agency, Moscow 119435, Russia. 8 FSBI ”National Medical Research 
+Center of Oncology Named After N.N. Blokhin” of the Ministry of Health 
+of the Russian Federation, Moscow 115522, Russia. 9 Engelhardt Institute 
+of Molecular Biology of the Russian Academy of Sciences, Moscow 119991, 
+Russia. 10 Life Improvement By Future Technologies (LIFT) Center, Skolkovo, 
+Moscow 143025, Russia. 11 Kazan Federal University, Kazan 420008, Russia. 
+12 National Medical Research Center of Endocrinology, Moscow 117292, Russia. 
+13 Lomonosov Moscow State University, Moscow 119991, Russia. 14 Moscow 
+Healthcare Department, Moscow 127006, Russia. 
+
+Received: 6 December 2024   Accepted: 7 February 2025
+
+References
+ 1.  Amadou A, Achatz MIW, Hainaut P. Revisiting tumor patterns and 
+
+penetrance in germline TP53 mutation carriers: temporal phases of Li-
+Fraumeni syndrome. Curr Opin Oncol. 2018;30(1):23–9.
+
+ 2.  Mai PL, Best AF, Peters JA, DeCastro RM, Khincha PP, Loud JT, et al. 
+
+Risks of first and subsequent cancers among TP53 mutation carriers in 
+the National Cancer Institute Li-Fraumeni syndrome cohort. Cancer. 
+2016;122(23):3673–81.
+
+ 3.  Gargallo P, Yáñez Y, Segura V, Juan A, Torres B, Balaguer J, et al. Li-Fraumeni 
+
+ 4. 
+
+syndrome heterogeneity. Clin Transl Oncol. 2020;22(7):978–88.
+Schon K, Tischkowitz M. Clinical implications of germline mutations in 
+breast cancer: TP53. Breast Cancer Res Treat. 2018;167(2):417–23.
+ 5.  Miller M, Shirole N, Tian R, Pal D, Sordella R. The Evolution of TP53 Muta-
+
+tions: From Loss-of-Function to Separation-of-Function Mutants. J Cancer 
+Biol Res. 2016;4(4):1091.
+
+ 6.  Hernández Borrero LJ, El-Deiry WS. Tumor suppressor p53: Biology, 
+
+ 7. 
+
+signaling pathways, and therapeutic targeting. Biochim Biophys Acta Rev 
+Cancer. 2021;1876(1):188556.
+Surget S, Khoury MP, Bourdon JC. Uncovering the role of p53 splice 
+variants in human malignancy: a clinical perspective. Onco Targets Ther. 
+2013;19(7):57–68.
+
+ 8.  Hanson H, Brady AF, Crawford G, Eeles RA, Gibson S, Jorgensen M, 
+et al. UKCGG Consensus Group guidelines for the management of 
+patients with constitutional TP53 pathogenic variants. J Med Genet. 
+2020;58(2):135–9.
+Frebourg T, Bajalica Lagercrantz S, Oliveira C, Magenheim R, Evans DG, 
+Hoogerbrugge N, et al. Guidelines for the Li-Fraumeni and heritable 
+TP53-related cancer syndromes. Eur J Hum Genet. 2020;28(10):1379–86.
+
+ 9. 
+
+ 10.  Mathias C, Bortoletto S, Centa A, Komechen H, Lima RS, Fonseca AS, et al. 
+Frequency of the TP53 R337H variant in sporadic breast cancer and its 
+impact on genomic instability. Sci Rep. 2020;10(1):16614.
+
+Danishevich et al. Hereditary Cancer in Clinical Practice            (2025) 23:5 
+
+Page 13 of 13
+
+ 11.  Bilyalov A, Nikolaev S, Shigapova L, Khatkov I, Danishevich A, Zhukova 
+L, et al. Application of Multigene Panels Testing for Hereditary Cancer 
+Syndromes. Biology (Basel). 2022;11(10):1461.
+
+ 12.  Makarova M, Nemtsova M, Danishevich A, Chernevskiy D, Belenikin M, 
+Krinitsina A, et al. The CFTR Gene Germline Heterozygous Pathogenic 
+Variants in Russian Patients with Malignant Neoplasms and Healthy Carri-
+ers: 11,800 WGS Results. Int J Mol Sci. 2023;24(9):7940.
+
+ 13.  Makarova M, Nemtsova M, Danishevich A, et al. The CFTR Gene Germline 
+Heterozygous Pathogenic Variants in Russian Patients with Malignant 
+Neoplasms and Healthy Carriers: 11,800 WGS Results. Int J Mol Sci. 
+2023;24(9):7940.
+
+ 14.  Bilyalov A, Danishevich A, Nikolaev S, et al. Novel Pathogenic Variants 
+
+in Hereditary Cancer Syndromes in a Highly Heterogeneous Cohort of 
+Patients: Insights from Multigene Analysis. Cancers (Basel). 2023;16(1):85.
+
+ 15.  Tanaka T, Watanabe M, Yamashita K. Potential therapeutic targets of 
+
+TP53 gene in the context of its classically canonical functions and 
+its latest non-canonical functions in human cancer. Oncotarget. 
+2018;9(22):16234–47.
+
+ 16.  Jaganathan K, Kyriazopoulou Panagiotopoulou S, McRae JF, et al. 
+
+Predicting Splicing from Primary Sequence with Deep Learning. Cell. 
+2019;176(3):535-548.e24. https:// doi. org/ 10. 1016/j. cell. 2018. 12. 015.
+ 17.  Giacomelli AO, Yang X, Lintner RE, McFarland JM, Duby M, Kim J, et al. 
+
+Mutational processes shape the landscape of TP53 mutations in human 
+cancer. Nat Genet. 2018;50(10):1381–7.
+
+ 18.  Kato S, Han SY, Liu W, Otsuka K, Shibata H, Kanamaru R, et al. Understand-
+ing the function-structure and function-mutation relationships of p53 
+tumor suppressor protein by high-resolution missense mutation analysis. 
+Proc Natl Acad Sci U S A. 2003;100(14):8424–9.
+
+ 19.  Sheng S, Xu Y, Guo Y, Yao L, Hu L, Ouyang T, et al. Prevalence and clinical 
+impact of TP53 germline mutations in Chinese women with breast 
+cancer. Int J Cancer. 2020;146(2):487–95.
+
+ 20.  Fortuno C, James PA, Spurdle AB. Current review of TP53 pathogenic ger-
+
+mline variants in breast cancer patients outside Li-Fraumeni syndrome. 
+Hum Mutat. 2018;39(12):1764–73.
+
+ 21.  Hettmer S, Archer NM, Somers GR, Novokmet A, Wagers AJ, Diller L, 
+
+et al. Anaplastic rhabdomyosarcoma in TP53 germline mutation carriers. 
+Cancer. 2014;120(7):1068–75.
+
+ 22.  Villani A, Shore A, Wasserman JD, Stephens D, Kim RH, Druker H, et al. 
+
+Biochemical and imaging surveillance in germline TP53 mutation carriers 
+with Li-Fraumeni syndrome: 11 year follow-up of a prospective observa-
+tional study. Lancet Oncol. 2016;17(9):1295–305.
+
+ 23.  Li JY, Jing R, Wei H, Wang M, Xiaowei Q, Liu H, et al. Germline mutations 
+in 40 cancer susceptibility genes among Chinese patients with high 
+hereditary risk breast cancer. Int J Cancer. 2019;144(2):281–9.
+
+ 24.  Wang Y, Wu J, Li W, Li J, Liu R, Yang B, et al. Retrospective investigation 
+of hereditary syndromes in patients with medulloblastoma in a single 
+institution. Childs Nerv Syst. 2021;37(2):411–7.
+
+ 25.  Baralle D, Baralle M. Splicing in action: assessing disease causing 
+
+sequence changes. J Med Genet. 2005;42(10):737–48.
+
+ 26.  Rofes P, Castillo-Manzano C, Menéndez M, et al. TP53 germline testing 
+and hereditary cancer: how somatic events and clinical criteria affect 
+variant detection rate. Genome Med. 2025;17(1):3.
+
+ 27.  Kwong A, Shin VY, Ho CYS, Au CH, Slavin TP, Weitzel JN, et al. Mutation 
+
+screening of germline TP53 mutations in high-risk Chinese breast cancer 
+patients. BMC Cancer. 2020;20(1):1053.
+
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in pub-
+lished maps and institutional affiliations.
+
+ 

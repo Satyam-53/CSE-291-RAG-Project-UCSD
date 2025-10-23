@@ -1,0 +1,1728 @@
+Hindawi
+BioMed Research International
+Volume 2020, Article ID 3712536, 11 pages
+https://doi.org/10.1155/2020/3712536
+
+Research Article
+Cucurbita ficifolia Fruit Extract Induces Tp53/Caspase-Mediated
+Apoptosis in MCF-7 Breast Cancer Cells
+
+Ghedeir M. Alshammari
+and Abdulrahman Al-Khalifa
+
+, Aristatile Balakrishnan , Ali A. Alshatwi
+
+,
+
+Adipocytes and Metabolic Disorders Lab, Department of Food Science and Nutrition, College of Food and Agricultural Science,
+King Saud University, P.O. Box 2460, Riyadh 11451, Saudi Arabia
+
+Correspondence should be addressed to Ghedeir M. Alshammari; aghedeir@ksu.edu.sa
+
+Received 30 January 2020; Revised 2 June 2020; Accepted 2 June 2020; Published 26 June 2020
+
+Academic Editor: Bo Zuo
+
+Copyright © 2020 Ghedeir M. Alshammari et al. This is an open access article distributed under the Creative Commons Attribution
+License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is
+properly cited.
+
+The second most biggest cancer worldwide is breast cancer. There is an increasing need for safer, eﬀective, and aﬀordable drug
+candidates from natural sources to treat breast cancer. In the present investigation, the anticancer eﬀect of Cucurbita ﬁcifolia
+Bouché (C. ﬁcifolia) fruit extract was tested on the human breast cancer cells such as MCF-7. The cells were exposed with
+diﬀerent doses of C. ﬁcifolia, for the assessment of IC50 concentrations on the MCF-7 cell lines for 24 hs. The eﬀect of C. ﬁcifolia
+fruit extract on morphological and apoptotic changes were evaluated by speciﬁc ﬂuorescence staining techniques and real-time
+PCR in a time-dependent manner for 24 hs and 48 hs. The IC50 value for C. ﬁcifolia fruit extract was found to be 90 μg/mL.
+Morphological alteration and apoptotic distinctiveness aspect like chromatin condensation and nuclear fragmentation were
+noticed in C. ﬁcifolia extract exposed breast cancer cells. Further, we observed that C. ﬁcifolia extract-induced programmed cell
+death in the MCF-7 cells were mediated with the elevated expression of the tumor suppressor gene such as p53 and apoptotic
+markers such as caspase-8, caspase-9, caspase-3, fatty acid synthase (FAS), Fas-associated protein with death domain (FADD),
+Bcl-2 homologous antagonist/killer (BAK), and Bcl-2-associated X protein (BAX). These observations established that C. ﬁcifolia
+signiﬁcantly concealed the cell division and provoked p53/caspase-mediated programmed cell death. Further, we noticed that
+this cell death in MCF-7 cells is concentration and time dependent. As evaluated through the comet assay, C. ﬁcifolia induced
+DNA damage; further upon increasing the duration of the treatment, the DNA damage was higher than before. Thus, our study
+concludes that C. ﬁcifolia could serve as an eﬀective anticancer agent through vital gene modulation.
+
+1. Introduction
+
+The most widespread cancer around the world in women is
+breast cancer, with nearly 2 million fresh patients diagnosed
+in 2018. This data shows that ~12% of all new cancer patients
+and 25% of all cancers in women are breast cancer. On the
+one hand, the incidence of breast cancer is increasing every
+year; on the other hand, mechanisms leading to the progres-
+sion of breast cancer are still in mercy. The molecular mech-
+anisms and genetic alterations in this disease have not been
+completely established [1]. The occurrence of breast cancer
+is increasing in the developing world due to the increase in
+urbanization, unhealthy dietary habits, and adoption of
+Western lifestyles [2].
+
+Numerous studies show that evasion of programmed cell
+death (PCD) is one of the properties acquired by cancer cells.
+On the other hand, research reports show that PCD is a wide-
+spread mechanism through which most of the cancer chemo-
+therapeutic agents exert their anticancer eﬀect [3]. Studies
+show that gene-regulating apoptosis can mediate chemosen-
+sitivity [4, 5]. Various research data report that p53 level
+could be one of the signiﬁcant determinants for tumor che-
+mosensitivity [6, 7]. It is known that ~50% of all human
+tumors have mutated tumor suppressor gene p53 (TSG-
+p53) [8]. Further, it is observed that loss of regular p53 func-
+tion is implicated in hereditary as well as sporadic breast can-
+cer. Because of the TSG mutation, breast cancer shows
+diﬀerent response to conventional cancer drugs [9]. On the
+
+2
+
+BioMed Research International
+
+other hand, these cancer cells also develop drug resistance to
+normal drug therapy [10]. The low eﬃciency of present che-
+motherapeutic drugs has warranted new research into diﬀer-
+ent foundations to progress existing therapy regime or to
+serve as a revenue of chemoprevention.
+
+PCD is described by the commencement of precise cyste-
+ine proteases branded as caspases, chromatin compression,
+DNA disintegration, and cell contraction. Two apoptotic
+passageways congregate on caspase-3, the extrinsic pathway
+concerning caspase-8 activation, and the intrinsic pathway
+involving mitochondrial discharge of cytochrome c and com-
+mencement of caspase-9 activation [11]. Apoptosis is a key
+factor for the evaluation of potential agents for cancer treat-
+ment and prevention [12].
+
+Almost all cancer cells show drug resistance and also low-
+ered eﬃcacy to the currently used chemotherapeutic sub-
+stances; this urged all cancer researchers to search novel
+drugs from natural foundations. Even though the existing
+chemotherapeutic agents are talented to hinder or slaughter
+tumor cells, the problem of toxicity and adverse eﬀects
+restrict the clinical usage of these chemicals as a drug candi-
+date. A natural substance, which could slaughter the cancer
+cells and has nil or less toxicity on healthy cells, is considered
+a good candidate for cancer therapeutic strategies [13].
+Cucurbita ﬁcifolia Bouché (C. ﬁcifolia),
+
+from the
+Cucurbitaceae family, is grown in the whole world as a
+food crop as well as a traditional medicine. Further, this
+plant has been used in China, Argentina, India, Brazil,
+and Iran as traditional medicine [14]. This plant has been
+acknowledged as a functional food because of its numerous
+medicinal application [15–17]. Further, anti-inﬂammatory
+cardiovascular and hepatoprotective substances have been iso-
+lated from this plant, and cytotoxicity was also established
+[18]. In addition, the mature fruit macerated in water has been
+used for the treatment of diabetes [19]. The antiobese eﬀect
+has been reported in literature [20]. Recently, we have estab-
+lished its antilipogenic eﬀect through mesenchymal stem cell
+transition [21].
+
+As part of the larger project, the present study focused
+on the investigation of cytotoxicity of the chloroform extract
+of C. ﬁcifolia in breast cancer MCF-7 cell
+lines. Besides
+studying the cytotoxicity in MCF-7 cells, the present study
+speciﬁcally analyzed the eﬀect of the C. ﬁcifolia chloroform
+extract on Tp53/caspase-mediated apoptosis to ﬁnd out the
+probable mechanism of cell death in MCF-7 cell lines. Fur-
+ther, we also assayed the eﬀect of the C. ﬁcifolia extract on
+normal rat hepatocytes.
+
+2. Materials and Methods
+
+2.1. Plant Material and Extraction. Cucurbita ﬁcifolia Bouché
+(C. ﬁcifolia) fruit extract was selected on the basis of ethno-
+pharmacology. C. ﬁcifolia fruit was collected from reputable
+farms in the month of April 2015, Riyadh, Saudi Arabia.
+The plant material was authenticated by Dr. Jacob Thomas
+Pandalayil, Herbarium Division, College of Science, King
+Saud University, Riyadh 11451 (no. KSU-7965), Saudi Ara-
+bia. The whole fruit excluding the outer shell was dried in a
+shaded place and ground and soaked in chloroform for
+
+extraction. The solvent amount was taken 10 times more
+than the amount of ground plant substance. Extraction was
+carried out three times for an overall time period of 24 hs.
+Under reduced pressure, the extract was allowed to evaporate
+to dryness at 30°C. For the experimental purpose, 100 mg of
+the extract was dissolved in 10 mL Dulbecco’s Modiﬁed
+Eagle’s Medium (DMEM) (10% FCS) to get a stock solution
+(10 mg/mL) and was additionally thinned with a medium
+to various concentrations ranging between 0 and 150 μg/mL
+for the study. In our previous study, we have identiﬁed the
+in the C. ﬁcifolia fruit: D-
+active components present
+glucopyranosylamine (67.8%), n-hexadecanoic acid (17.7%),
+and 1,4-cyclooctadiene (15.8%) as major components using
+GC-MS NIST library analysis [21].
+
+2.2. Maintenance of MCF-7 Cells. The mycoplasma-free
+MCF-7 breast cancer cell line was used for the current investi-
+gation. The MCF-7 cell was cultured and allowed to grow in
+90% DMEM + phenol red, complemented with 10% fetal
+bovine serum (FBS) and streptomycin/penicillin (0.1 mg/100
+units, mL) in a humidiﬁed ambiance of 95% air and 5% CO2
+at 37°C. Every single one of the experimental investigations
+was performed in cells grown to ~70% to 80% conﬂuence.
+All the experiments were performed between the 3rd and
+5th passages of MCF-7 cells. After the experimental periods,
+the cells were collected following trypsinization. The Trypan
+blue exclusion test was used to assay cell viability. The control
+cell viability was found to be superior than 95%.
+
+2.3. CellTiter-Blue® Viability Assays.
+In MCF-7 cells,
+CellTiter-Blue® Viability Assay (Promega) was carried out
+to evaluate the toxicity of various doses of the C. ﬁcifolia
+extract. The manufacturer’s directions were exactly followed
+to carry out the experiment. In detail, MCF-7 cells (2 × 104
+cells/well) were grown in 96-well cell culture plates and
+exposed with 0-150 μg/mL of extract for 24 hs. After the
+experimental period, 40 μL of cell titer blue viability solution
+was straightway added to the experimental cells, and incuba-
+tion was continued further for 6 hs at 37°C. Using a Bio-Rad
+microplate ﬂuorescence reader, the ﬂuorescence intensity
+was recorded at 560 nm excitation and 590 nm emission ﬁl-
+ter. IC50 was derived from the above said reading. Quadru-
+plet samples were run for every experimental doses of the
+C. ﬁcifolia extract in three autonomous experiments. The
+results were expressed as mean ± SD.
+
+Viability %ð Þ = A½
+
+test/ A½
+
+
+
+
+control × 100,
+
+ð1Þ
+
+where ½A
+is the absorbance of a control sample.
+
+test is the absorbance of the test sample and ½A
+
+control
+
+2.4. Studies on Normal Hepatocytes. Hepatocytes were iso-
+lated from a healthy rat and maintained as explained by Sub-
+astri et al. [22]. The cells were exposed to C. ﬁcifolia extract
+(0-150 μg/mL) for 24 hs. After the experimental period, cell
+viability was assayed as mentioned above.
+
+2.5. TUNEL Assay. To study the concentration- and time-
+dependent eﬀect of the C. ﬁcifolia extract on apoptosis, the
+DeadEnd® TUNEL Assay kit (Promega) was employed. The
+
+ 2738, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/3712536, Wiley Online Library on [22/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseBioMed Research International
+
+3
+
+manufacturer’s directions were stringently followed.
+In
+detail, cells (MCF-7 cells (1:5 × 106 cells/well)) were subcul-
+tured a 6-well plate and allowed to grow for semiconﬂuence.
+Cells were exposed to a fresh medium containing the C. ﬁci-
+folia extract at a concentration of 90 μg/mL for 24 hrs and
+48 hrs. Subsequent to the experimental duration, the culture
+medium containing the C. ﬁcifolia extract was removed,
+and experimental cells were washed twice with ice-cold
+PBS. Cells were ﬁxed with 4% methanol-free formaldehyde
+solution. After ﬁxing, cells were again washed with normal
+PBS (twice) and stained according to the DeadEnd ﬂuo-
+rometric TUNEL scheme procedure. Control and experimen-
+tal cells stained with TUNEL assay solutions were observed
+under a Carl-Zeiss (Axiovert) epiﬂuorescence microscope
+using a triple bandpass ﬁlter. Each condition minimum of
+ten random ﬁelds consisting around 1000 cells was counted
+and percent apoptotic positive cells were calculated. For cal-
+culation purpose, a person who is blind of the experimental
+condition was employed.
+
+2.6. Acridine Orange/Ethidium Bromide (AO/EB) Staining.
+To distinguish apoptotic and necrotic cells, AO/EB staining
+procedure was adopted as explained by Subastri et al. [23].
+In brief, MCF-7 cells were grown in 24-well cell culture plates
+(105 cells/well). After noticing semiconﬂuence, cells were
+exposed to the C. ﬁcifolia extract (90 μg/mL) for 24 hrs and
+48 hrs. After the experimental period, the cells were washed
+with PBS and stained with AO/EB dye mix (100 μg/mL of
+AO and 100 μg/mL of EB in PBS) for 5 min. Stained cells
+were washed with PBS to remove excess staining solution.
+The necrotic, apoptotic, and healthy cells were distinguished
+under the ﬂuorescent microscope at 400x magniﬁcation.
+
+2.7. Quantitative PCR Analysis through Real Time. Diﬀer-
+ences in key apoptotic genes were analyzed in the control
+and experimental cells. For the above said purpose, we have
+used the reverse transcription-PCR (RT-PCR) from Applied
+Biosystems 7500 Fast. Further, a real-time SYBR Green/ROX
+gene expression assay kit from QIAGEN was employed. Fas-
+tlane® Cell cDNA kit from QIAGEN was used to make the
+cDNA from diﬀerent experimental cells. The mRNA levels
+of caspase-8, caspsase-3, caspase-9, protein-53 (p53), FAS,
+Fas-associated death domain (FADD), Bcl-2-associated X
+protein (BAX), and Bcl-2 homologous antagonist killer
+(BAK) as well as the reference gene glyceraldehyde-3 phos-
+phate dehydrogenase (GAPDH) were assayed in diﬀerent
+experimental conditions. We used gene-speciﬁc SYBR
+Green-based QuantiTect® Primer assays from QIAGEN.
+the manufacturer’s
+For quantitative real-time RT-PCR,
+instruction was followed to make a reaction volume of
+25 μL. This mixture contains a master mix of 12.5 μL, primer
+volume (2.5 μL) (10x), and 100 μg of template cDNA (10 μL)
+added to every condition. Following a tiny centrifugation, the
+PCR plate was proceeded to 35 cycles of PCR reaction. The
+reaction cycle is as follows: the PCR activation at 95°C for 5
+minutes, denaturation at 95°C for 5 seconds, and annealin-
+g/extension at 60°C for 10 seconds. Control and experimental
+conditions were run in triplicates on an ABI 7500 Fast Real-
+time PCR system. After the PCR cycle, the quantitative RT-
+
+PCR data was analysed. The comparative threshold (Ct)
+technique and the fold inductions of the test were evaluated
+against the healthy untreated cells. For each and every condi-
+tion, the GAPDH expression was quantiﬁed and served as an
+internal reference gene. The expression proﬁle of diﬀerent
+apoptotic genes was normalised against the GAPDH gene.
+Further, the expression pattern of diﬀerent apoptotic genes
+in the healthy control and C. ﬁcifolia extract-exposed cells
+for 24 hrs and 48 hrs was calculated through the Ct value.
+The data were mentioned as the ratio of the GAPDH gene
+to objective the gene by using the subsequent formula: ΔCt
+= Ct ðapoptotic genesÞ − Ct ðGAPDHÞ. To estimate the com-
+parative expression patterns, the subsequent formula was
+employed: ΔΔCt = ΔCt ðtreatedÞ − ΔCt ðcontrolÞ. In crisp,
+the expression patterns were mentioned as n-level diﬀerences
+comparative to that of the calibrator. The calculated data was
+used to plot the expression of apoptotic genes using the
+expression of 2-ΔΔCt [24].
+
+2.8. DNA Damage by Comet Analysis. To estimate DNA
+damage in individual cells, the comet procedure was adopted
+as mentioned in Suyavaran et al., 2015.
+
+2.9. Statistical Analysis. One-way analysis of variance
+(ANOVA) was used to calculate statistical diﬀerences. The
+diﬀerent experimental samples were compared by Duncan’s
+multiple range test (DMRT) using SPSS Software Package,
+version 11.0. Data were mentioned as mean ± S:D. (n = 6 in
+each sample). A value of P ≤ 0:05 was considered to be statis-
+tically signiﬁcant.
+
+3. Results
+
+3.1. Eﬀect of C. ﬁcifolia Extract on Cell Cytotoxicity in MCF-7
+Cells. The CellTiter-Blue® Viability Assay was employed to
+formulate a preliminary estimation of the cytotoxicity eﬀect
+of the C. ﬁcifolia chloroform extract on MCF-7 cells. Further,
+to evaluate the individual IC50 at diﬀerent doses of the C. ﬁci-
+folia extract (0-150 μg/mL), cells were exposed for 24 hrs and
+48 hrs. A concentration-dependent decrease in cell viablity
+was noticed after 24 hr exposure to the C. ﬁcifolia extract,
+and the IC50 of the C. ﬁcifolia extract for MCF-7 cells was
+found to be 90 ± 5 μg/mL (Figure 1(a)). Normal hepatocytes
+were exposed to diﬀerent concentrations of the C. ﬁcifolia
+extract. We found that IC50 of the C. ﬁcifolia extract for hepa-
+tocytes is 130 ± 8 μg/mL (Figure 1(b)). P < 0:05 signiﬁcance
+was observed at 75 μg/mL; the concentration of C. ﬁcifolia
+at 24 hrs was 50 μg/mL at 48 hrs, indicating that when the
+duration of exposure increased, the concentration of the
+extract required to inhibit cell growth is (P < 0:01 and P <
+0:001) decreased. This result indicate that C. ﬁcifolia extract
+more sensitive for MCF-7 cells.
+
+3.2. Eﬀect of C. ﬁcifolia Extract on Apoptosis-Mediated Cell
+Death through TUNEL Assay. The apoptotic eﬀect of the C.
+ﬁcifolia extract on MCF-7 cells was shown in Figures 2 and
+3. We have used the TUNEL assay method to assess the C.
+ﬁcifolia extract-induced apoptotic cell death. In the exposure
+of MCF-7 cells to the C. ﬁcifolia extract, a time-dependent
+elevation in the induction of apoptosis was noticed. The
+
+ 2738, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/3712536, Wiley Online Library on [22/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License4
+
+BioMed Research International
+
+s
+l
+l
+e
+c
+
+e
+l
+b
+a
+i
+v
+t
+n
+e
+c
+r
+e
+P
+
+120
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+⁎
+
+@
+
+IC50 = 90±5 𝜇g/mL
+
+s
+l
+l
+e
+c
+
+120
+
+100
+
+80
+
+60
+
+⁎
+
+IC50 = 138±8 𝜇g/mL
+@
+
+#
+
+#
+
+#
+
+L
+m
+/
+g
+𝜇
+0
+0
+1
+
+#
+
+L
+m
+/
+g
+𝜇
+5
+2
+1
+
+#
+
+L
+m
+/
+g
+𝜇
+0
+5
+1
+
+L
+m
+/
+g
+𝜇
+0
+
+L
+m
+/
+g
+𝜇
+5
+2
+
+L
+m
+/
+g
+𝜇
+0
+5
+
+L
+m
+/
+g
+𝜇
+5
+7
+
+Concentration
+
+(a)
+
+e
+l
+b
+a
+i
+v
+t
+n
+e
+c
+r
+e
+
+40
+20P
+0
+
+L
+m
+/
+g
+𝜇
+0
+
+L
+m
+/
+g
+𝜇
+5
+2
+
+L
+m
+/
+g
+𝜇
+0
+5
+
+L
+m
+/
+g
+𝜇
+5
+7
+
+L
+m
+/
+g
+𝜇
+0
+0
+1
+
+L
+m
+/
+g
+𝜇
+5
+2
+1
+
+L
+m
+/
+g
+𝜇
+0
+5
+1
+
+Concentration
+
+(b)
+
+Figure 1: MCF-7 (a) and normal hepatocyte (b) cell viability was determined by the CellTiter assay. MCF-7 cells were treated with various
+concentrations (0-150 μg/mL) of C. ﬁcifolia chloroform extract and results are expressed as percentage of viability, normalized with untreated
+control (mean ± SD). ∗P ≤ 0:05, @P ≤ 0:01, and #P ≤ 0:001, control vs. diﬀerent treatments. The experiment was repeated thrice with triplicate.
+
+#
+
+#
+
+s
+l
+l
+e
+c
+
+e
+v
+i
+t
+i
+s
+o
+p
+-
+L
+E
+N
+U
+T
+
+45
+
+40
+
+35
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+24 hs
+
+48 hs
+
+Control
+C. ﬁcifolia extract (IC50)
+
+Figure 2: Percentage of TUNEL-positive cell
+indication of
+apoptosis after 24 hs and 48 hs of exposure of MCF-7 cells with or
+without C. ﬁcifolia chloroform extract (90 μg/mL). #P ≤ 0:001,
+control vs. treatment. The experiment was repeated thrice with
+triplicate.
+
+IC50 dose (90 μg/mL) of C. ﬁcifolia extract-exposed cells
+shows 27 ± 4% (P < 0:001) TUNEL positive at 24 hrs, when
+compared with untreated healthy control cells. When the
+duration of the C. ﬁcifolia extract exposure was increased,
+we have observed 42 ± 9% (P < 0:001) TUNEL-positive cells
+at 48 hrs when compared with normal cells.
+
+3.3. Acridine Orange/Ethidium Bromide Staining. AO/EB
+staining was employed to investigate the induction of apo-
+ptotic nuclear damage in the cytotoxicity of the C. ﬁcifolia
+extract on MCF-7. Microscopic observations of cells stained
+
+with AO/EB indicated that untreated cells (negative control)
+displayed normal nuclear morphology with a bright green
+ﬂuorescence. Whereas the cells treated with the C. ﬁcifolia
+extract for 24 hrs and 48 hrs showed early apoptotic cells with
+greenish yellow nuclei, late apoptotic cells indicated con-
+densed orange-red nuclei, while dead cells depicted red
+nuclei. Nuclear fragmentation, presence of apoptotic bodies,
+chromatin condensation, and membrane blabbing of apopto-
+tic cells were also obvious upon assessment of AO/EB-
+stained cells under a ﬂuorescent microscope (Figure 4).
+
+3.4. Eﬀect of C. ﬁcifolia Extract on Quantiﬁcation of mRNA
+Levels of Apoptotic-Related Genes. To investigate the molecu-
+lar mechanism of C. ﬁcifolia extract-induced apoptosis in
+MCF-7 cells, the expression levels of various apoptosis-
+related genes were examined by real-time PCR. Figures 5
+and 6 summarize the C. ﬁcifolia extract-induced apoptotic
+gene expression levels in the fold change of p53, caspase-3,
+caspase-8, and caspase-9 and FADD, FAS, BAK, and BAX
+in MCF-7 cells as compared to the control. The upregulated
+expression of p53 (P < 0:001, vs. the respective control;
+24 hrs vs. 48 hrs, P < 0:05), caspase-3 (P < 0:001 vs. the
+respective control; 24 hrs vs. 48 hrs, P < 0:05), caspase-8
+(P < 0:001 vs. the respective control; 24 hrs vs. 48 hrs, P <
+0:05), and caspase-9 (P < 0:001 vs. the respective control;
+24 hrs vs. 48 hrs, P < 0:05), genes in MCF-7 cells treated with
+90 μg/mL of the C. ﬁcifolia extract for 24 and 48 hs (Figure 5).
+Similarly, the expression levels of FADD (P < 0:001 vs.
+the respective control; 24 hrs vs. 48 hrs, P < 0:05), FAS
+(P < 0:001 vs. the respective control; 24 hrs vs 48 hrs, P <
+0:05), BAK (P < 0:001 vs. the respective control; 24 hrs vs.
+48 hrs, P < 0:05), and BAX (P < 0:001 vs. the respective con-
+trol; 24 hrs vs. 48 hrs, P < 0:05) in MCF-7 cells treated with
+90 μg/mL C. ﬁcifolia extract for 24 and 48 hs were up-
+regulated as compared to control (Figure 6).
+
+3.5. Eﬀect of C. ﬁcifolia Extract on DNA Damage. Figure 7(a)
+shows the comet pattern and the percent of cells with comet,
+
+ 2738, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/3712536, Wiley Online Library on [22/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BioMed Research International
+
+5
+
+s
+h
+4
+2
+
+s
+h
+8
+4
+
+l
+
+o
+r
+t
+n
+o
+C
+
+a
+i
+l
+o
+f
+i
+c
+ﬁ
+
+.
+
+C
+
+l
+
+o
+r
+t
+n
+o
+C
+
+a
+i
+l
+o
+f
+i
+c
+ﬁ
+
+.
+
+C
+
+PI
+
+(a)
+
+(c)
+
+(e)
+
+(g)
+
+FITC
+
+100 𝜇M
+
+100 𝜇M
+
+(b)
+
+(d)
+
+(f)
+
+(h)
+
+100 𝜇M
+
+100 𝜇M
+
+100 𝜇M
+
+100 𝜇M
+
+100 𝜇M
+
+100 𝜇M
+
+Figure 3: PI staining and TUNEL assay (microscopic) after 24 hs (a–d) and 48 hs (e–h) incubation of MCF-7 treated with 90 μg/mL C.
+ﬁcifolia chloroform extract with the control. Red ﬂuorescence is due to propodium iodide (PI) (thick arrow) staining observed under
+green ﬁlter. TUNEL-positive cells (thin arrow) are with red ﬂuorescence and blue indicates the nucleus. Observations were done at 200x
+for PI and 400x for TUNEL magniﬁcation.
+
+comet tail length, and percent of DNA in the head as shown
+in Figures 7(b)–7(d). Control cells at 24 hs and 48 hs showed
+a nil comet pattern (Figures 7(a), i and iii); on the other
+hand, cells treated with C. ﬁcifolia showed statistically
+(P < 0:001) signiﬁcant number of cells with DNA damage
+(Figures 7(a), ii and iv and Figure 7(b)). Tail
+length of
+treated cells (Figure 7(c)) is increased (P < 0:01) than that
+of untreated cells. Further, the increase in the duration of
+treatment augments the DNA damage (P < 0:001). Further,
+the results shows that control cells (Figure 7(d)) have higher
+percent of DNA in the head (>92%) and the tail region con-
+tains only ~5-7% DNA. For MCF-7 cells exposed with C.
+ﬁcifolia alone (Figure 7(d)), the percent of DNA in the head
+region was decreased (P < 0:001) (~65% at 24 hs and~15% at
+48 hs) and in the tail region was increased (P < 0:001) (~35%
+at 24 hs and ~85 at 48 hs) when compared to untreated
+MCF-7 cells.
+
+4. Discussion
+
+[29],
+
+In many countries, pumpkin is used for its medicinal value as
+an antidiabetic as well as for the management of parasites and
+worms. In the past few decades, researchers have concen-
+trated on the antidiabetic [25, 26], antihypertension [26],
+antibacterial, antifungal [27, 28] antihypercholesterolemic,
+immunomodulatory, anti-
+intestinal antiparasitic
+inﬂammatory [30], and analgesic eﬀects of pumpkin [31].
+Polysaccharides present
+in the pumpkin are known to
+increase the cell immune function and are responsible for
+the immunomodulatory activity of pumpkin [32]. Further-
+more, the augmentation of splenic lymphocyte proliferation,
+natural killer cell activity, and an elevation in the number of
+CD8+, CD4+ T cells, and the CD4+/CD8+ ratio have been
+observed in pumpkin extract-exposed animals [33]. Many
+investigators have explored the anticancer eﬀect of pumpkin
+
+ 2738, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/3712536, Wiley Online Library on [22/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License 
+ 
+ 
+ 
+6
+
+BioMed Research International
+
+Light microscopy
+
+Fluorescent microscopy
+
+(a)
+
+(c)
+
+(e)
+
+(g)
+
+(b)
+
+(d)
+
+(f)
+
+(h)
+
+Figure 4: Phase contrast and ﬂuorescent microscopy of MCF-7 cells treated with C. ﬁcifolia chloroform extract after 24 hs (a–d) and 48 hs
+(e–h). Cell morphology is intact in untreated controls (a, c). Distortion of cell morphology and increased number of dead cells are evident
+from phase contrast microscopy (arrows in b and d). Early and late apoptotic cells are visible through AO/EB ﬂuorescent staining (e–h).
+Nuclear fragmentation and ballooning can be observed, and the fragmentation of the nuclei and micronucleus is visible (arrows in f and h).
+Observation at 400x magniﬁcation.
+
+extracts [34, 35]. The cytotoxicity technique commonly has a
+wide range of understanding and is capable of sensing vari-
+ous novel anticancer compounds. Further, these compounds
+are capable of inhibiting the biochemical function in diﬀerent
+human as well as animal cancer cell origin. Treatment with
+the C. ﬁcifolia extract to the culture medium prevented the
+proliferation of MCF-7 cells in a dose- and time-dependent
+manner, revealing its cytotoxic potential. These ﬁndings
+agree that diﬀerent in vitro investigations reported that phar-
+macologically eﬀective compounds from natural sources pro-
+ﬁciently decrease the viability of mammalian cancer cells
+through a wide mode of action [36, 37]. Normal hepatocytes
+were exposed to the C. ﬁcifolia extract; it showed a higher
+
+IC50 value than that of MCF-7 cells. This study indicates
+the diﬀerent compassion of the C. ﬁcifolia extract on nor-
+mal cells.
+
+We observed a little but obvious elevation in DNA strand
+breaks by adopting the most sensitive technique such as
+TUNEL assay, in the extract of C. ﬁcifolia-treated MCF-7
+cells as compared to untreated cells. The C. ﬁcifolia extract
+showed the morphological characteristics of apoptosis in
+MCF-7 cells. As observed by other investigators, TUNEL
+assay shows the type of DNA damage, which is essential for
+apoptosis in MCF-7 cells. These ﬁndings also denote that
+the TUNEL technique may have shown positive results for
+infrequent DNA damage. Similar observations were (large
+
+ 2738, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/3712536, Wiley Online Library on [22/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseBioMed Research International
+
+7
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+
+t
+c
+e
+p
+s
+e
+r
+h
+t
+i
+
+l
+
+w
+e
+g
+n
+a
+h
+c
+d
+o
+f
+n
+o
+i
+s
+s
+e
+r
+p
+x
+E
+
+5
+
+4.5
+
+4
+
+3.5
+
+3
+
+2.5
+
+2
+
+1.5
+
+1
+
+0.5
+
+0
+
+⁎
+
+@
+
+@
+
+⁎
+
+@
+
+@
+
+⁎
+@
+
+@
+
+⁎
+
+@
+
+@
+
+TP53
+
+Cas-3
+
+Cas-8
+
+Cas-9
+
+24 hs control
+24 hs C. ﬁcifolia fruit extract treated
+48 hs control
+48 hs C. ﬁcifolia fruit extract treated
+
+Figure 5: Comparison of the change in the expressions of p53,
+caspase-3, caspase-8, and caspase-9 genes expressed as respective
+gene/GAPDH (ratio)
+in MCF-7 cells after 24 hs and 48 hs
+exposure with C. ﬁcifolia chloroform extract (90 μg/mL).
+of
+@P ≤ 0:001, respective control vs. treated samples. ∗P ≤ 0:05, 24 hs
+treatment of samples vs. 48 hs treatment. The experiment was
+repeated thrice with triplicate.
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+
+t
+c
+e
+p
+s
+e
+r
+h
+t
+i
+
+l
+
+w
+e
+g
+n
+a
+h
+c
+d
+o
+f
+n
+o
+i
+s
+s
+e
+r
+p
+x
+E
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+@
+
+@
+
+@
+
+@
+
+⁎
+
+@
+
+@
+
+@@
+
+FADD
+
+FAS
+
+BAK
+
+BAX
+
+24 hs control
+24 hs C. ﬁcifolia fruit extract treated
+48 hs control
+48 hs C. ﬁcifolia fruit extract treated
+
+Figure 6: Comparison of the change in the expression of FADD,
+FAS, BAK, and BAX genes expressed as the fold change (ratio
+of target: reference gene) in MCF-7 cells after 24 hs and 48 hs
+(90 μg/mL).
+of exposure with chloroform C. ﬁcifolia extract
+@P ≤ 0:001, respective control vs. treated samples. ∗P ≤ 0:05, 24 hs
+treatment of samples vs. 48 hs treatment. The experiment was
+repeated thrice with triplicate.
+
+fragment formation) reported in other compound-induced
+cancer cytotoxicity-mediated cell death [38].
+
+Normal healthy live cells become visible with uniformly
+green color stained with AO/EB, whereas early apoptotic cells
+
+appeared as green with a bright dot in the nuclei, which is due
+to the result of chromatin condensation. Late apoptotic cells
+also integrated the EB stain and henceforth were observed as
+orange, but, in distinction to necrotic cells, the late apoptotic
+cells were observed as condensed [39]. The treatment with
+the C. ﬁcifolia extract induced a higher level of apoptotic
+death. Moreover, ﬁndings of the AO/EB staining conﬁrmed
+that the extract of C. ﬁcifolia brings about cytological changes
+such as cytoplasmic vacuolation, cytoplasmic blebbing, frag-
+mentation of chromatin, bi-/multinucleation, late apoptosis
+indication of dot-like chromatin, and apoptotic body conﬁg-
+uration. The current ﬁndings proved that the mode of cell
+death induced through a plant extract was apoptosis not
+through necrosis mechanisms [40].
+
+Inhibiting cancer cell proliferation through an apoptotic
+mechanism becomes an obvious mode of action of the
+numerous anticancer compounds [41, 42]. Apoptotic event
+could be initiated through the extrinsic or intrinsic pathways
+[43]. The aspartate-speciﬁc group of cysteine protease called
+caspases plays a central mechanism in amending the apopto-
+sis initiated by various types of stimuli, including oxidative
+stress [44]. Practically, caspase-3 is the central executor in
+the apoptotic event and caspase-9 is an originator of
+caspase-3 via the mitochondrial cytochrome c-mediated
+pathway [45]. There is enough evidence for the role of p53
+in the regulation of the membrane expression of certain
+death receptors in several cell types [46]. A tumor suppressor
+protein such as p53 can also serve as a transcription factor.
+This protein regulates cell growth as well as cell death (apo-
+ptosis) in response to diﬀerent modes of cellular anxiety or
+cell injury [47]. Functional loss of p53 weakens the response
+of cells to apoptotic motivation; this property is commonly
+observed in most of the human cancer cells. Thus, p53
+appears to convey a signal to the apoptotic machines down-
+stream of mitochondria [48]. In this study, we demonstrated
+that caspase-3, caspase-8, and caspase-9 and Tp53 expres-
+sions were signiﬁcantly increased in cells treated with the C.
+ﬁcifolia extract.
+
+Fas ligand (FasL) induces apoptosis in a mode compara-
+ble to that of the TNF receptor. Interaction of the ligand
+develops receptor clustering, death-inducing signal complex
+development, and the commencement of the caspase cascade
+machinery. On the other hand, signaling through the Fas
+receptor is a little uncomplicated than through the TNF
+receptor. FADD, an adapter protein, could be directly
+employed to the death province of the Fas receptor, without
+involvement of the preemployment of the TRADD. Further-
+more, the Fas receptor is commonly considered to just trigger
+apoptosis and activate the signaling [49]. In our results, we
+observed that the C. ﬁcifolia treatment upregulated the
+expressions of Fas and FADD proteins leading to apoptosis
+of MCF-7 cells, which is mediated by caspase-8 interaction
+with FAS and FADD proteins.
+
+The intrinsic (or mitochondrial) PCD cascade is initiated
+as a reaction to cellular stress. Proapoptotic BH3-only pro-
+teins are activated in the PCD intrinsic pathway. BAX and
+BAK are directly activated through BH3-only proteins by
+making its direct interactions with the above said protein;
+further, it can also activate through indirect mode by making
+
+ 2738, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/3712536, Wiley Online Library on [22/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8
+
+BioMed Research International
+
+i
+
+ii
+
+)
+
+m
+𝜇
+(
+h
+t
+g
+n
+e
+l
+
+t
+e
+m
+o
+C
+
+40
+
+35
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+iii
+
+iv
+
+20𝜇m
+
+20𝜇m
+
+20𝜇m
+
+20𝜇m
+
+t
+e
+m
+o
+c
+h
+t
+i
+
+w
+s
+l
+l
+e
+c
+
+t
+n
+e
+c
+r
+e
+P
+
+60
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+#@
+
+#
+
+(a)
+
+#@
+
+24 hs
+
+48 hs
+
+Control
+C. ﬁcifolia extract (IC50)
+
+(c)
+
+t
+e
+m
+o
+c
+n
+
+i
+
+A
+N
+D
+
+t
+n
+e
+c
+r
+e
+P
+
+80
+
+70
+
+60
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+24 hs
+
+48 hs
+
+Control
+C. ﬁcifolia extract (IC50)
+
+(b)
+
+#@
+
+⁎
+
+24 hs
+
+48 hs
+
+(d)
+
+Figure 7: (a) DNA damage through comet assay. MCF-7 cells treated with C. ﬁcifolia chloroform extract after 24 hs (i, ii) and 48 hs (iii, iv). (b)
+Percent cells with DNA damage (comet). Comet length (c) and percent DNA (d) in comet, respectively. Thin arrow shows cells without DNA
+damage. Thick arrow shows the cells with DNA damage (comet pattern). ∗P ≤ 0:05, #P ≤ 0:001, respective control vs. treated samples.
+@P ≤ 0:001, 24 hs treatment of samples vs. 48 hs treatment. The experiment was repeated thrice with triplicate.
+
+an interaction with prosurvival Bcl-2-like proteins. Upon
+activation of BAX and BAK, these proteins forms oligomeri-
+zation and helps to form pores in the mitochondrial outer
+membrane that release cytochrome c. Increased cytosolic
+cytochrome c concentration activates the caspases and causes
+succeeding cell death [50]. Diaz-Flores et al. [51] reported
+that C. ﬁcifolia has an antioxidant eﬀect on the glutathione
+redox cycle in mice with STZ-induced diabetes. In this study,
+treatment with the C. ﬁcifolia fruit extract upregulated the
+expressions of proapoptotic BAX and BAK proteins, result-
+
+ing in apoptosis of MCF-7 cells. It is crystal clear that DNA
+damage is one of the hallmarks of apoptosis [52]. Even
+though diﬀerent techniques were available to assay DNA
+damage, comet assay is the one of most sensitive technique
+that detects the DNA damage at individual cells [53]. To val-
+idate the increased apoptotic gene expression in C. ﬁcifolia-
+treated cells which leads to cellular DNA damage, hence,
+we have performed comet assay. This results shows that C.
+ﬁcifolia induces the DNA damage. Numerous studies shows
+that well known anticancer drugs like cisplatin exerts its
+
+ 2738, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/3712536, Wiley Online Library on [22/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BioMed Research International
+
+9
+
+anticancer eﬀect through DNA damage [54–56]. Thus, our
+study revealed that the C. ﬁcifolia extract has chemothera-
+peutic potential against MCF-7 cells.
+
+5. Conclusions
+
+In this study, we have shown that C. ﬁcifolia exercises its anti-
+cancer eﬀect by inhibiting MCF-7 cell propagation. Further,
+it initiates the apoptotic process in part by altering the cas-
+pase-3, caspase-8, and caspase-9 and p53, FAS, FADD,
+BAX, and BAK gene expression levels. Henceforth, the cur-
+rent investigation through C. ﬁcifolia signiﬁcantly blocks
+the MCF-7 human breast cancer cell proliferation in labora-
+tory condition and documents the probable mode of mech-
+anism for its anticancer property. So, C. ﬁcifolia could
+potentially stand for another source of medicine for breast
+cancer treatment. The current investigation supports the
+improvement of dietary plant substance-mediated drugs
+for the management of breast cancer. However, additional
+data are needed to sequence and identify speciﬁc molecules
+present in the C. ﬁcifolia extract, which is responsible for its
+anticancer eﬀect.
+
+Data Availability
+
+The data used to support this study are included within the
+article.
+
+Conflicts of Interest
+
+The authors declare no conﬂict of interest.
+
+Acknowledgments
+
+We gratefully acknowledge the ﬁnancial support from the
+Researchers Supporting Project number (RSP-2019/84),
+King Saud University, Riyadh, Kingdom of Saudi Arabia.
+
+References
+
+[1] M. J. Thun, J. O. DeLancey, M. M. Center, A. Jemal, and E. M.
+Ward, “The global burden of cancer: priorities for prevention,”
+Carcinogenesis, vol. 31, no. 1, pp. 100–110, 2010.
+
+[2] J. Varughese and S. Richman, “Cancer care inequity for
+women in resource-poor countries,” Reviews in Obstetrics
+and Gynecology, vol. 3, no. 3, pp. 122–132, 2010.
+
+[3] H. Thomadaki and A. Scorilas, “Molecular proﬁle of breast
+versus ovarian cancer cells in response to treatment with the
+anticancer drugs cisplatin, carboplatin, doxorubicin, etoposide
+and taxol,” Biological Chemistry, vol. 389, no. 11, pp. 1427–
+1434, 2008.
+
+[4] W. Qiu, J. Wu, E. M. Walsh et al., “Retinoblastoma protein
+modulates gankyrin-MDM2 in regulation of p53 stability
+and chemosensitivity in cancer cells,” Oncogene, vol. 27,
+no. 29, pp. 4034–4043, 2008.
+
+[5] Z. Zhang, Y. Feng, Z. Y. Li, and X. Z. Cao, “Antiproliferative
+and apoptotic activity of glycyrrhizinic acid in MCF-7 human
+breast cancer cells and evaluation of its eﬀect on cell cycle, cell
+signalling pathway,”
+migration and m-TOR/PI3K/Akt
+Archives of Medical Science, vol. 15, no. 1, pp. 174–182, 2019.
+
+[6] H. Nishiyama, J. Watanabe, and O. Ogawa, “p53 and chemo-
+sensitivity in bladder cancer,” International Journal of Clinical
+Oncology, vol. 13, no. 4, pp. 282–286, 2008.
+
+[7] K. Hientz, A. Mohr, D. Bhakta-Guha, and T. Eﬀerth, “The role
+of p53 in cancer drug resistance and targeted chemotherapy,”
+Oncotarget, vol. 8, no. 5, pp. 8921–8946, 2017.
+
+[8] T. Frebourg, “Germline mutations of the p53 gene,” Patholo-
+
+gie-biologie, vol. 45, no. 10, pp. 845–851, 1997.
+
+[9] K. A. Scata and W. S. El-Deiry, “p53, BRCA1 and breast cancer
+chemoresistance,” Advances in Experimental Medicine and
+Biology, vol. 608, pp. 70–86, 2007.
+
+[10] J. Huszno, Z. Kołosza, K. Tęcza, J. Pamuła-Piłat, M. Mazur,
+and E. Grzybowska, “Comparison between NOD2 gene muta-
+tion carriers (3020insC) and non-carriers in breast cancer
+patients: a clinicopathological and survival analysis,” Archives
+of Medical Science-Civilization Diseases, vol. 3, no. 1, pp. 10–
+15, 2018.
+
+[11] J. Cai, J. Yang, and D. P. Jones, “Mitochondrial control of apo-
+ptosis: the role of cytochrome c,” Biochimica et Biophysica
+Acta, vol. 1366, no. 1-2, pp. 139–149, 1998.
+
+[12] H.-y. Long, Q.-x. Huang, Y.-y. Yu et al., “Dehydrocostus lac-
+tone inhibits in vitro gastrinoma cancer cell growth through
+apoptosis induction, sub-G1 cell cycle arrest, DNA damage
+and loss of mitochondrial membrane potential,” Archives of
+Medical Science, vol. 15, no. 3, pp. 765–773, 2019.
+
+[13] S. Ranganathan, D. Halagowder, and N. D. Sivasithambaram,
+“Quercetin suppresses twist to induce apoptosis in MCF-7
+breast cancer cells,” PLoS One, vol. 10, no. 10, article
+e0141370, 2015.
+
+[14] W. Jia, W. Gao, and L. Tang, “Antidiabetic herbal drugs oﬃ-
+cially approved in China,” Phytotherapy Research, vol. 17,
+no. 10, pp. 1127–1134, 2003.
+
+[15] G. G. Adams, S. Imran, S. Wang et al., “The hypoglycaemic
+eﬀect of pumpkins as anti-diabetic and functional medicines,”
+Food Research International, vol. 44, no. 4, pp. 862–867, 2011.
+[16] R. Różyło, U. Gawlik-Dziki, D. Dziki, A. Jakubczyk, M. Karaś,
+and K. Różyło, “Wheat bread with pumpkin (Cucurbita max-
+ima L.) pulp as a functional food product,” Food Technology
+and Biotechnology, vol. 52, no. 4, pp. 430–438, 2014.
+
+[17] A. AlJahani and R. Cheikhousman, “Nutritional and sensory
+evaluation of pumpkin-based (Cucurbita maxima) functional
+juice,” Nutrition & Food Science, vol. 47, no. 3, pp. 346–356,
+2017.
+
+[18] K. Dhiman, A. Gupta, D. K. Sharma, N. S. Gill, and A. Goyal,
+“A review on the medicinally important plants of the family
+Cucurbitaceae,” Asian Journal of Clinical Nutrition, vol. 4,
+no. 1, pp. 16–26, 2012.
+
+[19] A. Andrade-Cetto and M. Heinrich, “Mexican plants with
+hypoglycaemic eﬀect used in the treatment of diabetes,”
+Journal of Ethnopharmacology, vol. 99, no. 3, pp. 325–348,
+2005.
+
+[20] Á. Fortis-Barrera, R. García-Macedo, J. C. Almanza-Perez
+et al., “Cucurbita ﬁcifolia (Cucurbitaceae) modulates inﬂam-
+matory cytokines and IFN-γ in obese mice,” Canadian Journal
+of Physiology and Pharmacology, vol. 95, no. 2, pp. 170–177,
+2017.
+
+[21] G. M. Alshammari and A. Balakrishnan, “Pumpkin ( _Cucur-
+bita ﬁcifolia Bouch e_) extract attenuate the adipogenesis in
+human mesenchymal stem cells by controlling adipogenic
+gene expression,” Saudi Journal of Biological Sciences, vol. 26,
+no. 4, pp. 744–751, 2019.
+
+ 2738, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/3712536, Wiley Online Library on [22/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License10
+
+BioMed Research International
+
+[22] A. Subastri, A. Suyavaran, E. P. Babu, S. Nithyananthan,
+R. Barathidasan, and C. Thirunavukkarasu, “Troxerutin with
+copper generates oxidative stress in cancer cells: its possible
+chemotherapeutic mechanism against hepatocellular carci-
+noma,” Journal of Cellular Physiology, vol. 233, no. 3,
+pp. 1775–1790, 2018.
+
+[23] A. Subastri, V. Arun, P. Sharma et al., “Synthesis and charac-
+terisation of arsenic nanoparticles and its interaction with
+DNA and cytotoxic potential on breast cancer cells,” Che-
+mico-Biological Interactions, vol. 295, pp. 73–83, 2018.
+[24] K. J. Livak and T. D. Schmittgen, “Analysis of relative gene
+expression data using real-time quantitative PCR and the 2
+−ΔΔCT method,” Methods, vol. 25, no. 4, pp. 402–408,
+2001.
+
+[25] T. Xia and Q. Wang, “Hypoglycaemic role ofCucurbita ﬁcifolia
+(Cucurbitaceae) fruit extract in streptozotocin-induced dia-
+betic rats,” Journal of Science and Food Agriculture, vol. 87,
+no. 9, pp. 1753–1757, 2007.
+
+[26] Y. I. Kwon, E. Apostolidis, Y. C. Kim, and K. Shetty, “Health
+beneﬁts of traditional corn, beans, and pumpkin: in vitro stud-
+ies for hyperglycemia and hypertension management,” Journal
+of Medicinal Food, vol. 10, no. 2, pp. 266–275, 2007.
+
+[27] N. E. Cheong, Y. O. Choi, W. Y. Kim et al., “Puriﬁcation
+and characterization of an antifungal PR-5 protein from
+pumpkin leaves,” Molecules and Cells, vol. 7, no. 2,
+pp. 214–219, 1997.
+
+[28] A. G. Vassiliou, G. M. Neumann, R. Condron, and G. M.
+Polya, “Puriﬁcation and mass spectrometry-assisted sequenc-
+ing of basic antifungal proteins from seeds of pumpkin
+(Cucurbita maxima),” Plant Science, vol. 134, no. 2, pp. 141–
+162, 1998.
+
+[29] D. Diaz Obregon, L. Lloja Lozano, and V. Carbajal Zuniga,
+“Preclinical studies of cucurbita maxima (pumpkin seeds) a
+intestinal antiparasitic in rural urban areas,”
+traditional
+Revista de gastroenterología del Perú, vol. 24, no. 4,
+pp. 323–327, 2004.
+
+[30] A. T. Fahim, A. A. Abd-el Fattah, A. M. Agha, and M. Z. Gad,
+“Eﬀect of pumpkin-seed oil on the level of free radical scaven-
+gers induced during adjuvant-arthritis in rats,” Pharmacologi-
+cal Research, vol. 31, no. 1, pp. 73–79, 1995.
+
+[31] F. Caili, S. Huan, and L. Quanhong, “A review on pharmaco-
+logical activities and utilization technologies of pumpkin,”
+Plant Food for Human Nutrition, vol. 61, no. 2, pp. 70–77,
+2006.
+
+[32] G. H. Xu, “A study of the possible antitumor eﬀect and immu-
+nocompetence of pumpkin polysaccharide,” Journal of Wuhan
+Professional Medical College, vol. 28, no. 4, pp. 1–4, 2002.
+[33] H. C. Xia, F. Li, Z. Li, and Z. C. Zhang, “Puriﬁcation and char-
+acterization of Moschatin, a novel type I ribosome-inactivating
+protein from the mature seeds of pumpkin (Cucurbita
+moschata), and preparation of
+its immunotoxin against
+human melanoma cells,” Cell Research, vol. 13, no. 5,
+pp. 369–374, 2003.
+
+[34] T. Liu, M. Zhang, H. Zhang et al., “Combined antitumor activ-
+ity of cucurbitacin B and docetaxel in laryngeal cancer,” Euro-
+pean Journal of Pharmacology, vol. 587, no. 1-3, pp. 78–84,
+2008.
+
+[35] J. M. Escandell, P. Kaler, M. C. Recio et al., “Activated kRas
+protects colon cancer cells from cucurbitacin-induced apopto-
+sis: the role of p53 and p21,” Biochemical Pharmacology,
+vol. 76, no. 2, pp. 198–207, 2008.
+
+[36] G. Chadalapaka, I. Jutooru, S. Chintharlapalli et al., “Curcu-
+min decreases speciﬁcity protein expression in bladder cancer
+cells,” Cancer Research, vol. 68, no. 13, pp. 5345–5354, 2008.
+[37] M. Imai, H. Kikuchi, T. Denda, K. Ohyama, C. Hirobe, and
+H. Toyoda, “Cytotoxic eﬀects of ﬂavonoids against a human
+colon cancer derived cell line, COLO 201: a potential natural
+anti-cancer substance,” Cancer Letters, vol. 276, no. 1,
+pp. 74–80, 2009.
+
+[38] P. R. Walker, V. M. Weaver, B. Lach, J. Leblanc, and
+M. Sikorska, “Endonuclease activities associated with high
+molecular weight and internucleosomal DNA fragmentation
+in apoptosis,” Experimental Cell Research, vol. 213, no. 1,
+pp. 100–106, 1994.
+
+[39] S. Kasibhatla, G. P. Amarante-Mendes, D. Finucane,
+T. Brunner, E. Bossy-Wetzel, and D. R. Green, “Acridine oran-
+ge/ethidium bromide (AO/EB) staining to detect apoptosis,”
+Cold Spring Harbor Protocols, vol. 2006, no. 3, 2006.
+
+[40] K. Mohankumar, S. Pajaniradje, S. Sridharan et al., “Mecha-
+nism of apoptotic induction in human breast cancer cell,
+MCF-7, by an analog of curcumin in comparison with curcu-
+min - an in vitro and in silico approach,” Chemico-Biological
+Interactions, vol. 210, pp. 51–63, 2014.
+
+[41] J. A. Hickman, “Apoptosis and chemotherapy resistance,”
+European Journal of Cancer, vol. 32a, no. 6, pp. 921–926, 1996.
+[42] M. Clynes, C. Daly, R. NicAmhlaoibh et al., “Recent develop-
+ments in drug resistance and apoptosis research,” Critical
+Reviews in Oncology/Hematology, vol. 28, no. 3, pp. 181–205,
+1998.
+
+[43] S. W. Ryter, H. P. Kim, A. Hoetzel et al., “Mechanisms of cell
+death in oxidative stress,” Antioxidants & redox signaling,
+vol. 9, no. 1, pp. 49–89, 2007.
+
+[44] W. C. Earnshaw, L. M. Martins, and S. H. Kaufmann, “Mam-
+malian caspases: structure, activation, substrates, and func-
+tions during apoptosis,” Annual Review of Biochemistry,
+vol. 68, no. 1, pp. 383–424, 1999.
+
+[45] B. Jiang, W. Xiao, Y. Shi, M. Liu, and X. Xiao, “Heat shock pre-
+treatment inhibited the release of Smac/DIABLO from mito-
+chondria and apoptosis induced by hydrogen peroxide in
+cardiomyocytes and C2C12 myogenic cells,” Cell Stress &
+Chaperones, vol. 10, no. 3, pp. 252–262, 2005.
+
+[46] M. Schuler, E. Bossy-Wetzel, J. C. Goldstein, P. Fitzgerald, and
+D. R. Green, “p53 induces apoptosis by caspase activation
+through mitochondrial cytochrome c release,” The Journal of
+Biological Chemistry, vol. 275, no. 10, pp. 7337–7342, 2000.
+[47] T. Riley, E. Sontag, P. Chen, and A. Levine, “Transcriptional
+control of human p53-regulated genes,” Nature Reviews
+Molecular Cell Biology, vol. 9, no. 5, pp. 402–412, 2008.
+[48] S. Matoba, J.-G. Kang, W. D. Patino et al., “p53 regulates mito-
+chondrial respiration,” Science, vol. 312, no. 5780, pp. 1650–
+1653, 2006.
+
+[49] A. Algeciras-Schimnich, L. Shen, B. C. Barnhart, A. E.
+Murmann, J. K. Burkhardt, and M. E. Peter, “Molecular
+ordering of the initial signaling events of CD95,” Molecu-
+lar and Cellular Biology, vol. 22, no. 1, pp. 207–220, 2002.
+[50] D. Westphal, G. Dewson, P. E. Czabotar, and R. M. Kluck,
+“Molecular biology of Bax and Bak activation and action,”
+Biochimica et Biophysica Acta, vol. 1813, no. 4, pp. 521–
+531, 2011.
+
+[51] M. Diaz-Flores, S. Angeles-Mejia, L. A. Baiza-Gutman et al.,
+“Eﬀect of an aqueous extract of Cucurbita ﬁcifolia Bouché on
+the glutathione redox cycle in mice with STZ-induced
+
+ 2738, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/3712536, Wiley Online Library on [22/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseBioMed Research International
+
+11
+
+diabetes,” Journal of Ethnopharmacology, vol. 144, no. 1,
+pp. 101–108, 2012.
+
+[52] G. Ren, W. Luo, W. Sun et al., “Psoralidin induced reactive
+oxygen species (ROS)-dependent DNA damage and protective
+autophagy mediated by NOX4 in breast cancer cells,” Phyto-
+medicine, vol. 23, no. 9, pp. 939–947, 2016.
+
+[53] G. Koppen, A. Azqueta, B. Pourrut, G. Brunborg, A. R. Collins,
+and S. A. S. Langie, “The next three decades of the comet assay:
+a report of the 11th International Comet Assay Workshop,”
+Mutagenesis, vol. 32, no. 3, pp. 397–408, 2017.
+
+[54] L. M. Mendonca, G. C. dos Santos, R. A. dos Santos, C. S.
+Takahashi, M. D. P. Bianchi, and L. M. G. Antunes, “Evalua-
+tion of curcumin and cisplatin-induced DNA damage in
+PC12 cells by the alkaline comet assay,” Human & Experimen-
+tal Toxicology, vol. 29, no. 8, pp. 635–643, 2010.
+
+[55] K. Krüger, V. Ziegler, C. Hartmann et al., “Lovastatin prevents
+cisplatin-induced activation of pro-apoptotic DNA damage
+response (DDR) of renal tubular epithelial cells,” Toxicology
+and Applied Pharmacology, vol. 292, pp. 103–114, 2016.
+[56] H. He, H. Huang, and T. Yu, “Detection of DNA damage in
+sonochemotherapy against cisplatin-resistant human ovarian
+cancer cells using the modiﬁed comet assay,” International
+Journal of Radiation Biology, vol. 90, no. 10, pp. 897–902, 2014.
+
+ 2738, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/3712536, Wiley Online Library on [22/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

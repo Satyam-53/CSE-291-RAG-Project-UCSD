@@ -1,0 +1,2558 @@
+Familial Cancer (2024) 23:29–33 
+https://doi.org/10.1007/s10689-023-00353-0
+
+Li Fraumeni Syndrome predisposes to gastro-esophageal junction 
+tumours
+
+Douglas Tjandra1,2,3 · Alex Boussioutas1,2,3
+
+Received: 28 August 2023 / Accepted: 4 December 2023 / Published online: 11 January 2024 
+© Crown 2024
+
+Abstract
+Li-Fraumeni Syndrome (LFS), caused by germline pathogenic variants in TP53, predisposes to a wide range of young-onset 
+malignancies, particularly sarcoma, breast and brain cancer. More recently, an increased risk of gastric adenocarcinoma 
+has been recognised, although uptake of surveillance upper endoscopy is unclear. Our retrospective review of 65 patients 
+with LFS, of whom 53.8% had undergone endoscopy, identified four patients (6.2%) with gastro-esophageal junction (GEJ) 
+adenocarcinomas. Two cases were found on asymptomatic screening and were early stage. No cases had family history of 
+gastrointestinal malignancy. Reviewing genomic data from The Cancer Genome Atlas Program, 76.4% of sporadic esophageal 
+adenocarcinomas harboured somatic TP53 pathogenic variants, compared with 39.9% of non-cardia gastric cancers. This 
+similar pattern observed in germline and sporadic cases warrants further investigation. We propose that upper endoscopy be 
+recommended to all patients with LFS, with a focus on appropriate surveillance of the GEJ.
+
+Keywords  Li Fraumeni syndrome · TP53, hereditary gastric cancer syndromes · Endoscopic surveillance
+
+Introduction
+
+Li-Fraumeni Syndrome (LFS) is defined by germline patho-
+genic variants in the tumour suppressor gene TP53 and is 
+associated with increased rates of many different malignan-
+cies, some with up to 100% lifetime risk without appropriate 
+intervention [1]. While the strongest associations have been 
+demonstrated with sarcoma, breast cancer, brain tumours 
+and adrenocortical carcinomas, the increased risk of colo-
+rectal and, more recently, gastric adenocarcinomas have 
+also been acknowledged [2]. The relative risk of esophageal 
+cancer is less well characterised with conflicting reports [1, 
+3]. An analysis of the International Agency for Research on 
+Cancer database identified 0.5% of individuals with esopha-
+geal cancer (15/3043) and 3.3% (101/3043) with gastric can-
+cer [3, 4]. Gastro-esophageal junction (GEJ) tumours arise at 
+
+ *  Alex Boussioutas 
+
+alexb@alfred.org.au
+
+1  Familial Cancer Centre, The Peter MacCallum Cancer 
+
+Centre, Melbourne, VIC, Australia
+
+2  Department of Gastroenterology, Alfred Hospital, 99 
+Commercial Rd, Melbourne, VIC 3004, Australia
+
+3  Department of Gastroenterology, Central Clinical School, 
+
+Monash University, Melbourne, VIC, Australia
+
+the histological transition between esophagus and stomach, 
+and the commonly used Siewert classification divides GEJ 
+adenocarcinomas into three categories for which oncological 
+management differs: Type 1 arising from distal esophagus 
+(1 to 5 cm proximal to GEJ), Type 2 located at the true junc-
+tion (between 1 cm proximal to 2 cm distal of the GEJ) and 
+Type 3 located 2 to 5 cm distal to the GEJ [5]. In contrast, 
+the American Joint Committee on Cancer stages all GEJ 
+tumors with epicentre ≤ 2 cm into the proximal stomach as 
+esophageal cancers and those > 2 cm as gastric cancers [5]. 
+Consequently, GEJ tumors have been variably categorised 
+in the literature as esophageal, gastric or a separate entity.
+
+In this context, expert consensus guidelines differ in their 
+recommendations for upper endoscopy, or esophagogas-
+troduodenoscopy, screening in LFS: North American guide-
+lines support upper endoscopy every 2–5 years from the age 
+of 25 alongside colonoscopy, while European guidelines do 
+not routinely recommend upper endoscopy screening [2, 6]. 
+The uptake of these recommendation is also unclear.
+
+There is a biological basis to suspect pathogenic vari-
+ants in TP53 as a driver of upper gastrointestinal cancers. 
+The Cancer Genome Atlas Program classified 559 sporadic 
+esophageal and gastric cancers into distinct molecular phe-
+notypes. When analysing adenocarcinoma, four subclasses 
+were identified, but only one, a chromosomal instability 
+
+Vol.:(0123456789) 
+30 
+
+D. Tjandra, A. Boussioutas 
+
+(CIN) subclass, accounted for the vast majority of lower 
+esophagus and GEJ tumours [7]. CIN molecular subgroup 
+accounted for 49% of adenocarcinomas from esophagus and 
+stomach and was characterised by ERBB2 amplification, 
+VEGFA amplification and, importantly, pathogenic variants 
+in TP53.
+
+The familial cancer centre at our institution offers a dedi-
+cated gastrointestinal risk management clinic for patients 
+with  high-risk  genetic  predisposition  to  gastrointestinal 
+malignancy, and we routinely offer upper endoscopy at the 
+same time as colonoscopy to patients with LFS. We sought 
+to assess the rates of upper gastrointestinal cancers and their 
+characteristics in our cohort, with comparison to results 
+from the TCGA cohort.
+
+Methods
+
+A retrospective chart review was performed of adult patients 
+with clinical class 4 or 5 germline pathogenic variants in 
+TP53 managed by our centre between January 2000 to May 
+2023. Data regarding demographics, personal and family 
+history of malignancy, duration of follow-up, and endo-
+scopic/histologic results of upper and lower endoscopies 
+were collected. Further clinical details were collated for 
+cases of GEJ tumours. Ethical approval was obtained from 
+the institutional human ethics committee (Project number: 
+PMC97246, 29 May 2023).
+
+Separately, data of each subject analysed in the TCGA 
+study to characterise the molecular characteristics of spo-
+radic esophageal and gastric cancers was obtained from 
+the supplementary table in the initial publication. Corre-
+sponding details of pathogenic variants in TP53 were then 
+obtained from the openly available dataset on cBioportal 
+(accessed 27 June 2023) [7, 8]. From 559 subjects, 90 esoph-
+ageal squamous cell cancers, 13 gastric adenocarcinomas of 
+
+Fig. 1   Panel  of  endoscopic,  surgical  and  histologic  findings  in  one 
+case  of  GEJ  adenocarcinoma  on  screening:  Top,  left:  a  subtle  GEJ 
+nodule  at  endoscopy  (blue  arrow);  Top,  right:  endoscopic  biopsy 
+(H&E  stain,  x40)  demonstrating  adenocarcinoma  adjacent  to  squa-
+
+mous mucosa; Bottom, left: surgical resection specimen with irregu-
+larity at GEJ (yellow arrow); Bottom, right: resection histology (H&E 
+stain, x40) demonstrating adenocarcinoma confined to the mucosa, at 
+the GEJ
+
+Li Fraumeni Syndrome predisposes to gastro-esophageal junction tumours  
+
+31
+
+decision was made for early repeat surveillance at 18 months 
+revealing subsequent carcinoma in situ. No cases of can-
+cer were associated with prior family history of digestive 
+tract malignancy, or abdominal radiotherapy. Furthermore, 
+five patients undergoing screening (14.3% of those who 
+had upper endoscopy) were diagnosed with a premalignant 
+lesion (Barrett’s esophagus, non-Helicobacter associated 
+gastric intestinal metaplasia and a proximal fundic gland 
+polyp with low grade dysplasia).
+
+On review of the data for these patients from the TCGA 
+paper via cBioportal, we found that amongst esophageal 
+or probable esophageal adenocarcinomas, 76.4% (55/72) 
+had somatic pathogenic variants in TP53, with decreasing 
+prevalence in the indeterminate GEJ (22/36, 61.1%), gastric/
+probable gastric GEJ (29/63, 46.0%) and gastric non-cardia 
+(113/283, 39.9%) adenocarcinoma groups (Fig. 2).
+
+Discussion
+
+It  is  still  not  globally  recognised  that  upper  endoscopy 
+should  be  a  routine  component  of  surveillance  in  LFS. 
+Moreover, in most guidelines recommending upper endos-
+copy, the focus has been on gastric adenocarcinoma, per-
+haps because some reports have presumably grouped GEJ 
+cancers with gastric cancers [9], even though some cases 
+are better characterised as esophageal or a distinct entity [5, 
+7]. The distinction is important as inspection of the gastric 
+mucosa is performed within the stomach and on retroflexion 
+during upper endoscopy, while the GEJ is best assessed in 
+forward-view.
+
+Our findings suggest that the GEJ and lower esophagus 
+may be a particularly vulnerable region in LFS, in keep-
+ing with the molecular phenotyping seen in sporadic GEJ 
+tumours. While it has been suggested that Asian carriers 
+may be at higher risk than non-Asian carriers, and that risk 
+of both gastric and colon cancers may run in families [9, 
+10], the risk in our cohort was not isolated to these specific 
+groups. Both cases seen on surveillance were early stage, 
+facilitating likely curative resection. This data suggests a 
+harmonisation of germline and somatic observations that 
+are highly suggestive of a biological effect of p53 involv-
+ing the GEJ. There are limitations to the data given this 
+is a retrospective analysis of a cohort of LFS, but the high 
+prevalence of GEJ cancer in this group is compelling and 
+warrants a prospective evaluation in patients who carry ger-
+mline pathogenic variants of TP53.
+
+Additionally, premalignant lesions in the upper gastro-
+intestinal tract appeared relatively frequently in our cohort. 
+Given the presence of gastric intestinal metaplasia in four 
+of the five individuals with premalignant lesions, we would 
+also endorse routine biopsy of the gastric antrum and body 
+
+Fig. 2   Relative  proportions  of  somatic  pathogenic  variants  (pv)  and 
+wild  type  (wt)  in  TP53  in  each  adenocarcinoma  subgroup  in  the 
+TCGA  cohort.  Esophageal/probable  esophageal,  indeterminate  and 
+gastric/probable gastric groups were GEJ tumours
+
+unclear location and 2 undifferentiated esophageal tumours 
+were excluded. The remaining 454 cases of adenocarcinoma 
+were then subdivided based on subtype (esophageal/prob-
+able esophageal GEJ adenocarcinoma, indeterminate GEJ 
+adenocarcinoma, gastric/probable gastric GEJ adenocar-
+cinoma) and proportion of cases with somatic pathogenic 
+variants in TP53 calculated.
+
+Results
+
+Sixty-five with LFS (57% female, mean at diagnosis 34.5, 
+median follow-up 51 months) seen via the high-risk cancer 
+genetics clinic over the study period, 35 (53.8%) of whom 
+had at least one upper endoscopy. Four patients (6.2%) were 
+diagnosed with cancer at the GEJ (Table 1), with no cancers 
+elsewhere in the upper digestive tract and one separate case 
+of colorectal cancer on colonoscopy. Two cases, a White 
+man and North-East Asian woman in their 30s, were asymp-
+tomatic and undergoing screening, at their second and first 
+procedures respectively. Both cancers were at early stage 
+allowing for resection with curative intent. The lesions were 
+subtle and best appreciated on close inspection of the GEJ 
+in forward-view (Fig. 1). In the former case, index upper 
+endoscopy revealed moderate reflux esophagitis (Los Ange-
+les Classification grade B) with no dysplasia on biopsy, but a 
+
+32 
+
+D. Tjandra, A. Boussioutas 
+
+.
+e
+c
+n
+a
+l
+l
+i
+e
+v
+r
+u
+s
+
+.
+s
+i
+t
+i
+g
+a
+h
+p
+o
+s
+e
+
+p
+y
+l
+o
+p
+
+d
+n
+a
+l
+g
+c
+i
+d
+n
+u
+F
+
+e
+d
+a
+r
+g
+w
+o
+l
+
+h
+t
+i
+
+w
+
+.
+a
+i
+s
+a
+l
+p
+s
+y
+d
+
+t
+n
+e
+w
+r
+e
+d
+n
+u
+
+,
+s
+e
+s
+a
+t
+
+l
+a
+t
+o
+t
+
+d
+e
+d
+n
+e
+t
+x
+e
+
+y
+m
+o
+t
+c
+e
+r
+t
+s
+a
+g
+
+t
+a
+
+n
+o
+i
+s
+o
+r
+e
+
+e
+l
+t
+b
+u
+S
+
+J
+O
+G
+
+e
+s
+a
+e
+s
+i
+d
+
+c
+i
+t
+a
+t
+s
+a
+t
+e
+
+M
+
+a
+m
+o
+n
+i
+c
+r
+a
+c
+o
+n
+e
+d
+A
+
+s
+s
+a
+m
+
+J
+O
+G
+
+)
+a
+/
+n
+(
+
+0
+
+x
+u
+fl
+e
+R
+
+e
+s
+a
+e
+s
+i
+d
+
+c
+i
+t
+a
+t
+s
+a
+t
+e
+
+M
+
+a
+m
+o
+n
+i
+c
+r
+a
+c
+o
+n
+e
+d
+A
+
+m
+o
+r
+f
+
+s
+s
+a
+m
+
+J
+O
+G
+
+)
+a
+/
+n
+(
+
+0
+
+a
+i
+g
+a
+h
+p
+s
+y
+D
+
+-
+c
+e
+s
+e
+r
+
+l
+a
+s
+o
+c
+u
+m
+
+l
+a
+s
+o
+c
+u
+m
+b
+u
+s
+
+h
+t
+i
+
+w
+
+c
+i
+p
+o
+c
+s
+o
+d
+n
+E
+
+u
+t
+i
+s
+
+n
+i
+
+a
+m
+o
+n
+i
+c
+r
+a
+C
+
+s
+i
+t
+i
+g
+a
+h
+p
+o
+s
+E
+
+s
+’
+t
+t
+e
+r
+r
+a
+B
+
+t
+u
+o
+h
+t
+i
+
+w
+n
+o
+i
+t
+
+e
+c
+n
+e
+r
+r
+u
+c
+e
+r
+
+n
+o
+i
+s
+n
+e
+t
+x
+e
+
+l
+a
+s
+o
+c
+u
+m
+m
+m
+3
+
+x
+2
+
+J
+O
+G
+
+t
+a
+
+s
+e
+l
+u
+d
+o
+n
+
+-
+a
+h
+p
+o
+s
+e
+
+l
+a
+t
+s
+i
+d
+
+s
+u
+d
+n
+u
+f
+
+o
+t
+
+s
+u
+g
+
+)
+8
+1
+(
+
+1
+
+e
+c
+n
+a
+l
+l
+i
+e
+v
+r
+u
+S
+
+l
+i
+
+N
+
+l
+i
+
+N
+
+l
+i
+
+N
+
+e
+m
+o
+c
+t
+u
+O
+
+g
+n
+i
+d
+n
+fi
+c
+i
+g
+o
+l
+o
+t
+s
+i
+H
+
+c
+i
+p
+o
+c
+s
+o
+d
+n
+E
+
+g
+n
+i
+d
+n
+fi
+
+f
+o
+r
+e
+b
+m
+u
+N
+
+D
+G
+E
+r
+o
+i
+r
+p
+
+s
+h
+t
+n
+o
+m
+
+(
+
+-
+i
+v
+e
+r
+p
+m
+o
+r
+f
+
+)
+s
+u
+o
+
+r
+o
+f
+n
+o
+i
+t
+a
+c
+i
+
+d
+n
+I
+
+–
+y
+r
+o
+t
+s
+i
+
+h
+y
+l
+i
+
+m
+a
+F
+
+D
+G
+E
+
+y
+c
+n
+a
+n
+g
+i
+l
+a
+m
+
+I
+G
+
+)
+s
+r
+a
+e
+y
+
+,
+e
+g
+a
+(
+
+-
+s
+i
+h
+
+l
+a
+n
+o
+s
+r
+e
+P
+
+-
+g
+i
+l
+a
+m
+–
+y
+r
+o
+t
+
+,
+e
+g
+a
+(
+
+y
+c
+n
+a
+n
+
+)
+s
+r
+a
+e
+y
+
+)
+5
+4
+(
+
+a
+m
+o
+c
+r
+a
+S
+
+l
+i
+
+N
+
+l
+i
+
+N
+
+-
+s
+a
+t
+e
+m
+
+t
+n
+a
+t
+s
+i
+d
+
+o
+N
+
+a
+m
+o
+n
+i
+c
+r
+a
+c
+o
+n
+e
+d
+A
+
+s
+i
+t
+i
+g
+a
+h
+p
+o
+s
+E
+
+)
+a
+/
+n
+(
+
+0
+
+g
+n
+i
+n
+e
+e
+r
+c
+S
+
+l
+i
+
+N
+
+)
+5
+3
+(
+
+t
+s
+a
+e
+r
+B
+
+g
+n
+i
+o
+g
+n
+O
+
+.
+d
+e
+t
+c
+e
+s
+e
+R
+
+c
+i
+l
+i
+h
+p
+o
+n
+i
+s
+o
+E
+
+s
+u
+d
+n
+u
+f
+
+n
+i
+
+p
+y
+l
+o
+P
+
+)
+a
+/
+n
+(
+
+0
+
+g
+n
+i
+n
+e
+e
+r
+c
+S
+
+l
+i
+
+N
+
+l
+i
+
+N
+
+-
+l
+i
+e
+v
+r
+u
+s
+
+g
+n
+i
+o
+g
+n
+O
+
+M
+
+I
+
+d
+e
+t
+i
+
+m
+
+i
+l
+-
+l
+a
+r
+t
+n
+A
+
+s
+i
+t
+i
+r
+t
+s
+a
+g
+
+l
+a
+r
+t
+n
+A
+
+)
+7
+2
+(
+
+1
+
+x
+u
+fl
+e
+R
+
+,
+)
+s
+0
+4
+(
+
+c
+i
+r
+t
+s
+a
+G
+
+l
+i
+
+N
+
+.
+e
+c
+n
+a
+l
+
+.
+e
+c
+n
+a
+l
+
+-
+l
+i
+e
+v
+r
+u
+s
+
+g
+n
+i
+o
+g
+n
+O
+
+M
+
+I
+
+l
+a
+r
+t
+n
+A
+
+.
+s
+p
+y
+l
+o
+p
+
+d
+n
+a
+l
+g
+
+.
+s
+i
+t
+i
+r
+t
+s
+a
+g
+
+l
+a
+r
+t
+n
+A
+
+c
+i
+d
+n
+u
+f
+
+c
+i
+r
+t
+s
+a
+G
+
+)
+s
+0
+4
+(
+
+l
+a
+t
+c
+e
+r
+o
+l
+o
+c
+
+-
+o
+l
+o
+c
+
+,
+)
+r
+a
+e
+l
+c
+n
+u
+
+)
+0
+4
+(
+
+l
+a
+t
+c
+e
+r
+
+.
+p
+u
+-
+w
+o
+l
+l
+o
+f
+
+l
+a
+n
+r
+e
+t
+x
+E
+
+-
+a
+h
+p
+o
+s
+e
+
+d
+n
+a
+
+l
+a
+r
+t
+n
+A
+
+.
+s
+i
+t
+i
+r
+t
+s
+a
+g
+
+l
+a
+r
+t
+n
+A
+
+)
+a
+/
+n
+(
+
+0
+
+x
+u
+fl
+e
+R
+
+l
+i
+
+N
+
+)
+2
+3
+(
+
+a
+m
+o
+c
+r
+a
+S
+
+s
+e
+g
+n
+a
+h
+c
+
+f
+o
+
+n
+o
+i
+s
+
+p
+u
+-
+w
+o
+l
+l
+o
+f
+
+n
+o
+
+.
+y
+p
+o
+c
+s
+o
+d
+n
+e
+
+-
+s
+e
+r
+g
+e
+R
+
+.
+r
+o
+t
+i
+b
+i
+h
+n
+i
+
+.
+
+M
+
+I
+
+d
+e
+t
+i
+
+m
+
+i
+l
+-
+l
+a
+r
+t
+n
+A
+
+.
+J
+O
+G
+
+p
+m
+u
+p
+-
+n
+o
+t
+o
+r
+p
+
+.
+)
+J
+O
+G
+
+(
+
+M
+
+I
+d
+n
+a
+
+a
+i
+s
+
+h
+t
+i
+
+w
+d
+e
+t
+a
+e
+r
+T
+
+-
+a
+l
+p
+r
+e
+p
+y
+h
+
+r
+a
+l
+o
+e
+v
+o
+F
+
+t
+a
+
+e
+l
+u
+d
+o
+n
+m
+m
+1
+
+.
+s
+i
+t
+i
+g
+a
+h
+p
+o
+s
+E
+
+M
+
+I
+
+l
+a
+e
+g
+
+-
+a
+h
+p
+o
+s
+e
+
+s
+’
+t
+t
+e
+r
+r
+a
+B
+
+.
+s
+u
+g
+
+)
+a
+/
+n
+(
+
+0
+
+g
+n
+i
+n
+e
+e
+r
+c
+S
+
+)
+0
+2
+(
+
+l
+a
+t
+c
+e
+r
+o
+l
+o
+C
+
+l
+i
+
+N
+
+T
+>
+C
+6
+8
+5
+.
+c
+
+)
+6
+
+n
+o
+x
+e
+(
+
+T
+>
+G
+3
+4
+7
+.
+c
+
+)
+7
+
+n
+o
+x
+e
+(
+
+G
+>
+A
+9
+5
+6
+.
+c
+
+)
+6
+
+n
+o
+x
+e
+(
+
+T
+>
+C
+2
+4
+7
+.
+c
+
+)
+7
+
+n
+o
+x
+e
+(
+
+T
+>
+C
+2
+4
+7
+.
+c
+
+)
+7
+
+n
+o
+x
+e
+(
+
+A
+>
+G
+3
+7
+4
+.
+c
+
+)
+5
+
+n
+o
+x
+e
+(
+
+e
+v
+i
+t
+c
+i
+d
+e
+r
+P
+
+e
+t
+i
+h
+W
+
+e
+l
+a
+
+M
+
+d
+n
+a
+b
+o
+r
+P
+
+e
+t
+i
+h
+W
+
+e
+l
+a
+
+M
+
+e
+v
+i
+t
+c
+i
+d
+e
+r
+P
+
+e
+t
+i
+h
+W
+
+e
+l
+a
+
+M
+
+d
+n
+a
+b
+o
+r
+P
+
+n
+a
+i
+s
+A
+
+t
+s
+a
+E
+-
+h
+t
+r
+o
+N
+
+e
+l
+a
+m
+e
+F
+
+e
+v
+i
+t
+c
+i
+d
+e
+r
+P
+
+e
+t
+i
+h
+W
+
+e
+l
+a
+
+M
+
+e
+v
+i
+t
+c
+i
+d
+e
+r
+P
+
+e
+t
+i
+h
+W
+
+e
+l
+a
+
+M
+
+A
+>
+G
+1
+4
+8
+.
+c
+
+)
+8
+
+n
+o
+x
+e
+(
+
+C
+>
+T
+4
+9
+7
+.
+c
+
+)
+8
+
+n
+o
+x
+e
+(
+
+)
+5
+
+d
+n
+a
+b
+o
+r
+P
+
+n
+a
+i
+s
+A
+h
+t
+u
+o
+S
+
+e
+l
+a
+
+M
+
+e
+v
+i
+t
+c
+i
+d
+e
+r
+P
+
+e
+t
+i
+h
+W
+
+e
+l
+a
+
+M
+
+6
+4
+
+2
+5
+
+8
+2
+
+7
+3
+
+4
+3
+
+3
+3
+
+6
+3
+
+2
+3
+
+8
+1
+
+y
+p
+o
+c
+s
+o
+n
+e
+d
+o
+u
+d
+o
+r
+t
+s
+a
+g
+o
+g
+a
+h
+p
+o
+s
+E
+
+D
+G
+E
+
+)
+a
+/
+n
+(
+
+0
+
+g
+n
+i
+n
+e
+e
+r
+c
+S
+
+e
+g
+a
+(
+
+c
+i
+r
+t
+s
+a
+G
+
+l
+i
+
+N
+
+n
+o
+x
+e
+(
+
+A
+>
+G
+3
+7
+4
+.
+c
+
+d
+n
+a
+b
+o
+r
+P
+
+e
+t
+i
+h
+W
+
+e
+l
+a
+m
+e
+F
+
+t
+r
+o
+h
+o
+c
+S
+F
+L
+f
+o
+
+y
+p
+o
+c
+s
+o
+d
+n
+e
+
+r
+e
+p
+p
+u
+
+n
+o
+s
+n
+o
+i
+s
+e
+l
+
+t
+n
+a
+n
+g
+i
+l
+a
+m
+e
+r
+p
+
+d
+n
+a
+
+t
+n
+a
+n
+g
+i
+l
+a
+m
+
+f
+o
+
+s
+c
+i
+t
+s
+i
+r
+e
+t
+c
+a
+r
+a
+h
+C
+
+1
+e
+l
+b
+a
+T
+
+-
+i
+r
+a
+v
+
+e
+d
+i
+t
+o
+e
+l
+c
+u
+N
+
+3
+5
+P
+T
+n
+i
+
+t
+n
+a
+
+-
+t
+s
+e
+t
+
+c
+i
+t
+e
+n
+e
+G
+
+S
+F
+L
+r
+o
+f
+
+g
+n
+i
+
+y
+t
+i
+c
+i
+n
+h
+t
+E
+
+x
+e
+S
+
+)
+s
+r
+a
+e
+y
+(
+
+e
+g
+A
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Li Fraumeni Syndrome predisposes to gastro-esophageal junction tumours  
+
+33
+
+and eradication of Helicobacter pylori if present, similar to 
+recommendations for Lynch Syndrome [11].
+
+The optimal interval for upper endoscopy also requires 
+further study. The progression from reflux esophagitis to 
+carcinoma in situ occurred in 18 months in one case, and 
+a longer surveillance interval may have led to a later stage 
+diagnosis. Notably, this finding would not have been rou-
+tinely followed-up in a patient with no germline pathogenic 
+variant in TP53. It may therefore be reasonable for any endo-
+scopic finding at index procedure to be followed-up at two 
+years, and subsequent follow-up guided by the progression 
+or resolution of the changes. Our practice, in the absence 
+of data, is for patients with other risk factors such as family 
+history of gastrointestinal malignancy or abdominal radio-
+therapy to undergo two to three yearly surveillance, gen-
+erally coinciding with colonoscopy. Patients with normal 
+index upper endoscopy and no other risk factors undergo 
+surveillance every five years.
+
+We believe our novel clinical observations provide prac-
+tice-changing evidence for all clinicians caring for patients 
+with germline pathogenic variants of TP53 and we would 
+advocate for routine endoscopic surveillance in all cases, 
+with particular focus on the GEJ.
+
+Supplementary Information  The online version contains supplemen-
+tary material available at https:// doi. org/ 10. 1007/ s10689- 023- 00353-0.
+
+Acknowledgements  Dr Alan Pham provided the resection specimen 
+photograph and images from histology provided in Figure 1. Chris 
+Michael assisted with database searching and curation.
+
+Author contributions  Conceptualisation, methodology, analysis and 
+investigation: DT and AB. Writing—original draft preparation: DT. 
+Writing—review and editing: AB.
+
+Funding  Open Access funding enabled and organized by CAUL and its 
+Member Institutions. This work was supported by  NHMRC Postgradu-
+ate Scholarship (Grant Number:  GNT2022274).
+
+Data availability  The retrospective clinical dataset generated during 
+and/or analysed during the current study is not publicly available due 
+privacy requirements but relevant data is available from the corre-
+sponding author on reasonable request.
+
+Declarations 
+
+Competing interests  The authors have no relevant financial or non-
+financial interests to disclose.
+
+Ethical approval  This retrospective chart review study involving human 
+participants was in accordance with the ethical standards of the institu-
+tional and national research committee and with the 1964 Helsinki Dec-
+laration and its later amendments or comparable ethical standards. The 
+Human Investigation Committee (IRB) of the Peter MacCallum Cancer 
+Centre (Project number: PMC97246, 29 May 2023).
+
+Open Access  This article is licensed under a Creative Commons Attri-
+bution 4.0 International License, which permits use, sharing, adapta-
+tion, distribution and reproduction in any medium or format, as long 
+
+as you give appropriate credit to the original author(s) and the source, 
+provide a link to the Creative Commons licence, and indicate if changes 
+were made. The images or other third party material in this article are 
+included in the article’s Creative Commons licence, unless indicated 
+otherwise in a credit line to the material. If material is not included in 
+the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will 
+need to obtain permission directly from the copyright holder. To view a 
+copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+
+References
+
+  1.  McBride KA, Ballinger ML, Killick E, Kirk J, Tattersall MHN, 
+Eeles RA et al (2014) Li-Fraumeni syndrome: cancer risk assess-
+ment and clinical management. Nat Rev Clin Oncol 11(5):260–
+271. https:// doi. org/ 10. 1038/ nrcli nonc. 2014. 41
+
+  2.  Kratz CP, Achatz MI, Brugières L, Frebourg T, Garber JE, Greer 
+MC et al (2017) Cancer Screening recommendations for individu-
+als with Li-Fraumeni Syndrome. Clin Cancer Res 23(11):e38–
+e45. https:// doi. org/ 10. 1158/ 1078- 0432. Ccr- 17- 0408
+
+  3.  Katona BW, Powers J, McKenna DB, Long JM, Le AN, Hau-
+sler R et al (2020) Upper gastrointestinal cancer risk and surveil-
+lance outcomes in Li-Fraumeni Syndrome. Am J Gastroenterol 
+115(12):2095–2097. https:// doi. org/ 10. 14309/ ajg. 00000 00000  
+000935
+
+  4.  Bouaoun L, Sonkin D, Ardin M, Hollstein M, Byrnes G, Zavadil 
+J et al (2016) TP53 variations in human cancers: new lessons 
+from the IARC TP53 database and Genomics Data. Hum Mutat 
+37(9):865–876. https:// doi. org/ 10. 1002/ humu. 23035
+
+  5.  Chevallay M, Bollschweiler E, Chandramohan SM, Schmidt T, 
+Koch O, Demanzoni G et al (2018) Cancer of the gastroesopha-
+geal junction: a diagnosis, classification, and management review. 
+Ann N Y Acad Sci 1434(1):132–138. https:// doi. org/ 10. 1111/ 
+nyas. 13954
+
+  6.  Frebourg T, Bajalica Lagercrantz S, Oliveira C, Magenheim R, 
+Evans DG (2020) Guidelines for the Li-Fraumeni and heritable 
+TP53-related cancer syndromes. Eur J Hum Genet 28(10):1379–
+1386. https:// doi. org/ 10. 1038/ s41431- 020- 0638-4
+
+  7.  Kim J, Bowlby R, Mungall AJ, Robertson AG, Odze RD, Cher-
+niack AD et al (2017) Integrated genomic characterization of 
+oesophageal carcinoma. Nature 541(7636):169–175. https:// doi. 
+org/ 10. 1038/ natur e20805
+
+  8.  Cerami E, Gao J, Dogrusoz U, Gross BE, Sumer SO, Aksoy BA 
+et al (2012) The cBio cancer genomics portal: an open platform 
+for exploring multidimensional cancer genomics data. Cancer Dis-
+cov 2(5):401–404. https:// doi. org/ 10. 1158/ 2159- 8290. Cd- 12- 0095
+  9.  Masciari S, Dewanwala A, Stoffel EM, Lauwers GY, Zheng H, 
+Achatz MI et al (2011) Gastric cancer in individuals with Li-
+Fraumeni syndrome. Genet Med 13(7):651–657. https:// doi. org/ 
+10. 1097/ GIM. 0b013 e3182 1628b6
+
+ 10.  Ariffin H, Chan ASL, Oh L, Abd-Ghafar S, Ong GB, Mohamed 
+M et al (2015) Frequent occurrence of gastric cancer in Asian 
+kindreds with Li–Fraumeni syndrome. Clin Genet 88(5):450–455. 
+https:// doi. org/ 10. 1111/ cge. 12525
+
+ 11.  Weiss JM, Gupta S, Burke CA, Axell L, Chen LM, Chung DC et al 
+(2021) NCCN Guidelines® insights: Genetic/Familial High-Risk 
+Assessment: Colorectal, Version 1.2021. J Natl Compr Canc Netw 
+19(10):1122–1132. https:// doi. org/ 10. 1164/ jnccn. 2021. 0048
+
+Publisher’s  Note  Springer  Nature  remains  neutral  with  regard  to 
+jurisdictional claims in published maps and institutional affiliations.
+
+

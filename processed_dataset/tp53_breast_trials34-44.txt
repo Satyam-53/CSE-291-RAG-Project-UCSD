@@ -1,0 +1,785 @@
+34. Lancet Oncol. 2019 Aug;20(8):1136-1147. doi: 10.1016/S1470-2045(19)30275-X.
+Epub  2019 Jun 17.
+
+MRI versus mammography for breast cancer screening in women with familial risk 
+(FaMRIsc): a multicentre, randomised, controlled trial.
+
+Saadatmand S(1), Geuzinge HA(2), Rutgers EJT(3), Mann RM(4), de Roy van 
+Zuidewijn DBW(5), Zonderland HM(6), Tollenaar RAEM(7), Lobbes MBI(8), Ausems 
+MGEM(9), van 't Riet M(10), Hooning MJ(11), Mares-Engelberts I(12), Luiten 
+EJT(13), Heijnsdijk EAM(2), Verhoef C(1), Karssemeijer N(4), Oosterwijk JC(14), 
+Obdeijn IM(15), de Koning HJ(2), Tilanus-Linthorst MMA(16); FaMRIsc study group.
+
+Collaborators: van Deurzen CH, Loo CE, Wesseling J, Schlooz-Vries M, van der 
+Meij S, Mesker W, Keymeulen K, Contant C, Madsen E, Koppert LB, Rothbarth J, 
+Veldhuis WB, Witkamp AJ, Tetteroo E, de Monye C, van Rosmalen MM, Remmelzwaal J, 
+Gort HBW, Roi-Antonides R, Wasser MN, van Druten E.
+
+Author information:
+(1)Department of Surgery, Erasmus University Medical Center, Rotterdam, 
+Netherlands.
+(2)Department of Public Health, Erasmus University Medical Center, Rotterdam, 
+Netherlands.
+(3)Department of Surgery, The Netherlands Cancer Institute, Antoni van 
+Leeuwenhoek Hospital, Amsterdam, Netherlands.
+(4)Department of Radiology and Nuclear Medicine, Radboud University Hospital, 
+Nijmegen, Netherlands.
+(5)Department of Surgery, Medical Centre Leeuwarden, Leeuwarden, Netherlands.
+(6)Department of Radiology and Nuclear Medicine, Amsterdam UMC, University of 
+Amsterdam, Amsterdam, Netherlands.
+(7)Department of Surgery, Leiden University Medical Centre, Leiden, Netherlands.
+(8)Department of Radiology and Nuclear Medicine, Maastricht University Medical 
+Center, Maastricht, Netherlands.
+(9)Department of Genetics, University Medical Centre Utrecht, Utrecht, 
+Netherlands.
+(10)Department of Surgery, Reinier de Graaf Gasthuis, Delft, Netherlands.
+(11)Department of Medical Oncology, Erasmus University Medical Center, 
+Rotterdam, Netherlands.
+(12)Department of Surgery, Vlietland Ziekenhuis, Schiedam, Netherlands.
+(13)Department of Surgery, Amphia Ziekenhuis, Breda, Netherlands.
+(14)Department of Genetics, Groningen University, University Medical Centre 
+Groningen, Groningen, Netherlands.
+(15)Department of Radiology and Nuclear Medicine, Erasmus University Medical 
+Center, Rotterdam, Netherlands.
+(16)Department of Surgery, Erasmus University Medical Center, Rotterdam, 
+Netherlands. Electronic address: madeleinetilanus@hotmail.com.
+
+Comment in
+    Lancet Oncol. 2019 Aug;20(8):1044-1046. doi: 10.1016/S1470-2045(19)30314-6.
+    Lancet Oncol. 2019 Sep;20(9):e465. doi: 10.1016/S1470-2045(19)30489-9.
+
+BACKGROUND: Approximately 15% of all breast cancers occur in women with a family 
+history of breast cancer, but for whom no causative hereditary gene mutation has 
+been found. Screening guidelines for women with familial risk of breast cancer 
+differ between countries. We did a randomised controlled trial (FaMRIsc) to 
+compare MRI screening with mammography in women with familial risk.
+METHODS: In this multicentre, randomised, controlled trial done in 12 hospitals 
+in the Netherlands, women were eligible to participate if they were aged 30-55 
+years and had a cumulative lifetime breast cancer risk of at least 20% because 
+of a familial predisposition, but were BRCA1, BRCA2, and TP53 wild-type. 
+Participants who were breast-feeding, pregnant, had a previous breast cancer 
+screen, or had a previous a diagnosis of ductal carcinoma in situ were eligible, 
+but those with a previously diagnosed invasive carcinoma were excluded. 
+Participants were randomly allocated (1:1) to receive either annual MRI and 
+clinical breast examination plus biennial mammography (MRI group) or annual 
+mammography and clinical breast examination (mammography group). Randomisation 
+was done via a web-based system and stratified by centre. Women who did not 
+provide consent for randomisation could give consent for registration if they 
+followed either the mammography group protocol or the MRI group protocol in a 
+joint decision with their physician. Results from the registration group were 
+only used in the analyses stratified by breast density. Primary outcomes were 
+number, size, and nodal status of detected breast cancers. Analyses were done by 
+intention to treat. This trial is registered with the Netherlands Trial 
+Register, number NL2661.
+FINDINGS: Between Jan 1, 2011, and Dec 31, 2017, 1355 women provided consent for 
+randomisation and 231 for registration. 675 of 1355 women were randomly 
+allocated to the MRI group and 680 to the mammography group. 218 of 231 women 
+opting to be in a registration group were in the mammography registration group 
+and 13 were in the MRI registration group. The mean number of screening rounds 
+per woman was 4·3 (SD 1·76). More breast cancers were detected in the MRI group 
+than in the mammography group (40 vs 15; p=0·0017). Invasive cancers (24 in the 
+MRI group and eight in the mammography group) were smaller in the MRI group than 
+in the mammography group (median size 9 mm [5-14] vs 17 mm [13-22]; p=0·010) and 
+less frequently node positive (four [17%] of 24 vs five [63%] of eight; 
+p=0·023). Tumour stages of the cancers detected at incident rounds were 
+significantly earlier in the MRI group (12 [48%] of 25 in the MRI group vs one 
+[7%] of 15 in the mammography group were stage T1a and T1b cancers; one (4%) of 
+25 in the MRI group and two (13%) of 15 in the mammography group were stage T2 
+or higher; p=0·035) and node-positive tumours were less frequent (two [11%] of 
+18 in the MRI group vs five [63%] of eight in the mammography group; p=0·014). 
+All seven tumours stage T2 or higher were in the two highest breast density 
+categories (breast imaging reporting and data system categories C and D; 
+p=0·0077) One patient died from breast cancer during follow-up (mammography 
+registration group).
+INTERPRETATION: MRI screening detected cancers at an earlier stage than 
+mammography. The lower number of late-stage cancers identified in incident 
+rounds might reduce the use of adjuvant chemotherapy and decrease breast 
+cancer-related mortality. However, the advantages of the MRI screening approach 
+might be at the cost of more false-positive results, especially at high breast 
+density.
+FUNDING: Dutch Government ZonMw, Dutch Cancer Society, A Sister's Hope, Pink 
+Ribbon, Stichting Coolsingel, J&T Rijke Stichting.
+
+Copyright © 2019 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/S1470-2045(19)30275-X
+PMID: 31221620 [Indexed for MEDLINE]
+
+
+35. PLoS One. 2018 Dec 31;13(12):e0209934. doi: 10.1371/journal.pone.0209934. 
+eCollection 2018.
+
+TP53 p.Arg337His germline mutation prevalence in Southern Brazil: Further 
+evidence for mutation testing in young breast cancer patients.
+
+Hahn EC(1)(2)(3), Bittar CM(1)(2), Vianna FSL(1)(2), Netto CBO(4), Biazús JV(5), 
+Cericatto R(5), Cavalheiro JA(5), de Melo MP(5), Menke CH(5), Rabin E(5), 
+Leistner-Segal S(3)(4), Ashton-Prolla P(1)(2)(4).
+
+Author information:
+(1)Programa de Pós-Graduação em Genética e Biologia Molecular, Universidade 
+Federal do Rio Grande do Sul (UFRGS), Porto Alegre, Brazil.
+(2)Laboratório de Medicina Genômica, Centro de Pesquisa Experimental do Hospital 
+de Clínicas de Porto Alegre, Porto Alegre, Brazil.
+(3)Laboratório de Genética Molecular, Serviço de Genética Médica do HCPA, Porto 
+Alegre, Brazil.
+(4)Serviço de Genética Médica do Hospital de Clínicas de Porto Alegre, Porto 
+Alegre, Brazil.
+(5)Serviço de Mastologia do Hospital de Clínicas de Porto Alegre, Porto Alegre, 
+Brazil.
+
+Premenopausal breast cancer (BC) is a core tumor of Li-Fraumeni (LFS) and 
+Li-Fraumeni-like (LFL) Syndromes, predisposition disorders caused by germline 
+mutations in TP53 gene. In the Southern and Southeastern regions of Brazil, a 
+specific TP53 germline mutation, c.1010G>A (p.Arg337His), was identified at a 
+population frequency of 0.3%, the highest value ever described for a TP53 
+germline variation. In Brazilian BC patients, carrier frequency can vary from 
+0.5% to 8.7%. The current study assessed carrier frequency by genotyping TP53 
+c.1010G>A in 2 BC groups: 1) 315 patients unselected for age of diagnosis and 
+family history (FH) and 2) 239 patients diagnosed before 46 years and without 
+Chompret criteria for LFS or LFL. One carrier was identified in group 1 (0.3%; 
+CI 95% 0.1-1.76%) and six carriers in group 2 (2.5%; CI 95% 0.93-5.39%). The 
+frequencies differed significantly between groups (p = 0.04). The mutation 
+carrier frequency observed in group 2 could justify mutation testing in BC 
+patients diagnosed before 46 years and without Chompret criteria for LFS or LFL. 
+Further studies in larger samples of BC patients of different ages and regions 
+of the country are necessary to provide more definitive TP53 p.Arg337His carrier 
+frequencies in different scenarios.
+
+DOI: 10.1371/journal.pone.0209934
+PMCID: PMC6312227
+PMID: 30596752 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors have declared that no competing 
+interests exist.
+
+
+36. J Hematol Oncol. 2018 Oct 11;11(1):124. doi: 10.1186/s13045-018-0670-9.
+
+Molecular profiling of hormone receptor-positive, HER2-negative breast cancers 
+from patients treated with neoadjuvant endocrine therapy in the CARMINA 02 trial 
+(UCBG-0609).
+
+Liang X(1)(2), Briaux A(2), Becette V(3), Benoist C(2), Boulai A(2), Chemlali 
+W(2), Schnitzler A(2), Baulande S(4), Rivera S(5), Mouret-Reynier MA(6), Bouvet 
+LV(7), De La Motte Rouge T(8), Lemonnier J(9), Lerebours F(10), Callens C(11).
+
+Author information:
+(1)Key Laboratory of Carcinogenesis and Translational Research (Ministry of 
+Education/Beijing), Department of Breast Oncology, Peking University Cancer 
+Hospital & Institute, Beijing, China.
+(2)Pharmacogenomic Unit, Department of Genetics, Curie Institute, PSL Research 
+University, Paris, France.
+(3)Department of Biopathology, Curie Institute, René Huguenin Hospital, 
+Saint-Cloud, France.
+(4)Institut Curie Genomics of Excellence (ICGex) Platform, Curie Institute, PSL 
+Research University, Paris, France.
+(5)Department of Radiotherapy, Gustave Roussy, Villejuif, France.
+(6)Department of Medical Oncology, Centre Jean Perrin, Clermont-Ferrand, France.
+(7)Department of Medical Oncology, CHU, Limoges, France.
+(8)Department of Medical Oncology, Centre Eugene Marquis, Rennes, France.
+(9)R&D Unicancer, UCBG, Paris, France.
+(10)Department of Medical Oncology, Curie Institute, René Huguenin Hospital, 
+Saint-Cloud, France.
+(11)Pharmacogenomic Unit, Department of Genetics, Curie Institute, PSL Research 
+University, Paris, France. celine.callens@curie.fr.
+
+BACKGROUND: Postmenopausal women with large, hormone receptor 
+(HR)-positive/HER2-negative and low-proliferative breast cancer derived a 
+benefit from neoadjuvant endocrine therapy (NET) in the CARMINA02 trial. This 
+study was designed to correlate gene expression and mutation profiles with both 
+response to NET and prognosis.
+METHODS: Gene expression profiling using RNA sequencing was performed in 86 
+pre-NET and post-NET tumor samples. Targeted next-generation sequencing of 91 
+candidate breast cancer-associated genes was performed on DNA samples from 89 
+patients. Molecular data were correlated with radiological response and 
+relapse-free survival.
+RESULTS: The transcriptional profile of tumors to NET in responders involved 
+immune-associated genes enriched in activated Th1 pathway, which remained 
+unchanged in non-responders. Immune response was confirmed by analysis of 
+tumor-infiltrating lymphocytes (TILs). The percentage of TILs was significantly 
+increased post-NET compared to pre-NET samples in responders (p = 0.0071), but 
+not in non-responders (p = 0.0938). Gene expression revealed that lipid 
+metabolism was the main molecular function related to prognosis, while PPARγ is 
+the most important upstream regulator gene. The most frequently mutated genes 
+were PIK3CA (48.3%), CDH1 (20.2%), PTEN (15.7%), TP53 (10.1%), LAMA2 (10.1%), 
+BRCA2 (9.0%), MAP3K1 (7.9%), ALK (6.7%), INPP4B (6.7%), NCOR1 (6.7%), and NF1 
+(5.6%). Cell cycle and apoptosis pathway and PIK3CA/AKT/mTOR pathway were 
+altered significantly more frequently in non-responders than in responders 
+(p = 0.0017 and p = 0.0094, respectively). The average number of mutations per 
+sample was significantly higher in endocrine-resistant tumors (2.88 vs. 1.64, 
+p = 0.03), but no difference was observed in terms of prognosis. ESR1 hotspot 
+mutations were detected in 3.4% of treatment-naive tumors.
+CONCLUSIONS: The Th1-related immune system and lipid metabolism appear to play 
+key roles in the response to endocrine therapy and prognosis in 
+HR-positive/HER2-negative breast cancer. Deleterious somatic mutations in the 
+cell cycle and apoptosis pathway and PIK3CA/AKT/mTOR pathway may be relevant for 
+clinical management.
+TRIAL REGISTRATION: This trial is registered with ClinicalTrials.gov ( 
+NCT00629616 ) on March 6, 2008, retrospectively registered.
+
+DOI: 10.1186/s13045-018-0670-9
+PMCID: PMC6180434
+PMID: 30305115 [Indexed for MEDLINE]
+
+Conflict of interest statement: ETHICS APPROVAL AND CONSENT TO PARTICIPATE: The 
+study was authorized by the French National Agency for Medicines and Health 
+Products Safety and was approved by the Ile de France VIII ethics committee. 
+Participating patients completed the informed consent process. CONSENT FOR 
+PUBLICATION: Not applicable. COMPETING INTERESTS: I confirm that I have read 
+BioMed Central’s guidance on competing interests and have included a statement 
+indicating that none of the authors have any competing interests concerning this 
+manuscript. PUBLISHER’S NOTE: Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.
+
+
+37. PLoS One. 2018 Sep 13;13(9):e0203495. doi: 10.1371/journal.pone.0203495. 
+eCollection 2018.
+
+Prevalence and spectrum of AKT1, PIK3CA, PTEN and TP53 somatic mutations in 
+Chinese breast cancer patients.
+
+Li G(1), Guo X(2), Chen M(2), Tang L(3), Jiang H(1), Day JX(2), Xie Y(1), Peng 
+L(2), Xu X(2), Li J(2), Wang S(3), Xiao Z(3), Dai L(2)(4)(5), Wang J(1)(2).
+
+Author information:
+(1)School of Life Sciences, Central South University, Changsha, Hunan, China.
+(2)Sanway Gene Technology Inc., Changsha, Hunan, China.
+(3)Department of Breast Surgery, Xiangya Hospital, Central South University, 
+Changsha, Hunan, China.
+(4)Research Center for Technologies in Nucleic Acid-Based Diagnostics, Changsha, 
+Hunan, China.
+(5)Research Center for Technologies in Nucleic Acid-Based Diagnostics and 
+Therapeutics, Changsha, Hunan, China.
+
+Breast cancer, one of the most frequently occurring cancers worldwide, is the 
+leading cause of cancer-related death among women. AKT1, PIK3CA, PTEN and TP53 
+mutations were common observed in breast cancer representing potential clinical 
+biomarkers for cancer classification and treatment. A comprehensive knowledge of 
+AKT1, PIK3CA, PTEN and TP53 mutations in breast cancer was still insufficient in 
+Chinese population. In this study, the complete coding regions and exon-intron 
+boundaries of AKT1, PIK3CA, PTEN and TP53 genes were sequenced in paired breast 
+tumor and normal tissues from 313 Chinese breast cancer patients using 
+microfluidic PCR-based target enrichment and next-generation sequencing 
+technology. Total 120 somatic mutations were identified in 190 of the 313 
+patients (60.7%), with the mutation frequency of AKT1 as 3.2%, PIK3CA as 36.4%, 
+PTEN as 4.8%, and TP53 as 33.9%. Among these mutations, 1 in PIK3CA (p.I69N), 3 
+in PTEN (p.K62X, c.635-12_636delTTAACCATGCAGAT and p.N340IfsTer4) and 5 in TP53 
+(p.Q136AfsTer5, p.K139_P142del, p.Y234dup, p.V274LfsTer31 and p.N310TfsTer35) 
+were novel. Notably, PIK3CA somatic mutations were significantly associated with 
+ER-positive or PR-positive tumors. TP53 somatic mutations were significantly 
+associated with ER-negative, PR-negative, HER2-positive, BRCA1 mutation, Ki67 
+high expression and basal-like tumors. Our findings provided a comprehensive 
+mutation profiling of AKT1, PIK3CA, PTEN and TP53 genes in Chinese breast cancer 
+patients, which have potential implications in clinical management.
+
+DOI: 10.1371/journal.pone.0203495
+PMCID: PMC6136723
+PMID: 30212483 [Indexed for MEDLINE]
+
+Conflict of interest statement: Xinwu Guo, Ming Chen, Limin Peng, Xunxun Xu, 
+Jinliang Li, Lizhong Dai and Jun Wang are employees of Sanway Gene Technology 
+Inc. Julia Xiaoning Day is a student from La Jolla Country Day School (La Jolla, 
+CA, USA), who worked as an intern at Sanway Gene Technology Inc. This does not 
+alter our adherence to PLOS ONE policies on sharing data and materials.
+
+
+38. Clin Chem. 2018 Nov;64(11):1626-1635. doi: 10.1373/clinchem.2018.289629. Epub
+ 2018 Aug 27.
+
+Ultra-Sensitive Mutation Detection and Genome-Wide DNA Copy Number 
+Reconstruction by Error-Corrected Circulating Tumor DNA Sequencing.
+
+Mansukhani S(1), Barber LJ(1), Kleftogiannis D(1), Moorcraft SY(2), Davidson 
+M(2), Woolston A(1), Proszek PZ(3), Griffiths B(1), Fenwick K(4), Herman B(5), 
+Matthews N(4), O'Leary B(6), Hulkki S(3), Gonzalez De Castro D(7), Patel A(8), 
+Wotherspoon A(9), Okachi A(2), Rana I(2), Begum R(2), Davies MN(1), Powles 
+T(10), von Loga K(1), Hubank M(3), Turner N(6)(11), Watkins D(2), Chau I(2), 
+Cunningham D(2), Lise S(1), Starling N(2), Gerlinger M(12)(2).
+
+Author information:
+(1)Centre for Evolution and Cancer, Division of Molecular Pathology, The 
+Institute of Cancer Research, London, UK.
+(2)Gastrointestinal Cancer Unit, The Royal Marsden NHS Foundation Trust, London 
+and Sutton, UK.
+(3)Centre for Molecular Pathology, The Royal Marsden NHS Foundation Trust, 
+Sutton, UK.
+(4)Tumour Profiling Unit, The Institute of Cancer Research, London, UK.
+(5)Diagnostics and Genomics Group, Agilent Technologies Inc., Santa Clara, CA.
+(6)Breast Cancer Now Research Centre, The Institute of Cancer Research, London, 
+UK.
+(7)Centre for Cancer Research and Cell Biology, Belfast, UK.
+(8)Department for Radiology, The Royal Marsden NHS Foundation Trust, London and 
+Sutton, UK.
+(9)Department of Histopathology, The Royal Marsden NHS Foundation Trust, London 
+and Sutton, UK.
+(10)Barts Cancer Institute, Queen Mary University of London, London, UK.
+(11)Breast Cancer Unit, The Royal Marsden NHS Foundation Trust, London and 
+Sutton, UK.
+(12)Centre for Evolution and Cancer, Division of Molecular Pathology, The 
+Institute of Cancer Research, London, UK; marco.gerlinger@icr.ac.uk.
+
+BACKGROUND: Circulating free DNA sequencing (cfDNA-Seq) can portray cancer 
+genome landscapes, but highly sensitive and specific technologies are necessary 
+to accurately detect mutations with often low variant frequencies.
+METHODS: We developed a customizable hybrid-capture cfDNA-Seq technology using 
+off-the-shelf molecular barcodes and a novel duplex DNA molecule identification 
+tool for enhanced error correction.
+RESULTS: Modeling based on cfDNA yields from 58 patients showed that this 
+technology, requiring 25 ng of cfDNA, could be applied to >95% of patients with 
+metastatic colorectal cancer (mCRC). cfDNA-Seq of a 32-gene, 163.3-kbp target 
+region detected 100% of single-nucleotide variants, with 0.15% variant frequency 
+in spike-in experiments. Molecular barcode error correction reduced 
+false-positive mutation calls by 97.5%. In 28 consecutively analyzed patients 
+with mCRC, 80 out of 91 mutations previously detected by tumor tissue sequencing 
+were called in the cfDNA. Call rates were similar for point mutations and 
+indels. cfDNA-Seq identified typical mCRC driver mutations in patients in whom 
+biopsy sequencing had failed or did not include key mCRC driver genes. Mutations 
+only called in cfDNA but undetectable in matched biopsies included a subclonal 
+resistance driver mutation to anti-EGFR antibodies in KRAS, parallel evolution 
+of multiple PIK3CA mutations in 2 cases, and TP53 mutations originating from 
+clonal hematopoiesis. Furthermore, cfDNA-Seq off-target read analysis allowed 
+simultaneous genome-wide copy number profile reconstruction in 20 of 28 cases. 
+Copy number profiles were validated by low-coverage whole-genome sequencing.
+CONCLUSIONS: This error-corrected, ultradeep cfDNA-Seq technology with a 
+customizable target region and publicly available bioinformatics tools enables 
+broad insights into cancer genomes and evolution.
+CLINICALTRIALSGOV IDENTIFIER: NCT02112357.
+
+© 2018 American Association for Clinical Chemistry.
+
+DOI: 10.1373/clinchem.2018.289629
+PMCID: PMC6214522
+PMID: 30150316 [Indexed for MEDLINE]
+
+
+39. Clin Transl Oncol. 2019 Mar;21(3):363-372. doi: 10.1007/s12094-018-1932-2.
+Epub  2018 Aug 9.
+
+Evaluation of safety and efficacy of p53MVA vaccine combined with pembrolizumab 
+in patients with advanced solid cancers.
+
+Chung V(1), Kos FJ(2), Hardwick N(2), Yuan Y(1), Chao J(1), Li D(1), Waisman 
+J(1), Li M(3), Zurcher K(4), Frankel P(5), Diamond DJ(6).
+
+Author information:
+(1)Department of Medical Oncology, City of Hope National Medical Center, 1500 E. 
+Duarte Rd., Duarte, CA, 91010, USA.
+(2)Department of Immuno-Oncology, Beckman Research Institute of the City of 
+Hope, Duarte, CA, USA.
+(3)Clinical Trials Office, City of Hope National Medical Center, Duarte, CA, 
+USA.
+(4)Department of Clinical Research, City of Hope National Medical Center, 
+Duarte, CA, USA.
+(5)Division of Biostatistics, City of Hope National Medical Center, Duarte, CA, 
+USA.
+(6)Department of Immuno-Oncology, Beckman Research Institute of the City of 
+Hope, Duarte, CA, USA. ddiamond@coh.org.
+
+BACKGROUND: Vaccination of cancer patients with p53-expressing modified vaccinia 
+Ankara virus (p53MVA) has shown in our previous studies to activate p53-reactive 
+T cells in peripheral blood but without immediate clinical benefit. We 
+hypothesized that the immunological responses to p53MVA vaccine may require 
+additional immune checkpoint blockade to achieve clinically beneficial levels. 
+We therefore conducted a phase I trial evaluating the combination of p53MVA and 
+pembrolizumab (anti-PD-1) in patients with advanced solid tumors.
+PATIENTS AND METHODS: Eleven patients with advanced breast, pancreatic, 
+hepatocellular, or head and neck cancer received up to 3 triweekly vaccines in 
+combination with pembrolizumab given concurrently and thereafter, alone at 
+3-week intervals until disease progression. The patients were assessed for 
+toxicity and clinical response. Correlative studies analyzed p53-reactive T 
+cells and profile of immune function gene expression.
+RESULTS: We observed clinical responses in 3/11 patients who remained with 
+stable disease for 30, 32, and 49 weeks. Two of these patients showed increased 
+frequencies and persistence of p53-reactive CD8+ T cells and elevation of 
+expression of multiple immune response genes. Borderline or undetectable 
+p53-specific T cell responses in 7/11 patients were related to no immediate 
+clinical benefit. The first study patient had a grade 5 fatal myocarditis. After 
+the study was amended for enhanced cardiac monitoring, no additional cardiac 
+toxicities were noted.
+CONCLUSION: We have shown that the combination of p53MVA vaccine with 
+pembrolizumab is feasible, safe, and may offer clinical benefit in select group 
+of patients that should be identified through further studies.
+
+DOI: 10.1007/s12094-018-1932-2
+PMCID: PMC8802616
+PMID: 30094792 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest The authors declare that 
+they have no conflict of interest.
+
+
+40. Clin Cancer Res. 2018 Nov 1;24(21):5292-5304. doi: 
+10.1158/1078-0432.CCR-17-3431. Epub 2018 Jul 23.
+
+Integrated Analysis of RNA and DNA from the Phase III Trial CALGB 40601 
+Identifies Predictors of Response to Trastuzumab-Based Neoadjuvant Chemotherapy 
+in HER2-Positive Breast Cancer.
+
+Tanioka M(1), Fan C(1), Parker JS(1)(2), Hoadley KA(1)(2), Hu Z(1), Li Y(1), 
+Hyslop TM(3), Pitcher BN(3), Soloway MG(1), Spears PA(1), Henry LN(4), Tolaney 
+S(5), Dang CT(6), Krop IE(5), Harris LN(7), Berry DA(8), Mardis ER(9), Winer 
+EP(5), Hudis CA(6), Carey LA(1), Perou CM(10)(2).
+
+Author information:
+(1)Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel 
+Hill, North Carolina.
+(2)Department of Genetics, University of North Carolina, Chapel Hill, North 
+Carolina.
+(3)Alliance Statistics and Data Center, Duke University, Durham, North Carolina.
+(4)University of Utah, Salt Lake City, Utah.
+(5)Dana Farber Cancer Institute, Boston, Massachusetts.
+(6)Memorial Sloan Kettering Cancer Center, New York, New York.
+(7)National Cancer Institute, Bethesda, Maryland.
+(8)Alliance Statistics and Data Center, M.D. Anderson, Houston, Texas.
+(9)The Research Institute at Nationwide Children's Hospital, Columbus, Ohio.
+(10)Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel 
+Hill, North Carolina. cperou@med.unc.edu.
+
+Purpose: Response to a complex trastuzumab-based regimen is affected by multiple 
+features of the tumor and its microenvironment. Developing a predictive 
+algorithm is key to optimizing HER2-targeting therapy.Experimental Design: We 
+analyzed 137 pretreatment tumors with mRNA-seq and DNA exome sequencing from 
+CALGB 40601, a neoadjuvant phase III trial of paclitaxel plus trastuzumab with 
+or without lapatinib in stage II to III HER2-positive breast cancer. We adopted 
+an Elastic Net regularized regression approach that controls for covarying 
+features within high-dimensional data. First, we applied 517 known gene 
+expression signatures to develop an Elastic Net model to predict pCR, which we 
+validated on 143 samples from four independent trials. Next, we performed 
+integrative analyses incorporating clinicopathologic information with somatic 
+mutation status, DNA copy number alterations (CNA), and gene signatures.Results: 
+The Elastic Net model using only gene signatures predicted pCR in the validation 
+sets (AUC = 0.76). Integrative analyses showed that models containing gene 
+signatures, clinical features, and DNA information were better pCR predictors 
+than models containing a single data type. Frequently selected variables from 
+the multiplatform models included amplifications of chromosome 6p, TP53 
+mutation, HER2-enriched subtype, and immune signatures. Variables predicting 
+resistance included Luminal/ER+ features.Conclusions: Models using RNA only, as 
+well as integrated RNA and DNA models, can predict pCR with improved accuracy 
+over clinical variables. Somatic DNA alterations (mutation, CNAs), tumor 
+molecular subtype (HER2E, Luminal), and the microenvironment (immune cells) were 
+independent predictors of response to trastuzumab and paclitaxel-based regimens. 
+This highlights the complexity of predicting response in HER2-positive breast 
+cancer. Clin Cancer Res; 24(21); 5292-304. ©2018 AACR.
+
+©2018 American Association for Cancer Research.
+
+DOI: 10.1158/1078-0432.CCR-17-3431
+PMCID: PMC6214737
+PMID: 30037817 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest The following authors or 
+their immediate family members indicated a financial interest. Ownership: Donald 
+A Berry, Berry Consultants LLC; Charles M Perou, Bioclassifier, GeneCentric 
+Diagnostics; Income: Donald A Berry, Berry Consultants LLC; Charles M Perou, 
+royalties from PAM50 breast cancer gene patent application; Terry Hyslop, Abbie; 
+Intellectual Property : Charles M Perou and Joel S Parker, PAM50 breast cancer 
+gene patent(s) The other authors have no conflict of interest.
+
+
+41. Breast Cancer Res Treat. 2018 Oct;171(3):637-648. doi: 
+10.1007/s10549-018-4852-5. Epub 2018 Jun 25.
+
+LCCC 1025: a phase II study of everolimus, trastuzumab, and vinorelbine to treat 
+progressive HER2-positive breast cancer brain metastases.
+
+Van Swearingen AED(1), Siegel MB(1), Deal AM(1), Sambade MJ(1), Hoyle A(1), 
+Hayes DN(1)(2), Jo H(1), Little P(1), Dees EC(1), Muss H(1), Jolly T(1), Zagar 
+TM(1), Patel N(1), Miller CR(1), Parker JS(1), Smith JK(1), Fisher J(3), Shah 
+N(4), Nabell L(5), Nanda R(6), Dillon P(7), Abramson V(8), Carey LA(1), Anders 
+CK(9).
+
+Author information:
+(1)Lineberger Comprehensive Cancer Center, University of North Carolina at 
+Chapel Hill, 170 Manning Drive, CB #7305, Chapel Hill, NC, 27599-7305, USA.
+(2)West Cancer Center, University of Tennessee, Knoxville, USA.
+(3)Carolinas Medical Center, Charlotte, NC, USA.
+(4)MD Anderson Orlando, Orlando, FL, USA.
+(5)University of Alabama, Birmingham, AL, USA.
+(6)University of Chicago, Chicago, IL, USA.
+(7)University of Virginia, Charlottesville, VA, USA.
+(8)Vanderbilt University, Nashville, TN, USA.
+(9)Lineberger Comprehensive Cancer Center, University of North Carolina at 
+Chapel Hill, 170 Manning Drive, CB #7305, Chapel Hill, NC, 27599-7305, USA. 
+carey_anders@med.unc.edu.
+
+PURPOSE: HER2 + breast cancer (BC) is an aggressive subtype with high rates of 
+brain metastases (BCBM). Two-thirds of HER2 + BCBM demonstrate activation of the 
+PI3K/mTOR pathway driving resistance to anti-HER2 therapy. This phase II study 
+evaluated everolimus (E), a brain-permeable mTOR inhibitor, trastuzumab (T), and 
+vinorelbine (V) in patients with HER2 + BCBM.
+PATIENTS AND METHODS: Eligible patients had progressive HER2 + BCBM. The primary 
+endpoint was intracranial response rate (RR); secondary objectives were CNS 
+clinical benefit rate (CBR), extracranial RR, time to progression (TTP), overall 
+survival (OS), and targeted sequencing of tumors from enrolled patients. A 
+two-stage design distinguished intracranial RR of 5% versus 20%.
+RESULTS: 32 patients were evaluable for toxicity, 26 for efficacy. Intracranial 
+RR was 4% (1 PR). CNS CBR at 6 mos was 27%; at 3 mos 65%. Median intracranial 
+TTP was 3.9 mos (95% CI 2.2-5). OS was 12.2 mos (95% CI 0.6-20.2). Grade 3-4 
+toxicities included neutropenia (41%), anemia (16%), and stomatitis (16%). 
+Mutations in TP53 and PIK3CA were common in BCBM. Mutations in the PI3K/mTOR 
+pathway were not associated with response. ERBB2 amplification was higher in 
+BCBM compared to primary BC; ERBB2 amplification in the primary BC trended 
+toward worse OS.
+CONCLUSION: While intracranial RR to ETV was low in HER2 + BCBM patients, 
+one-third achieved CNS CBR; TTP/OS was similar to historical control. No new 
+toxicity signals were observed. Further analysis of the genomic underpinnings of 
+BCBM to identify tractable prognostic and/or predictive biomarkers is warranted.
+CLINICAL TRIAL: (NCT01305941).
+
+DOI: 10.1007/s10549-018-4852-5
+PMCID: PMC6779035
+PMID: 29938395 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest Carey K. Anders is an 
+uncompensated consultant/advisory board member for Novartis, Sanofi, toBBB, 
+Angiochem, Merrimack, Lily, Genentech, Nektar, and Kadmon, receives unrelated 
+research funding from Novartis, Sanofi, toBBB, Angiochem, Merrimack, PUMA, Lily, 
+Merck, Oncothyreon, Cascadian, Nektar, and Tesaro, and receives honoraria for 
+UptoDate and Jones and Bartlett Publishing. Rita Nanda is a consultant/advisory 
+board member for AstraZeneca, Celgene, Genentech, Merck, Pfizer, Puma, and 
+Syndax. Nikita Shah is a consultant for Novartis. The other authors declare they 
+have no conflicts of interest.
+
+
+42. JAMA Oncol. 2018 Oct 1;4(10):1335-1343. doi: 10.1001/jamaoncol.2018.1778.
+
+Association of Somatic Driver Alterations With Prognosis in Postmenopausal, 
+Hormone Receptor-Positive, HER2-Negative Early Breast Cancer: A Secondary 
+Analysis of the BIG 1-98 Randomized Clinical Trial.
+
+Luen SJ(1), Asher R(2), Lee CK(2), Savas P(1), Kammler R(3), Dell'Orto P(4), 
+Biasi OM(5), Demanse D(6), JeBailey L(7), Dolan S(7), Hackl W(7), Thuerlimann 
+B(8), Viale G(9), Colleoni M(10), Regan MM(11), Loi S(1).
+
+Author information:
+(1)Peter MacCallum Cancer Centre, University of Melbourne, Melbourne, Victoria, 
+Australia.
+(2)National Health and Medical Research Council Clinical Trials Centre, 
+University of Sydney, Sydney, New South Wales, Australia.
+(3)International Breast Cancer Study Group, Coordinating Center, Central 
+Pathology Office, Bern, Switzerland.
+(4)International Breast Cancer Study Group, Central Pathology Office, Department 
+of Pathology, European Institute of Oncology, Milan, Italy.
+(5)Division of Pathology and Laboratory Medicine, European Institute of 
+Oncology, Milan, Italy.
+(6)Novartis Pharma AG, Basel, Switzerland.
+(7)Novartis Institutes for Biomedical Research, Basel, Switzerland.
+(8)Breast Center, Cantonal Hospital, St Gallen, Switzerland.
+(9)International Breast Cancer Study Group Central Pathology Office, European 
+Institute of Oncology, University of Milan, Milan, Italy.
+(10)Division of Medical Senology, European Institute of Oncology, Milan, Italy.
+(11)Department of Biostatistics and Computational Biology, International Breast 
+Cancer Study Group Statistical Center, Dana-Farber Cancer Institute, Harvard 
+Medical School, Boston, Massachusetts.
+
+Comment in
+    JAMA Oncol. 2018 Oct 1;4(10):1330-1332. doi: 10.1001/jamaoncol.2018.1766.
+
+IMPORTANCE: A range of somatic driver alterations has been described in estrogen 
+receptor-positive, HER2-negative (ER+/HER2-) early breast cancer (BC); however, 
+the clinical relevance is unknown.
+OBJECTIVE: To investigate associations of driver alterations with prognosis and 
+the role of PIK3CA mutations in prediction of benefit associated with endocrine 
+therapy in postmenopausal patients with ER+/HER2- early BC treated with 
+tamoxifen or letrozole.
+DESIGN, SETTING, AND PARTICIPANTS: The Breast International Group (BIG) 1-98 
+trial randomized 8010 postmenopausal patients with hormone receptor-positive, 
+operable, invasive BC to monotherapy with letrozole, tamoxifen, or a sequential 
+strategy for 5 years. Driver alterations were characterized using 
+next-generation sequencing in primary tumors from a subset of 764 patients from 
+7329 eligible patients with ER+/HER2- BC, with 841 distant recurrences after a 
+median of 8.1 years of follow-up. To correct for the oversampling of distant 
+recurrences, weighted analysis methods were used. This analysis was conducted 
+from April 4, 2016, to November 30, 2016.
+MAIN OUTCOMES AND MEASURES: The prevalence of driver alterations, associations 
+with clinicopathologic factors, distant recurrence-free interval, and treatment 
+interactions were analyzed. Multivariable analyses were performed to adjust for 
+clinicopathologic factors.
+RESULTS: Of 764 samples, 538 (70.4%), including 140 distant recurrence events, 
+were successfully sequenced. Nineteen driver alterations were observed with 5% 
+or greater frequency, with a mean of 4 alterations (range, 0-15) per tumor. 
+PIK3CA mutations were the most common (49%) and were significantly associated 
+with reduction in the risk for distant recurrence (hazard ratio [HR], 0.57; 95% 
+CI, 0.38-0.85; P = .006). TP53 mutations (HR, 1.92; 95% CI, 1.21-3.04; 
+P = .006), amplifications on 11q13 (HR, 2.14; 95% CI, 1.36-3.37; P = .001) and 
+8p11 (HR, 3.02; 95% CI, 1.88-4.84; P < .001), and increasing number of driver 
+alterations (HR per additional alteration, 1.18; 95% CI, 1.11-1.25; P < .001) 
+were associated with significantly greater risk. Amplifications on 11q13 and 
+8p11 remained significant predictors in multivariable analysis, but not PIK3CA 
+and TP53 mutations. Patients with tumors harboring kinase or helical domain 
+PIK3CA mutations derived significantly greater benefit from letrozole over 
+tamoxifen than patients whose tumors did not (P interaction = .002).
+CONCLUSIONS AND RELEVANCE: In ER+/HER2- postmenopausal, early-stage BC, 
+amplifications on 11q13 and 8p11 were significantly associated with increased 
+risk for distant recurrence and PIK3CA mutations were predictive of greater 
+magnitude of benefit from letrozole. With these findings, DNA-based 
+classification may aid adjuvant treatment decision making in this setting.
+TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT00004205.
+
+DOI: 10.1001/jamaoncol.2018.1778
+PMCID: PMC6233777
+PMID: 29902286 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of Interest Disclosures: Mr Demanse and 
+Drs JeBailey, Dolan, and Hackl are employees of Novartis. Dr Colleoni has 
+received honoraria from Novartis and acted as unpaid consultant to Pierre Fabre, 
+Pfizer, OBI Pharma, Puma Biotechnology, Celldex, and AstraZeneca. Dr Regan has 
+received research funding and/or provision of drug supply for clinical trials 
+from Novartis, Pfizer, Ipsen, Merck, Ferring, Celgene, AstraZeneca, Pierre 
+Fabre, and Roche; research funding from Novartis, Veridex, OncoGenex, Bayer, and 
+Bristol-Myers Squibb; and serves in an unpaid consulting or advisory role for 
+Ipsen, Merck, and Bristol-Myers Squibb. Prof Loi receives research funding to 
+her institution from Novartis, BMS, Merck, Roche-Genentech, Puma Biotechnology, 
+and Pfizer, and serves as an uncompensated consultant for Seattle Genetics, 
+Pfizer, Novartis, BMS, Merck, and Roche-Genetech. No other conflicts were 
+reported.
+
+
+43. Ann Oncol. 2018 May 1;29(5):1304-1311. doi: 10.1093/annonc/mdy076.
+
+Phase I study of the checkpoint kinase 1 inhibitor GDC-0575 in combination with 
+gemcitabine in patients with refractory solid tumors.
+
+Italiano A(1), Infante JR(2), Shapiro GI(3), Moore KN(4), LoRusso PM(5), 
+Hamilton E(2), Cousin S(6), Toulmonde M(6), Postel-Vinay S(7), Tolaney S(3), 
+Blackwood EM(8), Mahrus S(8), Peale FV(8), Lu X(8), Moein A(8), Epler J(8), 
+DuPree K(8), Tagen M(8), Murray ER(8), Schutzman JL(8), Lauchle JO(8), 
+Hollebecque A(9), Soria JC(10).
+
+Author information:
+(1)Early Phase Trials and Sarcoma Units, Institut Bergonié, Bordeaux, France. 
+Electronic address: a.italiano@bordeaux.unicancer.fr.
+(2)Sarah Cannon Research Institute, Nashville; Tennessee Oncology, Nashville.
+(3)Early Drug Development Center; Department of Medical Oncology, Dana-Farber 
+Cancer Institute, Boston.
+(4)Stevenson Oklahoma Cancer Center, Oklahoma City; University of Oklahoma, 
+Oklahoma City.
+(5)Smilow Cancer Center, New Haven; Yale University, New Haven, USA.
+(6)Early Phase Trials and Sarcoma Units, Institut Bergonié, Bordeaux, France.
+(7)Départemement d'Innovation Thérapeutique et des Essais Précoces (DITEP), 
+Villejuif; Gustave Roussy, Villejuif; Université Paris Saclay, Villejuif; 
+INSERM, U981, Villejuif, France.
+(8)Genentech, Inc., South San Francisco, USA.
+(9)Départemement d'Innovation Thérapeutique et des Essais Précoces (DITEP), 
+Villejuif; Gustave Roussy, Villejuif; Université Paris Saclay, Villejuif.
+(10)INSERM, U981, Villejuif, France.
+
+BACKGROUND: Checkpoint kinase 1 (Chk1) inhibition following 
+chemotherapy-elicited DNA damage overrides cell cycle arrest and induces mitotic 
+catastrophe and cell death. GDC-0575 is a highly-selective oral small-molecule 
+Chk1 inhibitor that results in tumor shrinkage and growth delay in xenograft 
+models. We evaluated the safety, tolerability, and pharmacokinetic properties of 
+GDC-0575 alone and in combination with gemcitabine. Antitumor activity and Chk1 
+pathway modulation were assessed.
+PATIENTS AND METHODS: In this phase I open-label study, in the dose escalation 
+stage, patients were enrolled in a GDC-0575 monotherapy Arm (1) or GDC-0575 
+combination with gemcitabine Arm (2) to determine the maximum tolerated dose. 
+Patients in arm 2 received either i.v. gemcitabine 1000 mg/m2 (arm 2a) or 
+500 mg/m2 (arm 2b), followed by GDC-0575 (45 or 80 mg, respectively, as RP2D). 
+Stage II enrolled disease-specific cohorts.
+RESULTS: Of 102 patients treated, 70% were female, the median age was 59 years 
+(range 27-85), and 47% were Eastern Cooperative Oncology Group PS 0. The most 
+common tumor type was breast (37%). The most frequent adverse events (all 
+grades) related to GDC-0575 and/or gemcitabine were neutropenia (68%), anemia 
+(48%), nausea (43%), fatigue (42%), and thrombocytopenia (35%). Maximum 
+concentrations of GDC-0575 were achieved within 2 hours of dosing, and half-life 
+was ∼23 hours. No pharmacokinetic drug-drug interaction was observed between 
+GDC-0575 and gemcitabine. Among patients treated with GDC-0575 and gemcitabine, 
+there were four confirmed partial responses, three occurring in patients with 
+tumors harboring TP53 mutation. Pharmacodynamic data were consistent with 
+GDC-0575 inhibition of gemcitabine-induced expression of pCDK1/2.
+CONCLUSION: GDC-0575 can be safely administered as a monotherapy and in 
+combination with gemcitabine; however, overall tolerability with gemcitabine was 
+modest. Hematological toxicities were frequent but manageable. Preliminary 
+antitumor activity was observed but limited to a small number of patients with a 
+variety of refractory solid tumors treated with GDC-0575 and gemcitabine.
+CLINICAL TRIAL NUMBER: NCT01564251.
+
+© The Author(s) 2018. Published by Oxford University Press on behalf of the 
+European Society for Medical Oncology. All rights reserved. For permissions, 
+please email: journals.permissions@oup.com.
+
+DOI: 10.1093/annonc/mdy076
+PMID: 29788155 [Indexed for MEDLINE]
+
+
+44. Ann Oncol. 2018 Jul 1;29(7):1541-1547. doi: 10.1093/annonc/mdy155.
+
+Updated results from MONALEESA-2, a phase III trial of first-line ribociclib 
+plus letrozole versus placebo plus letrozole in hormone receptor-positive, 
+HER2-negative advanced breast cancer.
+
+Hortobagyi GN(1), Stemmer SM(2), Burris HA(3), Yap YS(4), Sonke GS(5), 
+Paluch-Shimon S(6), Campone M(7), Petrakova K(8), Blackwell KL(9), Winer EP(10), 
+Janni W(11), Verma S(12), Conte P(13), Arteaga CL(14), Cameron DA(15), Mondal 
+S(16), Su F(16), Miller M(16), Elmeliegy M(16), Germa C(16), O'Shaughnessy 
+J(17).
+
+Author information:
+(1)Department of Breast Medical Oncology, The University of Texas MD Anderson 
+Cancer Center, Houston, USA. Electronic address: ghortoba@mdanderson.org.
+(2)Institute of Oncology, Davidoff Center, Rabin Medical Center, Tel Aviv 
+University, Tel Aviv, Israel.
+(3)Sarah Cannon Research Institute, Nashville, USA.
+(4)Department of Medical Oncology, National Cancer Centre Singapore, Singapore, 
+Singapore.
+(5)Medical Oncology, Netherlands Cancer Institute and BOOG Study Center, 
+Amsterdam, the Netherlands.
+(6)Division of Oncology, Sheba Medical Center, Ramat Gan, Israel.
+(7)Department of Medical Oncology, Institut de Cancérologie de l'Ouest/René 
+Gauducheau, Saint-Herblain, France.
+(8)Department of Comprehensive Cancer Care, Masaryk Memorial Cancer Institute, 
+Brno, Czech Republic.
+(9)Department of Medicine, Duke University Medical Center, Durham.
+(10)Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, USA.
+(11)Department of Gynecology, University of Ulm, Ulm, Germany.
+(12)Department of Oncology, Tom Baker Cancer Centre, Calgary, Canada.
+(13)Department of Surgery, Oncology and Gastroenterology and Division of Medical 
+Oncology; University of Padua and Istituto Oncologico Veneto, IRCCS, Padua, 
+Italy.
+(14)Department of Medicine, Vanderbilt-Ingram Cancer Center, Nashville, USA.
+(15)Edinburgh Cancer Research Centre, University of Edinburgh, Edinburgh, UK.
+(16)Medical Oncology; Novartis Pharmaceuticals Corporation, East Hanover, USA.
+(17)Texas Oncology-Baylor Charles A. Sammons Cancer Center and The US Oncology 
+Research Network, Dallas, USA.
+
+Erratum in
+    Ann Oncol. 2019 Nov 1;30(11):1842. doi: 10.1093/annonc/mdz215.
+
+BACKGROUND: The phase III MONALEESA-2 study demonstrated significantly prolonged 
+progression-free survival (PFS) and a manageable toxicity profile for first-line 
+ribociclib plus letrozole versus placebo plus letrozole in patients with hormone 
+receptor-positive (HR+), human epidermal growth factor receptor 2-negative 
+(HER2-) advanced breast cancer. Here, we report updated efficacy and safety 
+data, together with exploratory biomarker analyses, from the MONALEESA-2 study.
+PATIENTS AND METHODS: A total of 668 postmenopausal women with HR+, HER2- 
+recurrent/metastatic breast cancer were randomized (1 : 1; stratified by 
+presence/absence of liver and/or lung metastases) to ribociclib (600 mg/day; 
+3-weeks-on/1-week-off; 28-day treatment cycles) plus letrozole (2.5 mg/day; 
+continuous) or placebo plus letrozole. The primary end point was locally 
+assessed PFS. The key secondary end point was overall survival (OS). Other 
+secondary end points included overall response rate (ORR) and safety. Biomarker 
+analysis was an exploratory end point.
+RESULTS: At the time of the second interim analysis, the median duration of 
+follow-up was 26.4 months. Median PFS was 25.3 months [95% confidence interval 
+(CI) 23.0-30.3] for ribociclib plus letrozole and 16.0 months (95% CI 13.4-18.2) 
+for placebo plus letrozole (hazard ratio 0.568; 95% CI 0.457-0.704; log-rank 
+P = 9.63 × 10-8). Ribociclib treatment benefit was maintained irrespective of 
+PIK3CA or TP53 mutation status, total Rb, Ki67, or p16 protein expression, and 
+CDKN2A, CCND1, or ESR1 mRNA levels. Ribociclib benefit was more pronounced in 
+patients with wild-type versus altered receptor tyrosine kinase genes. OS data 
+remain immature, with 116 deaths observed; 50 in the ribociclib arm and 66 in 
+the placebo arm (hazard ratio 0.746; 95% CI 0.517-1.078). The ORR was 42.5% 
+versus 28.7% for all patients treated with ribociclib plus letrozole versus 
+placebo plus letrozole, respectively, and 54.5% versus 38.8%, respectively, for 
+patients with measurable disease. Safety results, after a further 11.1 months of 
+follow-up, were comparable with those reported at the first analysis, with no 
+new or unexpected toxicities observed, and no evidence of cumulative toxicity.
+CONCLUSIONS: The improved efficacy outcomes and manageable tolerability observed 
+with first-line ribociclib plus letrozole are maintained with longer follow-up, 
+relative to letrozole monotherapy.
+CLINICAL TRIALS NUMBER: NCT01958021.
+
+DOI: 10.1093/annonc/mdy155
+PMID: 29718092 [Indexed for MEDLINE]

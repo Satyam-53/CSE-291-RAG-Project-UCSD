@@ -1,0 +1,17091 @@
+Bulletin of Mathematical Biology (2024) 86:124
+https://doi.org/10.1007/s11538-024-01346-5
+
+O R I G I N A L A R T I C L E
+
+p53 Orchestrates Cancer Metabolism: Unveiling Strategies
+to Reverse the Warburg Effect
+
+Roba Abukwaik1,2
+
+· Elias Vera-Siguenza2,3 · Daniel Tennant3 · Fabian Spill2
+
+Received: 26 April 2024 / Accepted: 30 July 2024 / Published online: 29 August 2024
+© The Author(s) 2024
+
+Abstract
+Cancer cells exhibit signiﬁcant alterations in their metabolism, characterised by a
+reduction in oxidative phosphorylation (OXPHOS) and an increased reliance on gly-
+colysis, even in the presence of oxygen. This metabolic shift, known as the Warburg
+effect, is pivotal in fuelling cancer’s uncontrolled growth, invasion, and therapeutic
+resistance. While dysregulation of many genes contributes to this metabolic shift, the
+tumour suppressor gene p53 emerges as a master player. Yet, the molecular mecha-
+nisms remain elusive. This study introduces a comprehensive mathematical model,
+integrating essential p53 targets, offering insights into how p53 orchestrates its targets
+to redirect cancer metabolism towards an OXPHOS-dominant state. Simulation out-
+comes align closely with experimental data comparing glucose metabolism in colon
+cancer cells with wild-type and mutated p53. Additionally, our ﬁndings reveal the
+dynamic capability of elevated p53 activation to fully reverse the Warburg effect,
+highlighting the signiﬁcance of its activity levels not just in triggering apoptosis (pro-
+grammed cell death) post-chemotherapy but also in modifying the metabolic pathways
+implicated in treatment resistance. In scenarios of p53 mutations, our analysis sug-
+gests targeting glycolysis-instigating signalling pathways as an alternative strategy,
+whereas targeting solely synthesis of cytochrome c oxidase 2 (SCO2) does support
+mitochondrial respiration but may not effectively suppress the glycolysis pathway,
+potentially boosting the energy production and cancer cell viability.
+
+B Roba Abukwaik
+
+rabukwaik@kau.edu.sa
+
+B Fabian Spill
+
+f.spill@bham.ac.uk
+
+Elias Vera-Siguenza
+e.vera-siguenza@bham.ac.uk
+
+Daniel Tennant
+d.tennant@bham.ac.uk
+
+1 Mathematics Department, King Abdulaziz University, Rabigh, Saudi Arabia
+2
+
+School of Mathematics, University of Birmingham, Birmingham B15 2TS, UK
+
+3
+
+Institute of Metabolism and Systems Research, University of Birmingham, Birmingham B15 2TT,
+UK
+
+123
+
+124
+
+Page 2 of 64
+
+R. Abukwaik et al.
+
+Keywords Cancer metabolism · p53 · Warburg effect · Glycolysis · Hypoxia ·
+Mathematical biology
+
+1 Introduction
+
+Cancer cells undergo profound metabolic alterations facilitating their proliferation,
+invasion, metastasis, and even drug resistance (Han et al. 2013; Rahman and Hasan
+2015). Unlike normal cells, cancer cells derive a substantial amount of their energy
+from glycolysis, converting a majority of incoming glucose into lactate in the
+cytoplasm rather than metabolising it in the mitochondria through oxidative phos-
+phorylation (OXPHOS) (Cairns et al. 2011; Simabuco et al. 2018). This metabolic
+adaptation, recognised as the Warburg effect or aerobic glycolysis, leads to decreased
+oxygen consumption required by mitochondrial respiration while generating an
+increased amount of lactate (Simabuco et al. 2018).
+
+By favouring glycolysis over OXPHOS, cancer cells ensure the availability of essen-
+tial building blocks for biomass synthesis and meet the energy demands necessary for
+their rapid growth (Hanahan and Weinberg 2011; Simabuco et al. 2018). While glycol-
+ysis can produce adenosine triphosphate (ATP), the major cellular energy unit, more
+rapidly than oxidative phosphorylation, it is signiﬁcantly less efﬁcient in terms of ATP
+generated per unit of glucose consumed (Cairns et al. 2011; Simabuco et al. 2018).
+Consequently, tumour cells increase their glucose uptake at an exceptionally high rate
+to adequately satisfy their elevated energy and biosynthesis needs (Cairns et al. 2011;
+Simabuco et al. 2018).
+
+The glycolytic phenotype of cancer cells is inﬂuenced by various molecular
+mechanisms extending beyond hypoxic conditions. Disruptions in signalling path-
+ways downstream of growth factor receptors have been observed to affect glucose
+metabolism in cancer cells (Zhong et al. 2000; Laughner et al. 2001). Speciﬁcally, the
+PI3K/AKT/mTOR pathway, which is activated in the vast majority of human cancers
+(Hennessy et al. 2005; Danielsen et al. 2015; Vara et al. 2004; Malinowsky et al. 2014;
+Wang et al. 2013), and seen to instigate the glycolytic activity of cancer cells by upreg-
+ulating the hypoxia-inducible factor 1 (HIF1) and its downstream targets (Cairns et al.
+2011; Valvona et al. 2016; Laughner et al. 2001; Zhong et al. 2000).
+
+Another crucial event that can impact cancer metabolism and is commonly observed
+in cancer is the inactivation of the tumour suppressor gene p53. Depending on the
+cellular conditions, p53 suppresses tumorigenesis by multiple mechanisms, including
+cell cycle regulation, initiation of DNA repair, and induction of apoptosis (programmed
+cell death) (Wanka et al. 2012; Simabuco et al. 2018). Moreover, p53 has recently
+emerged as a signiﬁcant metabolic regulator in cancer cells, whether by inhibiting the
+PI3K/AKT/mTOR pathway (Feng and Levine 2010), thereby disrupting the glycolytic
+phenotype or by supporting mitochondrial respiration activity (Vousden and Ryan
+2009; Zhang et al. 2010; Lago et al. 2011; Wanka et al. 2012; Liang et al. 2013;
+Flöter et al. 2017; Simabuco et al. 2018; Liu et al. 2019). This idea was investigated by
+Matoba et al. in 2006, where they examined the impact of p53 alterations on the cellular
+metabolism of human colon cancer cells (Matoba et al. 2006). Experimental results
+revealed that p53-deﬁcient cells produced nearly the same amount of ATP but with
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 3 of 64
+
+124
+
+substantially higher levels of lactate and lower oxygen consumption, highlighting the
+inﬂuence of p53 mutations in changing the energy production mode to one favouring
+glycolysis (Matoba et al. 2006).
+
+The metabolic response controlled by p53 is mediated through the AMP-activated
+protein kinase (AMPK), a sensor attuned to cellular metabolic stress conditions (Jones
+et al. 2005). When activated by AMPK, typically in response to metabolic adversity
+such as those experienced by cancer cells, p53 restrains cell growth and division, con-
+serves energy, and shifts the cell towards oxidative phosphorylation for more efﬁcient
+energy production (Feng and Levine 2010). This may explain why cancer cells with
+p53 mutations tend to rely more on glycolysis and have a higher ability to grow and
+survive even under stress conditions.
+
+Previous mathematical modelling sheds light on different aspects of cancer
+metabolism -ranging from the effect of reactive oxygen species (ROS) on HIF1
+stabilisation in ischemic conditions (Qutub and Popel 2008) to the identiﬁcation
+of metabolic targets to hinder cancer migration (Yizhak et al. 2014). Despite these
+insights, the genetic complexities underpinning the Warburg effect remain elusive.
+Recently, Linglin et al. made a notable contribution by discussing the genetic regula-
+tion of the interplay between glycolysis and oxidative phosphorylation (Yu et al. 2017).
+Nonetheless, this work did not account for the crucial inﬂuence of p53 or demonstrate
+its impact on metabolic pathways as observed experimentally in cancer cells.
+
+Undoubtedly, the tumour-suppressive role of p53 has been studied through several
+computational modelling approaches. Ma et al. modelled the oscillatory dynamics of
+p53, emphasising the correlation between the DNA damage severity and the average
+number of p53 pulses (Ma et al. 2005). Further studies by Zhang et al. have elucidated
+how the frequency of p53 pulses can inﬂuence cellular decisions between repair and
+apoptosis (Zhang et al. 2007) and described the transition from cell repair to apoptosis
+with an inverse relationship between the apoptosis time and damage strength (Zhang
+et al. 2009). Another study has introduced a two-phase dynamic of p53, distinguishing
+between partial and complete activation of p53 (Zhang et al. 2011). Our recent study
+expanded on these ﬁndings by demonstrating that p53 can switch among three dynamic
+modes in a DNA damage strength-dependent manner following chemotherapy (Abuk-
+waik et al. 2023). Despite these advances, earlier works have mainly concentrated on
+p53 dynamic behaviour in response to DNA damage stimuli and the subsequent cell
+fate, leaving a substantial gap in understanding its mechanisms regarding cellular
+metabolism.
+
+To address this gap, this study develops a mathematical model that unveils the intri-
+cate machinery behind the regulation of cancer glucose metabolism by p53. While
+numerous p53 targets involved in cellular metabolism have been identiﬁed, their com-
+plex molecular interactions across different scenarios remain largely unexplored. By
+transforming existing experimental data into a mathematical framework, we uncovered
+hard-to-detect mechanisms and quantitatively analysed the activities of glycolysis and
+OXPHOS pathways under different cellular states. This methodology provides valu-
+able insights for developing targeted therapeutic approaches aimed at disrupting cancer
+metabolism and combating the aggressive behaviour of cancer. Although our primary
+focus is on colon cancer cells, the model’s applicability extends to many cancer types
+experiencing similar conditions.
+
+123
+
+124
+
+Page 4 of 64
+
+R. Abukwaik et al.
+
+Fig. 1 Schematic diagram depicting the signalling pathway of key molecules involved in glucose oxidation,
+spanning glycolysis, the tricarboxylic acid (TCA) cycle, and the electron transport chain (ETC). In our
+notation, cytoplasmic, nuclear, and mitochondrial molecular species are indicated by subscripts ‘c’, ‘n’,
+and ‘m’, respectively, while the ‘∗’ superscript symbol is used to denote active species in the case of species
+that exist in two states (active and inactive)
+
+2 Methods
+
+We constructed a comprehensive theoretical framework aiming to delineate the role of
+p53 on cellular metabolism, particularly its involvement in the Warburg effect. While
+cancer cells engage in diverse metabolic pathways, the Warburg effect is closely asso-
+ciated with alterations in glucose metabolism. Consequently, our primary attention was
+devoted to glucose metabolism, investigating its main pathways: glycolysis and oxida-
+tive phosphorylation. Integrating information from literature, our model incorporated
+all well-established p53 targets that markedly manipulate these pathways alongside
+the signalling pathways commonly activated in cancer in response to growth factors or
+metabolic stress, inﬂuencing the decision-making between these pathways, see Fig. 1.
+The following section brieﬂy discusses these signalling pathways and their involve-
+ment in glucose metabolism.
+
+2.1 Signalling Pathways in Glucose Metabolism
+
+2.1.1 Growth Factor Signalling Pathway
+
+In response to growth factors, extracellular molecules activate speciﬁc receptors on
+the cell membrane, initiating the intracellular activation of phosphoinositide 3-kinase
+(PI3K). PI3K then phosphorylates phosphatidylinositol 4,5-bisphosphate (PIP2) into
+phosphatidylinositol 3,4,5-trisphosphate (PIP3), facilitating the protein kinase B
+(AKT) activation (Danielsen et al. 2015; Vara et al. 2004; Carnero and Paramio 2014).
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 5 of 64
+
+124
+
+Upon AKT activation, a cascade of events occurs, ultimately activating the mech-
+anistic target of rapamycin (mTOR) (Dan et al. 2014; Inoki et al. 2002), which
+subsequently promotes the synthesis of proteins required for cell growth and prolifer-
+ation. One of these proteins is HIF1α (Düvel et al. 2010; Laughner et al. 2001; Hudson
+et al. 2002; Treins et al. 2005), a transcription factor that drives the expression of genes
+essential for glycolytic metabolism. These genes include glucose transporter-1 and -
+3 (GLUT1) and (GLUT3), respectively (Ancey et al. 2018), lactate dehydrogenase
+(LDH) (Valvona et al. 2016), and pyruvate dehydrogenase kinase-1 and -3 (PDK1)
+and (PDK3), respectively (Anwar et al. 2021; Lu et al. 2011; Wang et al. 2021; Kim
+et al. 2006).
+
+2.1.2 Metabolic Stress Signalling Pathway
+
+Different forms of metabolic stress activate AMPK, a crucial enzyme that restores
+cellular energy balance by suppressing ATP-consuming processes and promoting ATP
+production (Hardie 2011; Hardie et al. 2012; Faubert et al. 2015; Li et al. 2015).
+Through this activation, AMPK restrains cellular growth and increases ATP production
+efﬁciency primarily by repressing mTOR activation and stimulating the transcriptional
+activity of p53 (Faubert et al. 2015; Li et al. 2015; Inoki et al. 2003).
+
+By phosphorating p53, AMPK disrupts the interaction between p53 and its negative
+regulator, murine double minute 2 (MDM2), leading to p53 stabilisation (Jones et al.
+2005; Imamura et al. 2001). Consequently, p53 accumulates and translocates to the
+nucleus, triggering the promoter activity of its target genes.
+
+2.1.3 p53 Transcriptional Targets and Feedback Mechanisms
+
+p53 exerts its effects through the transcriptional regulation of a wide array of tar-
+get genes involved in various cellular processes. Some p53 targets form a negative
+feedback loop that dampens its stability, such as MDM2 and wild-type p53-induced
+phosphatase 1 (WIP1) (Barak et al. 1993; Batchelor et al. 2011). WIP1 dephospho-
+rylates p53, increasing its susceptibility to MDM2-mediated degradation (Batchelor
+et al. 2011).
+
+Conversely, p53 activates genes that promote its activation and simultaneously
+inhibit the glycolytic regulator HIF1. For instance, p53 induces the expression of
+proteins that activate AMPK, which in turn inhibits mTOR activity and its downstream
+target HIF1 (Budanov and Karin 2008; Sanli et al. 2012; Feng and Levine 2010). This
+process forms a positive feedback loop, as active AMPK phosphorylates p53, further
+enhancing its stabilization (Feng and Levine 2010). Another crucial target of p53 is
+phosphatase and tensin homolog (PTEN) (Stambolic et al. 2001), which attenuates
+the PI3K/AKT/mTOR pathway by converting PIP3 back to PIP2 (Mayo et al. 2002;
+Carnero and Paramio 2014; Feng and Levine 2010). The induction of PTEN also
+supports p53 by hindering the AKT-dependent translocation of MDM2 to the nucleus,
+thereby boosting the transcriptional activity of p53 (Mayo et al. 2002, 2005).
+
+In addition, p53 regulates genes directly involved in glucose metabolic pathways.
+This includes diminishing the protein synthesis of GLUT1, GLUT3 (Ancey et al. 2018;
+Schwartzenberg-Bar-Yoseph et al. 2004; Kawauchi et al. 2008), and PDK2 (Anwar
+
+123
+
+124
+
+Page 6 of 64
+
+R. Abukwaik et al.
+
+et al. 2021; Liang et al. 2020), while stimulating the expression of other molecules,
+such as the TP53-inducible glycolysis and apoptosis regulator (TIGAR) (Bensaad et al.
+2006; Lee et al. 2015), and the synthesis of cytochrome c oxidase 2 (SCO2) (Matoba
+et al. 2006).
+
+2.1.4 Glucose Metabolism Pathways
+
+Glucose metabolism comprises three main stages: starting with glycolysis, advancing
+to the tricarboxylic acid (TCA) cycle, and ﬁnishing with the electron transport chain
+(ETC).
+Glycolysis. Glucose is transported to the cells by speciﬁc glucose transporters located
+in the cell membrane (Schwartzenberg-Bar-Yoseph et al. 2004; Szablewski 2013;
+Ancey et al. 2018; Mamun et al. 2020), namely GLUT1 and GLUT3 in our model,
+which are negatively regulated by p53 and positively by HIF1, controlling glucose
+uptake rate (Ancey et al. 2018; Schwartzenberg-Bar-Yoseph et al. 2004; Kawauchi
+et al. 2008). Once inside the cell, glucose undergoes an irreversible conversion to
+glucose-6-phosphate (G6P), consuming one ATP molecule (Golias et al. 2019). G6P
+can then either proceed through glycolysis or enter the pentose phosphate pathway
+(PPP) (Jiang et al. 2014), a decision inﬂuenced by the p53 target TIGAR, which inhibits
+the enzyme catalysing the third step in the glycolysis pathway, diminishing glycolysis
+ﬂux (Bensaad et al. 2006; Lee et al. 2015). Continuing with glycolysis, a molecule
+of G6P is converted into two molecules of pyruvate, yielding three net ATP and two
+reduced nicotinamide adenine dinucleotide (NADH) molecules (Valvona et al. 2016;
+Golias et al. 2019).
+
+In the presence of oxygen, pyruvate derived from glycolysis typically enters the
+mitochondria for further energy production through oxidative phosphorylation. How-
+ever, increased levels of LDH enzyme, driven by HIF1 activation, redirect pyruvate
+away from the mitochondria by catalysing its conversion to lactate and oxidising
+NADH back to NAD+ (Valvona et al. 2016; Golias et al. 2019). This shift allows cells
+to produce ATP less efﬁciently through glycolysis while consuming more glucose
+(Valvona et al. 2016).
+TCA cycle. Within the mitochondria, the pyruvate dehydrogenase (PDH) complex
+facilitates the ﬁrst step towards glucose respiration by catalysing the oxidative decar-
+boxylation of pyruvate to acetyl-CoA, concurrently reducing one NAD+ into NADH
+(Wang et al. 2021; Woolbright et al. 2019; Rodrigues et al. 2015). Acetyl-CoA subse-
+quently enters the TCA cycle, undergoing a series of chemical reactions that generate
+one energy molecule, three NADH, and one reduced ﬂavin adenine dinucleotide
+(FADH2) molecule (Martínez-Reyes and Chandel 2020).
+
+The function of the PDH enzyme is controlled by the PDK family, which phospho-
+rylates the E1-α subunit of PDH, blocking its decarboxylation activity (Wang et al.
+2021; Woolbright et al. 2019; Rodrigues et al. 2015). HIF1 enhances the promoter
+activities of two PDK family members, namely PDK1 and PDK3 (Anwar et al. 2021;
+Lu et al. 2011; Wang et al. 2021; Kim et al. 2006), while p53 suppresses the expression
+of another PDK member called PDK2 (Anwar et al. 2021; Liang et al. 2020).
+ETC. In the last stage, NADH and FADH2 are oxidised back into NAD+ and FAD via
+protein complexes in the inner mitochondrial membrane (Ahmad et al. 2018). This
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 7 of 64
+
+124
+
+oxidation process involves electron transfer from NADH and FADH2 across these
+complexes, during which protons are pumped from the mitochondrial matrix to the
+intermembrane space. This action creates a proton gradient that drives protons back
+into the matrix, facilitating ATP production (Ahmad et al. 2018).
+
+Among these complexes, Complex IV acts as the ﬁnal electron acceptor, channelling
+the electrons to molecular oxygen by using 0.5 oxygen (O2) molecules for each pair
+of electrons received from NADH or FADH2 (Ahmad et al. 2018). However, the
+activity of Complex IV is regulated by SCO2, a p53-regulated gene essential for its
+proper assembly and maturation. Thus, deﬁciency of SCO2 can impair Complex IV
+functionality and disrupt the electron ﬂow within the ETC (Matoba et al. 2006; Wanka
+et al. 2012).
+
+2.2 Mathematical Framework
+
+Our model encompasses the entire glucose oxidation network, spanning three
+compartments-cytoplasm, nucleus, and mitochondria. The directional ﬂuxes within
+these compartments drive the temporal changes in the concentrations of 33 molecules
+involved in glucose oxidation pathways, as illustrated in Fig. 1. Consequently, the
+system is governed by 33 differential equations where cytoplasmic, nuclear, and
+mitochondrial molecular species are represented by the subscripts ‘c’, ‘n’, and ‘m’,
+respectively, while the ‘∗’ superscript symbol indicates active species for those exist-
+ing in both active and inactive states. Each term in the model represented by ’v’
+notation corresponds to one of the reactions detailed in the model reactions section in
+the Appendix (A), where v = v/Vmax or v/k.
+
+[v1(P53c)] − k3 Mdm2c[v1(P53c)]
+
+d P53c
+dt
+
+d P53n
+dt
+
+= k1 − k2 Ampk∗
+c
++ k4W i p1n[v1(P53n)] − k5 P53c,
+= k2 Ampk∗
+c
+
+[v1(P53c)] − k6 Mdm2n[v1(P53n)] − k4W i p1n[v1(P53n)],
+(2)
+
+(1)
+
+d Mdm2c
+dt
+
+= k7 + k8[v
+
++
+
+2(P53n)] − k9 Akt ∗
+
+c
+
+[v1(Mdm2c)] + k10[v1(Mdm2n )]
+
+− k11 Mdm2c,
+= k9 Akt ∗
+c
+
+[v1(Mdm2c)] − k10[v1(Mdm2n )] − k11 Mdm2n,
+
++
+= k12 + k13[v
+
+2(P53n)] − k14W i p1n,
+
++
+= k15 + k16[v
+
+2(P53n)] − k17 Ptenc,
+
++
+= k18 + k19[v
+
+2(P53n)] − k20 Sco2m,
+
++
+= k21 + k22[v
+
+2(P53n)] − k23T igarc,
+
+d Mdm2n
+dt
+dW i p1n
+dt
+d Ptenc
+dt
+d Sco2m
+dt
+dT igarc
+dt
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+123
+
+124
+
+Page 8 of 64
+
+R. Abukwaik et al.
+
++
+= k24[v1(Ampkc)] + k25[v
+
+2(P53n)][v1(Ampkc)] − k26[v1(Ampk∗
+
+c
+
+)],
+
+(9)
+
+= k27[v1(Pi p2c)] − k28 Ptenc[v1(Pi p3c)],
+
+= k29 Pi p3c[v1(Aktc)] − k30[v1(Akt ∗
+
+c
+
+)],
+
+= k31 Akt ∗
+c
+
+[v1(Mtorc)] − k32 Ampk∗
+
+c
+
+[v1(Mtor ∗
+
+c
+
+)] − k33[v1(Mtor ∗
+
+c
+
+)],
+
+= k34 + k35 Mtor ∗
+c
+
+− k36 Mtor ∗
+
+c H i f 1αc − k37 H i f 1αc,
+
+= k36 Mtor ∗
+
+c H i f 1αc − k37 H i f 1αn,
+
+−
+= k38[v
+
+2(P53n )] + k39 H i f 1αn − k40Glut1c,
+
+−
+= k41[v
+
+2(P53n )] + k42 H i f 1αn − k43Glut3c,
+
+= k44 + k45 H i f 1αn − k46 Pdk13m,
+
+−
+= k47[v
+
+2(P53n )] − k46 Pdk2m,
+
+= k48 + k49 H i f 1αn − k50 Ldhc,
+(cid:3)
+[v1(Pdh∗
+
+Pdk13m + Pdk2m
+
+(cid:2)
+
+= k51 − k52
+− k54 Pdh∗
+,
+m
+(cid:2)
+
+= k52
+
+Pdk13m + Pdk2m
+
+)] + k53[v1(Pdhm )]
+
+m
+
+(cid:3)
+[v1(Pdh∗
+
+m
+
+)] − k53[v1(Pdhm )] − k54 Pdhm,
+(21)
+
+(cid:2)
+
+= k55
+
+Glut1c + Glut3c
+
+(cid:3)
+[v3(Glucose)] − k56[v4(Glucosec,At p)],
+
+= k56[v4(Glucosec,At p)] − k57[v7(G6 pc)] − k58G6 pc,
+
+2(Ldhc)][v4(P yr uvatec,N adhc)]
+
++
+= 2k57[v7(G6 pc)] − k59[v
+− k60[v6(P yr uvate)],
+= k60[v6(P yr uvate)] − k61 Pdh∗
+m
+
+[v5(P yr uvatem ,N adm )],
+
+= k61 Pdh∗
+m
+
+[v5(P yr uvatem ,N adm )] − k62[v7(Acet ylm )],
+
++
+= 2k57[v7(G6 pc)] − k59[v
+− k63[v6(N adh)],
+
+2(Ldhc)][v4(P yr uvatec,N adhc)]
+
+(10)
+
+(11)
+
+(12)
+
+(13)
+
+(14)
+
+(15)
+
+(16)
+
+(17)
+
+(18)
+
+(19)
+
+(20)
+
+(22)
+
+(23)
+
+(24)
+
+(25)
+
+(26)
+
+(27)
+
+d Ampk∗
+c
+dt
+d Pi p3c
+dt
+d Akt ∗
+c
+dt
+d Mtor ∗
+c
+dt
+
+d H i f 1αc
+dt
+d H i f 1αn
+dt
+dGlut1c
+dt
+dGlut3c
+dt
+d Pdk13m
+dt
+d Pdk2m
+dt
+d Ldhc
+dt
+d Pdh∗
+m
+dt
+
+d Pdhm
+dt
+
+dGlucosec
+dt
+dG6 pc
+dt
+
+d P yr uvatec
+dt
+
+d P yr uvatem
+dt
+
+d Acet ylm
+dt
+d N adhc
+dt
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 9 of 64
+
+124
+
+d N adhm
+dt
+
+d Fadhm
+dt
+d Lactatec
+dt
+d Lactateout
+dt
+
+d At p
+dt
+
+d O2con
+dt
+
+[v5(P yr uvatem ,N adhm )] + 3k62[v7(Acet ylm )] + k63[v6(N adh)]
+
+= k61 Pdh∗
+m
+− k64 Sco2m[v7(N adhm )],
+
+= k62[v7(Acet ylm )] − k64 Sco2m[v7(Fadhm )],
+
++
+= k59[v
+
+2(Ldhc)][v4(P yr uvatec,N adhc)] − k65[v3(Lactate)],
+
+= k65[v3(Lactate)] − k66 Lactateout ,
+
+(28)
+
+(29)
+
+(30)
+
+(31)
+
+= −k56[v4(Glucosec,At p)] + 3k57[v7(G6 pc)] + k62[v7(Acet ylm )]
+
++ 2.5k64 Sco2m[v7(N adhm )] + 1.5k64 Sco2m[v7(Fadhm )] − k67 At p,
+(32)
+
+= 0.5k64 Sco2m[v7(N adhm )] + 0.5k64 Sco2m[v7(Fadhm )].
+
+(33)
+
+This model applies to all cell types, both normal and cancerous, with certain restric-
+tions. Under the assumption that normal cells exist in a healthy environment, metabolic
+stress and continuous activation of growth factor signals are exclusively attributed to
+cancer cells. Consequently, k24 and k27 are set to zero in normal cells. Additionally,
+to differentiate between cancer cell types, reducing k2 to zero in p53-mutated cancer
+cells can ensure the absence of p53 response in these cells.
+
+For a comprehensive understanding, detailed descriptions of the model-including
+assumptions, reactions, parameter values, experimental justiﬁcations, and sensitivity
+analysis-are provided in the Appendix (A). Additionally, all numerical simulations in
+this study were performed using MATLAB’s ’ode’ routine and Gear’s method in the
+XPPAUT software.
+
+3 Results
+
+3.1 p53 Orchestrates the Metabolic Shift in Cancer: Enhancing Oxidative
+
+Phosphorylation, Suppressing Glucose Consumption and Lactate Production
+
+To examine the normal and cancer cellular metabolism and investigate the inﬂuence of
+p53 deﬁciency on cancer metabolic pathways seen in many laboratory experiments, we
+simulated the experiment conducted by Wanka et al. (2012), using our mathematical
+model.
+
+In-silico, different types of cells (normal, cancer p53+/+, and cancer p53−/−) were
+exposed to limited glucose (2 mM) for an 8-hour duration. Throughout this timeframe,
+the glucose consumed, lactate produced, oxygen consumed, and ATP produced were
+systematically monitored and quantiﬁed to provide a comprehensive comparison of
+metabolic processes across these distinct cell types, as illustrated in Fig. 2.
+
+Our simulations succeeded in clarifying the distinctions in glucose metabolic path-
+ways between cancer and normal cells. Cancer cells exhibited heightened glucose
+
+123
+
+124
+
+Page 10 of 64
+
+R. Abukwaik et al.
+
+Fig. 2 A comparison between normal cells and cancer cells (p53
+) regarding their metabolic
+pathways. It shows the time course of the glucose consumption, lactate production, oxygen consumption,
+and ATP production by each cell type exposed to 2 mM of glucose over 8 h
+
+, p53
+
++/+
+
+−/−
+
+consumption and elevated lactate secretion, signifying their commitment to the aerobic
+glycolysis phenotype. Conversely, in normal cells, glucose was mainly metabolised by
+oxidative phosphorylation, accounting for 92% of the total ATP produced. Moreover,
+cancer cells in our model displayed high sensitivity to glucose availability, experi-
+encing a notable decline in metabolic activity as glucose levels decreased. However,
+normal cells maintained relatively stable metabolic levels that were minimally affected
+by glucose ﬂuctuations.
+
+Our ﬁnding further conﬁrms the signiﬁcant inﬂuences of losing p53 in cancer
+metabolism, which caused a high tendency towards the glycolytic pathway reducing
+the oxygen consumption required for glucose oxidation by 22.5%, compensating that
+by increasing glucose consumption and thus producing lactate at higher rates. A com-
+parison of our simulation ﬁndings with experimental observations from various studies
+reveals a good match (Wanka et al. 2012; Matoba et al. 2006; Wu et al. 2016). Detailed
+insights are presented in Table 1, corroborating the consistency between simulated and
+experimentally observed data.
+
+3.2 The Influence of Abundant Extracellular Glucose Level on Stimulating
+
+High-Energy Production in Cancer Cells
+
+Considering the dynamic nature of cellular behaviour within the body, it is crucial to
+note that experiments may not comprehensively capture the full spectrum of cellular
+responses. In the experiment we reproduced, cells were subjected to a limited supply
+of glucose that depletes over time. However, this scenario contrasts with the relatively
+constant glucose level in the bloodstream that is readily accessible to cells within the
+body.
+
+Accordingly, for a more realistic representation of cellular metabolism, we need
+to bridge the gap between the laboratory settings and the continuous physiological
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 11 of 64
+
+124
+
+n
+i
+d
+e
+v
+r
+e
+s
+b
+o
+t
+a
+h
+t
+o
+t
+
+e
+t
+a
+r
+
+e
+k
+a
+t
+p
+u
+e
+s
+o
+c
+u
+l
+g
+e
+h
+t
+g
+n
+i
+t
+t
+ﬁ
+y
+B
+
+.
+h
+8
+r
+e
+t
+f
+a
+
+)
+b
+(
+
+a
+i
+x
+o
+p
+y
+h
+d
+n
+a
+
+)
+a
+(
+
+a
+i
+x
+o
+m
+r
+o
+n
+r
+e
+d
+n
+u
+s
+n
+o
+i
+t
+a
+v
+r
+e
+s
+b
+o
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+e
+h
+t
+i
+
+d
+e
+n
+i
+a
+t
+b
+o
+
+e
+r
+e
+w
+s
+t
+l
+u
+s
+e
+r
+
+d
+e
+l
+i
+a
+t
+e
+d
+
+e
+h
+t
+
+,
+s
+n
+o
+i
+t
+i
+d
+n
+o
+c
+
+c
+i
+x
+o
+m
+r
+o
+n
+r
+e
+d
+n
+u
+
+)
+
+−
+/
+−
+
+w
+s
+t
+l
+u
+s
+e
+r
+n
+o
+i
+t
+a
+l
+u
+m
+i
+s
+
+r
+u
+o
+g
+n
+i
+r
+a
+p
+m
+o
+C
+
+1
+e
+l
+b
+a
+T
+
+3
+5
+p
+6
+1
+1
+T
+C
+H
+
+(
+
+s
+l
+l
+e
+c
+
+r
+e
+c
+n
+a
+c
+
+t
+n
+e
+i
+c
+ﬁ
+e
+d
+-
+3
+5
+p
+
+d
+n
+a
+
+)
+2
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+k
+n
+a
+W
+
+)
+6
+0
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+b
+o
+t
+a
+
+M
+
+)
+6
+0
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+b
+o
+t
+a
+
+M
+
+)
+2
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+k
+n
+a
+W
+
+)
+2
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+k
+n
+a
+W
+
+−
+/
+−
+
+3
+5
+p
+r
+e
+c
+n
+a
+C
+
+l
+o
+m
+m
+0
+6
+.
+1
+
+l
+o
+m
+m
+2
+8
+.
+2
+
+n
+o
+i
+t
+a
+l
+u
+m
+
+i
+s
+n
+I
+
++
+/
++
+
+3
+5
+p
+r
+e
+c
+n
+a
+C
+
+−
+/
+−
+
+3
+5
+p
+6
+1
+1
+T
+C
+H
+
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+e
+n
+I
+
++
+/
++
+
+3
+5
+p
+6
+1
+1
+T
+C
+H
+
+l
+o
+m
+m
+4
+3
+.
+1
+
+l
+o
+m
+m
+1
+0
+.
+2
+
+l
+o
+m
+m
+0
+6
+.
+1
+
+l
+o
+m
+m
+8
+8
+.
+2
+
+l
+o
+m
+m
+5
+3
+.
+1
+
+l
+o
+m
+m
+0
+0
+.
+2
+
+−
+/
+−
+
+3
+5
+p
+
+r
+e
+c
+n
+a
+C
+n
+i
+
+s
+s
+e
+l
+
+%
+5
+.
+2
+2
+
+−
+/
+−
+
+3
+5
+p
+6
+1
+1
+T
+C
+H
+n
+i
+
+s
+s
+e
+l
+
+%
+5
+2
+–
+0
+2
+
+0
+1
+.
+2
+
+6
+1
+.
+1
+
+6
+1
+.
+0
+±
+2
+7
+.
+1
+
+2
+1
+.
+0
+±
+1
+8
+.
+0
+
+)
+6
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+u
+W
+
+)
+6
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+u
+W
+
+)
+6
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+u
+W
+
+%
+5
+3
+–
+6
+2
+
+%
+4
+7
+–
+5
+6
+
+6
+7
+.
+1
+–
+0
+5
+.
+1
+
+r
+e
+c
+n
+a
+C
+
+l
+a
+m
+r
+o
+N
+
+%
+8
+
+%
+2
+9
+
+–
+
+%
+2
+5
+–
+4
+2
+
+%
+6
+7
+–
+8
+4
+
+0
+8
+.
+1
+–
+7
+5
+.
+1
+
+r
+e
+c
+n
+a
+C
+
+l
+a
+m
+r
+o
+N
+
+%
+3
+1
+–
+6
+
+%
+4
+9
+–
+7
+8
+
+–
+
+)
+2
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+k
+n
+a
+W
+
+)
+2
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+k
+n
+a
+W
+
+−
+/
+−
+
+3
+5
+p
+r
+e
+c
+n
+a
+C
+
+l
+o
+m
+m
+3
+9
+.
+1
+
+l
+o
+m
+m
+9
+8
+.
+4
+
+n
+o
+i
+t
+a
+l
+u
+m
+
+i
+s
+n
+I
+
++
+/
++
+
+3
+5
+p
+r
+e
+c
+n
+a
+C
+
+−
+/
+−
+
+3
+5
+p
+6
+1
+1
+T
+C
+H
+
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+e
+n
+I
+
++
+/
++
+
+3
+5
+p
+6
+1
+1
+T
+C
+H
+
+l
+o
+m
+m
+2
+8
+.
+1
+
+l
+o
+m
+m
+6
+8
+.
+3
+
+l
+o
+m
+m
+0
+0
+.
+2
+
+l
+o
+m
+m
+0
+5
+.
+3
+
+l
+o
+m
+m
+5
+7
+.
+1
+
+l
+o
+m
+m
+0
+9
+.
+2
+
+)
+
+%
+1
+2
+
+2
+O
+
+(
+
+s
+n
+o
+i
+t
+i
+d
+n
+o
+c
+
+c
+i
+x
+o
+m
+r
+o
+N
+
+)
+a
+(
+
+e
+p
+y
+t
+o
+n
+e
+h
+p
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+P
+T
+A
+
+)
+n
+o
+c
+n
+e
+g
+y
+x
+O
+/
+o
+r
+p
+e
+t
+a
+t
+c
+a
+L
+(
+
+e
+p
+y
+t
+
+l
+l
+e
+C
+
+s
+i
+s
+y
+l
+o
+c
+y
+l
+g
+y
+b
+d
+e
+c
+u
+d
+o
+r
+p
+P
+T
+A
+
+S
+O
+H
+P
+X
+O
+y
+b
+d
+e
+c
+u
+d
+o
+r
+p
+P
+T
+A
+
+e
+p
+y
+t
+o
+n
+e
+h
+p
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+P
+T
+A
+
+)
+n
+o
+c
+e
+s
+o
+c
+u
+l
+G
+/
+o
+r
+p
+e
+t
+a
+t
+c
+a
+L
+(
+
+)
+
+%
+1
+
+2
+O
+
+(
+
+s
+n
+o
+i
+t
+i
+d
+n
+o
+c
+
+c
+i
+x
+o
+p
+y
+H
+
+)
+b
+(
+
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+e
+s
+o
+c
+u
+l
+G
+
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+e
+t
+a
+t
+c
+a
+L
+
+e
+p
+y
+t
+
+l
+l
+e
+C
+
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+e
+s
+o
+c
+u
+l
+G
+
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+e
+t
+a
+t
+c
+a
+L
+
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+n
+e
+g
+y
+x
+O
+
+e
+p
+y
+t
+
+l
+l
+e
+C
+
+123
+
+124
+
+Page 12 of 64
+
+R. Abukwaik et al.
+
+Normoxia (
+
+Hypoxia (
+
+ 1%)
+
+d
+e
+t
+i
+
+m
+L
+
+i
+
+t
+n
+a
+t
+s
+n
+o
+C
+
+)
+
+M
+m
+2
+(
+
+e
+s
+o
+c
+u
+g
+r
+a
+u
+
+l
+
+l
+
+l
+l
+
+e
+c
+a
+r
+t
+x
+e
+
+)
+
+M
+m
+5
+(
+
+e
+s
+o
+c
+u
+g
+r
+a
+u
+
+l
+
+l
+
+l
+l
+
+e
+c
+a
+r
+t
+x
+e
+
+1.34
+
+1.60
+
+2.82
+
+2.01
+
+0.50
+
+2.33
+
+1.73
+
+1.34
+
+Normal
+
+Cancer
+p53+/+
+
+Cancer
+p53-/-
+
+0.78
+
+2.40
+
+3.52
+
+2.60
+
+1.86
+
+1.48
+
+d
+e
+t
+i
+
+m
+L
+
+i
+
+t
+n
+a
+t
+s
+n
+o
+C
+
+0.37
+
+12.63
+
+92%
+
+8%
+
+Normal
+
+11.67
+
+10.34
+
+74%
+
+64%
+
+26%
+
+36%
+
+Cancer
+p53+/+
+
+Cancer
+p53-/-
+
+6.16
+
+4.08
+
+13.73
+
+13.85
+
+0.70
+
+13.46
+
+89%
+
+68%
+
+11%
+
+32%
+
+53%
+
+47%
+
+Normal
+
+Cancer
+p53+/+
+
+Cancer
+p53-/-
+
+Normal
+
+Cancer
+p53+/+
+
+Cancer
+p53-/-
+
+)
+
+M
+m
+2
+(
+
+e
+s
+o
+c
+u
+g
+r
+a
+u
+
+l
+
+l
+
+l
+l
+
+e
+c
+a
+r
+t
+x
+e
+
+)
+
+M
+m
+5
+
+.
+
+2
+(
+
+e
+s
+o
+c
+u
+g
+r
+a
+u
+
+l
+
+l
+
+l
+l
+
+e
+c
+a
+r
+t
+x
+e
+
+1.82
+
+1.93
+
+1.38
+
+1.42
+
+1.02
+
+0.97
+
+4.89
+
+3.86
+
+12.72
+
+56%
+
+11.09
+
+46%
+
+44% 54%
+
+2.27
+
+7.84
+
+62%
+
+38%
+
+Normal
+
+Cancer
+p53+/+
+
+Cancer
+p53-/-
+
+Normal
+
+Cancer
+p53+/+
+
+Cancer
+p53-/-
+
+3.75
+
+4.76
+
+2.09
+
+8.60
+
+6.19
+
+3.65
+
+1.47
+
+1.02
+
+1.05
+
+13.60
+
+13.92
+
+54%
+
+38%
+
+9.02
+
+57%
+
+43% 46%
+
+62%
+
+Normal Cancer
+p53+/+
+
+Cancer
+p53-/-
+
+Normal
+
+Cancer
+p53+/+
+
+Cancer
+p53-/-
+
+Glucose consumption (mM)
+
+Lactate production (mM)
+
+Oxygen consumption (mM)
+
+ATP production (mM)
+
+ATP produced by OXPHOS
+
+ATP produced by Glycolysis
+
+Fig. 3 Glucose metabolism under normoxic and hypoxic conditions. A comparison of key outputs of
+metabolic pathways is shown for normal and cancer (p53
+) cells, considering limited extracel-
+lular glucose level that depletes over time (top row) and constant extracellular glucose levels (bottom row).
+The glucose consumption, lactate production, oxygen consumption, and ATP production were measured
+by simulating each cell type for 8 h under normoxic/hypoxic conditions
+
+, p53
+
++/+
+
+−/−
+
+conditions experienced by cells within the body. In pursuit of this goal, we replicated
+previous simulations but this time assumed a consistent extracellular glucose level,
+maintaining it at the normal physiological glucose blood concentration (5 mM) (Grupe
+et al. 1995), regardless of the cellular consumption rate.
+
+By adopting this methodology, our simulations demonstrated that the maintenance
+of stable glucose availability prompted both normal and cancer cells to exhibit a sus-
+tained rate of glucose consumption throughout the 8-hour duration, which revealed the
+distinctive ability of cancer cells to produce markedly higher levels of ATP compared
+to our previous simulations and even more than normal cells (Fig. 3, Left).
+
+This insight suggests that lowering the glucose levels in the bloodstream by fol-
+lowing a speciﬁc regime could substantially diminish the ATP production in cancer
+cells, limiting their ability to sustain and spread. In addition, a comparative analysis
+of the three cell types under both limited and constant glucose levels highlights that
+the more the cell relies on the glycolytic pathway, the more it is affected by reducing
+glucose availability.
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 13 of 64
+
+124
+
+3.3 Unravelling Hypoxia’s Metabolism: Adaptive Strategies, Energy Production,
+
+and mTOR Signalling Dynamics in Cancer Progression
+
+In cancer progression, hypoxia emerges as a vital challenge faced by rapidly prolifer-
+ating cancer cells due to the formation of regions within the tumour that are deprived of
+an adequate blood supply. In response, cancer cells exhibit remarkable adaptive strate-
+gies. They undergo complex molecular alterations, activating a cascade of signalling
+pathways that drive angiogenesis (the formation of new blood vessels) to restore oxy-
+gen balance and intensify the shift toward glycolytic energy production mode to offset
+the deﬁcit in respiration (Xu et al. 2019). These dynamic responses are primarily
+governed by stabilising HIF1, a regulator suppressed under normal conditions in an
+oxygen availability-dependent manner (Valvona et al. 2016; Laughner et al. 2001; Xu
+et al. 2019).
+
+To investigate the impact of hypoxic conditions on cellular metabolism, we mim-
+icked the hypoxic environment by diminishing the oxygen-dependent degradation
+rate of HIF-1, factoring in the HIF-1 half-life observed under hypoxic conditions
+(Kubaichuk and Kietzmann 2023). In parallel, we attenuated the activity of the elec-
+tron transport chain by an equivalent rate (50%), considering the inadequate availability
+of oxygen to facilitate the oxygen reduction process. Additionally, because hypoxia is
+often accompanied by a lack of blood supply to cancer cells, we reduced the glucose
+availability to cells within the body by the same percentage (from 5 mM to 2.5 mM).
+By employing this approach, we anticipated and indeed observed a notable increase
+in lactate fermentation by both normal and cancer cells to maximise energy produc-
+tion as mitochondrial capacity diminishes, consequently escalating overall glucose
+consumption (Fig. 3, right). This adaptive strategy mirrors the metabolic response
+seen in normal cells during intense exercise, where lower oxygen availability prompts
+alternative energy pathways. Furthermore, our simulation closely aligned the observed
+glucose metabolism outcomes for colon cancer cells HCT116 (p53+/+ and p53−/−)
+under hypoxic conditions (O2 1%) (Wanka et al. 2012), providing a good estima-
+tion of the glucose consumption levels with a slight increase in lactate production, as
+detailed in Table 1, (b). The discrepancy in lactate production levels may be attributed
+to the potential conversion of some lactate back to pyruvate, especially in instances of
+extremely high lactate production not accounted for in our model.
+
+On the other hand, our simulations revealed a prominent divergence in the response
+to hypoxia between normal and cancer cells regarding their energy production ability.
+While hypoxia led to a reduction in ATP production in normal cells, cancer cells
+displayed resilience, maintaining their energy productivity close to normal conditions
+(Fig. 3, second row). This intriguing observation prompted a thorough investigation
+into possible factors that may be missed in our signalling network inﬂuencing energy
+production under hypoxic conditions. Our investigation unveiled that hypoxia typically
+induces the expression of the hypoxia-responsive REDD1 gene (not incorporated in
+our model), which, in turn, disrupts mTOR activity as a major control point to inhibit
+energy-intensive processes like protein translation (Brugarolas et al. 2004; Connolly
+et al. 2006; DeYoung et al. 2008; Horak et al. 2010). This cascade leads to a decrease
+
+123
+
+124
+
+Page 14 of 64
+
+R. Abukwaik et al.
+
+Glucose consumption 
+
+Lactate production 
+
+Oxygen consumption 
+
+ATP production 
+
+/
+
+)
+h
+8
+M
+m
+
+(
+
+e
+t
+a
+R
+
+5.0
+
+4.0
+
+3.0
+
+2.0
+
+1.0
+
+0.0
+
+8.0
+
+6.0
+
+4.0
+
+2.0
+
+0.0
+
+Cancer p53+/+
+Cancer p53-/-
+
+0 
+
+1 
+
+2 
+
+3 
+k35 (1/min)
+
+4
+x10-5
+
+0 
+
+1 
+
+2 
+
+3 
+k35 (1/min)
+
+4
+x10-5
+
+2.0
+
+1.6
+
+1.2
+
+0.8
+
+0.4
+
+0.0
+
+12.0
+
+8.0
+
+4.0
+
+0 
+
+1 
+
+2 
+
+3 
+k35 (1/min)
+
+0.0
+
+0 
+
+4
+x10-5
+
+1 
+
+2 
+
+3 
+k35 (1/min)
+
+4
+x10-5
+
+Fig. 4 The effect of mTOR on the cellular metabolism and energy production levels in hypoxic cancer
+cells (p53
+). The glucose consumption, lactate production, oxygen consumption, and ATP
+production were calculated under different mTOR-dependent HIF1 activation rates, k35
+
+, p53
+
++/+
+
+−/−
+
+in HIF1 levels and a dampening of the glycolytic pathway (Brugarolas et al. 2004;
+Horak et al. 2010).
+
+Motivated by these ﬁndings, we studied the impact of inhibiting mTOR activity on
+metabolic pathways and energy production levels under hypoxic conditions. We con-
+structed diagrams showcasing the metabolic activity of glycolysis and OXPHOS and
+their contributions to energy production under different k35 rates (mTOR-dependent
+HIF1 synthesis rate), see Fig. 4. Analysing these diagrams conﬁrms the mTOR involve-
+ment in producing high energy levels in hypoxic cancer cells, as impeding its activity
+drove the cell towards a similar energy level produced in our hypoxic normal cells.
+
+Nevertheless, numerous studies have consistently reported resistance of trans-
+formed cells to mTOR inhibition under hypoxic conditions (Connolly et al. 2006).
+This phenomenon is seen to preserve the protein synthesis rates and promote cell
+proliferation and growth under hypoxia (Brugarolas et al. 2004; Connolly et al. 2006;
+DeYoung et al. 2008). The engagement in energy-demanding processes, such as protein
+synthesis and growth, underscores the cell’s proﬁciency in generating ample energy.
+This concurs with our ﬁndings regarding hypoxic cancer cells, where the maintenance
+of mTOR activity correlated with a remarkable ability to produce energy even in the
+face of oxygen deﬁciency.
+
+3.4 Dual Stable Steady States in Cancer Cells, Contrasted by Singular Stability in
+
+Normal Cells
+
+In previous sections, normal and cancerous cells, whether possessing wild-type p53 or
+mutated p53, manifest distinct metabolic proﬁles, signifying different stability states.
+To explore this further, we developed a phase space presenting the nullclines and
+potential steady states of key players in glucose metabolic pathways, p53, HIF1, and
+AMPK, across both normal and cancer cells (Fig. 5).
+
+Considering the phase space diagrams, normal cells show a unique stability with no
+activation of p53 and HIF1, indicative of a healthy environment. Conversely, cancer
+cells display two stable steady states, with an unstable one in between. The ﬁrst stable
+steady state lacks p53 activation but exhibits a high level of HIF1, representing the
+case when cancer cells have p53 mutations. In contrast, the other stable steady state
+shows high p53 activation with a lower level of HIF1, indicating the state of cancer
+cells with wild-type p53.
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 15 of 64
+
+124
+
+Fig. 5 Phase portrait of the system in normal and cancer cells. (Top row) Nullcline corresponding to
+∗
+nuclear p53 (p53n ) and active AMPK (AMPK
+c ). (Bottom row) Nullcline corresponding to nuclear HIF1
+∗
+∗
+(HIF1n ) and active AMPK (AMPK
+c , p53n , and HIF1n
+c ). The green, yellow, and blue lines represent AMPK
+nullclines, respectively. Solid and hollow magenta dots denote stable and unstable equilibria, respectively.
+The system exhibits a single stable equilibrium point in normal cells with no p53 and HIF1 activation, while
+in cancer cells, two stable and one unstable equilibria are observed. For cancer cells, the stable equilibrium
+point with low p53n /high HIF1n levels represents p53-mutated cancer cells. In contrast, the one with high
+p53n /low HIF1n concentrations indicates p53-wild-type cancer cells (Color ﬁgure online)
+
+The transition between these two states in p53 wild-type cells is governed by the
+phosphorylation levels of AMPK, the protein responsible for instigating the p53-
+metabolic stress response. This dynamic is further elucidated by the bifurcation
+diagram, illustrating the levels of p53 and HIF1 under various AMPK phosphory-
+lation rates denoted as k24 (Fig. 6).
+
+Under low phosphorylation rates of AMPK, cells exhibit two stable steady states:
+high activation of p53 (Stable SS p53+/+) and no activation of p53 (Stable SS p53−/−).
+However, exceeding the bifurcation point by increasing the phosphorylation rate (k24)
+induces p53 activation and shifts the cell into a unique stability regime, representing
+the p53-wild-type state.
+
+3.5 Restoring Normal Metabolism in Cancer Cells by Increasing the p53 Activation
+
+Levels
+
+Beyond its traditional roles in DNA repair and apoptosis initiation, our study highlights
+the enhanced activation potential of p53 to counter the Warburg effect, restoring cancer
+
+123
+
+124
+
+Page 16 of 64
+
+R. Abukwaik et al.
+
+Fig. 6 Bifurcation diagrams demonstrate nuclear p53 and HIF1 levels driven by AMPK phosphoryla-
+tion rate, k24, in cancer cells. The diagrams reveal a bistability regime exhibiting low p53/high HIF1
+−/−
+)
+and high p53/low HIF1 levels, which represent the wild-type p53 (p53
+states, respectively. However, with high AMPK activation surpassing the bifurcation point, unique stability
+emerges, transitioning wild-type cancer cells to high p53 activation levels
+
+) and mutated p53 (p53
+
++/+
+
+cells to a more normal metabolic state. This transformative impact unfolds across three
+distinct phases, depicted in Fig. 7.
+
+During the ﬁrst phase (yellow area, Fig. 7), the elevation of nuclear p53 levels leads
+to a modest reduction in glucose consumption and lactate production. Nevertheless,
+energy production levels remain high due to improved glucose respiration, explaining
+the increase in oxygen consumption despite the lower amount of glucose consumed.
+Glycolysis maintains dominance in this phase, contributing to 47%-35% of the overall
+energy produced.
+
+Advancing the p53 activation will shift the cells towards the next phase (magenta
+area, Fig. 7), further reducing glucose uptake and lactate formation. However, this time,
+the ATP production is negatively impacted as a balanced state between glycolysis and
+oxidative phosphorylation is achieved, with glycolysis responsible for 20–34% of ATP
+output.
+
+In the third phase (blue area, Fig. 7), oxidative phosphorylation overcomes gly-
+colysis, intensifying oxygen consumption while consistently diminishing glucose
+utilisation and lactate production. This transition guides the cell towards achieving the
+standards of normal cellular metabolism, represented by the dashed black line around
+k2 = 0.9. Along this line, glycolysis and OXPHOS are involved in producing energy
+with the same percentage seen in our normal cells, attaining standard rates of glucose
+consumption and lactate production. However, with high activation of TIGAR, gly-
+colysis ﬂux is lower than that of normal cells, resulting in reduced pyruvate production
+and overall ATP synthesis compared to the normal cellular state.
+
+This ﬁnding sheds light on the crucial role of p53 activation levels in the cellular
+outcomes following chemotherapy that activates p53 to trigger apoptosis. Unlike cells
+with p53 mutation, those with intact p53 can manipulate cancer cells’ metabolism
+in response to chemotherapy, restraining the glycolytic pathway and decreasing the
+intracellular ATP levels, thereby boosting cells’ sensitivity to drugs.
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 17 of 64
+
+124
+
+Increasing  p53 activation
+
+Increasing  p53 activation
+
+Increasing  p53 activation
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+)
+
+M
+μ
+(
+
+n
+3
+5
+p
+
+e
+s
+o
+c
+u
+G
+
+l
+
+0.0
+
+0.0  0.2  0.4  0.6  0.8  1.0
+k2 (1/min)
+
+/
+
+)
+h
+8
+M
+m
+
+(
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+n
+e
+g
+y
+x
+O
+
+2.5
+
+2.0
+
+1.5
+
+1.0
+
+0.5
+
+P
+T
+A
+
+0.0
+
+0.0  0.2  0.4  0.6  0.8  1.0
+k2 (1/min)
+
+/
+
+)
+h
+8
+M
+m
+
+(
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+/
+
+)
+h
+8
+M
+m
+
+(
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+4.0
+
+3.0
+
+2.0
+
+1.0
+
+0.0
+
+0.0  0.2  0.4  0.6  0.8  1.0
+k2 (1/min)
+
+15.0
+
+10.0
+
+5.0
+
+0.0
+
+0.0  0.2  0.4  0.6  0.8  1.0
+k2 (1/min)
+
+/
+
+)
+h
+8
+M
+m
+
+(
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+e
+t
+a
+t
+c
+a
+L
+
+6.0
+
+4.0
+
+2.0
+
+0.0
+
+0.0  0.2  0.4  0.6  0.8  1.0
+k2 (1/min)
+
+Preferred pathway:
+
+Glycolysis (glycolysis ≥ 35%)
+Balance (20% ≤ glycolysis < 35%)
+OXPHOS (glycolysis < 20%)
+
+Line:
+
+Stable steady state 
+
+Normal metabolism (glycolysis 11%)
+
+Fig. 7 The effect of p53 activation on cancer metabolism. These diagrams show the steady state levels of
+nuclear p53 and four key metabolic indicators: glucose consumption, lactate production, oxygen consump-
+tion, and ATP generation, under varying rates of p53 phosphorylation (k2) in cancer cells. Each diagram is
+divided into three distinct regions: the yellow region, where glycolysis dominates, contributing to 47–35%
+of ATP production; the magenta region, indicating a balanced state between glycolysis and oxidative phos-
+phorylation, with glycolysis contributing to 20–34% of total ATP; and the blue region, where OXPHOS
+becomes dominant, accounting for more than 80% of ATP production. A black dashed line within the
+diagrams marks the targeted normal cellular metabolism (Color ﬁgure online)
+
+3.6 Targeting PI3K as an Alternative Player to p53 in Modulating the Metabolism
+
+of p53-Mutated Cancer Cells
+
+In the context of addressing cancer metabolism in cells harbouring p53 mutations,
+our analysis suggests an alternative strategy by targeting the growth factors signalling
+pathway. This critical pathway plays a central role in instigating the HIF1 and its asso-
+ciated targets that mainly support the aerobic glycolysis of cancer (Lien et al. 2016).
+The initiation of this pathway involves the activation of PI3K, leading to the transfor-
+mation of PIP2 into PIP3 (Danielsen et al. 2015; Vara et al. 2004; Lien et al. 2016).
+Thus, our investigation has focused on perturbing this pathway by simulating method-
+ologies such as triggering PTEN or blocking PI3K activation with speciﬁc inhibitors,
+like idelalisib or copanlisib (Lannutti et al. 2011; Liu et al. 2013). The outcomes reveal
+a profound and systematic inﬂuence on cellular metabolism, manifesting across three
+phases (Fig. 8).
+
+In the initial phase (yellow area, Fig. 8), the emphasis is placed on inhibiting the
+glycolysis pathway while leaving the oxidative phosphorylation unaffected, leading
+to a decrease in total energy production following a loss of more than 20% in PIP3
+concentration. Despite the reduction in glycolysis activity, it is considered predominant
+in this phase, accounting for over 35% of cellular energy.
+
+As PIP3 levels decrease, the glycolytic pathway continues to diminish, indirectly
+prompting the OXPHOS pathway to regain its functionality and bringing the two path-
+ways into a balanced state (magenta area, Fig. 8). Restricting pyruvate ﬂux to lactate is
+expected to elevate cytosolic pyruvate concentrations, redirecting them towards mito-
+
+123
+
+124
+
+Page 18 of 64
+
+R. Abukwaik et al.
+
+Inhibiting growth factors activation
+
+Inhibiting growth factors activation
+
+Inhibiting growth factors activation
+
+)
+
+M
+μ
+(
+c
+3
+P
+P
+
+I
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0.0
+
+0 
+
+2 
+
+6 
+4 
+k27 (μM/min)
+
+/
+
+)
+h
+8
+M
+m
+
+(
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+2.5
+
+2.0
+
+1.5
+
+1.0
+
+0.5
+
+0.0
+
+n
+e
+g
+y
+x
+O
+
+0 
+
+2 
+
+6 
+4 
+k27 (μM/min)
+
+4.0
+
+3.0
+
+2.0
+
+1.0
+
+0.0
+
+15.0
+
+0 
+
+2 
+
+6 
+4 
+k27 (μM/min)
+
+e
+s
+o
+c
+u
+G
+
+l
+
+8 
+x10-2
+
+/
+
+)
+h
+8
+M
+m
+
+(
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+/
+
+)
+h
+8
+M
+m
+
+P
+T
+A
+
+10.0
+
+5.0
+
+(
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p 0.0
+
+8 
+x10-2
+
+/
+
+)
+h
+8
+M
+m
+
+(
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+6.0
+
+4.0
+
+2.0
+
+0.0
+
+0 
+
+e
+t
+a
+t
+c
+a
+L
+
+8 
+x10-2
+
+2 
+
+6 
+4 
+k27 (μM/min)
+
+8 
+x10-2
+
+Preferred pathway:
+
+Glycolysis (glycolysis ≥ 35%)
+Balance (20% ≤ glycolysis < 35%)
+OXPHOS (glycolysis < 20%)
+
+Line:
+
+Stable steady state 
+
+Normal metabolism (glycolysis 11%)
+
+0 
+
+2 
+
+6 
+4 
+k27 (μM/min)
+
+8 
+x10-2
+
+Fig. 8 The impact of disrupting the growth factors signalling pathway on p53-mutated cancer cells
+metabolism. These diagrams depict the steady state levels of PIP3 alongside key metabolic metrics-glucose
+consumption, lactate production, oxygen consumption, and ATP production-at different PIP2 phospho-
+rylation rates (k27) in cancer cells (p53
+). The diagrams are categorised into three zones: yellow for
+glycolytic predominance (accounting for over 35% of ATP production), magenta for a metabolic balance
+between glycolysis and oxidative phosphorylation (20–34% of ATP from glycolysis), and blue for oxidative
+phosphorylation supremacy (exceeding 80% of energy output). A black dashed line marks the standard for
+normal cellular metabolism, with energy contributions of 11% from glycolysis and 89% from OXPHOS
+(Color ﬁgure online)
+
+−/−
+
+chondria and thus promoting pyruvate oxidation. This shift is reﬂected in the notable
+oxygen consumption boost and sustained ATP production levels despite lower glucose
+utilisation in this phase.
+
+In the last phase (blue area, Fig. 8), glycolysis experiences a signiﬁcant decline,
+allowing OXPHOS to overcome it, thus improving energy production efﬁciency. In
+this stage, glucose respiration becomes the preferred cellular pathway responsible for
+80–90% of the total energy output. The black dashed line in this phase signiﬁes the
+targeted normal cellular metabolism, with 11% of energy production attributed to
+glycolysis and 89% to OXPHOS.
+
+Our simulations reveal the efﬁcacy of targeting the growth factors signalling path-
+way and highlight the potency of PI3K inhibitors in disrupting the aerobic glycolysis
+in p53-mutated cancer cells, enhancing therapeutic outcomes.
+
+3.7 SCO2: A Critical Component in Boosting the OXPHOS, Yet Alone Insufficient for
+
+Reversing the Warburg Effect
+
+Numerous studies have emphasised the crucial role of SCO2, a p53 target, in the efﬁ-
+cient functioning of the mitochondrial respiratory chain and cellular energy production
+(Matoba et al. 2006; Wanka et al. 2012). SCO2 is essential for the proper assembly
+and function of cytochrome c oxidase (Complex IV in ETC), which catalyses elec-
+tron transfer to molecular oxygen in the inner mitochondrial membrane (Matoba et al.
+2006; Wanka et al. 2012). Given its signiﬁcance in cellular respiration, some studies
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 19 of 64
+
+124
+
+have proposed targeting it as a potential strategy to rescue oxygen consumption in
+p53-deﬁcient cells and modulate the Warburg effect (Matoba et al. 2006; Wanka et al.
+2012).
+
+Inspired by these insights, we delved into the impact of boosting SCO2 levels on
+the metabolic phenotypes of cancer cells, particularly those with p53 mutations. In-
+silico, we elevated the SCO2 expression levels of p53−/− cells by increasing its basal
+production rate, k18 (Fig. 9).
+
+Indeed, our simulations agreed with those studies’ observations (Matoba et al.
+2006; Wanka et al. 2012), revealing a substantial activation of aerobic respiration in
+a SCO2 level-dependent manner. Additionally, we noticed that when SCO2 concen-
+tration achieves its level in wild-type p53 cells, the oxygen consumption activity of
+p53−/− cells rises at a rate comparable to that in wild-type p53 cells. This is com-
+pletely consistent with what was observed in Matoba’s study, which noted that the
+amount of SCO2 protein needed to rescue the deﬁcit in mitochondrial respiration of
+the p53−/− cells corresponded well to the physiological levels observed in the p53+/+
+cells (Matoba et al. 2006).
+
+On the other hand, our ﬁndings also indicate that increasing SCO2 alone is insufﬁ-
+cient to eliminate or reverse the Warburg effect. Enhancing oxidative phosphorylation
+does not necessarily lead to efﬁcient suppression of the glycolysis pathway, especially
+with continued incentives to consume large amounts of glucose and high activation
+of glycolysis enzymes. This clearly explains our results, which show a slight decline
+in glycolysis despite a striking increase in the oxidative phosphorylation pathway
+(Fig. 9). Consequently, solely targeting SCO2 may elevate energy production levels,
+as shown in our simulations, potentially promoting the proliferative capacity of cancer
+cells.
+
+In brief, our results demonstrate that SCO2 may indeed play a robust role in trans-
+forming cancer cell metabolism, but in conjunction with targeting enzymes stimulating
+the glycolysis pathway.
+
+4 Discussion
+
+The Warburg effect is a hallmark of cancer metabolism, granting cancer cells excep-
+tional metabolic ﬂexibility that enables their rapid adaptation and survival in hostile
+microenvironments. This phenomenon is pivotal in cancer research, with particular
+interest in the regulatory mechanisms that govern metabolic pathways. At the fore-
+front of these is the tumour suppressor gene p53, whose role extends beyond cell cycle
+control and apoptosis to include metabolic processes. Our investigation delves into
+the critical role of p53 in modulating cancer cell metabolism, offering novel insights
+into its capacity to counteract the Warburg effect phenomenon.
+
+In terms of existing research, Linglin et al. have made good strides in elucidating the
+inﬂuence of genetic regulation on glycolysis and oxidative phosphorylation, identify-
+ing a hybrid metabolic state unique to cancer cells (Yu et al. 2017). However, this study
+did not consider the vital inﬂuence of p53, nor did it conduct a quantitative analysis
+of how genetic factors impact metabolic outcomes or potential strategies to mitigate
+the Warburg effect. Our research bridges these gaps by constructing a comprehensive
+
+123
+
+124
+
+Page 20 of 64
+
+R. Abukwaik et al.
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+)
+
+M
+μ
+(
+
+m
+2
+O
+C
+S
+
+0.0
+
+SCO2 Con. in 
+(p53+/+)
+
+e
+s
+o
+c
+u
+G
+
+l
+
+0.23
+
+0.10
+
+SCO2 Con. in 
+(p53-/-)
+
+/
+
+)
+h
+8
+M
+m
+
+(
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+4.0
+
+3.0
+
+2.0
+
+1.0
+
+0.0
+
+3.52
+
+3.52
+
+/
+
+)
+h
+8
+M
+m
+
+6.0
+
+6.16
+
+5.90
+
+e
+t
+a
+t
+c
+a
+L
+
+4.0
+
+(
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p 0.0
+
+2.0
+
+0.0  0.2  0.4  0.6  0.8  1.0
+k18 (μM/min)
+
+x10-2
+
+0.0  0.2  0.4  0.6  0.8  1.0
+k18 (μM/min)
+
+x10-2
+
+0.0  0.2  0.4  0.6  0.8  1.0
+k18 (μM/min)
+
+x10-2
+
+/
+
+)
+h
+8
+M
+m
+
+(
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+n
+e
+g
+y
+x
+O
+
+2.0
+
+1.6
+
+1.2
+
+0.8
+
+0.4
+
+1.81
+
+1.48
+
+P
+T
+A
+
+0.0
+
+0.0  0.2  0.4  0.6  0.8  1.0
+k18 (μM/min)
+
+x10-2
+
+/
+
+)
+h
+8
+M
+m
+
+16.0
+
+12.0
+
+15.26
+
+13.85
+
+8.0
+
+(
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p 0.0
+
+4.0
+
+0.0  0.2  0.4  0.6  0.8  1.0
+k18 (μM/min)
+
+x10-2
+
+Metabolic pathways in p53-/- cells
+
+Metabolic pathways in p53-/- cells 
+by elevating SCO2 to p53+/+ level
+
+Stable steady state
+
+Fig. 9 The role of SCO2 in the metabolism of p53-deﬁcient cancer cells. The diagrams represent steady
+state levels of SCO2 alongside key metabolic metrics-glucose consumption, lactate production, oxygen
+−/−
+consumption, and ATP production-inﬂuenced by various SCO2 basal production rates (k18) in p53
+cancer cells. Magenta triangles denote the baseline scenario of p53
+signify the altered state after increasing SCO2 concentration to match levels observed in p53
+ﬁgure online)
+
+cancer cells, whereas green triangles
+cells (Color
+
+−/−
+
++/+
+
+mathematical framework that dissects the mechanisms through which p53, along-
+side other genetic regulations, inﬂuences glycolysis and OXPHOS and quantitatively
+explores their impact on these pathways under various cellular conditions.
+
+Our model analysis reveals distinct metabolic proﬁles characterised by different
+stability regimes, delineating clear metabolic distinctions between normal and cancer
+cells with or without p53 mutations. Importantly, our model successfully replicated
+experimental observations on glucose metabolism in both p53-mutated and wild-type
+colon cancer cells, underscoring its validity.
+
+By exploring various scenarios, our study uncovers the mechanism of how dimin-
+ished glucose availability massively curtails cancer cell proliferation and viability.
+We further identify adaptive tactics cancer cells employ under low-oxygen conditions
+to maintain energy production and growth, particularly emphasising the crucial role
+of mTOR activation. This adaptation starkly contrasts with the energy production
+downturn observed in normal cells under similar hypoxic conditions, highlighting the
+unique metabolic resilience of cancer cells.
+
+Interestingly, we detect a novel aspect of chemotherapy resistance linked to insufﬁ-
+cient p53 activation levels, suggesting that beyond apoptosis evasion, inadequate p53
+activity also impedes the reversal of the Warburg effect, enhancing cellular resistance.
+Moreover, this study discusses strategies to combat the Warburg effect in p53-
+mutated contexts, evaluating the efﬁcacy of augmenting cellular respiration by
+increasing the SCO2 expression levels. While this approach indeed elevates mitochon-
+drial respiration, it does so without a noticeable reduction in the glycolysis pathway,
+thereby boosting the overall ATP production and potentially supporting cancer cells
+even further. Alternatively, we suggest inhibiting the glycolysis pathway using a PI3K
+inhibitor, which has shown promising results in our simulations.
+
+123
+
+ 
+ 
+ 
+ 
+p53 Orchestrates Cancer Metabolism…
+
+Page 21 of 64
+
+124
+
+While our model has shown considerable success and offered valuable insights, it is
+important to acknowledge its limitations. Our model does not incorporate the compet-
+itive dynamics between p53 and HIF1 over transcriptional coactivators. Transcription
+factors like p53 and HIF1 depend on coactivators such as p300/CBP for gene regu-
+lation, which involves acetylating histones at speciﬁc gene promoters to facilitate the
+recruitment of the transcriptional machinery (Grossman 2001; Freedman et al. 2002).
+Given the ﬁnite availability of these coactivators, competition for access between p53
+and HIF1 emerges, affecting their transcriptional activities (Schmid et al. 2004).
+
+Furthermore, our current work concentrated exclusively on glucose metabolism,
+yet cells can utilise additional energy sources, such as glutamine and fatty acids.
+Integrating these energy sources and the p53 inﬂuence on their respective metabolic
+pathways might give a more comprehensive overview of the metabolism outcomes
+and analyse the p53 role much deeper. Future research aims to expand our signalling
+network to include these pathways, providing a more holistic view of p53 impact on
+cancer metabolism.
+
+In conclusion, this study broadens our understanding of the Warburg effect through
+the lens of p53 regulatory mechanisms, introducing, for the ﬁrst time, a mathematical
+model that captures the observed impact of p53 deﬁciency on cancer metabolism. This
+pioneering model unravels the metabolic underpinnings of cancer, thoroughly scru-
+tinising glucose metabolic pathways across different scenarios. Additionally, model
+ﬁndings propose fresh perspectives to improve therapeutic approaches, signiﬁcantly
+highlighting the importance of optimal p53 activation for reversing the Warburg effect
+and the efﬁcacy of PI3K inhibitors in overcoming metabolic adaptations in p53-
+mutated cancer cells.
+
+Appendix A: Detailed Model
+
+A.1 Model Assumptions
+
+This section provides a detailed description of the cellular events and the molecule
+interactions considered while constructing our model.
+
+A.1.1 Growth Factors Activate PI3K/AKT Pathway
+
+Under normal physiological conditions, the PI3K/AKT pathway activation is tightly
+regulated, mainly dependent on external growth signals and nutrient availability
+(Danielsen et al. 2015). This activation process is initiated when extracellular growth
+molecules bind to speciﬁc receptors in the cell membrane. This binding event trig-
+gers receptor activation, which subsequently activates intracellular phosphoinositide
+3-kinase (PI3K) to catalyse the conversion of phosphatidylinositol 4,5-bisphosphate
+(PIP2) lipids into phosphatidylinositol 3,4,5-trisphosphate (PIP3). Following this, pro-
+tein kinase B (AKT) undergoes phosphorylation at threonine-308 upon binding to
+PIP3, which results in its activation. Once activated, AKT regulates various cellular
+processes controlling cell survival, metabolism, and growth (Danielsen et al. 2015;
+Vara et al. 2004; Carnero and Paramio 2014).
+
+123
+
+124
+
+Page 22 of 64
+
+R. Abukwaik et al.
+
+In recent years, extensive research has demonstrated that components of the
+PI3K/AKT signalling pathway are frequently disrupted in human cancers, resulting
+in its sustained activation (Danielsen et al. 2015; Vara et al. 2004; Malinowsky et al.
+2014; Wang et al. 2013). Colorectal cancer, in particular, has exhibited a high occur-
+rence of PI3K/AKT pathway activation, with reports indicating its involvement in
+approximately 70% of colorectal cancer cases (Malinowsky et al. 2014). Thus, our
+system assumes persistent activation of the PI3K/AKT pathway in cancer cells.
+
+In terms of cellular compartmentalisation, it is established that PIP2 and PIP3 are
+localised to the plasma membrane (Vara et al. 2004; Carnero and Paramio 2014), while
+the protein AKT predominantly resides in the cytoplasm, with some presence in the
+nucleus (Yang et al. 2009; Lee et al. 2008). However, the activation of AKT by PI3K
+primarily occurs in the cytoplasm, leading to the accumulation of activated AKT in
+this particular compartment. Therefore, our model assumes that all components of this
+pathway, including PIP2, PIP3, and AKT, function as cytoplasmic proteins.
+
+A.1.2 AKT Mediates mTOR Activating
+
+Upon activation of AKT, various downstream substrates are phosphorylated. One
+critical effector of AKT is the mechanistic target of rapamycin (mTOR) (Dan et al.
+2014; Inoki et al. 2002). The activation of mTORC1 is vital for the control of cellular
+processes such as cell growth and metabolism, primarily through its ability to regulate
+the mRNA translation (Dan et al. 2014; Inoki et al. 2002; Düvel et al. 2010).
+
+In normal conditions, the TSC1-TSC2 complex acts as an inhibitor of mTORC1
+activation; however, the function of this complex is negatively regulated by AKT
+phosphorylation. Activated AKT phosphorylates TSC2, preventing the formation of
+the TSC1-TSC2 complex, which, in turn, leads to the activation of mTORC1. Once
+mTORC1 is activated, it directly phosphorylates the ribosomal protein S6 kinases
+(S6K1 and S6K2) and the eukaryotic initiation factor 4E (eIF4E)-binding proteins
+(4E-BP1 and 4E-BP2) controlling the initiation of cap-dependent translation (Dan
+et al. 2014; Inoki et al. 2002; Düvel et al. 2010).
+
+For simplicity, in our model, we assume that the mTORC1 activation is modulated
+by the phosphorylation of AKT in response to growth factors without explicitly incor-
+porating the intermediate molecules involved in this process. Further, since mTORC1
+is predominantly cytoplasmic (Rosner and Hengstschläger 2008), and the upstream
+and downstream mTORC1 activation occurs in this compartment, our model incorpo-
+rates only the cytoplasmic mTORC1.
+
+A.1.3 mTOR Induces the Expression of HIF1˛
+
+Hypoxia-inducible factor 1 (HIF1) is a transcription factor consisting of two subunits,
+HIF1α and HIF1β. The β-subunit is constitutively present in the nucleus, while the
+α-subunit is rarely detectable in normoxia but strikingly induced in hypoxic conditions
+(Valvona et al. 2016; Laughner et al. 2001; Golias et al. 2019; Metzen et al. 2003). The
+HIF1α gene is continuously transcribed and translated, but its expression stays low
+due to rapid destruction via the ubiquitin-proteasome pathway in an oxygen-dependent
+manner (Valvona et al. 2016; Laughner et al. 2001; Golias et al. 2019).
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 23 of 64
+
+124
+
+The oxygen-dependent turnover of HIF1α is controlled by a family of prolyl 4-
+hydroxylases (PHDs) that uses oxygen as a substrate to hydroxylate HIF1α in its
+oxygen-dependent degradation domain. Prolyl hydroxylation triggers the recognition
+of HIF1α by the product of the Von Hippel-Lindau tumour suppressor gene (pVHL),
+which acts as an E3 ubiquitin ligase mediating the ubiquitination and subsequent
+degradation of HIF1α (Valvona et al. 2016; Golias et al. 2019).
+
+Upon hypoxia, when oxygen availability is low, the activity of PHDs decreases,
+thereby diminishing HIF1α recognition by pVHL and subsequent degradation. Conse-
+quently, HIF1α accumulates and translocates into the nucleus to form a heterodimeric
+complex with HIF1β. This complex binds to speciﬁc DNA sequences and activates
+the transcription of target genes involved in cellular responses to hypoxia (Valvona
+et al. 2016; Laughner et al. 2001).
+
+However, HIF1α is often stabilised in cancer cells even in nonhypoxic conditions
+(Laughner et al. 2001; Valvona et al. 2016; Zhong et al. 2000, 1999), suggesting
+the involvement of other factors in its activation. Experimental investigations have
+revealed that the expression of the HIF1α subunit and its nuclear translocation can
+be induced under nonhypoxic conditions through the activation of growth factors-
+dependent signalling pathway (Valvona et al. 2016; Laughner et al. 2001; Zhong
+et al. 2000; Treins et al. 2005). More speciﬁcally, these studies provided evidence
+that HIF1α induction in cancer is directly regulated by mTORC1 activation, which
+alone is sufﬁcient to stimulate an increase in HIF1α protein levels through activation
+of cap-dependent translation (Düvel et al. 2010; Laughner et al. 2001; Hudson et al.
+2002; Treins et al. 2005).
+
+In light of these ﬁndings, our model assumes that mTORC1 activation promotes
+HIF1α protein synthesis and nuclear translocation, while the HIF1α oxygen-dependent
+degradation is unaffected in nonhypoxic conditions. Considering the complexity of
+the HIF1α oxygen-dependent degradation mechanism, we set the HIF1α degradation
+rate based on the half-life of hydroxylated HIF1α under normal conditions (Golias
+et al. 2019), without incorporating the intricate molecular process.
+
+A.1.4 HIF1 Promotes Glycolysis Pathway
+
+HIF1 is a critical mediator of cellular responses, activating the transcription of target
+genes that regulate various processes, including angiogenesis, glycolysis, and cell
+survival. In our system, we focus on some of the HIF1 downstream targets that play a
+critical role in shifting the cell towards glycolytic metabolism. These involve glucose
+transporter-1 and -3 (GLUT1) and (GLUT3), respectively (Ancey et al. 2018), lactate
+dehydrogenase (LDH) (Valvona et al. 2016), and pyruvate dehydrogenase kinase-1
+and -3 (PDK1) and (PDK3), respectively (Anwar et al. 2021; Lu et al. 2011; Wang
+et al. 2021; Kim et al. 2006).
+GLUT1/3. Glucose transporters are a group of membrane proteins that catalyse the
+glucose transport across the plasma membrane (Schwartzenberg-Bar-Yoseph et al.
+2004; Szablewski 2013; Ancey et al. 2018; Mamun et al. 2020). Once inside the
+cell, glucose undergoes glycolysis, a process that converts a molecule of glucose into
+two molecules of pyruvate, generating two net ATP and two reduced nicotinamide
+adenine dinucleotide (NADH) molecules Valvona et al. (2016); Golias et al. (2019).
+
+123
+
+124
+
+Page 24 of 64
+
+R. Abukwaik et al.
+
+Subsequently, pyruvate can either be converted into lactate in the cytoplasm, oxidising
+NADH back to NAD+, or transported into the mitochondria, in the presence of oxygen,
+for further energy production through OXPHOS, resulting in approximately 36 ATP
+molecules (Valvona et al. 2016; Golias et al. 2019).
+
+Tumour cells are known for exhibiting accelerated metabolic rates and high glucose
+demand (Schwartzenberg-Bar-Yoseph et al. 2004; Ancey et al. 2018). Consequently,
+increasing GLUT expression is essential to provide heightened glucose uptake, meet-
+ing the elevated metabolic requirements in cancer (Schwartzenberg-Bar-Yoseph et al.
+2004; Ancey et al. 2018). GLUT1 and -3, a downstream target of HIF1 (Ancey et al.
+2018), are particularly signiﬁcant in this context as their upregulation is consistently
+observed in many cancer types (Schwartzenberg-Bar-Yoseph et al. 2004; Szablewski
+2013; Ancey et al. 2018; Mamun et al. 2020), and have been selected as targets to
+completely block glucose uptake in cancer cells (Reckzeh and Waldmann 2020).
+
+GLUT1 is the predominant isoform of glucose transporter found in nearly all types
+of cells (Szablewski 2013; Mamun et al. 2020), and GLUT3 exhibits the highest
+afﬁnity for glucose (Day et al. 2013). Accordingly, our study incorporates these two
+types, considering their central role in controlling the glucose uptake of both normal
+and cancer cells.
+LDH. Another important downstream target of HIF1 is LDH, a tetrameric enzyme
+predominantly located in the cytoplasm facilitating the conversion of pyruvate to
+lactate (Valvona et al. 2016; Anadón et al. 2014).
+
+Pyruvate derived from glycolysis typically enters the mitochondria to generate ATP
+more efﬁciently. However, when HIF1 is activated, the LDH protein level increases,
+directing pyruvate away from the mitochondria by catalysing its conversion to lac-
+tate (Valvona et al. 2016). This metabolic shift allows cells to produce ATP through
+glycolysis, albeit in a less efﬁcient manner, while consuming more glucose (Valvona
+et al. 2016). Therefore, the activation of HIF1 in our system is assumed to support
+glycolysis by inducing LDH enzyme.
+PDK1/3. Pyruvate is metabolised within the mitochondria via pyruvate dehydrogenase
+(PDH) activity. The PDH complex, located in the mitochondrial matrix, catalyses the
+oxidative decarboxylation of pyruvate to acetyl-CoA, NADH, and CO2 (Wang et al.
+2021; Woolbright et al. 2019; Rodrigues et al. 2015). Acetyl-CoA then enters the
+tricarboxylic acid (TCA) cycle, where it undergoes further metabolism, resulting in
+the eventual formation of ATP by the electron transport chain (ETC) (Woolbright et al.
+2019).
+
+PDK family exerts signiﬁcant regulatory control over PDH function through their
+capacity to phosphorylate its E1-α subunit at three different sites: Ser293, Ser300, and
+Ser232 (Wang et al. 2021; Woolbright et al. 2019; Rodrigues et al. 2015). Phospho-
+rylation of PDH at any of these sites inhibits its decarboxylation activity, disrupting
+pyruvate oxidation (Wang et al. 2021; Woolbright et al. 2019; Rodrigues et al. 2015).
+HIF1 enhances the promoter activities of two PDK family members, namely PDK1
+and PDK3 (Anwar et al. 2021; Lu et al. 2011; Wang et al. 2021; Kim et al. 2006),
+commonly overexpressed in tumours (Jin et al. 2020; Lu et al. 2011; Anwar et al.
+2021). Elevated PDK expression and subsequent PDH phosphorylation contribute to
+diverting pyruvate to lactate to dispose of excess pyruvate when the mitochondrial
+oxidative capacity is limited. Consequently, the activation of HIF1 in our model is
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 25 of 64
+
+124
+
+assumed to trigger the inhibitory regulation of the PDH activity by increasing PDK1
+and PDK3 expression levels, both situated within the mitochondrial matrix (Wang
+et al. 2021; Woolbright et al. 2019; Rodrigues et al. 2015).
+
+A.1.5 Metabolic Stress Activates AMPK
+
+AMP-activated protein kinase (AMPK) acts as a crucial energy sensor, maintaining
+cellular energy homeostasis (Hardie 2011; Hardie et al. 2012; Faubert et al. 2015;
+Li et al. 2015). It is activated when cellular ATP levels drop under different forms
+of metabolic stress, including glucose deprivation, ischemia, hypoxia, or oxidative
+stress (Hardie 2011; Hardie et al. 2012; Faubert et al. 2015; Li et al. 2015). Upon
+these stresses, AMPK undergoes phosphorylation at Thr-172 to restore cellular energy
+balance by suppressing ATP-consuming processes and promoting ATP production
+(Hardie 2011; Hardie et al. 2012; Faubert et al. 2015; Li et al. 2015).
+
+Considering deregulated cellular energetics a hallmark of cancer (Hanahan and
+Weinberg 2011), our model incorporates AMPK activation in cancer cells. This acti-
+vation restrains cancer growth and promotes ATP production efﬁciency mainly by
+impeding mTORC1 activation via TSC2 phosphorylation and triggering p53 activa-
+tion (Faubert et al. 2015; Li et al. 2015; Inoki et al. 2003).
+
+A.1.6 AMPK Activates Tumour Suppressor Gene p53
+
+p53 is a major tumour suppressor gene that plays a critical role in preventing the
+propagation of abnormal cells. It functions as a transcription factor, controlling the
+expression of various genes involved in cell cycle regulation, repair DNA, apoptosis,
+and cellular metabolism (Sun 2015; Nag et al. 2013; Matoba et al. 2006). The p53
+protein is continuously produced from the TP53 tumour suppressor gene (Sun 2015).
+However, its levels are kept low by the action of murine double minute 2 (MDM2),
+an E3 ubiquitin ligase that promotes p53 degradation via the ubiquitin-proteasome
+pathway (Nag et al. 2013; Haupt et al. 1997).
+
+Under conditions of metabolic stress, AMPK phosphorylates p53 on Ser15, promot-
+ing its stabilisation by disrupting its binding to MDM2 (Jones et al. 2005; Imamura
+et al. 2001). Thus, p53 accumulates and translocates to the nucleus, activating the
+transcription of its target genes.
+
+In the basal state, p53 primarily resides in the cytoplasm, where it interacts
+with MDM2, preventing its nuclear translocation (Liang and Clarke 2001; Zerfaoui
+et al. 2021). Therefore, in our model, p53 is considered a cytoplasmic protein under
+unstressed conditions. However, upon AMPK activation, it is stabilised and translo-
+cated into the nucleus, where it binds DNA and transcriptionally acts as a tetramer.
+
+A.1.7 p53 Induces Genes Negatively Regulate Its Activation
+
+p53 triggers the production of proteins such as MDM2 and wild-type p53-induced
+phosphatase 1 (WIP1) (Barak et al. 1993; Batchelor et al. 2011), which form a negative
+feedback loop reducing its stability (Nag et al. 2013; Haupt et al. 1997; Barak et al.
+1993; Batchelor et al. 2011).
+
+123
+
+124
+
+Page 26 of 64
+
+R. Abukwaik et al.
+
+MDM2. MDM2 is a p53-negative regulator that can be further induced by p53 acti-
+vation (Barak et al. 1993). It is predominantly located in the cytoplasm of unstressed
+cells (Marchenko et al. 2010). However, in response to growth factors signalling, AKT
+phosphorylates MDM2 on Ser166 and -186, promoting its translocation from the cyto-
+plasm into the nucleus, thereby inhibiting the transcriptional function of p53 (Mayo
+and Donner 2001; Xu et al. 2012).
+
+In our system, we assume that p53 activation triggers increased production of the
+MDM2 protein, which is primarily cytoplasmic but migrates to the nucleus upon AKT
+phosphorylation.
+WIP1. Another target of p53 that can negatively affect its stability is WIP1. WIP1
+resides exclusively in the nucleus (Fiscella et al. 1997), where it dephosphorylates
+nuclear p53, rendering p53 more susceptible to MDM2-mediated degradation (Batch-
+elor et al. 2011).
+
+On the other hand, p53 undergoes nuclear export regulated by its nuclear export
+signals (NES). The ﬁrst NES is within the tetramerization domain, masked when p53
+forms a tetramer. The second NES is in the MDM2-binding domain, which can be
+attenuated by phosphorylating Ser15 via AMPK (Liang and Clarke 2001; Marchenko
+et al. 2010). Thus, phosphorylation and tetramerization can inhibit p53 nuclear export
+by masking the NESs.
+
+Accordingly, in the model, we assume that phosphorylated p53 forms a tetramer
+in the nucleus, yet WIP1-mediated dephosphorylation triggers p53 nuclear export by
+unmasking the NES, leading to its relocation to the cytoplasm.
+
+A.1.8 p53 Induces Genes to Promote Its Activation, Simultaneously Inhibiting HIF1
+
+As previously discussed, the mTOR signalling pathway signiﬁcantly inﬂuences HIF1
+activation. Therefore, the ability of p53 to inhibit mTORC1 activation aligns with
+its function as a negative regulator of HIF1. This inhibition is mainly mediated by
+three p53 target genes: sestrin1 (SESN1), sestrin2 (SESN2), and phosphatase and
+tensin homolog (PTEN) (Budanov and Karin 2008; Sanli et al. 2012; Feng and Levine
+2010).
+SESN1/2. p53 induces the expression of SESN1 and SESN2 proteins (Budanov and
+Karin 2008; Sanli et al. 2012), which interact with the α-subunits of AMPK, resulting
+in AMPK phosphorylation on Thr172. This phosphorylation activates AMPK, which
+subsequently inhibits mTORC1 activity (Budanov and Karin 2008; Sanli et al. 2012;
+Feng and Levine 2010). Additionally, this activation forms a positive feedback loop
+through the phosphorylation of p53 by active AMPK, further supporting the p53
+function (Feng and Levine 2010). For simplicity, in our system, we assume that the
+activation of p53 directly induces AMPK activation without explicitly incorporating
+SESN1/2.
+PTEN. Another crucial target gene of p53 involved in regulating mTORC1 activity is
+PTEN (Stambolic et al. 2001). Upon induction by p53, PTEN promotes the degradation
+of PIP3 to PIP2, effectively suppressing the PI3K/AKT/mTOR pathway (Mayo et al.
+2002; Carnero and Paramio 2014; Feng and Levine 2010). The regulation of PTEN
+by p53 also serves as a positive feedback loop. PTEN prevents the AKT-dependent
+MDM2 translocation to the nucleus, boosting the nuclear p53 transcriptional activity
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 27 of 64
+
+124
+
+(Mayo et al. 2002, 2005). In the model, PTEN is considered to be in the cytoplasm,
+negatively regulating the PI3K/AKT/mTOR pathway (Iijima et al. 2004).
+
+A.1.9 p53 Suppresses Glycolysis and Enhances Mitochondrial Respiration
+
+p53 is a key target in cancer cells, exerting its inﬂuence on multiple levels. It inhibits
+the glycolytic pathway not only by disrupting HIF1 activation but also by regulating
+genes directly involved in glucose metabolic pathways, including GLUT1 and -3
+(Ancey et al. 2018; Schwartzenberg-Bar-Yoseph et al. 2004; Kawauchi et al. 2008),
+PDK2 (Anwar et al. 2021; Liang et al. 2020), TP53-inducible glycolysis and apoptosis
+regulator (TIGAR) (Bensaad et al. 2006; Lee et al. 2015), and synthesis of cytochrome
+c oxidase 2 (SCO2) (Matoba et al. 2006).
+GLUT1/3. Previously, we emphasised the signiﬁcance of GLUT1 and -3 as preem-
+inent actors in the enhanced cellular glucose uptake and the accelerated metabolism
+in cancer cells (Ancey et al. 2018; Reckzeh and Waldmann 2020).
+
+p53, as a transcription factor, can either activate or suppress the expression of
+speciﬁc genes. In the case of GLUT1 and -3, p53 acts as a suppressor, diminishing their
+protein levels (Ancey et al. 2018; Schwartzenberg-Bar-Yoseph et al. 2004; Kawauchi
+et al. 2008). This repression exerted by p53 is assumed to reduce the baseline levels
+of GLUT1 and -3 in our model, inhibiting the glycolytic pathway induced by HIF1.
+TIGAR. Within the cell, glucose undergoes an irreversible conversion to glucose-
+6-phosphate (G6P), which can then follow either the glycolysis pathway, forming
+fructose-6-phosphate (F6P), or the pentose phosphate pathway (PPP) (Jiang et al.
+2014). The decision between these pathways is inﬂuenced by TIGAR, a p53 target.
+
+TIGAR curtails the activity of the enzyme guiding F6P towards the next glycolytic
+step. This inhibition leads to the buildup of F6P, allowing its isomerisation back to
+G6P and consequently diminishing glycolysis ﬂux (Bensaad et al. 2006; Lee et al.
+2015). Thus, TIGAR functions as a cytoplasmic protein in our model (Tang et al.
+2021), triggered by p53 to slow down the glycolysis rate.
+PDK2. The irreversible pyruvate decarboxylation, catalysed by the PDH complex
+in the mitochondria, is a critical step in determining the metabolic fate of pyruvate
+towards OXPHOS (Anwar et al. 2021; Wang et al. 2021; Woolbright et al. 2019;
+Rodrigues et al. 2015).
+
+As mentioned earlier, HIF1 activation in cancer cells upregulates PDK, particu-
+larly PDK1 and -3, inhibiting PDH complex activity (Anwar et al. 2021; Wang et al.
+2021; Woolbright et al. 2019; Rodrigues et al. 2015; Lu et al. 2011). However, p53
+counteracts HIF1’s inhibitory effect on PDH by suppressing the expression of another
+PDK member called PDK2 (Anwar et al. 2021; Liang et al. 2020). Consequently,
+the activation of p53 in our model is assumed to repress the PDK2 protein synthesis,
+promoting mitochondrial respiration over glycolysis.
+SCO2. Within the mitochondria, pyruvate is converted into acetyl-CoA, entering the
+TCA cycle to undergo a series of chemical reactions. Each round of the TCA cycle
+yields one energy molecule, three NADH molecules, and one reduced ﬂavin adenine
+dinucleotide (FADH2) molecule (Martínez-Reyes and Chandel 2020). The NADH
+and FADH2 produced are then oxidised back into NAD+ and FAD via ETC protein
+complexes (I, II, III, and IV) embedded in the inner mitochondrial membrane (Ahmad
+
+123
+
+124
+
+Page 28 of 64
+
+R. Abukwaik et al.
+
+et al. 2018). Complex I and II facilitate NADH and FADH2 oxidation, respectively, and
+transfer the received electrons to Complex III and then to Complex IV (Ahmad et al.
+2018). As electrons traverse these complexes, protons pump from the mitochondrial
+matrix to the intermembrane space. Each pair of electrons from NADH pumps ten
+protons (4 from Complex I, 4 from Complex III, and 2 from Complex IV), while
+FADH2 pumps only six (4 from Complex III, and 2 from Complex IV) (Ahmad et al.
+2018).
+
+Complex IV acts as the ultimate electron acceptor in this chain. It transfers these
+electrons to molecular oxygen, promoting the reduction of oxygen to water (Ahmad
+et al. 2018). However, electron transfer efﬁciency within Complex IV is highly regu-
+lated by the p53 target, SCO2. SCO2 is a mitochondrial protein (Maxﬁeld et al. 2004),
+that is essential for the proper assembly and maturation of Complex IV, ensuring its
+optimal functionality. Any deﬁciency or malfunction of SCO2 can impair Complex
+IV function and its ability to efﬁciently consume oxygen in the ﬁnal step, disrupting
+the smooth ﬂow of electrons through the ETC (Matoba et al. 2006; Wanka et al. 2012).
+The proton movement across the membrane while transferring electrons establishes
+an electrochemical gradient, creating a higher concentration of protons in the inter-
+membrane space compared to the matrix. Consequently, protons ﬂow back into the
+mitochondrial matrix through Complex V, ATP synthase, driving the ATP synthesis
+(for every four protons, one ATP is produced) (Ahmad et al. 2018).
+
+Based on the above, each acetyl-CoA entering the TCA cycle in our model pro-
+duces one ATP, one FADH2, and three NADH molecules (Martínez-Reyes and Chandel
+2020). Considering that each NADH and FADH2 contributes nearly ten and six pro-
+tons, respectively, and every four protons result in one ATP molecule, in our model,
+NADH and FADH2 are assumed to yield 2.5 and 1.5 ATP molecules, respectively
+(Ahmad et al. 2018). Regarding oxygen consumption, each NADH or FADH2 transfers
+a pair of electrons to Complex IV, which is then converted to water (H2O), consum-
+ing 0.5 oxygen (O2) molecules (Ahmad et al. 2018). Therefore, we assume that each
+NADH or FADH2 entering the ETC consumes 0.5 oxygen molecules. Finally, p53
+activation in our model is assumed to maintain mitochondrial respiration by inducing
+the synthesis of SCO2, supporting Complex IV function and enhancing ETC activity.
+
+A.2 Model Reactions
+
+The phosphorylation and dephosphorylation processes occurring at the molecular level
+for p53, MDM2, AMPK, PIP2/3, AKT, mTOR, and PDH-impacting their locations,
+functions, or activations- are represented in our model as enzyme-catalysed reactions
+employing monosubstrate Michaelis-Menten kinetics. Likewise, the ubiquitination
+process, facilitating species degradation, involving the p53 ubiquitination by MDM2,
+is modelled using the same kinetic framework. This modelling choice is based on the
+analogous catalytic roles of a protein kinase, phosphatase, or ubiquitin ligase and an
+enzyme in converting a substrate into a product. The general form of this reaction is
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 29 of 64
+
+124
+
+expressed as:
+
+v1(S) = Vmax
+
+(cid:4)
+
+(cid:5)
+
+,
+
+[S]
+[S] + Km
+
+where Vmax denotes the maximum speed of the reaction, often regulated by the total
+concentration of the protein enacting the phosphorylation, dephosphorylation, or ubiq-
+uitination processes. Km is a Michaelis-Menten constant that represents the substrate
+level [S] (the species undergoing phosphorylation, dephosphorylation, or ubiquitina-
+tion) at which half of the maximum reaction velocity is achieved. The speed of this
+reaction increases linearly with the substrate [S] when the substrate concentrations
+are low, while saturating and achieving the maximum speed for large concentrations
+when [S] (cid:3) Km.
+
+p53 is a tetramer transcription factor that activates the production of proteins, includ-
+ing MDM2, WIP1, PTEN, SCO2, and TIGAR, while suppressing the synthesis of
+others, such as GLUT1/3 and PDK2. Accordingly, the production rates controlled by
+the tetrameric p53 in the nucleus are modelled by a Hill function with coefﬁcient four,
+represented as:
+
+v+
+2(S) = Vmax
+
+v−
+2(S) = Vmax
+
+(cid:4)
+
+(cid:4)
+
+(cid:5)
+,
+
+(cid:5)
+
+,
+
+[S]h
+[S]h + K h
+m
+K h
+m
+[S]h + K h
+m
+
+f or activation
+
+f or inhibition
+
+here Vmax denotes the maximum velocity, with [S] representing the concentration of
+nuclear p53. The parameter h, set to four, is the Hill coefﬁcient that determines the
+steepness of the Hill function, while Km signiﬁes the activation/inhibition threshold
+constant, where the p53 inﬂuence kicks in by exceeding this threshold constant.
+
+All species in our model undergoing modiﬁcations exclusively post-translation
+without affecting their concentration levels, encompassing processes like phosphory-
+lation, reduction, and oxidation, are assumed to be at a steady-state point, where the
+total protein concentration across all forms remains constant over time. This applies to
+various species, such as AMPK/AMPK*, PIP2/PIP3, AKT/AKT*, mTOR/mTOR*,
+ADP/ATP, NAD+/NADH, and FAD/FADH2.
+
+The diffusivity of glucose and lactate molecules across the cell membrane, facili-
+tated by transporters within the cellular membrane, is represented by a net ﬂux. This
+ﬂux is determined by subtracting the amount of substrate moving out of the cell from
+the amount moving into, depending on the substrate concentration inside and outside
+the cell. Both inward and outward ﬂuxes are modelled using the Michaelis-Menten
+equation, accounting for the saturation process when all transporters become saturated
+by the substrate (glucose/lactate). The general function can be expressed as follows:
+
+(cid:4)
+
+v3(S) = Vmax
+
+[Sout ]
+[Sout ] + Km
+
+−
+
+[Sin]
+[Sin] + Km
+
+(cid:5)
+,
+
+123
+
+124
+
+Page 30 of 64
+
+R. Abukwaik et al.
+
+in this reaction, the ﬁrst and second terms describe the inﬂux and efﬂux, respectively,
+where [Sin], and [Sout ] denote the concentration of the substrate (glucose/lactate) in
+and out the cell. Km is the Michaelis-Menten constant, reﬂecting the afﬁnity of each
+substrate to its transporter.
+
+In the metabolic pathways, some reactions involve more than one substrate and
+product, such as the ﬁrst and last step of the glycolysis pathway: (Glucose + ATP →
+G6P + ADP) and (Pyruvate + NADH → Lactate + NAD+). These two reactions were
+classiﬁed to follow an order Bi-Bi sequential mechanism, where Hexokinase binds
+the ATP molecule ﬁrst then Glucose, releasing G6P ﬁrst and then ATP (Toews 1966).
+Similarly, the LDH enzyme binds the NADH ﬁrst followed by the Pyruvate molecule
+to produce Lactate ﬁrst and then NAD+ (Chang et al. 1991). Accordingly, these two
+reactions are represented in our model by the order Bi-Bi Michaelis-Menten equation
+(Toews 1966; Chang et al. 1991; Kuby 2019), which can be given by:
+
+(cid:4)
+
+v4(S1,S2) = Vmax
+
+[S1][S2]
+[S1][S2] + Ks1[S2] + Ks2[S1] + Ks1 Ks2
+
+(cid:5)
+,
+
+in which [S1] and [S2] represent the ﬁrst and second substrate concentrations
+(ATP/NADH and Glucose/Pyruvate, respectively), whereas Ks1 and Ks2 represent
+the enzyme’s Km values for their respective ligands.
+
+On the other hand, the reaction catalysed by the PDH enzyme, involving the con-
+version of Pyruvate and NAD+ into Acetyl-CoA and NADH, was assumed to follow
+a multisite ping-pong mechanism (Reid et al. 1977). This mechanism is characterised
+by the alternating binding of substrates and the release of products in a stepwise man-
+ner. Thus, the kinetics of this reaction is modelled in our system using ping-pong
+Michaelis-Menten equation (Reid et al. 1977; Kuby 2019), expressed as:
+
+v5(S1,S2) = Vmax
+
+(cid:4)
+
+[S1][S2]
+[S1][S2] + Ks1[S2] + Ks2[S1]
+
+(cid:5)
+,
+
+where [S1] and [S2] denote the concentrations of Pyruvate and NAD+, respectively.
+And the parameters Ks1 and Ks2 correspond to the enzyme’s afﬁnity constants (Km
+values) for Pyruvate and NAD+, respectively.
+
+Pyruvate, a product of cytoplasmic glycolysis, is transported into the mitochon-
+dria via the mitochondrial pyruvate carrier (MPC) located in the outer mitochondrial
+membrane (Ruiz-Iglesias and Mañes 2021). This pyruvate mitochondrial import is
+integrated into our model as a constant rate inﬂuenced negatively by mitochondrial
+pyruvate concentrations to prevent excessive accumulation within the mitochondrial
+compartment. Furthermore, cytoplasmic NADH typically travels into the mitochon-
+dria through the Malate-Aspartate Shuttle (MAS) for oxidation in the respiratory chain
+(Bhagavan 2002). The NADH mitochondrial import by MAS is signiﬁcant for more
+efﬁcient ATP production and maintaining a high NAD+/NADH ratio in the cytosol
+(Bhagavan 2002). To streamline our model, we simpliﬁed the representation of NADH
+movement, considering a direct inﬂux into the mitochondria at a constant rate sub-
+ject to inhibition regulation by the mitochondrial NADH level. These mitochondrial
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 31 of 64
+
+124
+
+import reactions can be generally expressed as:
+
+v6(S) = k[Sc]
+
+(cid:4)
+
+(cid:5)
+,
+
+Km
+[Sm] + Km
+
+where k represents the mitochondrial import rate, and [Sc] and [Sm] designate the
+concentration of Pyruvate/NADH in the cytoplasm and mitochondria, respectively.
+Km here serves as the inhibition threshold coefﬁcient for mitochondrial import.
+
+In our system, glycolysis, the TCA cycle, and the ETC are individually modelled as
+one-step processes, considering the maximum velocity of each. These processes follow
+kinetics reactions, saturating at high levels of its respective initial substrates, G6P for
+glycolysis, Acetyl-CoA for TCA cycle, and NADH/FADH2 for ETC. However, as
+these processes involve ADP phosphorylation and NAD+/FAD reduction, deﬁciency
+of these molecules can impact the overall reaction speed. Therefore, the maximal
+velocity is assumed to be governed by the total levels of ADP, NAD+, and FAD if they
+are participants in the reaction. Comprehensively, the reaction can be described as:
+
+v7(S) = Vmax
+
+(cid:5)(cid:4)
+
+(cid:4)
+
+[S]
+[S] + Km
+
+[A]
+[A] + Ka
+
+(cid:5)(cid:4)
+
+[N ]
+[N ] + Kn
+
+(cid:5)(cid:4)
+
+[F]
+[F] + K f
+
+(cid:5)
+,
+
+where [S] and Km represent the initial substrate concentration (G6P, Acetyl-CoA, or
+NADH/FADH2) and their Michaelis-Mentent constant. [A], [N ], and [F] denotes the
+concentration of ADP, NAD+, and FAD, respectively, with Ka, Kn, and K f accounting
+for their threshold constants. Not all terms have to be involved in each reaction;
+only the term where its corresponding molecule participates. Moreover, owing to
+TIGAR’s noncompetitive inhibition on the glycolysis pathway, we adjust the ﬁrst
+term in glycolysis as follows:
+
+⎛
+
+⎜
+⎜
+⎝
+
+(cid:4)
+1 + [I ]
+Ki
+
+[S]
+
+[S]
+
+(cid:5)
+
++ Km
+
+(cid:5)
+
+(cid:4)
+1 + [I ]
+Ki
+
+⎞
+
+⎟
+⎟
+⎠
+
+Mathematically, noncompetitive inhibition inﬂuences the maximum reaction speed
+(Vmax ) (Kuby 2019), where [I ] represents the inhibitor concentration, TIGAR in our
+case, along with the inhibition threshold constant [Ki ].
+
+Finally, in all metabolic reactions when the catalysing protein (whether transporter
+or enzyme) is part of our system, the maximum velocity is regulated by the catalysing
+protein concentration (Vmax = kcat [E]tot ). Except in the case of the LDH enzyme,
+where its inﬂuence on the reaction speed is characterised by a Hill function with a
+hill coefﬁcient of four (similar to v+
+2(S)), considering the required tetramer formation
+before catalysing the reaction (Fan et al. 2011; Valvona et al. 2016).
+
+123
+
+124
+
+Page 32 of 64
+
+A.3 Model Equations
+
+R. Abukwaik et al.
+
+The constructed differential equations, alongside their corresponding chemical reac-
+tions and parameter values, are explicitly presented below.
+
+A.3.1 Cytoplasmic and Nuclear p53 Equations
+
+Let the concentration of cytoplasmic p53, nuclear p53, active cytoplasmic AMPK,
+cytoplasmic MDM2, nuclear MDM2, and nuclear WIP1 be denoted by P53c, P53n,
+Ampk∗
+Chemical reactions:
+
+c , Mdm2c, Mdm2n, and W i p1n, respectively.
+
+•
+
+P53c + Ampk∗
+c
+P53c + Mdm2c
+
+P53n + W i p1n
+
+P53c
+
+k1−→ P53c
+k2−→ P53n + Ampk∗
+k3−→ • + Mdm2c
+k4−→ P53c + W i p1n
+k5−→ •
+
+c
+
+P53n + Mdm2n
+
+k6−→ • + Mdm2n
+
+Equations:
+
+d P53c
+dt
+
+d P53n
+dt
+
+= k1 − k2 Ampk∗
+c
+
++ k4W i p1n
+(cid:4)
+
+= k2 Ampk∗
+c
+
+− k4W i p1n
+
+(cid:4)
+
+(cid:4)
+
+(cid:5)
+
+P53c
+P53c + K p1
+P53n
+P53n + K p3
+(cid:5)
+P53c
+P53c + K p1
+(cid:4)
+P53n
+P53n + K p3
+
+.
+
+(cid:5)
+
+(cid:4)
+
+− k3 Mdm2c
+
+(cid:5)
+
+P53c
+P53c + K p2
+
+− k5 P53c,
+
+− k6 Mdm2n
+(cid:5)
+
+(cid:4)
+
+(cid:5)
+
+P53n
+P53n + K p4
+
+(34)
+
+(35)
+
+A.3.2 Cytoplasmic and Nuclear MDM2 Equations
+
+Let Akt ∗
+Chemical reactions:
+
+c denote the active cytoplasmic AKT concentration.
+
+•
+
+P53n
+Mdm2c + Akt ∗
+c
+
+k7−→ Mdm2c
+k8−→ P53n + Mdm2c
+k9−→ Mdm2n + Akt ∗
+
+c
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 33 of 64
+
+124
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+s
+e
+c
+n
+e
+r
+e
+f
+e
+R
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+n
+i
+m
+M
+μ
+
+/
+
+t
+i
+n
+U
+
+n
+i
+m
+
+/
+
+M
+μ
+
+n
+i
+m
+
+/
+
+M
+μ
+
+n
+i
+m
+
+/
+
+M
+μ
+
+n
+i
+m
+
+/
+
+n
+i
+m
+
+/
+
+M
+μ
+
+e
+u
+l
+a
+V
+
+1
+5
+3
+.
+0
+
+2
+.
+0
+
+5
+7
+.
+0
+
+3
+0
+.
+0
+
+2
+.
+0
+
+5
+0
+.
+0
+
+2
+0
+.
+0
+
+2
+0
+.
+0
+
+3
+.
+0
+
+1
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+c
+3
+5
+p
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗c
+K
+P
+M
+A
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+n
+3
+5
+p
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+1
+P
+I
+W
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+n
+3
+5
+p
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+1
+P
+I
+W
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+n
+3
+5
+p
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+2
+M
+D
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+c
+3
+5
+p
+
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+c
+3
+5
+p
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+2
+M
+D
+M
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+c
+3
+5
+p
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+2
+M
+D
+M
+
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+n
+3
+5
+p
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+2
+M
+D
+M
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+c
+3
+5
+p
+
+c
+3
+5
+p
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗c
+K
+P
+M
+A
+
+l
+l
+e
+c
+
+s
+i
+h
+t
+n
+i
+3
+5
+p
+f
+o
+
+e
+s
+n
+o
+p
+s
+e
+r
+o
+n
+e
+r
+u
+s
+n
+e
+o
+t
+
+s
+l
+l
+e
+c
+
+r
+e
+c
+n
+a
+c
+
+d
+e
+t
+a
+t
+u
+m
+n
+i
+0
+o
+t
+d
+e
+c
+u
+d
+e
+r
+
+t
+u
+b
+
+s
+l
+l
+e
+c
+
+r
+e
+c
+n
+a
+c
+
+e
+p
+y
+t
+-
+d
+l
+i
+
+w
+d
+n
+a
+
+l
+a
+m
+r
+o
+n
+n
+i
+5
+3
+.
+0
+e
+b
+o
+t
+
+t
+e
+s
+
+s
+i
+
+t
+I
+
+.
+e
+p
+y
+t
+
+l
+l
+e
+c
+y
+b
+s
+e
+i
+r
+a
+v
+
+t
+n
+a
+t
+s
+n
+o
+C
+s
+i
+l
+e
+a
+h
+c
+i
+
+M
+
+e
+h
+t
+
+s
+e
+t
+o
+n
+e
+d
+
+.
+
+.
+
+C
+M
+
+e
+r
+e
+h
+w
+
+,
+)
+5
+3
+(
+d
+n
+a
+
+)
+4
+3
+(
+
+.
+s
+q
+E
+f
+o
+
+s
+e
+u
+l
+a
+v
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+2
+e
+l
+b
+a
+T
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+1
+k
+
+2
+k
+
+1
+p
+K
+
+2
+p
+K
+
+3
+k
+
+4
+k
+
+3
+p
+K
+
+5
+k
+
+6
+k
+
+4
+p
+K
+
+r
+e
+t
+e
+m
+a
+r
+a
+p
+s
+i
+h
+T
+1
+
+e
+p
+y
+t
+
+123
+
+124
+
+Page 34 of 64
+
+R. Abukwaik et al.
+
+Mdm2n
+
+Mdm2c
+
+Mdm2n
+
+k10−→ Mdm2c
+k11−→ •
+
+k11−→ •
+
+Equations:
+
+d Mdm2c
+dt
+
+d Mdm2n
+dt
+
+= k7 + k8
+(cid:4)
+
++ k10
+
+= k9 Akt ∗
+c
+
+(cid:4)
+
+h
+
+P53n
+h + K p53
+h
+(cid:5)
+
+P53n
+Mdm2n
+Mdm2n + Km2
+(cid:4)
+Mdm2c
+Mdm2c + Km1
+
+− k11 Mdm2n.
+
+(cid:5)
+
+(cid:4)
+
+− k9 Akt ∗
+c
+
+(cid:5)
+
+Mdm2c
+Mdm2c + Km1
+
+− k11 Mdm2c,
+(cid:4)
+(cid:5)
+
+− k10
+
+Mdm2n
+Mdm2n + Km2
+
+(cid:5)
+
+(36)
+
+(37)
+
+A.3.3 WIP1, PTEN, SCO2, and TIGAR Equations
+
+Let the concentration of the cytoplasmic PTEN, mitochondrial SCO2, and cytoplasmic
+TIGAR be denoted by Ptenc, Sco2m, and T igarc, respectively.
+Chemical reactions:
+
+•
+
+P53n
+
+W i p1n
+
+•
+
+P53n
+
+Ptenc
+
+•
+
+P53n
+
+Sco2m
+
+•
+
+P53n
+
+T igarc
+
+k12−→ W i p1n
+k13−→ P53n + W i p1n
+k14−→ •
+k15−→ Ptenc
+k16−→ P53n + Ptenc
+k17−→ •
+
+k18−→ Sco2m
+k19−→ P53n + Sco2m
+k20−→ •
+
+k21−→ T igarc
+k22−→ P53n + T igarc
+k23−→ •
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 35 of 64
+
+124
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+s
+e
+c
+n
+e
+r
+e
+f
+e
+R
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+t
+i
+n
+U
+
+M
+μ
+
+–
+
+n
+i
+m
+
+/
+
+M
+μ
+
+n
+i
+m
+M
+μ
+
+/
+
+M
+μ
+
+n
+i
+m
+
+/
+
+e
+u
+l
+a
+V
+
+2
+0
+0
+.
+0
+
+4
+2
+0
+.
+0
+
+5
+2
+.
+0
+
+0
+1
+
+3
+.
+0
+
+2
+.
+0
+
+1
+.
+0
+
+4
+
+8
+2
+0
+0
+.
+0
+
+t
+n
+a
+t
+s
+n
+o
+C
+s
+i
+l
+e
+a
+h
+c
+i
+
+M
+
+s
+t
+n
+e
+s
+e
+r
+p
+e
+r
+
+.
+
+.
+
+C
+M
+
+e
+l
+i
+h
+w
+
+,
+t
+n
+a
+t
+s
+n
+o
+C
+d
+l
+o
+h
+s
+e
+r
+h
+T
+s
+e
+t
+o
+n
+e
+d
+
+.
+
+C
+T
+
+.
+
+.
+)
+7
+3
+(
+d
+n
+a
+
+)
+6
+3
+(
+
+.
+s
+q
+E
+f
+o
+
+s
+e
+u
+l
+a
+v
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+3
+e
+l
+b
+a
+T
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+c
+2
+M
+D
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+c
+2
+M
+D
+M
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗c
+T
+K
+A
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗c
+T
+K
+A
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+n
+a
+r
+t
+
+n
+3
+5
+p
+f
+o
+
+t
+n
+e
+i
+c
+ﬁ
+f
+e
+o
+c
+
+l
+l
+i
+
+H
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+c
+2
+M
+D
+M
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+3
+5
+p
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+n
+a
+r
+t
+
+n
+3
+5
+p
+f
+o
+
+.
+
+C
+T
+
+.
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+c
+2
+M
+D
+M
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+n
+2
+M
+D
+M
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+n
+2
+M
+D
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+2
+M
+D
+M
+
+3
+5
+p
+K
+
+h
+
+9
+k
+
+1
+m
+K
+
+0
+1
+k
+
+2
+m
+K
+
+1
+1
+k
+
+7
+k
+
+8
+k
+
+123
+
+124
+
+Page 36 of 64
+
+Equations:
+
+(cid:4)
+
+(cid:4)
+
+(cid:4)
+
+(cid:4)
+
+= k12 + k13
+
+= k15 + k16
+
+= k18 + k19
+
+= k21 + k22
+
+dW i p1n
+dt
+
+d Ptenc
+dt
+
+d Sco2m
+dt
+
+dT igarc
+dt
+
+h
+
+P53n
+h + K p53
+h
+P53n
+h + K p53
+h
+P53n
+h + K p53
+h
+P53n
+h + K p53
+
+P53n
+
+P53n
+
+P53n
+
+P53n
+
+R. Abukwaik et al.
+
+(cid:5)
+
+(cid:5)
+
+(cid:5)
+
+(cid:5)
+
+h
+
+h
+
+h
+
+h
+
+− k14W i p1n,
+
+− k17 Ptenc,
+
+− k20 Sco2m,
+
+− k23T igarc.
+
+(38)
+
+(39)
+
+(40)
+
+(41)
+
+A.3.4 Active AMPK, PIP3, AKT, and mTOR Equations
+
+Let the concentration of cytoplasmic PIP3 and active cytoplasmic mTOR be denoted
+by Pi p3c and Mtor ∗
+c , respectively, while Ampkc, Pi p2c, Aktc and Mtorc represent
+the concentrations for the inactive form of the corresponding variable.
+Chemical reactions:
+
+Ampkc
+
+P53n + Ampkc
+Ampk∗
+c
+
+Pi p2c
+
+Pi p3c + Ptenc
+
+Aktc + Pi p3c
+Akt ∗
+c
+Mtorc + Akt ∗
+c
++ Ampk∗
+c
+Mtor ∗
+c
+
+Mtor ∗
+c
+
+c
+
+k24−→ Ampk∗
+c
+k25−→ P53n + Ampk∗
+k26−→ Ampkc
+k27−→ Pi p3c
+k28−→ Pi p2c + Ptenc
+k29−→ Akt ∗
++ Pi p3c
+c
+k30−→ Aktc
+k31−→ Mtor ∗
+c
+k32−→ Mtorc + Ampk∗
+k33−→ Mtorc
+
++ Akt ∗
+c
+
+c
+
+Equations:
+
+d Ampk∗
+c
+dt
+
+123
+
+(cid:4)
+
+= k24
+(cid:4)
+
+×
+
+Ampktot − Ampk∗
+c
++ Ka1
+(cid:5)
+
+Ampktot − Ampk∗
+c
+
+Ampktot − Ampk∗
+c
++ Ka1
+
+Ampktot − Ampk∗
+c
+
+(cid:5)
+
+(cid:4)
+
++ k25
+(cid:4)
+
+− k26
+
+P53n
+
+h
+
+P53n
+h + K p53
+h
+(cid:5)
+,
+
+Ampk∗
+c
++ Ka2
+
+Ampk∗
+c
+
+(cid:5)
+
+(42)
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 37 of 64
+
+124
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+3
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+i
+a
+w
+k
+u
+b
+A
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+2
+1
+k
+
+e
+k
+i
+L
+
+s
+e
+c
+n
+e
+r
+e
+f
+e
+R
+
+)
+2
+1
+0
+2
+.
+l
+a
+
+t
+e
+
+a
+k
+n
+a
+W
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+6
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+
+l
+a
+y
+a
+h
+K
+
+-
+l
+
+A
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+4
+1
+k
+
+e
+k
+i
+L
+
+)
+1
+2
+0
+2
+
+.
+l
+a
+
+t
+e
+g
+n
+e
+Z
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+5
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+
+e
+e
+L
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+
+/
+
+t
+i
+n
+U
+
+e
+u
+l
+a
+V
+
+2
+0
+0
+.
+0
+
+9
+0
+.
+0
+
+2
+0
+.
+0
+
+1
+0
+0
+.
+0
+
+6
+0
+0
+.
+0
+
+3
+6
+0
+0
+.
+0
+
+2
+0
+0
+.
+0
+
+7
+0
+0
+.
+0
+
+2
+0
+.
+0
+
+4
+0
+0
+0
+0
+.
+0
+
+9
+0
+0
+.
+0
+
+2
+1
+0
+0
+.
+0
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+n
+1
+P
+I
+W
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+3
+5
+p
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+n
+1
+P
+I
+W
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+n
+1
+P
+I
+W
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+c
+N
+E
+T
+P
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+c
+N
+E
+T
+P
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+3
+5
+p
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+c
+N
+E
+T
+P
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+m
+2
+O
+C
+S
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+m
+2
+O
+C
+S
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+3
+5
+p
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+m
+2
+O
+C
+S
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+c
+R
+A
+G
+I
+T
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+c
+R
+A
+G
+I
+T
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+3
+5
+p
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+c
+R
+A
+G
+I
+T
+
+2
+1
+k
+
+3
+1
+k
+
+4
+1
+k
+
+5
+1
+k
+
+6
+1
+k
+
+7
+1
+k
+
+8
+1
+k
+
+9
+1
+k
+
+0
+2
+k
+
+1
+2
+k
+
+2
+2
+k
+
+3
+2
+k
+
+123
+
+)
+1
+4
+(
+–
+)
+8
+3
+(
+
+.
+s
+q
+E
+f
+o
+
+s
+e
+u
+l
+a
+v
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+4
+e
+l
+b
+a
+T
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+124
+
+Page 38 of 64
+
+R. Abukwaik et al.
+
+(cid:4)
+
+d Pi p3c
+dt
+
+= k27
+
+Pi ptot − Pi p3c
+Pi ptot − Pi p3c + K pi p1
+
+(cid:5)
+
+(cid:4)
+
+− k28 Ptenc
+
+Pi p3c
+Pi p3c + K pi p2
+
+(cid:5)
+,
+
+d Akt ∗
+c
+dt
+d Mtor ∗
+c
+dt
+
+(cid:4)
+
+= k29 Pi p3c
+(cid:4)
+
+= k31 Akt ∗
+c
+(cid:4)
+
+×
+
+Mtor ∗
+c
+
+Mtortot − Mtor ∗
+c
+Mtor ∗
+c
++ Kmtor 2
+
+(cid:5)
+.
+
+(cid:5)
+
+(cid:4)
+
+Akttot − Akt ∗
+c
+Akttot − Akt ∗
++ Kakt1
+c
+Mtortot − Mtor ∗
+c
++ Kmtor 1
+
+Akt ∗
+c
++ Kakt2
+
+− k30
+(cid:5)
+
+Akt ∗
+c
+− [k32 Ampk∗
+c
+
+(cid:5)
+,
+
+(43)
+
+(44)
+
++ k33]
+
+(45)
+
+A.3.5 Cytoplasmic and Nuclear HIF1 Equations
+
+Let H i f 1αc and H i f 1αn denote the concentrations of cytoplasmic and nuclear HIF1α,
+respectively.
+Chemical reactions:
+
+Mtor ∗
+c
+
+•
+
+Mtor ∗
+c
++ H i f 1αc
+
+H i f 1αc
+
+H i f 1αn
+
+k34−→ H i f 1αc
+k35−→ Mtor ∗
+c
+k36−→ Mtor ∗
+c
+k37−→ •
+
+k37−→ •
+
++ H i f 1αc
+
++ H i f 1αn
+
+Equations:
+
+d H i f 1αc
+dt
+d H i f 1αn
+dt
+
+= k34 + k35 Mtor ∗
+c
+
+− k36 Mtor ∗
+
+c H i f 1αc − k37 H i f 1αc,
+
+= k36 Mtor ∗
+
+c H i f 1αc − k37 H i f 1αn.
+
+(46)
+
+(47)
+
+A.3.6 GLUT1, GLUT3, PDK1/3, PDK2, and LDH Equations
+
+Let the concentration of cytoplasmic GLUT1, cytoplasmic GLUT3, mitochondrial
+PDK1 and 3, mitochondrial PDK2, and cytoplasmic LDH be denoted by Glut1c,
+Glut3c, Pdk13m, Pdk2m, and Ldhc, respectively.
+Chemical reactions:
+
+•
+
+H i f 1αn
+
+k38−→ Glut1c
+k39−→ Glut1c + H i f 1αn
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 39 of 64
+
+124
+
+)
+1
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+g
+n
+a
+h
+Z
+d
+n
+a
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+)
+6
+0
+0
+2
+(
+
+a
+d
+u
+g
+A
+d
+n
+a
+
+e
+e
+
+W
+
+)
+1
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+g
+n
+a
+h
+Z
+
+s
+e
+c
+n
+e
+r
+e
+f
+e
+R
+
+t
+o
+t
+
+p
+i
+
+P
+
+e
+k
+i
+L
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+4
+2
+k
+
+e
+k
+i
+L
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+n
+i
+m
+M
+μ
+
+/
+
+t
+i
+n
+U
+
+M
+μ
+
+M
+μ
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+M
+μ
+
+n
+i
+m
+M
+μ
+
+/
+
+M
+μ
+
+M
+μ
+
+n
+i
+m
+
+/
+
+M
+μ
+
+e
+u
+l
+a
+V
+
+1
+1
+0
+0
+.
+0
+
+2
+.
+0
+
+1
+
+1
+0
+0
+.
+0
+
+1
+0
+0
+0
+.
+0
+
+1
+5
+1
+.
+0
+
+5
+.
+0
+
+1
+.
+0
+
+5
+.
+0
+
+5
+.
+0
+
+1
+
+t
+n
+a
+t
+s
+n
+o
+C
+s
+i
+l
+e
+a
+h
+c
+i
+
+M
+
+s
+t
+n
+e
+s
+e
+r
+p
+e
+r
+
+.
+
+.
+
+C
+M
+
+.
+)
+5
+4
+(
+–
+)
+2
+4
+(
+
+.
+s
+q
+E
+f
+o
+
+s
+e
+u
+l
+a
+v
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+5
+e
+l
+b
+a
+T
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+s
+
+m
+r
+o
+f
+
+c
+K
+P
+M
+A
+
+l
+l
+a
+
+f
+o
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+c
+
+l
+a
+t
+o
+t
+
+e
+h
+T
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+c
+K
+P
+M
+A
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+c
+K
+P
+M
+A
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+c
+K
+P
+M
+A
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+3
+5
+p
+
+s
+
+m
+r
+o
+f
+
+c
+P
+I
+P
+l
+l
+a
+
+f
+o
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+c
+
+l
+a
+t
+o
+t
+
+e
+h
+T
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+c
+2
+P
+I
+P
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+∗c
+k
+K
+P
+M
+A
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+∗c
+K
+P
+M
+A
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+c
+2
+P
+I
+P
+f
+o
+
+.
+
+.
+
+C
+M
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+c
+3
+P
+I
+P
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+N
+E
+T
+P
+f
+o
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+c
+3
+P
+I
+P
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+N
+E
+T
+P
+
+t
+o
+t
+k
+p
+m
+A
+
+4
+2
+k
+
+1
+a
+K
+
+5
+2
+k
+
+6
+2
+k
+
+2
+a
+K
+
+7
+2
+k
+
+t
+o
+t
+
+p
+i
+
+P
+
+1
+p
+i
+p
+K
+
+2
+p
+i
+
+P
+K
+
+8
+2
+k
+
+123
+
+124
+
+Page 40 of 64
+
+R. Abukwaik et al.
+
+)
+1
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+g
+n
+a
+h
+Z
+
+)
+1
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+g
+n
+a
+h
+Z
+
+)
+7
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+n
+a
+i
+T
+
+)
+1
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+g
+n
+a
+h
+Z
+
+)
+1
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+g
+n
+a
+h
+Z
+
+s
+e
+c
+n
+e
+r
+e
+f
+e
+R
+
+t
+o
+t
+
+p
+i
+
+P
+
+e
+k
+i
+L
+
+1
+p
+i
+p
+K
+e
+k
+i
+L
+
+d
+e
+m
+u
+s
+s
+A
+
+2
+p
+i
+p
+K
+e
+k
+i
+L
+
+d
+e
+m
+u
+s
+s
+A
+
+9
+2
+k
+
+e
+k
+i
+L
+
+t
+i
+n
+U
+
+n
+i
+m
+
+/
+
+M
+μ
+
+M
+μ
+
+n
+i
+m
+M
+μ
+
+/
+
+M
+μ
+
+n
+i
+m
+
+/
+
+M
+μ
+
+M
+μ
+
+n
+i
+m
+
+/
+
+M
+μ
+
+e
+u
+l
+a
+V
+
+5
+2
+.
+0
+
+5
+3
+.
+0
+
+1
+
+1
+.
+0
+
+2
+.
+0
+
+5
+2
+.
+0
+
+1
+.
+0
+
+2
+.
+0
+
+5
+.
+0
+
+1
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+c
+T
+K
+A
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+3
+P
+I
+P
+f
+o
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+c
+T
+K
+A
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+3
+P
+I
+P
+
+s
+
+m
+r
+o
+f
+
+c
+T
+K
+A
+
+l
+l
+a
+
+f
+o
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+c
+
+l
+a
+t
+o
+t
+
+e
+h
+T
+
+e
+t
+a
+r
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+c
+R
+O
+T
+m
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗c
+T
+K
+A
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+∗c
+T
+K
+A
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+∗c
+T
+K
+A
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+s
+
+m
+r
+o
+f
+
+c
+R
+O
+T
+m
+
+l
+l
+a
+
+f
+o
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+c
+
+l
+a
+t
+o
+t
+
+e
+h
+T
+
+e
+t
+a
+r
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+n
+i
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+c
+R
+O
+T
+m
+
+∗c
+R
+O
+T
+m
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗c
+K
+P
+M
+A
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗c
+T
+K
+A
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+n
+i
+
+∗c
+R
+O
+T
+m
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+t
+o
+t
+t
+k
+A
+
+1
+t
+k
+a
+K
+
+2
+t
+k
+a
+K
+
+1
+3
+k
+
+0
+3
+k
+
+9
+2
+k
+
+t
+o
+t
+r
+o
+t
+
+M
+
+1
+r
+o
+t
+
+m
+K
+
+2
+r
+o
+t
+
+m
+K
+
+2
+3
+k
+
+3
+3
+k
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+d
+e
+u
+n
+i
+t
+n
+o
+c
+
+5
+e
+l
+b
+a
+T
+
+123
+
+d
+n
+a
+
+y
+h
+t
+l
+a
+e
+h
+
+a
+
+n
+i
+
+t
+s
+i
+x
+e
+
+s
+l
+l
+e
+c
+
+l
+a
+m
+r
+o
+n
+
+t
+a
+h
+t
+
+g
+n
+i
+m
+u
+s
+s
+a
+
+,
+s
+l
+l
+e
+c
+
+r
+e
+c
+n
+a
+c
+
+o
+t
+
+e
+v
+i
+s
+u
+l
+c
+x
+e
+
+d
+e
+r
+e
+d
+i
+s
+n
+o
+c
+
+e
+r
+a
+
+s
+l
+a
+n
+g
+i
+s
+
+r
+o
+t
+c
+a
+f
+
+h
+t
+w
+o
+r
+g
+
+f
+o
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+s
+u
+o
+u
+n
+i
+t
+n
+o
+c
+
+d
+n
+a
+
+s
+s
+e
+r
+t
+s
+
+c
+i
+l
+o
+b
+a
+t
+e
+m
+
+,
+l
+e
+d
+o
+m
+e
+h
+t
+
+n
+I
+
+1
+
+s
+l
+l
+e
+c
+
+l
+a
+m
+r
+o
+n
+
+n
+i
+0
+o
+t
+
+t
+e
+s
+
+e
+r
+a
+
+s
+r
+e
+t
+e
+m
+a
+r
+a
+p
+
+e
+s
+e
+h
+t
+
+,
+e
+r
+o
+f
+e
+r
+e
+h
+T
+
+.
+t
+n
+e
+m
+n
+o
+r
+i
+v
+n
+e
+
+e
+e
+r
+f
+-
+r
+e
+d
+r
+o
+s
+i
+d
+
+n
+i
+m
+M
+μ
+
+/
+
+1
+0
+0
+0
+0
+.
+0
+
+e
+t
+a
+r
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+n
+i
+
+∗c
+R
+O
+T
+m
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+n
+i
+-
+∗c
+K
+P
+M
+A
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 41 of 64
+
+124
+
+)
+1
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+u
+L
+
+;
+0
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+
+l
+e
+v
+ü
+D
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+5
+0
+0
+2
+.
+l
+a
+
+t
+e
+
+s
+n
+i
+e
+r
+T
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+9
+1
+0
+2
+.
+l
+a
+
+t
+e
+
+s
+a
+i
+l
+o
+G
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+s
+e
+c
+n
+e
+r
+e
+f
+e
+R
+
+d
+e
+m
+u
+s
+s
+A
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+
+/
+
+t
+i
+n
+U
+
+2
+0
+0
+0
+0
+.
+0
+
+5
+4
+0
+0
+0
+0
+.
+0
+
+6
+8
+3
+1
+.
+0
+
+5
+4
+.
+1
+
+e
+u
+l
+a
+V
+
+e
+t
+a
+r
+
+t
+r
+o
+p
+m
+
+i
+
+r
+a
+e
+l
+c
+u
+n
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+n
+i
+
+c
+
+c
+
+α
+1
+F
+I
+H
+
+α
+1
+F
+I
+H
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗c
+R
+O
+T
+m
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗c
+R
+O
+T
+m
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+c
+
+α
+1
+F
+I
+H
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+α
+1
+F
+I
+H
+
+4
+3
+k
+
+5
+3
+k
+
+6
+3
+k
+
+7
+3
+k
+
+)
+7
+4
+(
+d
+n
+a
+
+)
+6
+4
+(
+
+.
+s
+q
+E
+f
+o
+
+s
+e
+u
+l
+a
+v
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+6
+e
+l
+b
+a
+T
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+123
+
+124
+
+Page 42 of 64
+
+R. Abukwaik et al.
+
+Glut1c
+
+k40−→ •
+
+•
+
+H i f 1αn
+
+Glut3c
+
+•
+
+H i f 1αn
+
+Pdk13m
+
+•
+
+Pdk2m
+
+•
+
+H i f 1αn
+
+Ldhc
+
+k41−→ Glut3c
+k42−→ Glut3c + H i f 1αn
+k43−→ •
+
+k44−→ Pdk13m
+k45−→ Pdk13m + H i f 1αn
+k46−→ •
+
+k47−→ Pdk2m
+k46−→ •
+
+k48−→ Ldhc
+k49−→ Ldhc + H i f 1αn
+k50−→ •
+
+Equations:
+
+dGlut1c
+dt
+
+= k38
+
+(cid:4)
+
+(cid:4)
+
+h
+
+K p53
+h + K p53
+h
+K p53
+h + K p53
+
+P53n
+
+P53n
+
+(cid:5)
+
+(cid:5)
+
+h
+
+h
+
++ k39 H i f 1αn − k40Glut1c,
+
+(48)
+
++ k42 H i f 1αn − k43Glut3c,
+
+(49)
+
+= k41
+
+= k44 + k45 H i f 1αn − k46 Pdk13m,
+
+(cid:4)
+
+= k47
+
+h
+
+K p53
+h + K p53
+
+P53n
+
+(cid:5)
+
+h
+
+− k46 Pdk2m,
+
+= k48 + k49 H i f 1αn − k50 Ldhc.
+
+(50)
+
+(51)
+
+(52)
+
+dGlut3c
+dt
+d Pdk13m
+dt
+d Pdk2m
+dt
+d Ldhc
+dt
+
+A.3.7 Active and Inactive PDH Equations
+
+Let the concentration of active and inactive mitochondrial PDH be denoted by Pdh∗
+m
+and Pdhm, respectively.
+Chemical reactions:
+
+•
+
+Pdh∗
+m
+
++ Pdk13m
+
+k51−→ Pdh∗
+m
+k52−→ Pdhm + Pdk13m
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 43 of 64
+
+124
+
+)
+4
+0
+0
+2
+
+.
+l
+a
+
+t
+e
+
+h
+p
+e
+s
+o
+Y
+
+-
+r
+a
+B
+-
+g
+r
+e
+b
+n
+e
+z
+t
+r
+a
+w
+h
+c
+S
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+s
+e
+c
+n
+e
+r
+e
+f
+e
+R
+
+)
+2
+0
+0
+2
+
+.
+l
+a
+
+t
+e
+g
+n
+a
+u
+H
+
+;
+7
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+
+e
+w
+e
+r
+C
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+9
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+
+r
+a
+l
+i
+u
+g
+A
+-
+a
+í
+c
+r
+a
+G
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+0
+2
+0
+2
+
+.
+l
+a
+
+t
+e
+
+g
+n
+a
+i
+L
+(
+
+,
+4
+4
+k
+
+f
+l
+a
+H
+
+)
+6
+0
+0
+2
+
+.
+l
+a
+
+t
+e
+u
+H
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+7
+4
+k
+
+e
+k
+i
+L
+
+)
+0
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+
+l
+e
+v
+ü
+D
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+8
+9
+9
+1
+
+.
+l
+a
+
+t
+e
+
+t
+a
+y
+a
+h
+K
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+d
+e
+m
+u
+s
+s
+A
+
+)
+8
+9
+9
+1
+
+.
+l
+a
+
+t
+e
+
+t
+a
+y
+a
+h
+K
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+7
+0
+0
+2
+
+.
+l
+a
+
+t
+e
+d
+o
+o
+W
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+1
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+u
+L
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+d
+e
+m
+u
+s
+s
+A
+
+n
+i
+m
+M
+μ
+
+/
+
+t
+i
+n
+U
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+
+/
+
+n
+i
+m
+
+/
+
+5
+0
+0
+0
+0
+.
+0
+
+8
+4
+.
+0
+
+9
+1
+0
+0
+.
+0
+
+1
+0
+0
+0
+0
+.
+0
+
+5
+7
+0
+0
+0
+.
+0
+
+2
+0
+0
+0
+.
+0
+
+5
+9
+0
+.
+0
+
+e
+u
+l
+a
+V
+
+9
+1
+0
+0
+.
+0
+
+1
+0
+0
+0
+.
+0
+
+1
+0
+0
+0
+.
+0
+
+5
+8
+.
+0
+
+7
+.
+0
+
+5
+2
+8
+0
+0
+0
+.
+0
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+c
+1
+T
+U
+L
+G
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+
+α
+1
+F
+I
+H
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+c
+1
+T
+U
+L
+G
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+c
+3
+T
+U
+L
+G
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+
+α
+1
+F
+I
+H
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+c
+1
+T
+U
+L
+G
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+c
+3
+T
+U
+L
+G
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+m
+3
+,
+1
+K
+D
+P
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+
+α
+1
+F
+I
+H
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+c
+3
+T
+U
+L
+G
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+m
+3
+,
+1
+K
+D
+P
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+c
+H
+D
+L
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+n
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+c
+H
+D
+L
+
+α
+1
+F
+I
+H
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+c
+H
+D
+L
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+m
+K
+D
+P
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+m
+2
+K
+D
+P
+
+8
+3
+k
+
+9
+3
+k
+
+0
+4
+k
+
+1
+4
+k
+
+2
+4
+k
+
+3
+4
+k
+
+4
+4
+k
+
+5
+4
+k
+
+6
+4
+k
+
+7
+4
+k
+
+8
+4
+k
+
+9
+4
+k
+
+0
+5
+k
+
+123
+
+)
+2
+5
+(
+–
+)
+8
+4
+(
+
+.
+s
+q
+E
+f
+o
+
+s
+e
+u
+l
+a
+v
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+7
+e
+l
+b
+a
+T
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+124
+
+Page 44 of 64
+
+R. Abukwaik et al.
+
+k52−→ Pdhm + Pdk2m
+k53−→ Pdh∗
+m
+k54−→ •
+
+k54−→ •
+
+Pdh∗
+m
+
++ Pdk2m
+
+Pdhm
+Pdh∗
+m
+
+Pdhm
+
+(cid:4)
+
+Equations:
+
+d Pdh∗
+m
+dt
+
+d Pdhm
+dt
+
+(cid:5)
+
+− k52 Pdk2m
+
+= k51 − k52 Pdk13m
+
+(cid:4)
+
+×
+
+Pdh∗
+m
++ K pdh1
+(cid:4)
+
+Pdh∗
+m
+
+Pdh∗
+m
++ K pdh1
+(cid:4)
+
+Pdh∗
+m
+(cid:5)
+
++ k53
+
+= k52 Pdk13m
+(cid:4)
+
+Pdh∗
+m
++ K pdh1
+(cid:5)
+
+Pdh∗
+m
+
+− k53
+
+Pdhm
+Pdhm + K pdh2
+
+− k54 Pdhm.
+
+Pdhm
+Pdhm + K pdh2
+(cid:5)
+
++ k52 Pdk2m
+
+(cid:5)
+
+(cid:4)
+
+,
+
+− k54 Pdh∗
+m
+Pdh∗
+m
++ K pdh1
+
+Pdh∗
+m
+
+(53)
+
+(cid:5)
+
+(54)
+
+A.3.8 Metabolic Equations
+
+Let the concentration of cytoplasmic glucose, G6P, pyruvate, NADH, NAD+, and
+lactate be denoted by Glucosec, G6 pc, P yr uvatec, N adhc, N adc, and Lactatec,
+respectively. Meanwhile, the mitochondrial concentrations of pyruvate, acetyl-CoA,
+NADH, NAD+, FADH2, and FAD are represented by P yr uvatem, Acet ylm, N adhm,
+N adm, Fadhm, and Fadm. Additionally, Glucoseout and Lactateout respectively
+represent the concentration of glucose and lactate outside the cell, whereas At p, Adp,
+and O2con indicate the total concentration of ATP, ADP, and oxygen consumption,
+respectively.
+Chemical reactions:
+
+Glucoseout + Glut1c
+
+Glucoseout + Glut3c
+
+Glucosec + At p
+
+G6 pc + 2N adc + 3Adp
+
+G6 pc
+
+P yr uvatec + N adhc + Ldhc
+
+P yr uvatec
+
+k55←−
+−−→ Glucosec + Glut1c
+k55←−
+−−→ Glucosec + Glut3c
+k56−→ G6 pc + Adp
+k57−→ 2P yr uvatec + 2N adhc + 3At p
+k58−→ P P P
+k59−→ Lactatec + N adc + Ldhc
+k60−→ P yr uvatem
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 45 of 64
+
+124
+
+)
+0
+2
+0
+2
+
+.
+l
+a
+
+t
+e
+
+g
+n
+a
+i
+L
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+d
+e
+m
+u
+s
+s
+A
+
+)
+0
+2
+0
+2
+
+.
+l
+a
+
+t
+e
+
+g
+n
+a
+i
+L
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+3
+8
+9
+1
+
+.
+l
+a
+
+t
+e
+
+u
+H
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+d
+e
+m
+u
+s
+s
+A
+
+s
+e
+c
+n
+e
+r
+e
+f
+e
+R
+
+d
+e
+m
+u
+s
+s
+A
+
+n
+i
+m
+M
+μ
+
+/
+
+t
+i
+n
+U
+
+n
+i
+m
+M
+μ
+
+/
+
+n
+i
+m
+
+/
+
+M
+μ
+
+M
+μ
+
+n
+i
+m
+
+/
+
+e
+u
+l
+a
+V
+
+1
+0
+0
+.
+0
+
+7
+1
+0
+.
+0
+
+5
+.
+0
+
+5
+0
+0
+.
+0
+
+5
+.
+0
+
+8
+2
+0
+0
+0
+.
+0
+
+t
+n
+a
+t
+s
+n
+o
+C
+s
+i
+l
+e
+a
+h
+c
+i
+
+M
+
+s
+e
+t
+o
+n
+e
+d
+
+.
+
+.
+
+C
+M
+
+.
+)
+4
+5
+(
+d
+n
+a
+
+)
+3
+5
+(
+
+.
+s
+q
+E
+f
+o
+
+s
+e
+u
+l
+a
+v
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+8
+e
+l
+b
+a
+T
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+∗m
+H
+D
+P
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+m
+K
+D
+P
+f
+o
+
+.
+
+.
+
+C
+M
+
+∗m
+H
+D
+P
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+m
+K
+D
+P
+
+e
+t
+a
+r
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+l
+a
+s
+a
+b
+
+∗m
+H
+D
+P
+
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+m
+H
+D
+P
+f
+o
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+e
+d
+
+m
+H
+D
+P
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+l
+a
+s
+a
+b
+
+m
+H
+D
+P
+
+1
+h
+d
+p
+K
+
+2
+h
+d
+p
+K
+
+3
+5
+k
+
+4
+5
+k
+
+1
+5
+k
+
+2
+5
+k
+
+123
+
+124
+
+Page 46 of 64
+
+R. Abukwaik et al.
+
+P yr uvatem + N adm + Pdh∗
+m
+Acet ylm + 3N adm + Fadm + Adp
+
+N adhc
+
+N adhm + 2.5Adp + Sco2m
+
+Fadhm + 1.5Adp + Sco2m
+
+Lactatec
+
+Lactateout
+
+m
+
+k61−→ Acet ylm + N adhm + Pdh∗
+k62−→ 3N adhm + Fadhm + At p
+k63−→ N adhm
+k64−→ N adm + 2.5At p + 0.5O2con + Sco2m
+k64−→ Fadm + 1.5At p + 0.5O2con + Sco2m
+k65←−
+−−→ Lactateout
+k66−→ •
+
+At p
+
+k67−→ Adp
+
+Equations:
+
+dGlucosec
+dt
+
+= k55Glut1c
+
+(cid:4)
+
+−
+
+Glucoseout
+Glucoseout + Kg1
+(cid:4)
+Glucoseout
+Glucoseout + Kg2
+
+Glucosec
+Glucosec + Kg1
+Glucosec
+Glucosec + Kg2
+
+−
+
+(cid:5)
+
+(cid:5)
+
++ k55Glut3c
+(cid:4)
+
+− k56
+(cid:4)
+
+= k56
+
+dG6 pc
+dt
+
+Glucosec At p
+Glucosec At p + Kat pGlucosec + Kg3 At p + Kat p Kg3
+(cid:5)
+Glucosec At p
+Glucosec At p + Kat pGlucosec + Kg3 At p + Kat p Kg3
+⎛
+
+⎞
+
+(cid:5)
+,
+
+⎜
+⎜
+⎝
+
+− k57
+
+G6 pc
+
+(cid:4)
+1 + T igarc
+Ktig
+N ctot − N adhc
+N ctot − N adhc + Knadc
+
+(cid:4)
+
+×
+
+G6 pc
+(cid:5)
+
+(cid:4)
+
+(cid:5)
+
+⎟
+⎟
+⎠
+
++ Kg4
+(cid:5)(cid:4)
+
+1 + T igarc
+Ktig
+Atot − At p
+Atot − At p + Kad p
+
+− k58G6 pc,
+⎛
+
+⎞
+
+d P yr uvatec
+dt
+
+= 2k57
+
+⎜
+⎜
+⎝
+
+(cid:4)
+
+G6 pc
+(cid:5)
+
+(cid:4)
+
+(cid:5)
+
+⎟
+⎟
+⎠
+
+(cid:5)
+
+(cid:5)
+
++ Kg4
+(cid:5)(cid:4)
+
+1 + T igarc
+Ktig
+Atot − At p
+Atot − At p + Kad p
+
+G6 pc
+
+1 + T igarc
+Ktig
+N ctot − N adhc
+N ctot − N adhc + Knadc
+(cid:4)
+m
+Ldhc
+m + Kl
+
+Ldhc
+
+(cid:5)
+
+m
+
+(cid:4)
+
+×
+
+− k59
+(cid:4)
+
+×
+
+P yr uvatec N adhc
+P yr uvatec N adhc + Knc P yr uvatec + K pyr 1 N adhc + Knc K pyr 1
+
+(cid:4)
+
+K pyr 2
+P yr uvatem + K pyr 2
+
+(cid:5)
+,
+
+− k60 P yr uvatec
+
+123
+
+(55)
+
+(56)
+
+(cid:5)
+
+(57)
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 47 of 64
+
+124
+
+d P yr uvatem
+dt
+
+d Acet ylm
+dt
+
+d N adhc
+dt
+
+d N adhm
+dt
+
+(cid:4)
+
+K pyr 2
+P yr uvatem + K pyr 2
+
+(cid:5)
+
+− k61 Pdh
+
+∗
+m
+
+P yr uvatem (N mtot − N adhm )
+(P yr uvatem + K pyr 3)(N mtot − N adhm ) + Knadm1 P yr uvatem
+
+= k60 P yr uvatec
+
+(cid:4)
+
+×
+
+= k61 Pdh
+(cid:4)
+
+∗
+m
+
+×
+
+P yr uvatem (N mtot − N adhm )
+(P yr uvatem + K pyr 3)(N mtot − N adhm ) + Knadm1 P yr uvatem
+(cid:4)
+
+(cid:5)(cid:4)
+
+(cid:5)
+
+− k62
+(cid:4)
+
+×
+
+Acet ylm
+Acet ylm + Kace
+
+Fmtot − Fadhm
+Fmtot − Fadhm + K f adm
+⎛
+
+N mtot − N adhm
+N mtot − N adhm + Knadm2
+(cid:5)
+,
+
+Atot − At p
+Atot − At p + Kad p
+
+(cid:5)(cid:4)
+
+= 2k57
+
+⎜
+⎜
+⎝
+
+(cid:4)
+
+G6 pc
+(cid:5)
+
+(cid:4)
+
+(cid:5)
+
+⎞
+
+⎟
+⎟
+⎠
+
++ Kg4
+(cid:5)(cid:4)
+
+1 + T igarc
+Ktig
+Atot − At p
+Atot − At p + Kad p
+
+(cid:5)
+
+G6 pc
+
+1 + T igarc
+Ktig
+N ctot − N adhc
+N ctot − N adhc + Knadc
+(cid:4)
+m
+Ldhc
+m + Kl
+
+Ldhc
+
+(cid:5)
+
+m
+
+(cid:4)
+
+×
+
+− k59
+(cid:4)
+
+×
+
+(cid:4)
+
+Knm
+N adhm + Knm
+
+(cid:5)
+,
+
+− k63 N adhc
+
+= k61 Pdh
+(cid:4)
+
+∗
+m
+
+P yr uvatec N adhc
+P yr uvatec N adhc + Knc P yr uvatec + K pyr 1 N adhc + Knc K pyr 1
+
+(cid:5)
+
+,
+
+(58)
+
+(cid:5)
+
+(59)
+
+(cid:5)
+
+(60)
+
+(cid:5)
+
+×
+
+P yr uvatem (N mtot − N adhm )
+(P yr uvatem + K pyr 3)(N mtot − N adhm ) + Knadm1 P yr uvatem
+
+(cid:4)
+
+(cid:5)(cid:4)
+
++ 3k62
+(cid:4)
+
+×
+
+Acet ylm
+Acet ylm + Kace
+Fmtot − Fadhm
+Fmtot − Fadhm + K f adm
+(cid:5)
+
+(cid:4)
+
+N mtot − N adhm
+N mtot − N adhm + Knadm2
+(cid:5)
+
+(cid:5)(cid:4)
+
+Atot − At p
+Atot − At p + Kad p
+(cid:4)
+
+(cid:5)
+
++ k63 N adhc
+
+Knm
+N adhm + Knm
+
+− k64 Sco2m
+
+N adhm
+N adhm + Ke
+
+d Fadhm
+dt
+
+= k62
+(cid:4)
+
+×
+
+(cid:5)
+,
+
+×
+
+(cid:4)
+
+(cid:4)
+
+Atot − At p
+Atot − At p + Kad p
+(cid:5)(cid:4)
+
+Acet ylm
+Acet ylm + Kace
+
+N mtot − N adhm
+N mtot − N adhm + Knadm2
+
+(cid:5)(cid:4)
+
+(cid:5)
+
+(cid:5)
+
+Fmtot − Fadhm
+Fmtot − Fadhm + K f adm
+(cid:5)(cid:4)
+
+(cid:4)
+
+− k64 Sco2m
+
+Fadhm
+Fadhm + Ke
+
+Atot − At p
+Atot − At p + Kad p
+(cid:5)
+Atot − At p
+Atot − At p + Kad p
+
+,
+
+(cid:5)
+
+(61)
+
+(62)
+
+123
+
+R. Abukwaik et al.
+
+124
+
+Page 48 of 64
+
+d Lactatec
+dt
+
+= k59
+(cid:4)
+
+×
+
+(cid:5)
+
+(cid:4)
+
+m
+Ldhc
+m + Kl
+
+Ldhc
+
+m
+
+P yr uvatec N adhc
+P yr uvatec N adhc + Knc P yr uvatec + K pyr 1 N adhc + Knc K pyr 1
+(cid:4)
+Lactateout
+Lactateout + Klac
+(cid:5)
+
+−
+
+(cid:5)
+
+,
+
+− k65
+(cid:4)
+
+(63)
+
+(cid:5)
+
+Lactatec
+Lactatec + Klac
+Lactatec
+Lactatec + Klac
+
+−
+
+Lactateout
+Lactateout + Klac
+
+d Lactateout
+dt
+
+= k65
+
+− k66 Lactateout ,
+
+(cid:4)
+
+d At p
+dt
+
+= −k56
+
+Glucosec At p
+Glucosec At p + Kat pGlucosec + Kg3 At p + Kat p Kg3
+⎛
+
+⎞
+
+(cid:4)
+
+×
+
++ k62
+(cid:4)
+
+×
+
++ 3k57
+
+⎜
+⎜
+⎝
+
+G6 pc
+
+(cid:4)
+1 + T igarc
+Ktig
+N ctot − N adhc
+N ctot − N adhc + Knadc
+(cid:4)
+Acet ylm
+Acet ylm + Kace
+
+(cid:5)(cid:4)
+
+G6 pc
+(cid:5)
+
+(cid:4)
+
+(cid:5)
+
+⎟
+⎟
+⎠
+
+(cid:5)
+
++ Kg4
+(cid:5)(cid:4)
+
+1 + T igarc
+Ktig
+Atot − At p
+Atot − At p + Kad p
+N mtot − N adhm
+N mtot − N adhm + Knadm2
+(cid:5)
+
+(cid:5)(cid:4)
+
+(cid:5)
+
+Fmtot − Fadhm
+Fmtot − Fadhm + K f adm
+(cid:4)
+
++ 2.5k64 Sco2m
+
+(cid:4)
+
++ 1.5k64 Sco2m
+
+N adhm
+N adhm + Ke
+Fadhm
+Fadhm + Ke
+
+(cid:5)(cid:4)
+
+(cid:5)(cid:4)
+
+Atot − At p
+Atot − At p + Kad p
+Atot − At p
+Atot − At p + Kad p
+Atot − At p
+Atot − At p + Kad p
+
+(cid:5)
+
+(cid:5)
+
+− k67 At p,
+
+d O2con
+dt
+
+= 0.5k64 Sco2m
+
+(cid:4)
+
++ 0.5k64 Sco2m
+
+(cid:5)(cid:4)
+
+(cid:5)
+
+N adhm
+N adhm + Ke
+(cid:4)
+Fadhm
+Fadhm + Ke
+
+(cid:5)(cid:4)
+
+Atot − At p
+Atot − At p + Kad p
+Atot − At p
+Atot − At p + Kad p
+
+(cid:5)
+
+.
+
+(64)
+
+(cid:5)
+
+(65)
+
+(66)
+
+A.4 Discussion of Parameter Values
+
+c -dependent p53c phosphorylation rate.
+
+This section offers a detailed explanation of the methodologies and mechanisms
+employed to derive several parameters within our model.
+k2: AMPK∗
+For effective gene activation in response to stimuli, p53 must maintain its active
+(phosphorylated) state for a certain period. Consequently, we assumed a faster phos-
+phorylation rate for p53 than its dephosphorylation rate (k4), ensuring that p53 remains
+active long enough to complete the transcription of necessary genes. Furthermore, we
+discussed the impact of varying this parameter on the model outcomes through bifur-
+cation diagrams, as shown in Fig. 7.
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 49 of 64
+
+124
+
+)
+6
+6
+9
+1
+(
+
+s
+w
+e
+o
+T
+d
+n
+a
+
+,
+)
+8
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+o
+l
+l
+i
+t
+s
+a
+C
+
+,
+)
+1
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+i
+p
+m
+a
+l
+a
+v
+s
+U
+
+)
+6
+6
+9
+1
+(
+
+s
+w
+e
+o
+T
+d
+n
+a
+
+)
+1
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+i
+p
+m
+a
+l
+a
+v
+s
+U
+
+M
+μ
+
+M
+μ
+
+)
+2
+0
+0
+2
+(
+
+y
+k
+s
+t
+i
+v
+t
+i
+
+V
+d
+n
+a
+
+v
+o
+n
+a
+h
+k
+a
+l
+l
+u
+a
+t
+A
+
+n
+i
+m
+M
+μ
+
+/
+
+)
+1
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+i
+p
+m
+a
+l
+a
+v
+s
+U
+
+n
+i
+m
+M
+μ
+
+/
+
+)
+5
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+n
+e
+l
+a
+d
+d
+a
+M
+d
+n
+a
+
+)
+2
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+k
+n
+a
+W
+
+)
+5
+9
+9
+1
+(
+
+.
+l
+a
+
+t
+e
+
+e
+p
+u
+r
+G
+
+)
+3
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+y
+a
+D
+
+)
+3
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+y
+a
+D
+
+n
+i
+m
+
+/
+
+M
+μ
+
+M
+μ
+
+M
+μ
+
+)
+1
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+n
+a
+m
+r
+e
+m
+m
+Z
+
+i
+
+)
+1
+2
+0
+2
+(
+
+e
+v
+u
+a
+S
+d
+n
+a
+
+g
+n
+a
+Y
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+M
+μ
+
+M
+μ
+
+M
+μ
+
+M
+μ
+
+M
+μ
+
+M
+μ
+
+0
+0
+0
+5
+
+0
+0
+0
+3
+
+0
+0
+4
+1
+
+1
+6
+
+0
+3
+
+0
+0
+1
+
+0
+0
+0
+1
+
+0
+0
+0
+1
+
+0
+4
+
+0
+0
+1
+
+0
+0
+1
+
+0
+0
+0
+3
+
+0
+0
+0
+5
+
+5
+.
+3
+
+)
+6
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+
+a
+n
+o
+v
+l
+a
+V
+
+;
+1
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+n
+a
+F
+(
+
+e
+m
+y
+z
+n
+e
+
+c
+i
+r
+e
+m
+a
+r
+t
+e
+t
+
+a
+
+s
+i
+
+H
+D
+L
+
+d
+e
+m
+u
+s
+s
+A
+
+M
+μ
+
+–
+
+)
+7
+9
+9
+1
+(
+
+.
+l
+a
+
+t
+e
+
+d
+e
+v
+a
+J
+
+n
+i
+m
+M
+μ
+
+/
+
+0
+0
+3
+
+3
+.
+0
+
+4
+
+)
+5
+9
+9
+1
+
+g
+n
+i
+m
+e
+l
+F
+d
+n
+a
+
+t
+h
+g
+i
+K
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+n
+i
+m
+
+/
+
+5
+1
+0
+0
+.
+0
+
+c
+e
+s
+o
+c
+u
+l
+G
+
+r
+o
+f
+
+n
+o
+i
+t
+a
+m
+r
+o
+f
+P
+D
+A
+d
+n
+a
+
+P
+T
+A
+
+r
+o
+f
+
+n
+o
+i
+t
+a
+m
+r
+o
+f
+P
+D
+A
+d
+n
+a
+
+c
+P
+6
+G
+
+c
+P
+6
+G
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+K
+H
+
+f
+o
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+K
+H
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+m
+r
+o
+f
+P
+D
+A
+d
+n
+a
+
+c
+P
+6
+G
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+K
+H
+
+l
+a
+m
+i
+x
+a
+M
+
+c
+H
+D
+A
+N
+d
+n
+a
++c
+D
+A
+N
+
+f
+o
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+c
+
+l
+a
+t
+o
+t
+
+e
+h
+T
+
+c
+H
+D
+A
+N
+o
+t
+n
+i
+n
+o
+i
+t
+c
+u
+d
+e
+r
++c
+D
+A
+N
+
+r
+o
+f
+
+.
+
+C
+T
+
+.
+
+P
+T
+A
+o
+t
+n
+i
+n
+o
+i
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+P
+D
+A
+
+r
+o
+f
+
+.
+
+C
+T
+
+.
+
+P
+D
+A
+d
+n
+a
+P
+T
+A
+
+f
+o
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+c
+
+l
+a
+t
+o
+t
+
+e
+h
+T
+
+c
+R
+A
+G
+I
+T
+y
+b
+n
+o
+i
+t
+i
+b
+i
+h
+n
+i
+
+s
+i
+s
+y
+l
+o
+c
+y
+l
+G
+
+f
+o
+C
+T
+
+.
+
+c
+P
+6
+G
+
+r
+o
+f
+
+s
+i
+s
+y
+l
+o
+c
+y
+l
+G
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+
+s
+i
+s
+y
+l
+o
+c
+y
+l
+G
+
+l
+a
+m
+i
+x
+a
+M
+
+t
+r
+o
+p
+s
+n
+a
+r
+t
+
+e
+s
+o
+c
+u
+l
+G
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+1
+T
+U
+L
+G
+
+f
+o
+
+t
+r
+o
+p
+s
+n
+a
+r
+t
+
+e
+s
+o
+c
+u
+l
+G
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+3
+T
+U
+L
+G
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+.
+
+.
+
+C
+M
+
+n
+o
+i
+t
+a
+m
+r
+o
+f
++c
+D
+A
+N
+d
+n
+a
+
+c
+e
+t
+a
+t
+c
+a
+L
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+H
+D
+L
+f
+o
+
+t
+n
+e
+i
+c
+ﬁ
+f
+e
+o
+c
+
+l
+l
+i
+
+H
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+m
+r
+o
+f
++c
+D
+A
+N
+d
+n
+a
+
+n
+o
+i
+t
+a
+m
+r
+o
+f
++c
+D
+A
+N
+d
+n
+a
+
+c
+e
+t
+a
+t
+c
+a
+L
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+H
+D
+L
+
+l
+a
+m
+i
+x
+a
+M
+
+e
+t
+a
+r
+P
+P
+P
+e
+h
+t
+g
+n
+i
+o
+g
+r
+e
+d
+n
+u
+
+c
+P
+6
+G
+
+c
+e
+t
+a
+t
+c
+a
+L
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+H
+D
+L
+f
+o
+
+.
+
+C
+T
+
+.
+
+1
+g
+K
+
+2
+g
+K
+
+6
+5
+k
+
+3
+g
+K
+
+p
+t
+a
+K
+
+7
+5
+k
+
+4
+g
+K
+
+c
+d
+a
+n
+K
+
+p
+d
+a
+K
+
+t
+o
+t
+c
+N
+
+t
+o
+t
+
+A
+
+g
+i
+t
+
+K
+
+8
+5
+k
+
+9
+5
+k
+
+l
+
+K
+
+m
+
+123
+
+e
+t
+a
+r
+
+t
+r
+o
+p
+s
+n
+a
+r
+t
+
+e
+s
+o
+c
+u
+l
+G
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+T
+U
+L
+G
+
+5
+5
+k
+
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+c
+d
+o
+o
+l
+b
+
+e
+s
+o
+c
+u
+l
+G
+
+t
+u
+o
+e
+s
+o
+c
+u
+l
+
+G
+
+t
+n
+a
+t
+s
+n
+o
+C
+s
+i
+l
+e
+a
+h
+c
+i
+
+M
+
+s
+t
+n
+e
+s
+e
+r
+p
+e
+r
+
+.
+
+.
+
+C
+M
+
+e
+l
+i
+h
+w
+
+,
+t
+n
+a
+t
+s
+n
+o
+C
+d
+l
+o
+h
+s
+e
+r
+h
+T
+s
+e
+t
+o
+n
+e
+d
+
+.
+
+C
+T
+
+.
+
+.
+)
+6
+6
+(
+–
+)
+5
+5
+(
+
+.
+s
+q
+E
+f
+o
+
+s
+e
+u
+l
+a
+v
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+9
+e
+l
+b
+a
+T
+
+s
+e
+c
+n
+e
+r
+e
+f
+e
+R
+
+t
+i
+n
+U
+
+e
+u
+l
+a
+V
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+124
+
+Page 50 of 64
+
+R. Abukwaik et al.
+
+)
+6
+1
+0
+2
+
+c
+i
+v
+e
+D
+
+;
+2
+0
+0
+2
+y
+k
+s
+t
+i
+v
+t
+i
+
+V
+d
+n
+a
+v
+o
+n
+a
+h
+k
+a
+l
+l
+u
+a
+t
+A
+
+(
+
+)
+6
+1
+0
+2
+
+c
+i
+v
+e
+D
+
+;
+2
+0
+0
+2
+
+y
+k
+s
+t
+i
+v
+t
+i
+
+V
+d
+n
+a
+v
+o
+n
+a
+h
+k
+a
+l
+l
+u
+a
+t
+A
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+n
+i
+m
+M
+μ
+
+/
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+m
+u
+s
+s
+A
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+d
+e
+m
+u
+s
+s
+A
+
+M
+μ
+
+M
+μ
+
+M
+μ
+
+n
+i
+m
+
+/
+
+M
+μ
+
+n
+i
+m
+
+/
+
+M
+μ
+
+)
+5
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+h
+e
+d
+a
+z
+e
+i
+a
+l
+a
+T
+
+)
+5
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+h
+e
+d
+a
+z
+e
+i
+a
+l
+a
+T
+
+)
+7
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+
+i
+
+L
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+d
+e
+m
+u
+s
+s
+A
+
+)
+7
+9
+9
+1
+.
+l
+a
+
+t
+e
+d
+e
+v
+a
+J
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+)
+1
+2
+0
+2
+(
+
+e
+v
+u
+a
+S
+d
+n
+a
+
+g
+n
+a
+Y
+
+)
+1
+2
+0
+2
+(
+
+e
+v
+u
+a
+S
+d
+n
+a
+
+g
+n
+a
+Y
+
+)
+2
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+n
+u
+S
+
+)
+2
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+n
+u
+S
+
+M
+μ
+
+M
+μ
+
+n
+i
+m
+
+/
+
+M
+μ
+
+n
+i
+m
+
+/
+
+M
+μ
+
+M
+μ
+
+M
+μ
+
+M
+μ
+
+0
+3
+6
+
+0
+3
+3
+
+1
+0
+.
+0
+
+5
+
+5
+9
+
+0
+8
+2
+
+0
+8
+
+0
+1
+
+4
+
+0
+0
+5
+
+0
+1
+
+1
+
+1
+.
+0
+
+1
+
+0
+2
+1
+
+0
+1
+
+s
+e
+c
+n
+e
+r
+e
+f
+e
+R
+
+t
+i
+n
+U
+
+e
+u
+l
+a
+V
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+r
+e
+t
+e
+m
+a
+r
+a
+P
+
+d
+e
+u
+n
+i
+t
+n
+o
+c
+
+9
+e
+l
+b
+a
+T
+
+123
+
+0
+3
+4
+
+m
+e
+t
+a
+v
+u
+r
+y
+P
+r
+o
+f
+
+n
+o
+i
+t
+a
+m
+r
+o
+f
+
+m
+H
+D
+A
+N
+d
+n
+a
+
+m
+A
+o
+C
+
+-
+l
+y
+t
+e
+c
+A
+
++m
+D
+A
+N
+
+r
+o
+f
+
+n
+o
+i
+t
+a
+m
+r
+o
+f
+
+m
+H
+D
+A
+N
+d
+n
+a
+
+m
+A
+o
+C
+
+-
+l
+y
+t
+e
+c
+A
+
+m
+H
+D
+A
+N
+d
+n
+a
++m
+D
+A
+N
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗m
+H
+D
+P
+f
+o
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗m
+H
+D
+P
+f
+o
+
+.
+
+.
+
+C
+M
+
+.
+
+.
+
+C
+M
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+∗m
+H
+D
+P
+
+f
+o
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+c
+
+l
+a
+t
+o
+t
+
+e
+h
+T
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+m
+r
+o
+f
+
+m
+H
+D
+A
+N
+d
+n
+a
+
+m
+A
+o
+C
+
+-
+l
+y
+t
+e
+c
+A
+
+c
+e
+t
+a
+v
+u
+r
+y
+P
+r
+o
+f
+n
+o
+i
+t
+a
+m
+r
+o
+f
++c
+D
+A
+N
+d
+n
+a
+
+c
+H
+D
+A
+N
+
+r
+o
+f
+n
+o
+i
+t
+a
+m
+r
+o
+f
++c
+D
+A
+N
+d
+n
+a
+
+c
+e
+t
+a
+t
+c
+a
+L
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+H
+D
+L
+f
+o
+
+c
+e
+t
+a
+t
+c
+a
+L
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+c
+H
+D
+L
+f
+o
+
+.
+
+.
+
+C
+M
+
+.
+
+.
+
+C
+M
+
+t
+r
+o
+p
+m
+
+i
+
+l
+a
+i
+r
+d
+n
+o
+h
+c
+o
+t
+i
+
+m
+
+c
+e
+t
+a
+v
+u
+r
+y
+P
+f
+o
+
+.
+
+C
+T
+
+.
+
+e
+t
+a
+r
+
+t
+r
+o
+p
+m
+
+i
+
+l
+a
+i
+r
+d
+n
+o
+h
+c
+o
+t
+i
+
+m
+
+c
+e
+t
+a
+v
+u
+r
+y
+P
+
+m
+2
+H
+D
+A
+F
+d
+n
+a
+
+m
+D
+A
+F
+f
+o
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+c
+
+l
+a
+t
+o
+t
+
+e
+h
+T
+
+e
+t
+a
+r
+
+e
+l
+c
+y
+c
+A
+C
+T
+
+l
+a
+m
+i
+x
+a
+M
+
+m
+A
+o
+C
+
+-
+l
+y
+t
+e
+c
+A
+
+r
+o
+f
+
+e
+l
+c
+y
+c
+A
+C
+T
+f
+o
+
+.
+
+.
+
+C
+M
+
+m
+H
+D
+A
+N
+o
+t
+n
+o
+i
+t
+c
+u
+d
+e
+r
++m
+D
+A
+N
+
+r
+o
+f
+
+.
+
+C
+T
+
+.
+
+m
+2
+H
+D
+A
+F
+o
+t
+n
+o
+i
+t
+c
+u
+d
+e
+r
+
+m
+D
+A
+F
+r
+o
+f
+
+.
+
+C
+T
+
+.
+
+t
+r
+o
+p
+m
+
+i
+
+l
+a
+i
+r
+d
+n
+o
+h
+c
+o
+t
+i
+
+m
+
+c
+H
+D
+A
+N
+
+f
+o
+
+.
+
+C
+T
+
+.
+
+e
+t
+a
+r
+
+t
+r
+o
+p
+m
+
+i
+
+l
+a
+i
+r
+d
+n
+o
+h
+c
+o
+t
+i
+
+m
+
+c
+H
+D
+A
+N
+
+e
+t
+a
+r
+
+C
+T
+E
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+m
+2
+O
+C
+S
+
+C
+T
+E
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+m
+2
+O
+C
+S
+f
+o
+
+.
+
+.
+
+C
+M
+
+1
+r
+y
+p
+K
+
+c
+n
+K
+
+0
+6
+k
+
+2
+r
+y
+p
+K
+
+3
+r
+y
+p
+K
+
+1
+6
+k
+
+1
+m
+d
+a
+n
+K
+
+t
+o
+t
+
+m
+N
+
+t
+o
+t
+
+m
+F
+
+e
+c
+a
+K
+
+2
+6
+k
+
+2
+m
+d
+a
+n
+K
+
+m
+d
+a
+f
+
+K
+
+m
+n
+K
+
+3
+6
+k
+
+4
+6
+k
+
+e
+K
+
+5
+6
+k
+
+c
+a
+l
+
+K
+
+6
+6
+k
+
+7
+6
+k
+
+)
+8
+1
+0
+2
+
+.
+l
+a
+
+t
+e
+
+n
+i
+e
+t
+s
+n
+e
+s
+o
+R
+
+(
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+n
+i
+m
+
+/
+
+5
+5
+1
+1
+0
+.
+0
+
+d
+e
+m
+u
+s
+s
+A
+
+n
+i
+m
+
+/
+
+6
+6
+0
+0
+.
+0
+
+)
+8
+0
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+o
+h
+o
+K
+
+n
+i
+m
+M
+μ
+
+/
+
+0
+0
+3
+8
+
+d
+e
+m
+u
+s
+s
+A
+
+M
+μ
+
+0
+0
+0
+0
+0
+0
+1
+
+e
+t
+a
+r
+
+t
+r
+o
+p
+s
+n
+a
+r
+t
+
+c
+e
+t
+a
+t
+c
+a
+L
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+r
+e
+i
+r
+r
+a
+c
+
+l
+a
+m
+i
+x
+a
+M
+
+t
+r
+o
+p
+s
+n
+a
+r
+t
+
+c
+e
+t
+a
+t
+c
+a
+L
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+-
+r
+e
+i
+r
+r
+a
+c
+
+f
+o
+
+.
+
+.
+
+C
+M
+
+e
+t
+a
+r
+n
+o
+i
+t
+a
+d
+a
+r
+g
+e
+d
+
+t
+u
+o
+e
+t
+a
+t
+c
+a
+L
+
+e
+t
+a
+r
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+l
+a
+s
+a
+b
+P
+T
+A
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 51 of 64
+
+124
+
+k18 and k20: SCO2m basal production and degradation rates, respectively.
+Due to the lack of experimental data to estimate the production and degradation rates
+of SCO2, we have chosen to align them with those of WIP1. However, since SCO2
+exclusively impacts the ETC activity in our model, we adjusted the process speed
+to reﬂect normal activity at the SCO2 steady-state level. Therefore, any variations in
+SCO2 concentrations-either increases or decreases-directly affect the ETC’s baseline
+functioning, enhancing or diminishing it.
+k19: p53n-dependent SCO2m production rate.
+Experimental ﬁndings by Wanka et al. reveal that in colon cancer cells possessing
+wild-type p53 (HCT116 p53+/+), SCO2 levels are approximately 2.3 times higher
+than in cells with mutated p53 (HCT116 p53−/−) (Wanka et al. 2012). Based on this
+data, we estimated that the activation of p53 in wild-type cells elevates SCO2 levels
+by 2.3-fold.
+k21: TIGARc basal production rate.
+TIGAR expression was undetectable in normal colon cells (Al-Khayal et al. 2016).
+Accordingly, we assumed a minimal basal production rate for TIGAR, resulting in
+negligible levels that do not exert TIGAR inﬂuence under normal conditions.
+k22: p53n-dependent TIGARc production rate.
+We used a least squares method to estimate the induction rate of TIGAR by p53,
+drawing on data from Lee et al., which demonstrated how various p53 levels affect
+TIGAR protein concentrations (Lee et al. 2015).
+k23: TIGARc basal degradation rate.
+We determined the TIGAR degradation rate based on its half-life, which is approxi-
+mately 10 h, as reported in (Zeng et al. 2021).
+k24: AMPKc phosphorylation rate.
+p53 activation is a critical adaptive response to metabolic stress, triggered by the
+activation of AMPK (Jones et al. 2005; Imamura et al. 2001). Thus, for effective
+p53 response in stressed cells, AMPK activation levels must be sufﬁciently high. To
+determine this threshold, we analysed the impact of different AMPK activation rates
+on the nuclear accumulation of p53, aiming to identify the activation rate required for
+a robust p53 response, see Fig. 6.
+k25: p53n-dependent AMPKc phosphorylation rate.
+The kinetics of AMPK phosphorylation, whether initiated by metabolic stress or p53
+activation, may differ based on the triggering event, cell type, and current physiolog-
+ical state. Despite these variations, since both mechanisms engage similar cofactors
+and protein-protein interactions and target the same phosphorylation site on AMPK,
+we assumed that the phosphorylation speed catalysed by p53 is consistent with that
+induced by metabolic stress (k24).
+k26: AMPK∗
+The activation process of AMPK also involves dephosphorylation inhibitory mech-
+anisms that guarantee AMPK stays active sufﬁciently to re-establish cellular energy
+balance (Oakhill et al. 2011). Therefore, we assumed the AMPK dephosphorylation
+rate to be ten-fold slower than its phosphorylation rate (k24/k26=10), enabling cells
+to adapt swiftly to metabolic stress and gradually return to baseline once the stress is
+mitigated.
+k31: AKT∗
+
+c -dependent mTORc activation rate.
+
+c dephosphorylation rate.
+
+123
+
+124
+
+Page 52 of 64
+
+R. Abukwaik et al.
+
+c -dependent and independent mTORc inactivation rates, respec-
+
+Lacking experimental data to measure mTOR activation and inactivation rates, our
+study proceeds under the assumption that the speed of mTOR activation by AKT is akin
+to that of AKT activation by PIP3 (k29). This assumption is grounded in the observation
+that both steps are integral components of the PI3K/AKT/mTOR signalling pathway,
+known for its rapid and tightly regulated response. While the precise kinetics of mTOR
+activation involve different mechanisms, the need for synchronised actions within the
+signalling cascade suggests these key activation events occur at comparable rates. This
+assumption simpliﬁes our model, enabling us to explore the broader dynamics of the
+PI3K/AKT/mTOR pathway without being hindered by the lack of detailed kinetic data
+for each step.
+k32 and k33: AMPK∗
+tively.
+In line with our assumptions, we set the mTOR inactivation rate slightly lower than
+its activation rate (k31), allowing cellular responses to persist adequately for desired
+physiological effects. Additionally, we introduced a minimal AMPK-independent
+inactivation rate for mTOR, ensuring its regression after stimuli removal, even in
+the absence of AMPK activity. Our assumption allows effective mTOR response to
+cellular signals and returns to a basal state when necessary.
+k34: HIF1αc basal production rate.
+As we do not have direct laboratory measurements to estimate the HIF1α production
+rate conﬁdently, we infer an appropriately low rate, guided by the rapid degradation
+mechanisms that maintain minimal HIF1α levels under normoxic conditions (Valvona
+et al. 2016; Laughner et al. 2001; Golias et al. 2019). Then, by establishing this low
+steady-state level as a baseline, we accurately model the inﬂuence of HIF1α on its target
+genes, ensuring that any deviation from this baseline-under conditions that inhibit its
+degradation or increase its synthesis-precisely reﬂects the increased activity of HIF1α
+on its target genes’ expression.
+k35: mTOR∗
+mTOR signalling is recognized for its role in boosting HIF1α protein levels by promot-
+ing its mRNA translation (Laughner et al. 2001; Hudson et al. 2002; Düvel et al. 2010).
+Activation of mTOR has been observed to elevate HIF1α expression by about 2.3-fold,
+as seen in (Düvel et al. 2010). The same increase in HIF1α levels was also evident in
+colon cancer cells compared to normal cells (Lu et al. 2011). Based on these ﬁndings,
+we estimated the induction rate of HIF1α by mTOR to reﬂect a 2.3-fold increase in
+HIF1α levels.
+k36: mTOR∗
+HIF1α is predominantly found in the cytoplasm under nonhypoxic conditions (Kallio
+et al. 1998). However, the HIF1α protein induced by growth factors, speciﬁcally
+by mTOR, has been noted to localise exclusively within the nucleus (Treins et al.
+2005). Hence, we set this parameter to ensure exclusive HIF1α nuclear localisation in
+response to growth factor signals.
+k37: HIF1α basal degradation rate.
+Hydroxylated HIF1α exhibits high instability in vitro, with a half-life of less than ﬁve
+minutes (Golias et al. 2019). Accordingly, we considered that the half-life of HIF1α
+under nonhypoxic conditions is ﬁve minutes, estimating the HIF1α degradation rate
+at k37 = 0.1386 / min.
+
+c -dependent HIF1αc nuclear import rate.
+
+c -dependent HIF1αc induction rate.
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 53 of 64
+
+124
+
+k38: GLUT1c basal production rate.
+The introduction of wild-type p53 expression vectors was found to dose-dependently
+decrease the GLUT1 promoter activity by up to 50% of its basal levels (Schwartzenberg-
+Bar-Yoseph et al. 2004). Based on this evidence, and considering that p53 activation
+in our cancer cells induces an average level of p53, we hypothesise a mean reduc-
+tion of approximately 35% in the GLUT1 production rate (from 0.00005 μM/min to
+0.000032 μM/min) due to p53 activation in cancerous environments.
+k39: HIF1αn-dependent GLUT1c production rate.
+mTOR activation elevated HIF1α expression by 2.3-fold, which subsequently induced
+a 3.4-fold increase in GLUT1 concentration (Düvel et al. 2010). From these observa-
+tions, we infer that a 2.3-fold rise in HIF1α, triggered by mTOR activation, will lead
+to a 3.4-fold enhancement in GLUT1 levels.
+k40 and k43: GLUT1c and GLUT3c basal degradation rate, respectively.
+The half-life of the GLUT1 and GLUT3 proteins has been reported to be around 6 and
+15 h, respectively (Khayat et al. 1998). Thus, we calculated their degradation rates to
+be 0.0019 and 0.00075 / min, respectively.
+k41: GLUT3c basal production rate.
+GLUT1 is known as the most abundantly expressed glucose transporter within the
+GLUT family, facilitating basal glucose uptake in nearly all cell types (Sargeant
+and Pâquet 1993; Schwartzenberg-Bar-Yoseph et al. 2004; Dai et al. 2020). In con-
+trast, GLUT3 expression is more selective and less common under normal conditions.
+Accordingly, we made the assumption that the expression of GLUT3 protein is lower
+than that of GLUT1, estimating this parameter to yield approximately half of GLUT1
+concentration in normal cells.
+k42: HIF1αn-dependent GLUT3c production rate.
+Given that both GLUT1 and GLUT3 respond similarly to HIF1α induction under
+hypoxia (Wood et al. 2007), we extend this pattern to predict a 3.4-fold increase in
+GLUT3 levels following a 2.3-fold rise in HIF1α, mirroring the GLUT1 response.
+k44, k47, k48, and k51: PDK1,3m, PDK2m, LDHc, and PDH∗
+respectively.
+Under normal physiological conditions, LDH and PDK proteins are typically main-
+tained at modest levels, consistent with their roles in metabolic regulation under
+non-stressed states. Consequently, we have set a low basal production rate for them
+at 0.0001 μM/min to reﬂect the minimal activity required for metabolic homeostasis.
+In contrast, for effective aerobic respiration, PDH levels must signiﬁcantly exceed the
+levels of PDK to guarantee efﬁcient conversion of pyruvate to acetyl-CoA within the
+mitochondria. Thus, we estimated the PDH production rate to be ten times that of
+PDK, 0.001 μM/min.
+
+m basal production rate,
+
+Despite this arbitrary production rate for these enzymes, we accurately reﬂect their
+impact on cellular metabolism. These enzymes catalyse key metabolic reactions in glu-
+cose metabolism, where their activities directly inﬂuence the corresponding reaction
+rates. Therefore, we derived the maximum velocity (Vmax ) of these reactions under
+standard conditions from literature and then correlated these with enzymes’ basal
+steady-state levels in our model. This approach allows us to predict how variations in
+enzyme levels-increases or decreases under different physiological scenarios- affect
+
+123
+
+124
+
+Page 54 of 64
+
+R. Abukwaik et al.
+
+reaction speeds and metabolic outcomes, even in the absence of exact production rate
+data.
+k45: HIF1αn-dependent PDK1,3m production rate.
+PDK3 levels were found to be roughly 2-fold higher in colon cancer cells than in normal
+cells, aligning with a 2.3-fold enhancement in HIF1α levels detected in these cancer
+cells (Lu et al. 2011). Given this correlation, we estimate a 2-fold escalation in PDK3
+expression in response to the 2.3-fold rise in HIF1α. In a similar vein, PDK1 exhibited
+a comparable upsurge to PDK3 under hypoxic conditions in colorectal cancer cells
+(Lu et al. 2011), leading us to anticipate an analogous increase in PDK1 in response
+to HIF1α elevation.
+k46: PDKm basal degradation rate.
+Measuring the PDK protein stability over time in cells treated with cycloheximide
+revealed that PDK1 and PDK2 levels remain stable for up to two hours (Crewe et al.
+2017). Another study indicates the mRNA half-life of PDK2 extends beyond six hours
+(Huang et al. 2002). However, due to a lack of direct data specifying the half-life of
+each PDK protein, for simplicity, we assume that PDK1, PDK2, and PDK3 uniformly
+exhibit a half-life of six hours. This assumption leads to an estimated degradation rate
+of 0.0019 / min.
+k47: PDK2m basal production rate.
+The expression level of PDK2 is regulated by the p53 target gene miR-149-3p. Com-
+parative analyses between HCT116 cells, which have a high miR-149-3p level, and
+HCT116/F cells, exhibiting reduced miR-149-3p levels due to loss of p53 function,
+showed that PDK2 expression is approximately 1.4-fold higher in HCT116/F cells
+(Liang et al. 2020). Consistent with this, the p53 activation in our cancer cells effec-
+tively reduces PDK2 basal expression to a comparable extent.
+k49: HIF1αn-dependent LDHc production rate.
+Under hypoxic conditions, LDH protein levels increased due to HIF1α induction at the
+same rate as GLUT1 (Hu et al. 2006). Therefore, we estimated this rate to instigate a
+3.4-fold boost in LDH protein level in response to a 2.3-fold rise in HIF1α expression.
+k50: LDHc basal degradation rate.
+The half-life of LDH in HCT116 cells is reported to be 14 h (García-Aguilar et al.
+2019), which corresponds to a degradation rate of 0.000825 / min.
+k52 and k53: PDKm-dependent PDH∗
+rates, respectively.
+According to a study investigating colon cancer cells with high miR-149-3p levels
+(HCT116) versus those with diminished miR-149-3p due to p53 loss (HCT116/F), the
+observed 1.4-fold increase in PDK2 levels in HCT116/F cells led to a higher PDH
+phosphorylation level by 1.8-fold than HCT116 (Liang et al. 2020). As a result, we
+estimated elevated PDK levels in our p53-mutated cancer cells to induce a 1.8-fold
+increase in PDH phosphorylation relative to cells with wild-type p53.
+k54: PDHm basal degradation rate.
+We calculated the PDH degradation rate by considering its half-life, which varies from
+41 to 49 h (Hu et al. 1983), opting to use the shorter duration of 41 h for our estimation.
+k58: G6Pc undergoing the PPP rate.
+Studies indicate that under typical physiological conditions, glucose metabolism pro-
+ceeds primarily via the glycolytic pathway, with a small fraction, around 5%, being
+
+m phosphorylation and PDHm dephosphorylation
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 55 of 64
+
+124
+
+directed into the PPP (Kight and Fleming 1995). Guided by this evidence, we have
+estimated this rate to drive a similar proportion of G6P to the PPP in normal conditions,
+with the remainder metabolised through glycolysis.
+k60: Pyruvatec mitochondrial import rate.
+Pyruvate concentrations were quantiﬁed within the mitochondria and cytoplasm in
+mouse prostate cancer cells (Li et al. 2017). The data revealed that mitochondrial
+pyruvate concentration is signiﬁcantly lower than that in the cytosol by approximately
+80-fold. Drawing on this data, we estimated this rate to maintain pyruvate concentra-
+tions between the compartments relatively close to the experimental ﬁndings.
+k61: PDH∗
+m-dependent Acetyl-CoAm and NADHm formation rate.
+We assumed that the rate of pyruvate conversion into acetyl-CoA matches the rate of
+pyruvate conversion into lactate, set at 300 μM/min. This rate aligns with a calculated
+constant of k61 = [300 μM/min] / [the normal PDH∗
+m level (3.176 μM)], yielding a rate
+of 95 /min. Our assumption is based on the premise that, under certain conditions, the
+cell’s metabolic machinery adjusts to utilize pyruvate efﬁciently for both anaerobic
+and aerobic pathways, allowing for comparable conversion rates.
+k62: Maximal TCA cycle rate.
+It has been reported that glycolysis operates at a rate approximately ten times faster
+than oxidative phosphorylation (Devic 2016). Based on this insight, we inferred that
+the maximal rate of the TCA cycle is likely around ten times slower than glycolysis,
+leading to a rate of k57/10 = 4 μM/min for the TCA cycle.
+k63: NADHc mitochondrial import rate.
+NADH enters the mitochondria through the Malate-Aspartate Shuttle (MAS), essential
+for preserving a high cytosolic NAD+/NADH ratio (Bhagavan 2002). This shuttle
+is represented implicitly in our model without experimental data to deﬁne its rate.
+However, varying this parameter in our simulations showed the system’s robustness,
+with no notable sensitivity to the model outcomes. Consequently, we have assigned
+an arbitrary rate of 0.1 /min.
+k64: SCO2m-dependent ETC rate.
+The TCA cycle comprises a series of sequential chemical reactions, each depending
+on the completion of the previous step and catalysed by different enzymes. In contrast,
+the ETC primarily involves electron transfer and proton pumping, processes that can
+proceed rapidly once initiated. Given these characteristics, we assumed that the ETC
+operates relatively faster than the TCA cycle, estimating it to be three times quicker.
+Thus, we set k64 = [12 μM/min] / [the standard SCO2 level (0.1 μM)] = 120 /min.
+k66: Lactateout degradation rate.
+This rate was determined based on the half-life of lactate in healthy cells, which is
+around 60 min (Rosenstein et al. 2018).
+k67: ATP basal consumption rate.
+This rate was selected arbitrarily to facilitate a comparative analysis of ATP steady-
+state levels across all three cell types: normal, cancer p53+/+, and cancer p53−/−.
+
+123
+
+124
+
+Page 56 of 64
+
+R. Abukwaik et al.
+
+A.5 Parameter Robustness Analysis
+
+To investigate our model’s robustness against parameter uncertainties, we performed
+a global sensitivity analysis across both cancer cell phenotypes using Morris method
+(Morris 1991), see Fig. 10 for p53+/+ and Fig. 11 for p53−/−.
+
+Morris method evaluates the Elementary Effects (EEs) of input parameters by
+randomly sampling the input space and conducting a series of one-at-a-time (OAT)
+experiments. In each experiment, one input parameter is varied while the others are
+kept ﬁxed, and the resultant change in the output is observed. This process is repeated
+multiple times to explore different regions of the input space.
+
+Following these experiments, the mean (μ) and standard deviation (σ ) of these EEs
+are determined, providing insights into the inﬂuence and interaction of each parameter
+on the model’s outcomes. The higher μi , the higher the overall impact of parameter
+ki on the output is, while a high standard deviation σi indicates that ki ’s impact on
+the output is variable depending on the region of the parameter space, suggesting
+non-linearity or interactions with other parameters.
+
+Applying this method to the main model’s outcomes reveals that cancer cells with
+intact p53 are more sensitive to parameter variations, especially in terms of glucose
+consumption and lactate production, compared to p53-mutant cells. Conversely, pro-
+cesses like oxygen consumption and ATP production were more robust, with sensitivity
+indices below 0.5 in both cell types. This robustness suggests that these processes are
+maintained consistently to sustain cellular energy balance even under different condi-
+tions.
+
+The parameters signiﬁcantly affecting glucose consumption and lactate production
+outcomes in p53-wild type cells were primarily associated with the dynamics of p53
+activation and deactivation by WIP1 (k2, k4, k13, and k14), as well as those regulating
+growth factor signalling pathways (k16, k17, k27, k28, k29, and k30). These pathways
+are intricately linked to the metabolic processes, and their sensitivity underscores the
+importance of p53 in maintaining metabolic homeostasis and responding to cellular
+stressors.
+
+On the other hand, the oxygen-dependent degradation rate of HIF1 (k37) and the
+rate of glucose transport (k55) were critical for both cell types. These parameters,
+however, exhibited a low standard deviation, indicating that their impact is consistent
+and linear across different regions of the parameter space. This consistency implies
+that these parameters have a predictable and stable inﬂuence on cellular metabolism,
+regardless of the p53 status.
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 57 of 64
+
+124
+
+Fig. 10 Global sensitivity analysis for cancer cells p53
+using Morris method. The mean (yellow) and
+standard deviation (blue) of the Elementary Effect are shown for each parameter for key model outcomes:
+glucose consumption, lactate production, oxygen consumption, and ATP production. A higher mean indi-
+cates greater inﬂuence of the parameter on the model outcome, while a higher standard deviation suggests
+greater interaction of the parameter with other parameters (Color ﬁgure online)
+
++/+
+
+123
+
+124
+
+Page 58 of 64
+
+R. Abukwaik et al.
+
+Fig. 11 Global sensitivity analysis for cancer cells p53
+using Morris method. The mean (yellow) and
+standard deviation (blue) of the Elementary Effect are shown for each parameter for key model outcomes:
+glucose consumption, lactate production, oxygen consumption, and ATP production. A higher mean indi-
+cates greater inﬂuence of the parameter on the model outcome, while a higher standard deviation suggests
+greater interaction of the parameter with other parameters (Color Figure Online)
+
+−/−
+
+Acknowledgements The authors would like to thank the Saudi Arabian Cultural Bureau (SACB) for funding
+R.A., Cancer Research UK for supporting D.T. and E.V.-S. (C42109/A26982 and C42109/A24747), and
+the UKRI Future Leaders Fellowship (MR/T043571/1) for backing F.S.. This work has also beneﬁtted from
+the support and resources provided by the Birmingham Metabolic Tracer Analysis Core (MTAC), alongside
+ﬁnancial contributions from the University of Birmingham Dynamic Investment Fund and the EPSRC via
+Grant No. (EP/N014391/2).
+
+Author Contributions R.A. conceived the project and the mathematical model, performed in silico experi-
+mentation and analysis, and wrote the manuscript. E.V.-S. provided technical advice concerning the in-silico
+modelling and critically revised the manuscript. D.T. offered technical advice on the biology discussed in
+this article and the validity of the model’s results. F.S. provided technical advice concerning the in-silico
+modelling and analysis, organised, supervised and managed the study.
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 59 of 64
+
+124
+
+Data Availability The codes used in this article are publicly available on the Gitlab webpage https://gitlab.
+bham.ac.uk/spillf-systems-mechanobiology-health-disease/p53-and-metabolism.
+
+Declarations
+
+Conﬂict of interest The authors declare no conﬂict of interest inﬂuence the work reported in this article.
+
+Use of AI We used Grammarly and ChatGPT to reﬁne and enhance the clarity of the manuscript’s text.
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence,
+and indicate if changes were made. The images or other third party material in this article are included
+in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If
+material is not included in the article’s Creative Commons licence and your intended use is not permitted
+by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+
+References
+
+Ancey P-B, Contat C, Meylan E (2018) Glucose transporters in cancer-from tumor cells to the tumor
+
+microenvironment. FEBS J 285(16):2926–2943
+
+Anadón A, Castellano V, Martínez-Larrañaga MR (2014) Biomarkers in drug safety evaluation. In: Biomark-
+
+ers in toxicolog. Elsevier, pp 923–945
+
+Al-Khayal K, Abdulla M, Al-Obeed O, Al Kattan W, Zubaidi A, Vaali-Mohammed M-A, Alsheikh A,
+Ahmad R (2016) Identiﬁcation of the tp53-induced glycolysis and apoptosis regulator in various
+stages of colorectal cancer patients. Oncol Rep 35(3):1281–1286
+
+Anwar S, Shamsi A, Mohammad T, Islam A, Hassan MI (2021) Targeting pyruvate dehydrogenase kinase
+
+signaling in the development of effective cancer therapy. BBA-Rev Cancer 1876(1):188568
+
+Ataullakhanov FI, Vitvitsky VM (2002) What determines the intracellular ATP concentration. Biosci Rep
+
+22(5–6):501–511
+
+Abukwaik R, Vera-Siguenza E, Tennant DA, Spill F (2023) Interplay of p53 and xiap protein dynamics
+
+orchestrates cell fate in response to chemotherapy. J Theor Biol 111562
+Ahmad M, Wolberg A, Kahwaji CI (2018) Biochemistry, electron transport chain
+Bhagavan NV (2002) Medical biochemistry. Academic Press, Cambridge
+Barak Y, Juven T, Haffner R, Oren M (1993) mdm2 expression is induced by wild type p53 activity. EMBO
+
+J 12(2):461–468
+
+Budanov AV, Karin M (2008) p53 target genes sestrin1 and sestrin2 connect genotoxic stress and mtor
+
+signaling. Cell 134(3):451–460
+
+Brugarolas J, Lei K, Hurley RL, Manning BD, Reiling JH, Hafen E, Witters LA, Ellisen LW, Kaelin WG
+(2004) Regulation of mtor function in response to hypoxia by redd1 and the tsc1/tsc2 tumor suppressor
+complex. Genes Dev 18(23):2893–2904
+
+Batchelor E, Loewer A, Mock C, Lahav G (2011) Stimulus-dependent dynamics of p53 in single cells. Mol
+
+Syst Biol 7(1):488
+
+Bensaad K, Tsuruta A, Selak MA, Vidal MNC, Nakano K, Bartrons R, Gottlieb E, Vousden KH (2006)
+
+Tigar, a p53-inducible regulator of glycolysis and apoptosis. Cell 126(1):107–120
+
+Connolly E, Braunstein S, Formenti S, Schneider RJ (2006) Hypoxia inhibits protein synthesis through a
+4e-bp1 and elongation factor 2 kinase pathway controlled by mtor and uncoupled in breast cancer
+cells. Mol Cell Biol 26(10):3955–3965
+
+Castillo A, Callejas L, Alvarez-González CA, Maldonado C, Cuzon G, Gaxiola G (2018) Effect of native
+and modiﬁed starches on nutritional and hysiological performance of wild juveniles of red grouper
+(epinephelus morio). Ecosistemas y Recursos Agropecuarios 5(15):491–500
+
+Chang G-G, Huang S-M, Chiou S-H (1991) Kinetic mechanism of the endogenous lactate dehydrogenase
+
+activity of duck (cid:5)-crystallin. Arch Biochem Biophys 284(2):285–291
+
+Cairns RA, Harris IS, Mak TW (2011) Regulation of cancer cell metabolism. Nat Rev Cancer 11(2):85–95
+Carnero A, Paramio JM (2014) The pten/pi3k/akt pathway in vivo, cancer mouse models. Front Oncol 4:252
+
+123
+
+124
+
+Page 60 of 64
+
+R. Abukwaik et al.
+
+Crewe C, Schafer C, Lee I, Kinter M, Szweda LI (2017) Regulation of pyruvate dehydrogenase kinase 4 in
+the heart through degradation by the lon protease in response to mitochondrial substrate availability.
+J Biol Chem 292(1):305–312
+
+Day P, Cleal J, Lofthouse E, Hanson M, Lewis R (2013) What factors determine placental glucose transfer
+
+kinetics? Placenta 34(10):953–958
+
+Danielsen SA, Eide PW, Nesbakken A, Guren T, Leithe E, Lothe RA (2015) Portrait of the pi3k/akt pathway
+
+in colorectal cancer. BBA-Rev Cancer 1855(1):104–121
+
+Dan HC, Ebbs A, Pasparakis M, Van Dyke T, Basseres DS, Baldwin AS (2014) Akt-dependent activation
+of mtorc1 complex involves phosphorylation of mtor (mammalian target of rapamycin) by iκb kinase
+α (ikkα). J Biol Chem 289(36):25227–25240
+
+Devic S (2016) Warburg effect-a consequence or the cause of carcinogenesis? J Cancer 7(7):817
+DeYoung MP, Horak P, Sofer A, Sgroi D, Ellisen LW (2008) Hypoxia regulates tsc1/2-mtor signaling and
+
+tumor suppression through redd1-mediated 14-3-3 shuttling. Genes Dev 22(2):239–251
+
+Dai W, Xu Y, Mo S, Li Q, Yu J, Wang R, Ma Y, Ni Y, Xiang W, Han L et al (2020) Glut3 induced by
+ampk/creb1 axis is key for withstanding energy stress and augments the efﬁcacy of current colorectal
+cancer therapies. Signal Transduct Target Ther 5(1):177
+
+Düvel K, Yecies JL, Menon S, Raman P, Lipovsky AI, Souza AL, Triantafellow E, Ma Q, Gorski R, Cleaver
+S et al (2010) Activation of a metabolic gene regulatory network downstream of mtor complex 1. Mol
+Cell 39(2):171–183
+
+Fan J, Hitosugi T, Chung T-W, Xie J, Ge Q, Gu T-L, Polakiewicz RD, Chen GZ, Boggon TJ, Lonial S
+et al (2011) Tyrosine phosphorylation of lactate dehydrogenase a is important for nadh/nad+ redox
+homeostasis in cancer cells. Mol Cell Biol 31(24):4938–4950
+
+Flöter J, Kaymak I, Schulze A (2017) Regulation of metabolic activity by p53. Metabolites 7(2):21
+Feng Z, Levine AJ (2010) The regulation of energy metabolism and the igf-1/mtor pathways by the p53
+
+protein. Trends Cell Biol 20(7):427–434
+
+Freedman SJ, Sun Z-YJ, Poy F, Kung AL, Livingston DM, Wagner G, Eck MJ (2002) Structural basis for
+recruitment of cbp/p300 by hypoxia-inducible factor-1α. Proc Natl Acad Sci 99(8):5367–5372
+Faubert B, Vincent EE, Poffenberger MC, Jones RG (2015) The amp-activated protein kinase (AMPK) and
+
+cancer: many faces of a metabolic regulator. Cancer Lett 356(2):165–170
+
+Fiscella M, Zhang H, Fan S, Sakaguchi K, Shen S, Mercer WE, Vande Woude GF, O’Connor PM, Appella
+E (1997) Wip1, a novel human protein phosphatase that is induced in response to ionizing radiation
+in a p53-dependent manner. Proc Natl Acad Sci 94(12):6048–6053
+
+García-Aguilar A, Martínez-Reyes I, Cuezva JM (2019) Changes in the turnover of the cellular proteome
+during metabolic reprogramming: a role for mtros in proteostasis. J Proteome Res 18(8):3142–3155
+Grupe A, Hultgren B, Ryan A, Ma YH, Bauer M, Stewart TA (1995) Transgenic knockouts reveal a critical
+requirement for pancreatic β cell glucokinase in maintaining glucose homeostasis. Cell 83(1):69–78
+Golias T, Kery M, Radenkovic S, Papandreou I (2019) Microenvironmental control of glucose metabolism
+
+in tumors by regulation of pyruvate dehydrogenase. Int J Cancer 144(4):674–686
+
+Grossman SR (2001) p300/cbp/p53 interaction and regulation of the p53 response. Eur J Biochem
+
+268(10):2773–2778
+
+Hardie DG (2011) Sensing of energy and nutrients by amp-activated protein kinase. Am J Clin Nutr
+
+93(4):891–896
+
+Horak P, Crawford AR, Vadysirisack DD, Nash ZM, DeYoung MP, Sgroi D, Ellisen LW (2010) Negative
+feedback control of hif-1 through redd1-regulated ros suppresses tumorigenesis. Proc Natl Acad Sci
+107(10):4675–4680
+
+Hu C-J, Iyer S, Sataur A, Covello KL, Chodosh LA, Simon MC (2006) Differential regulation of the
+transcriptional activities of hypoxia-inducible factor 1 alpha (hif-1α) and hif-2α in stem cells. Mol
+Cell Biol 26(9):3514–3526
+
+Han T, Kang D, Ji D, Wang X, Zhan W, Fu M, Xin H-B, Wang J-B (2013) How does cancer cell metabolism
+
+affect tumor migration and invasion? Cell Adhesion Migrat 7(5):395–403
+
+Hudson CC, Liu M, Chiang GG, Otterness DM, Loomis DC, Kaper F, Giaccia AJ, Abraham RT (2002) Reg-
+ulation of hypoxia-inducible factor 1α expression and function by the mammalian target of rapamycin.
+Mol Cell Biol 22(20):7004–7014
+
+Haupt Y, Maya R, Kazaz A, Oren M (1997) Mdm2 promotes the rapid degradation of p53. Nature
+
+387(6630):296–299
+
+Hardie DG, Ross FA, Hawley SA (2012) Ampk: a nutrient and energy sensor that maintains energy home-
+
+ostasis. Nat Rev Mol Cell Biol 13(4):251–262
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 61 of 64
+
+124
+
+Hennessy BT, Smith DL, Ram PT, Lu Y, Mills GB (2005) Exploiting the pi3k/akt pathway for cancer drug
+
+discovery. Nat Rev Drug Discovery 4(12):988–1004
+
+Hu C, Utter M, Patel M (1983) Induction of pyruvate dehydrogenase in 3t3-l1 cells during differentiation.
+
+J Biol Chem 258(4):2315–2320
+
+Hanahan D, Weinberg RA (2011) Hallmarks of cancer: the next generation. Cell 144(5):646–674
+Huang B, Wu P, Bowker-Kinley MM, Harris RA (2002) Regulation of pyruvate dehydrogenase kinase
+expression by peroxisome proliferator–activated receptor-α ligands, glucocorticoids, and insulin. Dia-
+betes 51(2):276–283
+
+Iijima M, Huang YE, Luo HR, Vazquez F, Devreotes PN (2004) Novel mechanism of pten regulation
+by its phosphatidylinositol 4, 5-bisphosphate binding motif is critical for chemotaxis. J Biol Chem
+279(16):16606–16613
+
+Inoki K, Li Y, Zhu T, Wu J, Guan K-L (2002) Tsc2 is phosphorylated and inhibited by akt and suppresses
+
+mtor signalling. Nat Cell Biol 4(9):648–657
+
+Imamura K, Ogura T, Kishimoto A, Kaminishi M, Esumi H (2001) Cell cycle regulation via p53
+phosphorylation by a 5’-amp activated protein kinase activator, 5-aminoimidazole-4-carboxamide-
+1-β-d-ribofuranoside, in a human hepatocellular carcinoma cell line. Biochem Biophys Res Commun
+287(2):562–567
+
+Inoki K, Zhu T, Guan K-L (2003) Tsc2 mediates cellular energy response to control cell growth and survival.
+
+Cell 115(5):577–590
+
+Javed MH, Azimuddin SM, Hussain AN, Ahmed A, Ishaq M (1997) Puriﬁcation and characterization of
+
+lactate dehydrogenase from Varanus liver. Exp. Mol. Med. 29(1):25–30
+
+Jiang P, Du W, Wu M (2014) Regulation of the pentose phosphate pathway in cancer. Protein Cell 5(8):592–
+
+602
+
+Jin L, Kim E-Y, Chung T-W, Han CW, Park SY, Han JH, Bae S-J, Lee JR, Kim YW, Jang SB et al (2020)
+Hemistepsin a suppresses colorectal cancer growth through inhibiting pyruvate dehydrogenase kinase
+activity. Sci Rep 10(1):21940
+
+Jones RG, Plas DR, Kubek S, Buzzai M, Mu J, Xu Y, Birnbaum MJ, Thompson CB (2005) Amp-activated
+
+protein kinase induces a p53-dependent metabolic checkpoint. Mol Cell 18(3):283–293
+
+Kawauchi K, Araki K, Tobiume K, Tanaka N (2008) p53 regulates glucose metabolism through an ikk-nf-κb
+
+pathway and inhibits cell transformation. Nat Cell Biol 10(5):611–618
+
+Kight CE, Fleming SE (1995) Oxidation of glucose carbon entering the TCA cycle is reduced by glutamine
+
+in small intestine epithelial cells. Am J Physiol Gastroint Liver Physiol 268(6):879–888
+
+Kubaichuk K, Kietzmann T (2023) Usp10 contributes to colon carcinogenesis via mtor/s6k mediated hif-1α
+
+but not hif-2α protein synthesis. Cells 12(12):1585
+
+Khayat ZA, McCALL AL, KLIP A (1998) Unique mechanism of glut3 glucose transporter regulation by
+
+prolonged energy demand: increased protein half-life. Biochem J 333(3):713–718
+
+Kallio PJ, Okamoto K, O’Brien S, Carrero P, Makino Y, Tanaka H, Poellinger L (1998) Signal transduction
+in hypoxic cells: inducible nuclear translocation and recruitment of thecbp/p300 coactivator by the
+hypoxia-induciblefactor-1α. EMBO J 17(22):6573–6586
+
+Koho NM, Raekallio M, Kuusela E, Vuolle J, Pösö AR (2008) Lactate transport in canine red blood cells.
+
+Am J Vet Res 69(8):1091–1096
+
+Kim J-W, Tchernyshyov I, Semenza GL, Dang CV (2006) Hif-1-mediated expression of pyruvate dehydro-
+genase kinase: a metabolic switch required for cellular adaptation to hypoxia. Cell Metab 3(3):177–185
+
+Kuby SA (2019) A study of enzymes: Enzyme catalysts, kinetics, and substrate binding. CRC Press
+Liang S-H, Clarke MF (2001) Regulation of p53 localization. Eur J Biochem 268(10):2779–2783
+Li X, Han G, Li X, Kan Q, Fan Z, Li Y, Ji Y, Zhao J, Zhang M, Grigalavicius M et al (2017) Mitochondrial
+pyruvate carrier function determines cell stemness and metabolic reprogramming in cancer cells.
+Oncotarget 8(28):46363
+
+Liang Y, Hou L, Li L, Li L, Zhu L, Wang Y, Huang X, Hou Y, Zhu D, Zou H et al (2020) Dichloroac-
+etate restores colorectal cancer chemosensitivity through the p53/mir-149-3p/pdk2-mediated glucose
+metabolic pathway. Oncogene 39(2):469–485
+
+Lee P, Hock A, Vousden K, Cheung E (2015) p53-and p73-independent activation of Tigar expression in
+
+vivo. Cell Death Disease 6(8):1842–1842
+
+Lu C-W, Lin S-C, Chien C-W, Lin S-C, Lee C-T, Lin B-W, Lee J-C, Tsai S-J (2011) Overexpression of
+pyruvate dehydrogenase kinase 3 increases drug resistance and early recurrence in colon cancer. Am
+J Pathol 179(3):1405–1414
+
+123
+
+124
+
+Page 62 of 64
+
+R. Abukwaik et al.
+
+Lien EC, Lyssiotis CA, Cantley LC (2016) Metabolic reprogramming by the pi3k-akt-mtor pathway in
+
+cancer. Metab Cancer 39–72
+
+Liang Y, Liu J, Feng Z (2013) The regulation of cellular metabolism by tumor suppressor p53. Cell Biosci
+
+3:1–10
+
+Lannutti BJ, Meadows SA, Herman SE, Kashishian A, Steiner B, Johnson AJ, Byrd JC, Tyner JW, Loriaux
+MM, Deininger M et al (2011) Cal-101, a p110δ selective phosphatidylinositol-3-kinase inhibitor for
+the treatment of b-cell malignancies, inhibits pi3k signaling and cellular viability. Blood J Am Soc
+Hematol 117(2):591–594
+
+Liu N, Rowley BR, Bull CO, Schneider C, Haegebarth A, Schatz CA, Fracasso PR, Wilkie DP, Hentemann
+M, Wilhelm SM et al (2013) Bay 80–6946 is a highly selective intravenous pi3k inhibitor with potent
+p110α and p110δ activities in tumor cell lines and xenograft models. Mol Cancer Ther 12(11):2319–
+2330
+
+Lago CU, Sung HJ, Ma W, Wang P-Y, Hwang PM (2011) p53, aerobic metabolism, and cancer. Antioxid
+
+Redox Signal 15(6):1739–1748
+
+Li W, Saud SM, Young MR, Chen G, Hua B (2015) Targeting AMPK for cancer prevention and treatment.
+
+Oncotarget 6(10):7365
+
+Laughner E, Taghavi P, Chiles K, Mahon PC, Semenza GL (2001) Her2 (neu) signaling increases the
+rate of hypoxia-inducible factor 1α (hif-1α) synthesis: novel mechanism for HIF-1-mediated vascular
+endothelial growth factor expression. Mol Cell Biol 21(12):3995–4004
+
+Lee SB, Xuan Nguyen TL, Choi JW, Lee K-H, Cho S-W, Liu Z, Ye K, Bae SS, Ahn J-Y (2008) Nuclear
+AKT interacts with b23/npm and protects it from proteolytic cleavage, enhancing cell survival. Proc
+Natl Acad Sci 105(43):16584–16589
+
+Liu J, Zhang C, Hu W, Feng Z (2019) Tumor suppressor p53 and metabolism. J Mol Cell Biol 11(4):284–292
+Metzen E, Berchner-Pfannschmidt U, Stengel P, Marxsen JH, Stolze I, Klinger M, Huang WQ, Wotzlaw C,
+Hellwig-Burgel T, Jelkmann W et al (2003) Intracellular localisation of human hif-1α hydroxylases:
+implications for oxygen sensing. J Cell Sci 116(7):1319–1326
+
+Mayo LD, Donner DB (2001) A phosphatidylinositol 3-kinase/akt pathway promotes translocation of mdm2
+
+from the cytoplasm to the nucleus. Proc Natl Acad Sci 98(20):11598–11603
+
+Mayo LD, Dixon JE, Durden DL, Tonks NK, Donner DB (2002) Pten protects p53 from mdm2 and sensitizes
+
+cancer cells to chemotherapy. J Biol Chem 277(7):5484–5489
+
+Marchenko N, Hanel W, Li D, Becker K, Reich N, Moll UM (2010) Stress-mediated nuclear stabilization
+of p53 is regulated by ubiquitination and importin-α3 binding. Cell Death Differ 17(2):255–267
+Maxﬁeld AB, Heaton DN, Winge DR (2004) Cox17 is functional when tethered to the mitochondrial inner
+
+membrane. J Biol Chem 279(7):5072–5080
+
+Mamun AA, Hayashi H, Yamamura A, Nayeem MJ, Sato M (2020) Hypoxia induces the translocation of
+glucose transporter 1 to the plasma membrane in vascular endothelial cells. J Physiol Sci 70(1):1–15
+Matoba S, Kang J-G, Patino WD, Wragg A, Boehm M, Gavrilova O, Hurley PJ, Bunz F, Hwang PM (2006)
+
+p53 regulates mitochondrial respiration. Science 312(5780):1650–1653
+
+Maddalena F, Lettini G, Gallicchio R, Sisinni L, Simeon V, Nardelli A, Venetucci AA, Storto G, Lan-
+driscina M (2015) Evaluation of glucose uptake in normal and cancer cell lines by positron emission
+tomography. Mol Imaging 14(9):7290–2015
+
+Malinowsky K, Nitsche U, Janssen K, Bader F, Späth C, Drecoll E, Keller G, Höﬂer H, Slotta-Huspenina J,
+Becker K (2014) Activation of the pi3k/akt pathway correlates with prognosis in stage ii colon cancer.
+Br J Cancer 110(8):2081–2089
+
+Morris MD (1991) Factorial sampling plans for preliminary computational experiments. Technometrics
+
+33(2):161–174
+
+Martínez-Reyes I, Chandel NS (2020) Mitochondrial tca cycle metabolites control physiology and disease.
+
+Nat Commun 11(1):102
+
+Mayo LD, Seo YR, Jackson MW, Smith ML, Guzman JR, Korgaonkar CK, Donner DB (2005) Phospho-
+rylation of human p53 at serine 46 determines promoter selection and whether apoptosis is attenuated
+or ampliﬁed. J Biol Chem 280(28):25953–25959
+
+Ma L, Wagner J, Rice JJ, Hu W, Levine AJ, Stolovitzky GA (2005) A plausible model for the digital
+
+response of p53 to DNA damage. Proc Natl Acad Sci 102(40):14266–14271
+
+Nag S, Qin J, Srivenugopal KS, Wang M, Zhang R (2013) The mdm2-p53 pathway revisited. J Biomed Res
+
+27(4):254
+
+Oakhill JS, Steel R, Chen Z-P, Scott JW, Ling N, Tam S, Kemp BE (2011) Ampk is a direct adenylate
+
+charge-regulated protein kinase. Science 332(6036):1433–1435
+
+123
+
+p53 Orchestrates Cancer Metabolism…
+
+Page 63 of 64
+
+124
+
+Qutub AA, Popel AS (2008) Reactive oxygen species regulate hypoxia-inducible factor 1α differentially
+
+in cancer and ischemia. Mol Cell Biol
+
+Rodrigues AS, Correia M, Gomes A, Pereira SL, Perestrelo T, Sousa MI, Ramalho-Santos J (2015)
+Dichloroacetate, the pyruvate dehydrogenase complex and the modulation of MESC pluripotency.
+PLoS ONE 10(7):0131663
+
+Rosner M, Hengstschläger M (2008) Cytoplasmic and nuclear distribution of the protein complexes mtorc1
+and mtorc2: rapamycin triggers dephosphorylation and delocalization of the mtorc2 components rictor
+and sin1. Hum Mol Genet 17(19):2934–2948
+
+Rahman M, Hasan MR (2015) Cancer metabolism and drug resistance. Metabolites 5(4):571–600
+Ruiz-Iglesias A, Mañes S (2021) The importance of mitochondrial pyruvate carrier in cancer cell metabolism
+
+and tumorigenesis. Cancers 13(7):1488
+
+Rosenstein PG, Tennent-Brown BS, Hughes D (2018) Clinical use of plasma lactate concentration. Part 1:
+
+Physiology, pathophysiology, and measurement. J Vet Emerg Crit Care 28(2):85–105
+
+Reid EE, Thompson P, Lyttle CR, Dennis DT (1977) Pyruvate dehydrogenase complex from higher plant
+
+mitochondria and proplastids. Plant Physiol 59(5):842–848
+
+Reckzeh ES, Waldmann H (2020) Small-molecule inhibition of glucose transporters glut-1-4. Chem-
+
+BioChem 21(1–2):45–52
+
+Schwartzenberg-Bar-Yoseph F, Armoni M, Karnieli E (2004) The tumor suppressor p53 down-regulates
+
+glucose transporters glut1 and glut4 gene expression. Can Res 64(7):2627–2633
+
+Sun Z, Do PM, Rhee MS, Govindasamy L, Wang Q, Ingram LO, Shanmugam K (2012) Amino acid substi-
+tutions at glutamate-354 in dihydrolipoamide dehydrogenase of escherichia coli lower the sensitivity
+of pyruvate dehydrogenase to nadh. Microbiology 158(5):1350–1358
+
+Sanli T, Linher-Melville K, Tsakiridis T, Singh G (2012) Sestrin2 modulates ampk subunit expression and
+
+its response to ionizing radiation in breast cancer cells. PLoS ONE 7(2):32035
+
+Simabuco FM, Morale MG, Pavan IC, Morelli AP, Silva FR, Tamura RE (2018) p53 and metabolism: from
+
+mechanism to therapeutics. Oncotarget 9(34):23780
+
+Stambolic V, MacPherson D, Sas D, Lin Y, Snow B, Jang Y, Benchimol S, Mak T (2001) Regulation of
+
+pten transcription by p53. Mol Cell 8(2):317–325
+
+Sargeant RJ, Pâquet MR (1993) Effect of insulin on the rates of synthesis and degradation of glut1 and
+
+glut4 glucose transporters in 3t3-l1 adipocytes. Biochem J 290(3):913–919
+
+Sun Z (2015) The general information of the tumor suppressor gene p53 and the protein p53. J Cancer
+
+Prevent Curr Res 3(1):1–13
+
+Szablewski L (2013) Expression of glucose transporters in cancers. BBA-Rev Cancer 1835(2):164–169
+Schmid T, Zhou J, Köhl R, Brüne B (2004) p300 relieves p53-evoked transcriptional repression of hypoxia-
+
+inducible factor-1 (hif-1). Biochem J 380(1):289–295
+
+Tang J, Chen L, Qin Z-H, Sheng R (2021) Structure, regulation, and biological functions of Tigar and its
+
+role in diseases. Acta Pharmacol Sin 42(10):1547–1555
+
+Treins C, Giorgetti-Peraldi S, Murdaca J, Monthouel-Kartmann M-N, Van Obberghen E (2005) Regulation
+of hypoxia-inducible factor (hif)-1 activity and expression of hif hydroxylases in response to insulin-
+like growth factor i. Mol Endocrinol 19(5):1304–1317
+
+Tian X, Huang B, Zhang X-P, Lu M, Liu F, Onuchic JN, Wang W (2017) Modeling the response of a tumor-
+suppressive network to mitogenic and oncogenic signals. Proc Natl Acad Sci 114(21):5337–5342
+
+Toews C (1966) Kinetic studies with skeletal-muscle hexokinase. Biochem J 100(3):739–744
+Talaiezadeh A, Shahriari A, Tabandeh MR, Fathizadeh P, Mansouri S (2015) Kinetic characterization of
+lactate dehydrogenase in normal and malignant human breast tissues. Cancer Cell Int 15(1):1–9
+Usvalampi A, Li H, Frey AD (2021) Production of glucose 6-phosphate from a cellulosic feedstock in a
+
+one pot multi-enzyme synthesis. Front Bioeng Biotechnol 9:678038
+
+Vara JÁF, Casado E, Castro J, Cejas P, Belda-Iniesta C, González-Barón M (2004) Pi3k/akt signalling
+
+pathway and cancer. Cancer Treat Rev 30(2):193–204
+
+Valvona CJ, Fillmore HL, Nunn PB, Pilkington GJ (2016) The regulation and function of lactate dehydro-
+
+genase a: therapeutic potential in brain tumor. Brain Pathol 26(1):3–17
+
+Vousden KH, Ryan KM (2009) p53 and metabolism. Nat Rev Cancer 9(10):691–700
+Wee KB, Aguda BD (2006) Akt versus p53 in a network of oncogenes and tumor suppressor genes regulating
+
+cell survival and death. Biophys J 91(3):857–865
+
+Wanka C, Brucker DP, Bähr O, Ronellenﬁtsch M, Weller M, Steinbach JP, Rieger J (2012) Synthesis of
+cytochrome c oxidase 2: a p53-dependent metabolic regulator that promotes respiratory function and
+protects glioma and colon cancer cells from hypoxia-induced cell death. Oncogene 31(33):3764–3776
+
+123
+
+124
+
+Page 64 of 64
+
+R. Abukwaik et al.
+
+Woolbright BL, Rajendran G, Harris RA, Taylor JA III (2019) Metabolic ﬂexibility in cancer: targeting the
+
+pyruvate dehydrogenase kinase: pyruvate dehydrogenase axis. Mol Cancer Ther 18(10):1673–1681
+
+Wang X, Shen X, Yan Y, Li H (2021) Pyruvate dehydrogenase kinases (PDKS): An overview toward clinical
+
+applications. Biosci Rep 41(4)
+
+Wang G, Wang F, Ding W, Wang J, Jing R, Li H, Wang X, Wang Y, Ju S, Wang H (2013) April induces
+tumorigenesis and metastasis of colorectal cancer cells via activation of the pi3k/akt pathway. PLoS
+ONE 8(1):55298
+
+Wood IS, Wang B, Lorente-Cebrián S, Trayhurn P (2007) Hypoxia increases expression of selective facilita-
+tive glucose transporters (glut) and 2-deoxy-d-glucose uptake in human adipocytes. Biochem Biophys
+Res Commun 361(2):468–473
+
+Wu H, Ying M, Hu X (2016) Lactic acidosis switches cancer cells from aerobic glycolysis back to dominant
+
+oxidative phosphorylation. Oncotarget 7(26):40621
+
+Xu N, Lao Y, Zhang Y, Gillespie DA (2012) Akt: a double-edged sword in cell proliferation and genome
+
+stability. J Oncol 2012
+
+Xu K, Zhan Y, Yuan Z, Qiu Y, Wang H, Fan G, Wang J, Li W, Cao Y, Shen X et al (2019) Hypoxia
+induces drug resistance in colorectal cancer through the hif-1α/mir-338-5p/il-6 feedback loop. Mol
+Ther 27(10):1810–1824
+
+Yizhak K, Le Dévédec SE, Rogkoti VM, Baenke F, De Boer VC, Frezza C, Schulze A, Van De Water B,
+Ruppin E (2014) A computational study of the Warburg effect identiﬁes metabolic targets inhibiting
+cancer migration. Mol Syst Biol 10(8):744
+
+Yu L, Lu M, Jia D, Ma J, Ben-Jacob E, Levine H, Kaipparettu BA, Onuchic JN (2017) Modeling the genetic
+regulation of cancer metabolism: interplay between glycolysis and oxidative phosphorylation. Can
+Res 77(7):1564–1574
+
+Yang Y, Sauve AA (2021) Assays for determination of cellular and mitochondrial nad+ and nadh content.
+
+Mitochondrial Regul Methods Protocols 271–285
+
+Yang W-L, Wang J, Chan C-H, Lee S-W, Campos AD, Lamothe B, Hur L, Grabiner BC, Lin X, Darnay BG
+et al (2009) The e3 ligase traf6 regulates AKT ubiquitination and activation. Science 325(5944):1134–
+1138
+
+Zhang T, Brazhnik P, Tyson JJ (2007) Exploring mechanisms of the DNA-damage response: p53 pulses
+
+and their possible relevance to apoptosis. Cell Cycle 6(1):85–94
+
+Zhang T, Brazhnik P, Tyson JJ (2009) Computational analysis of dynamical responses to the intrinsic
+
+pathway of programmed cell death. Biophys J 97(2):415–434
+
+Zhong H, Chiles K, Feldser D, Laughner E, Hanrahan C, Georgescu M-M, Simons JW, Semenza
+GL (2000) Modulation of hypoxia-inducible factor 1α expression by the epidermal growth fac-
+tor/phosphatidylinositol 3-kinase/pten/akt/frap pathway in human prostate cancer cells: implications
+for tumor angiogenesis and therapeutics. Can Res 60(6):1541–1545
+
+Zhong H, De Marzo AM, Laughner E, Lim M, Hilton DA, Zagzag D, Buechler P, Isaacs WB, Semenza
+GL, Simons JW (1999) Overexpression of hypoxia-inducible factor 1α in common human cancers
+and their metastases. Can Res 59(22):5830–5835
+
+Zerfaoui M, Dokunmu TM, Toraih EA, Rezk BM, Abd Elmageed ZY, Kandil E (2021) New insights into
+the link between melanoma and thyroid cancer: role of nucleocytoplasmic trafﬁcking. Cells 10(2):367
+Zhang X-P, Liu F, Wang W (2011) Two-phase dynamics of p53 in the DNA damage response. Proc Natl
+
+Acad Sci 108(22):8990–8995
+
+Zhang X-D, Qin Z-H, Wang J (2010) The role of p53 in cell metabolism. Acta Pharmacol Sin 31(9):1208–
+
+1212
+
+Zimmerman JJ, Saint André-von Arnim A, McLaughlin J (2011) Cellular respiration. In: Pediatric critical
+
+care. Elsevier, pp 1058–1072
+
+Zeng S, Zhao Z, Zheng S, Wu M, Song X, Li Y, Zheng Y, Liu B, Chen L, Gao C et al (2021) The e3 ubiquitin
+ligase trim31 is involved in cerebral ischemic injury by promoting degradation of Tigar. Redox Biol
+45:102058
+
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps
+and institutional afﬁliations.
+
+123
+
+

@@ -1,0 +1,795 @@
+Naunyn-Schmiedeberg's Archives of Pharmacology (2023) 396:365–374
+https://doi.org/10.1007/s00210-022-02316-1
+
+RESEARCH
+
+Tanshinone IIA promotes apoptosis by downregulating BCL2 
+and upregulating TP53 in triple‑negative breast cancer
+
+Jinfeng Liu1 · Chang Zhang2 · Shuang Liu1 · Xiaokang Wang3 · Xiongzhi Wu4 · Jian Hao5
+
+Received: 17 July 2022 / Accepted: 24 October 2022 
+© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2022
+
+/ Published online: 14 November 2022
+
+Abstract
+Tanshinone IIA (Tan IIA) was mainly used for cardiovascular disease treatment. Recent studies have demonstrated the role 
+of Tan IIA for tumor treatment, but its mechanism remains unclear. At the first, the inhibitory effect of Tan IIA on 4T1 
+breast cancer cells was determined by CCK8 and colony formation assay. Then, a 4T1 BALB/c model of breast cancer was 
+established to evaluate the anti-cancer effect of Tan IIA in vivo. Flow cytometry analysis and the TUNEL test were used 
+to detect cell apoptosis in vitro and in vivo, respectively. The related targets and mechanisms of Tan IIA were predicted 
+through network-based systems biology. At last, molecular docking and the molecular biological techniques were used to 
+evaluate the predicted targets. Tan IIA displayed encouraging inhibitory influences on 4T1 cells after incubation for 24 h and 
+showed a half-maximal inhibitory concentration (IC50) of 49.78 μM after 48-h incubation. After 23 days of treatment, the 
+relative tumor volumes in the Tan IIA group were 65.53% inhibited compared with the control group. Furthermore, Tan IIA 
+induced 4T1 cell apoptosis both in vivo and in vitro. The possible targets of Tan IIA for TNBC treatment were predicted with 
+network-based systems biology, and results showed that TP53, NF-κB, AKT, MYC, and BCL-2 were the hub targets. The 
+mechanism against breast cancer may be based on the P53 signaling pathway, the PI3K/Akt pathway, the MAPK signaling 
+pathway, and the mTOR signaling pathways. Molecular docking analysis reveals that Tan IIA has a high affinity for p53, 
+Bcl-2, and NF-κB1; the binding energies were − 6.92, − 6.07, and − 6.28 kcal/mol, respectively. The predicted proteins were 
+further validated using Western blotting. Increased expression of phosphorylated p53 and p53 and decreased expression of 
+Bcl-2 were found in Tan IIA-treated 4T1 cells. Tan IIA is potentially effective for the treatment of 4T1 breast cancer, and 
+the molecular mechanism may be through enhancing the activity of p53 and decreasing Bcl-2 to suppress proliferation and 
+promote apoptosis.
+
+Keywords  Tanshinone IIA · Triple-negative breast cancer · Apoptosis · Network pharmacology · TP53 · BCL2
+
+Jinfeng Liu, Chang Zhang, and Shuang Liu have contributed equally 
+to this study and share first authorship.
+
+ *  Xiongzhi Wu 
+  wuxiongzhi@163.com
+ *  Jian Hao 
+
+bingxin@tmu.edu.cn
+
+1  Key Laboratory of Cancer Prevention and Therapy, Tianjin 
+Medical University Cancer Institute and Hospital, National 
+Clinical Research Center for Cancer, Tianjin’s Clinical 
+Research Center for China, Tianjin 300060, China
+2  Department of Traditional Chinese Medicine, General 
+
+Hospital of Pingmei Shenma Group, Pingdingshan 467000, 
+China
+
+Introduction
+
+Breast cancer is the malignant tumor with the highest inci-
+dence rate among women all over the world (Sung et al. 
+2021). Triple-negative breast cancer (TNBC) is the subgroup 
+
+3  Department of General Surgery, Shanghai General Hospital, 
+
+Shanghai Jiao Tong University School of Medicine, 
+Shanghai 200086, China
+
+4  Oncology Research Center of Integrated Traditional Chinese 
+and Western Medicine, Tianjin Medical University Nankai 
+Hospital, Nankai District, Changjiang Road, Tianjin 300102, 
+China
+
+5  Department of Rheumatism and Immunology, Tianjin 
+
+Medical University General Hospital, An-Shan Road, Heping 
+District, Tianjin 300052, China
+
+Vol.:(0123456789)1 3 
+366
+
+Naunyn-Schmiedeberg's Archives of Pharmacology (2023) 396:365–374
+
+lacking ER, PR, and HER2 expression. It accounts for 15% 
+of total breast cancer patients with a high biological aggres-
+sive nature and a high rate of proliferation and invasion 
+(Waks and Winer 2019; Arnedos et al. 2012). Despite the 
+improvement of treatment strategies, the prognosis of TNBC 
+patients  remains  poor.  Searching  for  effective  regimens 
+remains the top priority in TNBC research.
+
+As one of the herbs with a long history of application, 
+danshen (Salvia miltiorrhiza) is widely used in cardiovascu-
+lar diseases. Tanshinone, one of the main lipophilic compo-
+nents of Salvia miltiorrhiza, has been proved to have diverse 
+pharmacological activities including anti-inflammation, anti-
+oxidation, and anti-cancer. Tanshinone IIA (C19H18O3, Tan 
+IIA, Fig. 1) is one of the important tanshinones. For the 
+well-reported anti-inflammatory and antiangiogenic activi-
+ties, the antitumor effects of Tan IIA have received more 
+attention in gastric cancer, colorectal cancer, lung cancer, 
+etc. (Sui et al. 2017; Xu et al. 2018; Wang et al. 2019; Li 
+et al. 2020 Apr). The anti-TNBC effects of Tan IIA have 
+been reported (Wu et al. 2018), but the mechanisms are cur-
+rently unclear.
+
+Network pharmacology, a new discipline of multi-target 
+drug molecular design, reveals the synergistic effect of 
+Chinese herbal medicine on diseases and its underlying 
+mechanism by constructing a multi-component and multi-
+target network (Hopkins 2008; Hao and Li 2018; Xian 
+et al. 2021). The aim of the present study was to investi-
+gate the effects and mechanisms of Tan IIA on the TNBC 
+treatment. We found that Tan IIA is potentially effective 
+for the treatment of 4T1 breast cancer, and the molecular 
+mechanism may be through enhancing the activity of p53 
+and decreasing Bcl-2 to suppress proliferation and pro-
+mote apoptosis.
+
+Materials and methods
+
+Drugs and reagents
+
+Tan  IIA  (purity:  99.35%,  Fig.  1)  was  purchased  from 
+Chengdu  Mansite  Biotech  Co.  Ltd  (China,  Lot.  MUST-
+19090910).  Doxorubicin  (Dox)  was  obtained  from  Bei-
+jing  Solarbio  Science  &  Technology  Co.,  Ltd.  (China, 
+Lot. 730M024). Cell Counting Kit-8 was purchased from 
+MedChemExpress (USA, Lot. #67,666). Antibodies against 
+Bcl-2 (ab79849), P53 (ab26), phospho-P53(ab33889), and 
+β-actin (ab8226) were purchased from Abcam (UK).
+
+Cell lines and cultures
+
+Murine triple-negative breast cancer 4T1 cell lines and the 
+normal breast cell line (MCF10A) were kindly provided by 
+Procell Life Science & Technology Co., Ltd. Due to the 
+
+Fig. 1   The molecular structure of Tanshinone IIA
+
+growth and metastatic properties, tumor-bearing mice with 
+4T1 cells are an animal model of human stage VI breast 
+cancer. 4T1 cells were expanded in a humidified incuba-
+tor at 37 °C with 5%  CO2 in RPMI-1640 medium (Gibco, 
+USA),  supplemented  with  100  U/mL  penicillin  (Gibco, 
+USA) and 100 mg/mL streptomycin (Gibco, USA) and 10% 
+fetal bovine serum (Gibco, USA). MCF10A cells were cul-
+tured in DMEM medium (Gibco, USA) supplemented with 
+10 μg/mL insulin (Thermo Fisher Scientific, USA), 20 ng/
+mL human epidermal growth factor (HEGF) (Thermo Fisher 
+Scientific, USA), 0.5 µg/mL hydrocortisone (Thermo Fisher 
+Scientific, USA), 5% horse serum (Thermo Fisher Scientific, 
+USA), and 5% penicillin–streptomycin (Gibco, USA). The 
+cells were also incubated in a humidified incubator with 5% 
+ CO2 under 37 °C.
+
+Cell proliferation assay
+
+CCK-8  viability  assay  was  performed  to  evaluate  the 
+effects of Tan IIA on cell proliferation. For this, 4T1 and 
+MCF10A cells,  suspended with 0.25% trypsin (Gibco, 
+USA), were inoculated into 96-well plates at a density of 
+3 ×  103 cells per well. Subsequently, 4T1 cells were treated 
+with Tan IIA at concentrations of 10, 20, 30, 40, 50, 60, 
+70,  or  80  μM  for  24,  48,  and  72  h,  respectively.  And 
+MCF10A cells were treated with the highest concentra-
+tion of Tan IIA (80 μM). Finally, 96-well plates incubated 
+with 10 µL of CCK-8 solution for 60 min were detected by 
+a microplate reader (IMark, Bio-Rad). Record the absorb-
+ance (Abs) at 450 nm and calculate the cell inhibition rate 
+(Xue et al. 2019). All experiments were performed in six 
+replicates and repeated three times.
+
+1 3Naunyn-Schmiedeberg's Archives of Pharmacology (2023) 396:365–374
+
+367
+
+Colony formation assay
+
+Transfected cells were reseeded into 6-well plate with 500 
+cells per well by treating with Tan IIA for 48 h. Cells were 
+further treated with 0 (DMSO), 12.5, 25, or 50 μM Tan IIA, 
+and 3 wells were used per group. Then, 6-well plates culti-
+vated at 37 °C for approximately 12 days were washed with 
+1 × PBS and fixed with 4% paraformaldehyde for 30 min 
+at room temperature. Finally, natural colonies stained with 
+0.5% crystal violet for approximately 20 min were imaged 
+and quantified. All experiments were performed in triplicate 
+and repeated three times.
+
+Apoptosis assay by flow cytometry
+
+The Fluorescein Isothiocyanate (FITC) Annexin V Apop-
+tosis Detection Kit I (BD Pharmingen, USA) was used to 
+detect apoptotic cells following the manufacturer’s protocol. 
+4T1 cells were treated with Tan IIA in serial concentrations 
+(0, 12.5, 25, and 50 μM) at 37 °C for 24 h. After washing 
+with PBS, cells were trypsinized and subsequently incubated 
+in FITC-conjugated Annexin-V binding buffer containing PI 
+in the dark for 15 min. After incubation, cell apoptosis was 
+assessed using FCS Express software (De Novo Software) 
+on EXFLOW (Dakewe Biotech Co., Ltd.).
+
+Network pharmacology analysis
+
+As in our previous researches (Liu et al. 2021), the possible 
+targets of Tan IIA were predicted from the following two 
+databases: BATMAN-TCM (Liu et al. 2016) (http:// bio-
+net. ncpsb. org. cn/ batman- tcm/) and TCMSP Database and 
+Analysis Platform (Jinlong et al. 2014) (https:// tcmspw. com/ 
+tcmsp. php). Candidate TNBC targets were obtained from 
+CTD (Davis et al. 2020) (http:// ctdba se. org/) and TTD data-
+bases (Wang et al. 2020) (http:// db. idrbl ab. net/ ttd/). Ana-
+lyze the function of predicted targets based on the DAVID 
+bioinformatics database (Davis et al. 2017). Protein–protein 
+interactions (PPI) were constructed with Cytoscape based on 
+the STRING database (Szklarczyk et al. 2014).
+
+Docking exercises of ingredients binding to main 
+targets
+
+Compound structures were obtained from TCMSP Data-
+base and Analysis Platform and saved as docking ligands 
+in MOL2 format. The crystal structure of p53, Bcl-2, and 
+NF-κB1 was obtained from the Protein Data Bank (PDB 
+ID: 3D06 (Suad et al. 2009), PDB ID: 6GL8 (Casara et al. 
+2018), and PDB ID: 1MDI (Qin et al. 1995)). Other tar-
+gets’ crystal structures from Protein Data Bank include 
+EGFR  (5UG9),  CASP3  (4JJE),  KIT  (3G0E),  AKT2 
+(1O6L), and Bcl-2l1 (3SP7) (Planken et al. 2017; Vickers 
+
+et al. 2013; Gajiwala et al. 2009; Yang et al. 2002; Zhou 
+et al. 2012). The crystal structures of candidate proteins 
+were  modified  using  the  Autodock  4.2  software  (Mor-
+ris et al. 2009) to remove ligands, add hydrogen, remove 
+water, and patch amino acids. The docking binding free 
+energy was scored, and the docking models with the lowest 
+binding affinity were displayed by PyMOL (3D).
+
+Western blotting
+
+Total protein from Tan IIA-treated cell lysis was quantified 
+according to the manufacturer’s BCA protein guideline, 
+separated on 10% SDS-PAGE, and transferred to PVDF 
+membranes. After blocking with 5% defatted milk dis-
+solved in Tris-buffered saline containing 0.1% Tween-20, 
+membranes were incubated with appropriate dilutions of 
+primary antibodies (BCL2, TP53, phosphor-TP53, and 
+β-actin (Abcam, Cambridge, UK)) followed by second-
+ary antibody. Finally, quantification was performed using 
+an image acquisition and analysis system (CHEMIDOC 
+XRS + , Bio-Rad, USA) and ImageJ (Su 2018).
+
+In vivo xenografts
+
+2 ×  106  4T1  cells  were  injected  subcutaneously  into 
+the  upper  middle  groin  of  5  BALB/c  female  mice. 
+Tumor volumes were determined every day (tumor vol-
+ume = length*width2/2). When the average length of the 
+subcutaneous tumor reached 10 mm, the mice were sac-
+rificed in a humane manner, and then the tumors were 
+collected. The collected tumors were cut into small pieces 
+with a length of 2 mm in the clean area and planted in the 
+fat pads of the fourth pair of left breasts of the anesthe-
+tized (Isoflurane, Rodent Anesthesia Machine, provided 
+by Hebei Lanmeng Bio Pharmaceutical Technology Co., 
+Ltd.) BALB/c female mice. Three days later, the mice were 
+randomly divided into 3 groups (n = 18) and injected intra-
+peritoneally every other day. The dosage was 2 mg/kg, the 
+dosage of Tan IIA was 10 mg/kg (Lin et al. 2013), and 
+the control group was given the same amount of normal 
+saline. Starting from the 8th day, three mice were ran-
+domly selected from each group every 3 days and sacri-
+ficed in a humane manner. The tumors of the mice were 
+isolated and stored at low temperature. All experiments 
+were approved by the Experimental Animal Ethics Com-
+mittee of Nankai University.
+
+Immunohistochemistry (IHC) and TUNEL assay
+
+After  fixation  and  permeabilization,  immunohistochemi-
+cal sections of tumor tissue were prepared according to the 
+
+1 3368
+
+Naunyn-Schmiedeberg's Archives of Pharmacology (2023) 396:365–374
+
+instructions of the KI67 Cell Proliferation Kit (IHC) (Sangon 
+Biotech (Shanghai) Co., Ltd., China) to check the proliferation 
+status. In addition, apoptosis in tumor tissues was detected 
+using the In Situ Cell Death Detection Kit (Roche Diagnos-
+tic Mannheim, Germany) according to the manufacturer’s 
+instructions. Representative images were obtained using a 
+confocal microscope (Olympus) (Hao et al. 2018) after the 
+final overlay with DAPI-containing mounting medium.
+
+Statistical analysis
+
+Statistical significance was determined using SPSS 12.0. 
+All experimental data were analyzed by one-way analysis 
+of variance (ANOVA) with the Bonferroni correction for 
+multiple comparisons.
+
+Results
+
+Effect of Tan IIA treatment on the proliferation 
+of TNBC 4T1 cells
+
+The effects of Tan IIA on the viability of 4T1 were evaluated 
+with CCK-8 assay. 4T1 cells were exposed to various concen-
+trations (10, 20, 30, 40, 50, 60, 70, or 80 μM) of Tan IIA for 
+24, 48, and 72 h, respectively. When treated with more than 
+40 μM of Tan IIA for 24 h, sustainable and stability–inhibitory 
+effects were shown (Fig. 2A, B). Tan IIA inhibited 4T1 cell 
+proliferation in concentration- and time-dependent manners as 
+the IC50 values at 24, 48, and 72 h were of 81.89, 49.78, and 
+41.60 μmol/L, respectively. Moreover, Tan IIA had no obvi-
+ous toxicity to normal breast cells (P > 0.05, Fig. 2A). Due to 
+the specificity of 4T1 cells, we chose the IC50 concentration 
+via calculating at 48 h as the highest dose concentration for 
+subsequent in vitro experiments (Fig. 2C).
+
+Next, we determined the effect of Tan IIA on the ability 
+of 4T1 to form colonies. Similarly, Tan IIA significantly 
+reduced  the  colony  formation  by  67.73%,  31.87%,  and 
+13.94% after treated with 12.5 μM, 25 μM, and 50 μM of 
+Tan II for 48 h (Fig. 2D). The underlying mechanism of 
+cell viability inhibition was further studied by determining 
+the apoptotic effects using the Annexin-V/PI method. The 
+apoptotic cells (D2 + D3) increased after treated with Tan II 
+with a concentration-dependent manner (P < 0.01, Fig. 2E). 
+Consistent with the cell viability assays, these results again 
+indicated the ability of Tan II to induce growth inhibition.
+
+Effects of Tan II on xenograft tumor models
+
+To  further  evaluate  the  anti-tumor  efficacy  of  Tan  IIA, 
+BALB/C mice bearing 4T1 tumor were treated orally with 
+
+Tan IIA. Doxorubicin (Dox) was used for positive control. 
+After the 23 days of treatment, no death or adverse events 
+occurred in all groups. No significant differences in body 
+weight change were observed in the three groups. Treatment 
+with Tan II and Dox induced significant growth delay of 4T1 
+tumor compared to untreated controls, as shown in Fig. 3A. 
+The tumor weight was reduced by 34.47% and 51.00% in 
+Tan II-treated and Dox-treated groups, respectively. On the 
+23rd day, the relative tumor volumes of Tan IIA and Dox 
+were 877.67 ± 250.80  mm3 and 656.33 ± 187.35  mm3, while 
+the tumor volume of the control group was 1339.33 ± 56.58 
+ mm3 (Fig. 3B).
+
+Ki-67 expression analysis was performed to evaluate cell 
+proliferation by immunohistochemistry. On the 23rd day, 
+all the three groups showed Ki-67 strong staining. Ki-67 
+staining in the treated groups showed slightly weakened 
+(P < 0.05, Fig. 3D). Apoptosis levels in situ were analyzed 
+by the TUNEL assay, and the distribution of the TUNEL-
+positive nuclei was higher after the treatment of Tan IIA 
+(P < 0.05, Fig. 3E).
+
+Predicted targets and mechanisms of Tan IIA 
+for breast cancer treatment based on network 
+pharmacology
+
+After searching the TTD and CTD databases, we obtained 
+1344 TNBC-related target candidates. Furthermore, 215 
+drug  targets  were  predicted  from  BATMAN-TCM  and 
+TCMSP databases. The potential TNBC targets for Tan IIA 
+treatment were matched by combining the disease and drug 
+targets. Forty-five common targets were obtained to con-
+struct an ingredient-target (cI-cT) network using Cytoscape 
+(Fig. 4A). We further put the screened 45 targets into the 
+STRING  website  to  get  the  protein–protein  interactions 
+(PPI) among these proteins with the conditional effect score 
+that was set as > 0.9. After removing the targets without 
+interactions, a PPI with 39 targets was obtained (Fig. 4B), 
+which indicated that these targets tend to form close asso-
+ciates among each other. TP53, NF-κB, AKT, MYC, and 
+BCL2 were the hub targets among the PPI network. The 
+functions of 39 hub targets were further analyzed with the 
+DAVID website; we found these targets majorly involved 
+in cancer-related biological processes and pathways, such 
+as cell apoptosis, P53 signaling pathway, PI3K/Akt path-
+way, the MAPK signaling pathway, and the mTOR signaling 
+pathway (Fig. 4C, D).
+
+To  ascertain  the  interaction  between  Tan  IIA  and 
+their hub targets, computational docking exercises were 
+conducted  to  mimic  the  binding  characteristics.  It  is 
+generally  believed  that  the  binding  energy  value  less 
+than − 5.0 kcal/mol indicates good binding activity, and 
+less than − 7.0 kcal/mol indicates strong binding activity. 
+The binding energies of Tan IIA with these hub targets P53, 
+
+1 3Naunyn-Schmiedeberg's Archives of Pharmacology (2023) 396:365–374
+
+369
+
+Fig. 2   The effect of Tan IIA treatment on the proliferation of TNBC 
+4T1  cells.  A,  B  The  effect  of  Tan  IIA  treatment  on  the  proliferation 
+of  TNBC  4T1  cells  and  normal  breast  cells  MCF10A.  C  The  con-
+
+centration-suppression  rate  curve  of  48  h.  D  The  plate  clone  forma-
+tion  assay.  E  Apoptotic  effects  of  Tan  IIA  using  the  Annexin-V/PI 
+method. **P < 0.01
+
+1 3370
+
+Naunyn-Schmiedeberg's Archives of Pharmacology (2023) 396:365–374
+
+Fig. 3   In  vitro  experiments  of  tanshinone  IIA.  A,  B  Tan  IIA  sup-
+presses  tumor  growth  in  vivo  and  the  analysis  of  tumor  volume.  C 
+Changes in weight of tumor-bearing mice. D, E Immunohistochemis-
+try and TUNEL assay on tumor tissues of tumor-bearing mice (the dis-
+
+tribution of the TUNEL-positive nuclei was higher after the treatment 
+of Tan IIA compared to that in the control group, 100 ×). **P < 0.01
+
+1 3Naunyn-Schmiedeberg's Archives of Pharmacology (2023) 396:365–374
+
+371
+
+Fig. 4   Network  pharmacological  analysis  of  tanshinone  IIA.  A 
+Prediction  of  Tan  II-related  targets  (the  more  important  the  dis-
+ease  target  is  in  triple-negative  breast  cancer,  the  redder  the  color 
+of the node). B Protein–protein interaction network (the higher the 
+protein interaction score, the darker the color of the line). C Kyoto 
+
+Encyclopedia of Genes and Genomes enrichment analysis. D Gene 
+Ontology  enrichment  analysis.  E  Docking  exercises  of  ingredients 
+binding  to  P53,  BCL-2,  NF-κB,  EGFR,  CASP3,  KIT,  AKT2,  and 
+BCL-2L1 (boxes are the 3D and 2D views of the molecular docking 
+domains, respectively)
+
+1 3372
+
+Naunyn-Schmiedeberg's Archives of Pharmacology (2023) 396:365–374
+
+Table 1   Docking exercises of ingredients binding to p53, Bcl-2, and 
+NF-κB1
+
+Target
+
+Gene ID
+
+PDB ID
+
+P53
+Bcl-2
+NF-κB1
+Egfr
+Casp3
+Kit
+Akt2
+Bcl-2l1
+
+7157
+596
+4790
+1956
+836
+3815
+208
+598
+
+3D06
+6GL8
+1MDI
+5UG9
+4JJE
+3G0E
+1O6L
+3SP7
+
+Binding 
+energy (kcal/
+mol)
+
+ − 6.92
+ − 6.07
+ − 6.28
+ − 7.88
+ − 5.70
+ − 6.82
+ − 6.40
+ − 7.07
+
+BCL-2, NF-κB, EGFR, CASP3, KIT, AKT2, and BCL-2L1 
+are shown in Table 1. Binding affinities to the first three 
+targets were − 6.92, − 6.07, and − 6.28, respectively, indi-
+cating a good or strong binding activity. Docking results 
+were visualized in the PyMOL software. Figure 4E shows 
+
+Tan IIA docking with P53, BCL-2, NF-κB, EGFR, CASP3, 
+KIT, AKT2, and BCL-2L1, which are mainly related with 
+the cell apoptosis.
+
+Changes in the level of major proteins in Tan 
+IIA‑treated 4T1 cells
+
+To investigate the mechanism by which Tan IIA induced 
+apoptosis, Western blotting was utilized to detect Bcl-2, p53, 
+and phosphorylated p53 proteins in 4T1 cells. Western blot 
+results showed that the levels of Bcl-2 gradually reduced 
+in response to increasing Tan IIA concentrations in vitro 
+compared with the control group after Tan IIA treatment 
+(P < 0.05 for all, Fig. 5A, B). The levels of p53 and phos-
+phorylated p53 also showed an upward trend. These data 
+showed that Tan IIA could inhibit tumor growth by induc-
+ing apoptosis. Taken together, we mapped the hub targets to 
+the canonical signaling pathways according to the results of 
+the network-based systems and molecular-biological analy-
+ses. Tan IIA mediated its anti-cancer effects by reducing the 
+
+Fig. 5   The  changes  and  mechanisms  of  target  proteins  in  Tan  IIA-treated  4T1  cells.  A,  B  Changes  in  the  level  of  major  proteins  in  Tan  IIA-
+treated 4T1 cells. C Potential pro-apoptotic mechanism of Tan IIA. *P < 0.05, **P < 0.01
+
+1 3Naunyn-Schmiedeberg's Archives of Pharmacology (2023) 396:365–374
+
+373
+
+expression of the Bcl-2 and upregulating the expression of 
+P53 through the NF-kB signaling pathway (Fig. 5C).
+
+Discussion
+
+In recent years, with the in-depth research of bioinformatics, 
+more and more herbal ingredients with anticancer effects 
+have been discovered. Tan IIA, one of the active ingredients 
+of Salvia miltiorrhiza, has been demonstrated to have inhibi-
+tory effects on multisystem tumors. In human colorectal can-
+cer, Tan IIA effectively inhibits proliferation and metastasis 
+by reducing HIF-1α levels and inhibiting the secretion of 
+VEGF and bFGF (Sui et al. 2017). Tan IIA enhanced the 
+cell cycle, apoptosis, and autophagy of drug-resistant gastric 
+cancer cells by reducing MRP1, contributing to the antican-
+cer effect of doxorubicin in gastric cancer (Xu et al. 2018). 
+Furthermore, Tan IIA enhanced the sensitivity and pro-apop-
+totic effects of gefitinib in gefitinib-resistant NSCLC cells 
+by increasing the level of cleaved caspase 3 and downregu-
+lating the VEGFR2/Akt pathway (Wang et al. 2019). Mul-
+tiple in vivo and in vitro experiments have shown that Tan 
+IIA can effectively inhibit the proliferation of TNBC cells, 
+perfecting the evidence that it inhibits the development of 
+various cancers. In the present study, we demonstrated that 
+Tan IIA could significantly suppress the growth of TNBC 
+cells via promoting cell apoptosis. With the bioinformatics 
+detection of Tan IIA, we then found that TP53, NFκB, AKT, 
+MYC, and BCL2 were the major hub putative targets of Tan 
+IIA. And the apoptotic pathway related to TP53 and BCL2 
+through pathway cluster analysis may be one of the main 
+mechanisms for the treatment of TNBC.
+
+Cell  apoptosis  is  an  important  manifestation  of  cell 
+death, which is strongly associated with tumorigenesis and 
+tumor progression. Bcl-2 is one of the anti-apoptotic pro-
+teins, which plays a significant role in mitochondrial-medi-
+ated apoptotic pathways. Bcl-2 can inhibit the pro-apop-
+totic protein Bax (Kale et al. 2018). In addition to playing 
+an important role in regulating cell apoptosis, Bcl-2 can 
+also regulate tumor migration, invasion, autophagy, and 
+angiogenesis  (Trisciuoglio  et  al. 2013).  In  our  experi-
+ments, we found Tan IIA could inhibit the 4T1 prolifera-
+tion and induce the apoptosis by reducing the expression 
+of the Bcl-2. The protein encoded by TP53 responds to 
+diverse cellular stresses to regulate metabolic changes, 
+cell cycle, aging, apoptosis, or DNA repair. In 65–80% of 
+TNBC cases, TP53 is the most commonly mutated gene 
+(Shah et al. 2012). Recent studies have shown that TNBC 
+patients with reduced p53 protein function have a reduced 
+overall survival and an increased risk of metastasis (Pow-
+ell et al. 2016). There is evidence that if DNA damage 
+stress is strong enough, the phosphorylation of ser46 of 
+
+p53 increases, and further induces apoptosis (Taira et al. 
+2007). According to the predicted results of the network-
+based systems, p53 was one of the hub targets of Tan IIA 
+for TNBC treatment. Similarly, under the influence of Tan 
+IIA, the expression of TP53 and the phosphorylation of its 
+related sites increased both in vivo and in vitro.
+
+In conclusion, our present results demonstrated that Tan 
+IIA inhibited cell proliferation and tumor growth in vitro 
+and in vivo by inducing cell apoptosis, while the down-
+regulation of BCL2 and the upregulation of TP53 were the 
+possible mechanisms of Tan IIA in TNBC cell apoptosis. 
+This study further supports the application evidence of Tan 
+IIA in cancer clinical treatment. However, network phar-
+macological analysis found that the effect of Tan IIA is 
+more than this, and its anticancer mechanism still requires 
+further investigation.
+
+Author contribution  JH and XW conceived and designed research. JL, 
+CZ, and SL conducted experiments and wrote the manuscript. XW ana-
+lyzed data. All authors read and approved the manuscript. The authors 
+declare that all data were generated in-house and that no paper mill 
+was used.
+
+Funding  This work was supported by the National Natural Science 
+Foundation of China (Grant No. 81903934) and the National Natural 
+Science Foundation of China (Grant No. 81473441).
+
+Data availability  The datasets generated and/or analyzed during the 
+current study are not publicly available due to subsequent experiments 
+that have not been completed but are available from the corresponding 
+author on reasonable request.
+
+Declarations 
+
+Ethics approval  All experiments were approved by the Experimental 
+Animal Ethics Committee of Nankai University.
+
+Competing interests  The authors declare no competing interests.
+
+References
+
+Arnedos M, Bihan C, Delaloge S, Andre F (2012) Triple-negative 
+breast cancer: are we making headway at least? Ther Adv Med 
+Oncol 4(4):195–210. https:// doi. org/ 10. 1177/ 17588 34012 444711
+Casara P, Davidson J, Claperon A et al (2018) S55746 is a novel orally 
+active BCL-2 selective and potent inhibitor that impairs hemato-
+logical tumor growth. Oncotarget 9:20075–20088
+
+Davis  AP,  Grondin  CJ,  Johnson  RJ  et  al  (2017)  The  comparative 
+toxicogenomics  database:  update  2017.  Nucleic  Acids  Res 
+45:D972–D978
+
+Davis AP, Wiegers TC, Grondin CJ et al (2020) Leveraging the com-
+parative toxicogenomics database to fill in knowledge gaps for 
+environmental health: a test case for air pollution-induced cardio-
+vascular disease[J]. Toxicol Sci 177(2):392–404
+
+Gajiwala KS, Wu JC, Christensen J et al (2009) KIT kinase mutants 
+show  unique  mechanisms  of  drug  resistance  to  imatinib  and 
+
+1 3374
+
+Naunyn-Schmiedeberg's Archives of Pharmacology (2023) 396:365–374
+
+sunitinib in gastrointestinal stromal tumor patients. Proc Natl 
+Acad Sci U S A 106(5):1542–1547
+
+Hao J, Li SJ (2018) Recent advances in network pharmacology applica-
+tions in Chinese herbal medicine. Tradit Med Res 3(6):260–272
+Hao J, Jin Z, Zhu H et al (2018) Antiestrogenic activity of the Xi-
+Huang formula for breast cancer by targeting the estrogen recep-
+tor α. Cell Physiol Biochem 47(6):2199–2215. https:// doi. org/ 10. 
+1159/ 00049 1533
+
+Hopkins AL (2008) Network pharmacology: the next paradigm in drug 
+discovery. Nat Chem Biol 4(11):682–690. https:// doi. org/ 10. 1038/ 
+nchem bio. 118
+
+Jinlong R, Peng L, Jinan W et al (2014) TCMSP: a database of sys-
+tems pharmacology for drug discovery from herbal medicines[J]. 
+J Cheminformatics 6(1):13
+
+Kale J, Osterlund EJ, Andrews DW (2018) BCL-2 family proteins: 
+changing partners in the dance towards death[J]. Cell Death Dif-
+fer 25(1):65–80
+
+Li Y, Jiang B, Wang R, Wang J, Li Y, Bao Y (2020) Synergistic effects 
+of tanshinone IIA and andrographolide on the apoptosis of can-
+cer cells via crosstalk between p53 and reactive oxygen species 
+pathways. Pharmacol Rep 72(2):400–417. https:// doi. org/ 10. 1007/ 
+s43440- 019- 00006-z
+
+Lin C, Wang L, Wang H, Yang L, Guo H, Wang X (2013) Tanshinone 
+IIA inhibits breast cancer stem cells growth in vitro and in vivo 
+through attenuation of IL-6/STAT3/NF-kB signaling pathways. J 
+Cell Biochem 114(9):2061–2070
+
+Liu Z, Guo F, Wang Y et al (2016) BATMAN-TCM: a bioinformat-
+ics analysis tool for molecular mechanism of traditional Chinese 
+medicine[J]. Sci Rep 6:21146
+
+Liu J, Hao J, Niu Y, Wu X (2021) Network pharmacology-based and 
+clinically relevant prediction of active ingredients and poten-
+tial targets of Chinese herbs on stage IV lung adenocarcinoma 
+patients. J Cancer Res Clin Oncol 147(7):2079–2092
+
+Morris GM, Huey R, Lindstrom W, Sanner MF, Belew RK, Goodsell 
+DS, Olson AJ (2009) (2009) Autodock4 and AutoDockTools4: 
+automated docking with selective receptor flexiblity. J Computa-
+tional Chemistry 16:2785–2791
+
+Planken  S,  Behenna  DC,  Nair  SK  et  al  (2017)  Discovery  of 
+N-((3R,4R)-4-fluoro-1-(6-((3-methoxy-1-methyl-1H-pyrazol-
+4-yl)amino)-9-methyl-9H-purin-2-yl)pyrrolidine-3-yl)acrylamide 
+(PF-06747775) through structure-based drug design: a high affin-
+ity irreversible inhibitor targeting oncogenic EGFR mutants with 
+selectivity over wild-type EGFR. J Med Chem 60(7):3002–3019
+Powell E, Shao J, Yuan Y et al (2016) p53 deficiency linked to B cell 
+translocation gene 2 (BTG2) loss enhances metastatic potential 
+by promoting tumor growth in primary and metastatic sites in 
+patient-derived xenograft (PDX) models of triple-negative breast 
+cancer[J]. Breast Cancer Res 18(1):13
+
+Qin J, Clore GM, Kennedy WM, Huth JR, Gronenborn AM (1995) 
+Solution structure of human thioredoxin in a mixed disulfide inter-
+mediate complex with its target peptide from the transcription 
+factor NF kappa B. Structure 3:289–297
+
+Shah SP, Roth A, Goya R et al (2012) The clonal and mutational evolu-
+tion spectrum of primary triple-negative breast cancers[J]. Nature 
+486(7403):395–399
+
+Su CC (2018) Tanshinone IIA can inhibit MiaPaCa-2 human pan-
+creatic cancer cells by dual blockade of the Ras/Raf/MEK/ERK 
+and PI3K/AKT/mTOR pathways. Oncol Rep 40(5):3102–3111. 
+https:// doi. org/ 10. 3892/ or. 2018. 6670
+
+Suad O, Rozenberg H, Brosh R, Diskin-Posner Y, Kessler N, Shimon 
+LJW, Frolow F, Liran A, Rotter V, Shakked Z (2009) Structural 
+basis  of  restoring  sequence-specific  DNA  binding  and  trans-
+activation to mutant p53 by suppressor mutations. J Mol Biol 
+385:249–265
+
+Sui H, Zhao J, Zhou L et al (2017) Tanshinone IIA inhibits β-catenin/
+VEGF-mediated angiogenesis by targeting TGF-β1 in normoxic 
+and HIF-1α in hypoxic microenvironments in human colorectal 
+cancer. Cancer Lett 403:86–97
+
+Sung H, Ferlay J, Siegel RL et al (2021) Global cancer statistics 2020: 
+GLOBOCAN estimates of incidence and mortality worldwide for 
+36 cancers in 185 countries. CA Cancer J Clin 71(3):209–249. 
+https:// doi. org/ 10. 3322/ caac. 21660
+
+Szklarczyk D, Franceschini A, Wyder S et al (2014) STRING v10: 
+protein–protein interaction networks, integrated over the tree of 
+life. Nucleic Acids Res 43:D447–D452
+
+Taira N, Nihira K, Yamaguchi T et al (2007) DYRK2 is targeted to 
+the nucleus and controls p53 via Ser46 phosphorylation in the 
+apoptotic response to DNA damage[J]. Mol Cell 25(5):725–738
+
+Trisciuoglio D, De Luca T, Desideri M et al (2013) Removal of the 
+BH4 domain from Bcl-2 protein triggers an autophagic process 
+that impairs tumor growth[J]. Neoplasia 15(3):315–327
+
+Vickers CJ, González-Páez GE, Wolan DW (2013) Selective detec-
+tion of caspase-3 versus caspase-7 using activity-based probes 
+with key unnatural amino acids. ACS Chem Biol 8(7):1558–1566
+Waks AG, Winer EP (2019) Breast cancer treatment: a review. JAMA 
+321(3):288–300. https:// doi. org/ 10. 1001/ jama. 2018. 19323
+Wang R, Luo Z, Zhang H, Wang T (2019) Tanshinone IIA reverses 
+gefitinib-resistance in human non-small-cell lung cancer via regu-
+lation of VEGFR/Akt pathway. Onco Targets Ther. 12:9355–9365. 
+https:// doi. org/ 10. 2147/ OTT. S2212 28
+
+Wang  Y,  Zhang  S,  Li  F  et  al  (2020)  Therapeutic  target  database 
+2020:  enriched  resource  for  facilitating  research  and  early 
+development  of  targeted  therapeutics[J].  Nucleic  Acids  Res 
+48(D1):D1031–D1041
+
+Wu Q, Zheng K, Huang X, Li L, Mei W (2018) Tanshinone-IIA-
+based analogues of imidazole alkaloid act as potent inhibitors 
+to block breast cancer invasion and metastasis in vivo. J Med 
+Chem 61(23):10488–10501. https:// doi. org/ 10. 1021/ acs. jmedc 
+hem. 8b010 18
+
+Xian MH, Zhan SK, Zheng KN et al (2021) Neuroprotective effect and 
+mechanism of daidzein in oxygen-glucose deprivation/reperfusion 
+injury based on experimental approaches and network pharmacol-
+ogy. Tradit Med Res 6(5):41
+
+Xu Z, Chen L, Xiao Z et al (2018) Potentiation of the anticancer effect 
+of doxorubicinin drug-resistant gastric cancer cells by tanshinone 
+IIA. Phytomedicine 51:58–67. https:// doi. org/ 10. 1016/j. phymed. 
+2018. 05. 012
+
+Xue J, Jin X, Wan X et al (2019) Effects and mechanism of tanshinone 
+II A in proliferation apoptosis and migration of human colon can-
+cer cells. Med Sci Monit. 25:4793–4800. https:// doi. org/ 10. 12659/ 
+MSM. 914446
+
+Yang J, Cron P, Good VM, Thompson V, Hemmings BA, Barford D 
+(2002) Crystal structure of an activated Akt/protein kinase B ter-
+nary complex with GSK3-peptide and AMP-PNP. Nat Struct Biol 
+9(12):940–944
+
+Zhou H, Chen J, Meagher JL et al (2012) Design of Bcl-2 and Bcl-
+xL inhibitors with subnanomolar binding affinities based upon 
+a new scaffold [published correction appears in. J Med Chem. 
+55(10):4664–4682
+
+Publisher's  note  Springer  Nature  remains  neutral  with  regard  to 
+jurisdictional claims in published maps and institutional affiliations.
+
+Springer Nature or its licensor (e.g. a society or other partner) holds 
+exclusive rights to this article under a publishing agreement with the 
+author(s) or other rightsholder(s); author self-archiving of the accepted 
+manuscript version of this article is solely governed by the terms of 
+such publishing agreement and applicable law.
+
+1 3

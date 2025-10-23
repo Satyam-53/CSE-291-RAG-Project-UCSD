@@ -1,0 +1,2304 @@
+Oncogene
+
+www.nature.com/onc
+
+OPEN
+
+REVIEW ARTICLE
+Breathing new insights into the role of mutant p53 in
+lung cancer
+Tianwei Chen1,2, Lauren M. Ashwood3,4, Olga Kondrashova
+Kate D. Sutherland 1,2 ✉
+
+3,4, Andreas Strasser
+
+, Gemma Kelly
+
+1,2 ✉
+
+1,2 ✉
+
+and
+
+© The Author(s) 2024
+
+The tumour suppressor gene p53 is one of the most frequently mutated genes in lung cancer and these defects are associated with
+poor prognosis, albeit some debate exists in the lung cancer ﬁeld. Despite extensive research, the exact mechanisms by which
+mutant p53 proteins promote the development and sustained expansion of cancer remain unclear. This review will discuss the
+cellular responses controlled by p53 that contribute to tumour suppression, p53 mutant lung cancer mouse models and
+characterisation of p53 mutant lung cancer. Furthermore, we discuss potential approaches of targeting mutant p53 for the
+treatment of lung cancer.
+
+Oncogene (2025) 44:115–129; https://doi.org/10.1038/s41388-024-03219-6
+
+:
+,
+;
+)
+(
+0
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+(Fig. 1).
+
+THE TUMOUR SUPPRESSOR P53
+The p53 gene (generic name used here, also known as TP53 in
+humans and Trp53 in mouse) encodes the tumour suppressor
+protein p53 (TP53/TRP53), a transcription factor that can regulate
+diverse cellular processes, including apoptotic cell death, adapta-
+tion of cellular metabolism, cell cycle arrest, cellular senescence
+and DNA damage repair [1]
+In unstressed cells, p53
+proteins levels are kept low, since it is ubiquitinated by the E3
+ligase mouse double minute 2 (MDM2) (called HDM2 in humans),
+thereby targeting it for proteasomal degradation. Stress condi-
+tions, such as DNA damage, hypoxia, nutrient deprivation or
+oncogene activation, lead to the inhibition of MDM2 and/or direct
+modiﬁcation of p53,
+resulting in the stabilisation and thus
+activation of the p53 protein. p53 proteins then bind as homo-
+tetramers to the promoter regions of ~500 direct target genes and
+induce their expression to activate apoptosis, cell cycle arrest, DNA
+repair and other cellular processes [2].
+
+Initially,
+
+suppressor,
+
+Although p53 has been widely recognised as an important
+the exact mechanisms by which this
+tumour
+transcription factor prevents tumour development is not fully
+understood.
+the induction of
+apoptosis was the principal mechanism for tumour suppression
+by p53. However, numerous studies have shown that additional
+cellular processes must also be involved. Here, the major cellular
+processes that can be induced by p53 and how they contribute to
+tumour suppression will be discussed individually.
+
+it was thought
+
+that
+
+APOPTOSIS
+Apoptosis is a form of programmed cell death that is important for
+embryonic development, and the maintenance of tissue homo-
+eostasis by removing no longer needed or potentially dangerous
+
+(e.g. infected or early neoplastic) cells [3–5]. Apoptosis can occur
+through two distinct yet converging pathways, the intrinsic (aka
+mitochondrial,
+stress-induced or BCL-2 regulated, BAX/BAK-
+dependent) or extrinsic (aka death receptor-induced) pathways
+[6]. The intrinsic apoptotic pathway is regulated by the proteins of
+the B cell
+lymphoma 2 (BCL-2) family [7]. The BCL-2 family of
+proteins are divided into three subgroups: (1) the pro-apoptotic
+BH3-only proteins, such as Bcl-2 Interacting Mediator of cell death
+(BIM), the p53 upregulated modulator of apoptosis (PUMA) and
+phorbol-12-myristate-13-acetate-induced protein 1 (NOXA), which
+are initiators of apoptosis; (2) the pro-survival proteins, such as
+BCL-2, BCL-XL and MCL-1, which are the guardians that inhibit
+apoptosis; and (3) the pro-apoptotic effectors of apoptosis, BAX,
+BAK (and BOK), with the ﬁrst two inhibited by the pro-survival BCL-
+2 proteins in healthy cells [6]. The genes that encode the BH3-only
+proteins, PUMA and NOXA, have been identiﬁed as direct target
+genes of p53, whereas the gene that encodes the BH3-only
+protein BIM can be indirectly induced by p53 [8, 9]. Upon certain
+the
+cellular
+expression of PUMA, NOXA and BIM, which inhibit the pro-
+survival BCL-2 proteins, leading to the activation of the effectors of
+apoptosis, BAX and BAK. It has been reported that BAX and BAK
+can also be directly activated by some BH3-only proteins [7]. When
+activated, BAX and BAK oligomerise and cause mitochondrial
+outer membrane permeabilisation (MOMP). This leads to the
+release of apoptogenic factors, such as cytochrome c and SMAC/
+DIABLO into the cytoplasm. Cytochrome c binds to apoptotic
+peptidase-activating factor 1 (APAF-1) and this adaptor platform
+induces activation of the initiator caspase, caspase-9. Caspase-9
+then proteolytically activates the downstream effector caspases
+(i.e. caspases-3, (-6) and -7) and this caspase cascade causes the
+ordered dismantling of the dying cells [7]. The extrinsic apoptotic
+
+stresses, p53 is activated and then increases
+
+1Walter and Eliza Hall Institute of Medical Research, Parkville, VIC, Australia. 2Department of Medical Biology, The University of Melbourne, Parkville, VIC, Australia. 3QIMR
+Berghofer Medical Research Institute, Herston, QLD, Australia. 4The University of Queensland, Brisbane, QLD, Australia.
+sutherland.k@wehi.edu.au
+
+email: strasser@wehi.edu.au; gkelly@wehi.edu.au;
+
+✉
+
+Received: 8 July 2024 Revised: 25 October 2024 Accepted: 1 November 2024
+Published online: 20 November 2024
+
+116
+
+T. Chen et al.
+
+Fig. 1 Cellular processes regulated by p53. p53 regulates diverse cellular processes via the transcriptional regulation of target genes. Some
+cellular processes that contribute to the tumour suppressive function of p53 include apoptosis, cell cycle arrest, cell senescence, DNA repair
+and cell metabolism. Some genes essential for carrying out these processes are indicated.
+
+pathway is triggered by the stimulation of death receptors, such
+as FAS, by their ligands, such as FASL, on the plasma membrane.
+This activates the initiator caspase, caspase-8, through the adaptor
+protein FADD. Activated caspase-8 can trigger apoptosis either
+directly by proteolytically activating the downstream effector
+caspases, caspases-3, (-6) and -7, however can also proteolytically
+activate the BH3-only protein BID, thereby increasing effector
+caspase activation by engaging the intrinsic apoptotic pathway
+(see above)
+[10]. p53 is thought to also be involved in the
+regulation of the death receptor apoptotic pathway by upregulat-
+ing target genes, such as those for FAS [11, 12], Death Receptor 5
+(DR5) [13], TNF receptor-associated protein 4 (TRAF4) [14] and
+SUSD6 (DRAGO; TMPS; KIAA0247) [15, 16]. Of note, cells lacking
+FAS (e.g. from lpr mutant mice) or cells overall deﬁcient in death
+lacking FADD function) are
+receptor-induced apoptosis (e.g.
+resistant to apoptosis induced by activation of p53 by γ-radiation
+or DNA damage-inducing drugs [17]. Therefore, the upregulation
+of these genes by p53 possibly serves to sensitise cells to
+apoptosis by cytotoxic T cells and natural killer (NK) cells, which
+can express the ligands for death receptors.
+
+The ability of p53 to induce apoptosis was ﬁrst revealed in a
+study using a myeloid leukaemia cell line in which expression of
+wildtype (WT) p53 was induced [18]. Subsequently, using gene
+knockout mice, it was shown that p53 is essential for the induction
+of apoptosis triggered by agents that cause DNA damage,
+including γ-radiation and certain chemotherapeutic drugs, such
+as etoposide or cisplatin [19–21]. Later work demonstrated that
+the combined absence of the p53 target genes encoding the pro-
+apoptotic BH3-only proteins PUMA and NOXA (and to a lesser
+
+extent loss of PUMA alone) rendered lymphoid cells as resistant to
+DNA damage-inducing agents as loss of p53 itself [8, 9, 22]. This
+demonstrated that transcriptional induction of PUMA and NOXA
+accounts for all p53-induced apoptosis. As soon as p53 was shown
+to be able to induce apoptosis it was predicted that this is one of,
+if not the sole, mechanism by which p53 prevents tumorigenesis.
+Consistent with this notion, loss of PUMA accelerates c-MYC over-
+expression induced lymphoma development in mice [23]. How-
+ever, even combined loss of PUMA and NOXA accelerated c-MYC
+induced lymphomagenesis to a considerably lesser extent than
+loss of only a single allele of p53 (p53+/−) [23]. This demonstrates
+that p53 must suppress tumour development not only through
+induction of apoptosis, but also through activation of additional
+processes.
+
+CELL CYCLE ARREST AND CELL SENESCENCE
+Cell cycle arrest and cell senescence, the latter a process of
+irreversible cell cycle arrest, are protective mechanisms for
+maintaining tissue homoeostasis, and can function as comple-
+mentary mechanisms to programmed cell death for tumour
+suppression [24]. Cell cycle arrest and cell senescence can be
+triggered by shortening of telomeres, a feature of aged cells, as
+well as in response to various environmental and cellular stresses,
+such as nutrient deprivation, DNA damage and oncogene
+expression. One of the most extensively studied pathways of
+induction of cell cycle arrest and cell senescence is through the
+direct transcriptional
+induction of the cyclin-dependent kinase
+inhibitor p21 by p53, resulting in arrest at the G1/S boundary [25].
+
+Oncogene (2025) 44:115 – 129
+
+In addition to proliferation arrest, senescent cells also exhibit
+to their morphology (increased ﬂattening) and
+alterations
+metabolism with the activation of the so-called senescence-
+associated secretory phenotype (SASP), whereby the cells secrete
+cytokines, chemokines and proteases, that have profound effects
+on neighbouring cells in the tumour microenvironment (TME)
+[26–28].
+
+transformation of
+
+p53 has been shown to be essential for oncogene-induced
+senescence [29]. For example, the expression of mutant Rat
+sarcoma virus (RAS) in mouse embryonic ﬁbroblasts results in
+permanent G1 cell cycle arrest accompanied by a signiﬁcant
+increase in the level of p53 and the expression of many of its
+target genes, including p21. The loss or mutation of p53 prevents
+mutant RAS induced cell cycle arrest and senescence, thereby
+promoting the malignant
+these cells [30].
+However, in recent years some studies have provided evidence
+that senescent cells can under certain conditions also promote
+tumorigenesis [31, 32]. The depletion of senescent cells in aging
+mice delayed age-related morbidity and decreased the incidence
+of tumorigenesis and cancer-related death [33]. This is thought to
+be due to the removal of
+the SASP that may promote
+tumorigenesis by inducing chronic inﬂammation, a known driver
+of tumorigenesis [27, 32, 34]. Moreover, it has been reported that
+under certain conditions senescent cancer cells are capable of
+exiting from their growth arrested state,
+thereby re-starting
+tumour expansion [35]. These features of senescent cells are
+identiﬁed as the emerging hallmarks and enabling characteristics
+of cancer [24].
+
+Although p53 induced apoptosis via PUMA and NOXA and cell
+senescence via p21 play critical roles in preventing cells from
+malignant transformation, these two mechanisms are dispensable
+for p53-mediated suppression of spontaneous tumour develop-
+ment. Remarkably, none of Puma−/−, Noxa−/−, Puma−/−;Noxa−/−
+or even Puma−/−;Noxa−/−;p21−/− mice spontaneously developed
+tumours even when aged to >450 days. In contrast, p53−/− mice
+(on a C57BL/6 background) develop tumours spontaneously with
+a 100% incidence within 280 days [36, 37]. Similarly, mice with p53
+mutations that impair the transcriptional activation of p21, Puma
+and Noxa, but retain the ability to induce the transcription of
+certain other p53 target genes, also do not develop tumours
+spontaneously [38]. Collectively, these ﬁndings indicate that p53-
+mediated tumour suppression is a complex process and that p53
+than Puma, Noxa and p21 and cellular
+target genes other
+processes in addition to apoptosis and cell cycle arrest/cell
+senescence must also be involved.
+
+DNA DAMAGE REPAIR
+DNA damage repair is a critical cellular response to maintain
+genomic integrity after the exposure to endogenous or exogen-
+ous DNA damaging agents [39]. Failure of DNA damage repair can
+result in genomic instability and mutations, and this is also
+identiﬁed as a hallmark of cancer [5]. Several DNA damage
+response processes operate in cells to prevent propagation of
+DNA lesions. For example, nucleotide excision repair
+(NER)
+removes adducts of DNA lesions commonly caused by UV
+irradiation and is one of the major mechanisms that protect cells
+from neoplasm, mutagenesis and cytotoxicity [40]. On the other
+hand, base excision repair (BER) corrects oxidative modiﬁcations of
+the DNA bases [41]. DNA double stranded breaks (DSB) are
+typically induced by ionising radiation or spontaneously during
+DNA replication. These lesions are repaired through homologous
+recombination (HR) or non-homologous end joining (NHEJ).
+rectiﬁes nucleotides that have been
+Mismatch repair
+incorrectly inserted into DNA during the replication process [42].
+Many studies have provided evidence that p53 plays an
+important role in maintaining genome stability and suppressing
+tumorigenesis by activating a variety of DNA damage repair
+
+(MMR)
+
+Oncogene (2025) 44:115 – 129
+
+T. Chen et al.
+
+117
+
+pathways [42]. The earliest connection between p53 and NER was
+demonstrated by Smith et al., where they found that human cells
+in which normal p53 function was disrupted by either the human
+papillomavirus E6 oncoprotein or expression of a transgene
+encoding a dominant-negative mutant of p53 showed signiﬁ-
+cantly reduced tolerance to UV irradiation [43].
+In BER, various
+interactions were described between p53 and APE1/Ref-1, the
+apurinic and apyrimidinic (AP) endonucleases that are essential for
+the removal of damaged bases and subsequently the repair of the
+AP sites [44, 45]. It was reported that APE1/Ref-1 can promote the
+tetramerization of p53 [46] and regulate its trans-activation and
+pro-apoptotic functions [44].
+Interestingly, p53 was found to
+directly supress the transcription of APE1. This function is thought
+to be related to the tumour suppressive role of p53, as the
+downregulation of BER can bias the cellular response towards
+apoptosis in cells with highly damaged DNA [47]. Functions of p53
+in MMR are mainly exerted through its transcriptional induction of
+the gene encoding the MMR core component MSH2. However,
+MSH2 is also found to function in NER, BER and HR. Therefore, p53-
+dependent induction of MSH2 expression may also be involved in
+other DNA damage repair pathways [42]. Additionally, p53 has
+been shown to activate the HR pathway by both direct and
+indirect interactions with RAD51 [48–52]. Other studies have
+shown that p53 can also mediate HR by interacting with other
+proteins, such as the ATM/ATR checkpoint kinases [53]. The role of
+p53 in NHEJ is less well studied compared to those in HR. It is
+known that p53 can promote NHEJ by interacting with
+components of the NHEJ pathway, such as XRCC4 and DNA ligase
+IV [54–56]. However,
+these
+interactions remain largely unclear. Recently, a p53-dependent
+gene ring ﬁnger protein 144b (Rnf144b) has been found to be
+involved in the repair of DNA DSBs and is shown to have a pivotal
+tumour suppressive function, particularly in lung adenocarcinoma
+[57]. In addition, an in vivo shRNA library screen and validation
+using CRISPR induced gene deletion revealed that the loss of
+several p53-regulated DNA repair genes can markedly accelerate
+c-MYC-driven lymphomagenesis and the removal of Mlh1, a key
+gene involved in MMR, can even on its own promote spontaneous
+tumour development [58]. Overall, these ﬁndings demonstrate
+that coordination of DNA damage repair contributes substantially
+to p53-mediated tumour suppression.
+
+the molecular mechanisms of
+
+ADAPTATION OF CELL METABOLISM
+Recent studies have demonstrated that p53 may also prevent
+tumour development through the regulation of cell metabolism.
+The emerging role of p53 in metabolic rewiring in cancer has been
+comprehensively explored in several recent reviews [59–61], and
+we discuss this topic here only relatively brieﬂy. p53 has been
+reported to play important roles in the control of mitochondrial
+oxidative phosphorylation (OXPHOS), a cellular process that
+produces adenosine triphosphate (ATP). p53 enhances OXPHOS
+by inducing the expression of cytochrome c oxidase 2 (SCO2). In
+addition, p53 is known to negatively regulate cellular glycolysis by
+directly or
+indirectly inhibiting the expression of glucose
+transporters (GLUTs) or the translocation of GLUT1 to the plasma
+membrane, leading to decreased glucose uptake [62–64]. p53 can
+also inﬂuence glucose metabolism by direct or indirect regulation
+of the expression of genes encoding enzymes involved in this
+process, such as p53-induced glycolysis and apoptosis regulator
+(TIGAR)
+[65]. The activation of TIGAR leads to a decrease in
+fructose-2,6-bisphosphate, which subsequently halts glycolysis.
+the absence of Tigar does not promote tumour
+However,
+development, indicating that it does not exert a pivotal role in
+p53-mediated tumour suppression [66].
+
+p53 can also negatively regulate other cellular pathways
+involved in glycolysis, such as the PI3K/AKT signalling pathway
+to suppress glycolysis in cells [67–69]. Tumour cells often undergo
+
+118
+
+T. Chen et al.
+
+Fig. 2 Consequences of point mutation for p53 function. WT p53 proteins bind to DNA and activate the downstream signalling pathways.
+A Loss of function (LOF) effects of mutant p53 abrogate normal p53-mediated cellular processes. B Dominant negative effects (DNE) of mutant
+p53 are a consequence of mixed tetramers containing both WT and mutant p53 proteins, which are signiﬁcantly less efﬁcient at activating the
+WT p53 target genes compared to tetramers containing only WT p53. C Gain of function (GOF) effects of mutant p53 proteins are thought to
+be exerted by binding to and modulating the functions of transcription factors not bound and impacted by WT p53.
+
+metabolic reprogramming to support increased cell growth and
+proliferation. Most tumours experience a signiﬁcant increase in
+glycolysis due to insufﬁcient OXPHOS, which was ﬁrst discovered
+by Warburg et al. and was named as the Warburg effect [70].
+Recent studies suggest that mutations or loss of p53 in tumours
+could be a leading factor that results in the Warburg effect [71].
+Reactive oxygen species (ROS) are by-products of OXPHOS
+generated when cells sustain genotoxic damage or mitochondrial
+stress and they are known to contribute to tissue damage and
+tumorigenesis [71].
+
+Furthermore, p53 has been shown to regulate cell metabolism
+through crosstalk with various cellular pathways, such as the
+mammalian target of rapamycin (mTOR) and AMP-activated protein
+kinase (AMPK) pathways [72]. The mTOR pathway can be activated by
+high levels of nutrients and energy, such as a high ATP/ADP ratio,
+growth factors and oxygen, which promote anabolism and inhibit
+catabolism [72, 73]. Conversely, a low energy state (i.e. a low ATP/ADP
+ratio) activates AMPK, which in turn promotes catabolism and inhibits
+anabolism [72, 74]. AMPK and mTOR are key regulators of autophagy,
+which is a self-eating process to degrade proteins, organelles and
+membranes, thereby recycling macromolecules for production of
+energy in response to cellular stress [75]. Several studies have
+suggested that WT p53 can induce autophagy in cancer cells via the
+activation of AMPK and the suppression of mTOR by transcriptional
+induction of the genes encoding phosphatase and tensin homologue
+(PTEN) and tuberous sclerosis 1 (TSC1) [76–79], whereas autophagy is
+inhibited in p53 mutant cancer cells [80, 81]. Moreover, cancer cells
+expressing mutant p53 exhibit
+increased sensitivity to mTOR
+inhibition compared to cancer cells with WT p53 [81]. This supports
+the importance of p53 in regulating the mTOR signalling pathway to
+suppress tumour development. Collectively, these ﬁndings suggest
+critical, albeit not yet well understood, roles of p53 in metabolic
+regulation and the prevention of tumorigenesis.
+
+P53 MUTANT CANCERS
+p53 mutations occur
+in ~50% of human cancers and are
+commonly associated with poor therapy responses and poor
+patient outcomes [82]. People with Li-Fraumeni syndrome that
+inherit one mutant p53 allele and one WT p53 allele have an ~50%
+likelihood of developing cancer by the age of 35 and a ~90% risk
+of developing cancer throughout their lifetime [83]. Although over
+2000 different mutations in the p53 gene have been reported in
+human cancers [84], most mutations occur at six hotspot amino
+acid residues in the DNA-binding domain (R175, G245, R248, R249,
+R273 and R282) [85]. Mutations have also been found in other
+domains of p53, but their effects on tumorigenesis are less well
+the selection for
+known [86]. Moreover,
+hotspot mutant p53 in cancers
+[87].
+Interestingly, the frequency of different p53 mutations varies
+
+the mechanisms of
+
+remains unclear
+
+still
+
+this variability are that
+
+dramatically between cancer types [88]. Two possible explanations
+speciﬁc mutations can be
+for
+(i)
+preferentially enriched due to differences in mutational aetiolo-
+gies (e.g. exposure to different carcinogens), and (ii) individual
+hotspot mutations may exhibit distinct tumorigenic potential in
+different tissues [89]. Mutant p53 is proposed to promote tumour
+development in three ways (Fig. 2). (1) Loss of function (LOF)
+effects abrogate normal p53-mediated cellular processes, leading
+to defects in cell cycle arrest, evasion of apoptosis and genomic
+instability [90]. (2) Dominant negative effects (DNE) are thought to
+result from the formation of mixed tetramers containing both WT
+p53 and mutant p53 proteins. In this setting, such mixed tetramers
+are signiﬁcantly less efﬁcient at activating target genes compared
+to WT p53 homo-tetramers [1]. The DNE of mutant p53 can be
+critical during early stages of tumour development when cells
+express both the WT and mutant p53 alleles [85], as at diagnosis
+most mutant p53 expressing cancers have lost the WT p53 allele
+(loss of heterozygosity). (3) The reported gain of function (GOF)
+effects of mutant p53 proteins are thought to be exerted by
+binding to and modulating the functions of certain transcription
+factors (e.g. erythroblast transformation speciﬁc proteins) that are
+not bound and impacted by WT p53 [82, 88]. Indeed, enforced
+expression of mutant p53 in p53-deﬁcient mouse or human cell
+lines has been reported to lead to new phenotypes [91],
+supporting the GOF effects of mutant p53. Moreover, previous
+studies showed that different p53 mutations may have distinct
+oncogenic properties, and these mutations may promote tumour
+development beyond the LOF effect. For example, several mouse
+models have shown that certain mutant p53 proteins are able to
+enhance the invasion and motility of cancer cells compared to
+In addition, Li-
+what
+Fraumeni patients with certain hotspot p53 mutations, such as
+R248Q, show earlier onset of malignant disease compared with
+patients that harbour mutations that cause a loss of p53 protein
+[96]. This may, however, also be ascribed to the DNE of R248Q
+mutant p53 protein. The relative importance of the LOF, DNE and
+GOF effects of mutant p53 in the initiation, sustained growth and
+metastasis of cancer is still hotly debated, as is how the different
+p53 mutations affect these tumorigenic processes. Adding to the
+complexity, p53 mutations have been reported to occur at
+different stages of malignant transformation [97]. It is therefore
+possible that mutant p53 proteins may contribute differently to
+tumorigenesis depending on the timing of the acquisition of the
+mutation and the context of co-existing oncogenic drivers. This
+still requires substantial further investigation.
+
+is seen in p53-deﬁcient mice [92–95].
+
+LUNG CANCER
+Lung cancer
+is the leading cause of cancer-related deaths
+worldwide, with a 5-year survival rate of <15% [98]. Lung cancer
+
+Oncogene (2025) 44:115 – 129
+
+T. Chen et al.
+
+119
+
+Fig. 3 p53 missense mutations in human LUAD. Frequencies of p53 mutants in LUAD patients with p53 missense mutations (N = 514) were
+obtained from the GENIE BPC NSCLC v2.0 cohort [219], with domains of the p53 protein displayed below [220]. The protein schematic was
+generated using the drawProteins package [221]. TAD transactivation domain, PRD proline-rich domain, DBD DNA-binding domain, TET
+tetramerisation domain, CTD C-terminal regulatory domain.
+
+is a highly heterogenous disease that can be classiﬁed into four
+histopathological subtypes. Approximately 15% percent of lung
+cancer cases are classiﬁed as small cell lung cancer (SCLC). The
+remaining ~85% of cases are classiﬁed as non-small cell
+lung
+cancer (NSCLC), which can be further divided into adenocarci-
+noma (LUAD; ~40% of NSCLC), squamous cell carcinoma (LUSC,
+~25% of NSCLC) and large cell carcinoma (~15% of NSCLC) [99].
+
+i. Lung adenocarcinoma
+
+rearrangements of
+
+somatic alterations
+
+LUAD, the most prevalent subtype of NSCLC,
+
+is char-
+acterised by its glandular differentiation and is located most
+frequently in the periphery of the lung [100]. The genomic
+is distinct between
+landscape of
+different lung cancer subtypes, and a number of molecular
+subtypes have been identiﬁed in LUAD based on their
+oncogenic drivers [99]. For example, activating mutations of
+the gene encoding epidermal growth factor receptor (EGFR)
+the genes encoding
+or KRAS, or
+anaplastic lymphoma kinase (ALK) or ROS proto-oncogene 1
+(ROS1) have led to the oncogene-centric molecular classi-
+ﬁcation of NSCLC [101]. Although there are known associa-
+tions between subtypes of
+lung cancer with distinct
+oncogenic drivers and their histological appearance as well
+as growth patterns [102], tumours driven by the same
+oncogenic alterations can exhibit signiﬁcant molecular and
+clinical heterogeneity [101]. This is in part due to the
+diversity of oncogenes that drive the different cases of lung
+[103]. For example, KRAS mutations have been
+cancer
+observed in various codons, with the majority of mutations
+occurring at codon 12, while mutations at codons 13, 10 and
+61 are less frequent [103]. In NSCLC, the most common KRAS
+mutations include KRASG12C (39%), KRASG12V (18–21%) and
+KRASG12D (17–18%)
+[104]. The G12D mutation is more
+common in non-smoking NSCLC patients, whereas the
+G12C mutation is more prevalent
+in smoking NSCLC
+patients [105, 106]. These different amino acid substitutions
+exert distinct impact on the downstream mitogen-activated
+
+Oncogene (2025) 44:115 – 129
+
+protein kinase (MAPK) signalling pathway, involving PI3K/
+AKT, mitogen-activated protein kinase kinase (MEKK) and
+RAS-like (RAL) GTPases. These are important factors that
+contribute to the overall survival
+(OS) and therapeutic
+response of lung cancer patients [103]. These subgroups of
+KRAS-mutant LUAD exhibit different
+responses to anti-
+cancer therapeutics and have distinct impact on the TME
+[101, 107]. There is emerging evidence that co-occurrence of
+speciﬁc mutations in oncogenes and tumour suppressor
+genes can contribute to the molecular and clinical hetero-
+geneity in lung cancer [101]. For example, mutations of p53,
+mutations or loss of liver kinase B1 (LKB1) (also known as
+serine/threonine kinase 11 (STK11)), which is frequently
+associated with the loss of Kelch-like ECH-associated protein
+1 (KEAP1), and bi-allelic inactivation of cyclin-dependent
+kinase inhibitor 2A (CDKN2A) and cyclin-dependent kinase
+inhibitor 2A (CDKN2B) have been identiﬁed as three major
+co-occurring genetic alterations in KRAS-mutant LUAD. Like
+for many other cancers, mutations in p53 are common in
+lung cancer and certain hotspot mutants predominate. The
+most common p53 mutations in human LUAD occur at
+codon R273, while mutations at R175, which frequently
+occur in other cancer types, are less common in LUAD [108]
+In human NSCLC, conﬂicting results have been
+(Fig. 3).
+reported on the role of p53 mutations as a prognostic
+marker [109–113],
+likely due to the differing functional
+effects of speciﬁc p53 mutations. These ﬁndings highlight
+the importance of further categorising lung cancers with
+mutant KRAS and mutant p53 based on their genotype,
+including particular mutations in p53.
+
+Conventional therapies for NSCLC include surgery, radio-
+therapy and chemotherapy, either alone or in combination
+[114]. Surgical resection is recommended for patients with
+early-stage NSCLC without other morbidities
+[115].
+Platinum-based chemotherapy (e.g. cisplatin) in combina-
+tion with other cytotoxic agents are standard regimens for
+patients with advanced lung cancer and they have been
+
+120
+
+T. Chen et al.
+
+shown to signiﬁcantly improve patient survival. However,
+these treatments have substantial toxicity and the recur-
+still high [116].
+rence rate of malignant disease is
+Immunotherapy is a new modality for cancer
+therapy.
+Immune checkpoint blockade (ICB) agents, such as anti-
+bodies that inhibit PD-(L)1 or CTLA-4, have been used with
+success in the treatment of many cancers, including NSCLC
+[117]. This has demonstrated higher clinical efﬁcacy
+compared with conventional
+therapies in NSCLC [117].
+However, only a small subset of patients experience durable
+anti-tumour
+responses upon anti-PD-1 treatment, and
+accurate biomarkers predictive of response to such thera-
+pies are yet to be deﬁned [118]. Targeted therapy has
+transformed the therapeutic landscape of lung cancer over
+few decades. The identiﬁcation of
+the past
+targetable
+genetic alterations has allowed for individualised therapies,
+and this has signiﬁcantly improved the response rate and
+progression-free survival. Current Food and Drug Adminis-
+tration (FDA)-approved targeted therapies include tyrosine
+kinase inhibitors inhibiting EGFR, ALK, ROS1, RET, BRAF
+V600E, MET Exon14 or NTRK [114]. For decades, KRAS was
+considered an elusive target for direct inhibition. Recently,
+however, sotorasib (AMG 510), a KRASG12C selective inhibitor
+has been approved by the FDA as a second-line treatment
+for patients with advanced KRASG12C mutant NSCLC. This
+treatment has demonstrated remarkable efﬁcacy with
+substantial response and disease control rates [119, 120].
+A second KRASG12C inhibitor, adagrasib (MRTX849), has also
+produced promising outcomes in clinical trials [121, 122]
+and several other KRASG12C inhibitors have entered clinical
+studies [123]. However, there are currently no approved
+inhibitors of other KRAS mutants. Recent studies have
+reported that two drugs, MRTX1133 and BI-KRASG12D1-3,
+are able to selectively inhibit the viability of KRASG12D
+mutant tumour cells in clinical trials [123].
+In addition,
+several
+indirect pan-KRAS inhibitors are currently under
+investigation [124, 125].
+
+ii. Small cell lung cancer
+
+SCLC is a clinically and histologically distinct subgroup of
+lung cancer and is identiﬁed as one of the high-grade lung
+cancers of neuroendocrine origin [100]. This is a highly
+aggressive disease due to its high growth rate, early
+metastasis and poor prognosis. As a result, more than
+two-thirds of patients present with metastatic SCLC at the
+time of diagnosis [126]. Over 90% of SCLC patients are
+current or past smokers, and the risk of SCLC increases with
+smoking duration and intensity [127]. Unlike NSCLC, the
+classiﬁcation of SCLC is not deﬁned by its
+somatic
+mutations, but according to the expression of
+lineage-
+speciﬁc transcription factors. In seminal ﬁndings by Rudin
+et al., SCLC subtypes were deﬁned by the expression of four
+transcription factors: achaete-scute homologue 1 (ASCL1),
+neurogenic differentiation factor 1 (NEUROD1),
+yes-
+associated protein 1 (YAP1) and POU class 2 homeobox 3
+(POU2F3)
+[128]. Notably, SCLC tumour cells expressing
+ASCL1 and NEUROD1 exhibit neuroendocrine features
+whereas those expressing YAP1 and POU2F3 exhibit a
+neuroendocrine low phenotype [129–131]. However, there
+is increasing evidence that YAP1 does not deﬁne a distinct
+subtype of SCLC.
+Instead, a group of SCLC tumours was
+identiﬁed with low expression of ASCL1, NEUROD1 and
+POU2F3. This subtype shows a unique gene expression
+signature involving human leucocyte antigens and many
+immune checkpoint regulators, including PD-L1 and CTLA-4.
+Therefore, this subtype is called SCLC-Inﬂamed and has
+been found to show greater
+response to ICB therapy
+compared with other subtypes of SCLC [132]. To date, no
+
+deﬁnitive positive selection marker exist to identify this rarer
+subtype of SCLC tumours [132].
+
+the tumour
+
+Genomic proﬁling of SCLC has revealed the nearly
+suppressor genes p53
+loss of
+universal
+(75–90%)
+(almost
+[133, 134] and retinoblastoma (RB1)
+100%) [135]. Apart from these shared features, other genetic
+alterations, such as the loss of PTEN, NOTCH receptors and
+the CREB binding protein, are also observed and the
+importance of these defects has been functionally validated
+in vivo and in vitro [126]. Epigenetic and transcriptomic
+analyses have identiﬁed the ampliﬁcation of the MYC family
+proto-oncogenes (MYC, MYCL and MYCN) [136], with MYCL
+being associated with the ASCL1-subtype and MYC being
+associated with other subtypes [126].
+in the
+MycT58A, NEUROD1high mouse model of SCLC, the stabilisa-
+tion of the mutant MYC protein was shown to promote cell
+transformation and the proliferation of lung cancer cells
+[128].
+
+In addition,
+
+The standard treatment for patients with limited-stage
+SCLC is concurrent
+radiation and chemotherapy which
+typically includes platinum-based agents in combination
+with etoposide [137]. About 20% patients will achieve long-
+term control of malignant disease. However, disease relapse
+occurs in most patients, probably due to the selection for
+surviving treatment insensitive malignant cells, possibly so-
+called cancer stem cells [138]. Patients with metastatic
+disease are treated with platinum plus etoposide combina-
+tion therapy. Recently, several studies have demonstrated
+that
+in
+immunotherapy such as anti-PD-L1 antibodies,
+addition to the standard platinum plus etoposide regimen
+can improve the progression-free and OS in a small subset
+of these patients [139–141]. Despite the beneﬁts brought by
+immunotherapies, SCLC still remains a largely lethal disease
+and there are no approved targeted therapies for SCLC.
+Therefore, a better understanding of the biology of SCLC is
+urgently required to identify new therapeutic vulnerabilities.
+
+INSIGHTS INTO THE ROLE OF MUTANT P53 IN LUNG CANCER
+FROM MOUSE MODELS
+Genetically engineered mouse models (GEMMs) enlighten the
+study of human cancers, as the gene modiﬁcations in GEMMs
+mimic the oncogenic mutations underpinning cancer formation in
+humans and enable the study of speciﬁc oncogenic driver events.
+Mutations of KRAS (32%) and p53 (46%) are two of the most
+common gene mutations in LUAD and the co-occurrence of these
+two gene mutations is frequently observed [99]. In GEMMs of lung
+cancer, the KrasLSL-G12D/+ mouse model is the most widely used
+mutation for the study of KRAS-mutant LUAD. In this model a lox-
+stop-lox (LSL) cassette was inserted upstream of the transcriptional
+start site within a mutant KrasG12D allele knocked into the
+endogenous Kras gene. Intra-nasal delivery of a CRE recombinase
+results in DNA recombination between the loxP sites, leading to
+the removal of the stop codon and consequently the expression of
+mutant Kras [142]. The expression of oncogenic KRASG12D protein
+in murine lung epithelial cells induces the formation of adenomas
+that recapitulate early-stage lesions observed in human LUAD
+[142]. The KrasLSL-G12D/+ mouse model of
+lung cancer with
+conditional inactivation of the p53 allele was ﬁrst generated by
+the Jacks Laboratory [89]. In addition to the modiﬁcation of the
+Kras allele in a more aggressive model, exons 2–10 of the p53
+allele are also ﬂanked by loxP sites, which results in the deletion of
+the p53 allele when CRE is expressed [89]. Loss of p53 cooperates
+with oncogenic Kras to induce LUAD with increased invasiveness
+and accelerates the progression from adenomas to adenocarci-
+nomas [89]. Other studies using Kras-mutant LUAD mouse models
+
+Oncogene (2025) 44:115 – 129
+
+T. Chen et al.
+
+121
+
+Table 1.
+
+Summary of p53 mutant lung cancer mouse models.
+
+Cancer type
+
+Lung adenomas
+
+LUAD
+
+Genotypes
+KrasLSL-G12D/+ [142]
+KrasLSL-G12D/+;p53ﬂ/ﬂ [89]
+
+Features
+
+Recapitulates early-stage lesions observed in human LUAD [142]
+
+Increased invasiveness and accelerated progression from adenomas to
+adenocarcinomas [89, 143]
+
+KrasLA1;p53-/- [143]
+KrasLSL-G12D/+;p53LSL-R172H [89]
+
+KrasLSL-G12D/+;p53LSL-R270H [89]
+
+KrasLSL-G12D/+;p5353/54,53/54 [144]
+
+KrasLA2/+;p53LSL/LSL;Rosa26CreERT2
+[151]
+KrasLSL-G12D/+;p53ERTAM [154]
+RbF19/F19;p53F2-10/F2-10 [145]
+p53ﬂﬂl;Rb1ﬂ/ﬂ;Ptenﬂ/ﬂ [146]
+
+Rb1ﬂ/ﬂ;p53ﬂ/ﬂ;Rbl2ﬂ/ﬂ [148]
+
+Rb1ﬂ/ﬂ;p53ﬂ/ﬂ;MycLSL/LSL [149]
+
+Rb1ﬂ/ﬂ;p53XTR/XTR;Rbl2ﬂ/ﬂ [157]
+
+LOF effects in promoting Kras-initiated LUAD. Tissue-speciﬁc GOF effects in promoting
+sino-nasal adenocarcinomas [89]
+LOF effects in promoting Kras-initiated LUAD. Tissue-speciﬁc GOF effects in promoting
+sino-nasal adenocarcinomas [89]
+
+DNE in promoting sino-nasal adenocarcinomas [89]
+
+Tumour suppression by p53 involves the repurposing of the role of p53 in tissue repair
+[144]
+
+Restoration of WT p53 expression eliminates high-grade tumours [151, 154]
+
+Induces aggressive neuroendocrine lung tumours [145]
+
+Exhibits variant characteristics of SCLC as well as large cell neuroendocrine carcinoma
+and NSCLC [146]
+
+Shares similar features with the p53/Rbl1 double knockout mouse model. Reliably
+recapitulates the ASCL1-high/NEUROD1-low subtype of human SCLC [148]
+
+Representative of the variant subtype of human SCLC. Displays a high level of plasticity
+[149]
+
+Restoration of the expression of WT p53 limits the growth and metastasis of
+autochthonous SCLC [157]
+
+SCLC
+
+with germline loss of p53 have shown similar results [143].
+However, as discussed above, most p53 mutations in human
+It was found that mutant p53
+cancers are missense mutations.
+promotes disease progression of mutant Kras-driven lung
+tumours, and certain point mutations have been reported to
+contribute to tumorigenesis through DNE and/or GOF effects [89].
+A previous study comparing the conditional mutations of p53LSL-
+R270H, p53LSL-R172H and the p53ﬂ/ﬂ allele in the KrasLSL-G12D/+ mouse
+model of LUAD revealed that while for all alterations the LOF
+effects were sufﬁcient to promote Kras-initiated LUAD and drive
+metastasis to regional lymph nodes and distant organ sites, such
+as kidney in a small number of mice, the transcriptional processes
+governed by p53 to elicit this metastatic phenotype is however
+poorly understood. Of note, p53R270H but not p53R172H also acted in
+a dominant-negative manner in promoting tumorigenesis when
+the other allele was WT for p53. Moreover, the expression of
+mutant p53 was found to contribute to tumour heterogeneity by
+promoting the development of sino-nasal adenocarcinomas,
+which was not observed in tumours with a p53-deﬁcient state
+[89]. These Kras/p53 compound mutant mouse models recapitu-
+late several characteristics of advanced human LUAD that are not
+commonly observed in the Kras-mutant/p53-deﬁcient mouse
+models. Despite all the discoveries made from studies using these
+mouse models, which demonstrate the importance of p53 in lung
+cancer, the mechanism by which p53 suppresses lung cancer
+development remains unclear. Recently, a study by Kaiser et al.
+comparing the Kras-mutant LUAD mouse models with p53
+knockout, WT p53 or hyperactive p53 alleles with enhanced
+tumour suppressor activity has revealed the role of p53 loss in the
+initiation and progression of LUAD.
+It was found that tumour
+suppression by p53 in this setting involves the repurposing of the
+role of p53 in tissue repair, whereby p53 promotes alveolar type 1
+cell differentiation of transitional (i.e. early neoplastic) cancer cells.
+Inactivation of p53 leads to the inappropriate persistence of
+transitional cancer cells thereby promoting progression of LUAD
+[144] (Table 1).
+
+Numerous GEMMs have been developed to study SCLC, with
+almost all of them containing conditional alleles of Rb1 (ﬂoxed exon
+
+Oncogene (2025) 44:115 – 129
+
+19) and p53 (ﬂoxed exons 2–10).
+In these mice aggressive
+neuroendocrine lung tumours can be induced upon intra-nasal or
+intra-tracheal delivery of Adeno-Cre viruses [145]. Additional deletion
+of Pten or Rbl2 and stabilisation/over-expression of MYC have been
+shown to further accelerate tumorigenesis and promote metastasis in
+these SCLC mouse models initiated by the loss of Rb1 and p53
+[146–148]. For example, the p53/Rbl1/Pten triple knockout mouse
+model exhibits variant characteristics of SCLC as well as large cell
+neuroendocrine carcinoma and NSCLC [146]. Conversely, the p53/Rb1/
+Rbl2 triple knockout mouse model shares similar features with the
+p53/Rb1 double knockout model, and they both reliably recapitulate
+the ASCL1-high/NEUROD1-low subtype of human SCLC [148].
+In
+contrast, the p53/Rb1 double knockout model with Cre-activated
+mutant MycT58A that leads to stabilised MYC proteins, is representative
+of the variant subtype of human SCLC [149]. Tumour cells with this
+genotype display a high level of plasticity, with an ASCL1-high/
+NEUROD1-low phenotype at early-stage disease and a NEUROD1-
+high/ASCL1-low phenotype in invasive late-stage tumours [148]
+(Table 1). These observations suggest a possible plasticity between
+ASCL1 and NEUROD1 tumour cell phenotypes and implicate MYC as a
+driver of this process.
+
+It was hypothesised that when WT p53 expression is introduced
+into tumour cells, the WT p53 proteins will be activated and stabilised
+due to stress stimuli, such as oncogene expression, hyperproliferative
+signals and DNA damage. This would then lead to activation of p53
+target genes and the subsequent
+induction of apoptosis or
+senescence of tumour cells [150]. This hypothesis has been tested
+in GEMMs of various cancers including lymphoma, lung cancer and
+liver carcinoma [151–154]. In a WT p53 restorable mouse model of
+LUAD, the LSL-WT p53 allele in the mice is phenotypically identical to
+the knockout state of the allele, but the expression of WT p53 can be
+induced upon the removal of LSL by a CRE recombinase [151]. Using
+this mouse model in concert with activation of oncogenic KrasG12D, it
+was found that the induced expression of WT p53 eliminates high-
+grade tumours but not low-grade adenoma lesions [154–156]. Similar
+results were observed in other NSCLC mouse models containing LSL-
+KrasG12D and p53ERTAM alleles, whereby p53 can be switched between
+the knockout and the WT state by tamoxifen administration [154]. In
+
+122
+
+T. Chen et al.
+
+SCLC, the Rb1ﬂ/ﬂ;p53XTR/XTR;Rbl2ﬂ/ﬂ mouse model was used to assess
+the effects of p53 restoration on tumour expansion. In this model, WT
+p53 can be inactivated by a CRE recombinase and then restored by a
+FlpO recombinase.
+It was found that p53 restoration limited the
+growth and metastasis of autochthonous SCLC. Intertumoral hetero-
+geneity was observed between SCLC tumour subtypes in response to
+the restoration of WT p53, such that this led to cell senescence in a
+subset of tumour cells but non-apoptotic cell death in other subsets
+of tumour cells [157] (Table 1).
+
+Overall, GEMMs provide valuable insights into the molecular
+mechanisms driving cancer formation and development. Studies
+using the p53 restorable mouse models suggest that reactivation
+of WT p53 might be a promising therapeutic strategy for treating
+mutant p53-driven lung cancers. The use of GEMMs facilitates our
+understanding of lung cancer biology, as well as the development
+of new therapeutic interventions.
+
+THE PROGNOSTIC ROLE OF P53 MUTATIONS
+While p53 mutations are found in over half of NSCLC [158, 159] and
+over 75% of SCLC [133, 134], the impact of p53 mutations on
+prognosis remains controversial and can vary between lung cancer
+subtypes and tumour stage. Several studies have shown that LUAD
+patients with p53 mutations have worse OS compared to patients
+with WT p53 lung cancers, whereas no signiﬁcant differences were
+observed in LUSC patients [160–162]. Other studies focusing on
+tumour stage have reported that mutations in p53 are associated with
+worse OS in stage I NSCLC patients but not in stage II and stage III
+patients [110, 112]. Of note, the differences in therapeutic histories of
+patients and the small number of patients included in some of these
+studies could be confounding factors that led to contradictory results.
+In SCLC, it was found that p53 mutations provided tumour cells with a
+growth advantage in metastatic disease and growth in tissue
+cultivation [134, 163]. Consistent with this ﬁnding, other studies have
+reported that the proportion of tumours with mutant p53 is higher
+than those with WT p53 in late-stage SCLC patients
+[164].
+Furthermore, histological staining of mutant p53 proteins in over
+100 SCLC tumour specimens revealed that the presence of mutant
+p53 is associated with poor patient survival, supporting the role of
+mutant p53 as a predictive marker of poor prognosis in SCLC [165].
+While most studies only distinguished between cancer patients
+with WT p53 versus mutant p53, the diverse spectrum of p53
+mutations was found to correlate with the heterogeneous clinical
+outcomes. Poeta et al. proposed to categorise p53 mutations
+according to their effects on protein function. They classiﬁed p53
+mutations into two groups: disruptive mutations which can lead to
+the LOF of the mutant p53 proteins, and non-disruptive mutations
+which partially retain some functions of WT p53 and are reportedly
+often associated with DNE and alleged GOF effects of mutant p53
+[166]. Studies following these criteria have shown that non-disruptive
+p53 mutations are associated with signiﬁcantly shorter OS in
+advanced NSCLC patients, whereas p53 mutations, as a whole,
+showed no signiﬁcant correlation with OS. This may be explained by
+the possible DNE and GOF effects of non-disruptive mutant p53
+proteins that lead to increased proliferation, metastasis and chemo-
+resistance, whereas disruptive p53 mutations are unlikely to exert DNE
+and GOF effects [167]. Different impacts of mutant p53 on patient
+outcome were also observed in other cancers, including head and
+neck cancer, chronic lymphocytic leukaemia (CLL) and breast cancer
+[166, 168, 169]. However, some recent studies provided evidence that
+for the sustained expansion of cancers, alleged GOF effects of mutant
+p53 proteins are not critical [170–172].
+
+IMMUNE AND METABOLIC MICROENVIRONMENTS IN P53
+MUTANT TUMOURS
+It is widely accepted that tumour progression is not only impacted
+by cell autonomous features but also by the TME. Mutant p53
+
+proteins have been found to promote a pro-oncogenic TME by
+modulating the secretion of cytokines and chemokines by the
+tumour cells [173]. In addition, p53 also plays an important role in
+anti-tumour
+innate and
+immunity through the regulation of
+adaptive immune proﬁles [174] and/or the expression of immune-
+inhibitory checkpoint regulators by the cancer cells [175].
+
+CD4+ helper T cells, CD8+ cytotoxic T cells, NK cells and in
+certain cases, neutrophils contribute to immune surveillance of
+tumour cells [176–179], whereas other immune cells, such as
+regulatory T cells and certain myeloid cell subsets, were reported
+to suppress anti-tumour immune responses [180–182]. Tumour-
+associated macrophages (TAMs) are a major component of the
+TME. Two main polarisations of TAMs include M1-like macro-
+phages, which exhibit anti-tumour activities by stimulating the
+adaptive immune response and inﬂammation and, conversely,
+M2-like macrophages, which exhibit tumour promoting activities
+by suppressing the immune response in the TME [183]. In lung
+cancer, TAMs are the most abundant immune cells present in the
+TME [184], and they were reported to promote the proliferation,
+epithelial–mesenchymal transition and metastasis of cancer cells,
+which results in poor patient outcomes [185, 186]. A signiﬁcant
+increase in TAMs was observed in NSCLC and other cancers in
+response to loss of p53 [187]. NSCLC cells were found to facilitate
+the polarisation of TAMs towards the M2 phenotype in vitro [185].
+However, other studies showed an increase in M1-like macro-
+phages in p53 mutant LUAD and LUSC patients [188, 189].
+Furthermore, mutant p53 expressed in cancer cells has been
+reported to impact macrophage behaviour through its GOF effects
+thereby supporting tumour development [190]. T cell-mediated
+killing of tumour cells is critical for anti-tumour immunity. The
+activity of T cells during an immune response is regulated by the
+expression of immune checkpoint regulators, such as PD-1 [191].
+Tumour cells exploit this pathway by upregulating the expression
+of ligands of these regulators, such as PD-L1, to dampen the
+immune response. The loss of p53 in malignant cells is correlated
+with increased expression of PD-L1 in cells of the TME in many
+cancers,
+It has been
+reported that p53 mutant lung cancer patients exhibited increased
+expression of immune checkpoint regulators, enhanced CD8 T cell
+inﬁltration and increased expression of effector T cell and
+interferon-γ associated genes [194]. This may indicate the
+predictive value of mutant p53 for responses to ICB in lung
+cancer. Of note, there are also studies showing that in murine lung
+cancer models, p53-deﬁcient tumour cells downregulated antigen
+presentation by reducing the expression of MHC-I, consequently
+exhibiting poorer
+to ICB compared to WT p53
+expressing tumours [195]. Concordant observations were found
+in human lung cancer, where NSCLC patients with p53 truncating
+mutations had shorter OS with immunotherapy compared to
+patients with WT p53 expressing tumours [196]. Further research is
+required to better understand the clinical predictive value of the
+different p53 mutations in lung cancer.
+
+including lung cancer
+
+[174, 192, 193].
+
+responses
+
+Metabolic reprogramming in the TME can result in signiﬁcant
+changes in the function and response of the immune system.
+Recently, it was reported that glucose metabolism is associated with
+the phenotype of certain immune cells, such as macrophages,
+dendritic cells and CD8+ T cells [197–199]. In a study of 495 LUAD
+patients, genes involved in the glycolysis–gluconeogenesis metabolic
+pathways were shown to be correlated with p53 mutations [188]. As a
+result of accelerated glycolysis in tumour cells, high levels of lactate
+are generated. The accumulation of lactate in the TME not only
+facilitates the progression and metastatic spread of tumour cells, but
+also exerts immune modulatory effects on tumour inﬁltrating immune
+cells.
+It was found that lactate suppresses the proliferation and
+cytokine production of cytotoxic T lymphocytes and thereby impairs
+their anti-tumour activity [200]. Furthermore, tumour cell derived
+lactate was shown to inhibit the differentiation and activation of
+dendritic cells and the secretion of TNF by monocytes [201, 202]. High
+
+Oncogene (2025) 44:115 – 129
+
+T. Chen et al.
+
+123
+
+Fig. 4 Therapeutic strategies to target mutant p53 in cancer. A Promoting the degradation of mutant p53 proteins through proteasomal or
+autophagy pathways. B Restoring WT p53 function in mutant p53 proteins in cancer cells. C Inhibiting the interactions between mutant p53
+and proteins that allegedly exert their GOF activities. D Inhibiting downstream signalling pathways that may be activated by mutant p53.
+
+contributes
+
+levels of lactate were also found to enhance the production of IL-23, a
+to tumour-associated inﬂammation
+cytokine that
+[203, 204]. Taken together, understanding the contributions of
+immune and metabolic parameters to tumour development is crucial
+for improving the predictive value and therapeutic strategies for p53
+mutant lung cancers.
+
+TARGETING P53 FOR THE TREATMENT OF LUNG CANCER
+Many anti-cancer therapeutics kill cancer cells by inducing DNA
+damage which triggers WT p53-mediated apoptosis and/or cell
+cycle arrest/cell senescence. Accordingly, loss or mutation of p53
+can contribute to the resistance of diverse tumour cells to
+cytotoxic drugs [6]. It has been reported that mutant p53 protein
+can negatively impact the cytotoxic effects of cisplatin treatment
+for NSCLC via the upregulation of NRF2, a transcription factor that
+was reported to contribute to the resistance of malignant cells to
+several anti-cancer drugs [205]. Furthermore, patients with WT p53
+expressing lung cancers were observed to exhibit better
+
+responses to cisplatin-based therapies compared to patients with
+mutant p53 expressing lung cancers [206, 207]. Due to the high
+mutation rate of malignant cells with defects in the p53 pathway
+and the fact that mutant p53 proteins are only highly expressed in
+malignant tissues but absent in normal tissues, targeting mutant
+p53 itself has been proposed to be a promising strategy for
+improving the treatment of chemo- and/or
+radio-resistant
+tumours.
+
+Considerable efforts have been expended to explore strategies
+to therapeutically target mutant p53 in cancer cells. These
+strategies include promoting the degradation of mutant p53
+proteins through proteasomal or autophagy pathways (Fig. 4A),
+restoring WT p53 function in mutant p53 proteins in cancer cells
+(Fig. 4B),
+inhibiting the interactions between mutant p53 and
+proteins that allegedly exert their GOF activities (Fig. 4C) as well as
+inhibiting downstream signalling pathways that may be activated
+by mutant p53 [208] (Fig. 4D). However, as stated above, recent
+studies have provided compelling evidence that
+removal of
+mutant p53 proteins had no impact on tumour expansion,
+
+Oncogene (2025) 44:115 – 129
+
+124
+
+T. Chen et al.
+
+metastasis and response to anti-cancer agents [170–172]. This
+demonstrates that any strategies aimed at removing or modulat-
+ing mutant p53 proteins are unlikely to have therapeutic impact.
+Many compounds have been developed to convert the mutant
+p53 protein into a WT p53 conformation, thereby restoring some
+WT p53 functions. For instance, PhiKan083 and PK7088 speciﬁcally
+target the mutant p53Y220C protein by stabilising its structure,
+thereby increasing the levels of p53Y220C proteins with WT
+conformation and activity [209, 210]. Other compounds targeting
+various mutant p53 proteins include PRIMA-1 and its methylated
+derivative APR-246, SCH29074 and CP-31398, which are thought
+to be able to restore WT TP53 function by promoting the proper
+folding of the mutant p53 protein [211–213]. Among all these
+compounds, APR-246 has been shown to effectively induce
+apoptosis in SCLC cell lines [214]. Furthermore, synergistic effects
+of APR-246 with cisplatin treatment were observed in both NSCLC
+and SCLC cell lines [215, 216], indicating its therapeutic potential
+in clinical settings. Importantly, although individual mutations and
+their associated GOF effects can result in variable therapeutic
+vulnerabilities, the restoration of WT p53 function exerts compar-
+able effects across tumours with different mutant p53 in lung
+cancer mouse models that can be switched from mutant p53 to
+WT p53 [217]. However, of note, recent studies have revealed that
+APR-246 does not actually kill malignant cells by targeting mutant
+p53 since CRISPR mediated removal of mutant p53 had no impact
+on sensitivity to this agent in a broad range of cancer cell lines
+[218].
+
+The restoration of WT p53 function has the potential to improve
+the treatment outcome of
+lung cancer patients to standard
+therapy by enhancing the response of tumour cells to DNA
+damage-inducing agents [217]. However, studies using mouse
+models suggest
+targeting mutant p53 might only be
+beneﬁcial to patients with late-stage lung cancer, as mutant p53
+proteins are only adequately activated in advanced tumours
+[154, 156]. Regardless, these ﬁndings provide valuable insights in
+the therapeutic impact of restoration of WT p53 function in lung
+cancer.
+
+that
+
+SUMMARY AND FUTURE PERSPECTIVES
+tumour suppressor that protects cells from
+p53 is a crucial
+malignant
+transformation by activating a range of cellular
+responses, including apoptosis, adaptation of cellular metabolism,
+cell cycle arrest, cell senescence and DNA damage repair. p53 is
+the most frequently mutated gene in human cancers and its
+mutations are associated with poor patient outcomes, although
+there is some controversy in lung cancer. Despite decades of
+research, the exact mechanisms by which mutant p53 proteins
+promote the initiation and sustained expansion of cancer remains
+a topic of extensive debate. Furthermore, the interplay between
+mutant p53 and other oncogenic drivers and the impact of co-
+mutations on the development and therapeutic responses of lung
+cancer are unclear. The development of GEMMs has allowed for
+insights into the biology of p53 mutant cancers, as they reliably
+mimic the oncogenic mutations underpinning cancer formation in
+humans and hence enable the study of the impact of speciﬁc
+oncogenic driver events.
+
+Although immunotherapy has achieved remarkable break-
+through in lung cancer treatment, patients with mutant p53
+expressing lung cancers only show limited responses
+to
+immunotherapies. This highlights the urgent need for novel
+therapeutic approaches to enhance the efﬁcacy of
+immu-
+notherapies. p53 mutations often confer resistance to many
+anti-cancer agents that induce DNA damage. Therefore, explor-
+ing strategies that speciﬁcally target mutant p53 are of great
+importance for improving the clinical outcomes for these cancer
+patients. Moreover, p53 mutant lung cancers exhibit high levels
+to
+of molecular and clinical heterogeneity, which leads
+
+heterogeneous clinical outcomes. Therefore, characterisation
+of the impacts of different p53 mutant proteins is essential for
+improving the prognostic and predictive values of mutant p53
+for treatment response, as well as for the development of
+personalised treatments for patients with p53 mutant lung
+cancers. Overall, p53 mutations remain an ongoing challenge in
+understanding the development of cancer as well as cancer
+therapy. Further research is required to address these pressing
+issues and advance our understanding of the many functions of
+WT p53 in tumour suppression and the impact of the different
+p53 mutant proteins in lung cancer.
+
+REFERENCES
+
+1. Aubrey BJ, Kelly GL, Janic A, Herold MJ, Strasser A. How does p53 induce
+apoptosis and how does this relate to p53-mediated tumour suppression? Cell
+Death Differ. 2018;25:104–13.
+
+2. Vousden KH, Prives C. Blinded by the light: the growing complexity of p53. Cell.
+
+2009;137:413–31.
+
+3. Claveria C, Giovinazzo G, Sierra R, Torres M. Myc-driven endogenous cell com-
+
+petition in the early mammalian embryo. Nature. 2013;500:39–44.
+
+4. Golstein P. Cell death in us and others. Science. 1998;281:1283.
+5. Hanahan D, Weinberg RA. Hallmarks of cancer: the next generation. Cell.
+
+2011;144:646–74.
+
+6. Czabotar PE, Lessene G, Strasser A, Adams JM. Control of apoptosis by the BCL-2
+protein family: implications for physiology and therapy. Nat Rev Mol Cell Biol.
+2014;15:49–63.
+
+7. Strasser A, Vaux DL. Cell death in the origin and treatment of cancer. Mol Cell.
+
+2020;78:1045–54.
+
+8. Villunger A, Michalak EM, Coultas L, Mullauer F, Bock G, Ausserlechner MJ, et al.
+p53- and drug-induced apoptotic responses mediated by BH3-only proteins
+puma and noxa. Science. 2003;302:1036–8.
+
+9. Jeffers JR, Parganas E, Lee Y, Yang C, Wang J, Brennan J, et al. Puma is an
+essential mediator of p53-dependent and -independent apoptotic pathways.
+Cancer Cell. 2003;4:321–8.
+
+10. Bedoui S, Herold MJ, Strasser A. Emerging connectivity of programmed cell
+implications. Nat Rev Mol Cell Biol.
+
+death pathways and its physiological
+2020;21:678–95.
+
+11. Muller M, Wilder S, Bannasch D, Israeli D, Lehlbach K, Li-Weber M, et al. p53
+activates the CD95 (APO-1/Fas) gene in response to DNA damage by anticancer
+drugs. J Exp Med. 1998;188:2033–45.
+
+12. Munsch D, Watanabe-Fukunaga R, Bourdon JC, Nagata S, May E, Yonish-Rouach
+E, et al. Human and mouse Fas (APO-1/CD95) death receptor genes each con-
+tain a p53-responsive element that is activated by p53 mutants unable to
+induce apoptosis. J Biol Chem. 2000;275:3867–72.
+
+13. Takimoto R, El-Deiry WS. Wild-type p53 transactivates the KILLER/DR5 gene
+site. Oncogene.
+
+sequence-speciﬁc DNA-binding
+
+intronic
+
+through
+2000;19:1735–43.
+
+an
+
+14. Sax JK, El-Deiry WS. Identiﬁcation and characterization of the cytoplasmic protein
+TRAF4 as a p53-regulated proapoptotic gene. J Biol Chem. 2003;278:36435–44.
+15. Polato F, Rusconi P, Zangrossi S, Morelli F, Boeri M, Musi A, et al. DRAGO (KIAA0247),
+a new DNA damage-responsive, p53-inducible gene that cooperates with p53 as
+oncosuppressor. [Corrected]. J Natl Cancer Inst. 2014;106:dju053.
+
+16. Cui H, Kamino H, Nakamura Y, Kitamura N, Miyamoto T, Shinogi D, et al. Reg-
+ulation of apoptosis by p53-inducible transmembrane protein containing sushi
+domain. Oncol Rep. 2010;24:1193–1200.
+
+17. Newton K, Harris AW, Bath ML, Smith KG, Strasser A. A dominant interfering
+mutant of FADD/MORT1 enhances deletion of autoreactive thymocytes and
+inhibits proliferation of mature T lymphocytes. EMBO J. 1998;17:706–18.
+18. Yonish-Rouach E, Resnitzky D, Lotem J, Sachs L, Kimchi A, Oren M. Wild-type p53
+induces apoptosis of myeloid leukaemic cells that is inhibited by interleukin-6.
+Nature. 1991;352:345–7.
+
+19. Strasser A, Harris AW, Jacks T, Cory S. DNA damage can induce apoptosis in
+proliferating lymphoid cells via p53-independent mechanisms inhibitable by
+Bcl-2. Cell. 1994;79:329–39.
+
+20. Lowe SW, Schmitt EM, Smith SW, Osborne BA, Jacks T. p53 is required for
+radiation-induced apoptosis in mouse thymocytes. Nature. 1993;362:847–9.
+21. Clarke AR, Purdie CA, Harrison DJ, Morris RG, Bird CC, Hooper ML, et al. Thy-
+mocyte apoptosis induced by p53-dependent and independent pathways.
+Nature. 1993;362:849–52.
+
+22. Erlacher M, Michalak EM, Kelly PN, Labi V, Niederegger H, Coultas L, et al. BH3-
+only proteins Puma and Bim are rate-limiting for gamma-radiation- and
+glucocorticoid-induced apoptosis
+Blood.
+of
+2005;106:4131–8.
+
+lymphoid cells
+
+vivo.
+
+in
+
+Oncogene (2025) 44:115 – 129
+
+23. Michalak EM, Jansen ES, Happo L, Cragg MS, Tai L, Smyth GK, et al. Puma and to
+a lesser extent Noxa are suppressors of Myc-induced lymphomagenesis. Cell
+Death Differ. 2009;16:684–96.
+24. Hanahan D. Hallmarks of
+
+cancer: new dimensions. Cancer Discov.
+
+2022;12:31–46.
+
+25. Ruﬁni A, Tucci P, Celardo I, Melino G. Senescence and aging: the critical roles of
+
+p53. Oncogene. 2013;32:5129–43.
+
+26. Birch J, Gil J. Senescence and the SASP: many therapeutic avenues. Genes Dev.
+
+2020;34:1565–76.
+
+27. Faget DV, Ren Q, Stewart SA. Unmasking senescence: context-dependent effects
+
+of SASP in cancer. Nat Rev Cancer. 2019;19:439–53.
+
+28. Gorgoulis V, Adams PD, Alimonti A, Bennett DC, Bischof O, Bishop C, et al.
+
+Cellular senescence: deﬁning a path forward. Cell. 2019;179:813–27.
+
+29. Qian Y, Chen X. Senescence regulation by the p53 protein family. Methods Mol
+
+Biol. 2013;965:37–61.
+
+30. Serrano M, Lin AW, McCurrach ME, Beach D, Lowe SW. Oncogenic ras provokes
+premature cell senescence associated with accumulation of p53 and p16INK4a.
+Cell. 1997;88:593–602.
+
+31. Kowald A, Passos JF, Kirkwood TBL. On the evolution of cellular senescence.
+
+Aging Cell. 2020;19:e13270.
+
+32. Wang B, Kohli J, Demaria M. Senescent cells in cancer therapy: friends or foes?
+
+Trends Cancer. 2020;6:838–57.
+
+33. Baker DJ, Childs BG, Durik M, Wijers ME, Sieben CJ, Zhong J, et al. Naturally
+Nature.
+
+p16Ink4a-positive
+
+lifespan.
+
+shorten
+
+healthy
+
+cells
+
+occurring
+2016;530:184–9.
+
+34. He S, Sharpless NE. Senescence in health and disease. Cell. 2017;169:1000–11.
+35. De Blander H, Morel AP, Senaratne AP, Ouzounova M, Puisieux A. Cellular
+plasticity: a route to senescence exit and tumorigenesis. Cancers. 2021;13:4561.
+36. Donehower LA, Harvey M, Slagle BL, McArthur MJ, Montgomery CA Jr., Butel JS,
+et al. Mice deﬁcient for p53 are developmentally normal but susceptible to
+spontaneous tumours. Nature. 1992;356:215–21.
+
+37. Valente LJ, Gray DH, Michalak EM, Pinon-Hofbauer J, Egle A, Scott CL, et al. p53
+efﬁciently suppresses tumor development in the complete absence of its cell-
+cycle inhibitory and proapoptotic effectors p21, Puma, and Noxa. Cell Rep.
+2013;3:1339–45.
+
+38. Li T, Kon N, Jiang L, Tan M, Ludwig T, Zhao Y, et al. Tumor suppression in the
+absence of p53-mediated cell-cycle arrest, apoptosis, and senescence. Cell.
+2012;149:1269–83.
+
+39. Li LY, Guan YD, Chen XS, Yang JM, Cheng Y. DNA repair pathways in cancer
+
+therapy and resistance. Front Pharmacol. 2020;11:629266.
+
+40. Kusakabe M, Onishi Y, Tada H, Kurihara F, Kusao K, Furukawa M, et al.
+Mechanism and regulation of DNA damage recognition in nucleotide excision
+repair. Genes Environ. 2019;41:2.
+
+41. Casal-Mourino A, Ruano-Ravina A, Torres-Duran M, Parente-Lamelas
+
+I,
+Provencio-Pulla M, Castro-Anon O, et al. Polymorphisms in the BER and NER
+pathways and their inﬂuence on survival and toxicity in never-smokers with
+lung cancer. Sci Rep. 2020;10:21147.
+
+42. Williams AB, Schumacher B. p53 in the DNA-damage-repair process. Cold Spring
+
+Harb Perspect Med. 2016;6:a026070.
+
+43. Smith ML, Chen IT, Zhan Q, O’Connor PM, Fornace AJ Jr. Involvement of the p53
+in repair of u.v.-type DNA damage. Oncogene.
+
+suppressor
+
+tumor
+1995;10:1053–9.
+
+T. Chen et al.
+
+125
+
+52. Linke SP, Sengupta S, Khabie N, Jeffries BA, Buchhop S, Miska S, et al. p53
+interacts with hRAD51 and hRAD54, and directly modulates homologous
+recombination. Cancer Res. 2003;63:2596–605.
+
+53. Serrano MA, Li Z, Dangeti M, Musich PR, Patrick S, Roginskaya M, et al. DNA-PK,
+ATM and ATR collaboratively regulate p53-RPA interaction to facilitate homo-
+logous recombination DNA repair. Oncogene. 2013;32:2452–62.
+
+54. Frank KM, Sharpless NE, Gao Y, Sekiguchi JM, Ferguson DO, Zhu C, et al. DNA
+ligase IV deﬁciency in mice leads to defective neurogenesis and embryonic
+lethality via the p53 pathway. Mol Cell. 2000;5:993–1002.
+
+55. Gao Y, Sun Y, Frank KM, Dikkes P, Fujiwara Y, Seidl KJ, et al. A critical role for DNA
+and neurogenesis. Cell.
+in both lymphogenesis
+
+end-joining proteins
+1998;95:891–902.
+
+56. Gao Y, Ferguson DO, Xie W, Manis JP, Sekiguchi J, Frank KM, et al. Interplay of
+p53 and DNA-repair protein XRCC4 in tumorigenesis, genomic stability and
+development. Nature. 2000;404:897–900.
+
+57. Abad E, Sandoz J, Romero G, Zadra I, Urgel-Solas J, Borredat P, et al. The TP53-
+activated E3 ligase RNF144B is a tumour suppressor that prevents genomic
+instability. J Exp Clin Cancer Res. 2024;43:127.
+
+58. Janic A, Valente LJ, Wakeﬁeld MJ, Di Stefano L, Milla L, Wilcox S, et al. DNA repair
+processes are critical mediators of p53-dependent tumor suppression. Nat Med.
+2018;24:947–53.
+
+59. Liu Y, Gu W. The complexity of p53-mediated metabolic regulation in tumor
+
+suppression. Semin Cancer Biol. 2022;85:4–32.
+
+60. Liu J, Zhang C, Hu W, Feng Z. Tumor suppressor p53 and metabolism. J Mol Cell
+
+Biol. 2019;11:284–92.
+
+61. Vousden KH, Ryan KM. p53 and metabolism. Nat Rev Cancer. 2009;9:691–700.
+62. Schwartzenberg-Bar-Yoseph F, Armoni M, Karnieli E. The tumor suppressor p53
+down-regulates glucose transporters GLUT1 and GLUT4 gene expression. Can-
+cer Res. 2004;64:2627–33.
+
+63. Kawauchi K, Araki K, Tobiume K, Tanaka N. p53 regulates glucose metabolism
+through an IKK-NF-kappaB pathway and inhibits cell transformation. Nat Cell
+Biol. 2008;10:611–8.
+
+64. Zhang C, Liu J, Wu R, Liang Y, Lin M, Liu J, et al. Tumor suppressor p53 negatively
+regulates glycolysis stimulated by hypoxia through its target RRAD. Oncotarget.
+2014;5:5535–46.
+
+65. Bensaad K, Tsuruta A, Selak MA, Vidal MN, Nakano K, Bartrons R, et al. TIGAR, a
+p53-inducible regulator of glycolysis and apoptosis. Cell. 2006;126:107–20.
+66. Cheung EC, Athineos D, Lee P, Ridgway RA, Lambie W, Nixon C, et al. TIGAR is
+required for efﬁcient intestinal regeneration and tumorigenesis. Dev Cell.
+2013;25:463–77.
+
+67. Feng Z, Levine AJ. The regulation of energy metabolism and the IGF-1/mTOR
+
+pathways by the p53 protein. Trends Cell Biol. 2010;20:427–34.
+
+68. Cairns RA, Harris IS, Mak TW. Regulation of cancer cell metabolism. Nat Rev
+
+Cancer. 2011;11:85–95.
+
+69. Ward PS, Thompson CB. Metabolic reprogramming: a cancer hallmark even
+
+Warburg did not anticipate. Cancer Cell. 2012;21:297–308.
+
+70. Warburg O, Wind F, Negelein E. The metabolism of tumors in the body. J Gen
+
+Physiol. 1927;8:519–30.
+
+71. Madan E, Gogna R, Bhatt M, Pati U, Kuppusamy P, Mahdi AA. Regulation of
+glucose metabolism by p53: emerging new roles for the tumor suppressor.
+Oncotarget. 2011;2:948–57.
+
+72. Wang YP, Lei QY. Metabolite sensing and signaling in cell metabolism. Signal
+
+44. Gaiddon C, Moorthy NC, Prives C. Ref-1 regulates the transactivation and pro-
+
+Transduct Target Ther. 2018;3:30.
+
+apoptotic functions of p53 in vivo. EMBO J. 1999;18:5609–21.
+
+45. Jayaraman L, Murthy KG, Zhu C, Curran T, Xanthoudakis S, Prives C. Identiﬁca-
+tion of redox/repair protein Ref-1 as a potent activator of p53. Genes Dev.
+1997;11:558–70.
+
+46. Hanson S, Kim E, Deppert W. Redox factor 1 (Ref-1) enhances speciﬁc DNA
+binding of p53 by promoting p53 tetramerization. Oncogene. 2005;24:1641–7.
+47. Zaky A, Busso C, Izumi T, Chattopadhyay R, Bassiouny A, Mitra S, et al. Regulation
+of the human AP-endonuclease (APE1/Ref-1) expression by the tumor sup-
+pressor p53 in response to DNA damage. Nucleic Acids Res. 2008;36:1555–66.
+48. Hasselbach L, Haase S, Fischer D, Kolberg HC, Sturzbecher HW. Characterisation
+of the promoter region of the human DNA-repair gene Rad51. Eur J Gynaecol
+Oncol. 2005;26:589–98.
+
+49. Arias-Lopez C, Lazaro-Trueba I, Kerr P, Lord CJ, Dexter T, Iravani M, et al. p53
+modulates homologous recombination by transcriptional regulation of the
+RAD51 gene. EMBO Rep. 2006;7:219–24.
+
+50. Fong V, Osterbur M, Capella C, Kim YE, Hine C, Gorbunova V, et al. Adenoviral
+vector driven by a minimal Rad51 promoter is selective for p53-deﬁcient tumor
+cells. PLoS ONE. 2011;6:e28714.
+
+51. Saintigny Y, Rouillard D, Chaput B, Soussi T, Lopez BS. Mutant p53 proteins
+stimulate spontaneous and radiation-induced intrachromosomal homologous
+recombination independently of the alteration of the transactivation activity
+and of the G1 checkpoint. Oncogene. 1999;18:3553–63.
+
+Oncogene (2025) 44:115 – 129
+
+73. Saxton RA, Sabatini DM. mTOR signaling in growth, metabolism, and disease.
+
+Cell. 2017;169:361–71.
+
+74. Mihaylova MM, Shaw RJ. The AMPK signalling pathway coordinates cell growth,
+
+autophagy and metabolism. Nat Cell Biol. 2011;13:1016–23.
+
+75. Yorimitsu T, Klionsky DJ. Autophagy: molecular machinery for self-eating. Cell
+
+Death Differ. 2005;12:1542–52.
+
+76. Comel A, Sorrentino G, Capaci V, Del Sal G. The cytoplasmic side of p53’s
+
+oncosuppressive activities. FEBS Lett. 2014;588:2600–9.
+
+77. Crighton D, Wilkinson S, Ryan KM. DRAM links autophagy to p53 and pro-
+
+grammed cell death. Autophagy. 2007;3:72–4.
+
+78. Drakos E, Atsaves V, Li J, Leventaki V, Andreeff M, Medeiros LJ, et al. Stabilization
+and activation of p53 downregulates mTOR signaling through AMPK in mantle
+cell lymphoma. Leukemia. 2009;23:784–90.
+
+79. Gomes LR, Vessoni AT, Menck CF. Three-dimensional microenvironment confers
+enhanced sensitivity to doxorubicin by reducing p53-dependent induction of
+autophagy. Oncogene. 2015;34:5329–40.
+
+80. Morselli E, Tasdemir E, Maiuri MC, Galluzzi L, Kepp O, Criollo A, et al. Mutant p53
+autophagy. Cell Cycle.
+
+cytoplasm inhibits
+
+protein localized in the
+2008;7:3056–61.
+
+81. Cordani M, Oppici E, Dando I, Butturini E, Dalla Pozza E, Nadal-Serrano M, et al.
+Mutant p53 proteins counteract autophagic mechanism sensitizing cancer cells
+to mTOR inhibition. Mol Oncol. 2016;10:1008–29.
+
+126
+
+T. Chen et al.
+
+82. Vousden KH, Lane DP. p53 in health and disease. Nat Rev Mol Cell Biol.
+
+108. AACR Project GENIE. Powering precision medicine through an international
+
+2007;8:275–83.
+
+consortium. Cancer Discov. 2017;7:818–31.
+
+83. McBride KA, Ballinger ML, Killick E, Kirk J, Tattersall MH, Eeles RA, et al. Li-
+Fraumeni syndrome: cancer risk assessment and clinical management. Nat Rev
+Clin Oncol. 2014;11:260–71.
+
+109. Tsao MS, Aviel-Ronen S, Ding K, Lau D, Liu N, Sakurada A, et al. Prognostic and
+predictive importance of p53 and RAS for adjuvant chemotherapy in non small-
+cell lung cancer. J Clin Oncol. 2007;25:5240–7.
+
+84. Bouaoun L, Sonkin D, Ardin M, Hollstein M, Byrnes G, Zavadil J, et al. TP53
+variations in human cancers: new lessons from the IARC TP53 database and
+genomics data. Hum Mutat. 2016;37:865–76.
+
+110. Chien WP, Wong RH, Wu TC, Cheng YW, Chen CY, Lee H. Potential increase in
+the prognostic value of p53 mutation by Pro72 allele in stage I non-small-cell
+lung cancer. Ann Surg Oncol. 2009;16:1918–24.
+
+85. Aubrey BJ, Janic A, Chen Y, Chang C, Lieschke EC, Diepstraten ST, et al. Mutant
+TRP53 exerts a target gene-selective dominant-negative effect to drive tumor
+development. Genes Dev. 2018;32:1420–9.
+
+111. Fujita T, Kiyama M, Tomizawa Y, Kohno T, Yokota J. Comprehensive analysis of
+p53 gene mutation characteristics in lung carcinoma with special reference to
+histological subtypes. Int J Oncol. 1999;15:927–34.
+
+86. Leroy B, Fournier JL, Ishioka C, Monti P, Inga A, Fronza G, et al. The TP53 website:
+an integrative resource centre for the TP53 mutation database and TP53 mutant
+analysis. Nucleic Acids Res. 2013;41:D962–969.
+
+87. Baugh EH, Ke H, Levine AJ, Bonneau RA, Chan CS. Why are there hotspot
+in the TP53 gene in human cancers? Cell Death Differ.
+
+mutations
+2018;25:154–60.
+
+88. Freed-Pastor WA, Prives C. Mutant p53: one name, many proteins. Genes Dev.
+
+2012;26:1268–86.
+
+89. Jackson EL, Olive KP, Tuveson DA, Bronson R, Crowley D, Brown M, et al. The
+differential effects of mutant p53 alleles on advanced murine lung cancer.
+Cancer Res. 2005;65:10280–8.
+
+90. Fridman JS, Lowe SW. Control of apoptosis by p53. Oncogene. 2003;22:9030–40.
+91. Dittmer D, Pati S, Zambetti G, Chu S, Teresky AK, Moore M, et al. Gain of function
+
+mutations in p53. Nat Genet. 1993;4:42–46.
+
+92. Doyle B, Morton JP, Delaney DW, Ridgway RA, Wilkins JA, Sansom OJ. p53
+mutation and loss have different effects on tumourigenesis in a novel mouse
+model of pleomorphic rhabdomyosarcoma. J Pathol. 2010;222:129–37.
+
+93. Lang GA, Iwakuma T, Suh YA, Liu G, Rao VA, Parant JM, et al. Gain of function of
+a p53 hot spot mutation in a mouse model of Li-Fraumeni syndrome. Cell.
+2004;119:861–72.
+
+94. Morton JP, Timpson P, Karim SA, Ridgway RA, Athineos D, Doyle B, et al. Mutant
+p53 drives metastasis and overcomes growth arrest/senescence in pancreatic
+cancer. Proc Natl Acad Sci USA. 2010;107:246–51.
+
+95. Olive KP, Tuveson DA, Ruhe ZC, Yin B, Willis NA, Bronson RT, et al. Mutant p53
+function in two mouse models of Li-Fraumeni syndrome. Cell.
+
+gain of
+2004;119:847–60.
+
+96. Bougeard G, Sesboue R, Baert-Desurmont S, Vasseur S, Martin C, Tinat J, et al.
+Molecular basis of the Li-Fraumeni syndrome: an update from the French LFS
+families. J Med Genet. 2008;45:535–8.
+
+97. Rivlin N, Brosh R, Oren M, Rotter V. Mutations in the p53 tumor suppressor gene:
+important milestones at the various steps of tumorigenesis. Genes Cancer.
+2011;2:466–74.
+
+98. Bray F, Ferlay J, Soerjomataram I, Siegel RL, Torre LA, Jemal A. Global cancer
+statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for
+36 cancers in 185 countries. CA Cancer J Clin. 2018;68:394–424.
+
+99. Cancer Genome Atlas Research N. Comprehensive molecular proﬁling of lung
+
+adenocarcinoma. Nature. 2014;511:543–50.
+
+100. Travis WD, Brambilla E, Nicholson AG, Yatabe Y, Austin JHM, Beasley MB, et al.
+The 2015 World Health Organization classiﬁcation of lung tumors: impact of
+genetic, clinical and radiologic advances since the 2004 classiﬁcation. J Thorac
+Oncol. 2015;10:1243–60.
+
+112. Ahrendt SA, Hu Y, Buta M, McDermott MP, Benoit N, Yang SC, et al. p53
+mutations and survival in stage I non-small-cell lung cancer: results of a pro-
+spective study. J Natl Cancer Inst. 2003;95:961–70.
+
+113. Saleh MM, Schefﬂer M, Merkelbach-Bruse S, Scheel AH, Ulmer B, Wolf J, et al.
+Comprehensive analysis of TP53 and KEAP1 mutations and their impact on
+survival in localized- and advanced-stage NSCLC. J Thorac Oncol. 2022;17:76–88.
+114. Alexander M, Kim SY, Cheng H. Update 2020: management of non-small cell
+
+lung cancer. Lung. 2020;198:897–907.
+
+115. Goldstraw P, Chansky K, Crowley J, Rami-Porta R, Asamura H, Eberhardt WE,
+et al. The IASLC lung cancer staging project: proposals for revision of the TNM
+stage groupings in the forthcoming (eighth) edition of the TNM classiﬁcation for
+lung cancer. J Thorac Oncol. 2016;11:39–51.
+
+116. Pignon JP, Tribodet H, Scagliotti GV, Douillard JY, Shepherd FA, Stephens RJ,
+et al. Lung adjuvant cisplatin evaluation: a pooled analysis by the LACE Colla-
+borative Group. J Clin Oncol. 2008;26:3552–9.
+
+117. Reck M, Rodriguez-Abreu D, Robinson AG, Hui R, Csoszi T, Fulop A, et al.
+Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell
+lung
+cancer. N Engl J Med. 2016;375:1823–33.
+
+118. Pu X, Wu L, Su D, Mao W, Fang B.
+
+lung
+cancers: biomarkers for predicting responses and strategies to overcome
+resistance. BMC Cancer. 2018;18:1082.
+
+Immunotherapy for non-small cell
+
+119. Hong DS, Fakih MG, Strickler JH, Desai J, Durm GA, Shapiro GI, et al. KRAS(G12C)
+J Med.
+
+inhibition with sotorasib in advanced solid tumors. N Engl
+2020;383:1207–17.
+
+120. Skoulidis F, Li BT, Dy GK, Price TJ, Falchook GS, Wolf J, et al. Sotorasib for lung
+
+cancers with KRAS p.G12C mutation. N Engl J Med. 2021;384:2371–81.
+
+121. Janne PA, Riely GJ, Gadgeel SM, Heist RS, Ou SI, Pacheco JM, et al. Adagrasib in
+non-small-cell lung cancer harboring a KRAS(G12C) mutation. N Engl J Med.
+2022;387:120–31.
+
+122. Fell JB, Fischer JP, Baer BR, Blake JF, Bouhana K, Briere DM, et al. Identiﬁcation of
+the clinical development candidate MRTX849, a covalent KRAS(G12C) inhibitor
+for the treatment of cancer. J Med Chem. 2020;63:6679–93.
+
+123. Hofmann MH, Gerlach D, Misale S, Petronczki M, Kraut N. Expanding the reach of
+precision oncology by drugging All KRAS mutants. Cancer Discov.
+2022;12:924–37.
+
+124. Hofmann MH, Gmachl M, Ramharter J, Savarese F, Gerlach D, Marszalek JR, et al.
+BI-3406, a potent and selective SOS1-KRAS interaction inhibitor, is effective in
+KRAS-driven cancers
+through combined MEK inhibition. Cancer Discov.
+2021;11:142–57.
+
+125. Zhao Y, Xue JY, Lito P. Suppressing nucleotide exchange to inhibit KRAS-mutant
+
+tumors. Cancer Discov. 2021;11:17–19.
+
+101. Skoulidis F, Heymach JV. Co-occurring genomic alterations in non-small-cell
+
+126. Rudin CM, Brambilla E, Faivre-Finn C, Sage J. Small-cell lung cancer. Nat Rev Dis
+
+lung cancer biology and therapy. Nat Rev Cancer. 2019;19:495–509.
+
+Prim. 2021;7:3.
+
+102. Rekhtman N, Ang DC, Riely GJ, Ladanyi M, Moreira AL. KRAS mutations are
+associated with solid growth pattern and tumor-inﬁltrating leukocytes in lung
+adenocarcinoma. Mod Pathol. 2013;26:1307–19.
+Ihle NT, Byers LA, Kim ES, Saintigny P, Lee JJ, Blumenschein GR, et al. Effect of
+implications for signaling
+KRAS oncogene substitutions on protein behavior:
+and clinical outcome. J Natl Cancer Inst. 2012;104:228–39.
+
+103.
+
+104. Ferrer I, Zugazagoitia J, Herbertz S, John W, Paz-Ares L, Schmid-Bindert G. KRAS-
+lung cancer: from biology to therapy. Lung Cancer.
+
+mutant non-small cell
+2018;124:53–64.
+
+105. Siegfried JM, Gillespie AT, Mera R, Casey TJ, Keohavong P, Testa JR, et al.
+Prognostic value of speciﬁc KRAS mutations in lung adenocarcinomas. Cancer
+Epidemiol Biomark Prev. 1997;6:841–7.
+
+106. Hunt JD, Strimas A, Martin JE, Eyer M, Haddican M, Luckett BG, et al. Differences
+in mutation spectrum in lung cancer cases between African Americans and
+Caucasians after occupational or environmental exposure to known carcino-
+gens. Cancer Epidemiol Biomark Prev. 2002;11:1405–12.
+
+107. Skoulidis F, Byers LA, Diao L, Papadimitrakopoulou VA, Tong P, Izzo J, et al. Co-
+occurring genomic alterations deﬁne major subsets of KRAS-mutant lung ade-
+nocarcinoma with distinct biology, immune proﬁles, and therapeutic vulner-
+abilities. Cancer Discov. 2015;5:860–77.
+
+127. Devesa SS, Bray F, Vizcaino AP, Parkin DM. International lung cancer trends by
+histologic type: male:female differences diminishing and adenocarcinoma rates
+rising. Int J Cancer. 2005;117:294–9.
+
+128. Rudin CM, Poirier JT, Byers LA, Dive C, Dowlati A, George J, et al. Molecular
+subtypes of small cell lung cancer: a synthesis of human and mouse model data.
+Nat Rev Cancer. 2019;19:289–97.
+
+129. Borromeo MD, Savage TK, Kollipara RK, He M, Augustyn A, Osborne JK, et al.
+ASCL1 and NEUROD1 reveal heterogeneity in pulmonary neuroendocrine
+tumors and regulate distinct genetic programs. Cell Rep. 2016;16:1259–72.
+130. Huang YH, Klingbeil O, He XY, Wu XS, Arun G, Lu B, et al. POU2F3 is a master
+lung cancer. Genes Dev.
+
+regulator of a tuft cell-like variant of small cell
+2018;32:915–28.
+
+131. Horie M, Saito A, Ohshima M, Suzuki HI, Nagase T. YAP and TAZ modulate cell
+phenotype in a subset of small cell lung cancer. Cancer Sci. 2016;107:1755–66.
+132. Gay CM, Stewart CA, Park EM, Diao L, Groves SM, Heeke S, et al. Patterns of
+transcription factor programs and immune pathway activation deﬁne four
+major subtypes of SCLC with distinct therapeutic vulnerabilities. Cancer Cell.
+2021;39:346–360.e347.
+
+133. Miller CW, Simon K, Aslo A, Kok K, Yokota J, Buys CH, et al. p53 mutations in
+
+human lung tumors. Cancer Res. 1992;52:1695–8.
+
+Oncogene (2025) 44:115 – 129
+
+134. Takahashi T, Takahashi T, Suzuki H, Hida T, Sekido Y, Ariyoshi Y, et al. The p53
+lung cancer with a distinct
+
+gene is very frequently mutated in small-cell
+nucleotide substitution pattern. Oncogene. 1991;6:1775–8.
+
+135. Kaye FJ. RB and cyclin dependent kinase pathways: deﬁning a distinction
+
+between RB and p16 loss in lung cancer. Oncogene. 2002;21:6908–14.
+
+136. Wistuba II, Gazdar AF, Minna JD. Molecular genetics of small cell lung carcinoma.
+
+Semin Oncol. 2001;28:3–13.
+
+137. Amini A, Byers LA, Welsh JW, Komaki RU. Progress in the management of
+
+limited-stage small cell lung cancer. Cancer. 2014;120:790–8.
+
+138. De Ruysscher D, Pijls-Johannesma M, Bentzen SM, Minken A, Wanders R, Lut-
+gens L, et al. Time between the ﬁrst day of chemotherapy and the last day of
+chest radiation is the most important predictor of survival in limited-disease
+small-cell lung cancer. J Clin Oncol. 2006;24:1057–63.
+
+139. Horn L, Mansﬁeld AS, Szczesna A, Havel L, Krzakowski M, Hochmair MJ, et al.
+First-line atezolizumab plus chemotherapy in extensive-stage small-cell
+lung
+cancer. N Engl J Med. 2018;379:2220–9.
+
+140. Paz-Ares L, Dvorkin M, Chen Y, Reinmuth N, Hotta K, Trukhin D, et al. Durva-
+lumab plus platinum-etoposide versus platinum-etoposide in ﬁrst-line treat-
+ment of extensive-stage small-cell
+(CASPIAN): a randomised,
+controlled, open-label, phase 3 trial. Lancet. 2019;394:1929–39.
+
+lung cancer
+
+141. Rudin CM, Awad MM, Navarro A, Gottfried M, Peters S, Csoszi T, et al. Pem-
+brolizumab or placebo plus etoposide and platinum as ﬁrst-line therapy for
+extensive-stage small-cell
+lung cancer: randomized, double-blind, phase III
+KEYNOTE-604 study. J Clin Oncol. 2020;38:2369–79.
+
+142. Jackson EL, Willis N, Mercer K, Bronson RT, Crowley D, Montoya R, et al. Analysis
+lung tumor initiation and progression using conditional expression of
+
+of
+oncogenic K-ras. Genes Dev. 2001;15:3243–8.
+
+143. Johnson L, Mercer K, Greenbaum D, Bronson RT, Crowley D, Tuveson DA, et al.
+Somatic activation of the K-ras oncogene causes early onset lung cancer in
+mice. Nature. 2001;410:1111–6.
+
+144. Kaiser AM, Gatto A, Hanson KJ, Zhao RL, Raj N, Ozawa MG, et al. p53 governs an AT1
+differentiation programme in lung cancer suppression. Nature. 2023;619:851–9.
+145. Meuwissen R, Linn SC, Linnoila RI, Zevenhoven J, Mooi WJ, Berns A. Induction of
+lung cancer by somatic inactivation of both Trp53 and Rb1 in a
+
+small cell
+conditional mouse model. Cancer Cell. 2003;4:181–9.
+
+146. McFadden DG, Papagiannakopoulos T, Taylor-Weiner A, Stewart C, Carter SL,
+Cibulskis K, et al. Genetic and clonal dissection of murine small cell lung car-
+cinoma progression by genome sequencing. Cell. 2014;156:1298–311.
+
+T. Chen et al.
+
+127
+
+160. Sioris T, Husgafvel-Pursiainen K, Karjalainen A, Anttila S, Kannio A, Salo JA, et al.
+Survival in operable non-small-cell lung cancer: role of p53 mutations, tobacco
+smoking and asbestos exposure. Int J Cancer. 2000;86:590–4.
+
+161. Mitsudomi T, Morita S, Yatabe Y, Negoro S, Okamoto I, Tsurutani J, et al. Geﬁtinib
+versus cisplatin plus docetaxel in patients with non-small-cell lung cancer har-
+bouring mutations of the epidermal growth factor receptor (WJTOG3405): an
+open label, randomised phase 3 trial. Lancet Oncol. 2010;11:121–8.
+
+162. Steels E, Paesmans M, Berghmans T, Branle F, Lemaitre F, Mascaux C, et al. Role
+of p53 as a prognostic factor for survival in lung cancer: a systematic review of
+the literature with a meta-analysis. Eur Respir J. 2001;18:705–19.
+
+163. Sameshima Y, Matsuno Y, Hirohashi S, Shimosato Y, Mizoguchi H, Sugimura T,
+et al. Alterations of the p53 gene are common and critical events for the
+maintenance of malignant phenotypes in small-cell lung carcinoma. Oncogene.
+1992;7:451–7.
+
+164. Lohmann D, Putz B, Reich U, Bohm J, Prauer H, Hoﬂer H. Mutational spectrum of
+lung cancer and relationship to clin-
+
+the p53 gene in human small-cell
+icopathological data. Am J Pathol. 1993;142:907–15.
+165. Gemba K, Ueoka H, Kiura K, Tabata M, Harada M.
+detection of mutant p53 protein in small-cell
+treatment outcome. Lung Cancer. 2000;29:23–31.
+
+Immunohistochemical
+lung cancer: relationship to
+
+166. Poeta ML, Manola J, Goldwasser MA, Forastiere A, Benoit N, Califano JA, et al.
+TP53 mutations and survival in squamous-cell carcinoma of the head and neck.
+N Engl J Med. 2007;357:2552–61.
+
+167. Molina-Vila MA, Bertran-Alamillo J, Gasco A, Mayo-de-las-Casas C, Sanchez-
+Ronco M, Pujantell-Pastor L, et al. Nondisruptive p53 mutations are associated
+with shorter survival in patients with advanced non-small cell lung cancer. Clin
+Cancer Res. 2014;20:4647–59.
+
+168. Trbusek M, Smardova J, Malcikova J, Sebejova L, Dobes P, Svitakova M, et al.
+Missense mutations located in structural p53 DNA-binding motifs are associated
+with extremely poor survival
+in chronic lymphocytic leukemia. J Clin Oncol.
+2011;29:2703–8.
+
+169. Vegran F, Rebucci M, Chevrier S, Cadouot M, Boidot R, Lizard-Nacol S. Only
+missense mutations affecting the DNA binding domain of p53 inﬂuence out-
+comes in patients with breast carcinoma. PLoS ONE. 2013;8:e55103.
+
+170. Wang Z, Burigotto M, Ghetti S, Vaillant F, Tan T, Capaldo BD, et al. Loss-of-
+function but not gain-of-function properties of mutant TP53 are critical for the
+proliferation, survival, and metastasis of a broad range of cancer cells. Cancer
+Discov. 2024;14:362–79.
+
+147. Schaffer BE, Park KS, Yiu G, Conklin JF, Lin C, Burkhart DL, et al. Loss of p130
+accelerates tumor development in a mouse model for human small-cell lung
+carcinoma. Cancer Res. 2010;70:3877–83.
+
+171. Boettcher S, Miller PG, Sharma R, McConkey M, Leventhal M, Krivtsov AV, et al. A
+dominant-negative effect drives selection of TP53 missense mutations in
+myeloid malignancies. Science. 2019;365:599–604.
+
+148. Mollaoglu G, Guthrie MR, Bohm S, Bragelmann J, Can I, Ballieu PM, et al. MYC
+drives progression of small cell lung cancer to a variant neuroendocrine subtype
+with vulnerability to aurora kinase inhibition. Cancer Cell. 2017;31:270–85.
+149. Little CD, Nau MM, Carney DN, Gazdar AF, Minna JD. Ampliﬁcation and
+expression of the c-myc oncogene in human lung cancer cell lines. Nature.
+1983;306:194–6.
+
+150. Jackson JG, Lozano G. The mutant p53 mouse as a pre-clinical model. Onco-
+
+gene. 2013;32:4325–30.
+
+151. Ventura A, Kirsch DG, McLaughlin ME, Tuveson DA, Grimm J, Lintault L, et al.
+regression in vivo. Nature.
+
+Restoration of p53 function leads to tumour
+2007;445:661–5.
+
+152. Xue W, Zender L, Miething C, Dickins RA, Hernando E, Krizhanovsky V, et al.
+Senescence and tumour clearance is triggered by p53 restoration in murine liver
+carcinomas. Nature. 2007;445:656–60.
+
+153. Martins CP, Brown-Swigart L, Evan GI. Modeling the therapeutic efﬁcacy of p53
+
+restoration in tumors. Cell. 2006;127:1323–34.
+
+172. Flowers BM, Xu H, Mulligan AS, Hanson KJ, Seoane JA, Vogel H, et al. Cell of
+origin inﬂuences pancreatic cancer subtype. Cancer Discov. 2021;11:660–77.
+173. Blagih J, Buck MD, Vousden KH. p53, cancer and the immune response. J Cell
+
+Sci. 2020;133:jcs237453.
+
+174. Biton J, Mansuet-Lupo A, Pecuchet N, Alifano M, Ouakrim H, Arrondeau J, et al. TP53,
+STK11, and EGFR mutations predict tumor immune proﬁle and the response to Anti-
+PD-1 in lung adenocarcinoma. Clin Cancer Res. 2018;24:5710–23.
+
+175. Pascual M, Mena-Varas M, Robles EF, Garcia-Barchino MJ, Panizo C, Hervas-
+Stubbs S, et al. PD-1/PD-L1 immune checkpoint and p53 loss facilitate tumor
+progression in activated B-cell diffuse large B-cell
+lymphomas. Blood.
+2019;133:2401–12.
+
+176. Girardi M, Oppenheim DE, Steele CR, Lewis JM, Glusac E, Filler R, et al. Regulation
+of cutaneous malignancy by gammadelta T cells. Science. 2001;294:605–9.
+177. Ponzetta A, Carriero R, Carnevale S, Barbagallo M, Molgora M, Perucchini C, et al.
+Neutrophils driving unconventional T cells mediate resistance against murine
+sarcomas and selected human tumors. Cell. 2019;178:346–360.e324.
+
+154. Junttila MR, Karnezis AN, Garcia D, Madriles F, Kortlever RM, Rostker F, et al.
+Selective activation of p53-mediated tumour suppression in high-grade
+tumours. Nature. 2010;468:567–71.
+
+178. Shankaran V, Ikeda H, Bruce AT, White JM, Swanson PE, Old LJ, et al. IFNgamma
+and lymphocytes prevent primary tumour development and shape tumour
+immunogenicity. Nature. 2001;410:1107–11.
+
+155. Sanchez-Rivera FJ, Ryan J, Soto-Feliciano YM, Clare Beytagh M, Xuan L, Feldser
+DM, et al. Mitochondrial apoptotic priming is a key determinant of cell fate upon
+p53 restoration. Proc Natl Acad Sci USA. 2021;118:e2019740118.
+
+156. Feldser DM, Kostova KK, Winslow MM, Taylor SE, Cashman C, Whittaker CA, et al.
+Stage-speciﬁc sensitivity to p53 restoration during lung cancer progression.
+Nature. 2010;468:572–5.
+
+157. Acosta J, Li Q, Freeburg NF, Murali N,
+
+Indeglia A, Grothusen GP, et al. p53
+restoration in small cell lung cancer identiﬁes a latent cyclophilin-dependent
+necrosis mechanism. Nat Commun. 2023;14:4403.
+
+158. Skaug V, Ryberg D, Kure EH, Arab MO, Stangeland L, Myking AO, et al. p53 muta-
+tions in deﬁned structural and functional domains are related to poor clinical out-
+come in non-small cell lung cancer patients. Clin Cancer Res. 2000;6:1031–7.
+159. Ahrendt SA, Chow JT, Yang SC, Wu L, Zhang MJ, Jen J, et al. Alcohol con-
+sumption and cigarette smoking increase the frequency of p53 mutations in
+non-small cell lung cancer. Cancer Res. 2000;60:3155–9.
+
+Oncogene (2025) 44:115 – 129
+
+179. Smyth MJ, Thia KY, Street SE, Cretney E, Trapani JA, Taniguchi M, et al. Differ-
+ential tumor surveillance by natural killer (NK) and NKT cells. J Exp Med.
+2000;191:661–8.
+
+180. Arce Vargas F, Furness AJS, Litchﬁeld K, Joshi K, Rosenthal R, Ghorani E, et al. Fc
+effector function contributes to the activity of human anti-CTLA-4 antibodies.
+Cancer Cell. 2018;33:649–663.e644.
+
+181. DiLillo DJ, Yanaba K, Tedder TF. B cells are required for optimal CD4+ and CD8+
+T cell tumor immunity: therapeutic B cell depletion enhances B16 melanoma
+growth in mice. J Immunol. 2010;184:4006–16.
+
+182. Togashi Y, Shitara K, Nishikawa H. Regulatory T cells in cancer immunosup-
+therapy. Nat Rev Clin Oncol.
+
+for anticancer
+
+implications
+
+pression -
+2019;16:356–71.
+
+183. Larionova I, Tuguzbaeva G, Ponomaryova A, Stakheyeva M, Cherdyntseva N,
+Pavlov V, et al. Tumor-associated macrophages in human breast, colorectal,
+lung, ovarian and prostate cancers. Front Oncol. 2020;10:566511.
+
+128
+
+T. Chen et al.
+
+184. Mukaida N, Nosaka T, Nakamoto Y, Baba T. Lung macrophages: multifunctional
+
+regulator cells for metastatic cells. Int J Mol Sci. 2018;20:116.
+
+185. Guo Z, Song J, Hao J, Zhao H, Du X, Li E, et al. M2 macrophages promote NSCLC
+
+metastasis by upregulating CRYAB. Cell Death Dis. 2019;10:377.
+
+186. Argyle D, Kitamura T. Targeting macrophage-recruiting chemokines as a novel
+therapeutic strategy to prevent the progression of solid tumors. Front Immunol.
+2018;9:2629.
+
+187. Blagih J, Zani F, Chakravarty P, Hennequart M, Pilley S, Hobor S, et al. Cancer-
+speciﬁc loss of p53 leads to a modulation of myeloid and T cell responses. Cell
+Rep. 2020;30:481–496.e486.
+
+188. Zheng C, Sun L, Zhou B, Wang A. Identiﬁcation and validation of a metabolism-
+related model and associated with tumor-inﬁltrating lymphocytes in p53
+mutant lung adenocarcinoma patients. Ann Transl Med. 2021;9:1312.
+
+189. Xu F, Lin H, He P, He L, Chen J, Lin L, et al. A TP53-associated gene signature for
+prediction of prognosis and therapeutic responses in lung squamous cell car-
+cinoma. Oncoimmunology. 2020;9:1731943.
+
+190. Cooks T, Pateras IS, Jenkins LM, Patel KM, Robles AI, Morris J, et al. Mutant p53
+cancers reprogram macrophages to tumor supporting macrophages via exo-
+somal miR-1246. Nat Commun. 2018;9:771.
+
+191. Ribas A, Wolchok JD. Cancer immunotherapy using checkpoint blockade. Sci-
+
+ence. 2018;359:1350–5.
+
+192. Chamoto K, Hatae R, Honjo T. Current issues and perspectives in PD-1 blockade
+
+cancer immunotherapy. Int J Clin Oncol. 2020;25:790–800.
+
+193. Cortez MA, Ivan C, Valdecanas D, Wang X, Peltier HJ, Ye Y, et al. PDL1 Regulation
+
+by p53 via miR-34. J Natl Cancer Inst. 2016;108:djv303.
+
+194. Dong ZY, Zhong WZ, Zhang XC, Su J, Xie Z, Liu SY, et al. Potential predictive
+value of TP53 and KRAS mutation status for response to PD-1 blockade
+immunotherapy in lung adenocarcinoma. Clin Cancer Res. 2017;23:3012–24.
+195. Zhu M, Kim J, Deng Q, Ricciuti B, Alessi JV, Eglenen-Polat B, et al. Loss of p53 and
+mutational heterogeneity drives immune resistance in an autochthonous
+mouse lung cancer model with high tumor mutational burden. Cancer Cell.
+2023;41:1731–1748.e1738.
+
+196. Zhao L, Qu X, Wu Z, Li Y, Zhang X, Guo W. TP53 somatic mutations are asso-
+ciated with poor survival in non-small cell lung cancer patients who undergo
+immunotherapy. Aging. 2020;12:14556–68.
+
+197. Mills EL, Kelly B, Logan A, Costa ASH, Varma M, Bryant CE, et al. Succinate
+dehydrogenase supports metabolic repurposing of mitochondria to drive
+inﬂammatory macrophages. Cell. 2016;167:457–470.e413.
+
+198. Everts B, Amiel E, Huang SC, Smith AM, Chang CH, Lam WY, et al. TLR-driven
+early glycolytic reprogramming via the kinases TBK1-IKKvarepsilon supports the
+anabolic demands of dendritic cell activation. Nat Immunol. 2014;15:323–32.
+
+199. Gubser PM, Bantug GR, Razik L, Fischer M, Dimeloe S, Hoenger G, et al. Rapid
+effector function of memory CD8+ T cells requires an immediate-early glyco-
+lytic switch. Nat Immunol. 2013;14:1064–72.
+
+200. Feder-Mengus C, Ghosh S, Weber WP, Wyler S, Zajac P, Terracciano L, et al.
+Multiple mechanisms underlie defective recognition of melanoma cells cultured
+in three-dimensional architectures by antigen-speciﬁc cytotoxic T lymphocytes.
+Br J Cancer. 2007;96:1072–82.
+
+201. Gottfried E, Kunz-Schughart LA, Ebner S, Mueller-Klieser W, Hoves S, Andreesen
+R, et al. Tumor-derived lactic acid modulates dendritic cell activation and anti-
+gen expression. Blood. 2006;107:2013–21.
+
+202. Dietl K, Renner K, Dettmer K, Timischl B, Eberhart K, Dorn C, et al. Lactic acid and
+acidiﬁcation inhibit TNF secretion and glycolysis of human monocytes. J
+Immunol. 2010;184:1200–9.
+
+203. Shime H, Yabu M, Akazawa T, Kodama K, Matsumoto M, Seya T, et al. Tumor-
+secreted lactic acid promotes IL-23/IL-17 proinﬂammatory pathway. J Immunol.
+2008;180:7175–83.
+
+204. Langowski JL, Zhang X, Wu L, Mattson JD, Chen T, Smith K, et al. IL-23 promotes
+
+tumour incidence and growth. Nature. 2006;442:461–5.
+
+205. Tung MC, Lin PL, Wang YC, He TY, Lee MC, Yeh SD, et al. Mutant p53 confers
+lung cancer by upregulating Nrf2. Onco-
+
+chemoresistance in non-small cell
+target. 2015;6:41692–705.
+
+206. Ma X, Rousseau V, Sun H, Lantuejoul S, Filipits M, Pirker R, et al. Signiﬁcance of TP53
+mutations as predictive markers of adjuvant cisplatin-based chemotherapy in
+completely resected non-small-cell lung cancer. Mol Oncol. 2014;8:555–64.
+207. Kandioler D, Stamatis G, Eberhardt W, Kappel S, Zochbauer-Muller S, Kuhrer I,
+et al. Growing clinical evidence for the interaction of the p53 genotype and
+response to induction chemotherapy in advanced non-small cell lung cancer. J
+Thorac Cardiovasc Surg. 2008;135:1036–41.
+
+208. Muller PA, Vousden KH. Mutant p53 in cancer: new functions and therapeutic
+
+opportunities. Cancer Cell. 2014;25:304–17.
+
+209. Boeckler FM, Joerger AC, Jaggi G, Rutherford TJ, Veprintsev DB, Fersht AR.
+Targeted rescue of a destabilized mutant of p53 by an in silico screened drug.
+Proc Natl Acad Sci USA. 2008;105:10360–5.
+
+210. Liu X, Wilcken R, Joerger AC, Chuckowree IS, Amin J, Spencer J, et al. Small
+molecule induced reactivation of mutant p53 in cancer cells. Nucleic Acids Res.
+2013;41:6034–44.
+
+211. Bykov VJ, Issaeva N, Shilov A, Hultcrantz M, Pugacheva E, Chumakov P, et al.
+Restoration of the tumor suppressor function to mutant p53 by a low-
+molecular-weight compound. Nat Med. 2002;8:282–8.
+
+212. Foster BA, Coffey HA, Morin MJ, Rastinejad F. Pharmacological rescue of mutant
+
+p53 conformation and function. Science. 1999;286:2507–10.
+
+213. Demma M, Maxwell E, Ramos R, Liang L, Li C, Hesk D, et al. SCH529074, a small
+molecule activator of mutant p53, which binds p53 DNA binding domain (DBD),
+restores growth-suppressive function to mutant p53 and interrupts HDM2-
+mediated ubiquitination of wild type p53. J Biol Chem. 2010;285:10198–212.
+
+214. Zandi R, Selivanova G, Christensen CL, Gerds TA, Willumsen BM, Poulsen HS.
+PRIMA-1Met/APR-246 induces apoptosis and tumor growth delay in small cell
+lung cancer expressing mutant p53. Clin Cancer Res. 2011;17:2830–41.
+215. Bykov VJ, Zache N, Stridh H, Westman J, Bergman J, Selivanova G, et al. PRIMA-
+1(MET) synergizes with cisplatin to induce tumor cell apoptosis. Oncogene.
+2005;24:3484–91.
+
+216. Mohell N, Alfredsson J, Fransson A, Uustalu M, Bystrom S, Gullbo J, et al. APR-246
+overcomes resistance to cisplatin and doxorubicin in ovarian cancer cells. Cell
+Death Dis. 2015;6:e1794.
+
+217. Turrell FK, Kerr EM, Gao M, Thorpe H, Doherty GJ, Cridge J, et al. Lung tumors
+with distinct p53 mutations respond similarly to p53 targeted therapy but
+exhibit genotype-speciﬁc statin sensitivity. Genes Dev. 2017;31:1339–53.
+218. Wang Z, Hu H, Heitink L, Rogers K, You Y, Tan T, et al. The anti-cancer agent APR-
+246 can activate several programmed cell death processes to kill malignant
+cells. Cell Death Differ. 2023;30:1033–46.
+
+219. Choudhury NJ, Lavery JA, Brown S, de Bruijn I, Jee J, Tran TN, et al. The GENIE
+BPC NSCLC Cohort: a real-world repository integrating standardized clinical and
+genomic data for 1846 patients with non-small cell lung cancer. Clin Cancer Res.
+2023;29:3418–28.
+
+220. Wang H, Guo M, Wei H, Chen Y. Targeting p53 pathways: mechanisms, struc-
+tures, and advances in therapy. Signal Transduct Target Ther. 2023;8:92.
+221. Brennan P. drawProteins: a Bioconductor/R package for reproducible and pro-
+
+grammatic generation of protein schematics. F1000Res. 2018;7:1105.
+
+(NHMRC)
+
+ACKNOWLEDGEMENTS
+The authors thank Peter Maltezos for his expertise in preparing the ﬁgures. This
+study was supported by fellowships and grants from the Australian Health and
+(Programme Grant GNT1113133 to AS,
+Medical Research Council
+Research Fellowship GNT1116937 to AS,
+Ideas Grants GNT2002618 and
+GNT2001201 to GLK, Synergy Grants GNT 2011139 to GLK and GNT2010275 to
+OK, AS and KDS). GLK is supported by a Victorian Cancer Agency Mid-Career
+Fellowship. Research support was also provided by the estate of Antony (Toni)
+Redstone OAM (to AS and GLK), the Craig Perkins Cancer Research Foundation (to
+GLK), the Dyson Bequest (to GLK), the Harry Secomb Foundation (to GLK) and the
+Julie and Peter Alston bequest (to KDS). TC is the recipient of the Research
+Training Scholarship, The University of Melbourne. This work was made possible
+through Victorian State Government Operational Infrastructure Support (OIS) and
+Australian Government NHMRC Independent Research Institute Infrastructure
+Support (IRIIS) Scheme.
+
+AUTHOR CONTRIBUTIONS
+TC, LMA, OK, AS, GK and KDS wrote the manuscript; TC and LMA prepared the ﬁgures.
+
+COMPETING INTERESTS
+The authors declare no competing interests.
+
+ADDITIONAL INFORMATION
+Correspondence and requests for materials should be addressed to Andreas Strasser,
+Gemma Kelly or Kate D. Sutherland.
+
+Reprints and permission information is available at http://www.nature.com/reprints
+
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional afﬁliations.
+
+Oncogene (2025) 44:115 – 129
+
+T. Chen et al.
+
+129
+
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of
+licence, visit http://
+creativecommons.org/licenses/by/4.0/.
+
+this
+
+© The Author(s) 2024
+
+Oncogene (2025) 44:115 – 129
+
+

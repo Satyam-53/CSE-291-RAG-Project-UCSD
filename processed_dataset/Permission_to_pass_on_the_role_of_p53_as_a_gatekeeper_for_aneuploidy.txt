@@ -1,0 +1,11140 @@
+Chromosome Res (2023) 31:31 
+https://doi.org/10.1007/s10577-023-09741-9
+
+REVIEW
+
+Permission to pass: on the role of p53 as a gatekeeper 
+for aneuploidy
+
+Joana F. Marques · Geert J. P. L. Kops
+
+Received: 30 May 2023 / Revised: 25 September 2023 / Accepted: 3 October 2023 / Published online: 21 October 2023 
+© The Author(s) 2023
+
+state 
+
+Abstract  Aneuploidy—the  karyotype 
+in 
+which  the  number  of  chromosomes  deviates  from 
+a  multiple  of  the  haploid  chromosome  set—is  com-
+mon in cancer, where it is thought to facilitate tumor 
+initiation and progression. However, it is poorly toler-
+ated  in  healthy  cells:  during  development  and  tissue 
+homeostasis,  aneuploid  cells  are  efficiently  cleared 
+from  the  population.  It  is  still  largely  unknown  how 
+cancer  cells  become,  and  adapt  to  being,  aneuploid. 
+P53,  the  gatekeeper  of  the  genome,  has  been  pro-
+posed  to  guard  against  aneuploidy.  Aneuploidy  in 
+cancer  genomes  strongly  correlates  with  mutations 
+in  TP53,  and  p53  is  thought  to  prevent  the  propaga-
+tion of aneuploid cells. Whether p53 also participates 
+in  preventing  the  mistakes  in  cell  division  that  lead 
+to  aneuploidy  is  still  under  debate.  In  this  review, 
+we  summarize  the  current  understanding  of  the  role 
+
+Responsible Editor: Stefano Santaguida
+
+J. F. Marques · G. J. P. L. Kops (*) 
+Royal Netherlands Academy of Arts and Sciences 
+(KNAW), Hubrecht Institute, Uppsalalaan 8, 
+3584CT Utrecht, the Netherlands
+e-mail: g.kops@hubrecht.eu
+
+J. F. Marques · G. J. P. L. Kops 
+University Medical Center Utrecht, Heidelberglaan 100, 
+3584CX Utrecht, the Netherlands
+
+J. F. Marques · G. J. P. L. Kops 
+Oncode Institute, Jaarbeursplein 6, 3521AL Utrecht, 
+the Netherlands
+
+of  p53  in  protecting  cells  from  aneuploidy,  and  we 
+explore  the  consequences  of  functional  p53  loss  for 
+the propagation of aneuploidy in cancer.
+
+Keywords  Aneuploidy · p53 · Cancer · 
+Chromosomal instability
+
+Abbreviations 
+53BP1 
+aCGH 
+
+ALT 
+AML 
+ATM 
+BCL9L 
+BE 
+BRG1 
+BUB1 
+
+CDK2 
+CENP-E 
+cGAS/STING 
+
+CHK1/2 
+CIN 
+CNA 
+DCB 
+DDK 
+FISH 
+GIN 
+
+ P53-binding protein 1
+ Array comparative genomic 
+hybridization
+ Alternative lengthening of telomeres
+ Acute myeloid leukemia
+ Ataxia-telangiectasia mutated
+ B-cell CLL/lymphoma 9 ligand
+ Barrett’s esophagus
+ Brahma-related gene-1
+ Budding uninhibited by benzimida-
+zoles 1
+ Cyclin-dependent kinase 2
+ Centromere protein E
+ Cyclic GMP–AMP synthase/stimu-
+lator of interferon genes
+ Checkpoint kinase 1/2
+ Chromosomal instability
+ Copy number alterations
+ Dihydrocytochalasin-B
+ DBF4-dependent kinase
+ Fluorescence in situ hybridization
+ Genomic instability
+
+Vol.: (0123456789)1 331  Page 2 of 23
+
+Chromosome Res (2023) 31:31
+
+HIF-1α 
+
+hMO 
+IF 
+KO 
+LATS1/2 
+LOH 
+mCO 
+MDH1 
+
+MDM2 
+MDM4 
+MEFs 
+M-FISH 
+
+MIDAS 
+nCNA 
+P53 
+ROS 
+SAC 
+sCNA 
+shRNA 
+siRNA 
+TCGA  
+TP53 
+TREX1 
+USP28 
+WGD 
+WT 
+
+ Hypoxia inducible factor 1 subunit 
+alpha
+ Human mammary organoids
+ Immunofluorescence
+ Knockout
+ Large tumor suppressor 1/2
+ Loss of heterozygosity
+ Mouse colon organoids
+ Nucleocytoplasmic malate 
+dehydrogenase-1
+ Murine double minute 2
+ Murine double minute 4
+ Mouse embryonic fibroblasts
+ Multiplex fluorescence in situ 
+hybridization
+ Mitotic DNA synthesis
+ Numerical copy number alterations
+ Tumor protein P53
+ Reactive oxygen species
+ Spindle assembly checkpoint
+ Structural copy number alterations
+ Short hairpin RNA
+ Small interfering RNA
+ The Cancer Genome Atlas
+ Tumor protein 53 gene
+ Three prime repair exonuclease 1
+ Ubiquitin specific peptidase 28
+ Whole-genome doubling
+ Wild-type
+
+Introduction
+
+Changes to the genome are rarely tolerated by healthy 
+cells.  They  possess  elaborate  mechanisms  to  prevent 
+accumulation of, for example, single nucleotide sub-
+stitutions or copy number alterations (CNAs). CNAs 
+can  appear  in  various  forms,  most  notably  focal  and 
+arm-level  CNAs  (hereafter  referred  to  as  structural 
+CNAs—sCNAs)  and  whole  chromosome  CNAs 
+(hereafter  referred  to  as  numerical  CNAs—nCNAs). 
+sCNAs  involve  copy  number  changes  to  parts  of 
+chromosomes,  while  nCNAs  involve  gains  or  losses 
+of entire chromosomes (Fig. 1). CNAs result mainly 
+from errors in chromosome segregation during mito-
+sis or meiosis, creating daughter cells with aneuploid 
+karyotypes  (Gordon  et  al.  2012;  Sheltzer  and  Amon 
+2011).  Aneuploidy—a  karyotype  state  in  which  the 
+genome deviates from a multiple of the haploid set of 
+
+chromosomes—is  highly  prevalent  in  cancer  (sCNA 
+and/or  nCNA  are  present  in  ~  90%  of  tumor  sam-
+ples),  where  ~  66%  of  all  tumor  samples  from  The 
+Cancer Genome Atlas (TCGA) dataset carry at least 
+one  nCNA  (Knouse  et  al.  2017;  Taylor  et  al.  2018). 
+Aneuploidy  in  cancer  cells  is  a  genomic  manifesta-
+tion of the increased rate at which cells mis-segregate 
+chromosomes,  a  phenotype  known  as  chromosomal 
+instability  (CIN).  CIN  is  prevalent  in  cancer  but  its 
+frequencies  can  vary  greatly,  even  within  the  same 
+tumor type (Lengauer et al. 1997; Bolhaqueiro et al. 
+2019).  CIN  not  only  leads  to  aneuploidy  but  also 
+drives karyotype heterogeneity in tumor cell popula-
+tions  (Shoshani  et  al.  2021;  Sansregret  and  Swanton 
+2017;  Watkins  et  al.  2020;  Bolhaqueiro  et  al.  2019). 
+Depending  on  the  degree  of  CIN,  this  can  result  in 
+opposing effects on tumor initiation and progression: 
+while CIN can accelerate tumor evolution by creating 
+favorable  karyotypes  that  increase  cancer  plasticity, 
+fueling  metastasis  and  therapy  resistance  (Gerstung 
+et  al.  2020;  Sansregret  and  Swanton  2017;  Watkins 
+et  al.  2020;  Ben-David  and  Amon  2020;  Chunduri 
+and Storchová 2019), it can also suppress tumor ini-
+tiation or progression in several mouse models when 
+induced  to  high  levels  (Sheltzer  et  al.  2017;  Godek 
+et  al.  2016;  Rowald  et  al.  2016;  Silk  et  al.  2013; 
+Hoevenaar et al. 2020; Zasadil et al. 2016). Selection 
+pressure  for  CNAs  to  gain  or  lose  driver  oncogenes 
+or  tumor  suppressor  genes,  respectively,  is  one  way 
+in  which  the  tumor-promoting  effects  are  achieved 
+(Davoli  et  al.  2013;  Sack  et  al.  2018;  Trakala  et  al. 
+2021; Shih et al. 2023). For example, in a lymphoma 
+mouse  model,  CIN  was  followed  by  clonal  selec-
+tion  of  recurrent  CNAs  that  confer  a  proliferative 
+advantage (Shoshani et al. 2021; Trakala et al. 2021), 
+including gains of any chromosome (natural or engi-
+neered)  that  carried  the  c-Myc  gene  (Trakala  et  al. 
+2021).  As  a  result  of  selection  for  oncogenic  driv-
+ers,  whole  chromosome  CNA  patterns  are  context-
+dependent, being conserved within tumors of a tissue 
+type but divergent between tumors of different tissues 
+(Sack et al. 2018; Hoadley et al. 2018; Ben-David and 
+Amon 2020; Davoli et al. 2013).
+
+Intriguingly,  while  aneuploidy  is  common  in  can-
+cer,  it  is  detrimental  to  cellular  fitness  (Sheltzer  and 
+Amon  2011;  Ben-David  and  Amon  2020)  and  rare 
+in  healthy  cells:  less  than  5%  of  cells  across  healthy 
+tissues  are  aneuploid  (Knouse  et  al.  2014;  Chunduri 
+and  Storchová  2019).  While  much  is  known  about 
+
+1 3Vol:. (1234567890) 
+Chromosome Res (2023) 31:31 
+
+Page 3 of 23  31
+
+Fig. 1   Aneuploidy:  numerical  vs.  structural  CNAs.  Ane-
+uploidy can arise from erroneous cell divisions. We define ane-
+uploidy as a karyotype state in which the number of chromo-
+somes deviates from a multiple of the haploid chromosome set. 
+CNAs present in aneuploid cells can come in different flavors: 
+
+numerical  CNAs  (nCNAs),  which  are  whole-chromosome 
+gains or losses, and structural CNAs (sCNAs), which are sub-
+chromosomal  gains  and  losses  ranging  from  arm-level  altera-
+tions to smaller fractions of the genome (focal alterations)
+
+how cancer cells circumvent the detrimental effects of 
+mutations,  much  less  is  known  about  how  they  deal 
+with aneuploidy. A prime candidate to guard against 
+propagation  of  aneuploid  cells  is  p53,  a  transcrip-
+tion  factor  with  a  central  role  in  ensuring  genome 
+stability  by  responding  to  various  stresses  (Levine 
+2020).  Inactivation  of  the  TP53  gene  at  early  stages 
+of tumorigenesis, irrespective of tumor type, empha-
+sizes  its  broad  role  as  a  tumor  suppressor  (Gerstung 
+et al. 2020). p53 is referred to as the guardian of the 
+genome,  and  in  line  with  this,  strong  co-occurrence 
+of  aneuploidy  and  TP53  gene  inactivation  in  cancer 
+suggests  that  p53  plays  a  role  in  guarding  against 
+aneuploidy  (Taylor  et  al.  2018;  Ciriello  et  al.  2013). 
+However,  the  interplay  between  aneuploidy  and  p53 
+in  cancer  is  still  poorly  understood.  In  this  review, 
+we  summarize  the  current  understanding  of  the  role 
+of p53 activation in response to aneuploidy in healthy 
+cells and explore the consequences of functional p53 
+loss for propagation of aneuploidy in cancer.
+
+TP53 gene mutations and aneuploidy in cancer
+
+Several  large-scale  cancer  genome  analyses  showed 
+that of all common oncogenic mutations, aneuploidy 
+
+most  strongly  correlates  with  mutations  in  the  TP53 
+gene  (Taylor  et  al.  2018;  Donehower  et  al.  2019; 
+Hoadley et al. 2014; Ciriello et al. 2013; Davoli et al. 
+2017;  Zack  et  al.  2013).  These  analyses  were  per-
+formed on TCGA datasets, using a definition of ane-
+uploidy  that  included  not  only  numerical  CNAs  but 
+also  arm-level  and/or  focal  CNAs.  For  most  cancer 
+types,  occurrence  of  CNAs  correlates  with  overall 
+mutation  burden,  with  TP53  being  the  most  signifi-
+cantly  associated  mutant  gene  (Taylor  et  al.  2018), 
+and  higher  prevalence  of  TP53  mutations  correlates 
+with  higher  frequencies  of  CNAs  (Hoadley  et  al. 
+2014).  When  comparing,  within  cancer  types,  sam-
+ples with mutations in TP53 to those without, CNAs 
+are  enriched  in  the  cancers  carrying  TP53  muta-
+tions.  This  is  irrespective  of  gains  or  losses  (Done-
+hower  et  al.  2019).  Of  note,  since  the  definition  of 
+aneuploidy  used  in  the  analyses  included  sCNAs,  it 
+is  unclear  whether  TP53  mutations  correlate  with 
+nCNAs. This is potentially relevant since events lead-
+ing  to  sCNAs  are  expected  to  include  DNA  breaks 
+and  activate  a  p53  response,  while  those  leading  to 
+nCNAs are not necessarily expected to do so. It would 
+thus  be  of  interest  to  re-assess  TP53  mutation  status 
+in  relation  strictly  to  nCNAs.  Interestingly,  evidence 
+of  whole-genome  doubling  (WGD)—the  duplication 
+
+1 3Vol.: (0123456789)31  Page 4 of 23
+
+Chromosome Res (2023) 31:31
+
+of at least 50% of the current set of chromosomes—
+is seen in 30–40% of all cancers, and it is correlated 
+with  prior  loss  of  p53  function  in  more  than  half  of 
+the cases (Gerstung et al. 2020; Bielski  et al. 2018). 
+For example, in TCGA datasets, a subgroup of colo-
+rectal  cancer  tumors  was  characterized  by  early  loss 
+of  p53  and  WGD  (Kim  et  al.  2021).  WGD  is  con-
+sidered  an  unstable  state  that  is  often  followed  by 
+accumulation of sCNAs and nCNAs (Gerstung et al. 
+2020). Overall, both TP53 mutations and aneuploidy 
+are  prevalent  in  tumors  and  show  intriguing  correla-
+tions, which may signal causal links between the two.
+
+The role of p53 in maintaining genome stability
+
+To  better  understand  the  correlation  between  TP53 
+gene  mutations  and  aneuploidy  in  cancer,  we  first 
+look  at  p53’s  role  as  the  guardian  of  the  genome. 
+During  interphase,  p53  can  respond  to  a  plethora  of 
+cellular  stresses,  including  DNA  damage,  oxidative 
+stress, replication stress, and hypoxia (Gambino et al. 
+
+2013; Bieging et al. 2014). This response ensures that 
+only cells with an intact genome progress into mito-
+sis, which is widely regarded as a main reason for the 
+tumor  suppressor  function  of  p53  (Liebl  and  Hof-
+mann  2021;  Boutelle  and  Attardi  2021;  Janic  et  al. 
+2018).  The  various  intricacies  of  the  regulation  and 
+function of p53 have been extensively reviewed else-
+where (Kastenhuber and Lowe 2017; Kruiswijk et al. 
+2015); for the context of this review, we will briefly 
+outline what is known about p53 activation and con-
+sequent outcomes in response to an insult.
+
+In  healthy  cells,  p53  is  maintained  at  low  levels 
+by  interaction  with  MDM2,  which  targets  p53  for 
+ubiquitin-dependent degradation (Fig. 2). Therefore, 
+activation of p53, for example, in response to DNA 
+damage,  is  achieved  by  disrupting  this  interaction, 
+leading  to  p53  protein  stabilization  and  regulation 
+of target genes (Chène 2003; Levine 2020) (Fig.  2). 
+DNA  breaks  activate  the  DNA  damage  response 
+mediated by the ATM/CHK2 pathway, culminating 
+in  phosphorylation  of  p53  and  MDM2  (Abuetabh 
+et  al.  2022;  Banin  et  al.  1998;  Chène  2003;  Maya 
+
+Fig. 2   Regulation  of  p53.  In  physiological  conditions,  p53 
+interacts  with  its  negative  regulator  MDM2,  an  E3  ubiquitin-
+protein ligase, which targets p53 for proteasomal degradation. 
+Upon  stress,  upstream  factors  impinge  on  the  p53-MDM2 
+interaction by inhibiting MDM2 function (e.g., target for deg-
+radation,  phosphorylation  of  interaction  site,  cleavage,  inhibi-
+
+tion by interaction with other proteins (e.g., LATS1/2 or ribo-
+some  biogenesis  subunits)).  P53  can  also  be  directly  targeted, 
+for example, by phosphorylation, to reduce affinity for MDM2. 
+Disruption of MDM2-p53 interaction stabilizes p53 and leads 
+to p53 activation in response to specific insults. Ub, ubiquitin
+
+1 3Vol:. (1234567890) 
+Chromosome Res (2023) 31:31 
+
+Page 5 of 23  31
+
+et  al.  2001).  Phosphorylation  of  p53  and  MDM2 
+lowers  the  affinity  for  each  other,  resulting  in  p53 
+stabilization  (Banin  et  al.  1998;  Maya  et  al.  2001) 
+(Fig. 2). The activation of the p53 pathway upon an 
+insult can lead to distinct cell fates: cell cycle arrest, 
+apoptosis, or senescence (Hafner et al. 2019). What 
+determines  a  specific  outcome  upon  p53  activation 
+in  response  to,  e.g.,  DNA  damage  depends  on  sev-
+eral  variables.  First,  different  tissues  can  express 
+different  isoforms  of  p53,  expressed  through  alter-
+native  splicing.  Although  still  poorly  understood, 
+different  isoforms  present  distinct  functions  that  in 
+turn  affect  the  outcome  of  p53  responses  (Joruiz 
+and  Bourdon  2016).  Second,  post-translational 
+modifications of the p53 protein, particularly phos-
+phorylation,  can  significantly  affect  the  degree  of 
+protein stability (via MDM2), conformation, locali-
+zation,  or  affinity  for  binding  partners  (Liu  et  al. 
+2019). These modifications can also determine p53 
+transcriptional  activity  and  consequently  the  cell 
+fate:  for  example,  while  acetylation  of  p53  at  resi-
+due K382 increases its activity after sustained DNA 
+damage,  a  transient  source  of  DNA  damage  leads 
+to  inhibition  of  p53  activity  through  methylation 
+at the same residue (Loewer et al. 2010). Likewise, 
+glucose deprivation can lead to G1 cell cycle arrest 
+via p53: MDH1—an enzyme involved in glycolysis 
+and  mitochondrial  respiration—stabilizes  p53  by 
+impinging  on  p53-MDM2  interaction  and  triggers 
+post-translational  modifications  (acetylation  and 
+phosphorylation) that determine p53 activation (Lee 
+et al. 2009; Kruiswijk et al. 2015; Wang et al. 2023). 
+Third,  p53  temporal  dynamics  can  strongly  deter-
+mine  cell  fate  (Jiménez  et  al.  2022;  Purvis  et  al. 
+2012). Pulsatile p53 dynamics govern activation of 
+p53 depending on the level of stress induced: while 
+high  levels  of  DNA  damage  lead  to  sustained  p53 
+response  and  apoptosis,  low  levels  of  DNA  dam-
+age result in a pulsed activation and milder effects, 
+such as cell cycle arrest (Mönke et al. 2017; Purvis 
+et  al.  2012).  Additionally,  p53-dependent  cell  fate 
+decisions hinge on pulsing activity of upstream and 
+downstream players (Jiménez et al. 2022; Batchelor 
+et  al.  2008;  Hanson  et  al.  2019;  Paek  et  al.  2016; 
+Stewart-Ornstein and Lahav 2017).
+
+To  summarize,  the  cellular  stress  response  path-
+ways  commonly  impinge  on  the  regulation  of  the 
+interaction  between  p53  and  MDM2  (Fig.  2),  and, 
+although  highly  complex  and  not  fully  understood, 
+
+their effect on p53 activation and cell fates depend on 
+the level of stress and the context of the affected cell 
+(Vousden and Prives 2009; Mönke et al. 2017).
+
+TP53 mutations: a cause of aneuploidy?
+
+The role of p53 in maintaining genome stability and 
+its  frequent  inactivation  in  aneuploid  cancers  raises 
+the possibility that loss of p53 can cause aneuploidy 
+(Table  1;  Fig.  3).  In  support  of  this,  TP53  knockout 
+human intestinal organoids display CIN (Drost et al. 
+2015).  This  may  be  an  indirect  effect  of  the  role  of 
+p53  in  protecting  cells  from  entering  mitosis  with 
+damaged  DNA  (Fig.  3)  (Bunz  et  al.  1998).  Simi-
+larly, deletion of TP53 in an acute myeloid leukemia 
+(AML)  cell  line  leads  to  CIN  and  aneuploidy  (Caz-
+zola  et  al.  2019).  Recently,  human  gastric  organoids 
+carrying  TP53  gene  mutations  and  followed  for 
+genome alterations over a 2-year period showed pro-
+gressive and ordered accumulation of CNAs that are 
+recurrently  observed  in  gastric  tumors,  establishing 
+a  strong  causal  connection  between  TP53  mutations 
+and recurrent CNAs in cancer (Karlsson et al. 2023).
+
+How might loss of p53 cause aneuploidy? Mouse 
+embryonic  fibroblasts  lacking  p53  have  amplified 
+centrosomes,  as  a  result  of  misregulated  CDK2/
+cyclin-E  compromising  the  centrosome  duplication 
+cycle  (Fukasawa  et  al.  1996;  Liu  et  al.  2004;  Tara-
+pore  et  al.  2001).  Interestingly,  likely  due  to  a  more 
+stringent regulation of cyclin-E, loss of p53 in human 
+non-transformed  cells  does  not  lead  to  centrosome 
+amplification (Kawamura et al. 2004). Yet there is an 
+intriguing correlation between p53 loss and supernu-
+merary  centrosomes  in  human  cancers  (Lopes  et  al. 
+2018;  Fukasawa  2005;  Chan  2011).  Supernumerary 
+centrosomes  can  lead  to  CIN  by  creating  multipo-
+lar  spindles  that  predispose  cells  to  lagging  ana-
+phase  chromosomes,  resulting  in  aneuploid  progeny 
+(Silkworth et al. 2009; Ganem et al. 2009) (Table 1; 
+Fig. 3). In agreement with this, cells in human TP53 
+knockout  hepatocyte  organoids  display  multipolar 
+spindles (Artegiani et al. 2020). Loss of p53 can also 
+predispose cells to WGD by allowing the survival of 
+cells that underwent cytokinesis failure (Baslan et al. 
+2022; Fujiwara et al. 2005; Tommasi et al. 2011). An 
+additional mechanism may involve cytokinesis failure 
+as a result of DNA damage-induced anaphase bridges 
+at  the  cleavage  furrow  (Andreassen  et  al.  2001a,  b; 
+
+1 3Vol.: (0123456789)31  Page 6 of 23
+
+Chromosome Res (2023) 31:31
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+o
+t
+
+s
+d
+a
+e
+l
+
+t
+n
+W
+
+)
+9
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+r
+e
+w
+o
+h
+e
+n
+o
+D
+
+c
+i
+n
+e
+g
+s
+n
+a
+r
+t
+
+h
+t
+i
+
+w
+n
+o
+i
+t
+a
+n
+i
+b
+m
+o
+C
+
+s
+d
+a
+e
+r
+p
+s
+
+e
+s
+a
+h
+p
+a
+t
+e
+
+M
+
+o
+N
+
+−
+
+/
+
+−
+3
+5
+p
+;
+)
+
+H
+O
+L
+(
+
+−
+3
+5
+p
+
+;
+
+−
+
+/
+
++
+3
+5
+p
+;
+
++
+
+/
+
++
+3
+5
+p
+
+y
+r
+a
+m
+m
+a
+m
+
+f
+o
+e
+r
+u
+t
+l
+u
+c
+
+y
+r
+a
+m
+
+i
+r
+P
+
+l
+e
+d
+o
+m
+e
+s
+u
+o
+m
+
+)
+1
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+t
+d
+i
+m
+h
+c
+S
+
+f
+o
+s
+s
+o
+l
+
+h
+t
+i
+
+w
+n
+o
+i
+t
+a
+n
+i
+b
+m
+o
+C
+
+-
+o
+m
+o
+r
+h
+c
+
+g
+n
+i
+g
+g
+a
+l
+
+t
+c
+e
+t
+e
+d
+
+o
+t
+F
+I
+
+o
+N
+
+A
+N
+R
+h
+s
+
+3
+7
+p
+d
+n
+a
+A
+N
+R
+h
+s
+
+3
+5
+p
+
+;
+
+O
+K
+R
+
+;
+)
+y
+l
+t
+s
+o
+m
+
+(
+
+6
+1
+1
+T
+C
+H
+
+)
+1
+0
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+i
+k
+u
+r
+a
+H
+
+I
+
+N
+C
+d
+e
+s
+u
+a
+c
+
+3
+7
+p
+
+-
+
+)
+4
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+g
+n
+i
+n
+n
+a
+M
+
+f
+o
+
+s
+s
+o
+l
+
+h
+t
+i
+
+w
+n
+o
+i
+t
+a
+n
+i
+b
+m
+o
+C
+
+I
+
+d
+n
+a
+N
+C
+s
+e
+t
+o
+m
+o
+r
+p
+B
+R
+p
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+s
+e
+m
+o
+s
+
+H
+S
+I
+F
+
+H
+S
+I
+F
+
+o
+N
+
+s
+u
+r
+i
+v
+
+a
+m
+o
+l
+l
+i
+p
+a
+p
+
+n
+a
+m
+u
+H
+
+d
+i
+o
+l
+p
+i
+d
+-
+r
+a
+e
+n
+
+6
+7
+1
+-
+C
+L
+-
+C
+C
+A
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+n
+i
+
+d
+e
+t
+c
+e
+r
+i
+d
+-
+6
+E
+-
+6
+1
+
+6
+1
+1
+T
+C
+H
+d
+n
+a
+
+r
+e
+c
+n
+a
+c
+
+g
+n
+u
+l
+
+3
+5
+p
+
+f
+o
+
+)
+l
+o
+r
+t
+n
+o
+c
+N
+C
+-
+n
+o
+n
+(
+
+I
+
+o
+N
+
+−
+
+/
+
+−
+3
+5
+p
+;
+
++
+
+/
+
++
+3
+5
+p
+
+6
+1
+1
+T
+C
+H
+
+1
+D
+L
+D
+
+)
+2
+0
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+z
+n
+u
+B
+
+-
+
+-
+o
+r
+t
+n
+e
+c
+
+h
+t
+i
+
+w
+H
+S
+I
+F
+;
+
+H
+S
+I
+F
+-
+M
+
+s
+d
+r
+a
+w
+o
+t
+
+y
+c
+n
+e
+d
+n
+e
+t
+
+l
+l
+a
+m
+s
+(
+
+o
+N
+
+-
+o
+l
+o
+m
+o
+h
+d
+e
+t
+e
+g
+r
+a
+t
+
+y
+b
+O
+K
+3
+5
+p
+
+-
+o
+r
+b
+fi
+y
+r
+a
+m
+
+i
+r
+p
+
+d
+n
+a
+
+6
+1
+1
+T
+C
+H
+
+s
+e
+b
+o
+r
+p
+
+c
+i
+r
+e
+m
+
+)
+d
+i
+o
+l
+p
+a
+r
+t
+e
+t
+
+n
+o
+i
+t
+a
+n
+i
+b
+m
+o
+c
+e
+r
+
+s
+u
+o
+g
+
+s
+t
+s
+a
+l
+b
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+s
+n
+o
+i
+t
+a
+t
+i
+
+C
+
+s
+r
+o
+t
+c
+a
+f
+
+r
+e
+h
+t
+O
+
+/
+
+I
+
+N
+C
+g
+n
+i
+r
+u
+s
+a
+e
+m
+
+f
+o
+
+e
+d
+o
+M
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+/
+N
+C
+
+I
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+n
+i
+
+3
+5
+p
+
+f
+o
+
+e
+d
+o
+M
+
+y
+d
+u
+t
+s
+
+f
+o
+
+l
+e
+d
+o
+M
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+r
+o
+f
+
+e
+s
+u
+a
+c
+
+l
+a
+i
+t
+n
+e
+t
+o
+p
+
+a
+
+s
+a
+
+s
+s
+o
+l
+
+3
+5
+P
+
+1
+
+e
+l
+b
+a
+T
+
+)
+4
+0
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+u
+i
+L
+
+s
+d
+a
+e
+l
+
+3
+5
+p
+f
+o
+
+s
+s
+o
+l
+
+e
+t
+e
+l
+p
+m
+o
+C
+
+-
+n
+o
+c
+A
+N
+D
+
+(
+
+c
+i
+r
+t
+e
+m
+o
+t
+y
+c
+w
+o
+l
+F
+
+-
+a
+c
+fi
+
+i
+l
+p
+m
+a
+
+e
+m
+o
+s
+o
+r
+t
+n
+e
+c
+
+o
+t
+
+y
+l
+t
+s
+o
+m
+
+(
+
+s
+A
+N
+C
+s
+
+d
+n
+a
+
+n
+o
+i
+t
+
+)
+s
+a
+m
+o
+h
+p
+m
+y
+l
+
+s
+d
+a
+e
+r
+p
+s
+
+e
+s
+a
+h
+p
+a
+t
+e
+m
+
+;
+)
+t
+n
+e
+t
+
+o
+N
+
+:
+5
+1
+5
+/
+C
+5
+1
+5
+3
+5
+p
+
+;
+s
+e
+Y
+
+:
+
+−
+
+/
+
+−
+3
+5
+p
+
+n
+i
+
+e
+s
+a
+e
+r
+c
+n
+i
+
+d
+e
+w
+o
+h
+s
+C
+P
+A
+
+e
+s
+a
+h
+p
+a
+t
+e
+m
+
+:
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+s
+d
+a
+e
+r
+p
+s
+
+)
+5
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+t
+s
+o
+r
+D
+
+f
+o
+s
+s
+o
+l
+
+h
+t
+i
+
+w
+n
+o
+i
+t
+a
+n
+i
+b
+m
+o
+C
+
+;
+g
+n
+i
+g
+a
+m
+
+i
+
+l
+l
+e
+c
+
+e
+v
+i
+l
+
+:
+
+N
+C
+
+I
+
+o
+N
+
+:
+y
+d
+i
+o
+l
+p
+u
+e
+n
+A
+
+;
+s
+e
+Y
+
+:
+
+N
+C
+
+I
+
+)
+1
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+i
+h
+e
+l
+a
+S
+
+-
+
+l
+l
+e
+c
+
+e
+l
+g
+n
+i
+s
+
+e
+m
+o
+n
+e
+g
+
+e
+l
+o
+h
+W
+
+y
+t
+i
+e
+n
+e
+g
+o
+r
+e
+t
+e
+h
+
+d
+e
+s
+a
+e
+r
+c
+n
+i
+(
+
+s
+e
+Y
+
+g
+n
+i
+c
+n
+e
+u
+q
+e
+s
+
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+f
+o
+s
+s
+e
+n
+t
+fi
+d
+n
+a
+
+)
+s
+n
+o
+i
+t
+a
+l
+u
+p
+o
+p
+
+t
+a
+
+d
+e
+t
+a
+t
+u
+m
+3
+5
+p
+r
+o
+−
+
+/
+
+−
+3
+5
+p
+
+f
+o
+
+n
+o
+i
+t
+c
+u
+d
+n
+i
+
+k
+c
+a
+l
+(
+
+C
+5
+1
+5
+
+)
+s
+i
+s
+o
+t
+p
+o
+p
+a
+
+n
+i
+(
+
+s
+a
+m
+o
+h
+p
+m
+y
+l
+
+d
+n
+a
+
+s
+F
+E
+M
+
+)
+o
+v
+i
+v
+
+d
+e
+t
+a
+i
+d
+e
+m
+9
+s
+a
+C
+R
+P
+S
+I
+R
+C
+
+-
+
+O
+K
+3
+5
+p
+
+d
+e
+t
+a
+i
+d
+e
+m
+9
+s
+a
+C
+R
+P
+S
+I
+R
+C
+
+-
+
+O
+K
+3
+5
+p
+
+t
+s
+a
+e
+r
+b
+
+d
+i
+o
+l
+p
+i
+d
+T
+R
+E
+T
+h
+4
+8
+1
+
+e
+n
+i
+l
+
+l
+l
+e
+c
+
+l
+a
+i
+l
+e
+h
+t
+i
+p
+e
+
+T
+W
+
+l
+a
+n
+i
+t
+s
+e
+t
+n
+i
+
+n
+a
+m
+u
+H
+
+s
+d
+i
+o
+n
+a
+g
+r
+o
+
+f
+o
+
+s
+s
+o
+L
+(
+
+y
+d
+i
+o
+l
+p
+
+n
+i
+
+e
+s
+a
+e
+r
+c
+n
+i
+
+o
+t
+
+y
+l
+t
+s
+o
+m
+s
+d
+a
+e
+l
+
+e
+n
+o
+l
+a
+
+3
+5
+p
+
+r
+e
+g
+n
+o
+r
+t
+s
+
+o
+t
+
+s
+d
+a
+e
+l
+
+a
+1
+f
+s
+s
+a
+R
+
+)
+s
+a
+m
+o
+h
+p
+m
+y
+l
+
+w
+o
+fl
+;
+s
+d
+a
+e
+r
+p
+s
+
+e
+s
+a
+h
+p
+
+-
+i
+l
+a
+m
+r
+o
+n
+b
+a
+
+l
+a
+m
+o
+s
+o
+m
+o
+r
+h
+c
+
+H
+S
+I
+F
+;
+y
+r
+t
+e
+m
+o
+t
+y
+c
+
+)
+s
+e
+i
+t
+
+)
+1
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+i
+s
+a
+m
+m
+o
+T
+
+f
+o
+
+s
+s
+o
+l
+
+h
+t
+i
+
+w
+n
+o
+i
+t
+a
+n
+i
+b
+m
+o
+C
+
+-
+a
+t
+e
+m
+
+;
+g
+n
+i
+g
+a
+m
+
+i
+
+l
+l
+e
+c
+
+e
+v
+i
+L
+
+d
+n
+a
+
+e
+r
+u
+l
+i
+a
+f
+
+s
+i
+s
+e
+n
+i
+k
+o
+t
+y
+c
+(
+
+s
+e
+Y
+
+−
+
+/
+
+−
+3
+5
+p
+e
+n
+i
+l
+
+m
+r
+e
+G
+
+s
+F
+E
+M
+
+)
+7
+9
+9
+1
+(
+
+.
+l
+a
+
+t
+e
+
+a
+w
+a
+s
+a
+k
+u
+F
+
+c
+y
+M
+-
+c
+
+h
+t
+i
+
+w
+n
+o
+i
+t
+a
+n
+i
+b
+m
+o
+C
+
+s
+d
+a
+e
+r
+p
+s
+
+e
+s
+a
+h
+p
+a
+t
+e
+
+M
+
+-
+o
+r
+t
+n
+e
+c
+
+l
+a
+m
+r
+o
+n
+b
+a
+
+s
+u
+l
+p
+(
+
+s
+e
+Y
+
+−
+
+/
+
+−
+3
+5
+p
+e
+n
+i
+l
+
+m
+r
+e
+G
+
+n
+o
+i
+s
+s
+e
+r
+p
+x
+e
+r
+e
+v
+o
+
+)
+n
+o
+i
+t
+a
+c
+fi
+
+i
+l
+p
+m
+a
+
+e
+m
+o
+s
+
+)
+1
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+k
+n
+u
+F
+
+h
+t
+i
+
+w
+n
+o
+i
+t
+a
+n
+i
+b
+m
+o
+C
+
+−
+
+/
+
++
+e
+p
+n
+e
+C
+
+e
+u
+s
+s
+i
+t
+
+l
+a
+n
+i
+t
+s
+e
+t
+n
+i
+
+n
+i
+
+s
+i
+s
+o
+t
+i
+
+m
+
+l
+a
+m
+r
+o
+n
+b
+a
+
+r
+o
+f
+F
+I
+
+;
+s
+F
+E
+M
+
+s
+n
+o
+i
+t
+c
+e
+s
+
+n
+i
+
+s
+d
+a
+e
+r
+p
+s
+
+e
+s
+a
+h
+p
+a
+t
+e
+
+M
+
+)
+s
+e
+m
+o
+s
+o
+m
+o
+r
+h
+c
+
+g
+n
+i
+g
+g
+a
+l
+(
+
+s
+e
+Y
+
+−
+
+/
+
+−
+3
+5
+p
+e
+n
+i
+l
+
+m
+r
+e
+G
+
+-
+s
+i
+t
+
+l
+a
+n
+i
+t
+s
+e
+t
+n
+i
+
+e
+s
+u
+o
+m
+s
+l
+l
+e
+c
+
+n
+e
+e
+l
+p
+s
+
+d
+n
+a
+
+s
+F
+E
+M
+y
+r
+a
+m
+
+i
+r
+P
+
+)
+o
+v
+i
+v
+
+n
+i
+(
+
+e
+u
+s
+
+d
+n
+a
+
+,
+
+w
+o
+r
+r
+a
+m
+e
+n
+o
+b
+
+,
+n
+e
+e
+l
+p
+s
+
+n
+i
+k
+s
+
+d
+n
+a
+
+n
+e
+e
+l
+p
+s
+
+;
+s
+u
+m
+y
+h
+t
+
+f
+o
+
+s
+n
+o
+i
+s
+n
+e
+p
+s
+u
+s
+
+l
+l
+e
+c
+
+e
+l
+g
+n
+i
+S
+
+)
+o
+v
+i
+v
+
+n
+i
+(
+
+s
+t
+s
+a
+l
+b
+o
+r
+b
+fi
+
+1 3Vol:. (1234567890) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chromosome Res (2023) 31:31 
+
+Page 7 of 23  31
+
+d
+n
+a
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+d
+e
+c
+n
+a
+h
+n
+e
+
+n
+o
+i
+t
+i
+b
+i
+h
+n
+i
+
+1
+s
+p
+M
+h
+t
+i
+
+w
+
+t
+n
+e
+m
+p
+o
+l
+e
+v
+e
+d
+
+r
+o
+m
+u
+t
+
+)
+4
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+r
+e
+j
+i
+o
+F
+
+s
+s
+o
+l
+
+3
+5
+p
+
+f
+o
+
+n
+o
+i
+t
+a
+n
+i
+b
+m
+o
+C
+
+H
+S
+I
+F
+e
+s
+a
+h
+p
+r
+e
+t
+n
+i
+
+,
+
+H
+G
+C
+a
+
+o
+t
+
+s
+A
+N
+C
+n
+h
+t
+i
+
+w
+s
+a
+m
+o
+h
+p
+m
+y
+l
+
+c
+i
+m
+y
+h
+t
+
+e
+c
+u
+d
+n
+i
+
+o
+t
+
+h
+g
+u
+o
+n
+e
+
+s
+s
+o
+l
+
+3
+5
+p
+
+f
+o
+
+s
+l
+e
+v
+e
+l
+
+r
+a
+l
+i
+
+m
+i
+s
+
+n
+o
+i
+t
+c
+u
+d
+e
+r
+
+h
+t
+i
+
+w
+d
+e
+n
+i
+b
+m
+o
+c
+
+s
+l
+e
+v
+e
+l
+
+n
+i
+e
+t
+o
+r
+p
+
+1
+b
+u
+B
+
+f
+o
+
+)
+5
+0
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+r
+a
+w
+
+i
+j
+u
+F
+
+y
+b
+
+d
+e
+c
+u
+d
+n
+i
+
+s
+a
+w
+D
+G
+W
+
+-
+n
+o
+c
+A
+N
+D
+
+(
+
+y
+r
+t
+e
+m
+o
+t
+y
+c
+w
+o
+l
+F
+
+s
+i
+s
+e
+n
+i
+k
+o
+t
+y
+c
+
+g
+n
+i
+k
+c
+o
+l
+b
+
+s
+d
+a
+e
+r
+p
+s
+
+e
+s
+a
+h
+p
+a
+t
+e
+m
+
+;
+)
+t
+n
+e
+t
+
+p
+o
+l
+e
+v
+e
+d
+s
+C
+E
+M
+M
+−
+
+/
+
+−
+3
+5
+p
+
+d
+i
+o
+l
+p
+a
+r
+t
+e
+t
+
+d
+n
+a
+
+d
+i
+o
+l
+p
+i
+d
+(
+
+s
+e
+Y
+
+n
+i
+
+d
+i
+o
+l
+p
+a
+r
+t
+e
+t
+
+y
+l
+s
+u
+o
+e
+n
+a
+t
+n
+o
+p
+s
+
+e
+r
+u
+t
+l
+u
+c
+
+)
+8
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+s
+e
+p
+o
+L
+
+-
+
+e
+l
+o
+i
+r
+t
+n
+e
+c
+/
+e
+m
+o
+s
+o
+r
+t
+n
+e
+C
+
+-
+o
+r
+t
+n
+e
+c
+
+l
+a
+m
+r
+o
+n
+b
+a
+
+s
+u
+l
+p
+(
+
+s
+e
+Y
+
+d
+i
+o
+l
+p
+i
+d
+;
+)
+t
+n
+e
+m
+t
+a
+e
+r
+t
+
+e
+m
+o
+c
+e
+b
+
+s
+l
+l
+e
+c
+−
+
+/
+
+B
+C
+D
+
+(
+
+−
+3
+5
+p
+
+)
+s
+A
+N
+C
+s
+
+d
+n
+a
+A
+N
+C
+n
+
+)
+2
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+n
+a
+l
+s
+a
+B
+
+h
+t
+i
+
+w
+d
+e
+n
+i
+b
+m
+o
+c
+
+s
+i
+
+s
+s
+o
+l
+
+3
+5
+p
+
+n
+o
+i
+t
+a
+t
+u
+m
+D
+2
+1
+G
+s
+a
+r
+K
+
+H
+S
+I
+F
+;
+g
+n
+i
+
+-
+c
+n
+e
+u
+q
+e
+s
+
+e
+m
+o
+n
+e
+g
+
+l
+l
+e
+c
+-
+e
+l
+g
+n
+i
+S
+
+d
+n
+a
+
+s
+e
+s
+s
+o
+l
+
+y
+l
+t
+s
+o
+m
+
+(
+
+s
+e
+Y
+
+h
+t
+i
+
+w
+
+(
+
+−
+
+/
+
++
+3
+5
+p
+e
+n
+i
+l
+
+m
+r
+e
+G
+
+-
+r
+a
+c
+o
+n
+e
+d
+a
+
+l
+a
+t
+c
+u
+d
+
+c
+i
+t
+a
+e
+r
+c
+n
+a
+P
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+s
+n
+o
+i
+t
+a
+t
+i
+
+C
+
+s
+r
+o
+t
+c
+a
+f
+
+r
+e
+h
+t
+O
+
+/
+
+I
+
+N
+C
+g
+n
+i
+r
+u
+s
+a
+e
+m
+
+f
+o
+
+e
+d
+o
+M
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+/
+N
+C
+
+I
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+n
+i
+
+3
+5
+p
+
+f
+o
+
+e
+d
+o
+M
+
+y
+d
+u
+t
+s
+
+f
+o
+
+l
+e
+d
+o
+M
+
+)
+d
+e
+u
+n
+i
+t
+n
+o
+c
+(
+
+1
+
+e
+l
+b
+a
+T
+
+)
+
+D
+G
+W
+
+s
+e
+Y
+
+t
+u
+o
+k
+c
+o
+n
+k
+
+3
+5
+p
+l
+a
+n
+o
+i
+t
+i
+d
+n
+o
+C
+
+ ;
+−
+
+/
+
++
+3
+5
+p
+(
+
+)
+
+s
+l
+l
+e
+c
+-
+T
+n
+i
+
+−
+
+/
+
+−
+3
+5
+p
+
+)
+o
+v
+i
+v
+
+n
+i
+(
+
+s
+a
+m
+o
+h
+p
+m
+y
+L
+
+l
+e
+d
+o
+m
+
+)
+
+H
+O
+L
+
+e
+s
+u
+o
+m
+
+)
+
+C
+A
+D
+P
+(
+
+a
+m
+o
+n
+i
+c
+
+)
+9
+0
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+r
+e
+k
+a
+B
+
+s
+a
+w
+e
+n
+o
+l
+a
+
+3
+5
+p
+
+f
+o
+
+s
+s
+o
+L
+
+s
+d
+a
+e
+r
+p
+s
+
+e
+s
+a
+h
+p
+a
+t
+e
+
+M
+
+)
+s
+A
+N
+C
+n
+(
+
+s
+e
+Y
+
+−
+
+/
+
+−
+3
+5
+p
+e
+n
+i
+l
+
+m
+r
+e
+G
+
+)
+o
+v
+i
+v
+
+n
+i
+(
+
+s
+a
+m
+o
+h
+p
+m
+y
+L
+
+−
+
+/
+
+−
+3
+5
+p
+e
+n
+i
+l
+
+m
+r
+e
+G
+
+l
+a
+i
+l
+e
+h
+t
+i
+p
+e
+
+y
+r
+a
+m
+m
+a
+m
+e
+s
+u
+o
+M
+
+d
+i
+o
+l
+p
+a
+r
+t
+e
+t
+
+f
+o
+
+s
+l
+e
+d
+o
+m
+s
+t
+f
+a
+r
+g
+
+-
+o
+n
+e
+X
+
+;
+)
+s
+C
+E
+M
+M
+
+(
+
+s
+l
+l
+e
+c
+
+)
+o
+v
+i
+v
+
+n
+i
+(
+
+s
+l
+l
+e
+c
+
+s
+a
+w
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+r
+e
+h
+t
+e
+h
+w
+
+,
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+n
+i
+
+3
+5
+p
+
+e
+c
+u
+d
+n
+i
+
+o
+t
+
+d
+e
+s
+u
+
+s
+e
+i
+g
+e
+t
+a
+r
+t
+s
+
+e
+h
+t
+
+s
+e
+d
+u
+l
+c
+n
+i
+
+e
+l
+b
+a
+t
+
+e
+h
+T
+
+.
+s
+s
+o
+l
+
+3
+5
+p
+
+n
+o
+p
+u
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+f
+o
+
+t
+n
+e
+m
+p
+o
+l
+e
+v
+e
+d
+
+e
+h
+t
+
+d
+e
+n
+i
+m
+a
+x
+e
+
+t
+a
+h
+t
+
+e
+r
+u
+t
+a
+r
+e
+t
+i
+l
+
+f
+o
+
+y
+r
+a
+m
+m
+u
+S
+
+.
+d
+e
+t
+o
+n
+
+s
+i
+
+t
+n
+e
+m
+p
+o
+l
+e
+v
+e
+d
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+o
+t
+
+d
+e
+t
+u
+b
+i
+r
+t
+n
+o
+c
+
+,
+
+E
+B
+
+;
+t
+u
+o
+k
+c
+o
+n
+k
+
+,
+
+O
+K
+
+-
+y
+r
+b
+m
+e
+
+e
+s
+u
+o
+m
+
+,
+s
+F
+E
+M
+
+;
+
+A
+N
+R
+n
+i
+p
+r
+i
+a
+h
+
+t
+r
+o
+h
+s
+
+,
+
+A
+N
+R
+h
+s
+
+;
+y
+t
+i
+l
+i
+b
+a
+t
+s
+n
+i
+
+l
+a
+m
+o
+s
+o
+m
+o
+r
+h
+c
+
+,
+
+t
+a
+h
+t
+
+N
+C
+
+I
+
+;
+n
+o
+i
+t
+a
+z
+i
+d
+i
+r
+b
+y
+h
+
+c
+i
+m
+o
+n
+e
+g
+
+e
+v
+i
+t
+a
+r
+a
+p
+m
+o
+c
+
+y
+a
+r
+r
+a
+
+,
+
+H
+G
+C
+a
+
+;
+
+B
+-
+n
+i
+s
+a
+l
+a
+h
+c
+o
+t
+y
+c
+o
+r
+d
+y
+h
+i
+d
+
+,
+
+B
+C
+D
+
+;
+g
+n
+i
+l
+b
+u
+o
+d
+
+e
+m
+o
+n
+e
+g
+
+e
+l
+o
+h
+w
+
+,
+
+D
+G
+W
+
+;
+s
+t
+s
+a
+l
+b
+o
+r
+b
+fi
+
+c
+i
+n
+o
+
+s
+r
+o
+t
+c
+a
+f
+
+r
+e
+h
+t
+o
+
+f
+o
+
+e
+c
+n
+e
+r
+r
+u
+c
+c
+o
+-
+o
+c
+
+,
+t
+n
+a
+v
+e
+l
+e
+r
+
+e
+r
+e
+h
+W
+
+.
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+e
+r
+u
+s
+a
+e
+m
+o
+t
+
+d
+e
+s
+u
+
+s
+d
+o
+h
+t
+e
+m
+d
+n
+a
+
+t
+s
+o
+l
+
+s
+a
+w
+3
+5
+p
+
+y
+l
+n
+o
+
+n
+e
+h
+w
+d
+e
+t
+c
+e
+t
+e
+d
+
+;
+
+H
+S
+I
+F
+-
+x
+e
+l
+p
+i
+t
+l
+u
+m
+
+,
+
+H
+S
+I
+F
+-
+M
+
+H
+S
+I
+F
+
+;
+n
+o
+i
+t
+a
+z
+i
+d
+i
+r
+b
+y
+h
+
+u
+t
+i
+s
+
+n
+i
+
+e
+c
+n
+e
+c
+s
+e
+r
+o
+u
+fl
+
+,
+
+;
+e
+c
+n
+e
+c
+s
+e
+r
+o
+u
+fl
+o
+n
+u
+m
+m
+
+i
+
+,
+
+;
+y
+t
+i
+s
+o
+g
+y
+z
+o
+r
+e
+t
+e
+h
+
+f
+o
+
+s
+s
+o
+l
+
+,
+
+F
+I
+
+H
+O
+L
+
+e
+p
+y
+t
+
+d
+l
+i
+
+w
+
+,
+
+T
+W
+
+;
+s
+u
+g
+a
+h
+p
+o
+s
+e
+
+s
+’
+t
+t
+e
+r
+r
+a
+B
+
+t
+n
+e
+t
+n
+o
+c
+A
+N
+D
+d
+n
+a
+
+r
+e
+b
+m
+u
+n
+
+F
+I
+
+y
+b
+
+s
+i
+s
+y
+l
+a
+n
+a
+
+)
+r
+e
+b
+m
+u
+n
+e
+m
+o
+s
+
+A
+N
+R
+i
+s
+
+c
+i
+t
+s
+a
+l
+p
+s
+y
+d
+(
+
+s
+n
+o
+i
+t
+a
+t
+u
+m
+3
+5
+p
+
+3
+5
+p
+;
+)
+s
+e
+l
+p
+m
+a
+s
+
+;
+
+E
+B
+h
+t
+i
+
+w
+s
+t
+n
+e
+i
+t
+a
+p
+f
+o
+s
+e
+i
+s
+p
+o
+i
+B
+
+E
+B
+0
+1
+T
+-
+R
+A
+B
+d
+n
+a
+T
+-
+R
+A
+B
+
+s
+e
+n
+i
+l
+
+l
+l
+e
+c
+
+d
+e
+v
+i
+r
+e
+d
+-
+t
+n
+e
+i
+t
+a
+p
+
+1 3Vol.: (0123456789) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+31  Page 8 of 23
+
+Chromosome Res (2023) 31:31
+
+Fig. 3   Consequences of p53 loss. Cells that lose p53 function 
+can  become  aneuploid  by  various  means,  including  supernu-
+merary  centrosomes,  DNA  damage,  and  altered  proliferation 
+and  cellular  surveillance  mechanisms.  Supernumerary  cen-
+trosomes can result in multipolar spindles and/or lagging chro-
+mosomes, causing CNAs and WGD. Unresolved DNA damage 
+
+can  contribute  to  replication  stress  and  mitotic  errors  (e.g., 
+chromosome  anaphase  bridges)  likely  resulting  in  structural 
+CNAs  (sCNAs)  or  WGD.  The  combination  of  p53  loss  with 
+alterations in driver genes affects proliferation and surveillance 
+mechanisms, resulting in aneuploid progeny with sCNA and/or 
+numerical CNAs (nCNA)
+
+Bunz et al. 1998; Bakhoum et al. 2017; Janssen et al. 
+2011)  (Table  1;  Fig.  3).  WGD  can  further  promote 
+CIN:  in  most  cancers  with  evidence  of  early  WGD, 
+subsequent  near-triploidy  and  extensive  CNAs  are 
+common  (Gerstung  et  al.  2020;  Knouse  et  al.  2017; 
+Storchova  and  Pellman  2004;  Storchova  and  Kuffer 
+2008; Baslan et al. 2022; Dewhurst et al. 2014; Zeng 
+et al. 2023).
+
+Contrasting  these  observations  are  studies  report-
+ing  that  TP53  mutations  are  not  sufficient  to  cause 
+aneuploidy:  monolayer  cancer  or  non-transformed 
+cell  lines  often  remain  diploid  after  p53  deletion/
+inactivation  (Simoes-Sousa  et  al.  2018;  Bunz  et  al. 
+2002;  Haruki  et  al.  2001).  Loss  of  p53  in  HCT116 
+
+cells induces CIN only when combined with the loss 
+of p73 (Schmidt et al. 2021) or loss of pRB (Manning 
+et al. 2014), and the CIN seen upon TP53 knockout in 
+human intestinal organoids was not accompanied by a 
+significant increase in aneuploidy (Drost et al. 2015) 
+(Table 1).
+
+What  could  explain  the  seemingly  contradictory 
+findings  about  the  appearance  of  aneuploid  cells 
+upon  p53  inactivation?  TP53  knockout  in  an  AML 
+cell  line  resulted  in  appearance  of  aneuploid  cells 
+containing both sCNAs and nCNAs (Cazzola et  al. 
+2019).  Conversely,  cells  with  functional  p53  can 
+accumulate some nCNAs but rarely sCNAs. In line 
+with  this,  inducing  CIN  in  p53-proficient  HCT116 
+
+1 3Vol:. (1234567890) 
+Chromosome Res (2023) 31:31 
+
+Page 9 of 23  31
+
+or  RPE1  cells  resulted  in  cycling  aneuploid  cells 
+with  mostly  whole-chromosome  gains  (e.g.,  triso-
+mies),  while  most  whole-chromosome  losses  and 
+sCNAs could be detected only when p53 was inac-
+tivated (Soto et al. 2017; Chunduri et al. 2021). So, 
+like the analysis of cancer genome datasets, the dis-
+crepancy  may  lie  in  the  definition  of  aneuploidy: 
+even  though  nCNAs  survive  better  in  p53-inacti-
+vated cells, it is possible that loss of p53 leads pre-
+dominantly to sCNAs rather than nCNAs.
+
+In  vivo  p53-deficient  germline  mouse  models 
+display CIN and aneuploidy in tissues such as lym-
+phoid  (thymus,  bone  marrow,  and  spleen)  (Fuka-
+sawa  et  al.  1997;  Funk  et  al.  2021)  and  intestine 
+(Funk  et  al.  2021)  (Table  1).  Likewise,  inducible 
+loss  of  p53  in  mouse  esophagus  progenitor  cells 
+leads  to  accumulation  of  giant  poly-aneuploid  like 
+cells—aneuploid  cells  that  have  undergone  WGD 
+(Murai  et  al. 2022).  Nevertheless,  oncogenic  trans-
+formation  in  vivo  upon  p53  loss  happens  predomi-
+nantly  in  blood  cells  (lymphomas)  and/or  con-
+nective  tissue  (sarcomas),  and  these  cancers  are 
+aneuploid  (Funk et al. 2021; Liu et al. 2004; Tom-
+masi et al. 2011; Chi et al. 2009; Baker et al. 2009; 
+Foijer  et  al.  2014)  (Table  1).  Induction  of  CIN  by 
+deleting  the  spindle  assembly  checkpoint  (SAC) 
+kinases  Mps1  or  Bub1  in  mice  heterozygous  for 
+functional  p53  (p53  +  / −)  accelerated  loss  of  het-
+erozygosity (p53 − / −) and the development of ane-
+uploid  lymphomas  (Foijer  et  al.  2014;  Baker  et  al. 
+2009)  (Table  1).  Other  in  vivo  p53  mutant  cancer 
+models  also  show  aneuploidy,  but  loss  of  p53  was 
+often  combined  with  additional  oncogenic  events. 
+Examples  include  transgenic  Wnt  overexpression 
+(mammary  cancer)  (Donehower  et  al.  1995),  Kras 
+mutation  (pancreatic  cancer)  (Baslan  et  al.  2022), 
+or  spontaneous  c-Myc  overexpression  (lymphoma) 
+(Fukasawa et al. 1997) (Table  1, Fig. 3). The com-
+bination of multiple factors makes it challenging to 
+dissect  the  contribution  of  loss  of  p53  alone  to  the 
+development of aneuploidy in these tissues.
+
+To summarize, depending on the model and condi-
+tions (species, culture or tissue type, additional onco-
+genic  alterations),  p53  loss  by  itself  can  cause  ane-
+uploidy. Whether this is a result of increased CIN or 
+of a higher probability of survival of aneuploid cells 
+in vivo is unclear. Resolving this requires single cell 
+analysis  of  CIN  and  aneuploidy  in  vitro  and  in  vivo 
+upon acute inactivation of p53.
+
+A healthy cell’s response to aneuploidy
+
+TP53 mutations correlate with aneuploidy in cancer, 
+but as outlined earlier, it is unclear whether p53 loss 
+can  directly  cause  chromosome  segregation  errors. 
+Moreover, loss of functional p53 does not invariably 
+lead  to  aneuploidy.  Instead,  loss  of  p53  might  be  a 
+permissive  characteristic  for  propagation  of  aneu-
+ploidy. In order to explore this possibility we will first 
+outline how healthy cells respond to aneuploidy.
+
+Aneuploidy-induced stresses
+
+Aneuploidy  is  rare  in  healthy  cells  (Knouse  et  al. 
+2014;  Chunduri  and  Storchová  2019).  Cells  are  pro-
+tected from becoming aneuploid by various cell cycle 
+checkpoints  (e.g.,  replication  or  chromosome  segre-
+gation  checkpoints)  (Chunduri  and  Storchová  2019; 
+Gaillard et al. 2015; McAinsh and Kops 2023), and if 
+somehow  cells  escape  such  checkpoints  and  become 
+aneuploid,  they  appear  to  be  eliminated  from  the 
+population. Immune surveillance can drive the elimi-
+nation of senescent aneuploid cells, mostly mediated 
+by natural killer cells (Santaguida et al. 2017; Wang 
+et  al.  2021).  Whether  immune  cells  can  recognize 
+specifically aneuploid cells, and if so how, is largely 
+unknown.  Aneuploidy  induces  severe  stresses  that 
+cause  a  substantial  fitness  decline  (Sheltzer  et  al. 
+2017; Wang et al. 2021; Santaguida et al. 2017; Zhu 
+et  al.  2018;  Gordon  et  al.  2012;  Sheltzer  and  Amon 
+2011;  Torres  et  al.  2007;  Williams  et  al.  2008).  As 
+extensively  reviewed  elsewhere  (Chunduri  and  Stor-
+chová 2019; Gordon et al. 2012; Zhu et al. 2018), ane-
+uploidy can cause DNA damage (Janssen et al. 2011; 
+Sheltzer et al. 2011; Passerini et al. 2016), replication 
+stress (Ohashi et al. 2015; Passerini et al. 2016; Gar-
+ribba  et  al.  2023),  proteotoxic  stress  (Ohashi  et  al. 
+2015; Santaguida and Amon 2015b; Oromendia et al. 
+2012;  Torres  et  al.  2007),  hypo-osmotic  stress  (Tsai 
+et  al.  2019),  metabolic  stress  (Stingele  et  al.  2012; 
+Foijer  et  al.  2014),  lysosomal  stress  (Santaguida  and 
+Amon 2015a; Santaguida et al. 2015), and an inflam-
+matory response (Santaguida et al. 2017; Wang et al. 
+2021). These often lead to cell cycle arrest and/or cell 
+death.  The  mechanisms  by  which  aneuploidy  causes 
+these  stresses  are  not  completely  resolved,  but  have 
+been  elucidated  in  some  cases.  Aneuploid  cells  can 
+accumulate DNA damage as a result of DNA breaks 
+on lagging chromosomes or anaphase bridges, or from 
+
+1 3Vol.: (0123456789)31  Page 10 of 23
+
+Chromosome Res (2023) 31:31
+
+mis-segregated chromosomes that end up in micronu-
+clei, which are prone to rupture and exposure  of the 
+entrapped  chromosome  to  cytoplasmic  exonucleases 
+(Umbreit et al. 2020; Zhang et al. 2015; Janssen et al. 
+2011; Hatch et al. 2013). Through imbalances in gene 
+content from nCNAs, aneuploidy can affect transcrip-
+tion  and  translation  (Chunduri  and  Storchová  2019), 
+leading to, for example, a shortage of replication fac-
+tors (such as MCM2–7) that in turn induce replication 
+stress  and  cause  DNA  damage  in  under-replicated 
+regions  (Passerini  et  al.  2016;  Garribba  et  al.  2023). 
+Although  dosage  compensation  mechanisms  exist  in 
+aneuploid cells to negate the protein imbalances that 
+result from chromosome gains (Stingele et al. 2012), 
+they  suffer  from  proteotoxic  stress:  imbalances  in 
+protein  complex  stoichiometries  put  a  strain  on  pro-
+tein  folding  and  degradation  machineries,  leading  to 
+aggregation  of  misfolded  proteins  in  the  cytoplasm 
+(Chunduri  and  Storchová  2019).  Interestingly,  aneu-
+ploidy-induced stresses are not the same for all types 
+of  CNAs,  given  that,  for  example,  monosomies  do 
+not  induce  proteotoxic  stress  (Chunduri  et  al.  2021). 
+Therefore, further efforts are needed to elucidate the 
+mechanisms  by  which  CNAs  trigger  the  aforemen-
+tioned stress responses.
+
+p53 pathway response to aneuploidy
+
+The overlap in stresses that arise from aneuploidy and 
+those  that  activate  p53  raises  the  question  whether 
+p53 is activated in response to aneuploidy and hence 
+may  impact  the  fate  of  aneuploid  cells.  Indeed,  sev-
+eral studies have shown that p53 can be  activated  in 
+response  to  CIN  and/or  aneuploidy  (Table  2).  This 
+can  occur  regardless  of  the  strategy  used  to  induce 
+CIN.  For  example,  disrupting  the  SAC,  alone  or  in 
+combination  with  disrupting  chromosome  congres-
+sion  (by  inhibiting  MPS1),  the  master  kinase  of  the 
+SAC, − / + the mitotic kinesin CENP-E) in RPE-1 or 
+HCT116  cells  leads  to  sCNAs  and  nCNAs  followed 
+by  p53  activation  and  consequent  cell  cycle  arrest 
+(Santaguida et al. 2017; Soto et al. 2017; Narkar et al. 
+2021; Janssen et al. 2011; Simoes-Sousa et al. 2018; 
+Li et al. 2010) (Table 2). Similarly, induction of WGD 
+in RPE-1 cells also causes cell cycle arrest mediated 
+by  p53  (Crockford  et  al.  2017;  Ganem  et  al.  2014; 
+Gemble  et  al.  2022),  and  mitotic  arrest-and-release 
+strategies  induce  p53  activation  after  mis-segrega-
+tion events and result in cell cycle arrest (Thompson 
+
+and  Compton  2010;  Dalton  et  al.  2010).  P53  acti-
+vation  has  also  been  observed  in  cell  lines  derived 
+from mouse models of CIN (Li et al. 2010; Silk et al. 
+2013). However, aneuploidy does not invariably lead 
+to p53 activation in monolayer cultures. For example, 
+certain nCNAs or low levels of aneuploidy can propa-
+gate  in  p53-proficient  RPE-1  cells  (Soto  et  al.  2017; 
+Santaguida  et  al.  2017),  and  even  high  aneuploidy 
+levels can lead to cell cycle arrest in a p53-independ-
+ent manner (Santaguida et al. 2017).
+
+Additionally, a recent study using 3D cultures fur-
+ther challenged the hypothesis that p53 is activated in 
+response  to  aneuploidy  (Table  2).  While  p53  activa-
+tion and cell cycle arrest upon chromosome mis-seg-
+regation was seen in monolayer cell cultures, no p53 
+activation  was  seen  in  either  mouse  colon  or  human 
+mammary 3D organoid cultures (Narkar et al. 2021). 
+In  this  study,  chromosome  segregation  errors  in  the 
+organoids  were  not  accompanied  by  DNA  damage, 
+which may in part explain the lack of a p53 response 
+and    is  in  line  with  the  requirement  for  p53  inacti-
+vation  in  the  accumulation  of  sCNAs,  as  described 
+earlier. Another possibility is that, since tissue archi-
+tecture was proposed to be essential for chromosome 
+segregation  fidelity  (Knouse  et  al.  2018),  this  may 
+also  somehow  impact  the  p53  response.  However, 
+growing  HCT116  cells  in  3D  did  not  alter  the  p53 
+response (Narkar et al. 2021), although it is debatable 
+to  what  extent  such  cancer  cells  grown  in  3D  reca-
+pitulate  tissue  architecture.  A  point  of  consideration 
+is  the  components  of  the  medium  used  for  organoid 
+culture that might affect cellular responses: in human 
+organoid  lines  specifically,  p38  inhibitors  are  often 
+used  which  might  inhibit  aneuploidy-induced  stress 
+response  mediated  by  p38–p53  activation  (Simoes-
+Sousa et al. 2018). Nonetheless, the 3D culture study 
+emphasizes the importance of examining whether p53 
+is activated in response to aneuploidy in vivo. To our 
+knowledge,  while  p53  activation  has  been  detected 
+in  fibroblasts  derived  from  mouse  cancer  models  of 
+CIN/aneuploidy,  it  has  not  been  examined  directly 
+in  vivo  or  in  tissues  of  such  models.  Interestingly, 
+p53  activation  and  elimination  of  aneuploid  cells  in 
+mouse  brains  upon  induction  of  CIN  were  reported 
+in the context of mouse embryonic development (Shi 
+et al. 2019).
+
+Taken  together,  the  inconsistent  observations  of 
+a  p53  response  to  aneuploidy  in  monolayer  cultures 
+and the lack of p53 response observed in 3D organoid 
+
+1 3Vol:. (1234567890) 
+Chromosome Res (2023) 31:31 
+
+Page 11 of 23  31
+
+)
+1
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+r
+a
+k
+r
+a
+N
+
+F
+I
+
+;
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+g
+n
+i
+l
+c
+y
+c
+
+)
+s
+A
+N
+C
+n
+
+h
+t
+i
+
+w
+s
+l
+l
+e
+c
+
+s
+e
+Y
+
+o
+N
+
+)
+9
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+l
+o
+z
+z
+a
+C
+
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+
+n
+i
+
+d
+e
+t
+s
+e
+t
+
+y
+l
+n
+o
+(
+
+o
+N
+
+s
+e
+Y
+
+s
+A
+N
+C
+n
+
+:
+s
+l
+l
+e
+c
+T
+W
+3
+5
+p
+
+s
+n
+o
+i
+t
+a
+t
+i
+
+C
+
+g
+n
+i
+r
+u
+s
+a
+e
+m
+
+f
+o
+
+e
+d
+o
+M
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+3
+5
+p
+
+e
+g
+a
+m
+a
+d
+A
+N
+D
+
+-
+e
+h
+p
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+/
+N
+C
+
+I
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+3
+5
+p
+
+e
+p
+y
+t
+o
+n
+
+r
+a
+l
+o
+p
+i
+t
+l
+u
+m
+
+:
+e
+l
+o
+z
+a
+d
+
+s
+n
+o
+i
+s
+i
+v
+i
+d
+
+o
+N
+
+-
+o
+c
+o
+n
+
+;
+s
+A
+N
+C
+n
+
+:
+i
+1
+S
+P
+M
+
+e
+l
+o
+z
+a
+d
+o
+c
+o
+n
+
+;
+
+a
+
+i
+1
+S
+P
+M
+
+i
+
+b
+E
+-
+P
+N
+E
+C
++
+
+a
+
+i
+1
+S
+P
+M
+
+;
+s
+u
+o
+e
+n
+a
+t
+n
+o
+p
+S
+
+-
+e
+n
+a
+/
+N
+C
+
+I
+
+f
+o
+
+e
+d
+o
+M
+
+n
+o
+i
+t
+c
+u
+d
+n
+i
+
+y
+d
+i
+o
+l
+p
+u
+
+e
+s
+u
+o
+m
+/
+e
+p
+y
+t
+
+l
+l
+e
+C
+
+e
+p
+y
+t
+o
+n
+e
+g
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+o
+t
+
+s
+e
+s
+n
+o
+p
+s
+e
+r
+
+3
+5
+p
+
+2
+
+e
+l
+b
+a
+T
+
+-
+e
+k
+u
+e
+l
+
+d
+i
+o
+l
+e
+y
+m
+e
+t
+u
+c
+a
+
+d
+e
+m
+r
+o
+f
+s
+n
+a
+r
+t
+(
+
+B
+E
+E
+
+)
+e
+n
+i
+l
+
+l
+l
+e
+c
+
+a
+i
+m
+
+;
+6
+1
+1
+T
+C
+H
+
+,
+1
+-
+E
+P
+R
+
+:
+
+D
+2
+
+n
+o
+i
+s
+n
+e
+p
+s
+u
+s
+(
+
+6
+m
+l
+a
+N
+
+O
+C
+m
+d
+n
+a
+O
+M
+h
+
+:
+
+D
+3
+
+)
+e
+n
+i
+l
+
+l
+l
+e
+c
+
+)
+7
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+d
+i
+u
+g
+a
+t
+n
+a
+S
+
+F
+I
+
+;
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+
+d
+e
+t
+s
+e
+r
+r
+a
+
+f
+o
+%
+0
+5
+(
+
+s
+e
+Y
+
+s
+e
+Y
+
+c
+i
+m
+o
+n
+e
+g
+
+:
+s
+l
+l
+e
+c
+
+d
+e
+t
+s
+e
+r
+r
+
+A
+
+d
+,
+a
+
+i
+1
+S
+P
+M
+
+s
+l
+l
+e
+c
+
+1
+-
+E
+P
+R
+
+)
+7
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+o
+t
+o
+S
+
+F
+I
+
+)
+s
+l
+l
+e
+c
+
+f
+o
+%
+6
+1
+~
+n
+i
+(
+
+s
+e
+Y
+
+A
+N
+
+;
+s
+A
+N
+C
+n
+
+d
+n
+a
+
+s
+A
+N
+C
+s
+
+i
+
+b
+E
+-
+P
+N
+E
+C
++
+
+c
+
+,
+
+a
+
+i
+1
+S
+P
+M
+
+s
+l
+l
+e
+c
+
+1
+-
+E
+P
+R
+
+-
+a
+m
+r
+o
+f
+
+s
+u
+e
+l
+c
+u
+n
+o
+r
+c
+i
+m
+
+n
+o
+i
+t
+
+)
+8
+1
+0
+2
+(
+
+f
+o
+
+g
+n
+i
+g
+a
+m
+
+i
+
+e
+s
+p
+a
+l
+
+n
+o
+i
+s
+u
+f
+
+3
+5
+p
+-
+P
+F
+G
+
+r
+o
+s
+n
+e
+s
+o
+i
+b
+
+.
+l
+a
+
+t
+e
+
+a
+s
+u
+o
+S
+-
+s
+e
+o
+m
+i
+S
+
+-
+e
+m
+
+i
+t
+
+;
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+
+s
+e
+Y
+
+o
+N
+
+N
+4
+
+;
+s
+A
+N
+C
+n
+
+y
+l
+t
+s
+o
+M
+
+)
+s
+l
+l
+e
+c
+
+g
+n
+i
+v
+l
+o
+v
+n
+i
+
+s
+e
+c
+n
+a
+l
+a
+b
+m
+
+i
+
+f
+o
+%
+0
+2
+
+n
+a
+h
+t
+
+e
+r
+o
+m
+
+A
+N
+C
+s
+(
+
+s
+e
+m
+o
+n
+e
+g
+
+r
+i
+e
+h
+t
+
+d
+n
+a
+
+s
+l
+l
+e
+c
+
+f
+o
+%
+7
+4
+
+n
+i
+
+)
+s
+A
+N
+C
+n
+
+o
+s
+l
+a
+
+o
+N
+
+e
+v
+i
+s
+u
+l
+c
+n
+o
+c
+n
+I
+
+c
+i
+m
+o
+n
+e
+g
+
+:
+s
+l
+l
+e
+c
+
+g
+n
+i
+l
+c
+y
+C
+
+g
+n
+i
+v
+l
+o
+v
+n
+i
+
+s
+e
+c
+n
+a
+l
+a
+b
+m
+
+i
+
+r
+i
+e
+h
+t
+
+f
+o
+%
+5
+
+n
+a
+h
+t
+
+s
+s
+e
+l
+
+o
+s
+l
+a
+
+d
+n
+a
+
+s
+l
+l
+e
+c
+
+f
+o
+%
+8
+1
+
+n
+i
+
+A
+N
+C
+s
+(
+
+s
+e
+m
+o
+n
+e
+g
+
+)
+s
+A
+N
+C
+n
+
+i
+
+b
+E
+-
+P
+N
+E
+C
++
+
+e
+
+i
+1
+S
+P
+ M
+
+;
+
+e
+
+i
+1
+S
+P
+M
+
+A
+N
+D
+e
+z
+i
+m
+i
+n
+i
+m
+o
+t
+
+e
+g
+a
+m
+a
+d
+
+6
+1
+1
+T
+C
+H
+
+)
+6
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+v
+o
+p
+a
+t
+o
+P
+
+d
+n
+a
+R
+C
+P
+q
+
+e
+m
+
+i
+t
+-
+l
+a
+e
+R
+
+s
+e
+Y
+
+-
+u
+n
+o
+r
+c
+i
+m
+n
+i
+
+y
+l
+n
+o
+(
+
+o
+N
+
+D
+G
+W
+
+:
+e
+r
+u
+l
+i
+a
+f
+
+s
+i
+s
+e
+n
+i
+k
+o
+t
+y
+C
+
+s
+l
+l
+e
+c
+
+1
+-
+E
+P
+R
+
+)
+3
+2
+0
+2
+
+.
+l
+a
+
+t
+e
+
+a
+b
+b
+i
+r
+r
+a
+G
+
+(
+
+g
+n
+i
+c
+n
+e
+u
+q
+e
+s
+A
+N
+R
+
+)
+4
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+m
+e
+n
+a
+G
+
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+d
+n
+a
+F
+I
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+e
+m
+a
+c
+e
+b
+
+s
+l
+l
+e
+c
+
+l
+l
+
+A
+
+l
+l
+a
+m
+s
+
+a
+
+d
+n
+a
+
+s
+A
+N
+C
+n
+
+)
+s
+A
+N
+C
+s
+
+f
+o
+
+n
+o
+i
+t
+c
+a
+r
+f
+
+y
+l
+t
+s
+o
+m
+
+(
+
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+d
+i
+m
+e
+c
+l
+o
+c
+
+h
+t
+i
+
+w
+
+d
+
+i
+1
+S
+P
+M
+
+s
+l
+l
+e
+c
+
+1
+-
+E
+P
+R
+
+o
+N
+
+D
+G
+W
+
+d
+e
+t
+a
+i
+d
+e
+m
+A
+N
+R
+i
+s
+
+-
+
+;
+
+B
+C
+D
+
+s
+l
+l
+e
+c
+
+1
+-
+E
+P
+R
+
+;
+2
+T
+C
+E
+f
+o
+
+n
+o
+i
+t
+e
+l
+p
+e
+d
+
+i
+
+g
+ B
+a
+r
+o
+r
+u
+A
+
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+
+)
+i
+e
+l
+c
+
+D
+K
+d
+e
+t
+a
+i
+d
+e
+m
+A
+N
+R
+i
+s
+
+l
+a
+c
+i
+m
+e
+h
+C
+
+a
+r
+o
+r
+u
+A
+
+;
+n
+i
+l
+l
+i
+n
+a
+
+f
+o
+
+:
+n
+o
+i
+t
+i
+b
+i
+h
+n
+i
+
+t
+s
+e
+r
+r
+a
+
+c
+i
+t
+o
+t
+i
+
+m
+
+;
+
+f
+
+i
+
+ B
+
+1 3Vol.: (0123456789) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+31  Page 12 of 23
+
+Chromosome Res (2023) 31:31
+
+)
+0
+1
+0
+2
+(
+
+n
+o
+t
+p
+m
+o
+C
+d
+n
+a
+
+n
+o
+s
+p
+m
+o
+h
+T
+
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+d
+n
+a
+F
+I
+
+)
+0
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+n
+o
+t
+l
+a
+D
+
+F
+I
+
+)
+7
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+a
+i
+c
+r
+a
+G
+-
+z
+e
+p
+o
+L
+
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+)
+0
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+i
+
+L
+
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+d
+n
+a
+F
+I
+
+)
+S
+O
+R
+y
+b
+
+d
+e
+t
+a
+i
+d
+e
+m
+
+(
+
+s
+e
+Y
+
+o
+N
+
+h
+g
+i
+h
+
+3
+5
+p
+
+r
+o
+f
+
+H
+S
+I
+F
+
+s
+n
+o
+i
+t
+a
+t
+i
+
+C
+
+g
+n
+i
+r
+u
+s
+a
+e
+m
+
+f
+o
+
+e
+d
+o
+M
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+3
+5
+p
+
+e
+g
+a
+m
+a
+d
+A
+N
+D
+
+-
+e
+h
+p
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+/
+N
+C
+
+I
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+3
+5
+p
+
+e
+p
+y
+t
+o
+n
+
+-
+e
+n
+a
+/
+N
+C
+
+I
+
+f
+o
+
+e
+d
+o
+M
+
+n
+o
+i
+t
+c
+u
+d
+n
+i
+
+y
+d
+i
+o
+l
+p
+u
+
+e
+s
+u
+o
+m
+/
+e
+p
+y
+t
+
+l
+l
+e
+C
+
+e
+p
+y
+t
+o
+n
+e
+g
+
+)
+d
+e
+u
+n
+i
+t
+n
+o
+c
+(
+
+2
+
+e
+l
+b
+a
+T
+
+)
+1
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+n
+e
+s
+s
+n
+a
+J
+
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+
+)
+2
+2
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+e
+l
+b
+m
+e
+G
+
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+
+)
+7
+1
+0
+2
+(
+
+.
+l
+a
+
+t
+e
+
+d
+r
+o
+f
+k
+c
+o
+r
+C
+
+t
+o
+l
+b
+
+n
+r
+e
+t
+s
+e
+
+W
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+n
+i
+
+d
+e
+t
+a
+l
+y
+r
+o
+h
+p
+s
+o
+h
+p
+
+3
+5
+p
+
+f
+o
+
+e
+c
+n
+e
+s
+b
+a
+(
+
+o
+N
+
+)
+5
+1
+r
+e
+S
+
+s
+e
+Y
+
+f
+o
+
+n
+o
+i
+t
+c
+e
+t
+e
+D
+
+.
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+3
+5
+p
+
+e
+r
+u
+s
+a
+e
+m
+o
+t
+
+d
+n
+a
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+e
+c
+u
+d
+n
+i
+
+o
+t
+
+d
+e
+s
+u
+
+s
+d
+o
+h
+t
+e
+m
+e
+h
+t
+
+h
+t
+i
+
+w
+g
+n
+o
+l
+a
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+f
+o
+
+n
+o
+i
+t
+c
+u
+d
+n
+i
+
+n
+o
+p
+u
+
+n
+o
+i
+t
+a
+v
+i
+t
+c
+a
+
+3
+5
+p
+
+g
+n
+i
+t
+a
+g
+i
+t
+s
+e
+v
+n
+i
+
+-
+y
+h
+i
+d
+
+,
+
+B
+C
+D
+
+;
+s
+e
+i
+c
+e
+p
+s
+
+n
+e
+g
+y
+x
+o
+
+e
+v
+i
+t
+c
+a
+e
+r
+
+,
+S
+O
+R
+
+;
+s
+t
+s
+a
+l
+b
+o
+r
+b
+fi
+c
+i
+n
+o
+y
+r
+b
+m
+e
+
+e
+s
+u
+o
+m
+
+,
+s
+F
+E
+M
+
+;
+s
+d
+i
+o
+n
+a
+g
+r
+o
+
+y
+r
+a
+m
+m
+a
+m
+n
+a
+m
+u
+h
+
+,
+
+O
+M
+h
+
+;
+s
+d
+i
+o
+n
+a
+g
+r
+o
+
+n
+o
+l
+o
+c
+
+e
+s
+u
+o
+m
+
+,
+
+O
+C
+m
+
+.
+d
+e
+d
+u
+l
+c
+n
+i
+
+o
+s
+l
+a
+
+s
+i
+
+e
+g
+a
+m
+a
+d
+A
+N
+D
+
+e
+p
+y
+t
+
+d
+l
+i
+
+w
+
+,
+
+T
+W
+
+;
+
+A
+N
+R
+g
+n
+i
+r
+e
+f
+r
+e
+t
+n
+i
+
+l
+l
+a
+m
+s
+
+,
+
+A
+N
+R
+i
+s
+
+;
+e
+c
+n
+e
+c
+s
+e
+r
+o
+u
+fl
+o
+n
+u
+m
+m
+
+i
+
+,
+
+;
+
+B
+-
+n
+i
+s
+a
+l
+a
+h
+c
+o
+t
+y
+c
+o
+r
+d
+
+F
+I
+
+y
+d
+i
+o
+l
+p
+
+n
+i
+
+e
+s
+a
+e
+r
+c
+n
+i
+
+)
+e
+l
+o
+z
+a
+d
+
+s
+e
+Y
+
+d
+n
+a
+
+e
+g
+a
+p
+p
+i
+l
+s
+
+c
+i
+t
+o
+t
+i
+
+M
+
+-
+o
+c
+o
+N
+
+(
+
+t
+s
+e
+r
+r
+a
+
+c
+i
+t
+o
+t
+i
+
+M
+
+0
+9
+R
+M
+
+I
+
+d
+n
+a
+
+6
+1
+1
+T
+C
+H
+
+o
+N
+
+t
+u
+o
+h
+s
+a
+w
+
+l
+o
+r
+t
+s
+a
+n
+o
+M
+
+;
+s
+e
+m
+o
+s
+o
+m
+o
+r
+h
+c
+
+e
+l
+o
+h
+w
+
+%
+3
+3
+—
+A
+N
+R
+i
+s
+K
+P
+A
+M
+
+s
+e
+m
+o
+s
+o
+m
+o
+r
+h
+c
+
+g
+n
+i
+g
+g
+a
+l
+
+%
+3
+3
+—
+y
+g
+e
+t
+a
+r
+t
+s
+
+-
+
+s
+n
+i
+a
+g
+
+e
+m
+o
+s
+o
+m
+o
+r
+h
+C
+
+%
+5
+
+y
+d
+i
+o
+l
+p
+u
+e
+n
+a
+
+:
+s
+l
+l
+e
+c
+
+4
+
+e
+m
+o
+s
+o
+m
+o
+r
+h
+c
+
+r
+o
+f
+
+-
+o
+m
+o
+r
+h
+c
+
+r
+o
+f
+
+%
+0
+1
+
+d
+n
+a
+
+0
+1
+
+e
+m
+o
+s
+
+s
+e
+Y
+
+-
+o
+r
+h
+c
+
+g
+n
+i
+g
+g
+a
+l
+
+y
+l
+t
+s
+o
+M
+
+s
+e
+m
+o
+s
+o
+m
+
+t
+u
+o
+h
+s
+a
+w
+
+l
+o
+r
+t
+s
+a
+n
+o
+M
+
+K
+P
+A
+M
+
+;
+y
+g
+e
+t
+a
+r
+t
+s
+
+A
+N
+R
+i
+s
+
+A
+N
+R
+i
+s
+
+d
+n
+a
+
+d
+
+i
+1
+S
+P
+M
+
+g
+n
+i
+n
+e
+e
+r
+c
+s
+
+g
+n
+i
+d
+n
+i
+b
+
+t
+n
+e
+i
+c
+fi
+e
+d
+
+h
+t
+i
+
+w
+0
+2
+c
+d
+C
+
+:
+s
+F
+E
+M
+
+;
+e
+c
+i
+m
+A
+A
+A
++
+0
+2
+c
+d
+ C
+
+/
+
+m
+o
+r
+f
+
+d
+e
+v
+i
+r
+e
+d
+S
+F
+E
+M
+
+6
+1
+1
+T
+C
+H
+
+6
+1
+1
+T
+C
+H
+
+:
+6
+1
+1
+T
+C
+H
+
+;
+)
+
+C
+A
+S
+
+d
+e
+r
+i
+a
+p
+m
+
+i
+(
+
+2
+d
+a
+M
+
+r
+o
+f
+
+6
+1
+1
+T
+C
+H
+
+d
+n
+a
+
+,
+1
+R
+B
+U
+B
+
+,
+2
+D
+A
+M
+
+f
+o
+
+n
+o
+i
+t
+e
+l
+p
+e
+d
+A
+N
+R
+i
+s
+
+E
+-
+P
+N
+E
+C
+
+t
+u
+o
+h
+s
+a
+w
+
+c
+
+i
+1
+S
+P
+ M
+
+;
+y
+g
+e
+t
+a
+r
+t
+s
+
+s
+J
+B
+d
+n
+a
+
+0
+8
+4
+W
+S
+
+l
+o
+r
+t
+s
+a
+n
+o
+M
+
+;
+7
+F
+C
+M
+
+;
+S
+O
+2
+U
+
+;
+1
+-
+E
+P
+R
+
+D
+G
+W
+
+r
+o
+
+n
+i
+t
+c
+a
+
+,
+1
+B
+n
+i
+l
+c
+y
+C
+
+n
+o
+i
+t
+e
+l
+p
+e
+d
+
+2
+A
+n
+i
+l
+c
+y
+c
+
+,
+d
+n
+a
+
+J
+B
+
+,
+1
+-
+E
+P
+R
+
+6
+1
+1
+T
+C
+H
+
+D
+G
+W
+
+B
+C
+D
+
+-
+x
+e
+r
+e
+v
+o
+
+s
+l
+l
+e
+c
+
+1
+-
+E
+P
+R
+
+5
+9
+2
+3
+2
+9
+K
+S
+G
+
+r
+o
+t
+i
+b
+i
+h
+n
+i
+
+E
+-
+P
+N
+E
+ C
+
+b
+
+5
+1
+7
+P
+-
+S
+M
+N
+
+r
+o
+t
+i
+b
+i
+h
+n
+i
+
+1
+S
+P
+ M
+
+a
+
+9
+3
+4
+7
+4
+4
+M
+Z
+r
+o
+t
+i
+b
+i
+h
+n
+i
+
+n
+i
+d
+a
+r
+e
+p
+s
+e
+h
+
+r
+o
+t
+i
+b
+i
+h
+n
+i
+
+B
+a
+r
+o
+r
+u
+ A
+
+f
+
+B
+a
+r
+o
+r
+u
+ A
+
+g
+
+e
+n
+i
+s
+r
+e
+v
+e
+R
+
+r
+o
+t
+i
+b
+i
+h
+n
+i
+
+6
+4
+1
+3
+Z
+A
+
+r
+o
+t
+i
+b
+i
+h
+n
+i
+
+5
+-
+d
+p
+C
+
+r
+o
+t
+i
+b
+i
+h
+n
+i
+
+1
+S
+P
+ M
+
+c
+
+1
+S
+P
+ M
+
+d
+
+1
+S
+P
+ M
+
+e
+
+;
+1
+D
+n
+i
+l
+c
+y
+c
+
+g
+n
+i
+s
+s
+e
+r
+p
+
+N
+4
+
+s
+u
+o
+e
+n
+a
+t
+n
+o
+p
+s
+
+s
+l
+l
+e
+c
+
+6
+1
+1
+T
+C
+H
+
+e
+r
+u
+t
+a
+r
+e
+t
+i
+l
+
+f
+o
+
+y
+r
+a
+m
+m
+u
+S
+
+1 3Vol:. (1234567890) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chromosome Res (2023) 31:31 
+
+Page 13 of 23  31
+
+cultures  expose  a  gap  in  our  understanding  of  the 
+mechanisms  by  which  cells  respond  to  and  surpass 
+aneuploidy-induced  stresses  and  the  role  of  p53  in 
+this.
+
+The mechanisms of p53 activation by aneuploidy
+
+The observation that aneuploidy, at least in monolayer 
+cultures,  often  results  in  p53  activation  raises  the 
+question  of  the  underlying  mechanism.  We  envision 
+two possibilities: either p53 senses aneuploidy per se 
+or it senses the stresses that result from aneuploidy.
+
+Direct sensing of aneuploidy by p53
+
+The first possibility is supported by a study reporting 
+that  cells  sense  lagging  or  misaligned  chromosomes 
+by  marking  them  with  phosphorylation  of  histone  3 
+(H3.3) on serine at position 31 (Ser31), which in turn 
+activates p53 by an unknown mechanism (Hinchcliffe 
+et al. 2016). Ser31 of H3.3 can be phosphorylated by 
+the  DNA  damage  response  kinase  CHK-1  in  cancer 
+cells  that  rely  on  the  alternative  lengthening  of  tel-
+omeres (ALT) pathway (Chang et al. 2015), although 
+in  the  aforementioned  study  p53  activation  from 
+H3.3.  Ser31  phosphorylation  was  apparently  inde-
+pendent  of  DNA  damage  (Hinchcliffe  et  al.  2016). 
+Alternatively,  H3.3  Ser31  can  be  phosphorylated  by 
+the  mitotic  kinase  Aurora  B  (Li  et  al.  2017),  which 
+is  active  at  the  cell’s  midzone  during  anaphase  and 
+telophase (Fuller et al. 2008) and as such might mark 
+a  lagging  chromosome.  Paradoxically,  however,  one 
+study  showed  that  Aurora  B  can  phosphorylate  p53 
+at centromeres, resulting in accelerated p53 degrada-
+tion (Gully et al. 2012). It thus remains unclear how 
+H3.3-Ser31  is  phosphorylated  on  mis-segregated 
+chromosomes or how that impacts p53, and no subse-
+quent studies have addressed this. P53 has also been 
+reported  to  respond  directly  to  mitotic  defects  that 
+are  connected  to  prolonged  mitosis:  a  pool  of  p53 
+(phosphorylated  at  Ser15)  located  at  centrosomes  is 
+released in the cytoplasm upon centrosome fragmen-
+tation during mitosis and recruits 53BP1, that in turn 
+activates a mitotic surveillance pathway composed of 
+53BP1 and USP28 (Contadini et al. 2019). Similarly, 
+a study proposed the existence of a “stopwatch” com-
+posed of USP28, 53BP1, and p53 that limits the pro-
+liferation of daughter cells that arise after a prolonged 
+
+mitosis (Meitinger et al. 2016). A new pre-print study 
+suggests  that  this  “stopwatch”  is  a  result  of  gradual 
+MDM2 degradation that eventually leads to p53 acti-
+vation in the following G1 (Fulcher et al. 2023). p53 
+has also been proposed to participate in a “tetraploidy 
+checkpoint” in G1, able to detect and limit the prolif-
+eration of tetraploid cells. This concept resulted from 
+the  observation  that  newly  formed  tetraploid  cells 
+(generated by chemical induction of cytokinesis fail-
+ure)  would  arrest  in  G1  in  a  p53-dependent  manner 
+(Andreassen et al. 2001a, b). However, the existence 
+of such a checkpoint was challenged by other studies 
+showing that G1 cell cycle arrest was not an obliga-
+tory  outcome  in  tetraploid  cells  (Uetake  and  Sluder 
+2004;  Wong  and  Stearns  2005).  Taken  together,  the 
+evidence  for  p53  as  a  direct  sensor  of  the  aneuploid 
+state is currently thin.
+
+Indirect sensing of aneuploidy by p53
+
+In the second possibility, p53 senses the stresses that 
+result  from  aneuploidy  (Fig.  4).  The  observation 
+that low levels of aneuploidy do not activate p53 but 
+higher  aneuploidy  levels  do  lead  to  p53  activation, 
+cell cycle arrest, and senescence supports this notion 
+(Li  et  al.  2010;  Santaguida  et  al.  2017).  Although 
+there is currently little evidence for it, cells with low 
+CIN levels in vivo may escape p53 surveillance mech-
+anisms,  while  those  with  high  CIN  levels  may  elicit 
+a  p53-mediated  apoptosis  response,  with  differential 
+outcomes on tumorigenesis (Li et al. 2010). If indeed 
+p53  is  activated  in  response  to  aneuploidy-induced 
+stresses, there is likely a threshold for p53 activation 
+upon a mis-segregation event (Santaguida et al. 2017; 
+Soto et al. 2017), much like the thresholds proposed 
+to dictate p53 response dynamics and cell fates upon 
+DNA damage (Mönke et al. 2017; Loewer et al. 2010; 
+Paek  et  al.  2016).  A  “just  right”  level  of  aneuploidy 
+might then be sufficiently high to promote tumorigen-
+esis while being sufficiently low to allow escape from 
+p53-mediated cell cycle arrest or apoptosis.
+
+As  said,  there  is  substantial  overlap  between 
+stresses  known  to  activate  p53  and  those  elicited  by 
+aneuploidy.  Are  all  of  them  part  of  the  mechanism 
+by  which  aneuploidy  triggers  p53  activation,  or  do 
+some  contribute  more  than  others?  This  question  is 
+largely  unanswered.  The  clearest  link  between  ane-
+uploidy-induced  stress  and  p53  activation  is  again 
+DNA damage, as described earlier (Fig. 4). CIN and 
+
+1 3Vol.: (0123456789)Chromosome Res (2023) 31:31
+
+31  Page 14 of 23
+
+Fig. 4   P53 activation in 
+response to aneuploidy-
+induced stresses. Ane-
+uploidy-induced stress 
+responses often impinge on 
+p53 activation by disrupting 
+p53-MDM2 interaction. A 
+Replication stress and DNA 
+damage activate ATM, 
+which can directly phos-
+phorylate MDM2 or p53. B 
+Metabolic stress and pro-
+longed mitosis can trigger a 
+p38 stress response, which 
+indirectly targets MDM2 for 
+degradation. C Prolonged 
+mitosis can also activate 
+CASP2, which can cleave 
+MDM2. (D) Supernumer-
+ary centrosomes, often 
+co-occurring with WGD, 
+can trigger the PIDDosome 
+(mediated by CASP2) or 
+(E) the Hippo pathway: 
+LATS1/2 binds MDM2 and 
+reduces its affinity for p53. 
+(F) Monosomies cause defi-
+cient ribosome biogenesis, 
+which creates imbalances 
+in ribosomal proteins, some 
+of which then interact with 
+MDM2 and reduce its 
+affinity for p53. Although 
+poorly understood, (G) the 
+presence of cytoplasmatic 
+DNA triggers p53 activa-
+tion which in turn medi-
+ates the activation of the 
+cytoplasmatic DNA sensing 
+machinery (cGAS/STING) 
+for immune activation
+
+WGD  commonly  cause  DNA  damage  with  ensuing 
+p53 activation (Janssen et al. 2011; Santaguida et al. 
+2017;  Soto  et  al.  2017;  Dalton  et  al.  2010;  Krzy-
+wicka-Racka  and  Sluder  2011;  Kuffer  et  al.  2013; 
+Ganem  et  al.  2014;  Gemble  et  al.  2022).  The  fact 
+that  DNA  damage  underlies  sCNAs  (Janssen  et  al. 
+2011; Li et al. 2010; Santaguida et al. 2017) and that 
+sCNAs  are  eliminated  in  p53-proficient  cells  (Soto 
+et  al.  2017;  Dalton  et  al.  2010;  Cazzola  et  al.  2019) 
+suggests that aneuploidy-associated DNA damage, at 
+least in part, explains the p53 response to aneuploidy. 
+
+In fact, loss of p53 or DNA damage repair genes (e.g., 
+MLH1  and  MSH2)  lead  to  accumulation  of  sCNAs 
+and  single  nucleotide  alterations,  suggesting  that 
+p53  acts  mostly  through  the  DNA  damage  response 
+to prevent propagation of sCNAs (Janic et al. 2018). 
+Although  likely,  for  most  of  the  other  aneuploidy-
+related  stresses  like  metabolic  stress,  replication 
+stress,  hypo-osmotic  stress,  proteotoxic  stress,  and 
+autophagy  stress,  there  is  currently  no  evidence  that 
+they  are  a  crucial  intermediate  between  aneuploidy 
+and  p53.  Examining  this  requires  assessment  of  p53 
+
+1 3Vol:. (1234567890) 
+Chromosome Res (2023) 31:31 
+
+Page 15 of 23  31
+
+activity  (dynamics)  following  aneuploidy  after  spe-
+cific  elimination  of  one  type  of  stress.  This  would 
+also  help  understanding  how  p53  limits  the  survival 
+of cells that acquire nCNAs, since nCNAs, in contrast 
+to sCNAs, are less likely to accumulate DNA breaks. 
+Of note, for one type of nCNA the mode of p53 acti-
+vation seems resolved: monosomies are incompatible 
+with  functional  p53.  This  is  likely  due  to  defects  in 
+ribosome biogenesis (Chunduri et al. 2021). Because 
+ribosomal genes are spread across the genome, mono-
+somies  cause  imbalances  in  ribosomal  protein  com-
+plexes, some of which can interact with MDM2  and 
+activate  the  p53  response  (Lindström  et  al.  2022) 
+(Fig.  4).  Some  DNA  damage-independent  mecha-
+nisms have been proposed to link CNAs to p53 acti-
+vation  (Fig.  4).  p38  works  side  by  side  with  p53  to 
+limit progression of cells in response to stress stimuli. 
+Upon  mis-segregation  events,  p38  causes  apoptosis, 
+at least in part through p53 stabilization and suppres-
+sion  of  HIF-1α  (a  master  regulator  of  the  hypoxia 
+response)  (Simoes-Sousa  et  al.  2018).  P38  has  been 
+shown  to  indirectly  target  MDM2  (unknown  mecha-
+nism) leading to p53 stabilization (Zhang et al. 2021) 
+(Fig.  4).  Similarly,  a  postmitotic  stress  response 
+by  p38–p53  can  trigger  p53-dependent  cell  cycle 
+arrest  in  G1  after  prolonged  mitosis  or  mitotic  slip-
+page  without  proper  cytokinesis  (Uetake  and  Sluder 
+2018; Vogel et al. 2004). In Drosophila, the p38–p53 
+axis  participates  in  the  response  to  metabolic  stress 
+induced by ROS formation as a consequence of CIN 
+(Clemente-Ruiz et al. 2016). Recently, p53 was linked 
+to the activation of the cytosolic DNA-sensing cGAS/
+STING  pathway  (Ghosh  et  al.  2023).  Micronuclei 
+formed  after  a  mis-segregation  event  are  prone  to 
+rupture,  leading  to  accumulation  of  cytosolic  DNA 
+that  can  trigger  cGAS/STING  activation  (Kwon 
+et  al.  2020)  (Fig.  4).  In  the  presence  of  cytosolic 
+DNA,  p53  induces  the  degradation  of  the  exonucle-
+ase  TREX1  (a  DNA  degrading  enzyme),  leading  to 
+the  accumulation  of  cytosolic  DNA  and  consequent 
+detection by the sGAS/STING pathway (Ghosh et al. 
+2023).  P53  can  also  limit  proliferation  of  cells  with 
+supernumerary  centrosomes  after  WGD  (Ganem 
+et  al.  2009;  Darp  et  al.  2022)  through  activation  of 
+the  Hippo  pathway  (Ganem  et  al.  2014)  or  the  PID-
+Dosome  (a  caspase-2  activator)  (Ganem  et  al.  2009; 
+Fava et al. 2017) (Fig. 4). Activation of CASP2 (cas-
+pase-2)  in  response  to  CNAs,  mitotic  delay  or  DNA 
+damage  during  mitosis,  causes  MDM2  cleavage, 
+
+p53  stabilization,  and  thus  aneuploid  cell  clearance 
+through mitotic cell death (Fig. 4) (Dawar et al. 2017; 
+Lopez-Garcia  et  al.  2017;  Castedo  et  al.  2004;  Lim 
+et al. 2021). In colorectal cancer cell lines, repression 
+of  CASP2  activity  by  loss  of  BCL9L  (a  component 
+of  Wnt  signaling  pathway)  allowed  survival  of  CIN 
+cells (Lopez-Garcia et al. 2017). In summary, several 
+mechanisms  can  lead  to  p53  activation  upon  a  mis-
+segregation event in vitro. However, more studies are 
+necessary  to  clarify  both  the  mechanisms  of  activa-
+tion  of  p53  and  the  outcomes  thereof  in  response  to 
+aneuploidy in 3D and in vivo.
+
+Conclusions and future outlook
+
+P53  participates  in  a  complex  network  of  cellular 
+responses  to  diverse  stresses.  As  we  discuss  in  this 
+review, many of these stresses overlap with the ones 
+induced  by  aneuploidy.  It  is  clear  that  p53  activa-
+tion is a recurrent outcome of aneuploidy but not an 
+obligatory  one  as,  for  example,  nCNAs  can  propa-
+gate  in  p53  proficient  cells.  Nevertheless,  loss  of 
+p53  creates  a  more  permissive  context  for  prolifera-
+tion  of  aneuploid  cells  when  compared  to  p53  pro-
+ficient  counterparts  (Salehi  et  al.  2021;  Adell  et  al. 
+2023;  Fujiwara  et  al.  2005).  Therefore,  there  is  still 
+much  to  learn  about  how  exactly  aneuploidy  trig-
+gers  p53  and  how  p53  limits  survival  of  aneuploid 
+cells  (Fig.  5).  Some  outstanding  questions  remain: 
+first, does p53 get activated in response to aneuploidy 
+in  vivo?  The  fact  that  loss  of  p53  in  vivo  promotes 
+survival of aneuploid cells suggests a role for p53, but 
+direct evidence for p53 activation in response to ane-
+uploidy  in  vivo  is  scarce.  Given  the  absence  of  p53 
+response in mouse- and human-derived 3D organoid 
+cultures,  it  will  be  important  to  examine  direct  p53 
+activation in aneuploid cells in 3D organoid cultures 
+and validate it in in vivo models of CIN/aneuploidy. 
+Second,  it  is  currently  unknown  whether,  and  if  so 
+how,  different  types  of  mitotic  errors  (e.g.,  lagging 
+chromosomes,  chromatin  bridges,  supernumerary 
+centrosomes,  micronuclei)  trigger  p53  activation. 
+A  major  distinction  seems  to  be  between  errors  that 
+lead  to  sCNAs  vs.  nCNAs:  whereas  nCNAs  are  still 
+tolerated to some extent in cells with functional p53, 
+sCNAs often arise in p53-deficient cells. It will there-
+fore  be  very  informative  to  re-assess  the  correlation 
+between TP53 mutations and nCNAs. Third, it is still 
+
+1 3Vol.: (0123456789)31  Page 16 of 23
+
+Chromosome Res (2023) 31:31
+
+largely elusive whether p53 can work as a direct sen-
+sor for aneuploidy. Can p53, for example, be directly 
+activated by a mis-segregating chromosome? Or is it 
+perhaps more indirectly activated when a threshold is 
+exceeded of the fraction of the genome that is altered 
+(e.g., when more than 20% of the genome is gained or 
+lost)? It could be of added value to use directed whole 
+chromosome  mis-segregation  strategies  such  as  Kar-
+yoCreate (Bosco et al. 2023) to explore whether p53 
+responds  to  a  threshold  of  mis-segregation  events 
+(e.g.,  gene  content,  fraction  of  genome  altered),  in 
+the  absence  of  DNA  damage.  Lastly,  it  is  also  unre-
+solved  how  different  types  of  aneuploidy-induced 
+stresses  result  in  p53  activation.  A  direct  link  has 
+
+been  established  between  DNA  damage  responses 
+and occurrence of sCNAs, but no other stresses were 
+individually  tested  as  mandatory  intermediates  for 
+p53 activation in aneuploid cells. Understanding what 
+mechanisms limit proliferation of aneuploid cells can 
+open up therapeutic opportunities to target aneuploid 
+tumor cells.
+
+Most consequences of aneuploidy seem to impinge 
+on the p53 pathway. However, p53 alterations are pre-
+sent  at  a  pan-cancer  frequency  of  approximately  41% 
+while aneuploidy is present in ~ 90% of solid tumors, 
+as obtained from TCGA database (Hoadley et al. 2014; 
+Gerstung et al. 2020). This suggests that p53-proficient 
+cells  can  propagate  aneuploidy  by  either  overcoming 
+
+Fig. 5   P53  as  a  gatekeeper  for  aneuploidy.  In  healthy  cells 
+(A),  aneuploidy-induced  stresses  activate  a  p53  response, 
+which  prevents  the  propagation  of  aneuploid  cells  and  causes 
+their  cell  cycle  arrest  or  death.  In  cancer  cells,  however,  ane-
+uploidy as well as p53 mutations are highly prevalent. In p53 
+mutant  cancer  cells  (B)  (~  41%  with  TP53  gene  mutations) 
+(Hoadley  et  al.  2014),  aneuploid  cells  can  proliferate  with 
+low/moderate  levels  of  aneuploidy.  Propagation  of  replication 
+stress, for example, can induce DNA damage and consequently 
+further  promote  CIN.  This  leads  to  increased  heterogene-
+ity,  which  enables  selection  of  optimal  karyotypes.  Approxi-
+
+mately  59%  of  tumors  are  WT  for  p53  (C).  In  these  tumors, 
+aneuploidy can still be propagated by either developing mecha-
+nisms to surpass p53 activation (e.g., cyclin D1/2 upregulation 
+in WGD) or by upregulating mechanisms to prevent accumula-
+tion of genomic instability (GIN) (e.g., upregulate DNA dam-
+age response pathways). As a result, such cells are more likely 
+to accumulate numerical CNAs (nCNAs), mostly gains, while 
+cells  with  structural  CNAs  (sCNAs)  and/or  monosomies  are 
+probably eliminated or overtaken by cells with more beneficial 
+karyotypes
+
+1 3Vol:. (1234567890) 
+Chromosome Res (2023) 31:31 
+
+Page 17 of 23  31
+
+p53 activation or through p53-independent mechanisms 
+(Fig.  5).  For  example,  tetraploid  human  tumors  (47% 
+of which are wild-type for p53) (Crockford et al. 2017) 
+can  upregulate  cyclin  D1/2  which  in  turn  sequesters 
+p21,  a  downstream  effector  of  p53,  resulting  in  con-
+tinued  proliferation  (Potapova  et  al.  2016;  Crockford 
+et al. 2017). Likewise, loss of BRG1, part of a chroma-
+tin  remodeling  complex,  also  seems  to  overcome  p53 
+activation in aneuploid cells by upregulating cyclin D1 
+(Schiavoni et al.  2022). In another example, upregula-
+tion  of  HIF-1α  can  inhibit  post-mitotic  apoptosis  and 
+potentiate tolerance to aneuploidy in a p53-independent 
+manner (Simoes-Sousa et al.  2018). Even if p53 itself 
+is intact, alterations to components of the p53 network 
+can  also  allow  cells  to  overcome  p53  pathway  activa-
+tion.  For  example,  CDKN2A  (encoding  for  p21)  is  a 
+known cancer driver, frequently altered at early stages 
+of  tumor  development  (Donehower  et  al.  2019;  Gers-
+tung  et  al.  2020).  Additionally,  selection  of  sCNAs  or 
+nCNAs  that  affect  genes  involved  in  the  p53  network 
+can  be  another  way  by  which  aneuploid  cells  surpass 
+p53  activation.  In  line  with  this,  trisomy  of  chromo-
+some  1q,  recurrently  present  in  cancer,  leads  to  over-
+expression of MDM4 that in turn inhibits p53 function 
+(Girish et al. 2023). Interestingly, gain of chromosome 
+1q was shown to be mutually exclusive with mutations 
+in TP53. Likewise, deletion of CDKN2A and amplifica-
+tion of MDM2 are mutually exclusive with TP53 altera-
+tions  in  glioblastoma  multiforme  cancers  (Donehower 
+et  al.  2019).  Finally,  since  aneuploid  cells  can  trigger 
+further  genomic  instability  (Sheltzer  et  al.  2011;  Pas-
+serini et al. 2016), another way to adapt to aneuploidy 
+might be by preventing accumulation of stresses (Clem-
+ente-Ruiz et al. 2016; Clarke et al. 2022). For example, 
+aneuploid  cells  can  improve  DNA  replication  by  acti-
+vating DDK-mediated firing and mitotic DNA synthe-
+sis  (MIDAS),  in  order  to  cope  with  replication  stress 
+and maintain mitotic fidelity (Garribba et al.  2023). It 
+will be of great interest to examine in detail the general 
+response  to  aneuploidy  in  p53  proficient  cells  and  the 
+pathways that such cells use to overcome aneuploidy’s 
+detrimental effects. Given the prevalence of aneuploidy 
+in cancer, such insights will likely reveal new targetable 
+vulnerabilities of aneuploid cells.
+
+Acknowledgements  We  thank  all  members  of  the  Kops 
+group for the critical reading of the manuscript and the review-
+ers  for  constructive  comments.  All  figures  were  created  with 
+Biorender.com.
+
+Author  contribution  Conceptualization  and  initial  draft 
+preparation,  J.F.M.;  review,  editing,  discussions,  and  sugges-
+tions, J.F.M. and G.J.P.L.K.; supervision and funding acquisi-
+tion, G.J.P.L.K. All authors reviewed the manuscript.
+
+Funding  This study was funded by the Dutch Cancer Society 
+(KWF Kankerbestrijding) (no. KWF 12728).
+
+Data availability  Data sharing is not applicable to this arti-
+cle  as  no  datasets  were  generated  or  analyzed  during  the  cur-
+rent study.
+
+Declarations 
+
+Ethical approval  Not applicable.
+
+Consent to participate  Not applicable.
+
+Consent for publication  Not applicable.
+
+Competing interests  The authors declare no competing interests.
+
+Open Access  This article is licensed under a Creative Com-
+mons  Attribution  4.0  International  License,  which  permits 
+use,  sharing,  adaptation,  distribution  and  reproduction  in  any 
+medium or format, as long as you give appropriate credit to the 
+original  author(s)  and  the  source,  provide  a  link  to  the  Crea-
+tive Commons licence, and indicate if changes were made. The 
+images or other third party material in this article are included 
+in  the  article’s  Creative  Commons  licence,  unless  indicated 
+otherwise  in  a  credit  line  to  the  material.  If  material  is  not 
+included  in  the  article’s  Creative  Commons  licence  and  your 
+intended use is not permitted by statutory regulation or exceeds 
+the permitted use, you will need to obtain permission directly 
+from the copyright holder. To view a copy of this licence, visit 
+http://creativecommons.org/licenses/by/4.0/.
+
+References
+
+Abuetabh  Y,  Wu  HH,  Chai  C,  Al  Yousef  H,  Persad  S,  Sergi 
+CM, Leng R (2022) DNA damage response revisited: the 
+p53 family and its regulators provide endless cancer ther-
+apy opportunities. Exp Mol Med 54:1658–1669
+
+Adell  MAY,  Klockner  TC,  Höfler  R,  Wallner  L,  Schmid  J, 
+Markovic  A,  Martyniak  A,  Campbell  CS  (2023)  Adap-
+tation to spindle assembly checkpoint inhibition through 
+the  selection  of  specific  aneuploidies.  Genes  Dev 
+37(5–6):171–190
+
+Andreassen PR, Lacroix FB, Lohez OD, Margolis RL (2001a) 
+Neither  p21WAF1  nor  14-3-3sigma  prevents  G2  pro-
+gression  to  mitotic  catastrophe  in  human  colon  carci-
+noma  cells  after  DNA  damage,  but  p21WAF1  induces 
+stable G1 arrest in resulting tetraploid cells. Cancer Res 
+61:7660–7668
+
+Andreassen PR, Lohez OD, Lacroix FB, Margolis RL (2001b) 
+induces  p53-dependent  arrest  of 
+
+Tetraploid  state 
+
+1 3Vol.: (0123456789)31  Page 18 of 23
+
+Chromosome Res (2023) 31:31
+
+nontransformed  mammalian  cells  in  G1.  Mol  Biol  Cell 
+12:1315–1328
+
+Artegiani B, Hendriks D, Beumer J, Kok R, Zheng X, Joore I, 
+Chuva de Sousa Lopes SC, van Zon J, Tans S, Clevers H 
+(2020)  Fast  and  efficient  generation  of  knock-in  human 
+organoids  using  homology-independent  CRISPR-Cas9 
+precision genome editing. Nat Cell Biol 22:321–31
+Baker  DJ,  Jin  F,  Jeganathan  KB,  van  Deursen  JM  (2009) 
+Whole  chromosome  instability  caused  by  Bub1  insuf-
+ficiency  drives  tumorigenesis  through  tumor  suppressor 
+gene loss of heterozygosity. Cancer Cell 16:475–486
+Bakhoum SF, Kabeche L, Compton DA,  Powell SN,  Bastians 
+H  (2017)  Mitotic  DNA  damage  response:  at  the  cross-
+roads  of  structural  and  numerical  cancer  chromosome 
+instabilities. Trends Cancer 3:225–234
+
+Banin  S,  Moyal  L,  Shieh  S,  Taya  Y,  Anderson  CW,  Chessa 
+L,  Smorodinsky  NI,  Prives  C,  Reiss  Y,  Shiloh  Y,  Ziv 
+Y  (1998)  Enhanced  phosphorylation  of  p53  by  ATM  in 
+response to DNA damage. Science 281:1674–1677
+Baslan T, th Morris JP, Zhao Z, Reyes J, Ho YJ, Tsanov KM, 
+Bermeo J, Tian S, Zhang S, Askan G, Yavas A, Lecomte 
+N, Erakky A, Varghese AM, Zhang A, Kendall J, Ghiban 
+E,  Chorbadjiev  L,  Wu  J,  Dimitrova  N,  Chadalavada  K, 
+Nanjangud GJ, Bandlamudi C, Gong Y, Donoghue MTA, 
+Socci  ND,  Krasnitz  A,  Notta  F,  Leach  SD,  Iacobuzio-
+Donahue  CA,  Lowe  SW  (2022)  Ordered  and  determin-
+istic  cancer  genome  evolution  after  p53  loss.  Nature 
+608:795–802
+
+Batchelor  E,  Mock  CS,  Bhan  I,  Loewer  A,  Lahav  G  (2008) 
+Recurrent 
+triggering 
+initiation:  a  mechanism 
+p53  pulses  in  response  to  DNA  damage.  Mol  Cell 
+30:277–289
+
+for 
+
+Ben-David  U,  Amon  A  (2020)  Context  is  everything:  ane-
+
+uploidy in cancer. Nat Rev Genet 21:44–62
+
+Bieging KT, Mello SS, Attardi LD (2014) Unravelling mecha-
+nisms  of  p53-mediated  tumour  suppression.  Nat  Rev 
+Cancer 14:359–370
+
+Bielski CM, Zehir A, Penson AV, Donoghue MTA, Chatila W, 
+Armenia  J,  Chang  MT,  Schram  AM,  Jonsson  P,  Band-
+lamudi  C,  Razavi  P,  Iyer  G,  Robson  ME,  Stadler  ZK, 
+Schultz  N,  Baselga  J,  Solit  DB,  Hyman  DM,  Berger 
+MF,  Taylor  BS  (2018)  Genome  doubling  shapes  the 
+evolution and prognosis of advanced cancers. Nat Genet 
+50:1189–1195
+
+Bolhaqueiro ACF, Ponsioen B, Bakker B, Klaasen SJ, Kucuk-
+kose E, van Jaarsveld RH, Vivié J, Verlaan-Klink I, Hami 
+N, Spierings DCJ, Sasaki N, Dutta D, Boj SF, Vries RGJ, 
+Lansdorp PM, van de Wetering M, van Oudenaarden A, 
+Clevers H, Kranenburg O, Foijer F, Snippert HJG, Kops 
+G  (2019)  Ongoing  chromosomal  instability  and  karyo-
+type evolution in human colorectal cancer organoids. Nat 
+Genet 51:824–834
+
+Bosco  N,  Goldberg  A,  Zhao  X,  Mays  JC,  Cheng  P,  Johnson 
+AF, Bianchi JJ, Toscani C, Di Tommaso E, Katsnelson L, 
+Annuar D, Mei S, Faitelson RE, Pesselev IY, Mohamed 
+KS,  Mermerian  A,  Camacho-Hernandez  EM,  Gionco 
+CA,  Manikas  J,  Tseng  YS,  Sun  Z,  Fani  S,  Keegan  S, 
+Lippman SM, Fenyö D, Giunta S, Santaguida S, Davoli 
+T  (2023)  KaryoCreate:  A  CRISPR-based  technology 
+to  study  chromosome-specific  aneuploidy  by  targeting 
+human centromeres. Cell 186:1985-2001.e19
+
+Boutelle AM, Attardi LD (2021) p53 and tumor suppression: it 
+
+takes a network. Trends Cell Biol 31:298–310
+
+Bunz F, Dutriaux A, Lengauer C, Waldman T, Zhou S, Brown 
+JP,  Sedivy  JM,  Kinzler  KW,  Vogelstein  B  (1998) 
+Requirement  for  p53  and  p21  to  sustain  G2  arrest  after 
+DNA damage. Science 282:1497–1501
+
+Bunz F, Fauth C, Speicher MR, Dutriaux A, Sedivy JM, Kin-
+zler  KW,  Vogelstein  B,  Lengauer  C  (2002)  Targeted 
+inactivation of p53 in human cells does not result in ane-
+uploidy. Cancer Res 62:1129–1133
+
+Castedo  M,  Perfettini  JL,  Roumier  T,  Valent  A,  Raslova  H, 
+Yakushijin K, Horne D, Feunteun J, Lenoir G, Medema 
+R,  Vainchenker  W,  Kroemer  G  (2004)  Mitotic  catastro-
+phe  constitutes  a  special  case  of  apoptosis  whose  sup-
+pression entails aneuploidy. Oncogene 23:4362–4370
+Cazzola A, Schlegel C, Jansen I, Bochtler T, Jauch A, Krämer 
+A  (2019)  TP53  deficiency  permits  chromosome  abnor-
+malities  and  karyotype  heterogeneity  in  acute  myeloid 
+leukemia. Leukemia 33:2619–2627
+
+Chan JY (2011) A clinical overview of centrosome amplifica-
+tion in human cancers. Int J Biol Sci 7:1122–1144
+Chang  FT,  Chan  FL,  McGhie  JDR,  Udugama  M,  Mayne  L, 
+Collas P, Mann JR, Wong LH (2015) CHK1-driven his-
+tone  H3.3  serine  31  phosphorylation  is  important  for 
+chromatin maintenance and cell survival in human ALT 
+cancer cells. Nucleic Acids Res 43:2603–14
+
+Chène  P  (2003)  Inhibiting  the  p53-MDM2  interaction:  an 
+important  target  for  cancer  therapy.  Nat  Rev  Cancer 
+3:102–109
+
+Chi  YH,  Ward  JM,  Cheng  LI,  Yasunaga  J,  Jeang  KT  (2009) 
+Spindle  assembly  checkpoint  and  p53  deficiencies 
+cooperate  for  tumorigenesis  in  mice.  Int  J  Cancer 
+124:1483–1489
+
+Chunduri  NK,  Storchová  Z  (2019)  The  diverse  consequences 
+
+of aneuploidy. Nat Cell Biol 21:54–62
+
+Chunduri  NK,  Menges  P,  Zhang  X,  Wieland  A,  Gotsmann 
+VL,  Mardin  BR,  Buccitelli  C,  Korbel  JO,  Willmund  F, 
+Kschischo M, Raeschle M, Storchova Z (2021) Systems 
+approaches  identify  the  consequences  of  monosomy  in 
+somatic human cells. Nat Commun 12:5576
+
+Ciriello G, Miller ML, Aksoy BA, Senbabaoglu Y, Schultz N, 
+Sander  C  (2013)  Emerging  landscape  of  oncogenic  sig-
+natures across human cancers. Nat Genet 45:1127–1133
+
+Clarke  MN,  Marsoner  T,  Adell  MAY,  Ravichandran  MC, 
+Campbell CS (2022) Adaptation to high rates of chromo-
+somal  instability  and  aneuploidy  through  multiple  path-
+ways in budding yeast’. Embo J 42(8):e111500
+
+Clemente-Ruiz  M,  Murillo-Maldonado  JM,  Benhra  N,  Barrio 
+L,  Pérez  L,  Quiroga  G,  Nebreda  AR,  Milán  M  (2016) 
+Gene  dosage  imbalance  contributes  to  chromosomal 
+instability-induced tumorigenesis. Dev Cell 36:290–302
+
+Contadini  C,  Monteonofrio  L,  Virdia  I,  Prodosmo  A,  Valente 
+D,  Chessa  L,  Musio  A,  Fava  LL,  Rinaldo  C,  Di  Rocco 
+G,  Soddu  S  (2019)  p53  mitotic  centrosome  localization 
+preserves  centrosome  integrity  and  works  as  sensor  for 
+the mitotic surveillance pathway. Cell Death Dis 10:850
+
+Crockford A, Zalmas LP, Grönroos E, Dewhurst SM, McGran-
+ahan N, Cuomo ME, Encheva V, Snijders AP, Begum J, 
+Purewal S, Cerveira J, Patel H, Renshaw MJ, Swanton C 
+(2017) Cyclin D mediates tolerance of genome-doubling 
+in cancers with functional p53. Ann Oncol 28:149–156
+
+1 3Vol:. (1234567890) 
+Chromosome Res (2023) 31:31 
+
+Page 19 of 23  31
+
+Dalton WB, Yu B, Yang VW (2010) p53 suppresses structural 
+chromosome  instability  after  mitotic  arrest  in  human 
+cells. Oncogene 29:1929–1940
+
+Darp  R,  Vittoria  MA,  Ganem  NJ,  Ceol  CJ  (2022)  Oncogenic 
+BRAF induces whole-genome doubling through suppres-
+sion of cytokinesis. Nat Commun 13:4109
+
+Davoli T, Xu AW, Mengwasser KE, Sack LM, Yoon JC, Park 
+PJ, Elledge SJ (2013) Cumulative haploinsufficiency and 
+triplosensitivity drive aneuploidy patterns and shape the 
+cancer genome. Cell 155:948–962
+
+Davoli  T,  Uno  H,  Wooten  EC,  Elledge  SJ  (2017)  Tumor  ane-
+uploidy  correlates  with  markers  of  immune  evasion 
+and  with  reduced  response  to  immunotherapy.  Science 
+355(6322):eaaf8399
+
+Dawar  S,  Lim  Y,  Puccini  J,  White  M,  Thomas  P,  Bouchier-
+Hayes  L,  Green  DR,  Dorstyn  L,  Kumar  S  (2017)  Cas-
+pase-2-mediated  cell  death  is  required  for  deleting  ane-
+uploid cells. Oncogene 36:2704–2714
+
+Dewhurst SM, McGranahan N, Burrell RA, Rowan AJ, Gron-
+roos  E,  Endesfelder  D,  Joshi  T,  Mouradov  D,  Gibbs  P, 
+Ward RL, Hawkins NJ, Szallasi Z, Sieber OM, Swanton 
+C  (2014)  Tolerance  of  whole-genome  doubling  propa-
+gates  chromosomal  instability  and  accelerates  cancer 
+genome evolution. Cancer Discov 4:175–185
+
+Donehower LA, Godley LA, Aldaz CM, Pyle R, Shi YP, Pin-
+kel D, Gray J, Bradley A, Medina D, Varmus HE (1995) 
+Deficiency  of  p53  accelerates  mammary  tumorigenesis 
+in  Wnt-1  transgenic  mice  and  promotes  chromosomal 
+instability. Genes Dev 9:882–895
+
+Donehower LA, Soussi T, Korkut A, Liu Y, Schultz A, Card-
+enas M, Li X, Babur O, Hsu TK, Lichtarge O, Weinstein 
+JN,  Akbani  R,  Wheeler  DA  (2019)  Integrated  analysis 
+of  TP53  gene  and  pathway  alterations  in  The  Cancer 
+Genome Atlas. Cell Rep 28:3010
+
+Drost J, van Jaarsveld RH, Ponsioen B, Zimberlin C, van Box-
+tel  R,  Buijs  A,  Sachs  N,  Overmeer  RM,  Offerhaus  GJ, 
+Begthel  H,  Korving  J,  van  de  Wetering  M,  Schwank  G, 
+Logtenberg M, Cuppen E, Snippert HJ, Medema JP, Kops 
+GJ, Clevers H (2015) Sequential cancer mutations in cul-
+tured human intestinal stem cells. Nature 521:43–47
+Fava  LL,  Schuler  F,  Sladky  V,  Haschka  MD,  Soratroi  C,  Eit-
+erer L, Demetz E, Weiss G, Geley S, Nigg EA, Villunger 
+A  (2017)  The  PIDDosome  activates  p53  in  response  to 
+supernumerary centrosomes. Genes Dev 31:34–45
+Foijer  F,  Xie  SZ,  Simon  JE,  Bakker  PL,  Conte  N,  Davis  SH, 
+Kregel  E,  Jonkers  J,  Bradley  A,  Sorger  PK  (2014) 
+Chromosome  instability  induced  by  Mps1  and  p53 
+mutation  generates  aggressive  lymphomas  exhibiting 
+aneuploidy-induced  stress.  Proc  Natl  Acad  Sci  U  S  A 
+111:13427–13432
+
+Fujiwara  T,  Bandi  M,  Nitta  M,  Ivanova  EV,  Bronson  RT, 
+Pellman  D  (2005)  Cytokinesis  failure  generating  tetra-
+ploids  promotes  tumorigenesis  in  p53-null  cells.  Nature 
+437:1043–1047
+
+Fukasawa  K  (2005)  Centrosome  amplification,  chromo-
+some  instability  and  cancer  development.  Cancer  Lett 
+230:6–19
+
+Fukasawa  K,  Choi  T,  Kuriyama  R,  Rulong  S,  Vande  Woude 
+GF  (1996)  Abnormal  centrosome  amplification  in  the 
+absence of p53. Science 271:1744–1747
+
+Fukasawa  K,  Wiener  F,  Vande  Woude  GF,  Mai  S  (1997) 
+Genomic  instability  and  apoptosis  are  frequent  in  p53 
+deficient young mice. Oncogene 15:1295–1302
+
+Fulcher  LJ,  Sobajima  T,  Gibbs-Seymour  I,  Barr  FA  (2023) 
+MDM2  acts  as  a  timer  reporting  the  length  of  mitosis: 
+2023.05.26.542398
+
+Fuller  BG,  Lampson  MA,  Foley  EA,  Rosasco-Nitcher  S, 
+Le  KV,  Tobelmann  P,  Brautigan  DL,  Stukenberg  PT, 
+Kapoor  TM  (2008)  Midzone  activation  of  aurora  B  in 
+anaphase  produces  an  intracellular  phosphorylation  gra-
+dient. Nature 453:1132–1136
+
+Funk  LC,  Wan  J,  Ryan  SD,  Kaur  C,  Sullivan  R,  Roopra  A, 
+Weaver  BA  (2021)  p53  is  not  required  for  high  CIN  to 
+induce tumor suppression. Mol Cancer Res 19:112–123
+
+Gaillard  H,  García-Muse  T,  Aguilera  A  (2015)  Replication 
+
+stress and cancer. Nat Rev Cancer 15:276–289
+
+Gambino V, De Michele G, Venezia O, Migliaccio P, Dall’Olio 
+V,  Bernard  L,  Minardi  SP,  Dellafazia  MA,  Bartoli  D, 
+Servillo  G,  Alcalay  M,  Luzi  L,  Giorgio  M,  Scrable 
+H,  Pelicci  PG,  Migliaccio  E  (2013)  ‘Oxidative  stress 
+activates  a  specific  p53  transcriptional  response  that 
+regulates  cellular  senescence  and  aging.  Aging  Cell 
+12:435–45
+
+Ganem NJ, Godinho SA, Pellman D (2009) A mechanism link-
+ing extra centrosomes to chromosomal instability. Nature 
+460:278–282
+
+Ganem  NJ,  Cornils  H,  Chiu  SY,  O’Rourke  KP,  Arnaud  J, 
+Yimlamai D, Thery M, Camargo FD, Pellman D (2014) 
+Cytokinesis failure triggers hippo tumor suppressor path-
+way activation. Cell 158:833–848
+
+Garribba  L,  De  Feudis  G,  Martis  V,  Galli  M,  Dumont  M, 
+Eliezer  Y,  Wardenaar  R,  Ippolito  MR,  Iyer  DR,  Tijhuis 
+AE,  Spierings  DCJ,  Schubert  M,  Taglietti  S,  Soriani  C, 
+Gemble  S,  Basto  R,  Rhind  N,  Foijer  F,  Ben-David  U, 
+Fachinetti D, Doksani Y, Santaguida S (2023) Short-term 
+molecular consequences of chromosome mis-segregation 
+for genome stability. Nat Commun 14:1353
+
+Gemble  S,  Wardenaar  R,  Keuper  K,  Srivastava  N,  Nano  M, 
+Macé  AS,  Tijhuis  AE,  Bernhard  SV,  Spierings  DCJ, 
+Simon A, Goundiam O, Hochegger H, Piel M, Foijer F, 
+Storchová  Z,  Basto  R  (2022)  Genetic  instability  from  a 
+single  S  phase  after  whole-genome  duplication.  Nature 
+604:146–151
+
+Gerstung  M,  Jolly  C,  Leshchiner  I,  Dentro  SC,  Gonzalez  S, 
+Rosebrock D, Mitchell TJ, Rubanova Y, Anur P, Yu K, 
+Tarabichi  M,  Deshwar  A,  Wintersinger  J,  Kleinheinz 
+K, Vázquez-García I, Haase K, Jerman L, Sengupta S, 
+Macintyre G, Malikic S, Donmez N, Livitz DG, Cmero 
+M,  Demeulemeester  J,  Schumacher  S,  Fan  Y,  Yao  X, 
+Lee  J,  Schlesner  M,  Boutros  PC,  Bowtell  DD,  Zhu  H, 
+Getz  G,  Imielinski  M,  Beroukhim  R,  Sahinalp  SC,  Ji 
+Y, Peifer M, Markowetz F, Mustonen V, Yuan K, Wang 
+W,  Morris  QD,  Spellman  PT,  Wedge  DC,  Van  Loo  P 
+(2020)  The  evolutionary  history  of  2,658  cancers. 
+Nature 578:122–128
+
+Ghosh  M,  Saha  S,  Li  J,  Montrose  DC,  Martinez  LA  (2023) 
+p53 engages the cGAS/STING cytosolic DNA sensing 
+pathway for tumor suppression. Mol Cell 83:266–80.e6
+Girish  V,  Lakhani  AA,  Thompson  SL,  Scaduto  CM,  Brown 
+LM,  Hagenson  RA,  Sausville  EL,  Mendelson  BE, 
+Kandikuppa  PK,  Lukow  DA,  Yuan  ML,  Stevens  EC, 
+
+1 3Vol.: (0123456789)31  Page 20 of 23
+
+Chromosome Res (2023) 31:31
+
+Lee SN, Schukken KM, Akalu SM, Vasudevan A, Zou 
+C, Salovska B, Li W, Smith JC, Taylor AM, Martiens-
+sen RA, Liu Y, Sun R, Sheltzer JM (2023) Oncogene-
+like addiction to aneuploidy in human cancers. Science 
+381(6660):eadg4521
+
+Godek KM, Venere M, Wu Q, Mills KD, Hickey WF, Rich JN, 
+Compton DA (2016) Chromosomal instability affects the 
+tumorigenicity  of  glioblastoma  tumor-initiating  cells. 
+Cancer Discov 6:532–545
+
+Gordon  DJ,  Resio  B,  Pellman  D  (2012)  Causes  and  con-
+sequences  of  aneuploidy  in  cancer.  Nat  Rev  Genet 
+13:189–203
+
+Gully  CP,  Velazquez-Torres  G,  Shin  JH,  Fuentes-Mattei  E, 
+Wang E, Carlock C, Chen J, Rothenberg D, Adams HP, 
+Choi HH, Guma S, Phan L, Chou PC, Su CH, Zhang F, 
+Chen JS, Yang TY, Yeung SC, Lee MH (2012) Aurora B 
+kinase phosphorylates and instigates degradation of p53. 
+Proc Natl Acad Sci U S A 109:E1513–E1522
+
+Hafner A, Bulyk ML, Jambhekar A, Lahav G (2019) The mul-
+tiple mechanisms that regulate p53 activity and cell fate. 
+Nat Rev Mol Cell Biol 20:199–210
+
+Hanson RL, Porter JR, Batchelor E (2019) Protein stability of 
+p53 targets determines their temporal expression dynam-
+ics in response to p53 pulsing. J Cell Biol 218:1282–1297
+Haruki N, Harano T, Masuda A, Kiyono T, Takahashi T, Tate-
+matsu  Y,  Shimizu  S,  Mitsudomi  T,  Konishi  H,  Osada 
+H,  Fujii  Y,  Takahashi  T  (2001)  Persistent  increase  in 
+chromosome  instability  in  lung  cancer:  possible  indi-
+rect  involvement  of  p53  inactivation.  Am  J  Pathol 
+159:1345–1352
+
+Hatch EM, Fischer AH, Deerinck TJ, Hetzer MW (2013) Cata-
+strophic  nuclear  envelope  collapse  in  cancer  cell  micro-
+nuclei. Cell 154:47–60
+
+Hinchcliffe  EH,  Day  CA,  Karanjeet  KB,  Fadness  S,  Langfald 
+A,  Vaughan  KT,  Dong  Z  (2016)  Chromosome  misseg-
+regation  during  anaphase  triggers  p53  cell  cycle  arrest 
+through  histone  H3.3  Ser31  phosphorylation.  Nat  Cell 
+Biol 18:668
+
+Hoadley KA, Yau C, Wolf DM, Cherniack AD, Tamborero D, 
+Ng S, Leiserson MDM, Niu B, McLellan MD, Uzunan-
+gelov V, Zhang J, Kandoth C, Akbani R, Shen H, Omb-
+erg L, Chu A, Margolin AA, Van’t Veer LJ, Lopez-Bigas 
+N, Laird PW, Raphael BJ, Ding L, Robertson AG, Byers 
+LA, Mills GB, Weinstein JN, Van Waes C, Chen Z, Col-
+lisson EA, Benz CC, Perou CM, Stuart JM (2014) Mul-
+tiplatform analysis of 12 cancer types reveals molecular 
+classification  within  and  across  tissues  of  origin.  Cell 
+158:929–44
+
+Hoadley KA, Yau C, Hinoue T, Wolf DM, Lazar AJ, Drill E, 
+Shen R, Taylor AM, Cherniack AD, Thorsson V, Akbani 
+R, Bowlby R, Wong CK, Wiznerowicz M, Sanchez-Vega 
+F, Robertson AG, Schneider BG, Lawrence MS, Noush-
+mehr  H,  Malta  TM,  Stuart  JM,  Benz  CC,  Laird  PW 
+(2018)  Cell-of-origin  patterns  dominate  the  molecular 
+classification of 10,000 tumors from 33 types of cancer. 
+Cell 173:291-304.e6
+
+Hoevenaar WHM, Janssen A, Quirindongo AI, Ma H, Klaasen 
+SJ, Teixeira A, van Gerwen B, Lansu N, Morsink FHM, 
+Offerhaus GJA, Medema RH, Kops G, Jelluma N (2020) 
+Degree  and  site  of  chromosomal  instability  define  its 
+oncogenic potential. Nat Commun 11:1501
+
+Janic A, Valente LJ, Wakefield MJ, Di Stefano L, Milla L, Wil-
+cox S, Yang H, Tai L, Vandenberg CJ, Kueh AJ, Mizutani 
+S,  Brennan  MS,  Schenk  RL,  Lindqvist  LM,  Papenfuss 
+AT,  O’Connor  L,  Strasser  A,  Herold  MJ  (2018)  DNA 
+repair processes are critical mediators of p53-dependent 
+tumor suppression. Nat Med 24:947–953
+
+Janssen A, van der Burg M, Szuhai K, Kops GJ, Medema RH 
+(2011)  Chromosome  segregation  errors  as  a  cause  of 
+DNA  damage  and  structural  chromosome  aberrations. 
+Science 333:1895–1898
+
+Jiménez A, Lu D, Kalocsay M, Berberich MJ, Balbi P, Jamb-
+hekar  A,  Lahav  G  (2022)  Time-series  transcriptomics 
+and  proteomics  reveal  alternative  modes  to  decode  p53 
+oscillations. Mol Syst Biol 18:e10588
+
+Joruiz SM, Bourdon JC (2016) p53 isoforms: key regulators of 
+
+the cell fate decision. Cold Spring Harb Perspect Med 6
+
+Karlsson K, Przybilla MJ, Kotler E, Khan A, Xu H, Karagyo-
+zova  K,  Sockell  A,  Wong  WH,  Liu  K,  Mah  A,  Lo  YH, 
+Lu B, Houlahan KE, Ma Z, Suarez CJ, Barnes CP, Kuo 
+CJ, Curtis C (2023) Deterministic evolution and stringent 
+selection during preneoplasia. Nature 618:383–393
+Kastenhuber ER, Lowe SW (2017) Putting p53 in Context. Cell 
+
+170:1062–1078
+
+Kawamura K, Izumi H, Ma Z, Ikeda R, Moriyama M, Tanaka 
+T,  Nojima  T,  Levin  LS,  Fujikawa-Yamamoto  K,  Suzuki 
+K, Fukasawa K (2004) Induction of centrosome amplifi-
+cation and chromosome instability in human bladder can-
+cer  cells  by  p53  mutation  and  cyclin  E  overexpression. 
+Cancer Res 64:4800–4809
+
+Kim JE, Choi J, Sung CO, Hong YS, Kim SY, Lee H, Kim TW, 
+Kim JI (2021) High prevalence of TP53 loss and whole-
+genome  doubling  in  early-onset  colorectal  cancer.  Exp 
+Mol Med 53:446–456
+
+Knouse  KA,  Wu  J,  Whittaker  CA,  Amon  A  (2014)  Sin-
+gle  cell  sequencing  reveals  low  levels  of  aneuploidy 
+across  mammalian  tissues.  Proc  Natl  Acad  Sci  U  S  A 
+111:13409–13414
+
+Knouse KA, Lopez KE, Bachofner M, Amon A (2018) Chro-
+mosome  segregation  fidelity  in  epithelia  requires  tissue 
+architecture. Cell 175:200–11.e13
+
+Knouse KA, Davoli T, Elledge SJ, Amon A (2017) Aneuploidy 
+in cancer: seq-ing answers to old questions 1:335–54
+Kruiswijk  F,  Labuschagne  CF,  Vousden  KH  (2015)  p53  in 
+survival,  death  and  metabolic  health:  a  lifeguard  with  a 
+licence to kill. Nat Rev Mol Cell Biol 16:393–405
+Krzywicka-Racka  A,  Sluder  G  (2011)  Repeated  cleavage 
+failure  does  not  establish  centrosome  amplification  in 
+untransformed human cells. J Cell Biol 194:199–207
+Kuffer C, Kuznetsova AY, Storchová Z (2013) Abnormal mito-
+sis  triggers  p53-dependent  cell  cycle  arrest  in  human 
+tetraploid cells. Chromosoma 122:305–318
+
+Kwon M, Leibowitz ML, Lee JH (2020) Small but mighty: the 
+causes  and  consequences  of  micronucleus  rupture.  Exp 
+Mol Med 52:1777–1786
+
+Lee SM, Kim JH, Cho EJ, Youn HD (2009) A nucleocytoplas-
+mic  malate  dehydrogenase  regulates  p53  transcriptional 
+activity in response to metabolic stress. Cell Death Differ 
+16:738–748
+
+Lengauer  C,  Kinzler  KW,  Vogelstein  B  (1997)  Genetic  insta-
+
+bility in colorectal cancers. Nature 386:623–627
+
+1 3Vol:. (1234567890) 
+Chromosome Res (2023) 31:31 
+
+Page 21 of 23  31
+
+Levine  AJ  (2020)  p53:  800  million  years  of  evolution  and  40 
+
+years of discovery. Nat Rev Cancer 20:471–480
+
+Li  M,  Fang  X,  Baker  DJ,  Guo  L,  Gao  X,  Wei  Z,  Han  S,  van 
+Deursen  JM,  Zhang  P  (2010)  The  ATM-p53  pathway 
+suppresses aneuploidy-induced tumorigenesis. Proc Natl 
+Acad Sci U S A 107:14188–14193
+
+Li M, Dong Q, Zhu B (2017) Aurora kinase B phosphorylates 
+histone  H3.3  at  serine  31  during  mitosis  in  mammalian 
+cells. J Mol Biol 429:2042–2045
+
+Liebl  MC,  Hofmann  TG  (2021)  The  role  of  p53  signaling  in 
+
+colorectal cancer. Cancers (Basel) 13
+
+Lim Y, Dorstyn L, Kumar S (2021) The p53-caspase-2 axis in 
+the cell cycle and DNA damage response. Exp Mol Med 
+53:517–527
+
+Lindström MS, Bartek J, Maya-Mendoza A (2022) p53 at the 
+crossroad  of  DNA  replication  and  ribosome  biogenesis 
+stress pathways. Cell Death Differ 29:972–982
+
+Liu G, Parant JM, Lang G, Chau P, Chavez-Reyes A, El-Nag-
+gar AK, Multani A, Chang S, Lozano G (2004) Chromo-
+some stability, in the absence of apoptosis, is critical for 
+suppression of tumorigenesis in Trp53 mutant mice. Nat 
+Genet 36:63–68
+
+Liu  Y,  Tavana  O,  Gu  W  (2019)  p53  modifications:  exquisite 
+decorations  of  the  powerful  guardian.  J  Mol  Cell  Biol 
+11:564–577
+
+Loewer  A,  Batchelor  E,  Gaglia  G,  Lahav  G  (2010)  Basal 
+dynamics  of  p53  reveal  transcriptionally  attenuated 
+pulses in cycling cells. Cell 142:89–100
+
+Lopes  CAM,  Mesquita  M,  Cunha  AI,  Cardoso  J,  Carapeta  S, 
+Laranjeira  C,  Pinto  AE,  Pereira-Leal  JB,  Dias-Pereira 
+A,  Bettencourt-Dias  M,  Chaves  P  (2018)  Centrosome 
+amplification arises before neoplasia and increases upon 
+p53 loss in tumorigenesis. J Cell Biol 217:2353–2363
+Lopez-Garcia  C,  Sansregret  L,  Domingo  E,  McGranahan  N, 
+Hobor S, Birkbak NJ, Horswell S, Gronroos E, Favero F, 
+Rowan AJ, Matthews N, Begum S, Phillimore B, Burrell 
+R, Oukrif D, Spencer-Dene B, Kovac M, Stamp G, Stew-
+art A, Danielsen H, Novelli M, Tomlinson I, Swanton C 
+(2017) BCL9L dysfunction impairs caspase-2 expression 
+permitting  aneuploidy  tolerance  in  colorectal  cancer. 
+Cancer Cell 31:79–93
+
+Manning AL, Benes C, Dyson NJ (2014) Whole chromosome 
+instability  resulting  from  the  synergistic  effects  of  pRB 
+and p53 inactivation. Oncogene 33:2487–2494
+
+Maya  R,  Balass  M,  Kim  ST,  Shkedy  D,  Leal  JF,  Shifman  O, 
+Moas M, Buschmann T, Ronai Z, Shiloh Y, Kastan MB, 
+Katzir  E,  Oren  M  (2001)  ATM-dependent  phosphoryla-
+tion  of  Mdm2  on  serine  395:  role  in  p53  activation  by 
+DNA damage. Genes Dev 15:1067–1077
+
+McAinsh AD, Kops GJPL (2023) Principles and dynamics of 
+spindle  assembly  checkpoint  signalling.  Nat  Rev  Mol 
+Cell Biol 24(8):543–559
+
+Meitinger F, Anzola JV, Kaulich M, Richardson A, Stender JD, 
+Benner  C,  Glass  CK,  Dowdy  SF,  Desai  A,  Shiau  AK, 
+Oegema K (2016) 53BP1 and USP28 mediate p53 acti-
+vation  and  G1  arrest  after  centrosome  loss  or  extended 
+mitotic duration. J Cell Biol 214:155–166
+
+Mönke  G,  Cristiano  E,  Finzel  A,  Friedrich  D,  Herzel  H,  Fal-
+cke M, Loewer A (2017) Excitability in the p53 network 
+mediates robust signaling with tunable activation thresh-
+olds in single cells. Sci Rep 7:46571
+
+Murai  K,  Dentro  S,  Ong  SH,  Sood  R,  Fernandez-Antoran  D, 
+Herms  A,  Kostiou  V,  Abnizova  I,  Hall  BA,  Gerstung 
+M, Jones PH (2022) p53 mutation in normal esophagus 
+promotes  multiple  stages  of  carcinogenesis  but  is  con-
+strained by clonal competition. Nat Commun 13:6206
+Narkar A, Johnson BA, Bharne P, Zhu J, Padmanaban V, Bis-
+was D, Fraser A, Iglesias PA, Ewald AJ, Li R (2021) On 
+the  role  of  p53  in  the  cellular  response  to  aneuploidy. 
+Cell Rep 34:108892
+
+Ohashi A, Ohori M, Iwai K, Nakayama Y, Nambu T, Morishita 
+D, Kawamoto T, Miyamoto M, Hirayama T, Okaniwa M, 
+Banno H, Ishikawa T, Kandori H, Iwata K (2015) Ane-
+uploidy  generates  proteotoxic  stress  and  DNA  damage 
+concurrently with p53-mediated post-mitotic apoptosis in 
+SAC-impaired cells. Nat Commun 6:7668
+
+Oromendia  AB,  Dodgson  SE,  Amon  A  (2012)  Aneu-
+ploidy  causes  proteotoxic  stress  in  yeast.  Genes  Dev 
+26:2696–2708
+
+Paek  AL,  Liu  JC,  Loewer  A,  Forrester  WC,  Lahav  G  (2016) 
+Cell-to-cell variation in p53 dynamics leads to fractional 
+killing. Cell 165:631–642
+
+Passerini V, Ozeri-Galai E, de Pagter MS, Donnelly N, Schmal-
+brock S, Kloosterman WP, Kerem B, Storchová Z (2016) 
+The  presence  of  extra  chromosomes  leads  to  genomic 
+instability. Nat Commun 7:10754
+
+Potapova  TA,  Seidel  CW,  Box  AC,  Rancati  G,  Li  R  (2016) 
+Transcriptome analysis of tetraploid cells identifies cyc-
+lin D2 as a facilitator of adaptation to genome doubling 
+in the presence of p53. Mol Biol Cell 27:3065–3084
+Purvis  JE,  Karhohs  KW,  Mock  C,  Batchelor  E,  Loewer  A, 
+Lahav G (2012) p53 dynamics control cell fate. Science 
+336:1440–1444
+
+Rowald  K,  Mantovan  M,  Passos  J,  Buccitelli  C,  Mardin  BR, 
+Korbel  JO,  Jechlinger  M,  Sotillo  R  (2016)  Negative 
+selection  and  chromosome  instability  induced  by  mad2 
+overexpression  delay  breast  cancer  but  facilitate  onco-
+gene-independent outgrowth. Cell Rep 15:2679–2691
+Sack LM, Davoli T, Li MZ, Li Y, Xu Q, Naxerova K, Wooten 
+EC,  Bernardi  RJ,  Martin  TD,  Chen  T,  Leng  Y,  Liang 
+AC, Scorsone KA, Westbrook TF, Wong KK, Elledge SJ 
+(2018) Profound tissue specificity in proliferation control 
+underlies  cancer  drivers  and  aneuploidy  patterns.  Cell 
+173:499-514.e23
+
+Salehi  S,  Kabeer  F,  Ceglia  N,  Andronescu  M,  Williams  MJ, 
+Campbell  KR,  Masud  T,  Wang  B,  Biele  J,  Brimhall  J, 
+Gee  D,  Lee  H,  Ting  J,  Zhang  AW,  Tran  H,  O’Flanagan 
+C, Dorri F, Rusk N, de Algara TR, Lee SR, Cheng BYC, 
+Eirew  P,  Kono  T,  Pham  J,  Grewal  D,  Lai  D,  Moore  R, 
+Mungall  AJ,  Marra  MA,  McPherson  A,  Bouchard-
+Côté  A,  Aparicio  S,  Shah  SP  (2021)  Clonal  fitness 
+inferred from time-series modelling of single-cell cancer 
+genomes. Nature 595:585–590
+
+Sansregret  L,  Swanton  C  (2017)  The  role  of  aneuploidy  in 
+cancer  evolution.  Cold  Spring  Harb  Perspect  Med 
+7(1):a028373
+
+Santaguida  S,  Amon  A  (2015a)  Aneuploidy  triggers  a 
+TFEB-mediated  lysosomal  stress  response.  Autophagy 
+11:2383–2384
+
+Santaguida  S,  Amon  A  (2015b)  Short-  and  long-term  effects 
+of chromosome mis-segregation and aneuploidy. Nat Rev 
+Mol Cell Biol 16:473–485
+
+1 3Vol.: (0123456789)31  Page 22 of 23
+
+Chromosome Res (2023) 31:31
+
+Santaguida S, Vasile E, White E, Amon A (2015) Aneuploidy-
+induced  cellular  stresses  limit  autophagic  degradation. 
+Genes Dev 29:2010–2021
+
+Santaguida  S,  Richardson  A,  Iyer  DR,  M’Saad  O,  Zasadil 
+L,  Knouse  KA,  Wong  YL,  Rhind  N,  Desai  A,  Amon  A 
+(2017)  Chromosome  mis-segregation  generates  cell-
+cycle-arrested  cells  with  complex  karyotypes  that  are 
+eliminated by the immune system. Dev Cell 41:638–51.e5
+Schiavoni  F,  Zuazua-Villar  P,  Roumeliotis  TI,  Benstead-
+Hume  G,  Pardo  M,  Pearl  FMG,  Choudhary  JS,  Downs 
+JA  (2022)  Aneuploidy  tolerance  caused  by  BRG1  loss 
+allows  chromosome  gains  and  recovery  of  fitness.  Nat 
+Commun 13:1731
+
+Schmidt  AK,  Pudelko  K,  Boekenkamp  JE,  Berger  K,  Kschis-
+cho  M,  Bastians  H  (2021)  The  p53/p73  -  p21(CIP1) 
+tumor suppressor axis guards against chromosomal insta-
+bility by restraining CDK1 in human cancer cells. Onco-
+gene 40:436–451
+
+Sheltzer  JM,  Amon  A  (2011)  The  aneuploidy  paradox:  costs 
+and  benefits  of  an  incorrect  karyotype.  Trends  Genet 
+27:446–453
+
+Sheltzer JM, Blank HM, Pfau SJ, Tange Y, George BM, Hump-
+ton  TJ,  Brito  IL,  Hiraoka  Y,  Niwa  O,  Amon  A  (2011) 
+Aneuploidy  drives  genomic  instability  in  yeast.  Science 
+333:1026–1030
+
+Sheltzer JM, Ko JH, Replogle JM, Habibe Burgos NC, Chung 
+ES,  Meehl  CM,  Sayles  NM,  Passerini  V,  Storchova  Z, 
+Amon  A  (2017)  Single-chromosome  gains  commonly 
+function as tumor suppressors. Cancer Cell 31:240–255
+
+Shi L, Qalieh A, Lam MM, Keil JM, Kwan KY (2019) Robust 
+elimination of genome-damaged cells safeguards against 
+brain  somatic  aneuploidy  following  Knl1  deletion.  Nat 
+Commun 10:2588
+
+Shih J, Sarmashghi S, Zhakula-Kostadinova N, Zhang S, Geor-
+gis  Y,  Hoyt  SH,  Cuoco  MS,  Gao  GF,  Spurr  LF,  Berger 
+AC,  Ha  G,  Rendo  V,  Shen  H,  Meyerson  M,  Cherniack 
+AD, Taylor AM, Beroukhim R (2023) Cancer aneuploi-
+dies  are  shaped  primarily  by  effects  on  tumour  fitness. 
+Nature 619:793–800
+
+Shoshani O, Bakker B, de Haan L, Tijhuis AE, Wang Y, Kim 
+DH,  Maldonado  M,  Demarest  MA,  Artates  J,  Zhengyu 
+O, Mark A, Wardenaar R, Sasik R, Spierings DCJ, Vitre 
+B,  Fisch  K,  Foijer  F,  Cleveland  DW  (2021)  Transient 
+genomic  instability  drives  tumorigenesis  through  accel-
+erated clonal evolution. Genes Dev 35:1093–1108
+Silk  AD,  Zasadil  LM,  Holland  AJ,  Vitre  B,  Cleveland  DW, 
+Weaver  BA  (2013)  Chromosome  missegregation  rate 
+predicts  whether  aneuploidy  will  promote  or  suppress 
+tumors. Proc Natl Acad Sci USA 110:E4134–E4141
+Silkworth  WT,  Nardi  IK,  Scholl  LM,  Cimini  D  (2009) 
+Multipolar  spindle  pole  coalescence  is  a  major  source 
+of  kinetochore  mis-attachment  and  chromosome  mis-
+segregation in cancer cells. PLoS ONE 4:e6564
+Simoes-Sousa S, Littler S, Thompson SL, Minshall P, Whal-
+ley  H,  Bakker  B,  Belkot  K,  Moralli  D,  Bronder  D, 
+Tighe  A,  Spierings  DCJ,  Bah  N,  Graham  J,  Nelson  L, 
+Green  CM,  Foijer  F,  Townsend  PA,  Taylor  SS  (2018) 
+The p38alpha stress kinase suppresses aneuploidy toler-
+ance by inhibiting Hif-1alpha. Cell Rep 25(749–60):e6
+
+Soto  M,  Raaijmakers  JA,  Bakker  B,  Spierings  DCJ,  Lans-
+dorp  PM,  Foijer  F,  Medema  RH  (2017)  p53  prohibits 
+
+propagation of chromosome segregation errors that pro-
+duce structural aneuploidies. Cell Rep 19:2423–2431
+
+Stewart-Ornstein  J,  Lahav  G  (2017)  p53  dynamics  in 
+response to DNA damage vary across cell lines and are 
+shaped by efficiency of DNA repair and activity of the 
+kinase ATM. Sci Signal
+
+Stingele  S,  Stoehr  G,  Peplowska  K,  Cox  J,  Mann  M,  Stor-
+chova  Z  (2012)  Global  analysis  of  genome,  transcrip-
+tome and proteome reveals the response to aneuploidy 
+in human cells. Mol Syst Biol 8:608
+
+Storchova  Z,  Kuffer  C  (2008)  The  consequences  of  tetra-
+ploidy and aneuploidy. J Cell Sci 121:3859–3866
+Storchova  Z,  Pellman  D  (2004)  From  polyploidy  to  ane-
+uploidy,  genome  instability  and  cancer.  Nat  Rev  Mol 
+Cell Biol 5:45–54
+
+Tarapore  P,  Horn  HF,  Tokuyama  Y,  Fukasawa  K  (2001)  Direct 
+regulation of the centrosome duplication cycle by the p53–
+p21Waf1/Cip1 pathway. Oncogene 20:3173–3184
+
+Taylor  AM,  Shih  J,  Ha  G,  Gao  GF,  Zhang  X,  Berger  AC, 
+Schumacher SE, Wang C, Hu H, Liu J, Lazar AJ, Cher-
+niack  AD,  Beroukhim  R,  Meyerson  M  (2018)  Genomic 
+and  functional  approaches  to  understanding  cancer  ane-
+uploidy. Cancer Cell 33:676–89.e3
+
+Thompson Sarah L, Compton DA (2010) Proliferation of ane-
+uploid human cells is limited by a p53-dependent mecha-
+nism. J Cell Biol 188(3):369–81
+
+Tommasi  S,  Besaratinia  A,  Wilczynski  SP,  Pfeifer  GP  (2011) 
+Loss of Rassf1a enhances p53-mediated tumor predispo-
+sition  and  accelerates  progression  to  aneuploidy.  Onco-
+gene 30:690–700
+
+Torres  EM,  Sokolsky  T,  Tucker  CM,  Chan  LY,  Boselli  M, 
+Dunham  MJ,  Amon  A  (2007)  Effects  of  aneuploidy  on 
+cellular  physiology  and  cell  division  in  haploid  yeast. 
+Science 317:916–924
+
+Trakala M, Aggarwal M, Sniffen C, Zasadil L, Carroll A, Ma 
+D,  Su  XA,  Wangsa  D,  Meyer  A,  Sieben  CJ,  Zhong  J, 
+Hsu PH, Paradis G, Ried T, Holland A, Van Deursen J, 
+Amon  A  (2021)  Clonal  selection  of  stable  aneuploidies 
+in progenitor cells drives high-prevalence tumorigenesis. 
+Genes Dev 35:1079–1092
+
+Tsai  HJ,  Nelliat  AR,  Choudhury  MI,  Kucharavy  A,  Bradford 
+WD, Cook ME, Kim J, Mair DB, Sun SX, Schatz MC, Li 
+R (2019) Hypo-osmotic-like stress underlies general cel-
+lular defects of aneuploidy. Nature 570:117–121
+
+Uetake Y, Sluder G (2004) ‘Cell cycle progression after cleav-
+age  failure:  mammalian  somatic  cells  do  not  possess  a 
+“tetraploidy checkpoint”‘. J Cell Biol 165:609–615
+Uetake Y, Sluder G (2018) Activation of the apoptotic pathway 
+during prolonged prometaphase blocks daughter cell pro-
+liferation. Mol Biol Cell 29:2632–2643
+
+Umbreit NT, Zhang TJ, Lynch, Blaine LJ, Cheng AM, Tourdot 
+R,  Sun  L,  Almubarak  HF,  Judge  K,  Mitchell  TJ,  Spek-
+tor A, Pellman D (2020) Mechanisms generating cancer 
+genome complexity from a single cell division error. Sci-
+ence  368(6488):eaba0712
+
+Vogel C, Kienitz A, Hofmann I, Müller R, Bastians H (2004) 
+Crosstalk  of  the  mitotic  spindle  assembly  checkpoint 
+with p53 to prevent polyploidy. Oncogene 23:6845–6853
+Vousden KH, Prives C (2009) Blinded by the light: the grow-
+
+ing complexity of p53. Cell 137:413–431
+
+1 3Vol:. (1234567890) 
+Chromosome Res (2023) 31:31 
+
+Page 23 of 23  31
+
+Wang RW, Viganò S, Ben-David U, Amon A, Santaguida S (2021) 
+Aneuploid  senescent  cells  activate  NF-κB  to  promote  their 
+immune clearance by NK cells. EMBO Rep 22:e52032
+Wang H, Guo M, Wei H, Chen Y (2023) Targeting p53 path-
+ways:  mechanisms,  structures,  and  advances  in  therapy. 
+Signal Transduct Target Ther 8:92
+
+Watkins  TBK,  Lim  EL,  Petkovic  M,  Elizalde  S,  Birkbak  NJ, 
+Wilson GA, Moore DA, Grönroos E, Rowan A, Dewhurst 
+SM,  Demeulemeester  J,  Dentro  SC,  Horswell  S,  Au  L, 
+Haase  K,  Escudero  M,  Rosenthal  R,  Bakir  MA,  Xu  H, 
+Litchfield K, Lu WT, Mourikis TP, Dietzen M, Spain L, 
+Cresswell GD, Biswas D,  Lamy P, Nordentoft  I,  Harbst 
+K, Castro-Giner F, Yates LR, Caramia F, Jaulin F, Vicier 
+C, Tomlinson IPM, Brastianos PK, Cho RJ, Bastian BC, 
+Dyrskjøt  L,  Jönsson  GB,  Savas  P,  Loi  S,  Campbell  PJ, 
+Andre F, Luscombe NM, Steeghs N, Tjan-Heijnen VCG, 
+Szallasi  Z,  Turajlic  S,  Jamal-Hanjani  M,  Van  Loo  P, 
+Bakhoum  SF,  Schwarz  RF,  McGranahan  N,  Swanton  C 
+(2020) Pervasive chromosomal instability and karyotype 
+order in tumour evolution. Nature 587:126–132
+
+Williams BR, Prabhu VR, Hunter KE, Glazier CM, Whittaker 
+CA,  Housman  DE,  Amon  A  (2008)  Aneuploidy  affects 
+proliferation  and  spontaneous  immortalization  in  mam-
+malian cells. Science 322:703–709
+
+Wong C, Stearns T (2005) Mammalian cells lack checkpoints 
+for tetraploidy, aberrant centrosome number, and cytoki-
+nesis failure. BMC Cell Biol 6:6
+
+Zack  TI,  Schumacher  SE,  Carter  SL,  Cherniack  AD,  Saksena 
+G, Tabak B, Lawrence MS, Zhsng CZ, Wala J, Mermel 
+
+CH,  Sougnez  C,  Gabriel  SB,  Hernandez  B,  Shen  H, 
+Laird  PW,  Getz  G,  Meyerson  M,  Beroukhim  R  (2013) 
+Pan-cancer  patterns  of  somatic  copy  number  alteration. 
+Nat Genet 45:1134–1140
+
+Zasadil  LM,  Britigan  EM,  Ryan  SD,  Kaur  C,  Guckenberger  DJ, 
+Beebe DJ, Moser AR, Weaver BA (2016) High rates of chro-
+mosome missegregation suppress tumor progression but do 
+not inhibit tumor initiation. Mol Biol Cell 27:1981–1989
+Zeng  J,  Hills  SA,  Ozono  E,  Diffley  JFX  (2023)  Cyclin 
+E-induced replicative stress drives p53-dependent whole-
+genome duplication. Cell 186:528–42.e14
+
+Zhang CZ, Spektor A, Cornils H, Francis JM, Jackson EK, Liu 
+S, Meyerson M, Pellman D (2015) Chromothripsis from 
+DNA damage in micronuclei. Nature 522:179–184
+Zhang T, Mo Z, Duan G, Tang R, Zhang F, Lu M (2021) (125)
+I Seed promotes apoptosis in non-small lung cancer cells 
+via the p38 MAPK-MDM2-p53 signaling pathway. Front 
+Oncol 11:582511
+
+Zhu J, Tsai HJ, Gordon MR, Li R (2018) Cellular stress associ-
+
+ated with aneuploidy. Dev Cell 44:420–431
+
+Publisher’s Note  Springer Nature remains neutral with regard 
+to  jurisdictional  claims  in  published  maps  and  institutional 
+affiliations.
+
+1 3Vol.: (0123456789)

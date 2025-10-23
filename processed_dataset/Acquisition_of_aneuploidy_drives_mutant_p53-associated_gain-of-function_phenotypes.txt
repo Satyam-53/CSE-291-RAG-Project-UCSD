@@ -1,0 +1,5736 @@
+ARTICLE
+
+https://doi.org/10.1038/s41467-021-25359-z
+
+OPEN
+
+Acquisition of aneuploidy drives mutant
+p53-associated gain-of-function phenotypes
+1,3,
+1, Timothy M. Shaver1,2,8, Hailing Jin
+6,
+
+3,8, Clayton B. Marshall
+6, Kathryn E. Beckermann
+
+3,4, Quanhu Sheng
+
+Lindsay N. Redman-Rivera
+Johanna M. Schafer
+Ferrin C. Wheeler7, Brian D. Lehmann
+
+5, Rachel A. Hongo
+3,6 & Jennifer A. Pietenpol
+
+1,3✉
+
+;
+,
+:
+)
+(
+0
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+p53 is mutated in over half of human cancers. In addition to losing wild-type (WT) tumor-
+suppressive function, mutant p53 proteins are proposed to acquire gain-of-function (GOF)
+activity, leading to novel oncogenic phenotypes. To study mutant p53 GOF mechanisms and
+phenotypes, we genetically engineered non-transformed and tumor-derived WT p53 cell line
+models to express endogenous missense mutant p53 (R175H and R273H) or to be deﬁcient
+for p53 protein (null). Characterization of the models, which initially differed only by TP53
+genotype, revealed that aneuploidy frequently occurred in mutant p53-expressing cells. GOF
+phenotypes occurred clonally in vitro and in vivo, were independent of p53 alteration and
+correlated with increased aneuploidy. Further, analysis of outcome data revealed that indi-
+viduals with aneuploid-high tumors displayed unfavorable prognoses, regardless of the TP53
+genotype. Our results indicate that genetic variation resulting from aneuploidy accounts for
+the diversity of previously reported mutant p53 GOF phenotypes.
+
+1 Department of Biochemistry, Vanderbilt University, Nashville, TN, USA. 2 Inscripta, Inc, Boulder, CO, USA. 3 Vanderbilt-Ingram Cancer Center, Vanderbilt
+University Medical Center, Nashville, TN, USA. 4 Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State
+University, Columbus, OH, USA. 5 Department of Biostatistics, Vanderbilt University Medical Center, Nashville, TN, USA. 6 Department of Medicine,
+Vanderbilt University Medical Center, Nashville, TN, USA. 7 Department of Pathology, Microbiology and Immunology, Vanderbilt University Medical Center,
+Nashville, TN, USA. 8These authors contributed equally: Timothy M. Shaver, Hailing Jin.
+
+email: j.pietenpol@vumc.org
+
+✉
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+ARTICLE
+
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+expression involved in numerous
+
+Mutation of TP53 is one of the most frequent genomic
+
+alterations in human tumors. TP53 encodes p53, a
+sequence-speciﬁc transcription factor that regulates
+gene
+cellular processes,
+including maintenance of genome stability1. Mutations in p53 are
+frequently single amino acid missense mutations that alter the
+structure of the DNA-binding domain or affect residues that
+directly contact DNA, both of which lead to a loss of function
+(LOF) in p53 DNA binding and regulation of gene expression2,3.
+In addition, several high-frequency “hotspot” missense mutations
+have been proposed to confer oncogenic gain-of-function (GOF)
+properties4,5. Many p53 GOF phenotypes have been described
+using in vitro cell model systems and mouse models, including
+proliferation6,
+increased
+colony
+genomic
+instability9–11, metastasis6,
+growth4,8, metabolic
+xenograft
+dysregulation12–14, enhanced migration15–18, and development of
+distinct tumor spectra19.
+
+formation7,8,
+
+Understanding mutant p53 GOF activities is complicated by
+the diversity and context-speciﬁc nature of reported GOF phe-
+notypes. The study of mutant p53 GOF activities is made even
+more challenging because mutations in p53 are positively cor-
+related with the development of aneuploidy20–22, which can
+increase heterogeneity through diverse chromosomal alterations
+and contribute to tumorigenesis23–26. Recent advances in gen-
+ome editing enable the generation of model systems that can
+circumvent confounding experimental
+limitations of over-
+expression models, including nonphysiological protein expres-
+sion lacking regulation by the endogenous promoter. Use of the
+CRISPR/Cas9 system allows for the study of mutant p53 func-
+tion in a controlled context and has led to observations that
+in myeloid
+challenged the mutant p53 GOF hypothesis
+malignancies27. Given the potential of using mutant p53 protein
+as a therapeutic target in many cancer types, and the long-
+standing debate of whether GOF activities exist, there is a cri-
+tical need to study mutant p53 GOF activities in models of
+epithelial malignancies controlled for the confounding effects of
+exogenous protein expression and chromosomal alterations that
+occur following p53 LOF.
+
+In this study we used CRISPR/Cas9-mediated genome edit-
+ing and developed two isogenic epithelial cell line models (one
+nontransformed and one tumor-derived). Parental cells were
+modiﬁed to express either of the most frequently occurring p53
+missense mutations (R175H or R273H), to be deﬁcient for p53
+protein (null), or to retain the wild-type (WT) protein. Endo-
+genous p53 expression is regulated by the native p53 promoter
+in these engineered models, providing a biologically relevant
+system for rigorous functional experimentation across different
+p53 states. Additionally, the use of clonally derived cell lines
+originating from the same near-diploid parental genetic back-
+ground allows for assessment of the genomic alterations and
+resulting molecular heterogeneity following mutation of TP53.
+Through our comparative analyses of isogenic epithelial cells,
+which initially differed only by TP53 genotype, we discovered
+that
+increased aneuploidy is consistently observed in our
+mutant p53-expressing cell lines. Further, we discovered that
+in vitro GOF phenotypes are only present in mutant p53-
+expressing cell lines that display increased aneuploidy and that
+these phenotypes are not dependent on mutant p53 protein
+expression. Mutant p53-containing cell
+lines did not have
+increased tumorigenicity or metastasis in vivo, and analysis of
+human tumors revealed that loss of p53 function and increased
+aneuploidy were
+associated with unfavorable prognoses.
+Importantly, our results reveal aneuploidy as a mechanism
+contributing to the diversity of reported mutant p53 GOF
+phenotypes.
+
+Results
+Generation and characterization of genetically engineered cell
+line models to study potential mutant p53 GOF activities. To
+select cell lines that would provide controlled model systems for the
+study of p53 mutation, we evaluated p53 status and the fraction of
+the genome altered (FGA) across cancer cell lines (Cancer Cell Line
+Encyclopedia, n = 957). We selected two TP53 WT lines derived
+from breast epithelium that are near-diploid and have a low FGA
+(MCF10A = 13%, CAL-51 = 3%) compared to pan- or breast cancer
+cell lines (Fig. 1a and Supplementary Fig. 2a). MCF10A is a non-
+transformed cell
+line derived from normal human mammary
+epithelium28. CAL-51 is a metastatic breast cancer cell line derived
+from a pleural effusion29. Both lines are considered “triple-negative”
+since they lack estrogen and progesterone receptor expression and
+HER2 ampliﬁcation30,31. To minimize genomic heterogeneity, we
+performed single-cell selection and clonal expansion to generate a
+parental clonal line for each model. Using CRISPR/Cas9-mediated
+gene editing32, we generated mutations in TP53 using homology-
+directed repair (HDR) templates containing mutant bases corre-
+sponding to hotspot TP53 mutations, R175H and R273H, along with
+synonymous mutations to prevent CRISPR/Cas9-mediated cleavage
+of the HDR-recombined alleles (Fig. 1b, and Methods). As controls
+for CRISPR-mediated off-target effects, we identiﬁed WT cell lines
+that underwent incomplete HDR (containing engineered synon-
+ymous mutations but not the missense mutation). TP53 null cell lines
+were generated from frameshift insertions or deletions in both alleles,
+resulting in cells deﬁcient for full-length p53 protein (Supplementary
+Table 1). Through single-cell isolation, clonal expansion, and geno-
+typing, we derived independent biological replicates for each model
+and TP53 genotype; WT (R/R), null (−/−), and the two p53
+mutants, R175H and R273H (H/−, or H/H) (Fig. 1b, Supplementary
+Fig. 1a, Supplementary Table 1). In total, we generated 15 clonally
+derived isogenic MCF10A cell lines (2 WT, 4 null, 4 R175H, and 5
+R273H) and 21 clonally derived isogenic CAL-51 cell lines (4 WT, 5
+null, 4 R175H, and 8 R273H) (Supplementary Fig. 1a).
+
+To analyze p53 activity in the engineered TP53 lines, we
+performed RNA sequencing (RNA-seq) on all cell lines derived
+from MCF10A and CAL-51 models. Both models displayed
+decreased p53 target gene expression in the TP53 null, R175H,
+and R273H mutant cell lines compared to WT cell lines33 (Fig. 1c).
+Geneset enrichment analysis (GSEA) showed signiﬁcant negative
+enrichment of p53 target gene expression in R175H and R273H
+mutant and null cell lines (all comparisons: NES < −2.8, FDR <
+0.0001) (Fig. 1d), demonstrating p53 LOF as a sequence-speciﬁc
+transcription factor in the null, R175H and R273H cell lines. We
+also analyzed protein expression after exposure of the MCF10A
+and CAL-51 models to the anthracycline doxorubicin. Doxorubicin
+treatment resulted in increased p53 protein levels and downstream
+targets, MDM2 and p21, in cell lines expressing WT p53. p53
+protein levels also increased after doxorubicin treatment in mutant
+cell lines in the transformed CAL-51 model, similar to previous
+reports27,34. However, no changes in MDM2 or p21 expression
+were observed, further indicating p53 LOF in null, R175H, and
+R273H p53 mutant cell lines (Fig. 1e, Supplementary Fig. 1b, c). To
+further analyze p53 activity, we treated all cell lines with the small
+molecule Nutlin-3a, which inhibits the interaction between p53
+and MDM2, the primary p53 negative regulator35. Comparison of
+half-maximal inhibitory concentrations (IC50) revealed that only
+WT cell lines were sensitive to Nutlin-3a, while all null, R175H,
+and R273H cell lines showed a signiﬁcant increase in IC50 (null,
+R175H, and R273H compared to WT: MCF10A, P < 0.0015; CAL-
+51, P < 0.0001) (Fig. 1f). Therefore, genome editing of WT TP53 to
+null, R175H, or R273H mutations abrogated canonical p53
+function and resulted in a loss of sensitivity to Nutlin-3a,
+consistent with previously reported results27,36.
+
+2
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+ 
+ 
+ 
+ 
+ 
+ 
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+ARTICLE
+
+d
+e
+r
+e
+t
+l
+
+A
+e
+m
+o
+n
+e
+G
+n
+o
+i
+t
+c
+a
+r
+F
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+a
+
+c
+
+CDKN1A
+MDM2
+TIGAR
+BAX
+POLH
+XPC
+FAS
+SESN1
+
+BBC3
+LIF
+
+e
+
+Pan-Cancer Cell Lines (n = 958)
+
+Breast Cancer Cell Lines (n = 53)
+
+b
+
+1. Single cell isolation from parental lines
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+MCF10A
+
+CAL-51
+
+TP53
+Alteration
+No
+Yes
+
+750
+
+1000
+
+0
+
+20
+
+40
+
+Rank
+
+MCF10A
+
+CAL-51
+
+0
+
+250
+
+500
+Rank
+
+MCF10A
+
+CAL-51
+
+d
+
+MCF10A
+Wild Type p53
+
+CAL-51
+Wild Type p53
+
+2. CRISPR-Cas9 mediated gene editing
+
+TP53
+
+5
+
+6
+
+7
+
+8
+
+Genomic
+DNA
+
+Amino
+acid
+sequence
+
+G
+A
+R
+H
+175
+
+R
+
+174
+
+A G G C
+
+C T G C C C
+
+G T G C
+
+T G T T T G
+
+C
+A
+
+C A C
+
+T
+C
+
+G C
+
+C
+T
+
+T G T
+
+C
+
+P
+
+H
+
+V
+
+176
+
+177
+
+178
+
+272
+
+V
+
+C
+
+A
+
+C
+
+274
+
+275
+
+276
+
+277
+
+G
+A
+R
+H
+273
+
+- HDR repair
+
++ HDR repair
+
+WT
+
+Null
+
+R175H
+
+R273H
+
+3. Single cell isolation, clonal expansion,
+    and cell line validation 
+
+MCF10A
+
+CAL-51
+
+Genotype
+WT
+Null
+R175H
+R273H
+
+mRNA
+(Z-Score)
+
+3
+
+0
+
+−3
+
+e
+r
+o
+c
+s
+t
+n
+e
+m
+h
+c
+i
+r
+n
+E
+
+0.0
+
+-0.2
+
+-0.4
+
+-0.6
+
+s
+t
+i
+
+H
+
+t
+s
+i
+l
+
+d
+e
+k
+n
+a
+R
+
+5
+0
+-5
+
+c
+i
+r
+t
+e
+m
+
+FDR < 0.0001
+
+FDR < 0.0001
+
+Pos
+
+Correlation
+
+Neg
+
+Pos
+
+Correlation
+
+Neg
+
+0
+
+4K
+
+8K
+
+12K
+
+16K
+
+0
+
+4K
+
+Null vs WT
+
+Rank in Ordered Dataset
+R175H vs WT
+
+***
+
+***
+
+**
+
+MCF10A
+
+40
+
+30
+
+20
+
+10
+
+0
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+f
+
+)
+
+M
+µ
+(
+
+0
+5
+
+C
+
+I
+
+n
+
+i
+l
+t
+u
+N
+
+53
+
+90
+
+21
+
+42
+kDa
+
+8K
+
+12K 16K
+
+R273H vs WT
+
+****
+
+****
+
+****
+
+CAL-51
+
+W T
+
+R 175 H
+N ull
+
+W T
+
+R 273 H
+
+R 175 H
+N ull
+TP53 Genotype
+
+R 273 H
+
+MCF10A
+
+CAL-51
+
+WT Null
+
+R175H
+
+R273H
+
+WT Null
+
+R175H
+
+R273H
+
+Cell line
+
+MW-04 MN-39 M1-19 M1-23 M2-03 M2-09
+
+CW-08 CN-18 C1-09 C1-18 C2-09 C2-12
+
+Dox
+
++-
+
++-
+
++-
+
++-
+
++-
+
++-
+
++-
+
++-
+
++-
+
++-
+
++-
+
++-
+
+p53
+
+MDM2
+
+p21
+
+Actin
+
+Fig. 1 Generation and characterization of genetically engineered epithelial cell line models to study potential mutant p53 GOF activities. a Fraction of
+the genome altered across pan-cancer (n = 958, left panel) and breast cancer cell lines (n = 53, right panel) from the Cancer Cell Line Encyclopedia, with
+(red) and without (black) TP53 alterations (mutation or deletion); including the nontransformed MCF10A cell line. b Experimental workﬂow for CRISPR-
+Cas9 genetic engineering of isogenic cell line models with TP53 missense (red) and synonymous (blue) mutations and the resulting isogenic cell lines that
+either did (R175H and R273H, +HDR) or did not undergo complete homology-directed repair (WT and Null, −HDR). HDR homology-directed repair.
+c Heatmap of normalized gene expression for the top 116 p53 target genes33 for all cell lines at passage ﬁve after clonal expansion. d GSEA plot showing
+negative enrichment of p53 target genes (Fischer Direct p53 Targets Meta Analysis geneset) from RNA-seq differential gene expression analyses between
+TP53 Null (pink), R175H (teal), and R273H (purple) clones compared to the MCF10A and CAL-51 WT cell lines. Pos positive, Neg negative, FDR false
+discovery rate. e Western blots of relative p53, MDM2, p21, and actin protein levels in the indicated cell lines after 6 h of doxorubicin treatment (dox,
+0.2 µM). Western blots of additional cell lines are shown in Supplementary Fig. 1b, c. Blots are representative of two independent experiments. f IC50 values
+for Nutlin-3a in the MCF10A (n = 2 WT, 4 Null, 4 R175H, and 5 R273H) and CAL-51 (n = 4 WT, 5 Null, 4 R175H, and 8 R273H) cell lines after treatment for
+72 h. Dots represent the mean IC50 per cell line calculated from at least two independent experiments and black lines indicate median IC50 per TP53
+genotype. One-way ANOVA with Dunnett’s multiple comparison test, **P < 0.01, ***P < 0.001, ****P < 0.0001. Source data and exact P values are provided
+in the Source Data File.
+
+p53 mutant isogenic cell lines display increased frequency of
+aneuploidy. Mutation of p53 is associated with development of
+aneuploidy9,37. To evaluate the relationship between p53 muta-
+tions and the development of aneuploidy, we assessed DNA
+content in our MCF10A and CAL-51 models early (passage ﬁve)
+after clonal expansion. Analysis of metaphase spreads and ﬂow
+cytometry of propidium iodide (PI)-stained cells revealed that
+while the MCF10A derived lines maintained a near-diploid
+median number of chromosomes, ﬁve of the CAL-51 lines (three
+R273H, one R175H, and one null) contained a median number of
+chromosomes >2 N (Supplementary Fig. 2b, c). Four of these ﬁve
+were nearly tetraploid, suggesting that whole-genome doubling
+(WGD) likely occurred in these cells. Since metaphase spreads
+and PI staining detect gross chromosomal alterations, we also
+examined DNA copy number by cytogenomic microarray
+
+analysis (CMA) after 30 passages in culture. All MCF10A cell
+lines showed aneuploidy, with chromosomal gains (1q, a portion
+of 5q and 8q, and 20) consistent with known parental MCF10A
+cell line karyotypes (Fig. 2a and Supplementary Fig. 2a). Addi-
+tional whole-chromosome or arm-level alterations were identi-
+ﬁed in chromosomes 4, 5, 13, 15, and 18 (Fig. 2a). Structural
+alterations, including gain or loss of chromosomal regions, were
+evident in all MCF10A cell lines. Chromothripsis, a chromo-
+some shattering and rearrangement event that manifests as
+alternating patterns of gains and losses, was also detected in
+several MCF10A R273H mutant clones (M2-09, M2-03, and
+M2-13, Fig. 2a; chromosomes 6, 7, and 15, Supplementary
+Fig. 3). In contrast, the CAL-51 cells displayed mostly whole-
+chromosome alterations, such as gains in chromosomes 6 and X
+and losses in chromosomes 3, 13, and 16 in both the TP53
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+3
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ARTICLE
+
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+MCF10A 
+
+CAL-51 
+
+a
+
+T
+W
+
+MW-04
+
+MW-27
+
+MN-40
+
+MN-39
+
+MN-38
+
+MN-37
+
+M1-12
+
+M1-23
+
+M1-19
+
+M1-33
+
+M2-13
+
+M2-03
+
+M2-15
+
+M2-09
+
+l
+l
+
+u
+N
+
+H
+5
+7
+1
+R
+
+H
+3
+7
+2
+R
+
+T
+W
+
+l
+l
+
+u
+N
+
+H
+5
+7
+1
+R
+
+H
+3
+7
+2
+R
+
+CW-08
+CW-23
+CW-64
+CW-67
+CN-18
+CN-19
+CN-91
+CN-92
+CN-81
+C1-18
+C1-10
+C1-09
+C1-06
+C2-12
+C2-38
+C2-31
+C2-09
+C2-42
+C2-60
+C2-22
+C2-56
+
+LogR
+0.2
+
+-0.2
+
+7
+
+9
+
+11
+
+13
+
+15
+
+17 19 21 X
+18 20 22
+
+16
+
+14
+
+12
+
+10
+
+8
+
+MCF10A
+*
+
+CAL51
+
+6
+
+*
+
+1
+
+3
+
+5
+
+7
+
+9
+
+11
+
+13
+
+15
+
+17 19 21 X
+18 20 22
+
+16
+
+14
+
+12
+
+10
+
+8
+
+6
+
+4
+
+2
+
+b
+
+MCF10A
+
+CAL-51
+
+3
+
+5
+
+4
+
+1
+
+2
+
+c
+
+)
+
+%
+
+.
+l
+e
+r
+(
+s
+s
+o
+
+l
+
+r
+o
+n
+i
+a
+g
+h
+t
+i
+
+w
+s
+e
+n
+
+i
+l
+
+l
+a
+n
+o
+C
+
+l
+
+100
+50
+0
+50
+100
+100
+50
+0
+50
+100
+100
+50
+0
+50
+100
+100
+50
+0
+50
+100
+
+50
+25
+0
+25
+50
+50
+30
+10
+10
+30
+50
+50
+25
+0
+25
+50
+50
+30
+10
+10
+30
+50
+
+(cid:129)
+18q
+
+W
+T
+
+N
+u
+
+l
+l
+
+R
+1
+7
+5
+H
+
+R
+2
+7
+3
+H
+
+1
+
+3
+
+5
+
+7
+
+9
+
+11 13 15 17 19 21 X
+12 14 16 18 20 22
+
+10
+
+8
+
+6
+
+4
+
+2
+
+1
+
+3
+
+5
+
+7
+
+9
+
+11
+
+12
+
+13 15 17 19 21 X
+14 16 18 20 22
+
+10
+
+8
+
+6
+
+4
+
+2
+
+400
+
+300
+
+200
+
+M1-33
+
+M2-09
+
+M1-19
+M1-12
+
+100
+
+MW-27
+
+MN-37
+
+M2-13
+
+CW-
+23
+
+CW-
+64
+
+C2-56
+
+C2-22
+
+CN-81
+
+C1-06
+
+C2-42
+
+C2-09
+
+e
+r
+o
+c
+S
+y
+d
+o
+p
+u
+e
+n
+A
+
+i
+
+l
+
+0
+
+MW-04
+
+TP53
+Genotype:
+
+W T
+
+CW-08
+
+C1−18 C1−10
+
+C2-38
+
+N ull
+
+R 175 H
+
+R 273 H
+
+W T
+
+N ull
+
+R 175 H
+
+R 273 H
+
+AS Quantile:
+
+low (Q1)
+
+high (Q4)
+
+Fig. 2 p53 mutant isogenic cell lines display increased frequency of aneuploidy. a Copy number alterations (Log2 ratios, LogR) in MCF10A (left) and
+CAL-51 (right) isogenic cell lines grouped by TP53 genotype. Chromosomal gain (red) and loss (blue). b Frequency plots of the proportion of clonal lines
+from each genotype containing the indicated chromosomal copy number gains (red) or losses (blue). Chromosomal alterations were calculated relative to
+the parental WT clone in the MCF10A (left) and CAL-51 (right) cell lines from a. Chromosome 18q in the R175H mutant MCF10A cells was the only region
+signiﬁcantly altered; (cid:129) adjusted P < 0.1, two-sided Student’s t-test comparing chromosome arms between TP53 genotypes. c Aneuploidy score (AS) in each
+MCF10A (left) and CAL-51 (right) cell line by TP53 genotype (MCF10A n = 2 WT, 4 Null, 4 R175H, and 4 R273H cell lines; CAL-51 n = 4 WT, 5 Null, 4
+R175H, and 8 R273H cell lines). Colors indicate cell lines classiﬁed as aneuploid-low (lower quantile AS [Q1], blue), and aneuploid-high (upper quantile AS
+[Q4], red). Cell lines colored in gray indicate an intermediate AS (quantiles 2 and 3). *P < 0.05 (WT vs R175H, P = 0.011; Null vs R175H, P = 0.046), one-
+way ANOVA with Dunnett’s multiple comparison test. Source data are provided in the Source Data File.
+
+mutant and null genotypes (Fig. 2a), consistent with other
+analyses of tetraploid cells38.
+
+To identify chromosomal alterations common to each genotype,
+we generated frequency plots to show the percentage of cell lines
+with a given chromosomal alteration for each TP53 genotype
+relative to the parental WT cell
+line. Compared to null cells,
+lines in both models appeared to have increased
+mutant cell
+frequency of chromosomal gains and losses (Fig. 2b). Statistical
+analysis to compare differentiated chromosomal arm regions
+between mutant and null cells revealed that chromosome 18q in
+the R175H mutant MCF10A cells was the only region signiﬁcantly
+altered (adjusted P < 0.1). To quantify the degree of copy number
+alterations within each cell
+line, we generated an integrative
+aneuploidy score (AS) from the CMA data that reﬂects the sum of
+segmented copy number alterations (Log2 ratios) in the clonal lines
+relative to the respective parental WT clone. In both models,
+lines showed an increased median AS
+mutant and null cell
+compared to WT (MCF10A R175H P = 0.011). Compared to null
+lines, there was a signiﬁcant increase in AS in MCF10A R175H
+lines (P = 0.046) (Fig. 2c). The median AS was higher in the
+R273H mutant compared to null lines in both models, although
+not reaching statistical signiﬁcance (Fig. 2c). For use in subsequent
+comparative analyses of the models, AS quantiles were used to
+classify cell lines in each model as aneuploid-high (upper quantile
+AS) or aneuploid-low (lower quantile AS) (Fig. 2c).
+
+To examine the possibility that acquired mutations in other
+genes could account for the observed increased aneuploidy in our
+
+models, we conducted whole-exome sequencing (WES)
+in
+tandem with CMA. No gene mutations were signiﬁcantly
+enriched in aneuploid-high cell lines in either model (Supple-
+mentary Table 2). Further, no signiﬁcant enrichment
+in
+mutations was observed for a set of genes known to be associated
+with hereditary cancers (Supplementary Fig. 4a)39. However, the
+line with the highest AS (M1-33) displayed
+MCF10A cell
+deletions in BRCA2 and RB1 (Supplementary Fig. 4a). There
+was not a signiﬁcant difference in the total number of mutations
+in either model relative to TP53 genotype (Supplementary
+Fig. 4b). In sum, these results show that aneuploidy occurs at
+an increased frequency after TP53 mutation in both isogenic
+models.
+
+Gene expression changes are associated with aneuploidy and
+not mutant p53 expression. Previously, mutant p53 GOF phe-
+notypes were ascribed to the acquisition of a mutant p53-
+dependent transcriptional program40–42. To investigate this pos-
+sibility in our models, we performed RNA-seq in parallel with
+CMA and WES experiments on MCF10A and CAL-51 cell lines
+cultured under normal conditions or with doxorubicin to induce
+genotoxic stress (Supplementary Fig. 5a). Principal component
+analyses (PCA) of all genes revealed differences in global gene
+expression patterns, with cell
+lines clustering independent of
+TP53 genotype or doxorubicin treatment in both models (Fig. 3a
+and Supplementary Fig. 5b). Further, we found that the most
+signiﬁcant degree of variance in the PCA could be attributed to
+
+4
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+ARTICLE
+
+cell lines with higher levels of aneuploidy (Compare Fig. 3a to
+Fig. 2c). We conducted differential gene expression analyses
+comparing R175H or R273H mutants to null cells in MCF10A
+and CAL-51 models. Comparison of differentially expressed
+genes (DEGs) revealed almost no shared genes between R175H or
+R273H mutants in both MCF10A and CAL-51 models, except for
+TP53 and a gene encoding for Histone H2A (Fig. 3b, Supple-
+mentary Data 1). R175H mutant cells in the MCF10A cell line
+had a larger number of DEGs; however, GSEA revealed that the
+
+most signiﬁcantly altered pathway between MCF10A R175H and
+null cells was the chromosome positional pathway CHR18Q21
+indicating that increased DEGs are
+(Supplementary Fig. 5c),
+related to chromosomal changes in those cells (Fig. 2b).
+
+To further assess the impact of aneuploidy on the number of
+DEGs, we conducted differential gene expression analysis
+between CAL-51 R273H mutants with varying levels of
+aneuploidy (high, medium, or low AS) and two aneuploid-low
+null cell lines (Supplementary Fig. 5d). Mutant clones with the
+
+a
+
+e
+c
+n
+a
+i
+r
+a
+v
+%
+1
+1
+:
+2
+C
+P
+
+20
+
+10
+
+0
+
+−10
+
+−20
+
+−30
+
+MCF10A
+M1-33
+
+●
+
+●
+
+●
+
+M2-09
+
+M1-19
+
+M2-15
+
+CAL-51
+
+C2-56
+
+Aneuploidy 
+score (AS)
+
+● ●
+●
+C1-09
+
+C2-09
+
+C1-06
+
+C2-42
+
+C2-22
+
+400
+
+200
+
+0
+
+TP53
+
+Genotype
+
+WT
+
+● Null
+
+R175H
+
+R273H
+
+e
+c
+n
+a
+i
+r
+a
+v
+%
+4
+1
+:
+2
+C
+P
+
+20
+
+10
+
+0
+
+−10
+
+−20
+
+−30
+
+−20
+
+0
+
+20
+
+40
+
+−20
+
+0
+
+20
+
+40
+
+PC1: 46% variance
+
+PC1: 24% variance
+
+b
+
+R175H vs Null
+
+R273H vs Null
+
+MCF10A
+
+MCF10A CAL-51
+
+CAL-51
+
+53
+
+2 10
+
+11
+
+1
+
+9
+
+TP53
+HIST2H2AA3
+
+TP53
+
+MCF10A
+
+MCF10A CAL-51
+
+CAL-51
+
+237
+
+281
+
+51
+
+1
+
+40
+
+TP53
+
+TP53
+
+d
+e
+t
+a
+e
+r
+t
+n
+U
+
+n
+i
+c
+i
+b
+u
+r
+o
+x
+o
+D
+
+c
+
+MCF10A 
+
+CAL-51 
+
+d
+
+MCF10A
+
+CAL-51
+
+AS
+Genotype
+
+AS
+Genotype
+
+NARS1
+PHGDH
+CCNB2
+TARS1
+ANGPT1
+CDC25A
+POLD2
+STAMBP
+RHOG
+API5
+POLR2E
+IMPDH2
+FHL1
+E2F5
+MCL1
+NFKB2
+CEBPB
+EBAG9
+GARS1
+HAX1
+YARS1
+ASNS
+CCNH
+MYC
+ITGA6
+
+EBAG9
+CCNH
+CCNB2
+E2F5
+IMPDH2
+CDC25A
+RHOG
+POLR2E
+MCL1
+PHGDH
+API5
+HAX1
+NFKB2
+TARS1
+NARS1
+ASNS
+CEBPB
+GARS1
+YARS1
+MYC
+ITGA6
+POLD2
+STAMBP
+FHL1
+
+M
+1
+-
+1
+9
+
+M
+2
+-
+0
+9
+
+M
+N
+-
+4
+0
+
+M
+W
+-
+0
+4
+
+M
+W
+-
+2
+7
+
+M
+2
+-
+1
+5
+
+M
+1
+-
+3
+3
+
+M
+1
+-
+1
+2
+
+M
+N
+-
+3
+7
+
+M
+1
+-
+2
+3
+
+M
+N
+-
+3
+8
+
+M
+2
+-
+0
+3
+
+M
+2
+-
+1
+3
+
+C
+2
+-
+5
+6
+
+C
+2
+-
+2
+2
+
+C
+2
+-
+0
+9
+
+C
+2
+-
+4
+2
+
+C
+2
+-
+6
+0
+
+C
+1
+-
+1
+8
+
+C
+2
+-
+3
+8
+
+C
+1
+-
+1
+0
+
+C
+W
+-
+2
+3
+
+C
+W
+-
+6
+4
+
+C
+N
+-
+1
+9
+
+C
+2
+-
+3
+1
+
+C
+1
+-
+0
+6
+
+C
+N
+-
+9
+1
+
+C
+N
+-
+1
+8
+
+C
+1
+-
+0
+9
+
+C
+2
+-
+1
+2
+
+C
+W
+-
+0
+8
+
+Aneuploidy
+score (AS) 
+
+400
+
+200
+
+0
+
+TP53
+Genotype 
+
+WT
+
+Null
+
+R175H
+
+R273H
+
+mRNA 
+(Z-Score)
+
+3
+
+0
+
+−3
+
+M
+1
+−
+1
+2
+
+M
+N
+−
+3
+8
+
+M
+1
+−
+2
+3
+
+M
+2
+−
+0
+3
+
+M
+2
+−
+1
+3
+
+M
+N
+−
+3
+7
+
+M
+N
+−
+4
+0
+
+M
+W
+-
+0
+4
+
+M
+1
+−
+3
+3
+
+M
+2
+−
+1
+5
+
+M
+1
+−
+1
+9
+
+M
+2
+−
+0
+9
+
+M
+W
+−
+2
+7
+
+C
+1
+-
+0
+6
+
+C
+2
+-
+2
+2
+
+C
+2
+-
+5
+6
+
+C
+2
+-
+4
+2
+
+C
+W
+-
+2
+3
+
+C
+2
+-
+3
+8
+
+C
+W
+-
+6
+4
+
+C
+2
+-
+3
+1
+
+C
+N
+-
+1
+9
+
+C
+1
+-
+1
+8
+
+C
+1
+-
+1
+0
+
+C
+2
+-
+0
+9
+
+C
+N
+-
+1
+8
+
+C
+N
+-
+9
+1
+
+C
+2
+-
+6
+0
+
+C
+1
+-
+0
+9
+
+C
+W
+-
+0
+8
+
+C
+2
+-
+1
+2
+
+e
+
+MCF10A
+
+CAL-51
+
+Altered chromosomes
+
+Unaltered chromosomes
+
+Altered chromosomes
+
+Unaltered chromosomes
+
+chr5
+
+chr8
+
+chr10
+
+)
+o
+i
+t
+a
+r
+
+2
+g
+o
+
+l
+
+n
+a
+e
+m
+
+(
+
+r
+e
+b
+m
+u
+N
+y
+p
+o
+C
+
+0.2
+
+0.0
+
+●
+
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+●
+
+●
+●
+
+●
+
+-0.2
+
+●
+
+●
+●
+
+●
+
+6.6
+chr18
+
+r  = 0.96****     
+
+6.7
+
+6.8
+
+6.9
+
+0.00
+
+-0.25
+
+-0.50
+
+● ●
+● ●●● ●
+● ●
+●
+●
+
+●
+
+●
+●
+
+●
+
+●
+●
+
+●
+
+●
+●
+
+●
+
+r = 0.99****     
+
+0.150
+
+0.125
+
+●
+
+0.100
+
+0.075
+
+●
+●
+
+●●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●●
+●
+
+r = −0.14     
+
+6.90
+
+6.93
+
+6.95
+
+6.88
+chr19
+
+●
+
+●
+●
+
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+
+r = 0.34     
+
+0.03
+
+0.00
+
+-0.03
+
+-0.06
+
+●
+
+●
+●
+
+●
+●
+
+●
+
+●
+●
+
+0.2
+
+0.1
+
+0.0
+
+-0.1
+
+●
+
+●●
+●
+●
+
+●
+● ●●
+● ●
+●
+●
+●
+
+●
+●
+
+●
+
+●
+
+●
+
+-0.2
+
+●
+
+r = 0.94****    
+
+6.8
+
+6.9
+
+7.0
+
+chr6
+
+0.3
+
+0.2
+
+0.1
+
+0.0
+
+●
+●
+
+●
+●
+●
+●
+
+●
+●
+●
+
+●
+●
+
+●
+●
+●
+●
+
+●
+●
+
+●
+
+●
+
+●
+
+●
+●
+
+●
+
+●
+
+●
+
+r = 0.84****     
+6.75
+
+6.70
+
+●
+●
+
+●
+●
+
+chr4
+
+●
+
+●
+
+●
+
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+
+●
+
+0.03
+
+0.02
+
+0.01
+
+0.00
+
+-0.01
+
+●
+●
+
+●
+●
+
+●
+●
+
+●
+●
+
+r = −0.12    
+
+6.68
+
+6.70
+
+6.72
+
+6.66
+chr9
+
+●
+
+0.005
+
+0.000
+
+●
+
+-0.005
+
+-0.010
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+r = 0.09     
+6.93
+
+6.91
+
+6.89
+
+6.5
+
+6.6
+
+6.7
+
+6.8
+
+6.9
+
+6.50
+
+6.55
+
+6.60
+
+6.60
+
+6.65
+
+RNA Expression (mean log2 normalized counts)
+
+Fig. 3 Gene expression changes are associated with aneuploidy and not mutant p53 expression. a Principal component (PC) analysis of gene expression
+values for untreated MCF10A (left panel) and CAL-51 (right panel) isogenic cell lines. b Venn diagrams showing the overlap between differentially
+expressed genes in R175H (left) and R273H (right) cell lines compared to null cells in MCF10A (blue) and CAL-51 (yellow) models. Cells were either
+untreated (top) or treated with doxorubicin (0.2 µM, 6 h) (bottom). Cell lines used in RNA-seq analyses are shown in Supplementary Fig. 5a. c Hierarchical
+clustering and comparison of gene expression for previously reported mutant p53-associated upregulated genes41 from the indicated MCF10A (left panel)
+and CAL-51 (right panel) cell lines. d Hierarchical clustering and comparison of gene expression for the karyotype heterogeneity associated HET70 gene
+signature43 from the indicated MCF10A (left panel) and CAL-51 (right panel) cell lines. e Scatter plots comparing average chromosomal copy number with
+chromosomal RNA expression for MCF10A (left panel, n = 13) and CAL-51 (right panel, n = 18) cell lines across frequently altered or unaltered
+chromosomes. Each point represents the mean per cell line. The blue line represents a linear model of the best ﬁt, with the gray area representing the 95%
+conﬁdence intervals. r = Pearson correlation coefﬁcient, ****P < 0.0001, Pearson correlation. Source data are provided in the Source Data File.
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+5
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ARTICLE
+
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+greatest aneuploidy showed the greatest number of DEGs,
+whereas comparison of R273H AS-low versus null AS-low cells
+revealed only 17 signiﬁcantly DEGs (Supplementary Fig. 5e). To
+test if mutant p53 expression affected the number of DEGs, we
+generated stable p53 knockdown cell
+lines from our isogenic
+models with shRNAs targeting TP53 or a nontargeting control
+(NT) (Supplementary Fig. 6a). We validated knockdown of p53
+by RNA-seq or western blot (Supplementary Fig. 6b, c). RNA-seq
+comparing aneuploid-high CAL-51 R273H cell lines (C2-22 and
+C2-56) with NT control to those with p53 knockdown revealed
+only six DEGs (Supplementary Fig. 6d), and there were no
+differences in global gene expression patterns by PCA between
+the p53 knockdown and NT control cells (Supplementary Fig. 6e).
+These data suggest that DEGs in our isogenic p53 mutant cell
+lines result from genetic variation and not a novel transcriptional
+program induced by mutant p53.
+
+Distinct transcriptional programs have been reported to be
+transactivated by mutant p5341. However, we did not observe
+genotype-speciﬁc patterns for these reported genes, with hetero-
+geneous expression observed across cell
+lines in both models
+(Fig. 3c).
+In the CAL-51 model, unsupervised hierarchical
+lines with a higher AS clustered
+clustering revealed that cell
+together and had increased expression of most of these reported
+mutant p53-upregulated genes (Fig. 3c, right). To determine if
+our cell lines displayed gene expression patterns consistent with
+those previously found in aneuploid cells, we analyzed expression
+of the HET70 geneset, which consists of genes upregulated in cells
+displaying karyotype heterogeneity43. Unsupervised hierarchical
+clustering revealed that cell
+lines with a higher AS clustered
+together in both MCF10A and CAL-51 models and had increased
+(Fig. 3d). These data suggest
+expression of HET70 genes
+transcriptional changes are associated with karyotype hetero-
+geneity and are not driven by the p53 mutations analyzed herein.
+We hypothesized that aneuploidy and the resulting stochastic
+genetic variation led to the altered gene expression proﬁles in TP53-
+mutated cells. To test this hypothesis, we determined if gene dosage
+effects resulting from chromosomal alterations aligned with the
+changes in gene expression observed in the PCA (Fig. 3a). For each
+untreated cell
+line, we compared the average transcriptome
+expression per chromosome to the average chromosomal copy
+number and observed a signiﬁcant correlation in highly altered
+chromosomes across cells from both models (MCF10A, chromo-
+some (chr) 5: r = 0.96, chr18: r = 0.99; CAL-51, chr10: r = 0.94,
+chr6: r = 0.84; all P < 0.0001), but not in chromosomes lacking copy
+number changes (Fig. 3d). These data indicate that chromosomal
+signiﬁcantly
+imbalances,
+correlate with transcriptional changes in our isogenic models.
+
+than mutant p53 expression,
+
+rather
+
+Clonal in vitro gain-of-function phenotypes are associated with
+aneuploidy and not mutant p53 expression. Cancer cells with
+mutant p53 have been reported to have neomorphic activities
+leading to oncogenic phenotypes such as increased cellular pro-
+liferation rates6, increased colony formation7,8, altered cellular
+and mitochondrial metabolism7,13,44,45, and chemotherapeutic
+resistance46–48. To determine if our mutant p53 cell lines dis-
+played evidence of GOF activities in vitro, we performed a variety
+of functional assays using our full panel of MCF10A and CAL-51
+cell lines. Assessment of proliferation through cell growth assays
+revealed no signiﬁcant differences in doubling time for MCF10A
+and CAL-51 cells by TP53 genotype (Fig. 4a) or upon stable p53
+knockdown (Fig. 4b, Supplementary Fig. 7a, b). Decreased pro-
+liferation has been associated with aneuploid states49. Similarly, in
+both MCF10A and CAL-51 models, the average doubling time for
+aneuploid-high cells was higher than that of aneuploid-low cells
+(MCF10A P = 0.035, CAL-51 P = 0.047) (Supplementary Fig. 8a).
+
+Colony-formation assays also revealed no signiﬁcant differences
+for MCF10A and CAL-51 cells by TP53 genotype or with p53
+knockdown; however, cell lines with the most colonies formed
+were among those with the highest AS (M1-33, C2-56, Fig. 4c, d),
+indicating that changes in cell growth in our clonal cell lines can
+be attributed to genetic variation caused by aneuploidy rather
+than TP53 genotype.
+
+We evaluated our cell lines for changes in cellular metabolism
+but observed no signiﬁcant differences in the level of reactive
+oxygen species (ROS), mitochondrial superoxides, mitochondrial
+mass, or mitochondrial membrane potential in MCF10A cells by
+TP53 genotype (Supplementary Fig. 8b-e). We did observe a
+signiﬁcant difference in mitochondrial metabolism when measur-
+ing the reduction of resazurin in MCF10A R175H clonal lines;
+however, this increase was most notable in the cell line with the
+highest AS (M1-33) and did not change upon p53 knockdown
+(Fig. 4e, f, Supplementary Fig. 7a). In the CAL-51 lines, there was
+not a signiﬁcant difference in resazurin reduction relative to TP53
+genotypes or upon p53 knockdown (Fig. 4e, f and Supplementary
+Fig. 7b). However, similar to the MCF10A model, cell lines with
+the highest metabolic activity were among those with the highest
+AS (CN-81, C1-06, and C2-56, Fig. 2a), and we observed a
+signiﬁcant correlation between this metabolic activity and the AS
+calculated for each clone (P = 0.0001, Supplementary Fig. 8f). In
+CAL-51 R273H mutant cells with varying aneuploidy (Supple-
+mentary Fig. 8g), we observed that mitochondrial membrane
+potential was increased in three aneuploid R273H mutant lines
+compared to three non-aneuploid R273H mutant lines (Supple-
+mentary Fig. 8h). Previous reports have shown that mutant p53
+upregulates the mevalonate pathway12; however, analysis of RNA-
+seq data for mevalonate pathway gene expression revealed that
+expression was clonal, and not associated with the TP53 genotype
+or AS, except in the CAL-51 model in which highly aneuploid
+samples
+the gene NAD(P)
+Dependent Steroid Dehydrogenase-Like (NSDHL) (Supplementary
+Fig. 8i). These data indicate that altered cellular metabolism is
+associated with aneuploidy and independent of TP53 genotype.
+
+showed increased expression of
+
+to WT cells
+
+To determine if R175H or R273H TP53 mutations confer
+resistance to commonly used cancer chemotherapeutic agents, we
+treated all clonal lines in both models with increasing concentra-
+tions of doxorubicin or paclitaxel for 72 h. Signiﬁcant changes in
+drug sensitivity were observed when comparing cells with p53
+LOF (null, R175H, or R273H)
+(MCF10A,
+doxorubicin [P = 0.027]; CAL-51, doxorubicin [P = 0.009], and
+paclitaxel [P < 0.0001]) (Supplementary Fig. 9a, b). However,
+there was no signiﬁcant difference in sensitivity when comparing
+either R175H or R273H mutant lines to TP53 null cells in either
+model or with knockdown of p53 (Supplementary Fig. 9a-d,
+Supplementary Fig. 7a, b). The heat shock protein 90 (Hsp90)
+inhibitor 17-AAG and histone deacetylase (HDAC) inhibitor
+SAHA (Vorinostat) have been reported to decrease cell viability
+in mutant p53-containing cancer cells50,51. However, CAL-51
+cells showed no signiﬁcant differences in 17-AAG or SAHA IC50
+values by TP53 genotype (Supplementary Fig. 9e, f) or after p53
+knockdown (Supplementary Fig. 9g, Supplementary Fig. 7b).
+Compared to aneuploid-low cells, aneuploid-high cells had
+signiﬁcantly increased sensitivity to SAHA (P = 0.0006) (Supple-
+mentary Fig. 9h). Altogether, these data indicate that in vitro
+GOF phenotypes are not associated with mutant p53 expression
+but can be associated with genomic alterations such as aneuploidy
+that occur following the loss of p53 function.
+
+Clonal differences
+in tumorigenicity are associated with
+aneuploidy and not p53 genotype. It has been reported that
+tumor cells with TP53 mutations display more aggressive features
+
+6
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+ 
+ 
+ 
+ 
+ 
+ 
+ARTICLE
+
+NT shRNA
+
+p53 shRNA
+
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+a
+
+MN-39
+
+CW-67
+
+M1−33
+M1−19
+
+M2−09
+
+C2-60
+
+AS
+
+C2-09
+
+C2-56
+
+400
+
+200
+
+0
+
+1.5
+
+1.2
+
+0.9
+
+0.6
+
+)
+d
+(
+e
+m
+T
+g
+n
+
+i
+
+i
+l
+
+b
+u
+o
+D
+
+CAL-51
+W T
+
+N ull
+
+R 175 H
+
+R 273 H
+
+R 175 H
+
+R 273 H
+
+M1−33
+
+TP53 
+Genotype:
+
+MCF10A
+W T
+
+N ull
+
+c
+
+300
+
+200
+
+100
+
+d
+e
+m
+r
+o
+F
+s
+e
+i
+n
+o
+o
+C
+
+l
+
+Cell Line:
+TP53 
+Genotype:
+
+d
+
+C2-56
+
+AS
+
+400
+
+200
+
+0
+
+C2-60
+
+d
+e
+m
+r
+o
+F
+s
+e
+i
+n
+o
+o
+C
+
+l
+
+400
+
+300
+
+200
+
+100
+
+0
+
+b
+
+1.5
+
+MCF10A
+
+1.5
+
+CAL-51
+
+)
+d
+(
+e
+m
+T
+g
+n
+
+i
+
+i
+l
+
+b
+u
+o
+D
+
+1.0
+
+0.5
+
+0.0
+
+Cell Line:
+TP53 
+Genotype:
+
+1.0
+
+0.5
+
+0.0
+
+M N-38
+
+M N-39
+
+M 1-19
+
+M 1-33
+
+M 2-03
+
+M 2-09
+
+C N-81
+
+C N-19
+
+C 1-09
+
+C 1-06
+
+C 2-09
+
+C 2-56
+
+Null
+
+R175H
+
+R273H
+
+Null
+
+R175H
+
+R273H
+
+MCF10A
+
+400 CAL-51
+
+NT shRNA
+
+p53 shRNA
+
+300
+
+200
+
+100
+
+0
+
+M N-38
+
+M N-39
+
+M 1-19
+
+M 1-33
+
+M 2-03
+
+M 2-09
+
+C N-91
+
+C N-81
+
+C 1-09
+
+C 1-06
+
+C 2-12
+
+ C 2-56
+
+Null
+
+R175H
+NT shRNA p53 shRNA
+
+R273H
+
+Null
+
+R175H
+
+R273H
+
+NT shRNA p53 shRNA
+
+0
+
+TP53 
+Genotype:
+
+MCF10A
+W T
+
+N ull
+
+R 175 H
+
+R 273 H
+
+CAL-51
+W T
+
+N ull
+
+R 175 H
+
+R 273 H
+
+M1−33
+
+C2−56
+
+e
+
+)
+l
+l
+
+e
+c
+r
+e
+p
+(
+y
+t
+i
+s
+n
+e
+t
+n
+
+I
+
+n
+i
+r
+u
+s
+a
+z
+e
+R
+
+1.25
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+TP53 
+Genotype:
+
+*
+
+M1−33
+
+0.6
+
+0.4
+
+0.2
+
+0.0
+
+MCF10A
+W T
+
+N ull
+
+R 175 H
+
+R 273 H
+
+C2-56
+
+CN-81
+
+C1−06
+
+f
+
+AS
+
+400
+
+200
+
+0
+
+l
+l
+
+e
+c
+r
+e
+p
+y
+t
+i
+s
+n
+e
+t
+n
+
+I
+
+n
+i
+r
+u
+s
+a
+z
+e
+R
+
+4
+
+3
+
+2
+
+1
+
+0
+
+CAL-51
+W T
+
+N ull
+
+R 175 H
+
+R 273 H
+
+Cell Line:
+TP53 
+Genotype:
+
+MCF10A
+
+1.5
+
+CAL-51
+
+NT shRNA
+
+p53 shRNA
+
+1.0
+
+0.5
+
+0.0
+
+C N-19
+
+C N-81
+
+C 1-18
+
+C 1-06
+
+C 2-09
+
+ C 2-56
+
+M N-38
+
+M N-39
+
+M 1-19
+
+M 1-33
+
+M 2-03
+
+M 2-09
+
+Null
+
+R175H
+
+R273H
+
+Null
+
+R175H
+
+R273H
+
+Fig. 4 Differences in proliferation, colony formation, and metabolism are associated with aneuploidy and not mutant p53 expression. a Average
+doubling time in all MCF10A (left) and CAL-51 (right) clonal cell lines by TP53 genotype. b Doubling time in MCF10A (left) and CAL-51 (right) cell lines of the
+indicated TP53 genotype expressing either a nontargeting (NT, black) or p53 targeting shRNA (red). Mean ± standard deviation (s.d.) from n = 3 independent
+experiments per cell line (except M1-33, CN-19, and C1-06 cell lines, n = 2). c Average number of colonies formed in all MCF10A (left) and CAL-51 (right) cell
+lines by TP53 genotype. d Average number of colonies formed in MCF10A (left) and CAL-51 (right) cell lines of the indicated TP53 genotype expressing either
+a nontargeting (NT, black) or p53 targeting shRNA (red). Bottom, representative images. Mean ± s.d. of n = 3 technical replicates representative of at least
+two independent experiments per cell line. e Resazurin intensity per cell, in all MCF10A (left) and CAL-51 (right) cell lines by TP53 genotype. f Resazurin
+intensity per cell in MCF10A (left) and CAL-51 (right) nontargeting (NT, black) or p53 shRNA (red) containing cell lines. Mean ± s.d. of n = 4 technical
+replicates, representative of at least two independent experiments per cell line. a, c, e Dots represent the mean per cell line (MCF10A n = 2 WT, 4 Null, 4
+R175H, and 5 R273H cell lines; CAL-51 n = 4 WT, 5 Null, 4 R175H, and 8 R273H cell lines) from at least two independent experiments. Bars indicate the
+median per genotype. Dots are colored by their calculated aneuploidy score (AS), and those colored in gray were not proﬁled in cytogenomic microarray
+experiments. One-way ANOVA with Dunnett’s multiple comparison test, *P < 0.026. b, d, f Signiﬁcance tested using two-way analysis of variance with
+Sidak’s multiple comparisons test. Western blots showing knockdown of p53 are shown in Supplementary Fig. 7a, b. Source data are provided in the Source
+Data File.
+
+in murine models4,8. To investigate if our p53 mutant-containing
+cell lines displayed gain-of-function activities that would lead to
+increased tumorigenesis in vivo, we evaluated xenograft tumor
+growth of our MCF10A and CAL-51 cell lines after subcutaneous
+injection (Fig. 5a and Supplementary Fig. 10a). MCF10A cell lines
+did not form tumors in mice, regardless of TP53 genotype or
+lines
+DNA content (Supplementary Fig. 10b, c). CAL-51 cell
+showed signiﬁcant differences in tumor growth by TP53 geno-
+lines having signiﬁcantly increased
+type, with TP53 null cell
+tumor growth compared to TP53 WT, R175H, or R273H mutant
+cells (WT vs Null, P = 0.035; R175H vs Null, P = 0.008; R273H vs
+Null, P = 0.022; Fig. 5b). While tumor growth was variable across
+CAL-51 cells regardless of TP53 genotype, we noticed a trend
+
+where CAL-51 cells with a higher AS displayed increased tumor
+growth (e.g., C2-56, CN-81, C2-42, Fig. 5c, Supplementary
+Fig. 10d). However, not all highly aneuploid cells showed
+increased growth (e.g., C1-06). Our data are consistent with
+previous reports that aneuploidy can be either tumor-promoting
+or tumor-suppressive52,53. Additionally, cell line CN-19 displayed
+no detectable aneuploidy but was the most tumorigenic (Fig. 5c,
+Supplementary Fig. 10d). To further investigate the observed
+correlation between tumor growth and aneuploidy, we isolated a
+diploid and tetraploid subclonal cell line from C2-09, a CAL-51
+R273H mutant cell line with an intermediate growth phenotype
+(Fig. 5d). The tetraploid clone 9B6 displayed signiﬁcantly
+increased xenograft tumor growth (P = 0.001, Fig. 5e) and ﬁnal
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+7
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ARTICLE
+
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+a
+
+CAL-51
+
+b
+
+1500
+
+CAL-51
+
+WT Null R175H R273H
+CW-08 CN-18 C1-09 C2-09
+C2-12
+CW-23
+C2-31
+CW-64
+C2-42
+CW-67
+C2-56
+
+CN-19
+CN-91
+CN-81
+
+C1-18
+C1-10
+C1-06
+
+(2.5 x 106 cells)
+
+DNA 
+content 
+analysis
+
+1000
+
+500
+
+TP53 
+Genotype:
+
+WT
+Null
+R175H
+R273H
+
+40 d
+
+*
+
+** *
+
+)
+3
+
+m
+m
+
+l
+
+(
+e
+m
+u
+o
+V
+r
+o
+m
+u
+T
+
+tumor volume
+measurements
+
+Nude 
+mice
+
+sub-cutaneous
+injection
+
+endpoint
+1500 mm3
+
+Tissue 
+collection
+& analysis
+
+0
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+Days post injection
+
+1500
+
+CAL-51
+
+c
+
+)
+3
+
+m
+m
+
+l
+
+(
+e
+m
+u
+o
+V
+r
+o
+m
+u
+T
+
+1000
+
+500
+
+0
+
+0
+
+d
+
+Parental 
+cell line
+
+Single-cell 
+isolation
+
+Expansion of 
+sub-clones
+
+DNA content analysis 
+to select diploid & 
+tetraploid clones
+
+Xenograft 
+growth
+
+R273H
+
+C2-09
+
+9B1
+
+9B2
+
+9B...
+
+9B11
+
+9B6
+
+0
+
+100K 200K
+
+PI-A
+
+Diploid
+Tetraploid
+
+Cytogenomic
+Microarray
+Analysis
+
+g
+
+9B11
+
+9B6
+
+9B11
+
+9B6
+
+e
+
+)
+3
+
+m
+m
+
+l
+
+(
+e
+m
+u
+o
+V
+r
+o
+m
+u
+T
+
+800
+
+600
+
+400
+
+200
+
+0
+
+0
+
+AS
+
+400
+
+200
+
+0
+
+CN-81
+
+CN-91
+
+C2-56
+
+CW-67
+
+CN-19
+
+C2-42
+C2-09
+C1-09
+C1-10
+C2-12
+C1-18
+CW-64
+C1-06
+CW-08
+
+10
+
+20
+
+30
+
+40
+
+50
+
+Days post injection
+
+f
+
+1000
+
+*
+
+)
+g
+m
+
+(
+s
+t
+h
+g
+i
+e
+W
+
+r
+o
+m
+u
+T
+
+800
+
+600
+
+400
+
+200
+
+0
+
+***
+
+LogR
+0.2
+
+0.0
+
+-0.2
+
+20
+60
+40
+Days post injection
+
+80
+
+Tumors 
+Formed:
+
+9B11
+3/10
+
+9B6
+6/10
+
+1
+
+3
+
+5
+
+7
+
+9
+
+11
+
+13
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+15 17 19 21 X
+16 18 20 22
+
+Fig. 5 Clonal differences in tumorigenicity are associated with aneuploidy and not mutant p53 expression. a Diagram demonstrating workﬂow for CAL-
+51 xenograft tumor growth experiment. b, c Tumor volume (in cubic millimeters) of CAL-51 cell lines. Data shown represent the mean ± standard error of
+the mean (s.e.m.) tumor volume (n = 10 tumors per cell line) measured across CAL-51 cell lines indicated in a averaged by b TP53 genotype or c colored by
+aneuploidy score (AS). d Diagram demonstrating workﬂow for single-cell isolation and subcutaneous xenograft experiment of CAL-51 diploid (9B11) and
+tetraploid (9B6) R273H mutant p53 subclones. e, f Tumor volume (e) and tumor weights (f) for 9B11 and 9B6 subclone xenografts. Data shown represent
+the mean ± s.e.m. tumor volume measured every three days (n = 10 tumors per cell line). g Copy number alterations from cytogenomic microarray
+analyses in 9B11 and 9B6 subclones (Log2 ratios, LogR). Chromosomal gain (red) and loss (blue). Signiﬁcance tested using b mixed-effects analysis with
+Dunnett’s multiple comparison test, e, f Two-tailed Student’s t-tests. *P < 0.05, **P < 0.01, ***P < 0.001. Source data and exact P values are provided in the
+Source Data File.
+
+tumor weight (P = 0.019, Fig. 5f) compared to the diploid clone
+9B11. Analysis of tumor DNA through CMA revealed the 9B6
+clone was highly aneuploid compared to clone 9B11 (Fig. 5g). In
+summary, cell lines with mutant p53 did not preferentially show
+increased tumorigenicity in vivo; rather, the feature of increased
+aneuploidy in p53 mutant cells was associated with increased
+tumorigenicity in vivo.
+
+Metastatic phenotypes are associated with aneuploidy and not
+mutant p53 expression. Mutant p53 has been associated with
+cellular features leading to metastatic progression, such as
+enhanced migration6,16–19,54. We performed transwell migration
+assays to determine if mutant p53 alters cellular migration in our
+isogenic cell line models. We did not observe a statistical differ-
+ence in the average relative migration in either MCF10A or CAL-
+51 clonally derived cell lines across TP53 genotypes (Fig. 6a), and
+knockdown of p53 did not signiﬁcantly alter migration relative to
+any genotype in MCF10A or CAL-51 cells (Fig. 6b, Supplemen-
+tary Fig. 7a, b). While the level of migration was variable across
+each clonal cell line, the CAL-51 R273H mutant lines with the
+highest overall relative migration were among those with the
+most elevated AS (Fig. 6a, clones C2-60, C2-56, and C2-22). Note
+that not all aneuploid cell lines showed increased migration (e.g.,
+MCF10A M1-33, CAL-51 CN-81, and C1-06), suggesting speciﬁc
+the degree of aneuploidy
+chromosomal alterations and not
+resulted in increased migration.
+
+To determine if cells with TP53 mutations have increased
+metastasis in vivo, we utilized the MetMap500, MetMap125, and
+MetMap Basal-like datasets from the metastasis map (MetMap)
+project, which provided the metastatic potential of barcoded and
+lines following cardiac injection in mice
+pooled cancer cell
+
+(Fig. 6c)55. We compared the metastatic potential of cell lines that
+were p53 WT or contained either missense or truncating
+mutations in TP53. Across all
+three datasets, we found no
+statistical difference in the metastatic potential of cell lines based
+on TP53 genotype (Fig. 6d). While there is no correlation between
+in these datasets55,
+total aneuploidy and metastatic potential
+others have shown that chromosomal alterations are enriched
+and drive metastatic tumor formation52,56. Similarly, our results
+indicate that differences
+such as
+increased migration are not dependent on the expression of
+mutant p53 or total levels of aneuploidy but are likely the result of
+speciﬁc chromosomal alterations.
+
+in metastatic phenotypes
+
+Aneuploidy and loss of p53 function associate with unfavor-
+able prognosis. TP53 mutation strongly correlates with the
+development of aneuploidy20,21, and both TP53 mutation and
+aneuploidy have been associated with unfavorable prognostic
+features in multiple cancer types57–62. Thus, we determined the
+relationship between missense TP53 mutations, aneuploidy sta-
+tus, and survival across human tumor types. We ﬁrst analyzed the
+fraction of the genome altered (FGA) by aneuploidy in tumors
+across 19 cancer types (TCGA, n = 6682; abbreviations deﬁned in
+Supplementary Table 3) that contained either missense or trun-
+cating mutations in TP53. Similar to previous ﬁndings58, the FGA
+was signiﬁcantly increased across a majority of tumor types with
+either truncating or missense mutations in TP53 compared to
+those with WT p53 (Fig. 7a). Uterine carcinosarcoma (UCS),
+uterine corpus endometrial carcinoma (UCEC), lung squamous
+cell carcinoma (LUSC), ovarian (OV), and breast cancers (BRCA)
+with missense TP53 mutations displayed the highest median FGA
+across all cancer types (Fig. 7a). Breast and sarcomas were the
+
+8
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MCF10A
+
+CAL-51
+
+ARTICLE
+
+NT shRNA
+
+p53 shRNA
+
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+i
+
+n
+o
+i
+t
+a
+r
+g
+M
+e
+v
+i
+t
+a
+l
+e
+R
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+0.00
+
+a
+
+c
+
+b
+
+d
+
+MCF10A
+
+CAL-51
+
+C2-60
+
+MW-04
+
+M1−19
+
+CW-64
+
+CN-91
+
+C2-22
+
+C2-56
+C2-42
+
+AS
+
+400
+
+200
+
+0
+
+i
+
+n
+o
+i
+t
+a
+r
+g
+M
+e
+v
+i
+t
+a
+l
+e
+R
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+0.00
+
+TP53 
+Genotype:
+
+W T
+
+N ull
+
+R 175 H
+
+R 273 H
+
+W T
+
+N ull
+
+R 175 H
+
+R 273 H
+
+MetMap500
+498 cell lines in one pool
+~500 cells per line
+21 tumor types
+5 organ sites
+
+MetMap125
+125 cell lines, 25 line x 5 pools
+10,000 cells per line
+21 tumor types
+4 organ sites
+
+MetMap Basal-like
+21 basal-like breast cancer cell lines
+20,000 cells per line
+5 organ sites
+
+Barcoded cell 
+line pools
+
+Intracardiac injection
+
+5 w
+
+Tissue collection
+
+Barcode quantification
+
+Relative metastatic potential
+
+Cell Line:
+
+TP53 
+Genotype:
+
+M N-38
+
+M N-39
+
+M 1-19
+
+M 1-33
+
+M 2-03
+
+M 2-09
+
+C N-19
+
+C N-81
+
+C 1-09
+
+C 1-06
+
+C 2-12
+
+C 2-56
+
+C 2-60
+
+Null
+
+R175H
+
+R273H
+
+Null
+
+R175H
+
+R273H
+
+MetMap500
+
+MetMap125
+
+MetMap Basal-like
+
+l
+a
+i
+t
+n
+e
+t
+o
+P
+c
+i
+t
+a
+t
+s
+a
+t
+e
+M
+
+2
+
+0
+
+−2
+
+−4
+
+2
+
+0
+
+−2
+
+−4
+
+4
+
+3
+
+2
+
+1
+
+0
+
+−1
+
+TP53 
+Genotype:
+
+W T
+
+Truncating
+
+Missense
+
+W T
+
+Truncating
+
+Missense
+
+W T
+
+Truncating
+
+Missense
+
+Fig. 6 Metastatic phenotypes are associated with aneuploidy and not mutant p53 expression. a Quantiﬁcation of the relative migration (mean cells per
+ﬁeld from three technical replicates normalized to the number of cells seeded, arbitrary units) of MCF10A (left) and CAL-51 (right) cells that crossed the
+membrane in transwell assays. Each dot represents the mean relative migration for each cell line (MCF10A n = 2 WT, 4 Null, 4 R175H, and 5 R273H cell
+lines; CAL-51 n = 4 WT, 5 Null, 4 R175H, and 8 R273H cell lines) from at least two independent experiments. Bars represent the median value per TP53
+genotypes. Dots are colored by aneuploidy score, and those colored in gray were not proﬁled in cytogenomic microarray experiments. b Quantiﬁcation of
+relative migration, as described above, in MCF10A (left) and CAL-51 (right) cells containing nontargeting (NT, black) or p53 shRNAs (red). Mean ± s.d.
+from n = 3 independent experiments (except MN-39, M2-03, and C1-09 cell lines, n = 2). Western blots showing knockdown of p53 are shown in
+Supplementary Fig. 7b, c. c Diagram demonstrating workﬂow for metastatic datasets generated in the MetMap project55. d Box and whisker plots of the
+metastatic potential in cells with wild-type (WT), missense or truncating mutations in TP53 in the MetMap500 (left; WT n = 129, Truncating N = 101,
+Missense N = 195), MetMap125 (middle; WT n = 33, Truncating N = 20, Missense N = 50) and MetMap Basal-like (right; WT n = 1, Truncating N = 7,
+Missense N = 10) datasets. Points represent mean metastatic potential across all sites. Boxplot elements: center line, median; box limits, upper and lower
+quartiles; whiskers, 1.5× interquartile range. Signiﬁcance tested using a one-way analysis of variance (ANOVA) with Dunnett’s multiple comparisons test,
+d two-way ANOVA with Sidak’s multiple comparisons test, and c one-way ANOVA with Tukey’s multiple comparison test. Source data are provided in the
+Source Data File.
+
+only cancer types that displayed a signiﬁcant difference between
+missense and truncating TP53 mutations, with tumors containing
+truncating TP53 mutations having increased FGA. Not all mis-
+sense mutations in TP53 equally disrupt p53 function, so we
+assessed aneuploidy in the top ﬁve most frequent missense and
+truncating amino acid changes across the above tumor types with
+the highest median FGA (UCS, UCEC, OV, BRCA, and LUSC).
+Tumors with WT p53 had a signiﬁcantly lower FGA compared to
+truncating or missense mutations (P < 0.0001); however, there
+was no statistical difference between high-frequency missense and
+truncating p53 alterations (Fig. 7b). This data suggest that loss of
+p53 function leads to increased aneuploidy, irrespective of the
+type of point mutation.
+
+To determine if individuals with tumors containing missense
+versus truncating mutations experienced differential survival, we
+compared the progression-free survival in individuals with BRCA,
+OV, UCEC, UCS, and LUSC. Individuals with tumors containing
+either missense or truncating mutations in TP53 displayed
+signiﬁcantly worse survival when compared to those with WT
+p53 (P < 0.0001). There was no statistical difference in survival
+between individuals with tumors containing either missense or
+truncating mutations in p53 (Fig. 7c). To assess the relationship
+of
+from TP53
+mutation, we stratiﬁed individuals with tumors containing WT,
+missense, or truncating mutations in TP53 into either aneuploid-
+high (upper quantile FGA) or aneuploid-low (lower quantile
+
+tumor aneuploidy with survival,
+
+independent
+
+individuals with aneuploid-high tumors,
+FGA) groups. All
+regardless of p53 genotype, showed signiﬁcantly worse survival
+outcomes compared to aneuploid-low tumors (WT P = 0.008,
+truncating P = 0.004, missense P < 0.0001)
+In
+summary, these data indicate that progression-free survival is
+not directly associated with TP53 mutation type (truncating vs.
+missense). Instead, an individual’s outcome is associated with the
+loss of p53 function and increased genomic alterations in their
+tumor(s).
+
+(Fig. 7d-f).
+
+Discussion
+The concept of mutant p53 GOF was introduced over 30 years
+ago4,63. Since then, many publications have reported context-
+speciﬁc and conﬂicting evidence for oncogenic phenotypes arising
+from overexpression of the mutant protein. Evidence supporting
+the mutant p53 GOF hypothesis includes the accumulation of
+speciﬁc high-frequency hotspot p53 mutants, suggesting that
+GOF activities confer a ﬁtness advantage. However, many hotspot
+mutations, including R273 and R175, contain methylated CpG
+dinucleotides, rendering them more likely to mutate by sponta-
+neous deamination64. Recent ﬁndings conﬁrmed that natural
+mutational processes combined with LOF and dominant-negative
+activities select for the spectrum of TP53 mutations65; addition-
+ally, this work found that the growth of an extensive panel of cell
+lines was not dependent on mutant p53 protein expression. These
+ﬁndings were corroborated by a study of mutant p53 isogenic
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+9
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+e
+
+1.00
+
+l
+a
+v
+i
+v
+r
+u
+S
+
+t
+n
+e
+c
+r
+e
+P
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+f
+
+l
+a
+v
+i
+v
+r
+u
+S
+
+t
+n
+e
+c
+r
+e
+P
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+ARTICLE
+
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+****
+****
+
+****
+**
+
+****
+
+*** *
+
+***
+**
+
+**
+**
+
+***
+***
+
+****
+***
+
+****
+****
+
+****
+****
+
+TP53 Genotype
+
+WT
+
+Truncating
+
+Missense
+
+***
+***
+
+****
+****
+
+****
+****
+
+*
+**
+
+***
+***
+
+a
+
+d
+e
+r
+e
+t
+l
+
+A
+e
+m
+o
+n
+e
+G
+n
+o
+i
+t
+c
+a
+r
+F
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+TCGA 
+Cohort:
+
+S
+C
+U
+
+V
+O
+
+C
+S
+U
+L
+
+C
+E
+C
+U
+
+A
+C
+R
+B
+
+A
+C
+S
+E
+
+M
+C
+K
+S
+
+A
+C
+L
+B
+
+C
+H
+L
+
+I
+
+D
+A
+U
+L
+
+D
+A
+T
+S
+
+D
+A
+E
+R
+
+D
+A
+O
+C
+
+C
+S
+N
+H
+
+M
+B
+G
+
+D
+A
+R
+P
+
+D
+A
+A
+P
+
+G
+G
+L
+
+TP53 Genotype
+
+WT
+
+Truncating
+
+****
+
+Missense
+****
+
+c
+
+l
+a
+v
+i
+v
+r
+u
+S
+
+t
+n
+e
+c
+r
+e
+P
+
+d
+
+b
+
+d
+e
+r
+e
+t
+l
+
+A
+e
+m
+o
+n
+e
+G
+n
+o
+i
+t
+c
+a
+r
+F
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+C
+R
+A
+S
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+0
+
+WT 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ + ++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++
++
++
++++
++
+
++
+
+TP53 Genotype
+WT
+Truncating
+
+Missense
+
++
+
++
+
++ +
+
+Truncating vs Missense: p = ns
+Truncating/Missense vs WT: p < 0.0001
+
++
+
+Truncating 
+++++++++++
+
+++++++++++++++++++++++++++
+
++++++++
+
+++++++++++++++++++++++++++++++++++
+
+++
++++
+
+p = 0.0041
+
+FGA Quartile
+Low (Q1)
++
+High (Q4)
+
++
+
++ ++ ++++++++++++++++ +++ + +
+
+++
+
++++++++++ +++++ +++
+
+++ ++
+
++ + + +
+
+2000
+
+4000
+Progression-free Survival (days)
+
+6000
+
+8000
+
+0
+
+1000
+
+4000
+Progression-free Survival (days)
+
+2000
+
+3000
+
+5000
+
+T
+W
+
+*
+3
+1
+2
+R
+
+*
+6
+9
+1
+R
+
+e
+c
+i
+l
+
+p
+s
+_
+5
+2
+2
+X
+
+e
+c
+i
+l
+
+p
+s
+_
+7
+8
+1
+X
+
+e
+c
+i
+l
+
+p
+s
+_
+1
+3
+3
+X
+
+H
+3
+7
+2
+R
+
+H
+5
+7
+1
+R
+
+Q
+8
+4
+2
+R
+
+W
+8
+4
+2
+R
+
+C
+0
+2
+2
+Y
+
+p53 Protein Change
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+l
+a
+v
+i
+v
+r
+u
+S
+
+t
+n
+e
+c
+r
+e
+P
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ++++ ++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++
+
+++++ ++
+
++
+
+FGA Quartile
+Low (Q1)
++
+High (Q4)
+
++
+
++++
+
+p = 0.0084
+
+Missense
+++++++++++++++++++++
++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ +++++++
+
++++++++++
+++
+++++++++++++++++
+
++++++++++++++++++++++
+
+p < 0.0001
+
+FGA Quartile
+Low (Q1)
++
+High (Q4)
+
++
+
++++
+
+++++ +
+
++
+
++
+
+++++++++++ ++++++
+
++ +
+
+0
+
+1000
+
+2000
+
+3000
+
+4000
+
+5000
+
+0
+
+Progression-free Survival (days)
+
+1000
+Progression-free Survival (days)
+
+4000
+
+3000
+
+2000
+
+5000
+
+Fig. 7 Aneuploidy and loss of p53 function associate with unfavorable prognosis. a, b Box and whisker plots of the fraction of the genome altered (FGA)
+in tumors with wild-type (WT), missense or truncating mutations in TP53 compared a across cancer types (source: The Cancer Genome Atlas [TCGA]), or
+b in BRCA, OV, UCEC, UCS, and LUSC cancer types across the ﬁve most frequent truncating or missense mutations. Cohort acronyms, values for n, and
+exact P values can be found in Supplementary Table 3 or the Source Data ﬁle. Pairwise two-sided Wilcoxon test with Benjamini–Hochberg P-value
+correction, *P < 0.05, **P < 0.01, ***P < 0.001, ****P < 0.0001. Boxplot elements: center line, median; box limits, upper and lower quartiles; whiskers, 1.5×
+interquartile range. c–f Kaplan–Meier curves showing progression-free survival of individuals with BRCA, OV, UCEC, UCS, and LUSC separated by TP53
+genotype (c) or further divided into aneuploid-low (blue, lower quantile FGA, Q1) or aneuploid-high (red, upper quantile FGA, Q4) groups in individuals
+with tumors containing WT (d), truncating (e), or missense (f) mutant TP53. Log-rank tests. Source data are provided in the Source Data File.
+
+models of myeloid malignancies showing no evidence of GOF,
+but instead LOF and dominant-negative activities over WT p53
+protein27. Two concurrent studies of mouse models harboring the
+knockin TP53 mutations equivalent
+to R175H and R273H
+showed persuasive but conﬂicting evidence for GOF in vivo, with
+an increased incidence of carcinomas in R175H/−19 but not
+R175H/R175H6 mice. The latter inconsistency was attributed to
+differing murine genetic backgrounds. Of note, tumors from
+R175H/− mice displaying altered tumor spectra also showed
+enlarged nuclei and polyploid cells in hematoxylin and eosin-
+stained tumor sections19, consistent with the notion that aneu-
+ploidy could underlie differences in tumor development and GOF
+activities reported using these models.
+
+The increased aneuploidy observed in our mutant p53 cell lines
+is consistent with previous studies37,66. There is a strong corre-
+lation between TP53 mutation and aneuploidy in human
+tumors20,21, and analyses of medulloblastoma tumors and acute
+myeloid leukemias from Li-Fraumeni Syndrome (LFS) indivi-
+duals with
+increased
+chromothripsis67. Fibroblasts from LFS individuals accumulate
+aneuploid cells68,69, as do normal human and murine ﬁbroblasts
+with exogenous expression of TP53 missense mutations9,70,71.
+Further, a study of LFS individuals revealed that those who
+
+somatic TP53 mutations
+
+showed
+
+developed cancer had a striking enrichment in germline copy
+number variation72, suggesting that aneuploidy following p53
+LOF leads to tumorigenesis. The latter is supported by the wide
+range of tumorigenic phenotypes caused by aneuploidy23,25,26,
+many of which have been associated with mutant p53 GOF
+activities, including, but not limited to: altered proliferation49,
+altered metabolism73,74, transcriptional reprogramming and drug
+resistance75, immune evasion22, migration52, and invasion and
+metastasis56. Given the strong propensity for cells containing
+mutant p53 to become aneuploid and the overlap of tumorigenic
+phenotypes related to both alterations, GOF phenotypes identi-
+ﬁed in mutant p53 models must be carefully validated relative to
+corresponding chromosomal changes.
+
+The underlying mechanisms behind the increased aneuploidy
+we observed in our engineered lines require further study,
+although many potential mechanisms, such as loss of cell cycle
+checkpoints, have been previously reported37. Our study was
+limited by the number of independent cell lines assayed and the
+technology available to evaluate aneuploidy. Finally, our work
+only examined two speciﬁc hotspot p53 missense mutations in
+two cell line models; thus, we cannot exclude the existence of
+select GOF activities occurring in cells containing other p53
+missense mutants or existing in different tissue-speciﬁc cellular
+
+10
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+ARTICLE
+
+contexts. In addition, further studies are needed to determine the
+effect of oncogenic mutations, not present in the model systems
+used in the current study, on potential mutant p53 GOF activities.
+In summary, our study demonstrates that the acquisition of
+aneuploidy can generate a variety of the previously ascribed
+mutant p53 GOF phenotypes. Further, our data showed the
+heterogeneity of genomic alterations that can occur following
+mutation of p53, consistent with the diverse and sometimes
+conﬂicting phenotypes observed in prior reports. While we can-
+not rule out the existence of p53 mutant-speciﬁc GOF effects in
+other models, future studies should carefully consider how the
+genomic changes that occur after the loss of WT p53 can con-
+found and contribute to GOF phenotypes. Acquisition of aneu-
+ploidy after the loss of WT p53 function provides a unifying
+mechanism that accounts for the wide array and context-speciﬁc
+nature of GOF phenotypes previously attributed to p53 mutant
+proteins.
+
+Methods
+Cell culture. The CAL-51, CAL-51 isogenic clonal cell lines, and 293FT cells were
+cultured in DMEM with 10% (v/v) FBS. The MCF10A cell line and isogenic clonal
+cell lines were cultured in DMEM:F12 with 5% horse serum, 100 ng/mL cholera
+toxin, 500 ng/mL hydrocortisone, 20 ng/mL human epidermal growth factor, and
+10 μg/mL insulin. All cell lines were maintained in the described media with 1%
+penicillin and streptomycin in a 37 °C incubator at 5% carbon dioxide. Cells were
+routinely tested to be negative for mycoplasma. DNA ﬁngerprinting analysis was
+performed on CAL-51 and several isogenic clones in March 2016. MCF10A and
+CAL-51 parental isogenic clonal cell lines were also validated against known kar-
+yotypes (compare Supplementary Fig. 2a and Fig. 2a).
+
+CRISPR/Cas-mediated genome editing. Genome editing using the CRISPR/
+Cas9 system was performed in close adherence to the Zhang lab’s protocol32. Guide
+RNAs (gRNAs) were designed in the Benchling web tool (https://
+www.benchling.com/); 20-nucleotide (nt) gRNAs were selected (3–5 per desired
+mutation site) with the highest target speciﬁcity score that cut within at least 15nt
+of the desired mutant base for screening. Complementary guide oligos were
+ordered with an initial 5’ guanine (if not already present) and BbsI overhangs for
+cloning into pSpCas9(BB)-2A-GFP (PX458) (Addgene #48138). Guide oligos were
+resuspended at 100 μM, phosphorylated, and annealed through incubation with T4
+PNK and ligation buffer. Cloning into PX458 was conducted by incubating the
+plasmid and diluted oligo duplexes with Tango buffer, DTT, ATP, FastDigest BbsI,
+and T7 ligase. The ligation products were subsequently treated with PlasmidSafe
+ATP-dependent DNase to digest residual linear DNA. Cloned plasmids were
+transformed into DH5α competent cells and selected on LB agar plates containing
+100 μg/mL ampicillin. Plasmid DNA was isolated from the resulting colonies using
+a QIAprep Spin Miniprep Kit (Qiagen), and sequence veriﬁed by Sanger
+sequencing.
+
+The following was performed to assess gRNA activity. Cloned plasmids were
+transfected into 293FT cells using Lipofectamine 3000; and, 72 h later, DNA was
+isolated from the transfected cells using QuickExtract DNA extraction solution
+(Epicentre) per manufacturer’s recommendations. Genomic DNA was ampliﬁed
+with primers designed to generate an asymmetric ~500 bp PCR product around the
+gRNA cut site (Supplementary Table 4) using Platinum Taq DNA Polymerase
+High Fidelity. PCR products were puriﬁed using a QIAQuick PCR Puriﬁcation Kit
+(Qiagen) and annealed by a gradual reduction in temperature from 95 °C, followed
+by SURVEYOR digestion using SURVEYOR nuclease S and enhancer S with
+supplemented magnesium chloride. SURVEYOR digestion products were run on a
+5% polyacrylamide TBE gel and visualized using SYBR Gold. gRNAs producing a
+prominent asymmetric digestion product were selected for further use (R175H &
+null (amino acid position 181): CACCGTATCTGAGCAGCGCTCATGG; null
+(amino acid position 196): CACCGTCCTCAGCATCTTATCCGAG; R273H:
+CACCGTGCGTGTTTGTGCCTGTCC). A negative control (no transfected
+plasmid) was included to rule out digestion products generated by endogenous
+single-nucleotide polymorphism (SNP) mismatches.
+
+Once a gRNA was selected for a speciﬁc mutant site, homology-directed repair
+(HDR) templates were designed using the Benchling web tool. HDR templates were
+designed to contain mutant bases corresponding to clinically observed hotspot
+mutations, along with a synonymous mutation in the protospacer adjacent motif
+(PAM) to prevent CRISPR/Cas9-mediated cleavage of the HDR-recombined alleles
+and ~75 bp of ﬂanking homologous sequence on each side. For the following HDR
+templates, nucleotides surrounded by brackets indicate the clinically observed
+missense mutation, and lower-case nucleotides depict synonymous mutations
+designed to disrupt the PAM site or reduce guide RNA complementarity.
+
+R175H:CACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTAC
+AAGCAGTCACAGCACATGACGGAGGTTGTGAGGC[A]CTGCCCaCACCA
+
+TGAGCGCTGCTCAGATAGCGATGGTGAGCAGCTGGGGCTGGAGAGACG
+ACAGGGCTGGTTGCC;
+
+R273H:TCCTTACTGCCTCTTGCTTCTCTTTTCCTATCCTGAGTAGTGGT
+
+AATCTACTGGGACGGAACAGCTTTGAGGTGC[A]TGTTTGcGCtTGT
+CCTGGGAGAGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGG
+GGAGCCTCACCACGA.
+
+When the engineering of a synonymous PAM mutant was not possible due to
+
+codon position, two additional synonymous mutations were engineered into the
+gRNA target region to reduce complementarity. HDR templates were ordered as
+Ultramer oligos (IDT).
+
+CRISPR/Cas9-mediated editing of cells was conducted by incubating 2.5 μg of
+cloned PX458 plasmid, 5 μL of P3000 reagent, 7.5 μL of Lipofectamine 3000, and if
+attempting knockin mutagenesis rather than frameshift knockout, an additional
+5 μL of 10 μM single-stranded HDR template in 250 μL of Opti-MEM. The
+resulting DNA-lipid complexes were added to one well of a subconﬂuent six-well
+plate, with the number of wells scaled as necessary. After 48 h, transfected cells
+were trypsinized, washed in PBS, resuspended in 4% (v/v) FBS in PBS, and stained
+with 0.5 μg/mL propidium iodide for live/dead discrimination. GFP-positive live
+cells were gated using lipofectamine-only negative control cells with and without
+propidium iodide along with transfected cells lacking propidium iodide.
+Fluorescence-activated cell sorting was performed by the Vanderbilt Flow
+Cytometry Shared Resource. GFP+/PI− cells were sorted into 96-well plates
+containing complete culture medium for isolation of single-cell clones.
+
+Clonal populations were expanded 21–28 d after sorting, and DNA was isolated
+
+using QuickExtract DNA extraction solution (Epicentre) to determine the TP53
+genotype. Genomic DNA was ampliﬁed with primers designed to generate an
+asymmetric 500 bp PCR product around the gRNA cut site using Platinum Taq
+DNA Polymerase High Fidelity. PCR products were puriﬁed using a QIAQuick
+PCR Puriﬁcation Kit (Qiagen) and screened using restriction enzyme cut sites
+present only in HDR-recombined sequences (BtsI for R175H, NlaIII for R273H).
+Cells that passed the restriction digest check were further veriﬁed by Sanger
+sequencing. When mixed sequencing traces were present due to heterozygous
+frameshift alleles, allele cloning was conducted by amplifying genomic DNA using
+primers described above with EcoRI or BamHI restriction site overhangs, followed
+by digestion and cloning into the pUC19 vector (New England BioLabs) for
+transformation. Once bacterial colonies were selected and expanded, DNA
+isolation was performed using a QIAprep Spin Miniprep Kit (Qiagen), and
+individual clones were Sanger sequenced to identify single trace alleles. All clonal
+cell line genotypes were further validated through the analysis of variants from
+whole-exome sequencing and RNA sequencing (see details below).
+
+Xenograft tumor studies. Mice were housed and treated in accordance with NIH
+guidelines and protocols approved by the Institutional Animal Care and Use
+Committee at the Vanderbilt University Medical Center. Mice were maintained on
+a 12 h light-dark cycle at 20–26 °C and 30–70% humidity, and housed in ventilated
+cages with constant access to food and water. For cell line xenograft studies, female
+6-8 week-old athymic nude mice (The Jackson Laboratory, #002019) were anes-
+thetized using isoﬂurane and injected subcutaneously in the left and right ﬂank
+with 5 × 106 MCF10A or 2.5 × 106 CAL-51 cells suspended in 200 µL PBS. Mice
+were monitored weekly and palpable tumors measured with digital calipers every
+3 days until the experimental endpoint, at which time mice were euthanized by
+isoﬂurane overdose and cervical dislocation. Tumor volumes were calculated as
+width2 × length/2. Replicate mice injected with the same cell line were removed
+from the study when a single mouse had a tumor volume exceeding 1500 mm3.
+Tumors used for subsequent molecular analysis were ﬂash-frozen in liquid nitrogen
+and stored at −80 °C. All analyses were performed blinded to TP53 genotype or
+aneuploidy status.
+
+shRNA-mediated gene knockdown. TP53 (Mission TRCN0000003753 or
+TRCN0000342259) or nontargeting negative control (MISSION pLKO.1-puro
+Non-Mammalian shRNA Control, SCH002; Mission pLKO.5-puro TRC2 Non-
+Mammalian, SHC202) shRNAs were purchased from Sigma–Aldrich. Lentivirus
+was produced by co-transfection of shRNA-expressing viral vectors (10 µg) with
+packaging plasmids PMD2.G (2.5 µg, Addgene, 12259) and pxPAX2 (7.5 µg;
+Addgene, 12260) into 293FT cells. Viral supernatant was harvested 48 h after
+transfection and passed through a 0.45 µm syringe ﬁlter to clear cellular debris.
+Viral aliquots were stored at −80 °C prior to infection and limited to one freeze-
+thaw cycle before use. Target cells were infected with a 1:10 dilution of the virus in
+the presence of 10 µg/mL polybrene for 24 h. After fresh media were added, cells
+were grown for 48 h until antibiotic selection with puromycin (CAL-51, 0.625 µg/
+mL; MCF10A, 1 µg/mL). Knockdown was veriﬁed through immunoblotting and
+RNA sequencing.
+
+Immunoblotting. All cells were lysed in RIPA buffer (pH 7.4) buffer (150 mM
+NaCl, 50 mM Tris-HCl [pH 7.5], 0.1% SDS, 1.0% NP-40, 0.5% Deoxycholic Acid,
+5 mM EDTA) supplemented with 1 mM DTT, phosphatase inhibitors (50 mM
+NaF, 0.2 mM Na3VO4), and protease inhibitors (10 mg/mL CLAP, 200 mg/mL
+AEBSF). Protein concentration was determined (Modiﬁed Lowry Protein Assay
+Kit, ThermoFisher), and equal amounts of protein separated on SDS
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+11
+
+ 
+ 
+ 
+ 
+ 
+ 
+ARTICLE
+
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+polyacrylamide gels and transferred to PVDF membrane. Western blots were
+incubated with primary antibodies overnight at 4 °C. Membranes were washed and
+incubated in HRP-conjugated secondary antibodies (goat anti-Mouse or goat anti-
+Rabbit, Thermo Fischer Scientiﬁc, 31432 and 31462) for 1 h at room temperature.
+Membranes were again washed and developed using ECL kits and digitally imaged
+(Amersham Imager 600, GE Healthcare Life Sciences). Western blots were quan-
+tiﬁed relative to loading controls with Fiji76. Primary antibodies used include: p53
+DO-1 (1:1000, Santa Cruz, sc-126), GAPDH (1:1000, Merck Millipore, MAB374),
+actin (1:1000, Santa Cruz, sc-47778), vinculin (1:1000, Invitrogen, 700062), MDM2
+(1:200, Santa Cruz, sc-965), and p21 (1:200, Santa Cruz, sc-6246).
+
+RNA sequencing and geneset enrichment analysis. Cell lines were harvested by
+scraping, and pellets were frozen at −80 °C. RNA was extracted using ZYMO
+Quick-RNA MiniPrep Kits (Zymo Research) or with Aurum Total RNA Mini kit
+for p53 knockdown RNA-seq experiments according to the manufacturer’s
+instructions. RNA concentration and purity were measured on a NanoDrop
+spectrophotometer, and 2 μg RNA (A260/280 > 2) were sent for sequencing
+(VANTAGE core at Vanderbilt University Medical Center or Novogene Co. Ltd.,
+Beijing, China). Sequencing libraries were generated using Illumina TruSeq or
+NEBnext Ultra RNA Library Prep Kits following the manufacturer’s recommen-
+dations. Sample quality control to test for RNA integrity and contamination was
+performed using Agarose Gel electrophoresis and the Agilent 2100 Bioanalyzer
+System. Library preparations were sequenced by the Novaseq 6000 platform,
+generating unstranded 150 bp paired-end reads, and resulting in ~19–30 million
+reads per sample. Raw RNA-seq reads (FASTQ ﬁles) were trimmed to remove
+adapter sequences using Flexbar v3.4.077, and quality was evaluated using FastQC
+v0.11.778 and MultiQC v1.579. Reads were quantiﬁed against GENCODE v28
+transcripts using Salmon v0.12.080 correcting for sequence-speciﬁc bias and
+fragment-level GC bias. Transcript abundances were imported into R v3.6.1 and
+summarized to the gene level using tximport 1.12.381. DESeq2 v1.24.082 was used
+for differential gene expression and PCA analysis with independent hypothesis
+weighting IHW_1.12.083. Shrunken log-fold changes were generated using
+ashr_2.2-4784. Genes were classiﬁed as differentially expressed if they had a false
+discovery rate (FDR) adjusted p-value less than 0.1 and a Log2-fold change of ≥1 or
+≤−1. Geneset enrichment analysis (GSEA v4.0.3)85 was conducted with the
+MSigDB 7.0 genesets using GSEA Preranked in the default parameters. Genes were
+ranked according to the Wald statistic output from DESeq2.
+
+DNA content analysis using ﬂow cytometry. One million cells were prepared for
+cell cycle analysis by trypsinization and washing with PBS, followed by ﬁxation in
+70% ethanol. Cells were stained in a solution consisting of 0.1% (v/v) Triton X-100
+and 20 µg/mL propidium iodide. Samples were analyzed at the Vanderbilt Flow
+Cytometry Shared Resource on a 3-laser LSRSII. Single cells were selected by pulse
+processing and visualized using FlowJo (10.0.7) (Supplementary Fig. 11).
+
+DNA content analysis using metaphase spreads. Subconﬂuent cells (~75%) in a
+10 cm culture dish were treated for 1 h with 0.5 μg/mL KaryoMAX colcemid
+prewarmed at 37 °C. Media were removed and reserved, and cells were trypsinized
+and resuspended in the reserved media. After centrifugation (300 × g, 5 min, 4 °C),
+cells were gently resuspended with 0.2 mL media and combined with 5 mL of
+0.075 M potassium chloride dropwise while vortexing gently. Cells were incubated
+at 37 °C for 25 min, with gentle inversion every 5 min to keep cells in solution. Cells
+were then preﬁxed with 0.5 mL prechilled methanol:glacial acetic acid (3:1) ﬁxative
+solution dropwise while vortexing gently. Cells were centrifuged (300 × g, 5 min,
+4 °C) and gently resuspended with 5 mL ﬁxative solution. After storage at 4 °C, cells
+were dropped onto prechilled Superfrost Plus microscope slides and air-dried at a
+slant for a minimum of 1 h in the dark. Cells were then mounted with ProLong
+Gold Antifade Reagent with DAPI and coverslipped. Metaphase spreads were
+imaged (>15 individual cells per cell line) using ﬂuorescence microscopy with an
+oil-immersion ×100 objective, and individual chromosomes counted manually
+using Fiji.
+
+Cytogenomic microarray and copy number analysis. Whole-genome cytoge-
+nomic microarray and copy number analysis were performed at the VUMC
+Cytogenetics Laboratory using the CytoScan HD SNP microarray platform
+(Thermo Fisher). Brieﬂy, 250 ng of whole genomic DNA isolated from cultured cell
+lines was digested with NspI, ligated with NspI adapter primers, and ampliﬁed
+using Platinum Taq with a GeneAmp PCR System 9700. PCR products were
+puriﬁed, fragmented, labeled with biotin, and hybridized to the microarray chip.
+Chips were washed, stained, and scanned on an Affymetrix scanner. Raw CEL ﬁles
+were analyzed using the Rawcopy R package (http://rawcopy.org)86. Segmented log
+ratios and frequency plots were generated using the copy number R package
+(v_1.24.0)87. Differential chromosome regions were analyzed with CNApp88.
+Aneuploidy scores were generated relative to the WT parental clone and calculated
+as the sum of the absolute value of the segmented log ratios for each proﬁled cell
+line. Cell lines were classiﬁed by AS quantile as aneuploid-high (upper quantile,
+MCF10A AS > 198.5, lines M1-33, M1-19, M1-12, and M2-9; CAL-51 AS ≥ 128.3,
+lines CN-81, C2-56, C2-22, C2-42, C2-09, and C1-06) or aneuploid-low (lower
+
+quantile, MCF10A AS < 114.1, lines MW-04, MW-27, MN-37, and M2-13; CAL-51
+AS ≤ 43.7, lines CW-08, CW-23, CW-64, C1-18, C1-10, and C2-38).
+
+Whole-exome sequencing. Cell lines were harvested by scraping and pellets
+frozen at −80 °C. Genomic DNA was extracted using Qiagen DNeasy Blood and
+Tissue kit, according to the manufacturer’s instructions. DNA concentration and
+purity were measured on a NanoDrop spectrophotometer, and 500 ng were sub-
+mitted for sequencing at the Vanderbilt Technologies for Advanced Genomics
+(VANTAGE). Library preparation and capture were performed using the Twist
+Exome library prep and capture kit (Twist Bioscience). Sequencing was performed
+at 150 bp Paired-end on Illumina NovaSeq 6000, targeting an average of 20 M reads
+per sample for 50× coverage. Data analysis was performed using an NGSPERL
+based custom pipeline89. Demultiplexed raw sequencing ﬁles were trimmed with
+Cutadapt (2.10)90 and read quality was evaluated using FastQC before and after
+adapter trimming. All trimmed reads were aligned using BWA (0.7.17-r1188)91 to
+the human genome (v38). The mapped result was reﬁned by local realignment and
+base quality recalibration using GATK3, and all reads containing soft clip were
+discarded. Single-nucleotide variants were called using GATK492 with Variant
+Quality Score Recalibration (VQSR) mode. The SNVs with inbreeding coefﬁcient
+less than −0.2, a depth less than 10 in any sample, or genotype quality less than 20
+in any sample were discarded. SNVs with a minor allele frequency of less than 0.3
+in more than 90% of the samples were also discarded. Valid SNVs were annotated
+by ANNOVAR (20180416)93. All SNVs with minor allele frequencies larger than
+0.001 in any of ExAC, 1000 G, gnoMad, or TOPMed databases were treated as
+high-frequency SNVs in population and removed. Copy number variations were
+also called based on GATK4 germline best practice92. Mutation analysis was
+conducted using the R maftools package94.
+
+Drug sensitivity assays. For adherent viability assays, cells were seeded at 1500
+cells per well in quadruplicate in 96-well plates and treated with a six-point, three-
+fold dose-escalation alongside untreated controls for 72 h. AlamarBlue (Thermo-
+Fisher Scientiﬁc) was used according to manufacturer recommendations, and
+ﬂuorescence measured and analyzed with microplate data collection and analysis
+software Gen5 (Biotek). Viability and IC50 were analyzed in Prism (Graphpad,
+8.4.3) by performing a non-linear ﬁt to log-transformed normalized ﬂuorescence
+values.
+
+Doubling time analysis. For doubling time experiments, cells were seeded at 1500
+cells per well in quadruplicate into ﬁve 96-well plates. Every 24 h over 5 days, plates
+were ﬁxed with 100% methanol for 10 min and stored in PBS at 4 °C until imaging.
+Hoechst 33342 was added to cells (5 µg/µL), and nuclei were counted using the
+ImageXpress instrument in the Vanderbilt High Throughput Screening core.
+Nuclei were counted using MetaXpress Multi-Wavelength Cell Scoring Module
+V6.6.3.733 (Molecular Devices), and doubling time was calculated using the fol-
+lowing formula:
+
+Doubling time ¼
+
+duration * logð2Þ
+logðfinal concentrationÞ (cid:2) logðintial concentrationÞ
+
+Colony-formation assay. Cell lines were seeded onto 12-well plates (Corning)
+(MCF10A, 500; CAL-51, 1,000 cells per well) and incubated for seven days.
+Colonies were ﬁxed with 100% methanol for 10 min and stained with a 1:1 mixture
+of methanol and crystal violet aqueous solution (Electron Microscopy Sciences) at
+room temperature for 1 h. Cells were washed three times with dH2O before places
+inverted to dry. Images were taken using the Odyssey infrared imaging system (Li-
+COR) and colonies counted using CellProﬁler95.
+
+Metabolic staining. To measure mitochondrial membrane potential and mass,
+cells were stained with TMRE and MitoTracker Green (each at 0.2 µM), respec-
+tively. Cellular ROS was measured with DCFDA reagent (2.9 µg/mL). Mitochon-
+drial ROS was measured with MitoSOX Red Reagent (3.85 µg/mL). After
+incubating for 30 min at 37 °C, DCFDA and MitoTracker Green staining were
+visualized by ﬂow cytometry with the MACSQuant Analyzer 10 FITC channel,
+while TMRE and MitoSOX staining was visualized with the PE channel (Miltenyi
+Biotec). Data were analyzed using FlowJo version 10.5.3. For resazurin staining,
+cells were seeded at 5000 cells per well in quadruplicate in 96-well plates. After
+48 h, AlamarBlue was applied at a 1× concentration, and cells were incubated for
+6 h. Fluorescence was analyzed with microplate data collection and analysis soft-
+ware Gen5 (Biotek). Cells were then ﬁxed and counted as described for doubling
+time assay.
+
+Transwell migration assay. MCF10A (1.5 × 105) or CAL-51 (2 × 105) cells were
+plated in triplicate onto transwells with 8 µm pore polycarbonate membrane inserts
+(Corning) with serum-free medium. Complete medium was used as a chemoat-
+tractant in the lower chamber. After 18 h, cells were ﬁxed with 100% methanol for
+10 min and stained with a 1:1 mix of crystal violet in 100% methanol. Nonmigrated
+cells on the upper side of the insert were removed with a cotton swab. In parallel,
+cells were separately plated onto 24-well plates without transwell inserts to
+
+12
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+ 
+ 
+ 
+ 
+ 
+ 
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+ARTICLE
+
+determine the total number of attached cells by ﬁxing, imaging, and counting
+Hoechst 33342 stained nuclei as described for resazurin metabolic assay. The
+relative migration was calculated as the number of migrated cells normalized to the
+total number of cells. For each experiment, the number of cells from each image
+(CAL-51, crystal violet stained ×4 magniﬁcation; MCF10A, Hoechst stained, ×20
+magniﬁcation) was counted using CellProﬁler95.
+
+Cancer cell line aneuploidy analysis. Cancer cell line encyclopedia96 (CCLE) and
+TP53 alteration data were acquired from Memorial Sloan Kettering Cancer Center
+cBioPortal (http://www.cbioportal.org)97,98. MCF10A SNP6 copy number data
+were acquired from https://www.synapse.org/#!Synapse:syn2346643/wiki/6225599.
+The FGA by aneuploidy was calculated as the length of Log2 ratio segments > |0.2|,
+divided by the length of all segments measured. MCF10A and CAL-51 copy
+number heatmaps were visualized using the Integrative Genomics Viewer (IGV
+2.3.97)100.
+
+Analysis of cancer cell line metastasis. Metastasis map (MetMap)55 data were
+acquired from https://depmap.org/metmap/data/index.html. CCLE annotation and
+TP53 mutation data (21Q1) were downloaded from the depmap portal (https://
+depmap.org/portal/download/). WT TP53 samples were deﬁned as cell lines that
+had silent mutations or no mutation in TP53. Missense cell lines were deﬁned as
+those that contained a single TP53 missense mutation. Cell lines with truncating
+mutations were deﬁned as those containing nonsense, frameshift, or splice-site
+mutations in TP53.
+
+TCGA aneuploidy and clinical analysis. TCGA MC3 mutation data
+(mc3.v0.2.8.CONTROLLED.maf.gz)101 were used to determine the TP53 geno-
+type and was downloaded from the NCI Genomic Data Commons. WT TP53
+samples were deﬁned as individuals that had DNA sequencing data but no
+mutation calls, silent or noncoding mutations. Samples with multiple alterations
+or in-frame mutations in TP53 were removed from the analysis. Missense tumors
+were deﬁned as those that contained a single TP53 missense mutation. Tumors
+with truncating mutations were deﬁned as those containing nonsense, frameshift,
+stop-gain, or splice-site mutations. The FGA by aneuploidy for TCGA samples
+was acquired from cBioPortal (http://www.cbioportal.org). Progression-free
+survival data were obtained from the TCGA Pan-Cancer Clinical Data
+Resource102. TCGA cohorts with low frequency (<10%) or fewer than 20 indi-
+viduals with TP53 missense mutations were excluded. Survival curves were
+constructed with the R survival package103 using the Kaplan–Meier method, and
+the difference between groups was assessed by the Log-rank test. Individuals with
+multiple tumors were excluded from the analysis. Survival was compared by TP53
+genotype or between individuals with aneuploid-low (lower quantile FGA) and
+aneuploid-high (upper quantile FGA) tumors with either WT, missense, or
+truncating TP53 mutations.
+
+Statistical analysis and reproducibility. Statistical analyses and visualization were
+conducted using R (version 3.6.1 or 4.0.0) or Prism (version 8.4.3). All statistical
+tests were two-sided and statistical details, including measures of centrality, dis-
+persion, and sample size, are indicated in the ﬁgures, ﬁgure legends and source
+data. Deﬁnitions of statistical signiﬁcance are deﬁned in the ﬁgure legends and
+results are shown in ﬁgures if statistical signiﬁcance was determined. Analysis
+between multiple groups was performed using one-way analysis of variance
+(ANOVA), two-way ANOVA, or through a mixed-effects model, each with mul-
+tiplicity adjusted P-values. Statistical comparison between two groups was per-
+formed using Student’s t-tests or pairwise Wilcoxon test with Benjamini–Hochberg
+p-value correction. Correlation was analyzed using the Pearson method and
+visualized with a simple linear regression with 95% conﬁdence bands. Survival
+curves were constructed using the Kaplan–Meier method, and the Log-rank test
+assessed the difference between groups.
+
+Reporting summary. Further information on research design is available in the Nature
+Research Reporting Summary linked to this article.
+
+Data availability
+The cytogenomic and processed sequencing data that support the ﬁndings of this study
+are available at https://data.mendeley.com/datasets/vr8fcbczz5/2 [https://doi.org/
+10.17632/vr8fcbczz5.2]. The raw sequencing data that support the ﬁndings of this study
+have been deposited to the Sequence Read Archive under the BioProject accession
+number PRJNA669391. All other data supporting the ﬁndings of this study are available
+within the article, its supplementary information ﬁles and the source data provided with
+this paper. Publicly available data used in this manuscript were obtained from Public
+MC3 TCGA MAF, https://gdc.cancer.gov/about-data/publications/mc3-2017; TCGA
+Survival Data, https://gdc.cancer.gov/about-data/publications/pancanatlas; CCLE,
+https://portals.broadinstitute.org/ccle and https://depmap.org/portal/download/;
+MCF10A copy number data, https://www.synapse.org/ -!Synapse:syn2346643/wiki/62255
+and MetMap data, https://depmap.org/metmap/data/index.html. Source data are
+provided with this paper.
+
+Code availability
+The code used in this study is available from the corresponding author upon reasonable
+request and at https://github.com/shengqh/TP53_isogenics_exomeseq_3772_hg38.
+
+Received: 2 October 2020; Accepted: 3 August 2021;
+
+References
+1. Kastenhuber, E. R. & Lowe, S. W. Putting p53 in context. Cell 170, 1062–1078
+
+(2017).
+
+2. Cho, Y., Gorina, S., Jeffrey, P. D. & Pavletich, N. P. Crystal structure of a p53
+tumor suppressor-DNA complex: understanding tumorigenic mutations.
+Science 265, 346–355 (1994).
+
+3. Kern, S. E. et al. Oncogenic forms of p53 inhibit p53-regulated gene
+
+expression. Science 256, 827–830 (1992).
+
+4. Dittmer, D. et al. Gain of function mutations in p53. Nat. Genet. 4, 42–46
+
+(1993).
+
+5. Muller, P. A. J. & Vousden, K. H. Mutant p53 in cancer: new functions and
+
+6.
+
+therapeutic opportunities. Cancer Cell 25, 304–317 (2014).
+Lang, G. A. et al. Gain of function of a p53 hot spot mutation in a mouse
+model of Li-Fraumeni syndrome. Cell 119, 861–872 (2004).
+
+7. Kalo, E. et al. Mutant p53R273H attenuates the expression of phase 2
+
+detoxifying enzymes and promotes the survival of cells with high levels of
+reactive oxygen species. J. Cell Sci. 125, 5578–5586 (2012).
+Liu, K., Ling, S. & Lin, W.-C. TopBP1 mediates mutant p53 gain of function
+through NF-Y and p63/p73. Mol. Cell. Biol. 31, 4464–4481 (2011).
+
+8.
+
+9. Gualberto, A., Aldape, K., Kozakiewicz, K. & Tlsty, T. D. An oncogenic form
+of p53 confers a dominant, gain-of-function phenotype that disrupts spindle
+checkpoint control. Genetics 95, 5166–5171 (1998).
+
+10. Noll, J. E. et al. Mutant p53 drives multinucleation and invasion through a
+process that is suppressed by ANKRD11. Oncogene 31, 2836–2848 (2012).
+
+11. Agapova, L. S. et al. Chromosome changes caused by alterations of p53
+
+expression. Mutat. Res. 354, 129–138 (1996).
+
+12. Freed-Pastor, W. A. et al. Mutant p53 disrupts mammary tissue architecture
+
+via the mevalonate pathway. Cell 148, 244–258 (2012).
+
+13. Eriksson, M. et al. Effect of mutant p53 proteins on glycolysis and
+mitochondrial metabolism. Mol. Cell. Biol. 37, e00328–17 (2017).
+
+14. Zhang, C. et al. Tumour-associated mutant p53 drives the Warburg effect.
+
+Nat. Commun. 4, 2935 (2013).
+
+15. Muller, P. A. J. et al. Mutant p53 drives invasion by promoting integrin
+
+recycling. Cell 139, 1327–1341 (2009).
+
+16. Yeudall, W. A. et al. Gain-of-function mutant p53 upregulates CXC
+
+chemokines and enhances cell migration. Carcinogenesis 33, 442–451 (2012).
+
+17. Adorno, M. et al. A mutant-p53/Smad complex opposes p63 to empower
+
+TGFβ-induced metastasis. Cell 137, 87–98 (2009).
+
+18. Sun, S. et al. Hotspot mutant p53-R273H inhibits KLF6 expression to promote
+
+cell migration and tumor metastasis. Cell Death Dis. 11, 1–9 (2020).
+19. Olive, K. P. et al. Mutant p53 gain of function in two mouse models of Li-
+
+Fraumeni syndrome. Cell 119, 847–860 (2004).
+
+20. Taylor, A. M. et al. Genomic and functional approaches to understanding
+
+cancer aneuploidy. Cancer Cell 33, 676–689 (2018).
+
+21. Ciriello, G. et al. Emerging landscape of oncogenic signatures across human
+
+cancers. Nat. Genet. 45, 1127–1133 (2013).
+
+22. Davoli, T., Uno, H., Wooten, E. C. & Elledge, S. J. Tumor aneuploidy
+
+correlates with markers of immune evasion and with reduced response to
+immunotherapy. Science 355, eaaf8399 (2017).
+
+23. Chunduri, N. K. & Storchová, Z. The diverse consequences of aneuploidy. Nat.
+
+Cell Biol. 21, 54–62 (2019).
+
+24. Orr, B., Godek, K. M. & Compton, D. Aneuploidy. Curr. Biol. 25, R538–R542
+
+(2015).
+
+25. Ben-David, U. & Amon, A. Context is everything: aneuploidy in cancer. Nat.
+
+Rev. Genet. 21, 44–62 (2020).
+
+26. Zhu, J., Tsai, H. J., Gordon, M. R. & Li, R. Cellular stress associated with
+
+aneuploidy. Dev. Cell 44, 420–431 (2018).
+
+27. Boettcher, S. et al. A dominant-negative effect drives selection of TP53
+
+missense mutations in myeloid malignancies. Science 365, 599–604 (2019).
+
+28. Soule, H. D. et al. Isolation and characterization of a spontaneously
+
+immortalized human breast epithelial cell line, MCF-10. Cancer Res. 50,
+6075–6086 (1990).
+
+29. Gioanni, J. et al. Establishment and characterisation of a new tumorigenic cell
+line with a normal karyotype derived from a human breast adenocarcinoma.
+Br. J. Cancer 62, 8–13 (1990).
+
+30. Neve, R. M. et al. A collection of breast cancer cell lines for the study of
+functionally distinct cancer subtypes. Cancer Cell 10, 515–527 (2006).
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+13
+
+ 
+ 
+ 
+ 
+ 
+ 
+ARTICLE
+
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+31. Lehmann, B. D. et al. Identiﬁcation of human triple-negative breast cancer
+subtypes and preclinical models for selection of targeted therapies. J. Clin.
+Invest. 121, 2750–2767 (2011).
+
+32. Ran, F. A. et al. Genome engineering using the CRISPR-Cas9 system. Nat.
+
+Protoc. 8, 2281–2308 (2013).
+
+33. Fischer, M. Census and evaluation of p53 target genes. Oncogene 36,
+
+3943–3956 (2017).
+
+34. Terzian, T. et al. The inherent instability of mutant p53 is alleviated by Mdm2
+
+or p16 INK4a loss. Genes Dev. 22, 1337–1344 (2008).
+
+35. Vassilev, L. T. et al. In vivo activation of the p53 pathway by small-molecule
+
+antagonists of MDM2. Science 303, 844–848 (2004).
+
+36. Humpton, T. J., Hock, A. K., Maddocks, O. D. K. & Vousden, K. H. p53-
+mediated adaptation to serine starvation is retained by a common tumour-
+derived mutant. Cancer Metab. 6, 18 (2018).
+
+37. Hanel, W. & Moll, U. M. Links between mutant p53 and genomic instability. J.
+
+Cell. Biochem. 113, 433–439 (2012).
+
+64. Rideout, W. M., Coetzee, G. A., Olumi, A. F. & Jones, P. A. 5-Methylcytosine
+as an endogenous mutagen in the human LDL receptor and p53 genes. Science
+249, 1288–1290 (1990).
+
+65. Giacomelli, A. O. et al. Mutational processes shape the landscape of TP53
+
+mutations in human cancer. Nat. Genet. 50, 1381–1387 (2018).
+
+66. Duensing, A. & Duensing, S. Guilt by association? p53 and the development
+of aneuploidy in cancer. Biochem. Biophys. Res. Commun. 331, 694–700
+(2005).
+
+67. Rausch, T. et al. Genome sequencing of pediatric medulloblastoma links
+catastrophic DNA rearrangements with TP53 mutations. Cell 148, 59–71
+(2012).
+
+68. Bischoff, F. Z. et al. Spontaneous abnormalities in normal ﬁbroblasts from
+
+patients with Li-Fraumeni cancer syndrome: aneuploidy and immortalization.
+Cancer Res. 50, 7979–7984 (1990).
+
+69. Boyle, J. M. et al. Chromosome instability is a predominant trait of ﬁbroblasts
+
+from Li-Fraumeni families. Br. J. Cancer 77, 2181–2192 (1998).
+
+38. Fujiwara, T. et al. Cytokinesis failure generating tetraploids promotes
+tumorigenesis in p53-null cells. Nature 437, 1043–1047 (2005).
+Invitae Corporation. Invitae Multi-Cancer Panel. https://www.invitae.com/en/
+physician/tests/01101/#info-panel-resources (2018).
+
+39.
+
+40. Scian, M. J. et al. Tumor-derived p53 mutants induce oncogenesis by
+
+transactivating growth-promoting genes. Oncogene 23, 4430–4443 (2004).
+
+70. Liu, P. K., Kraus, E., Wu, T. A., Strong, L. C. & Tainsky, M. A. Analysis of
+genomic instability in Li-Fraumeni ﬁbroblasts with germline p53 mutations.
+Oncogene 12, 2267–2278 (1996).
+
+71. Talos, F., Nemajerova, A., Flores, E. R., Petrenko, O. & Moll, U. M.
+
+p73 suppresses polyploidy and aneuploidy in the absence of functional p53.
+Mol. Cell 27, 647–659 (2007).
+
+41. Scian, M. J. et al. Modulation of gene expression by tumor-derived p53
+
+mutants. Cancer Res. 64, 7447–7454 (2004).
+
+42. Turrell, F. K. et al. Lung tumors with distinct p53 mutations respond similarly
+to p53 targeted therapy but exhibit genotype-speciﬁc statin sensitivity. Genes
+Dev. 31, 1339–1353 (2017).
+
+43. Sheltzer, J. M. A transcriptional and metabolic signature of primary
+
+aneuploidy is present in chromosomally unstable cancer cells and informs
+clinical prognosis. Cancer Res. 73, 6401–6412 (2013).
+
+44. Liu, J., Zhang, C., Hu, W. & Feng, Z. Tumor suppressor p53 and its mutants in
+
+cancer metabolism. Cancer Lett. 356, 197–203 (2015).
+
+45. Cordani, M. et al. Mutant p53 blocks SESN1/AMPK/PGC-1α/UCP2 axis
+
+increasing mitochondrial O2ˉ· production in cancer cells. Br. J. Cancer 119,
+994–1008 (2018).
+
+46. Aas, T. et al. Speciﬁc P53 mutations are associated with de novo resistance to
+
+doxorubicin in breast cancer patients. Nat. Med. 2, 811–814 (1996).
+47. Blandino, G., Levine, A. J. & Oren, M. Mutant p53 gain of function:
+
+differential effects of different p53 mutants on resistance of cultured cells to
+chemotherapy. Oncogene 18, 477–485 (1999).
+
+72. Shlien, A. et al. Excessive genomic DNA copy number variation in the Li-
+Fraumeni cancer predisposition syndrome. Proc. Natl Acad. Sci. USA 105,
+11264–11269 (2008).
+
+73. Hwang, S. et al. Serine-dependent sphingolipid synthesis is a metabolic
+
+liability of aneuploid cells. Cell Rep. 21, 3807–3818 (2017).
+
+74. Stingele, S. et al. Global analysis of genome, transcriptome and proteome
+reveals the response to aneuploidy in human cells. Mol. Syst. Biol. 8, 608
+(2012).
+
+75. Kim, C. et al. Chemoresistance evolution in triple-negative breast cancer
+
+delineated by single-cell sequencing. Cell 173, 879–893 (2018).
+
+76. Schindelin, J. et al. Fiji: an open-source platform for biological-image analysis.
+
+Nat. Methods 9, 676–682 (2012).
+
+77. Dodt, M., Roehr, J. T., Ahmed, R. & Dieterich, C. FLEXBAR-ﬂexible barcode
+and adapter processing for next-generation sequencing platforms. Biology
+(Basel). 1, 895–905 (2012).
+
+78. Andrews, S. FastQC: A Quality Control Tool for High Throughput Sequence
+Data. https://www.bioinformatics.babraham.ac.uk/projects/fastqc/ (2010).
+79. Ewels, P., Magnusson, M., Lundin, S. & Käller, M. MultiQC: summarize
+
+48. Li, R. et al. Mutant p53 protein expression interferes with p53-independent
+
+apoptotic pathways. Oncogene 16, 3269–3277 (1998).
+
+analysis results for multiple tools and samples in a single report.
+Bioinformatics 32, 3047–3048 (2016).
+
+49. Williams, B. R. et al. Aneuploidy affects proliferation and spontaneous
+immortalization in mammalian cells. Science 322, 703–709 (2008).
+50. Li, D. et al. Functional inactivation of endogenous MDM2 and CHIP by
+
+80. Patro, R., Duggal, G., Love, M. I., Irizarry, R. A. & Kingsford, C. Salmon
+provides fast and bias-aware quantiﬁcation of transcript expression. Nat.
+Methods 14, 417–419 (2017).
+
+HSP90 causes aberrant stabilization of mutant p53 in human cancer cells. Mol.
+Cancer Res. 9, 577–588 (2011).
+
+51. Li, D., Marchenko, N. D. & Moll, U. M. SAHA shows preferential cytotoxicity
+
+81. Soneson, C., Love, M. I. & Robinson, M. D. Differential analyses for RNA-seq:
+transcript-level estimates improve gene-level inferences. F1000Res. 4, 1521
+(2016).
+
+in mutant p53 cancer cells by destabilizing mutant p53 through inhibition
+of the HDAC6-Hsp90 chaperone axis. Cell Death Differ. 18, 1904–1913
+(2011).
+
+52. Vasudevan, A. et al. Single-chromosomal gains can function as metastasis
+suppressors and promoters in colon cancer. Dev. Cell 52, 413–428 (2020).
+53. Vasudevan, A. et al. Aneuploidy as a promoter and suppressor of malignant
+
+growth. Nat. Rev. Cancer 21, 89–103 (2021).
+
+54. Subramanian, M. et al. A mutant p53/let-7i-axis-regulated gene network
+drives cell migration, invasion and metastasis. Oncogene 34, 1094–1104
+(2015).
+Jin, X. et al. A metastasis map of human cancer cell lines. Nature 588, 331–336
+(2020).
+
+55.
+
+56. Bakhoum, S. F. et al. Chromosomal instability drives metastasis through a
+
+cytosolic DNA response. Nature 553, 467–472 (2018).
+
+57. Kandoth, C. et al. Mutational landscape and signiﬁcance across 12 major
+
+cancer types. Nature 502, 333–339 (2013).
+
+58. Smith, J. C. & Sheltzer, J. M. Systematic identiﬁcation of mutations and copy
+number alterations associated with cancer patient prognosis. elife 7, 1–26
+(2018).
+
+59. Olivier, M. et al. The clinical value of somatic TP53 gene mutations in 1,794
+
+patients with breast cancer. Clin. Cancer Res. 12, 1157–1167 (2006).
+
+60. Hieronymus, H. et al. Tumor copy number alteration burden is a pan-cancer
+prognostic factor associated with recurrence and death. elife 7, 1–18 (2018).
+61. Stopsack, K. H. et al. Aneuploidy drives lethal progression in prostate cancer.
+
+Proc. Natl Acad. Sci. USA 166, 11390–11395 (2019).
+
+62. Silwal-Pandit, L. et al. TP53 mutation spectrum in breast cancer is subtype
+speciﬁc and has distinct prognostic relevance. Clin. Cancer Res. 20, 3569–3580
+(2014).
+
+63. Halevy, O., Michalovitz, D. & Oren, M. Different tumor-derived p53 mutants
+
+exhibit distinct biological activities. Science 250, 113–116 (1990).
+
+82. Love, M. I., Huber, W. & Anders, S. Moderated estimation of fold change and
+dispersion for RNA-seq data with DESeq2. Genome Biol. 15, 550 (2014).
+Ignatiadis, N., Klaus, B., Zaugg, J. B. & Huber, W. Data-driven hypothesis
+weighting increases detection power in genome-scale multiple testing. Nat.
+Methods 13, 577–580 (2016).
+
+83.
+
+84. Stephens, M. False discovery rates: a new deal. Biostatistics 18, 275–294
+
+(2016).
+
+85. Subramanian, A. et al. Gene set enrichment analysis: a knowledge-based
+
+approach for interpreting genome-wide expression proﬁles. Proc. Natl Acad.
+Sci. USA 102, 15545–15550 (2005).
+
+86. Mayrhofer, M., Viklund, B. & Isaksson, A. Rawcopy: Improved copy number
+
+analysis with Affymetrix arrays. Sci. Rep. 6, 1–11 (2016).
+
+87. Nilsen, G. et al. Copynumber: Efﬁcient algorithms for single- and multi-track
+
+copy number segmentation. BMC Genomics 13, 591 (2012).
+
+88. Franch-Expósito, S. et al. CNApp, a tool for the quantiﬁcation of copy number
+alterations and integrative analysis revealing clinical implications. elife 9,
+e50267 (2020).
+
+89. Sheng, Q., Zhao, S., Guo, M. & Shyr, Y. NGSPERL: a semi-automated
+
+framework for large scale next generation sequencing data analysis. Int. J.
+Comput. Biol. Drug Des. 8, 203 (2015).
+
+90. Martin, M. Cutadapt removes adapter sequences from high-throughput
+
+sequencing reads. EMBnet. J. 17, 10 (2011).
+
+91. Li, H. & Durbin, R. Fast and accurate long-read alignment with
+Burrows–Wheeler transform. Bioinformatics 26, 589–595 (2010).
+
+92. McKenna, A. et al. The genome analysis toolkit: a MapReduce framework for
+analyzing next-generation DNA sequencing data. Genome Res. 20, 1297–1303
+(2010).
+
+93. Wang, K., Li, M. & Hakonarson, H. ANNOVAR: Functional annotation of
+
+genetic variants from high-throughput sequencing data. Nucleic Acids Res. 38,
+e164–e164 (2010).
+
+14
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+ 
+ 
+ 
+ 
+ 
+ 
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25359-z
+
+ARTICLE
+
+94. Mayakonda, A., Lin, D. C., Assenov, Y., Plass, C. & Koefﬂer, H. P. Maftools:
+Efﬁcient and comprehensive analysis of somatic variants in cancer. Genome
+Res. 28, 1747–1756 (2018).
+
+95. Carpenter, A. E. et al. CellProﬁler: Image analysis software for identifying and
+
+quantifying cell phenotypes. Genome Biol. 7, R100 (2006).
+
+96. Barretina, J. et al. The Cancer Cell Line Encyclopedia enables predictive
+modelling of anticancer drug sensitivity. Nature 483, 603–607 (2012).
+97. Gao, J. et al. Integrative analysis of complex cancer genomics and clinical
+
+proﬁles using the cBioPortal. Sci. Signal. 6, pl1–pl1 (2013).
+
+98. Cerami, E. et al. The cBio Cancer Genomics Portal: an open platform for
+
+exploring multidimensional cancer genomics data. Cancer Discov. 2, 401–404
+(2012).
+
+99. Daemen, A. et al. Modeling precision treatment of breast cancer. Genome Biol.
+
+14, R110 (2013).
+
+100. Robinson, J. T. et al. Integrative genomics viewer. Nat. Biotechnol. 29, 24–26
+
+(2011).
+
+101. Ellrott, K. et al. Scalable open science approach for mutation calling of tumor
+exomes using multiple genomic pipelines. Cell Syst. 6, 271–281 (2018).
+102. Liu, J. et al. An integrated TCGA pan-cancer clinical data resource to drive
+
+high-quality survival outcome analytics. Cell 173, 400–416 (2018).
+103. Therneau, T. M. A Package for Survival Analysis in R. https://cran.r-
+
+project.org/web/packages/survival/index.html (2020).
+
+Acknowledgements
+This research was supported by: NCI grants F31 CA247356 (L.N.R.-R.), F31 CA183531
+(T.M.S.), K12CA090625 (K.E.B.), CA068485 (J.A.P.), CA098131 (J.A.P.); DOD grant
+BC123219 (J.A.P.); and Susan G. Komen grant SAC110030 (J.A.P.). We thank K.
+Newsom, S.T. Lea, and members of the Pietenpol Lab for their contributions to this work.
+We thank Vanderbilt Technologies for Advanced Genomics (VANTAGE), Vanderbilt
+High-throughput Screening, Vanderbilt Flow Cytometry and their respective staff, all
+supported by the Vanderbilt-Ingram Cancer Center (P30 CA068485); and the VUMC
+Cytogenetics Laboratory, and members of the Vanderbilt SWERV writing core for the
+editing of this manuscript.
+
+Author contributions
+Conceptualization, L.N.R.-R., T.M.S., and J.A.P.; Methodology, L.N.R.-R., T.M.S., H.J.,
+and J.A.P.; Formal Analysis, L.N.R.-R., J.M.S., and Q.S.; Investigation, L.N.R.-R., H.J.,
+R.A.H., C.B.M., and B.D.L.; Resources, K.E.B., F.C.W., and J.A.P.; Writing—Original
+
+Draft, L.N.R.-R.; Writing—Review and Editing, L.N.R.-R., T.M.S., H.J., C.B.M., J.M.S.,
+Q.S., R.A.H., K.E.B., F.C.W., B.D.L., and J.A.P.; Visualization, L.N.R.-R. and J.M.S.;
+Supervision, B.D.L., K.E.B., and J.A.P.; Funding acquisition, L.N.R.-R., T.M.S., and J.A.P.
+
+Competing interests
+The authors declare no competing interests.
+
+Additional information
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41467-021-25359-z.
+
+Correspondence and requests for materials should be addressed to J.A.P.
+
+Peer review information Nature Communications thanks David Malkin, Zuzana
+Storchova and the other anonymous reviewer(s) for their contribution to the peer review
+of this work.
+
+Reprints and permission information is available at http://www.nature.com/reprints
+
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional afﬁliations.
+
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from
+the copyright holder. To view a copy of this license, visit http://creativecommons.org/
+licenses/by/4.0/.
+
+© The Author(s) 2021
+
+NATURE COMMUNICATIONS |  
+
+ (2021) 12:5184  | https://doi.org/10.1038/s41467-021-25359-z | www.nature.com/naturecommunications
+
+15
+
+ 
+ 
+ 
+ 
+ 
+ 
+

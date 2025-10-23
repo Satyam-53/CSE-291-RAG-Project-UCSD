@@ -1,0 +1,1495 @@
+ARTICLE
+
+Multiple TP53 p.R337H haplotypes
+and implications for tumor susceptibility
+
+Emilia M. Pinto,1,18,* Cintia Fridman,2 Bonald C. Figueiredo,3 Hector Salvador,4 Manuel R. Teixeira,5,6
+Carla Pinto,5 Manuela Pinheiro,5 Christian P. Kratz,7 Cinzia Lavarino,4 Edith A.M. F. Legal,3 Anh Le,8
+Gregory Kelly,8 Erika Koeppe,9 Elena M. Stoffel,9 Kelsey Breen,10 Stefanie Hahner,11 Britta Heinze,11
+Piti Techavichit,12 Amanda Krause,13 Tsutomu Ogata,14 Yasuko Fujisawa,14 Michael F. Walsh,10
+Huma Q. Rana,15 Kara N. Maxwell,8 Judy E. Garber,15 Carlos Rodriguez-Galindo,16,17 Raul C. Ribeiro,17
+and Gerard P. Zambetti1,*
+
+Summary
+
+The germline TP53 p.R337H mutation is reported as the most common germline TP53 variant. It exists at a remarkably high frequency in
+the population of southeast Brazil as founder mutation in two distinct haplotypes with the most frequent co-segregating with the
+p.E134* variant of the XAF1 tumor suppressor and an increased cancer risk. Founder mutations demonstrate linkage disequilibrium
+with neighboring genetic polymorphic markers that can be used to identify the founder variant in different geographic regions and
+diverse populations. We report here a shared haplotype among Brazilian, Portuguese, and Spanish families and the existence of three
+additional distinct TP53 p.R337H alleles. Mitochondrial DNA sequencing and Y-STR proﬁling of Brazilian carriers of the founder
+TP53 p.R337H allele reveal an excess of Native American haplogroups in maternal lineages and exclusively European haplogroups in
+paternal lineages, consistent with communities established through male European settlers with extensive intermarriage with Indige-
+nous women. The identiﬁcation of founder and independent TP53 p.R337H alleles underlines the importance for considering the haplo-
+type as a functional unit and the additive effects of constitutive polymorphisms and associated variants in modiﬁer genes that can in-
+ﬂuence the cancer phenotype.
+
+Introduction
+
+TP53 is a tumor suppressor that regulates the cell cycle, senes-
+cence, DNA repair, metabolism, and apoptosis in response to
+DNA damage and other cellular stresses. Given this central
+role in maintaining cellular homeostasis, it is not surprising
+that p53 is frequently selected against in human cancer by
+mutation, thus rendering this tumor suppressor inactive.
+Although most TP53 mutations are somatically acquired, in-
+dividuals who inherit an inactivating TP53 variant are highly
+susceptible to developing cancer at an early age with diverse
+tumor types and multiple malignancies.
+
+The TP53 p.R337H variant, the most common germline
+variant in The TP53 Database (formerly the International
+Agency for Research on Cancer; IARC), was ﬁrst reported
+in a pediatric patient of Portuguese ancestry with adreno-
+
+cortical cancer treated in France.1 Previous studies have es-
+tablished p.R337H as a hypomorphic, attenuated mutant
+allele that confers a highly variable cancer risk ranging
+from individuals who remain unaffected over their lifetime
+to those who meet the clinical criteria for classic Li-
+Fraumeni Syndrome (LFS).2–4 It is now recognized that
+is a founder mutation5
+the TP53 p.R337H variant
+frequently found throughout south and southeastern
+Brazil, including the major states of Sa˜o Paulo and Parana´
+(total population of 60 million) being detected in one in
+every 300 individuals.6,7 Carriers of the founder TP53
+p.R337H variant share an identical DNA sequence for the
+TP53 locus,8 with the majority retaining homology that
+extends to the telomeric region of chromosome 17 encom-
+passing a nonsense mutation (p.E134*) in XAF1 (X-linked
+inhibitor of apoptosis-associated factor 1).8 Previous
+
+1Department of Pathology, St. Jude Children’s Research Hospital, Memphis, TN, USA; 2Departamento de Medicina Legal, Bioe´tica, Medicina do Trabalho e
+Medicina Fı´sica e Reabilitac¸a˜o, Faculdade de Medicina da Universidade de Sa˜o Paulo, Sa˜o Paulo, Brazil; 3Instituto de Pesquisa Pele´ Pequeno Prı´ncipe, Curi-
+tiba, Parana´, Brazil; 4Pediatric Oncology Department, Sant Joan de Deu Hospital, Barcelona, Spain; 5Cancer Genetics Group, IPO Porto Research Center (CI-
+IPOP) / RISE@CI-IPOP (Health Research Network), Porto, Portugal; 6Department of Laboratory Genetics, Portuguese Oncology Institute of Porto (IPO
+Porto)/Porto Comprehensive Cancer Center and School of Medicine and Biomedical Sciences (ICBAS), University of Porto, Porto, Portugal; 7Pediatric He-
+matology and Oncology, Hannover Medical School, Hannover, Germany; 8Department of Medicine-Hematology-Oncology, Perelman School of Medicine,
+University of Pennsylvania, Philadelphia, PA, USA; 9Department of Internal Medicine, University of Michigan, Ann Arbor, MI, USA; 10Department of Pe-
+diatrics and Medicine, Memorial Sloan Kettering Cancer Center, New York, NY, USA; 11Department of Medicine I, Division of Endocrinology and Diabe-
+tology, University Hospital Wuerzburg, Wuerzburg, Germany; 12Integrative and Innovative Hematology/Oncology Research Unit, Department of Pediat-
+rics, Faculty of Medicine, Chulalongkorn University, Bangkok, Thailand; 13Division of Human Genetics, National Health Laboratory Service (NHLS) and
+Faculty of Health Sciences, School of Pathology, The University of the Witwatersrand, Johannesburg, South Africa; 14Department of Pediatrics, Hamamatsu
+University School of Medicine, Hamamatsu, Japan; 15Division of Cancer Genetics and Prevention, Dana-Farber Cancer Institute, Boston, MA, USA;
+16Department of Global Pediatric Medicine, St. Jude Children’s Research Hospital, Memphis, TN, USA; 17Department of Oncology, St. Jude Children’s
+Research Hospital, Memphis, TN, USA
+18Lead contact
+*Correspondence: emilia.pinto@stjude.org (E.M.P.), Gerard.zambetti@stjude.org (G.P.Z.)
+https://doi.org/10.1016/j.xhgg.2023.100244.
+(cid:1) 2023 The Author(s). This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+Human Genetics and Genomics Advances 5, 100244, January 11, 2024 1
+
+studies have established XAF1 as a proapoptotic tumor
+suppressor that functions within a positive autoregulatory
+loop with TP53.9 Consistent with these ﬁndings, individ-
+uals who inherit the compound mutant haplotype (TP53
+p.R337H; XAF1 p.E134*) are at an increased risk for cancer
+in general, sarcomas, and multiple tumors compared with
+those carriers with only the p.R337H mutation.8
+
+Haplotype analysis makes it possible to discriminate be-
+tween a founder mutation10 or a variant resulting from an
+independent mutational event. This is particularly impor-
+tant in the context of hypomorphic TP53 variants, as spe-
+ciﬁc polymorphisms can impact p53 expression and func-
+tion, and thus inﬂuence cancer risk.11,12 By integrating
+genotype, haplotype, and ancestry analyses we have as-
+sessed 38 TP53 p.R337H carriers from South America,
+North America, Europe, South Africa, and Asia to deter-
+mine the diversity of the TP53 p.R337H alleles.
+
+Materials and methods
+
+TP53 p.R337H carriers
+Genomic DNA samples from 38 unrelated individuals (33 patients
+with cancer, including 25 females) harboring the TP53 p.R337H
+variant from 11 different countries (Brazil, Portugal, Spain, France,
+Germany, England, United States, Japan, American Samoa, South
+Africa, and Argentina) were included in this study (Table 1). Per-
+sonal and family histories of cancer were collected by the genetic
+counselor or physician at each participating institution. Genetic
+testing was offered as a TP53 single gene analysis or as part of a
+multi-gene hereditary cancer panel (Ambry Genetics, OvaNext;
+Myriad, Myrisk Hereditary Cancer Test; Illumina, TruSight Hered-
+itary Cancer Panel) with additional genetic ﬁndings included in
+Table 1. The validation cohort included 86 unrelated (documented
+for at least three generations) and unaffected Brazilian males who
+carry the TP53 p.R337H allele. Appropriate institutional informed
+consent guidelines were followed for all participants or caregivers.
+This study was approved by local ethics committees and the insti-
+tutional review board at St. Jude Children’s Research Hospital.
+
+Haplotype determination of recurrent TP53 p.R337H
+alleles
+Genomic DNA was isolated and used to determine TP53 sequence
+and the XAF1 p.E134* variant status as previously reported.8 Addi-
+tionally, ﬂuorescent-labelled PCR products for 10 polymorphic mi-
+crosatellite markers located within (VNTRp53) or telomeric to the
+TP53 locus (Table S1) were genotyped by using the ABI 3500
+sequencer (ThermoFisher Scientiﬁc) and sizes assigned to the
+different fragments using GeneMapper v 6.0 (ThermoFisher Scien-
+tiﬁc).8,13 Haplotypes were determined by segregation analysis of
+genomic DNA from parents and descendants, loss of heterozygos-
+ity in tumor samples, or inferred.
+
+140,000 exome and whole genome sequences selected from hu-
+man disease-speciﬁc and population genetic studies); Global Bio-
+bank Engine (https://biobankengine.stanford.edu/; summary of
+genotype-phenotype correlations in large biobank cohorts repre-
+senting 750,000 individuals); ABraOM (abraom.ib.usp.br; archive
+of exome and whole genome sequences from >1,000 unrelated,
+elderly (>70 years old) individuals from Sa˜o Paulo, Brazil); the Pre-
+cision Oncology Knowledge Base (OncoKB; https://www.oncokb.
+org/; housed by Memorial Sloan Kettering Cancer Center repre-
+senting more than 7,000 genetic alterations in 134 cancer types);
+and the Catalog of Somatic Mutations in Cancer (COSMIC;
+https://cancer.sanger.ac.uk/cosmic).
+
+Mitochondrial DNA control region
+The nucleotide sequence of mitochondrial DNA (mtDNA) hypervari-
+able segment 1 (HVI; between nucleotide positions 16024 and
+16365), segment 2 (HV2; between nucleotide positions 73 and 340),
+and segment 3 (HV3, covering the position 438 to 574) of mtDNA
+control region was determined for 37 of 38 probands, and available
+family members (n ¼ 26). We have also determined the mtDNA
+haplotype for all Brazilian male individuals harboring the p.R337H
+allele (validation cohort) inherited from their mother (n ¼ 45).
+
+Ampliﬁcation of the mtDNA control region was performed by us-
+ing L15781 50-CCCTTTTACCATCATTGGACA-30 and H727 50-AGGG
+TGAACTCACTGGAACG-30 primers. Ampliﬁed segments were seq-
+uenced by using L15781, H16478, L109, H408, and H727 primers
+as previously described.14 Resulting sequences were compared with
+the Homo sapiens mitochondrion, complete genome (NCBI reference
+sequence: NC_012920.1), known as revised Cambridge Reference
+Sequence (rCRS). Haplogrep software (https://haplogrep.i-med.ac.
+at/), EMPOP (https://empop.online/), and visual inspection analyses
+were used to deﬁne the mtDNA haplogroups.
+
+Y chromosome markers
+A set of 23 Y-STRs (short tandem repeats) was analyzed for 13 un-
+related male p.R337H carriers and four ﬁrst-degree male relatives
+in the main cohort of 38 individuals using the PowerPlex Y23 Sys-
+tem (Promega) as described by the manufacturer. Y-STR haplotypes
+were also determined for Brazilian male individuals harboring the
+p.R337H allele (validation cohort) that was paternally inherited
+(n ¼ 41). Alleles were separated and detected on an ABI 3500
+sequencer (ThermoFisher Scientiﬁc) and sizes were assigned to
+the different fragments using GeneMapper v 6.0 (ThermoFisher
+Scientiﬁc). The alleles were named according to the number of
+repeated units, based on the sequenced allelic ladder following In-
+ternational Society for Forensic Genetics recommendations.15,16
+The classiﬁcation of Y chromosome haplogroup was done using
+the Haplogroup Predictor program FTDNA 2.0 (http://www.hprg.
+com/hapest5/index.html) and Y chromosome Haplotype Refer-
+ence Database (https://yhrd.org/search).
+
+Results
+
+Databases
+Information for the TP53 p.R337H variants was retrieved from The
+TP53 Database (https://tp53.isb-cgc.org/; resource for more than
+30,000 somatic and germline TP53 variants in human cancer);
+ClinVar (https://www.ncbi.nlm.nih.gov/clinvar/; public archive
+for human variants and associated clinical phenotypes); gnomAD
+(https://gnomad.broadinstitute.org/; repository for more than
+
+Haplotypes of TP53 p.R337H carriers
+TP53 sequence and chromosome 17 polymorphic marker
+analyses of genomic DNA from 38 probands (Table 1) who
+carry the TP53 p.R337H variant revealed multiple distinct
+haplotypes (Figure 1; Table S2). TP53 p.R337H alleles were
+distinguished by the common polymorphisms at codon 72
+(rs1042522) encoding proline (P72) or arginine (R72), and
+
+2 Human Genetics and Genomics Advances 5, 100244, January 11, 2024
+
+Table 1. Geographic origin and demographics of 38 TP53 p.R337H carriers
+
+Primary tumor (age/diagnosis)/
+Additional tumors
+
+Status
+
+Gendera
+
+Country
+
+(1) Brazil
+
+(2) Brazil
+
+(3) USA/Brazil
+
+(4) USA/Brazil
+
+(5) Brazil
+
+(6) Brazil
+
+(7) Argentina
+
+(8) Brazil
+
+(9) Argentina
+
+(10) Spain
+
+(11) Spain
+
+(12) Spain
+
+ACT (9)
+
+CPC (6)
+
+ACT (3)
+
+ACT (1)
+
+ACT (3)
+
+ACT (2)
+
+ACT (4)
+
+ACT (11)
+
+ACT (9)
+
+ACT (3)
+
+ACT (2)
+
+Unaffected A&W (19)
+
+(13) Portugal
+
+(14) Portugal/Brazil
+
+ACT (4)
+
+ACT (4)
+
+(15) Portugal
+
+(16) Portugal
+
+(17) Portugal
+
+(18) USA/Brazil
+
+(19) USA
+
+(20) USA
+
+(21) USA
+
+Liposarcoma (40)
+
+Gastric (62)
+
+Breast Her2þ (40)
+
+ACT (34)
+
+Breast (41)
+
+Breast (39), Thyroid (57),
+Leiomyosarcoma (62)
+
+Thyroid (27), Breast (36),
+Lung (59), Melanoma (60)
+
+H
+u
+m
+a
+n
+G
+e
+n
+e
+t
+i
+c
+s
+
+i
+
+a
+n
+d
+G
+e
+n
+o
+m
+c
+s
+A
+d
+v
+a
+n
+c
+e
+s
+
+5
+,
+
+1
+0
+0
+2
+4
+4
+,
+
+J
+a
+n
+u
+a
+r
+y
+
+1
+1
+,
+
+2
+0
+2
+4
+
+3
+
+Pediatric/Deceased
+
+Pediatric
+
+Pediatric
+
+Pediatric
+
+Pediatric
+
+Pediatric/Deceased
+
+Pediatric/Deceased
+
+Pediatric
+
+Pediatric
+
+Pediatric
+
+Pediatric
+
+Adult
+
+Pediatric
+
+Pediatric
+
+Adult
+
+Adult
+
+Adult
+
+Adult
+
+Adult
+
+Adult
+
+Adult/Deceased
+
+M
+
+M
+
+M
+
+F
+
+M
+
+F
+
+F
+
+F
+
+F
+
+M
+
+M
+
+M
+
+F
+
+F
+
+F
+
+M
+
+F
+
+M
+
+F
+
+F
+
+F
+
+R337H
+
+Pos (H)
+
+Pos (H)
+
+E134*
+
+Pos (H)
+
+Pos (H)
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Neg
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Neg
+
+Pos
+
+Pos
+
+Pos
+
+Neg
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Neg
+
+Neg
+
+Neg
+
+Neg
+
+Haplotype
+
+Hap1
+
+Hap1
+
+Hap2
+
+Hap1
+
+Hap1
+
+Hap1
+
+Hap1
+
+Hap1
+
+Hap3
+
+Hap1
+
+Hap1
+
+Hap1
+
+Hap2
+
+Hap1
+
+Hap1
+
+Hap1
+
+Hap1
+
+Hap2
+
+Hap4
+
+Hap4
+
+Hap4
+
+(Continued on next page)
+
+4
+
+H
+u
+m
+a
+n
+G
+e
+n
+e
+t
+i
+c
+s
+
+i
+
+a
+n
+d
+G
+e
+n
+o
+m
+c
+s
+A
+d
+v
+a
+n
+c
+e
+s
+
+5
+,
+
+1
+0
+0
+2
+4
+4
+,
+
+J
+a
+n
+u
+a
+r
+y
+
+1
+1
+,
+
+2
+0
+2
+4
+
+Table 1. Continued
+
+Country
+
+(22) USA
+
+(23) USA
+
+(24) USA
+
+(25) USA
+
+(26) USA
+
+(27) USA
+
+(28) USA/Brazil
+
+(29) France
+
+(30) Germany
+
+(31) England
+
+(32) Japan/Brazil
+
+(33) Samoa
+
+(34) Germany
+
+(35) Germany
+
+(36) Germany
+
+(37) Germany
+
+Primary tumor (age/diagnosis)/
+Additional tumors
+
+Unclassiﬁed spindle cell
+sarcoma (27), Breast (29),
+Sarcoma (33)
+
+Basal cell carcinoma (53)
+
+Unaffected A&W (39)
+
+Breast (38)
+
+Breast (45), Thyroid (55)
+
+Breast (46), Breast (49), Head
+and neck (59), STS (61)
+
+Breast (45), Low grade mucinous
+appendiceal carcinoma (47)
+
+Breast (64), Endometrial (77)
+
+Status
+
+Adult
+
+Adult
+
+Adult
+
+Adult
+
+Adult
+
+Adult
+
+Adult
+
+Adult
+
+Colon (65), ACT (71), Prostate (74)
+
+Adult/Deceased
+
+Unaffected A&W (45)
+
+ACT (2)
+
+ACT (9)
+
+Tubal carcinoma (54), Peritoneal
+carcinomatosis (58)
+
+Unaffected A&W (29)
+
+Unaffected A&W (30)
+
+Gastric (62)
+
+Adult
+
+Pediatric
+
+Pediatric
+
+Adult
+
+Adult
+
+Adult
+
+Adult
+
+Pediatric
+
+Gendera
+
+F
+
+F
+
+M
+
+F
+
+F
+
+F
+
+F
+
+F
+
+M
+
+F
+
+M
+
+F
+
+F
+
+F
+
+M
+
+F
+
+F
+
+R337H
+
+Pos
+
+E134*
+
+Neg
+
+Haplotype
+
+Hap4
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos (de novo)
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Pos
+
+Neg
+
+Neg
+
+Pos
+
+Neg
+
+Neg
+
+Neg
+
+Neg
+
+Neg
+
+Neg
+
+Pos
+
+Neg
+
+Neg
+
+Neg
+
+Neg
+
+Neg
+
+Neg
+
+Hap3
+
+Hap3
+
+Hap1
+
+Hap4
+
+Hap4
+
+Hap2
+
+Hap3
+
+Hap3
+
+Hap3
+
+Hap1
+
+Hap5
+
+Hap3
+
+Hap3
+
+Hap3
+
+Hap3
+
+ND
+
+(38) South Africa
+
+ACT (5)
+
+#15, 16, 17, 19, 20, 21, 25, 26, 28 and 29 are BRCA1/2 negative by genetic panel testing.
+#22 is positive for BRCA1 c.4065_4068del(TCAA) inherited from father.
+A&W, alive and well (no current cancer); ACT, adrenocortical tumor; CPC, choroid plexus carcinoma; F, female; H, homozygous; M, male; ND, not determined; STS, soft tissue sarcoma.
+aGender deﬁned by biological attributes.
+
+Figure 1. Diagram of ﬁve distinct TP53 p.R337H alleles
+(A) Five distinct haplotypes were identiﬁed based on TP53 internal polymorphisms and microsatellite markers on chromosome 17p13.
+(B) Identical DNA sequences shared among the ﬁve haplotypes are identiﬁed by solid blue bars and blue dashed lines. Polymorphic
+markers distinguishing the ﬁve haplotypes are highlighted in purple [Hap3, VNTRp53(n) and p53CA(n)], red [Hap4 P72R, PIN3,
+VNTRp53(n) and p53CA(n)], orange (Hap5, de novo, P72/A2), and green (Hap1, DNA sequence spanning D17S796 to D17S952 contain-
+ing XAF1 p.E134* variant) solid bars.
+
+PIN3 (rs17878362) containing one (A1) or two copies (A2) of
+a 16-base pair sequence in intron 3. In this cohort of TP53
+p.R337H carriers, R72 co-segregates with A1 (R72/A1) and
+P72 co-segregates with A2 (P72/A2). Excluding one undeter-
+mined case (#38), carriers with R72/A1 were more frequently
+observed (n ¼ 30) compared with P72/A2 genotype (n ¼ 7),
+establishing two distinct TP53 p.R337H alleles. Extending
+the analysis to include the polymorphic marker VNTRp53,
+a pentanucleotide (AAAAT)n repeat within the 6.1-kb-long
+TP53 intron 1,17,18 the p53CA(n) polymorphic marker,19
+and the XAF1 p.E134* variant,8 we delineated ﬁve TP53
+p.R337H haplotypes (Figure 1; Table S2).
+
+that
+
+The most common TP53 p.R337H haplotype (hereafter
+Hap1) (n ¼ 16 carriers; two homozygous) spanned from
+D17S796 (chr17:6,251,522–6,251,775; GRCh37/hg19) to
+D17S952 (chr17:9,113,650–9,113,834; GRCh37/hg19) and
+contains the XAF1 p.E134* variant. An identical, but shorter,
+lacks XAF1 p.E134*,
+p.R337H haplotype (Hap2),
+extended from D17S578 (chr17:6,823,880; GRCh37/hg19)
+to the marker p53(CA)n (chr17:7,617,440 -7,617,490;
+GRCh37/hg19) (n ¼ 4 individuals) (Figure 1; Table S2). These
+two TP53 p.R337H haplotypes (Hap1 and Hap2), which
+comprise the R72/A1 polymorphisms and consistent alleles
+for VNTRp53(n) and p53(CA)n have been characterized as a
+founder p.R337H variant, widespread in Brazil.5,8 Identical
+Hap1 (n ¼ 7) and Hap2 haplotypes (n ¼ 1) were also identi-
+ﬁed in the eight unrelated families from Spain and Portugal
+(Table 1; Table S2).
+
+A third TP53 p.R337H haplotype containing the R72/A1
+polymorphisms but distinct from Hap1 and Hap2 based on
+
+allelic differences in the VNTRp53(n) and p53CA(n) poly-
+morphic markers (Hap3) was observed in 10 probands
+from Europe and the United States (Figure 1; Table S2). A
+TP53 p.R337H allele with P72/A2 (Hap4) was observed in
+six individuals from the United States. A documented de
+novo TP53 p.R337H variant with P72/A2 (Hap5) was iden-
+tiﬁed in a pediatric ACT patient from an American Samoa
+family (Table 1).20 In addition, a heterozygous TP53
+p.R337H proband with ACT from South Africa (#38)21
+was identiﬁed, but the haplotype, and whether it was in-
+herited or de novo, was not determined due to unavailabil-
+ity of parental DNA or tumor samples. Nonetheless, micro-
+satellite analysis excluded this germline variant as being
+Hap 1 or Hap2.
+
+The country of birth and migration status when known
+for each proband was annotated (Figure 2; Table 1). Car-
+riers of Hap1 (n ¼ 3) and Hap2 (n ¼ 2) identiﬁed in the
+United States and Japan are known to have immigrated
+from Brazil (Table 1). However, seven of the eight families
+from the Iberian Peninsula (Spain and Portugal) report no
+connection to Brazil.
+
+Frequency of reported TP53 p.R377H alleles in public
+databases
+Of the 4,453 reported germline mutations (n ¼ 1,655 fam-
+ilies) in The TP53 Database (R20, July 2019 version; https://
+tp53.isb-cgc.org/), p.R337H was observed in 305 individuals
+(n ¼ 117 families) representing 240 patients with cancer and
+65 carriers unaffected by cancer. This database includes cases
+from Brazil (n ¼ 282; 101 families), France (n ¼ 7; 6 families),
+
+Human Genetics and Genomics Advances 5, 100244, January 11, 2024 5
+
+Figure 2. World map showing the distri-
+bution of TP53 p.R337H alleles and their
+constitutive haplotypes
+Known migration routes of carriers from
+Brazil to the United States, Portugal, and
+Japan are highlighted by purple (Hap1)
+and blue (Hap2) arrows with dotted lines.
+
+#24 (39 years old), presently unaffected
+by cancer, was self-reported to be of
+Ashkenazi Jewish descendant with no
+remarkable family history of cancer,
+except for a nephew with a diagnosis of
+choroid plexus carcinoma at age 2.
+Excluding two carriers who developed
+childhood ACT (proband #37, de novo
+p.R337H variant; proband #38, de novo
+or inherited not determined), nearly all pediatric tumors in
+the current cohort (n ¼ 14) were associated with the Hap1
+and Hap2 founder p.R337H mutation (n ¼ 13; 93%).
+
+Ancestry of the TP53 p.R337H variants
+The maternal genetic composition of carriers of the TP53
+p.R337H variant was investigated by characterizing the
+mitochondrial control region sequences (HV1-3) from the
+37 probands (Table S3; proband #30 DNA unavailable).
+Altogether, TP53 p.R337H carriers fall into four major
+mtDNA haplogroups with the predominance being of Euro-
+pean descent (H, J, K, R, U, V, X; n ¼ 23, 61%) followed by
+Native American (A–D; n ¼ 6, 16%), African (L; n ¼ 6,
+16%), and Asian descent (M7c; n ¼ 2, 5%). The paternal
+composition was examined by genotyping 23 Y-STRs from
+13 male probands in this cohort. These results indicate
+that the paternal lineage of carriers is associated with the
+following European haplogroups: R1b (n ¼ 6), J1 (n ¼ 3),
+I2a1 (n ¼ 2), G2a (n ¼ 1), and E1b1b (n ¼ 1) (Table S4).
+
+Ancestry of Hap 1 (n ¼ 65) and Hap2 (n ¼ 21) was analyzed
+in a validation cohort of 86 independent Brazilian male TP53
+p.R337H carriers who were identiﬁed through a general pop-
+ulation neonatal screening program (Tables S3 and S4).6 This
+cohort provided the opportunity to determine Y-STR
+proﬁling and mitochondrial DNA sequence analysis of car-
+inheritance of TP53
+riers with paternal and maternal
+p.R337H, respectively. Of those male Brazilian carriers who
+inherited the p.R337H variant from their fathers (n ¼ 41;
+33 Hap1 and 8 Hap2), all Y-STR haplotypes were found to
+be associated with European/Eurasian descent, primarily
+the major haplogroup R (n ¼ 23, 56%; in particular R1b,
+n ¼ 22) followed by E (n ¼ 7; 17%), I (n ¼ 5; 12%), J (n ¼ 3;
+7%), L (n ¼ 2; 5%), and Q (n ¼ 1; 2%) (Table S4). For those
+male Brazilian carriers who inherited the p.R337H variant
+from their mothers (n ¼ 45; 32 Hap1 and 13 Hap2), mito-
+chondrial haplotypes were predominantly associated with
+Native American ancestry (haplogroups A–D; n ¼ 33, 73%),
+followed by European/Eurasia (n ¼ 9, 20%) and African
+(n ¼ 3, 7%) haplogroups (Table S3). Although the 86 male
+
+Germany (n ¼ 4; 2 families), Japan (n ¼ 5; 1 family), China
+(n ¼ 1), Portugal (n ¼ 1), and South Africa (n ¼ 1) and an addi-
+tional four cases whose country of origin was not identiﬁed.
+ClinVar (https://www.ncbi.nlm.nih.gov/clinvar/) also lists
+21 entries for the TP53 p.R337H allele (variation ID 12379),
+with 18 being classiﬁed as pathogenic and three as likely
+pathogenic. Of note, p.R337H cases are often presumed to
+be the founder variant without recognizing differences in
+TP53 sequences (e.g., constitutive internal polymorphisms)
+or associated haplotypes.22,23
+
+TP53 p.R337H was also reported as a somatic mutation
+in (1) The TP53 Database (n ¼ 4), (2) The OncoKB database
+(n ¼ 3), and (3) The COSMIC database (COSM43882,
+COSM4173039; n ¼ 22). However, the germline status of
+these patients with p.R337H-positive tumors was not es-
+tablished. The TP53 p.R337H variant was not reported at
+Global Biobank Engine and ABraOM databases. However,
+it was observed in the Genome Aggregation Database (gno-
+mAD) in three female individuals (two cancer patients, one
+unaffected by cancer), two identiﬁed as Latino/Admixed
+American individuals.
+
+Interestingly, the TP53 p.R337H variant has also been
+observed in two ancient genomes (European Nucleotide
+Archive; ENA Browser [www.ebi.ac.uk]), one carrier from
+Mongolia and the other from Italy. Whether these ancient
+alleles are ﬁxed in the human lineage or independent
+events was not determined.24
+
+Family histories of cancer
+The cancer history for the 38 p.R337H carriers in this study
+was collected (Table 1). All six Hap4 probands developed
+breast cancer at an early age (Table 1; range from 29 to
+46 years old) with ﬁve developing multiple LFS core tumor
+types. Except for one proband (#22), all cases tested nega-
+tive for BRCA1/2 mutations.
+
+The cancer phenotype for Hap3 probands (n ¼ 10) appears
+to be milder than Hap4, with four adults currently unaffected
+by cancer and the remaining six carriers having developed
+non-LFS core tumors with late onset (Table 1). Hap3 proband
+
+6 Human Genetics and Genomics Advances 5, 100244, January 11, 2024
+
+individuals selected for this study were recruited from
+different families and documented for at least three genera-
+tions, we have identiﬁed relatedness in 15 cases (17%) based
+on shared mtDNA sequences (n ¼ 11; A–D haplogroups) or
+Y-STR (n ¼ 4; I2b1 and E1b1a haplogroups), consistent
+with a founder effect5,8 (Tables S3–S5).
+
+Discussion
+
+In the present study we have identiﬁed ﬁve distinct TP53
+p.R337H haplotypes, with two (Hap1 and Hap2) sharing
+an identical Caucasian founder allele widespread in the
+Brazilian population.5,8 The TP53 p.R337H founder
+variant co-segregates with XAF1 p.E134* in the majority
+of Brazilian cases (Hap1) and as a single mutation
+(Hap2).8 Hap1 was also observed in the majority of cases
+from Spain and Portugal. The remaining three TP53
+p.R337H haplotypes (Hap3-5) that have been identiﬁed
+outside of Brazil are distinct from the founder allele based
+on internal polymorphisms and polymorphic markers
+along chromosome 17p.
+
+The p.R337H variant has been functionally character-
+ized by studies in vitro and in vivo as hypomorphic,2,25–27
+with individuals exibiting a wide range of cancer pheno-
+types. In many instances, however, the p.R337H variant
+has been classiﬁed as pathogenic and carriers, independent
+of haplotype and other possible pathogenic variants, are
+considered to be associated with classic LFS.28
+
+The TP53 p.R337H haplotypes identiﬁed here diverge
+in internal TP53 polymorphisms, such as codon 72
+(Pro72Arg) and PIN3 (intron 3), reported to affect p53
+expression and function.11,12 Notably, codon 72 is part
+of the p53 proline-rich motif that is critical for interac-
+tions with MDM-2,29 ASPPs,30 XAF1,9 NF-kB,31 and pro-
+teins containing the SH3 domain.32 Speciﬁcally, the R72
+variant is more active at stimulating cellular apoptosis
+and suppressing cellular transformation.33 In addition,
+the PIN3 variant (A2) has been associated with decreased
+p53 expression34 and several case-control studies have re-
+ported an increased risk of various cancer types associated
+with the A2 allele in Caucasians, with the most consistent
+association reported for breast and colorectal cancers.35 It
+is well established that the combination of speciﬁc vari-
+ants in cis can potentially modify the penetrance of cod-
+ing variants,36 with these variants exhibiting much
+smaller effects individually but with additive haplotypic
+effects. Phenotypic variability associated with another
+variant in cis is exempliﬁed by the presence of XAF1
+p.E134* in a subset of TP53 p.R337H carriers (Hap1)
+that are at higher risk of cancer in general, sarcomas,
+and multiple tumors compared with those with TP53
+p.R337H alone (Hap2).8
+
+Although the number of carriers of Hap3 and Hap4 were
+not sufﬁcient to establish a clear haplotype-cancer pheno-
+type association, we did observe a pattern whereby Hap4
+carriers more closely resembled classical LFS, including
+
+breast cancers, sarcomas, and multiple primary tumors.
+In contrast, Hap3 carriers present generally with tumors
+not seen typically in LFS and at late onset with incomplete
+penetrance, suggestive of a lower risk of cancer.
+
+To determine the ancestry and occurrence of TP53
+p.R337H variant within the framework of the history of
+Brazil, our analysis of mitochondrial haplogroups of carriers
+deﬁned an excess of Native American haplogroups (A–D;
+73%) in maternal lineages. Although many native groups
+in Brazil have vanished, particularly in southeast regions,37
+our observed 73% of Brazilian p.R337H carriers with the
+Native American matrilineal lineages is in clear contrast
+with present day Brazilians in the same region that still carry
+the genetic imprinting of early colonization phase but with
+much more uniform distribution: 39% European, 33%
+Amerindian, and 28% African lineages.37 Y-STR proﬁling
+of carriers from the paternal lineage revealed exclusively Eu-
+ropean haplogroups, particularly R1b. This composition
+indicates a remarkable signature among communities estab-
+lished by European male settlers with extensive inter-
+marriage with Indigenous women.38 We postulate that Ibe-
+rian Peninsula Europeans introduced the TP53 p.R337H
+variant in the Brazilian population in early colonial times.
+Our hypothesis is based on the knowledge that the
+European-Amerindian admixture started soon after the
+arrival of the ﬁrst colonizers.38 In addition, we observed a
+high frequency of Y-STR haplogroup R1b in Brazilian carriers
+as well as in TP53 p.R337H carriers from Portugal and Spain.
+It is well established that R1b haplogroup is the most com-
+mon Y chromosome branch of Atlantic Europe, the most
+frequent haplogroup in the Iberian Peninsula and with great
+representation among Sephardic Jews.39 Of note, our Span-
+ish p.R337H carriers are from Extremadura, a Spanish border
+region adjacent to Portugal, with large Sephardic commu-
+nities and a prominent source for migrants to the Americas
+during the 16th century.40
+
+Although we cannot determine whether the p.R337H
+founder allele ﬁrst arose within the context of Hap1 or
+Hap2, we have observed the uncoupling of XAF1 p.E134*
+and TP53 p.R337H in several Hap1 Brazilian families.8 These
+ﬁndings suggest that the region separating XAF1 and TP53
+on chromosome 17 is susceptible to recombination and
+that gene conversion could promote haplotype diversity.
+These ﬁndings also highlight the importance of determining
+the haplotype of this hypomorphic mutation in each carrier
+even when occurring within the same family.8
+
+In conclusion, we have identiﬁed ﬁve distinct TP53
+p.R337H haplotypes that differ in speciﬁc intragenic and ex-
+tragenic polymorphisms, as well as associated modiﬁers.
+Given the hypomorphic nature of p.R337H, in contrast to
+pathogenic DNA binding domain TP53 mutants, its tumor
+suppressor activity can be signiﬁcantly inﬂuenced by associ-
+ated polymorphisms and variants. One such example is the
+p.R337H founder mutation that is common throughout
+southern Brazil, but in the context of two haplotypes that
+differ in the status of XAF1 and tumor susceptibility (Hap1
+and Hap2).8,41,42 As shown here, additional non-founder
+
+Human Genetics and Genomics Advances 5, 100244, January 11, 2024 7
+
+independent p.R337H alleles (Hap3-5) have been identiﬁed
+that also likely inﬂuence cancer risk. Therefore, genetic coun-
+selors and health care providers must be aware of these
+distinct p.R337H haplotypes and the potential implications
+of their associated differences on p53 expression, structure,
+and function, and consequently cancer risk.
+
+Supplemental information
+
+Supplemental information can be found online at https://doi.org/
+10.1016/j.xhgg.2023.100244.
+
+Acknowledgments
+
+The authors would like to thank the patients and their family mem-
+bers who have contributed to this study. We also thank Vani
+Shanker, Senior Scientiﬁc Editor St. Jude Children’s Research Hospi-
+tal, for editing the article and Jessica Marquez, Senior Researcher St
+Jude Children’s Research Hospital for Y-STR proﬁling. Our gratitude
+is expressed to Nair Modolo Pinto and Gail Sacks Kirschner for their
+signiﬁcant input and expert discussion.
+
+This work was supported by NCI 5R01CA260175, Cancer Center
+Support Grant CA21765, Speer Charitable Trust, and ALSAC. The
+content is solely the responsibility of the authors and does not
+necessarily represent the ofﬁcial views of the NIH. C.P.K. has
+been supported by the BMBF ADDRess (01GM1909A) and by the
+Deutsche Kinderkrebsstiftung (DKS2021.25).
+
+Author contributions
+
+Data conceptualization: E.M.P., G.Z. Designed and conducted ex-
+periments: E.M.P. Formal analysis of data: E.M.P., C.F. Provided re-
+sources: B.C.F., H.S., M.R.T., C.P., M.P., C.P.K., C.L., E.A.M.F.L., A.L.,
+G.K., E.K., E.M.S., K.B., S.H., B.H., P.T., A.K., T.O., Y.F., M.F.W.,
+H.Q.R., K.N.M., J.E.G., C.R.-G. Writing original draft: E.M.P., G.Z.
+Writing, review, and editing: all authors.
+
+Declaration of interests
+
+K.B. reports an immediate family member on the scientiﬁc advi-
+sory board of Emendo Biotherapeutics, Karyopharm Therapeutics,
+Imago BioSciences, and DarwinHealth; is co-founder of Isabl Tech-
+nologies; and has equity interest in Imago BioSciences, Emendo
+Biotherapeutics, and Isabl Technologies.
+
+Received: July 11, 2023
+Accepted: September 27, 2023
+
+References
+
+1. Chompret, A., Brugie`res, L., Ronsin, M., Gardes, M., Dessarps-
+Freichey, F., Abel, A., Hua, D., Ligot, L., Dondon, M.-G., Bres-
+sac-de Paillerets, B., et al. (2000). P53 germline mutations in
+childhood cancers and cancer risk for carrier individuals. Br.
+J. Cancer 82, 1932–1937.
+
+2. Ribeiro, R.C., Sandrini, F., Figueiredo, B., Zambetti, G.P., Michal-
+kiewicz, E., Lafferty, A.R., DeLacerda, L., Rabin, M., Cadwell, C.,
+Sampaio, G., et al. (2001). An inherited p53 mutation that con-
+tributes in a tissue-speciﬁc manner to pediatric adrenal cortical
+carcinoma. Proc. Natl. Acad. Sci. USA 98, 9330–9335.
+
+3. Latronico, A.C., Pinto, E.M., Domenice, S., Fragoso, M.C., Mar-
+tin, R.M., Zerbini, M.C., Lucon, A.M., and Mendonca, B.B.
+(2001). An inherited mutation outside the highly conserved
+DNA-binding domain of the p53 tumor suppressor protein
+in children and adults with sporadic adrenocortical tumors.
+J. Clin. Endocrinol. Metab. 86, 4970–4973.
+
+4. Pinto, E.M., and Zambetti, G.P. (2020). What 20 Years of
+Research Has Taught Us About the TP53 p.R337H Mutation.
+Cancer 126, 4678–4686.
+
+5. Pinto, E.M., Billerbeck, A.E.C., Villares, M.C.B.F., Domenice,
+S., Mendonc¸a, B.B., and Latronico, A.C. (2004). Founder effect
+for the highly prevalent R337H mutation of tumor suppressor
+p53 in Brazilian patients with adrenocortical tumors. Arq.
+Bras. Endocrinol. Metabol. 48, 647–650.
+
+6. Custo´ dio, G., Parise, G.A., Kiesel Filho, N., Komechen, H., Sab-
+baga, C.C., Rosati, R., Grisa, L., Parise, I.Z.S., Pianovski,
+M.A.D., Fiori, C.M.C.M., et al. (2013). Impact of neonatal
+screening and surveillance for the TP53 R337H mutation on
+early detection of childhood adrenocortical tumors. J. Clin.
+Oncol. 31, 2619–2626.
+
+7. Seidinger, A.L., Caminha, I.P., Mastellaro, M.J., Gabetta, C.S.,
+Nowill, A.E., Pinheiro, V.R.P., and Yunes, J.A. (2020). TP53 p.Ar-
+g337His geographic distribution correlates with adrenocortical
+tumor occurrence. Mol. Genet. Genomic Med. 8, e1168.
+
+8. Pinto, E.M., Figueiredo, B.C., Chen, W., Galvao, H.C.R., For-
+miga, M.N., Fragoso, M.C.B.V., Ashton-Prolla, P., Ribeiro,
+E.M.S.F., Felix, G., Costa, T.E.B., et al. (2020). XAF1 as a mod-
+iﬁer of p53 function and cancer susceptibility. Sci. Adv. 6,
+eaba3231.
+
+9. Lee, M.G., Han, J., Jeong, S.I., Her, N.G., Lee, J.H., Ha, T.K., Kang,
+M.J., Ryu, B.K., and Chi, S.G. (2014). XAF1 directs apoptotic
+switch of p53 signaling through activation of HIPK2 and
+ZNF313. Proc. Natl. Acad. Sci. USA 111, 15532–15537.
+
+10. Thompson, E.A. (2013). Identity by Descent: Variation in
+Meiosis, Across Genomes, and in Populations. Genetics 194,
+301–326.
+
+11. Whibley, C., Pharoah, P.D.P., and Hollstein, M. (2009). p53
+polymorphisms: cancer implications. Nat. Rev. Cancer 9,
+95–107.
+
+12. Levine, A.J. (2021). Spontaneous and inherited TP53 genetic
+
+alterations. Oncogene 40, 5975–5983.
+
+13. Powers, J., Pinto, E.M., Barnoud, T., Leung, J.C., Martynyuk,
+T., Kossenkov, A.V., Philips, A.H., Desai, H., Hausler, R., Kelly,
+G., et al. (2020). A rare TP53 mutation predominant in Ashke-
+nazi Jews confers risk of multiple cancers. Cancer Res. 80,
+3732–3744.
+
+14. Gonc¸alves, F.T., Fridman, C., Pinto, E.M., Guevara-Aguirre, J.,
+Shevah, O., Rosembloom, A.L., Hwa, V., Cassorla, F., Rose-
+nfeld, R.G., Lins, T.S.S., et al. (2014). The E180splice mutation
+in the GHR gene causing Laron syndrome: witness of a
+Sephardic Jewish exodus from the Iberian Peninsula to the
+New World? Am. J. Med. Genet. 164A, 1204–1208.
+
+15. Gusma˜o, L., Butler, J.M., Carracedo, A., Gill, P., Kayser, M.,
+Mayr, W.R., Morling, N., Prinz, M., Roewer, L., Tyler-Smith,
+C., et al. (2006). DNA Commission of the International Soci-
+ety of Forensic Genetics (ISFG): an update of the recommenda-
+tions on the use of Y-STRs in forensic analysis. Forensic Sci.
+Int. 157, 187–197.
+
+16. Roewer, L., Andersen, M.M., Ballantyne, J., Butler, J.M., Cal-
+iebe, A., Corach, D., D’Amato, M.E., Gusma˜o, L., Hou, Y., de
+Knijff, P., et al. (2020). DNA Commission of the International
+Society of Forensic Genetics (ISFG): Recommendations on the
+
+8 Human Genetics and Genomics Advances 5, 100244, January 11, 2024
+
+interpretation of Y-STRs results in forensic analysis. Forensic
+Sci. Int. 48, 102308.
+
+17. Futreal, P.A., Barrett, J.C., and Wiseman, R.W. (1991). An Alu
+polymorphism intragenic to the TP53 gene. Nucleic Acids Res.
+19, 6977.
+
+18. Hahn, M., Fislage, R., and Pingoud, A. (1995). Polymorphism
+of the pentanucleotide repeat d(AAAAT) within intron 1 of the
+human tumor suppressor gene p53 (17p13.1). Hum. Genet.
+95, 471–472.
+
+19. Jones, M.H., and Nakamura, Y. (1992). Detections of Loss of
+Heterozigosity at the Human TP53 Locus Using a Dinucleotide
+Repeat Polymorphism. Genes Chromosomes Cancer 5, 89–90.
+20. Aungkawattanapong, N., Techavichit, P., Lauhasurayotin, S.,
+Chiengthong, K., Sosothikul, D., Monsereenusorn, C., Suporn-
+silchai, V., Suphapeetiporn, K., Teerapakpinyo, C., and Shuang-
+shoti, S. (2021). A study of the TP53 Germline Mutation and
+Clinicopathologic Features in Thai Children with Adrenocor-
+tical Carcinoma. J. Health Sci. Med. Res. 39, 491–502.
+
+21. Macaulay, S., Goodyear, Q.C., Kruger, M., Chen, W., Essop, F.,
+and Krause, A. (2018). The ﬁrst two conﬁrmed sub-Saharan Af-
+rican families with germline TP53 mutations causing Li-
+Fraumeni syndrome. Fam. Cancer 17, 607–613.
+
+22. Kratz, C.P., Freycon, C., Maxwell, K.N., Nichols, K.E., Schiff-
+man, J.D., Evans, D.G., Achatz, M.I., Savage, S.A., Weitzel,
+J.N., Garber, J.E., et al. (2021). Analysis of the Li-Fraumeni
+Spectrum Based on an International Germline TP53 Variant
+Data Set. JAMA Oncol. 7, 1800–1805.
+
+23. Fischer, N.W., Ma, Y.-H.V., and Garie´py, J. (2023). Emerging in-
+sights into ethnic-speciﬁc TP53 germline variants. J. Natl.
+Cancer Inst.djad106
+
+24. Kou, S.H., Li, J., Tam, B., Lei, H., Zhao, B., Xiao, F., and Wang,
+S.M. (2023). TP53 germline pathogenic variants in modern
+humans were likely originated during recent human history.
+NAR Cancer 5, zcad025.
+
+25. DiGiammarino, E.L., Lee, A.S., Cadwell, C., Zhang, W., Both-
+ner, B., Ribeiro, R.C., Zambetti, G., and Kriwacki, R.W.
+(2002). A novel mechanism of tumorigenesis involving pH-
+dependent destabilization of a mutant p53 tetramer. Nat.
+Struct. Biol. 9, 12–16.
+
+26. Park, J.H., Li, J., Starost, M.F., Liu, C., Zhuang, J., Chen, J., Achatz,
+M.I., Kang, J.G., Wang, P.Y., Savage, S.A., and Hwang, P.M.
+(2018). Mouse homolog of the human TP53 R337H mutation re-
+veals its role in tumorigenesis. Cancer Res. 78, 5375–5383.
+27. Jeffers, J.R., Pinto, E.M., Rehg, J.E., Clay, M.R., Wang, J., Neale,
+G., Heath, R.J., Lozano, G., Lalli, E., Figueiredo, B.C., et al.
+(2021). The Common Germline TP53-R337H Mutation is
+Hypomorphic and Confers Incomplete Penetrance and Late
+Tumor Onset in a Mouse Model. Cancer Res. 81, 2442–2456.
+28. Guha, T., and Malkin, D. (2017). Inherited TP53 Mutations
+and the Li-Fraumeni Syndrome. Cold Spring Harb. Perspect.
+Med. 7, a026187.
+
+29. Momand, J., Zambetti, G.P., Olson, D.C., George, D., and Lev-
+ine, A.J. (1992). The mdm-2 oncogene product forms a com-
+plex with the p53 protein and inhibits p53-mediated transac-
+tivation. Cell 69, 1237–1245.
+
+30. Bergamaschi, D., Samuels, Y., Sullivan, A., Zvelebil, M., Breys-
+sens, H., Bisso, A., Del Sal, G., Syed, N., Smith, P., Gasco, M.,
+et al. (2006). iASPP preferentially binds p53 proline-rich region
+and modulates apoptotic function of codon 72-polymorphic
+p53. Nat. Genet. 38, 1133–1141.
+
+31. Frank, A.K., Leu, J.I.J., Zhou, Y., Devarajan, K., Nedelko, T.,
+Klein-Szanto, A., Hollstein, M., and Murphy, M.E. (2011).
+The codon 72 polymorphism of p53 regulates interaction
+with NF-{kappa}B and transactivation of genes involved in im-
+munity and inﬂammation. Mol. Cell Biol. 31, 1201–1213.
+32. Kurochkina, N., and Guha, U. (2012). SH3 domains: modules
+of protein–protein interactions. Biophys. Rev. 5, 29–39.
+33. Jeong, B.S., Hu, W., Belyi, V., Rabadan, R., and Levine, A.J.
+(2010). Differential levels of transcription of p53-regulated
+genes by the arginine/proline polymorphism: p53 with argi-
+nine at codon 72 favors apoptosis. Faseb. J. 24, 1347–1353.
+
+34. Gemignani, F., Moreno, V., Landi, S., Moullan, N., Chabrier,
+A., Gutie´rrez-Enrı´quez, S., Hall, J., Guino, E., Peinado, M.A.,
+Capella, G., and Canzian, F. (2004). A TP53 polymorphism is
+associated with increased risk of colorectal cancer and with
+reduced levels of TP53 mRNA. Oncogene 23, 1954–1956.
+35. Sagne, C., Marcel, V., Amadou, A., Hainaut, P., Olivier, M., and
+Hall, J. (2013). A meta-analysis of cancer risk associated with
+the TP53 intron 3 duplication polymorphism (rs17878362):
+geographic and tumor-speciﬁc effects. Cell Death Dis. 4, e492.
+36. Castel, S.E., Cervera, A., Mohammadi, P., Aguet, F., Reverter, F.,
+Wolman, A., Guigo, R., Iossifov, I., Vasileva, A., and Lappalai-
+nen, T. (2018). Modiﬁed penetrance of coding variants by cis-
+regulatory variation contributes to disease risk. Nat. Genet. 50,
+1327–1334.
+
+37. Alves-Silva, J., da Silva Santos, M., Guimara˜es, P.E., Ferreira, A.C.,
+Bandelt, H.J., Pena, S.D., and Prado, V.F. (2000). The ancestry of
+Brazilian mtDNA Lineages. Am. J. Hum. Genet. 67, 444–461.
+38. Pena, S.D.J., Santos, F.R., and Tarazona-Santos, E. (2020). Ge-
+netic Admixture in Brazil. Am. J. Hum. Genet. 184, 928–938.
+39. Adams, S.M., Bosch, E., Balaresque, P.L., Ballereau, S.J., Lee,
+A.C., Arroyo, E., Lo´ pez-Parra, A.M., Aler, M., Grifo, M.S.G.,
+Brion, M., et al. (2008). The Genetic Legacy of Religious Diver-
+sity and Intolerance: Paternal Lineages of Christians, Jews, and
+Muslims in the Iberian Peninsula. Am. J. Hum. Genet. 83,
+725–736.
+
+40. Martinez-Avila, R.L., and Sweetwood, K. (2006). Sephardic Or-
+igins and Transformations in the Spanish Extremadura: A His-
+torical and Socio-Demographic Investigation (International
+Institute for Jewish Genealogy and Paul Jacobi Center).
+41. Riechelmann, R.P., Soares, D.C., Dias, C., Carraro, D.M., and
+Torrezan, G.T.
+(2022). Li-Fraumeni-associated pancreatic
+neuroendocrine tumour and XAF1 p.Glu134Ter risk modiﬁer
+variant. Ecancermedicalscience 16, 1487.
+
+42. Carvalho, N.d.A.d., Santiago, K.M., Maia, J.M.L., Costa, F.D.,
+Formiga, M.N., Soares, D.C.d.Q., Paixa˜o, D., Mello, C.A.L.d.,
+Costa, C.M.L.D., Rocha, J.C.C.D., et al. (2023). Prevalence
+and clinical implications of germline pathogenic variants in
+cancer predisposing genes in young patients across sarcoma
+subtypes. J. Med. Genet., 109269.
+
+Human Genetics and Genomics Advances 5, 100244, January 11, 2024 9
+
+
