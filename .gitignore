@@ -1,5 +1,5 @@
 qdrant_storage/
-processed_dataset/
+# processed_dataset/
 DP/venv
 DP/.ipynb_checkpoints
 DP/qdrant_data
