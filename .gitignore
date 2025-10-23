@@ -4,5 +4,5 @@ DP/venv
 DP/.ipynb_checkpoints
 DP/qdrant_data
 raw_dataset/
-"dataset/TP53 Gene Function/"
+# "dataset/TP53 Gene Function/"
 
