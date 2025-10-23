@@ -1,0 +1,508 @@
+67. Cancer Chemother Pharmacol. 2014 Apr;73(4):771-8. doi: 
+10.1007/s00280-014-2404-1. Epub 2014 Feb 14.
+
+BRCA-1 methylation and TP53 mutation in triple-negative breast cancer patients 
+without pathological complete response to taxane-based neoadjuvant chemotherapy.
+
+Foedermayr M(1), Sebesta M, Rudas M, Berghoff AS, Promberger R, Preusser M, 
+Dubsky P, Fitzal F, Gnant M, Steger GG, Weltermann A, Zielinski CC, Zach O, 
+Bartsch R.
+
+Author information:
+(1)Department of Medicine 1, Academic Teaching Hospital Elisabethinen Linz, 
+Linz, Austria.
+
+INTRODUCTION: Triple-negative breast cancer (TNBC) patients without pathological 
+complete response (pCR) to neoadjuvant chemotherapy have an unfavourable 
+prognosis. TNBC harbouring BRCA-1 germline mutations may be less responsive to 
+taxanes, while sensitivity to DNA-damaging agents is retained. A similar effect 
+was seen in tumours with epigenetic BRCA-1 silencing. Patients without pCR to 
+neoadjuvant chemotherapy consisting of epirubicin plus docetaxel routinely 
+received post-operative CMF at our centre. Here, we investigated the effect of 
+adjuvant CMF in patients with or without BRCA-1 methylation or TP53 mutation.
+METHODS: DNA was extracted from formalin-fixed paraffin-embedded tissue. For 
+determining BRCA-1 methylation status, quantitative methylation-specific PCR was 
+performed. For the investigation of TP53 mutation status, DNA was PCR amplified 
+and sequenced by Sanger sequencing.
+RESULTS: Twenty-four patients were included; BRCA-1 methylation was present in 
+41.7 %, while TP53 mutations were observed in 66.7 %. At a median follow-up of 
+27.5 months, 20 % of patients with BRCA-1 methylation had a disease-free 
+survival (DFS) event, as compared to 64.3 % in the non-methylated group (p = 
+0.0472). Median DFS in the non-methylated group was 16 months and was not 
+reached in the methylated group (n.s.). No association TP53 mutation status with 
+clinical outcome was observed.
+CONCLUSIONS: Adjuvant CMF is of limited activity in TNBC refractory to 
+taxane-based neoadjuvant chemotherapy. In this population, BRCA-1 methylation 
+was associated with a significant decrease in DFS events suggesting a better 
+prognosis and potentially retained activity of DNA-damaging agents.
+
+DOI: 10.1007/s00280-014-2404-1
+PMID: 24526178 [Indexed for MEDLINE]
+
+
+68. Cancer Cell. 2014 Feb 10;25(2):152-65. doi: 10.1016/j.ccr.2014.01.009.
+
+Identification of distinct basal and luminal subtypes of muscle-invasive bladder 
+cancer with different sensitivities to frontline chemotherapy.
+
+Choi W(1), Porten S(1), Kim S(2), Willis D(1), Plimack ER(3), Hoffman-Censits 
+J(4), Roth B(1), Cheng T(5), Tran M(5), Lee IL(1), Melquist J(1), Bondaruk J(6), 
+Majewski T(6), Zhang S(6), Pretzsch S(1), Baggerly K(7), Siefker-Radtke A(8), 
+Czerniak B(6), Dinney CP(1), McConkey DJ(9).
+
+Author information:
+(1)Department of Urology, University of Texas MD Anderson Cancer Center, 
+Houston, TX 77030, USA.
+(2)Computational Biology Division, Translational Genomics Research Institute, 
+445N, Fifth Street, Phoenix, AZ 85004, USA.
+(3)Department of Medical Oncology, Fox Chase Cancer Center, 333 Cottman Avenue, 
+Philadelphia, PA 19111-2497, USA.
+(4)Department of Medical Oncology, Thomas Jefferson University Hospital, 1025 
+Walnut Street, Suite 700, Philadelphia, PA 19107, USA.
+(5)Department of Urology, University of Texas MD Anderson Cancer Center, 
+Houston, TX 77030, USA; The University of Texas-Graduate School of Biomedical 
+Sciences (GSBS) at Houston, Houston, TX 77030, USA.
+(6)Department of Pathology, University of Texas MD Anderson Cancer Center, 
+Houston, TX 77030, USA.
+(7)Department of Bioinformatics, University of Texas MD Anderson Cancer Center, 
+Houston, TX 77030, USA.
+(8)Department of Genitourinary Medical Oncology, University of Texas MD Anderson 
+Cancer Center, Houston, TX 77030, USA.
+(9)Department of Urology, University of Texas MD Anderson Cancer Center, 
+Houston, TX 77030, USA; The University of Texas-Graduate School of Biomedical 
+Sciences (GSBS) at Houston, Houston, TX 77030, USA. Electronic address: 
+dmcconke@mdanderson.org.
+
+Comment in
+    Cancer Cell. 2014 Feb 10;25(2):135-6. doi: 10.1016/j.ccr.2014.01.026.
+    Nat Rev Clin Oncol. 2014 Apr;11(4):179. doi: 10.1038/nrclinonc.2014.33.
+    Urology. 2014 Dec;84(6):1265-6. doi: 10.1016/j.urology.2014.08.013.
+
+Muscle-invasive bladder cancers (MIBCs) are biologically heterogeneous and have 
+widely variable clinical outcomes and responses to conventional chemotherapy. We 
+discovered three molecular subtypes of MIBC that resembled established molecular 
+subtypes of breast cancer. Basal MIBCs shared biomarkers with basal breast 
+cancers and were characterized by p63 activation, squamous differentiation, and 
+more aggressive disease at presentation. Luminal MIBCs contained features of 
+active PPARγ and estrogen receptor transcription and were enriched with 
+activating FGFR3 mutations and potential FGFR inhibitor sensitivity. p53-like 
+MIBCs were consistently resistant to neoadjuvant methotrexate, vinblastine, 
+doxorubicin and cisplatin chemotherapy, and all chemoresistant tumors adopted a 
+p53-like phenotype after therapy. Our observations have important implications 
+for prognostication, the future clinical development of targeted agents, and 
+disease management with conventional chemotherapy.
+
+Copyright © 2014 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.ccr.2014.01.009
+PMCID: PMC4011497
+PMID: 24525232 [Indexed for MEDLINE]
+
+
+69. Breast Cancer Res Treat. 2013 Nov;142(2):389-98. doi:
+10.1007/s10549-013-2739-z.  Epub 2013 Oct 29.
+
+A clinical trial of lovastatin for modification of biomarkers associated with 
+breast cancer risk.
+
+Vinayak S(1), Schwartz EJ, Jensen K, Lipson J, Alli E, McPherson L, Fernandez 
+AM, Sharma VB, Staton A, Mills MA, Schackmann EA, Telli ML, Kardashian A, Ford 
+JM, Kurian AW.
+
+Author information:
+(1)Department of Medicine, Stanford University School of Medicine, Stanford, CA, 
+USA.
+
+Pre-clinical and epidemiologic studies provide rationale for evaluating 
+lipophilic statins for breast cancer prevention. We conducted a single-arm, 
+biomarker modulation trial of lovastatin among women with increased risk of 
+breast cancer. Eligibility criteria included a deleterious germline mutation in 
+BRCA1, BRCA2, CDH1, or TP53; lifetime breast cancer risk of ≥20 % as estimated 
+by the Claus model; or personal history of estrogen receptor and progesterone 
+receptor-negative breast cancer. Participants received 40 mg of lovastatin 
+orally twice daily for 6 months. We evaluated the following biomarkers before 
+and after lovastatin use: breast duct cytology (primary endpoint), serum lipids, 
+C-reactive protein, insulin-like growth factor-1, IGF binding protein-3, lipid 
+peroxidation, oxidative DNA damage, 3-hydroxy-3-methylglutaryl CoA reductase 
+genotype, and mammographic density. Thirty women were enrolled, and 26 (86.7 %) 
+completed the study. For the primary endpoint of changes in breast duct cytology 
+sampled by random periareolar fine needle aspiration, most participants [57.7 %, 
+95 % confidence interval (CI) 38.9-74.5 %] showed no change after lovastatin; 
+19.2 % (CI 8.1-38.3 %) had a favorable change in cytology, 7.7 % (95 % CI 
+1.0-25.3 %) had an unfavorable change, and 15.4 % (95 % CI 5.5-34.2 %) had 
+equivocal results due to acellular specimens, usually after lovastatin. No 
+significant changes were observed in secondary biomarker endpoints. The study 
+was generally well-tolerated: 4 (13.3 %) participants did not complete the 
+study, and one (3.8 %) required a dose reduction. This trial was technically 
+feasible, but demonstrated no significant biomarker modulation; contributing 
+factors may include insufficient sample size, drug dose and/or duration. The 
+results are inconclusive and do not exclude a favorable effect on breast cancer 
+risk.
+
+DOI: 10.1007/s10549-013-2739-z
+PMCID: PMC5508753
+PMID: 24166281 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest The authors report no 
+conflicts of interest.
+
+
+70. J Natl Cancer Inst. 2013 Jul 3;105(13):960-7. doi: 10.1093/jnci/djt121. Epub 
+2013 Jun 5.
+
+Somatic mutation profiling and associations with prognosis and trastuzumab 
+benefit in early breast cancer.
+
+Loi S(1), Michiels S, Lambrechts D, Fumagalli D, Claes B, Kellokumpu-Lehtinen 
+PL, Bono P, Kataja V, Piccart MJ, Joensuu H, Sotiriou C.
+
+Author information:
+(1)Breast Cancer Translational Research Laboratory, Institut Jules Bordet, 
+Université Libre de Bruxelles, Brussels, Belgium. sherene.loi@petermac.org
+
+BACKGROUND: Certain somatic alterations in breast cancer can define prognosis 
+and response to therapy. This study investigated the frequencies, prognostic 
+effects, and predictive effects of known cancer somatic mutations using a 
+randomized, adjuvant, phase III clinical trial dataset.
+METHODS: The FinHER trial was a phase III, randomized adjuvant breast cancer 
+trial involving 1010 women. Patients with human epidermal growth factor receptor 
+2 (HER2)-positive breast cancer were further randomized to 9 weeks of 
+trastuzumab or no trastuzumab. Seven hundred five of 1010 tumors had sufficient 
+DNA for genotyping of 70 somatic hotspot mutations in 20 genes using mass 
+spectrometry. Distant disease-free survival (DDFS), overall survival (OS), and 
+interactions with trastuzumab were explored with Kaplan-Meier and Cox regression 
+analyses. All statistical tests were two-sided.
+RESULTS: Median follow-up was 62 months. Of 705 tumors, 687 were successfully 
+genotyped. PIK3CA mutations (exons 1, 2, 4, 9, 13, 18, and 20) were present in 
+25.3% (174 of 687) and TP53 mutations in 10.2% (70 of 687). Few other mutations 
+were found: three ERBB2 and single cases of KRAS, ALK, STK11/LKB1, and AKT2. 
+PIK3CA mutations were associated with estrogen receptor positivity (P < .001) 
+and the luminal-A phenotype (P = .04) but were not statistically significantly 
+associated with prognosis (DDFS: hazard ratio [HR] = 0.88, 95% confidence [CI] = 
+0.58 to 1.34, P = .56; OS: HR = 0.603, 95% CI = .32 to 1.13, P = .11), although 
+a statistically significant nonproportional prognostic effect was observed for 
+DDFS (P = .002). PIK3CA mutations were not statistically significantly 
+associated with trastuzumab benefit (P(interaction): DDFS P = .14; OS P = .24).
+CONCLUSIONS: In this dataset, targeted genotyping revealed only two alterations 
+at a frequency greater than 10%, with other mutations observed infrequently. 
+PIK3CA mutations were associated with a better outcome, however this effect 
+disappeared after 3 years. There were no statistically significant associations 
+with trastuzumab benefit.
+
+DOI: 10.1093/jnci/djt121
+PMCID: PMC3699437
+PMID: 23739063 [Indexed for MEDLINE]
+
+
+71. Breast Cancer Res Treat. 2013 Jan;137(2):483-92. doi:
+10.1007/s10549-012-2378-9.  Epub 2012 Dec 15.
+
+A phase II study of UCN-01 in combination with irinotecan in patients with 
+metastatic triple negative breast cancer.
+
+Ma CX(1), Ellis MJ, Petroni GR, Guo Z, Cai SR, Ryan CE, Craig Lockhart A, 
+Naughton MJ, Pluard TJ, Brenin CM, Picus J, Creekmore AN, Mwandoro T, Yarde ER, 
+Reed J, Ebbert M, Bernard PS, Watson M, Doyle LA, Dancey J, Piwnica-Worms H, 
+Fracasso PM.
+
+Author information:
+(1)Section of Breast Oncology, Division of Oncology, Department of Medicine, 
+Washington University School of Medicine, Campus Box 8056, 660 South Euclid 
+Avenue, St. Louis, MO 63110, USA. cma@dom.wustl.edu
+
+Mutations in TP53 lead to a defective G1 checkpoint and the dependence on 
+checkpoint kinase 1 (Chk1) for G2 or S phase arrest in response to DNA damage. 
+In preclinical studies, Chk1 inhibition resulted in enhanced cytotoxicity of 
+several chemotherapeutic agents. The high frequency of TP53 mutations in triple 
+negative breast cancer (TNBC: negative for estrogen receptor, progesterone 
+receptor, and HER2) make Chk1 an attractive therapeutic target. UCN-01, a 
+non-selective Chk1 inhibitor, combined with irinotecan demonstrated activity in 
+advanced TNBC in our Phase I study. The goal of this trial was to further 
+evaluate this treatment in women with TNBC. Patients with metastatic TNBC 
+previously treated with anthracyclines and taxanes received irinotecan (100-125 
+mg/m(2) IV days 1, 8, 15, 22) and UCN-01 (70 mg/m(2) IV day 2, 35 mg/m(2) day 23 
+and subsequent doses) every 42-day cycle. Peripheral blood mononuclear cells 
+(PBMC) and tumor specimens were collected. Twenty five patients were enrolled. 
+The overall response (complete response (CR) + partial response (PR)) rate was 4 
+%. The clinical benefit rate (CR + PR + stable disease ≥6 months) was 12 %. 
+Since UCN-01 inhibits PDK1, phosphorylated ribosomal protein S6 (pS6) in PBMC 
+was assessed. Although reduced 24 h post UCN-01, pS6 levels rose to baseline by 
+day 8, indicating loss of UCN-01 bioavailability. Immunostains of γH2AX and 
+pChk1(S296) on serial tumor biopsies from four patients demonstrated an 
+induction of DNA damage and Chk1 activation following irinotecan. However, Chk1 
+inhibition by UCN-01 was not observed in all tumors. Most tumors were basal-like 
+(69 %), and carried mutations in TP53 (53 %). Median overall survival in 
+patients with TP53 mutant tumors was poor compared to wild type (5.5 vs. 20.3 
+months, p = 0.004). This regimen had limited activity in TNBC. Inconsistent Chk1 
+inhibition was likely due to the pharmacokinetics of UCN-01. TP53 mutations were 
+associated with a poor prognosis in metastatic TNBC.
+
+DOI: 10.1007/s10549-012-2378-9
+PMCID: PMC3539064
+PMID: 23242585 [Indexed for MEDLINE]
+
+
+72. Pediatr Blood Cancer. 2012 Nov;59(5):846-53. doi: 10.1002/pbc.24223. Epub
+2012  May 31.
+
+Prevalence of germline TP53 mutations and history of Li-Fraumeni syndrome in 
+families with childhood adrenocortical tumors, choroid plexus tumors, and 
+rhabdomyosarcoma: a population-based survey.
+
+Magnusson S(1), Gisselsson D, Wiebe T, Kristoffersson U, Borg Å, Olsson H.
+
+Author information:
+(1)Department of Oncology, Clinical Sciences, Lund University, Lund, Sweden. 
+susanne.magnusson@med.lu.se
+
+PURPOSE: Whether childhood adrenocortical tumors (ACTs), choroid plexus tumors 
+(CPTs), and rhabdomyosarcoma (RMS) are early manifestation of Li-Fraumeni 
+syndrome (LFS) is uncertain. In this study, we evaluated the frequency of 
+germline TP53 mutations and family history in a population-based series of 
+patients.
+PATIENTS AND METHODS: We identified children (≤18 years) diagnosed between 1958 
+and 2008 with ACT (n = 3) or CPT (n = 7), or children ≤5 years with RMS (n = 
+29). Registry-based pedigree expansion was performed.
+RESULTS: No patients had a family history of classic LFS but 17 fulfilled 
+Chompret or Eeles criteria. TP53 mutations were found in 1/3 ACT patients and 
+1/18 RMS patients; both were novel mutations. Of five tested CPT patients none 
+had a detectable mutation. No excess of LFS associated tumors was observed, 
+except for breast cancer in families of CPT patients. An overall increased 
+cancer incidence was observed in families of patients with CPT [standardized 
+incidence ratio (SIR) = 2.0; 95% CI: 1.1-3.5] due to excess of breast and female 
+kidney cancer and in families of patients with RMS (SIR = 1.2; 95% CI: 0.9-1.7), 
+due to excess of early-onset melanoma and male stomach cancer.
+CONCLUSION: Relatives of patients with childhood ACTs, CPTs, and RMSs showed no 
+increased risk of LFS associated tumors. However, TP53 mutations could be found 
+in these children irrespective of family history. Absence of LFS associated 
+tumors may suggest the presence of other cancer syndromes. Improved knowledge 
+about relatives' cancer risks could be helpful in counseling family members of 
+children with cancer.
+
+Copyright © 2012 Wiley Periodicals, Inc.
+
+DOI: 10.1002/pbc.24223
+PMID: 22653678 [Indexed for MEDLINE]
+
+
+73. Breast Cancer Res. 2012 May 2;14(3):R70. doi: 10.1186/bcr3179.
+
+Prognostic and predictive value of TP53 mutations in node-positive breast cancer 
+patients treated with anthracycline- or anthracycline/taxane-based adjuvant 
+therapy: results from the BIG 02-98 phase III trial.
+
+Fernández-Cuesta L(1), Oakman C, Falagan-Lotsch P, Smoth KS, Quinaux E, Buyse M, 
+Dolci MS, Azambuja ED, Hainaut P, Dell'orto P, Larsimont D, Francis PA, Crown J, 
+Piccart-Gebhart M, Viale G, Leo AD, Olivier M.
+
+Author information:
+(1)Molecular Carcinogenesis Group, International Agency for Research on Cancer, 
+150 Cours Albert Thomas, 69372 Lyon Cedex 8, France.
+
+INTRODUCTION: Pre-clinical data suggest p53-dependent anthracycline-induced 
+apoptosis and p53-independent taxane activity. However, dedicated clinical 
+research has not defined a predictive role for TP53 gene mutations. The aim of 
+the current study was to retrospectively explore the prognosis and predictive 
+values of TP53 somatic mutations in the BIG 02-98 randomized phase III trial in 
+which women with node-positive breast cancer were treated with adjuvant 
+doxorubicin-based chemotherapy with or without docetaxel.
+METHODS: The prognostic and predictive values of TP53 were analyzed in tumor 
+samples by gene sequencing within exons 5 to 8. Patients were classified 
+according to p53 protein status predicted from TP53 gene sequence, as wild-type 
+(no TP53 variation or TP53 variations which are predicted not to modify p53 
+protein sequence) or mutant (p53 nonsynonymous mutations). Mutations were 
+subcategorized according to missense or truncating mutations. Survival analyses 
+were performed using the Kaplan-Meier method and log-rank test. Cox-regression 
+analysis was used to identify independent predictors of outcome.
+RESULTS: TP53 gene status was determined for 18% (520 of 2887) of the women 
+enrolled in BIG 02-98. TP53 gene variations were found in 17% (90 of 520). 
+Nonsynonymous p53 mutations, found in 16.3% (85 of 520), were associated with 
+older age, ductal morphology, higher grade and hormone-receptor negativity. Of 
+the nonsynonymous mutations, 12.3% (64 of 520) were missense and 3.6% were 
+truncating (19 of 520). Only truncating mutations showed significant independent 
+prognostic value, with an increased recurrence risk compared to patients with 
+non-modified p53 protein (hazard ratio = 3.21, 95% confidence interval = 1.740 
+to 5.935, P = 0.0002). p53 status had no significant predictive value for 
+response to docetaxel.
+CONCLUSIONS: p53 truncating mutations were uncommon but associated with poor 
+prognosis. No significant predictive role for p53 status was detected.
+TRIAL REGISTRATION: ClinicalTrials.gov NCT00174655.
+
+DOI: 10.1186/bcr3179
+PMCID: PMC3446332
+PMID: 22551440 [Indexed for MEDLINE]
+
+
+74. J Biol Chem. 2012 May 18;287(21):17109-17119. doi: 10.1074/jbc.M111.326975.
+Epub  2012 Mar 26.
+
+Involvement of S100A14 protein in cell invasion by affecting expression and 
+function of matrix metalloproteinase (MMP)-2 via p53-dependent transcriptional 
+regulation.
+
+Chen H(1), Yuan Y(1), Zhang C(1), Luo A(1), Ding F(1), Ma J(1), Yang S(1), Tian 
+Y(1), Tong T(1), Zhan Q(1), Liu Z(2).
+
+Author information:
+(1)State Key Laboratory of Molecular Oncology, Cancer Institute and Hospital, 
+Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 
+100021, China.
+(2)State Key Laboratory of Molecular Oncology, Cancer Institute and Hospital, 
+Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 
+100021, China. Electronic address: liuzh@cicams.ac.cn.
+
+S100 proteins have been implicated in tumorigenesis and metastasis. As a member 
+of S100 proteins, the role of S100A14 in carcinogenesis has not been fully 
+understood. Here, we showed that ectopic overexpression of S100A14 promotes 
+motility and invasiveness of esophageal squamous cell carcinoma cells. We 
+investigated the underlying mechanisms and found that the expression of matrix 
+metalloproteinase (MMP)-2 is obviously increased after S100A14 gene 
+overexpression. Inhibition of MMP2 by a specific MMP2 inhibitor at least partly 
+reversed the invasive phenotype of cells overexpressing S100A14. By serendipity, 
+we found that S100A14 could affect p53 transactivity and stability. Thus, we 
+further investigated whether the effect of MMP2 by S100A14 is dependent on p53. 
+A series of biochemical assays showed that S100A14 requires functional p53 to 
+affect MMP2 transcription, and p53 potently transrepresses the expression of 
+MMP2. Finally, RT-quantitative PCR analysis of human breast cancer specimens 
+showed a significant correlation between S100A14 mRNA expression and MMP2 mRNA 
+expression in cases with wild-type p53 but not in cases with mutant p53. 
+Collectively, our data strongly suggest that S100A14 promotes cell motility and 
+invasiveness by regulating the expression and function of MMP2 in a 
+p53-dependent manner.
+
+DOI: 10.1074/jbc.M111.326975
+PMCID: PMC3366841
+PMID: 22451655 [Indexed for MEDLINE]
+
+
+75. Breast Cancer Res. 2012 Mar 15;14(2):R47. doi: 10.1186/bcr3147.
+
+Low expression levels of ATM may substitute for CHEK2 /TP53 mutations predicting 
+resistance towards anthracycline and mitomycin chemotherapy in breast cancer.
+
+Knappskog S(1), Chrisanthar R, Løkkevik E, Anker G, Østenstad B, Lundgren S, 
+Risberg T, Mjaaland I, Leirvaag B, Miletic H, Lønning PE.
+
+Author information:
+(1)Section of Oncology, Institute of Medicine, University of Bergen, Jonas Lies 
+vei 65, Bergen, 5020, Norway. per.lonning@helse-bergen.no.
+
+INTRODUCTION: Mutations affecting p53 or its upstream activator Chk2 are 
+associated with resistance to DNA-damaging chemotherapy in breast cancer. ATM 
+(Ataxia Telangiectasia Mutated protein) is the key activator of p53 and Chk2 in 
+response to genotoxic stress. Here, we sought to evaluate ATM's potential role 
+in resistance to chemotherapy.
+METHODS: We sequenced ATM and assessed gene expression levels in pre-treatment 
+biopsies from 71 locally advanced breast cancers treated in the neoadjuvant 
+setting with doxorubicin monotherapy or mitomycin combined with 5-fluorouracil. 
+Findings were confirmed in a separate patient cohort treated with epirubicin 
+monotherapy. Each tumor was previously analyzed for CHEK2 and TP53 mutation 
+status.
+RESULTS: While ATM mutations were not associated with chemo-resistance, low ATM 
+expression levels predicted chemo-resistance among patients with tumors 
+wild-type for TP53 and CHEK2 (P = 0.028). Analyzing the ATM-chk2-p53 cascade, 
+low ATM levels (defined as the lower 5 to 50% percentiles) or mutations 
+inactivating TP53 or CHEK2 robustly predicted anthracycline resistance (P-values 
+varying between 0.001 and 0.027 depending on the percentile used to define "low" 
+ATM levels). These results were confirmed in an independent cohort of 109 
+patients treated with epirubicin monotherapy. In contrast, ATM-levels were not 
+suppressed in resistant tumors harboring TP53 or CHEK2 mutations (P > 0.5).
+CONCLUSIONS: Our data indicate loss of function of the ATM-Chk2-p53 cascade to 
+be strongly associated with resistance to anthracycline/mitomycin-containing 
+chemotherapy in breast cancer.
+
+DOI: 10.1186/bcr3147
+PMCID: PMC3446381
+PMID: 22420423 [Indexed for MEDLINE]
+
+
+76. Clin Cancer Res. 2011 Oct 1;17(19):6313-21. doi:
+10.1158/1078-0432.CCR-11-1101.  Epub 2011 Aug 10.
+
+A phase I first-in-human pharmacokinetic and pharmacodynamic study of serdemetan 
+in patients with advanced solid tumors.
+
+Tabernero J(1), Dirix L, Schöffski P, Cervantes A, Lopez-Martin JA, Capdevila J, 
+van Beijsterveldt L, Platero S, Hall B, Yuan Z, Knoblauch R, Zhuang SH.
+
+Author information:
+(1)Vall d'Hebron University Hospital, Universitat Autònoma de Barcelona, 
+Barcelona, Spain. jtabernero@vhio.net
+
+PURPOSE: Originally isolated on the basis of its ability to induce p53, 
+serdemetan showed potent activity in various preclinical models, inducing 
+S-phase arrest and apoptosis in TP53 wild-type and mutant tumors. This study 
+evaluated the safety and tolerability of serdemetan, determined the 
+pharmacokinetic and pharmacodynamic profiles, and identified a recommended phase 
+II dose.
+PATIENTS AND METHODS: Patients (71) with refractory solid tumors were allocated 
+to dose-escalating cohorts (3+3 patients each) and received oral serdemetan once 
+daily in 21-day cycles to determine the maximum tolerated dose (MTD) and 
+dose-limiting toxicities (DLT). Plasma was collected for pharmacokinetic 
+analyses. Paired baseline and on-treatment skin and tumor biopsies were done; 
+blood samples were collected for pharmacodynamic analyses, including p53 and 
+macrophage inhibitory cytokine-1 induction.
+RESULTS: The MTD of serdemetan was determined to be 350 mg once daily. During 
+this study, grade 3 QTc prolongation was the most common DLT and nausea (66.2%) 
+was the most frequent treatment-emergent adverse event. Serdemetan was rapidly 
+absorbed after oral administration and exhibited dose-proportional 
+pharmacokinetics. At steady state, mean maximum plasma concentration (C(max)) 
+was 2,330 ng/mL and mean area under plasma concentration curve (AUC(0-24h)) was 
+43.0 μg.h/mL, with serdemetan 300 mg/d. There was a dose- and exposure-dependent 
+p53 induction. One patient with breast cancer showed a partial response; 22 
+(38.6%) patients had stable disease.
+CONCLUSIONS: Serdemetan treatment was associated with p53 induction in both 
+tumor and surrogate tissue pharmacodynamic studies and modest clinical activity. 
+Although serdemetan was well tolerated with dose-proportional pharmacokinetics, 
+exposure-related QTc liability was observed.
+
+©2011 AACR
+
+DOI: 10.1158/1078-0432.CCR-11-1101
+PMID: 21831953 [Indexed for MEDLINE]
+
+
+77. Breast Cancer Res Treat. 2011 Aug;128(3):783-94. doi:
+10.1007/s10549-011-1612-1.  Epub 2011 Jun 8.
+
+Evidence for biological effects of metformin in operable breast cancer: a 
+pre-operative, window-of-opportunity, randomized trial.
+
+Hadad S(1), Iwamoto T, Jordan L, Purdie C, Bray S, Baker L, Jellema G, Deharo S, 
+Hardie DG, Pusztai L, Moulder-Thompson S, Dewar JA, Thompson AM.
+
+Author information:
+(1)University of Dundee, Ninewells Hospital and Medical School, Dundee, DD1 9SY, 
+UK. s.hadad@nhs.net
+
+Metformin may reduce the incidence of breast cancer and enhance response to 
+neoadjuvant chemotherapy in diabetic women. This trial examined the effects of 
+metformin on Ki67 and gene expression in primary breast cancer. Non-diabetic 
+women with operable invasive breast cancer received pre-operative metformin. A 
+pilot cohort of eight patients had core biopsy of the cancer at presentation, a 
+week later (without treatment; internal control), then following metformin 
+500-mg o.d. for 1 week increased to 1-g b.d. for a further week continued to 
+surgery. A further 47 patients had core biopsy at diagnosis were randomized to 
+metformin (the same dose regimen) or no drug, and 2 weeks later had core biopsy 
+at surgery. Ki67 immunohistochemistry, transcriptome analysis on formalin-fixed 
+paraffin-embedded cores and serum insulin determination were performed blinded 
+to treatment. Seven patients (7/32, 21.9%) receiving metformin withdrew because 
+of gastrointestinal upset. The mean percentage of cells staining for Ki67 fell 
+significantly following metformin treatment in both the pilot cohort (P = 0.041, 
+paired t-test) and in the metformin arm (P = 0.027, Wilcoxon rank test) but was 
+unchanged in the internal control or metformin control arms. Messenger RNA 
+expression was significantly downregulated by metformin for PDE3B 
+(phosphodiesterase 3B, cGMP-inhibited; a critical regulator of cAMP levels that 
+affect activation of AMP-activated protein kinase, AMPK), confirmed by 
+immunohistochemistry, SSR3, TP53 and CCDC14. By ingenuity pathway analysis, the 
+tumour necrosis factor receptor 1 (TNFR1) signaling pathway was most affected by 
+metformin: TGFB and MEKK were upregulated and cdc42 downregulated; mTOR and AMPK 
+pathways were also affected. Gene set analysis additionally revealed that p53, 
+BRCA1 and cell cycle pathways also had reduced expression following metformin. 
+Mean serum insulin remained stable in patients receiving metformin but rose in 
+control patients. This trial presents biomarker evidence for anti-proliferative 
+effects of metformin in women with breast cancer and provides support for 
+therapeutic trials of metformin.
+
+DOI: 10.1007/s10549-011-1612-1
+PMID: 21655990 [Indexed for MEDLINE]

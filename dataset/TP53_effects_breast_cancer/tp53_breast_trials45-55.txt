@@ -1,0 +1,684 @@
+45. J Clin Invest. 2018 Apr 2;128(4):1371-1383. doi: 10.1172/JCI96153. Epub 2018
+Feb  26.
+
+Integrated RNA and DNA sequencing reveals early drivers of metastatic breast 
+cancer.
+
+Siegel MB(1)(2), He X(2), Hoadley KA(1)(2), Hoyle A(2), Pearce JB(3), Garrett 
+AL(3), Kumar S(2), Moylan VJ(4), Brady CM(4), Van Swearingen AE(2), Marron D(2), 
+Gupta GP(2)(5), Thorne LB(4), Kieran N(3), Livasy C(4)(6), Mardis ER(7), Parker 
+JS(1)(2), Chen M(8), Anders CK(2)(3), Carey LA(2)(3), Perou CM(1)(2)(4).
+
+Author information:
+(1)Department of Genetics.
+(2)Lineberger Comprehensive Cancer Center.
+(3)Division of Hematology-Oncology, Department of Medicine, School of Medicine.
+(4)Department of Pathology and Laboratory Medicine, and.
+(5)Department of Radiation Oncology, School of Medicine, University of North 
+Carolina (UNC) at Chapel Hill, Chapel Hill, North Carolina, USA.
+(6)Department of Pathology, Levine Cancer Institute, Carolinas Medical Center, 
+Carolinas HealthCare System, Charlotte, North Carolina, USA.
+(7)The Research Institute at Nationwide Children's Hospital, The Ohio State 
+University College of Medicine, Columbus, Ohio, USA.
+(8)Department of Biostatistics, UNC at Chapel Hill, Chapel Hill, North Carolina, 
+USA.
+
+Breast cancer metastasis remains a clinical challenge, even within a single 
+patient across multiple sites of the disease. Genome-wide comparisons of both 
+the DNA and gene expression of primary tumors and metastases in multiple 
+patients could help elucidate the underlying mechanisms that cause breast cancer 
+metastasis. To address this issue, we performed DNA exome and RNA sequencing of 
+matched primary tumors and multiple metastases from 16 patients, totaling 83 
+distinct specimens. We identified tumor-specific drivers by integrating known 
+protein-protein network information with RNA expression and somatic DNA 
+alterations and found that genetic drivers were predominantly established in the 
+primary tumor and maintained through metastatic spreading. In addition, our 
+analyses revealed that most genetic drivers were DNA copy number changes, the 
+TP53 mutation was a recurrent founding mutation regardless of subtype, and that 
+multiclonal seeding of metastases was frequent and occurred in multiple 
+subtypes. Genetic drivers unique to metastasis were identified as somatic 
+mutations in the estrogen and androgen receptor genes. These results highlight 
+the complexity of metastatic spreading, be it monoclonal or multiclonal, and 
+suggest that most metastatic drivers are established in the primary tumor, 
+despite the substantial heterogeneity seen in the metastases.
+
+DOI: 10.1172/JCI96153
+PMCID: PMC5873890
+PMID: 29480819 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest: CMP is an equity stock 
+holder of BioClassifier LLC and University Genomics, and ERM, JSP, and CMP have 
+filed a US patent on the PAM50 subtyping assay (US 12995459).
+
+
+46. J Clin Oncol. 2018 May 1;36(13):1291-1299. doi: 10.1200/JCO.2017.72.7107.
+Epub  2018 Feb 5.
+
+Phosphatidylinositol 3-Kinase α-Selective Inhibition With Alpelisib (BYL719) in 
+PIK3CA-Altered Solid Tumors: Results From the First-in-Human Study.
+
+Juric D(1), Rodon J(1), Tabernero J(1), Janku F(1), Burris HA(1), Schellens 
+JHM(1), Middleton MR(1), Berlin J(1), Schuler M(1), Gil-Martin M(1), Rugo HS(1), 
+Seggewiss-Bernhardt R(1), Huang A(1), Bootle D(1), Demanse D(1), Blumenstein 
+L(1), Coughlin C(1), Quadt C(1), Baselga J(1).
+
+Author information:
+(1)Dejan Juric, Massachusetts General Hospital Cancer Center, Boston; Alan 
+Huang, Novartis Institutes for BioMedical Research, Cambridge, MA; Jordi Rodon 
+and Josep Tabernero, Vall d'Hebron University Hospital and Institute of 
+Oncology, Universitat Autònoma de Barcelona; Marta Gil-Martin, Catalan Institute 
+of Oncology - Bellvitge Biomedical Research Institute (IDIBELL), Barcelona, 
+Spain; Filip Janku, The University of Texas MD Anderson Cancer Center, Houston, 
+TX; Howard A. Burris, Sarah Cannon Research Institute and Tennessee Oncology; 
+Jordan Berlin, Vanderbilt-Ingram Cancer Center, Nashville, TN; Jan H.M. 
+Schellens, Netherlands Cancer Institute, Amsterdam, the Netherlands; Mark R. 
+Middleton, National Institute for Health Research, Oxford Biomedical Research 
+Centre, Churchill Hospital, Oxford, United Kingdom; Martin Schuler, West German 
+Cancer Center, University Duisburg-Essen, and German Cancer Consortium, Partner 
+Site University Hospital Essen, Essen; Ruth Seggewiss-Bernhardt, Comprehensive 
+Cancer Center Mainfranken, University Hospital Würzburg, Würzburg, Germany; Hope 
+S. Rugo, University of California San Francisco Helen Diller Family 
+Comprehensive Cancer Center, San Francisco, CA; Douglas Bootle, David Demanse, 
+Lars Blumenstein, and Cornelia Quadt, Novartis Pharma AG, Basel, Switzerland; 
+Christina Coughlin, Novartis Pharmaceuticals Corporation, East Hanover, NJ; and 
+José Baselga, Memorial Sloan Kettering Cancer Center, New York, NY.
+
+Erratum in
+    J Clin Oncol. 2019 Feb 1;37(4):361. doi: 10.1200/JCO.18.02266.
+    J Clin Oncol. 2019 Feb 1;37(4):361. doi: 10.1200/JCO.18.02208.
+
+Comment in
+    Cancer Discov. 2018 Apr;8(4):OF7. doi: 10.1158/2159-8290.CD-RW2018-027.
+    J Clin Oncol. 2018 May 1;36(13):1339-1342. doi: 10.1200/JCO.2017.77.0891.
+
+Purpose We report the first-in-human phase Ia study to our knowledge ( 
+ClinicalTrials.gov identifier: NCT01219699) identifying the maximum tolerated 
+dose and assessing safety and preliminary efficacy of single-agent alpelisib 
+(BYL719), an oral phosphatidylinositol 3-kinase α (PI3Kα)-selective inhibitor. 
+Patients and Methods In the dose-escalation phase, patients with PIK3CA-altered 
+advanced solid tumors received once-daily or twice-daily oral alpelisib on a 
+continuous schedule. In the dose-expansion phase, patients with PIK3CA-altered 
+solid tumors and PIK3CA-wild-type, estrogen receptor-positive/human epidermal 
+growth factor receptor 2-negative breast cancer received alpelisib 400 mg once 
+daily. Results One hundred thirty-four patients received treatment. Alpelisib 
+maximum tolerated doses were established as 400 mg once daily and 150 mg twice 
+daily. Nine patients (13.2%) in the dose-escalation phase had dose-limiting 
+toxicities of hyperglycemia (n = 6), nausea (n = 2), and both hyperglycemia and 
+hypophosphatemia (n = 1). Frequent all-grade, treatment-related adverse events 
+included hyperglycemia (51.5%), nausea (50.0%), decreased appetite (41.8%), 
+diarrhea (40.3%), and vomiting (31.3%). Alpelisib was rapidly absorbed; 
+half-life was 7.6 hours at 400 mg once daily with minimal accumulation. 
+Objective tumor responses were observed at doses ≥ 270 mg once daily; overall 
+response rate was 6.0% (n = 8; one patient with endometrial cancer had a 
+complete response, and seven patients with cervical, breast, endometrial, colon, 
+and rectal cancers had partial responses). Stable disease was achieved in 70 
+(52.2%) patients and was maintained > 24 weeks in 13 (9.7%) patients; disease 
+control rate (complete and partial responses and stable disease) was 58.2%. In 
+patients with estrogen receptor-positive/human epidermal growth factor receptor 
+2-negative breast cancer, median progression-free survival was 5.5 months. 
+Frequently mutated genes (≥ 10% tumors) included TP53 (51.3%), APC (23.7%), KRAS 
+(22.4%), ARID1A (13.2%), and FBXW7 (10.5%). Conclusion Alpelisib demonstrated a 
+tolerable safety profile and encouraging preliminary activity in patients with 
+PIK3CA-altered solid tumors, supporting the rationale for selective PI3Kα 
+inhibition in combination with other agents for the treatment of PIK3CA-mutant 
+tumors.
+
+DOI: 10.1200/JCO.2017.72.7107
+PMCID: PMC5920739
+PMID: 29401002 [Indexed for MEDLINE]
+
+
+47. J Clin Oncol. 2017 Oct 20;35(30):3391-3400. doi: 10.1200/JCO.2017.73.3246.
+Epub  2017 Aug 30.
+
+First-in-Human Phase I Study of the Tamoxifen Metabolite Z-Endoxifen in Women 
+With Endocrine-Refractory Metastatic Breast Cancer.
+
+Goetz MP(1), Suman VJ(1), Reid JM(1), Northfelt DW(1), Mahr MA(1), Ralya AT(1), 
+Kuffel M(1), Buhrow SA(1), Safgren SL(1), McGovern RM(1), Black J(1), Dockter 
+T(1), Haddad T(1), Erlichman C(1), Adjei AA(1), Visscher D(1), Chalmers ZR(1), 
+Frampton G(1), Kipp BR(1), Liu MC(1), Hawse JR(1), Doroshow JH(1), Collins 
+JM(1), Streicher H(1), Ames MM(1), Ingle JN(1).
+
+Author information:
+(1)Matthew P. Goetz, Vera J. Suman, Joel M. Reid, Don W. Northfelt, Michael A. 
+Mahr, Andrew T. Ralya, Mary Kuffel, Sarah A. Buhrow, Stephanie L. Safgren, Renee 
+M. McGovern, John Black, Travis Dockter, Tufia Haddad, Charles Erlichman, Alex 
+A. Adjei, Dan Visscher, Benjamin R. Kipp, Minetta C. Liu, John R. Hawse, Matthew 
+M. Ames, and James N. Ingle, Mayo Clinic, Rochester, MN; Zachary R. Chalmers and 
+Garrett Frampton, Foundation Medicine, Cambridge, MA; and John R. Hawse, James 
+H. Doroshow, Jerry M. Collins, and Howard Streicher, National Cancer Institute, 
+Bethesda, MD.
+
+Comment in
+    J Clin Oncol. 2017 Oct 20;35(30):3378-3379. doi: 10.1200/JCO.2017.74.9325.
+
+Purpose Endoxifen is a tamoxifen metabolite with potent antiestrogenic activity. 
+Patients and Methods We performed a phase I study of oral Z-endoxifen to 
+determine its toxicities, maximum tolerated dose (MTD), pharmacokinetics, and 
+clinical activity. Eligibility included endocrine-refractory, estrogen 
+receptor-positive metastatic breast cancer. An accelerated titration schedule 
+was applied until moderate or dose-limiting toxicity occurred, followed by a 3+3 
+design and expansion at 40, 80, and 100 mg per day. Tumor DNA from serum 
+(circulating cell free [cf); all patients] and biopsies [160 mg/day and 
+expansion]) was sequenced. Results Of 41 enrolled patients, 38 were evaluable 
+for MTD determination. Prior endocrine regimens during which progression 
+occurred included aromatase inhibitor (n = 36), fulvestrant (n = 21), and 
+tamoxifen (n = 15). Patients received endoxifen once daily at seven dose levels 
+(20 to 160 mg). Dose escalation ceased at 160 mg per day given lack of MTD and 
+endoxifen concentrations > 1,900 ng/mL. Endoxifen clearance was unaffected by 
+CYP2D6 genotype. One patient (60 mg) had cycle 1 dose-limiting toxicity 
+(pulmonary embolus). Overall clinical benefit rate (stable > 6 months [n = 7] or 
+partial response by RECIST criteria [n = 3]) was 26.3% (95% CI, 13.4% to 43.1%) 
+including prior tamoxifen progression (n = 3). cfDNA mutations were observed in 
+13 patients ( PIK3CA [n = 8], ESR1 [n = 5], TP53 [n = 4], and AKT [n = 1]) with 
+shorter progression-free survival ( v those without cfDNA mutations; median, 61 
+v 132 days; log-rank P = .046). Clinical benefit was observed in those with ESR1 
+amplification (tumor; 80 mg/day) and ESR1 mutation (cfDNA; 160 mg/day). 
+Comparing tumor biopsies and cfDNA, some mutations ( PIK3CA, TP53, and AKT) were 
+undetected by cfDNA, whereas cfDNA mutations ( ESR1, TP53, and AKT) were 
+undetected by biopsy. Conclusion In endocrine-refractory metastatic breast 
+cancer, Z-endoxifen provides substantial drug exposure unaffected by CYP2D6 
+metabolism, acceptable toxicity, and promising antitumor activity.
+
+DOI: 10.1200/JCO.2017.73.3246
+PMCID: PMC5648176
+PMID: 28854070 [Indexed for MEDLINE]
+
+
+48. Anticancer Res. 2017 Jun;37(6):2947-2957. doi: 10.21873/anticanres.11648.
+
+The Prognostic Value of the Immunohistochemical Expression of Phosphorylated RB 
+and p16 Proteins in Association with Cyclin D1 and the p53 Pathway in a Large 
+Cohort of Patients with Breast Cancer Treated with Taxane-based Adjuvant 
+Chemotherapy.
+
+Gavressea T(1), Kalogeras KT(2)(3), Koliou GA(4), Zagouri F(5), Lazaridis G(6), 
+Gogas H(7), Tsigaridas K(8), Koutras A(9), Petraki K(10), Markopoulos C(11), 
+Pazarli E(12), Aravantinos G(13), Papadimitriou C(5), Papakostas P(14), 
+Koufopoulos N(15), Karanikiotis C(16), Chrisafi S(2), Kalofonos HP(9), 
+Pectasides D(17), Fountzilas G(2)(18), Pavlakis K(19).
+
+Author information:
+(1)Department of Pathology, Iaso Women's Hospital, Athens, Greece 
+fanigav@gmail.com.
+(2)Laboratory of Molecular Oncology, Hellenic Foundation for Cancer 
+Research/Aristotle University of Thessaloniki, Thessaloniki, Greece.
+(3)Translational Research Section, Hellenic Cooperative Oncology Group, Data 
+Office, Athens, Greece.
+(4)Section of Biostatistics, Hellenic Cooperative Oncology Group, Data Office, 
+Athens, Greece.
+(5)Department of Clinical Therapeutics, Alexandra Hospital, National and 
+Kapodistrian University of Athens School of Medicine, Athens, Greece.
+(6)Department of Medical Oncology, Papageorgiou Hospital, Aristotle University 
+of Thessaloniki, School of Health Sciences, Faculty of Medicine, Thessaloniki, 
+Greece.
+(7)First Department of Medicine, Laiko General Hospital, National and 
+Kapodistrian University of Athens School of Medicine, Athens, Greece.
+(8)First Department of Medical Oncology, Metropolitan Hospital, Piraeus, Greece.
+(9)Division of Oncology, Department of Medicine, University Hospital, University 
+of Patras Medical School, Patras, Greece.
+(10)Pathology Department, Metropolitan Hospital, Piraeus, Greece.
+(11)Second Department of Propedeutic Surgery, Laiko General Hospital, National 
+and Kapodistrian University of Athens School of Medicine, Athens, Greece.
+(12)Department of Pathology, Papageorgiou Hospital, Aristotle University of 
+Thessaloniki, School of Health Sciences, Faculty of Medicine, Thessaloniki, 
+Greece.
+(13)Second Department of Medical Oncology, Agii Anargiri Cancer Hospital, 
+Athens, Greece.
+(14)Oncology Unit, Second Department of Internal Medicine, Hippokration 
+Hospital, Athens, Greece.
+(15)Pathology Department, Saint Savvas Anticancer Hospital, Athens, Greece.
+(16)Department of Medical Oncology, 424 Army General Hospital, Thessaloniki, 
+Greece.
+(17)Oncology Section, Second Department of Internal Medicine, Hippokration 
+Hospital, Athens, Greece.
+(18)Aristotle University of Thessaloniki, Thessaloniki, Greece.
+(19)Pathology Department, National and Kapodistrian University of Athens Medical 
+School, Athens, Greece.
+
+BACKGROUND: The retinoblastoma (RB) gene is a tumor-suppressor gene that plays a 
+central role in regulating the cell cycle. Inactivation of this gene is involved 
+in breast cancer.
+PATIENTS AND METHODS: A total of 827 patients with breast cancer treated with 
+taxane-based adjuvant chemotherapy were included in the study. Protein 
+expression of RB, phosphorylated RB (pRB), p16, cyclin D1 and p53 was evaluated 
+by immunohistochemistry.
+RESULTS: Neither of the retinoblastoma markers (RB and pRB) reached statistical 
+significance in terms of their association with disease-free or overall 
+survival. Nevertheless, when clustering analysis was performed, patients with 
+tumors featuring low levels of p16, cyclin D1 and p53 with concomitantly high 
+levels of pRB had reduced risk for relapse (Wald's p=0.015).
+CONCLUSION: The p53-mediated sensitivity of breast cancer cells to 
+chemotherapeutic agents appears to be driven mostly by pRB. Using agents that 
+enhance RB phosphorylation might possibly increase the chemosensitivity of 
+breast cancer cells.
+
+Copyright© 2017, International Institute of Anticancer Research (Dr. George J. 
+Delinasios), All rights reserved.
+
+DOI: 10.21873/anticanres.11648
+PMID: 28551632 [Indexed for MEDLINE]
+
+
+49. J Clin Oncol. 2017 Sep 20;35(27):3105-3112. doi: 10.1200/JCO.2016.69.6179.
+Epub  2017 May 12.
+
+Phase I Study and Biomarker Analysis of Pyrotinib, a Novel Irreversible Pan-ErbB 
+Receptor Tyrosine Kinase Inhibitor, in Patients With Human Epidermal Growth 
+Factor Receptor 2-Positive Metastatic Breast Cancer.
+
+Ma F(1), Li Q(1), Chen S(1), Zhu W(1), Fan Y(1), Wang J(1), Luo Y(1), Xing P(1), 
+Lan B(1), Li M(1), Yi Z(1), Cai R(1), Yuan P(1), Zhang P(1), Li Q(1), Xu B(1).
+
+Author information:
+(1)All authors: National Cancer Center/Cancer Hospital, Chinese Academy of 
+Medical Sciences and Peking Union Medical College, Beijing, China.
+
+Comment in
+    J Clin Oncol. 2017 Sep 20;35(27):3089-3091. doi: 10.1200/JCO.2017.73.5670.
+
+Purpose This phase I study assessed the safety, tolerability, pharmacokinetics, 
+antitumor activity, and predictive biomarkers of pyrotinib, an irreversible 
+pan-ErbB inhibitor, in patients with human epidermal growth factor receptor 2 
+(HER2)-positive metastatic breast cancer. Patients and Methods Pyrotinib was 
+administered continuously, orally, once per day to patients who did not have 
+prior exposure to tyrosine kinase inhibitors of HER2. Planned dose escalation 
+was 80, 160, 240, 320, 400, and 480 mg. For pharmacokinetic analysis, timed 
+blood samples were collected on day 1 and day 28. Next-generation sequencing was 
+performed on circulating tumor DNA and genomic DNA from tumor samples. Results 
+Thirty-eight patients were enrolled. The dose-limiting toxicity was grade 3 
+diarrhea, which occurred in two patients administered 480 mg of pyrotinib; thus, 
+the maximum tolerated dose was 400 mg. Common pyrotinib-related adverse events 
+included diarrhea (44.7% [17 of 38]), nausea (13.2% [five of 38]), oral 
+ulceration (13.2% [five of 38]), asthenia (10.5% [four of 38]), and leukopenia 
+(10.5% [four of 38]). The only grade 3 adverse event was diarrhea. 
+Pharmacokinetic analyses indicated that pyrotinib exposure was dose dependent. 
+The overall response rate was 50.0% (18 of 36), and the clinical benefit rate 
+(complete response + partial response + stable disease ≥ 24 weeks) was 61.1% (22 
+of 36). The median progression-free survival was 35.4 weeks (95% CI, 23.3 to 
+40.0 weeks). The overall response rate was 83.3% (10 of 12) in trastuzumab-naive 
+patients and 33.3% (eight of 24) in trastuzumab-pretreated patients. Preliminary 
+results suggest that PIK3CA and TP53 mutations in circulating tumor DNA ( P = 
+.013) rather than in archival tumor tissues ( P = .474) may predict the efficacy 
+of pyrotinib. Conclusion Continuous once-per-day pyrotinib was well tolerated 
+and demonstrated promising antitumor activity in HER2-positive patients with 
+metastatic breast cancer. The maximum tolerated dose was established as 400 mg. 
+Diarrhea was the dose-limiting toxicity. The promising antitumor activity and 
+acceptable tolerability of pyrotinib warrant its further evaluation in a phase 
+II study.
+
+DOI: 10.1200/JCO.2016.69.6179
+PMID: 28498781 [Indexed for MEDLINE]
+
+
+50. J Hematol Oncol. 2017 Feb 8;10(1):45. doi: 10.1186/s13045-017-0411-5.
+
+Clinical impact of extensive molecular profiling in advanced cancer patients.
+
+Cousin S(1)(2), Grellety T(2), Toulmonde M(1)(2), Auzanneau C(3), Khalifa E(3), 
+Laizet Y(4), Tran K(4), Le Moulec S(1)(2), Floquet A(2), Garbay D(2), Robert 
+J(3), Hostein I(3), Soubeyran I(3), Italiano A(5)(6).
+
+Author information:
+(1)Early Phase Trials Unit, Institut Bergonié, 229 Cours de l'Argonne, 33000, 
+Bordeaux, France.
+(2)Department of Medicine, Institut Bergonié, 229 Cours de l'Argonne, 33000, 
+Bordeaux, France.
+(3)Department of Biopathology, Institut Bergonié, 229 Cours de l'Argonne, 33000, 
+Bordeaux, France.
+(4)Department of Bioinformatics, Institut Bergonié, 229 Cours de l'Argonne, 
+33000, Bordeaux, France.
+(5)Early Phase Trials Unit, Institut Bergonié, 229 Cours de l'Argonne, 33000, 
+Bordeaux, France. a.italiano@bordeaux.unicancer.fr.
+(6)Department of Medicine, Institut Bergonié, 229 Cours de l'Argonne, 33000, 
+Bordeaux, France. a.italiano@bordeaux.unicancer.fr.
+
+Previous precision medicine studies have investigated conventional molecular 
+techniques and/or limited sets of gene alterations. The aim of this study was to 
+describe the impact of the next-generation sequencing of the largest panel of 
+genes used to date in tumour tissue and blood in the context of institutional 
+molecular screening programmes. DNA analysis was performed by next-generation 
+sequencing using a panel of 426 cancer-related genes and by comparative genomic 
+hybridization from formalin-fixed and paraffin-embedded archived tumour samples 
+when available or from fresh tumour samples. Five hundred sixty-eight patients 
+were enrolled. The median number of prior lines of treatment was 2 (range 0-9). 
+The most common primary tumour types were lung (16.9%), colorectal (14.4%), 
+breast (10.6%), ovarian (10.2%) and sarcoma (10.2%). The median patient age was 
+63 years (range 19-88). A total of 292 patients (51.4%) presented with at least 
+one actionable genetic alteration. The 20 genes most frequently altered were 
+TP53, CDKN2A, KRAS, PTEN, PI3KCA, RB1, APC, ERBB2, MYC, EGFR, CDKN2B, ARID1A, 
+SMAD4, FGFR1, MDM2, BRAF, ATM, CCNE1, FGFR3 and FRS2. One hundred fifty-nine 
+patients (28%) were included in early phase trials. The treatment was matched 
+with a tumour profile in 86 cases (15%). The two main reasons for non-inclusion 
+were non-progressive disease (31.5%) and general status deterioration (25%). 
+Twenty-eight percent of patients presented with a growth modulation index (time 
+to progression under the early phase trial treatment/time to progression of the 
+previous line of treatment) >1.3.Extensive molecular profiling using 
+high-throughput techniques allows for the identification of actionable mutations 
+in the majority of cases and is associated with substantial clinical benefit in 
+up to one in four patients.
+
+DOI: 10.1186/s13045-017-0411-5
+PMCID: PMC5299780
+PMID: 28179005 [Indexed for MEDLINE]
+
+
+51. PLoS Med. 2016 Dec 6;13(12):e1002136. doi: 10.1371/journal.pmed.1002136. 
+eCollection 2016 Dec.
+
+Clonal Evolutionary Analysis during HER2 Blockade in HER2-Positive Inflammatory 
+Breast Cancer: A Phase II Open-Label Clinical Trial of Afatinib +/- Vinorelbine.
+
+Goh G(1)(2), Schmid R(3), Guiver K(4), Arpornwirat W(5), Chitapanarux I(6), 
+Ganju V(7), Im SA(8), Kim SB(9), Dechaphunkul A(10), Maneechavakajorn J(11), 
+Spector N(12), Yau T(13), Afrit M(14), Ahmed SB(15), Johnston SR(16), Gibson 
+N(3), Uttenreuther-Fischer M(3), Herrero J(2), Swanton C(1)(17).
+
+Author information:
+(1)Translational Cancer Therapeutics Laboratory, UCL Cancer Institute, London, 
+United Kingdom.
+(2)Bill Lyons Informatics Centre, UCL Cancer Institute, London, United Kingdom.
+(3)Boehringer Ingelheim Pharma GmbH & Co.KG, Biberach, Germany.
+(4)Boehringer Ingelheim Ltd, Bracknell, United Kingdom.
+(5)National Cancer Institute, Bangkok, Thailand.
+(6)Maharaj Nakhon Chiang Mai Hospital, Chiang Mai, Thailand.
+(7)Monash Medical Centre, Melbourne, Australia.
+(8)Seoul National University Hospital, Seoul, South Korea.
+(9)Asan Medical Center, University of Ulsan College of Medicine, Ulsan, South 
+Korea.
+(10)Prince of Songkla University, Songkhla, Thailand.
+(11)Rajavithi Hospital, Bangkok, Thailand.
+(12)Duke University Medical Center, Durham, North Carolina, United States of 
+America.
+(13)Queen Mary Hospital, Hong Kong.
+(14)Abderrahman Mami Hospital, Ariana, Tunisia.
+(15)Fahat Hached Hospital, Sousse, Tunisia.
+(16)Royal Marsden Hospital Breast Unit, London, United Kingdom.
+(17)The Francis Crick Institute, London, United Kingdom.
+
+Comment in
+    Precision Cancer Diagnostics: Tracking Genomic Evolution in Clinical Trials.
+
+BACKGROUND: Inflammatory breast cancer (IBC) is a rare, aggressive form of 
+breast cancer associated with HER2 amplification, with high risk of metastasis 
+and an estimated median survival of 2.9 y. We performed an open-label, 
+single-arm phase II clinical trial (ClinicalTrials.gov NCT01325428) to 
+investigate the efficacy and safety of afatinib, an irreversible ErbB family 
+inhibitor, alone and in combination with vinorelbine in patients with 
+HER2-positive IBC. This trial included prospectively planned exome analysis 
+before and after afatinib monotherapy.
+METHODS AND FINDINGS: HER2-positive IBC patients received afatinib 40 mg daily 
+until progression, and thereafter afatinib 40 mg daily and intravenous 
+vinorelbine 25 mg/m2 weekly. The primary endpoint was clinical benefit; 
+secondary endpoints were objective response (OR), duration of OR, and 
+progression-free survival (PFS). Of 26 patients treated with afatinib 
+monotherapy, clinical benefit was achieved in 9 patients (35%), 0 of 7 
+trastuzumab-treated patients and 9 of 19 trastuzumab-naïve patients. Following 
+disease progression, 10 patients received afatinib plus vinorelbine, and 
+clinical benefit was achieved in 2 of 4 trastuzumab-treated and 0 of 6 
+trastuzumab-naïve patients. All patients had treatment-related adverse events 
+(AEs). Whole-exome sequencing of tumour biopsies taken before treatment and 
+following disease progression on afatinib monotherapy was performed to assess 
+the mutational landscape of IBC and evolutionary trajectories during therapy. 
+Compared to a cohort of The Cancer Genome Atlas (TCGA) patients with 
+HER2-positive non-IBC, HER2-positive IBC patients had significantly higher 
+mutational and neoantigenic burden, more frequent gain-of-function TP53 
+mutations and a recurrent 11q13.5 amplification overlapping PAK1. Planned 
+exploratory analysis revealed that trastuzumab-naïve patients with tumours 
+harbouring somatic activation of PI3K/Akt signalling had significantly shorter 
+PFS compared to those without (p = 0.03). High genomic concordance between 
+biopsies taken before and following afatinib resistance was observed with stable 
+clonal structures in non-responding tumours, and evidence of branched evolution 
+in 8 of 9 tumours analysed. Recruitment to the trial was terminated early 
+following the LUX-Breast 1 trial, which showed that afatinib combined with 
+vinorelbine had similar PFS and OR rates to trastuzumab plus vinorelbine but 
+shorter overall survival (OS), and was less tolerable. The main limitations of 
+this study are that the results should be interpreted with caution given the 
+relatively small patient cohort and the potential for tumour sampling bias 
+between pre- and post-treatment tumour biopsies.
+CONCLUSIONS: Afatinib, with or without vinorelbine, showed activity in 
+trastuzumab-naïve HER2-positive IBC patients in a planned subgroup analysis. 
+HER2-positive IBC is characterized by frequent TP53 gain-of-function mutations 
+and a high mutational burden. The high mutational load associated with 
+HER2-positive IBC suggests a potential role for checkpoint inhibitor therapy in 
+this disease.
+TRIAL REGISTRATION: ClinicalTrials.gov NCT01325428.
+
+DOI: 10.1371/journal.pmed.1002136
+PMCID: PMC5140058
+PMID: 27923043 [Indexed for MEDLINE]
+
+Conflict of interest statement: I have read the journal's policy and the authors 
+of this manuscript have the following competing interests: CS declares advisory 
+board or speaker fees on laboratory research over the last 3 years for Roche, 
+Pfizer, Celgene, Boehringer Ingelheim, Novartis, Glaxo Smithkline and Eli Lilly. 
+CS sits on the scientific advisory board and holds stock options for Epic 
+Biosciences, APOGEN Biotech, Grail and is a founder of Achilles Therapeutics. RS 
+KG NG and MUF are employees of Boehringer Ingelheim. SRJ has research funding 
+from Pfizer and is on the advisory boards of Novartis, AstraZenaca and 
+Genentech/Roche. All other authors have declared that no competing interests 
+exist.
+
+
+52. Nat Commun. 2016 Nov 9;7:13294. doi: 10.1038/ncomms13294.
+
+Impact of mutational profiles on response of primary oestrogen receptor-positive 
+breast cancers to oestrogen deprivation.
+
+Gellert P(1), Segal CV(1), Gao Q(1), López-Knowles E(1), Martin LA(1), Dodson 
+A(2), Li T(3), Miller CA(3), Lu C(3), Mardis ER(3), Gillman A(4), Morden J(4), 
+Graf M(1), Sidhu K(2), Evans A(5), Shere M(6), Holcombe C(7), McIntosh SA(8), 
+Bundred N(9), Skene A(10), Maxwell W(11), Robertson J(12), Bliss JM(4), Smith 
+I(2), Dowsett M(1)(2); POETIC Trial Management Group and Trialists.
+
+Collaborators: Johnston S, Todd R, Horgan K, Chan S, Holt SD, Parton M, Laidlaw 
+I, Vaidya JS, Irvine T, Hoar F, Khattak I, Kothari A, Brazil L, Gallegos N, 
+Wheatley D, Johnson T, Sparrow G, Ledwidge S, Mortimer C, Ornstein M, Ferguson 
+D, Adamson D, Cutress R, Johnson R, Crowley C, Winters Z, Hamed H, Burcombe R, 
+Cleator S, Kelleher M, Roberts J, Vesty S, Hadaki M, Quigley M, Doughty J, Laws 
+S, Seetharam S, Thorne A, Donnelly P.
+
+Author information:
+(1)Breast Cancer Now Research Centre at The Institute of Cancer Research, 237 
+Fulham Road, London SW7 3RP, UK.
+(2)Ralph Lauren Centre for Breast Cancer Research, Royal Marsden Hospital, 
+Fulham Road, London SW3 6JJ, UK.
+(3)McDonnell Genome Institute, Washington University School of Medicine, 4444 
+Forest Park Boulevard, St Louis, 63108 Missouri, USA.
+(4)Clinical Trials and Statistics Unit at The Institute of Cancer Research, 15 
+Cotswold Road, Sutton SM2 5NG, UK.
+(5)Poole General Hospital, Longfleet Road, Dorset BH15 2JB, UK.
+(6)Southmead Hospital, Westbury-on-Trym, Bristol BS10 5NB, UK.
+(7)Royal Liverpool University Hospital, 200 London Road, Liverpool L3 9TA, UK.
+(8)Queen's University Belfast, University Road, Belfast BT7 1NN, UK.
+(9)University Hospital of South Manchester, Education and Research Centre, 
+Southmoor Road, Manchester M23 9LT, UK.
+(10)Royal Bournemouth Hospital, Castle Ln E, Bournemouth BH7 7DW, UK.
+(11)Withybush General Hospital, Fishguard Road, Haverfordwest SA61 2PZ, UK.
+(12)University of Nottingham, Derby Road, Nottingham NG7 2UH, UK.
+
+Pre-surgical studies allow study of the relationship between mutations and 
+response of oestrogen receptor-positive (ER+) breast cancer to aromatase 
+inhibitors (AIs) but have been limited to small biopsies. Here in phase I of 
+this study, we perform exome sequencing on baseline, surgical core-cuts and 
+blood from 60 patients (40 AI treated, 20 controls). In poor responders (based 
+on Ki67 change), we find significantly more somatic mutations than good 
+responders. Subclones exclusive to baseline or surgical cores occur in ∼30% of 
+tumours. In phase II, we combine targeted sequencing on another 28 treated 
+patients with phase I. We find six genes frequently mutated: PIK3CA, TP53, CDH1, 
+MLL3, ABCA13 and FLG with 71% concordance between paired cores. TP53 mutations 
+are associated with poor response. We conclude that multiple biopsies are 
+essential for confident mutational profiling of ER+ breast cancer and TP53 
+mutations are associated with resistance to oestrogen deprivation therapy.
+
+DOI: 10.1038/ncomms13294
+PMCID: PMC5105193
+PMID: 27827358 [Indexed for MEDLINE]
+
+Conflict of interest statement: J.R. is employed by Oncimmune. C.H. is a paid 
+consultant to Genomic Health, M.D. is a paid consultant to Pfizer and 
+NanoString. J.R. holds stock in Oncimmune and FaHRAS. C.H. received travel 
+expenses from Novartis, and J.R. from Oncimmune, AstraZeneca, Bayer, Novartis 
+and Syndax. J.R. received honoraria from AstraZeneca, Bayer and Amgen. J.R. 
+receives research funding from Oncimmune, and M.D. from Novartis, AstraZeneca 
+and Pfizer. J.R. holds patents from Oncimmune and is in the speakers' bureau of 
+AstraZeneca. The remaining authors declare no competing financial interests.
+
+
+53. Clin Cancer Res. 2017 May 15;23(10):2423-2432. doi: 
+10.1158/1078-0432.CCR-16-1782. Epub 2016 Nov 4.
+
+Phase I Study of GDC-0425, a Checkpoint Kinase 1 Inhibitor, in Combination with 
+Gemcitabine in Patients with Refractory Solid Tumors.
+
+Infante JR(1), Hollebecque A(2), Postel-Vinay S(2)(3), Bauer TM(4), Blackwood 
+EM(5), Evangelista M(5), Mahrus S(5), Peale FV(5), Lu X(5), Sahasranaman S(5), 
+Zhu R(5), Chen Y(5), Ding X(5), Murray ER(5), Schutzman JL(5), Lauchle JO(5), 
+Soria JC(2)(3), LoRusso PM(6).
+
+Author information:
+(1)Sarah Cannon Research Institute/Tennessee Oncology, Nashville, Tennessee. 
+jinfante@tnonc.com.
+(2)Départemement d'Innovation Thérapeutique et des Essais Précoces (DITEP), 
+Gustave Roussy, Université Paris Saclay, Villejuif, France.
+(3)INSERM, U981, Villejuif, France.
+(4)Sarah Cannon Research Institute/Tennessee Oncology, Nashville, Tennessee.
+(5)Genentech, Inc., South San Francisco, California.
+(6)Karmanos Cancer Institute, Detroit, Michigan.
+
+Purpose: Chk1 inhibition potentiates DNA-damaging chemotherapy by overriding 
+cell-cycle arrest and genome repair. This phase I study evaluated the Chk1 
+inhibitor GDC-0425 given in combination with gemcitabine to patients with 
+advanced solid tumors.Experimental Design: Patients received GDC-0425 alone for 
+a 1-week lead-in followed by 21-day cycles of gemcitabine plus GDC-0425. 
+Gemcitabine was initially administered at 750 mg/m2 (Arm A), then increased to 
+1,000 mg/m2 (Arm B), on days 1 and 8 in a 3 + 3 + 3 dose escalation to establish 
+maximum tolerated dose (MTD). GDC-0425 was initially administered daily for 
+three consecutive days; however, dosing was abbreviated to a single day on the 
+basis of pharmacokinetics and tolerability. TP53 mutations were evaluated in 
+archival tumor tissue. On-treatment tumor biopsies underwent pharmacodynamic 
+biomarker analyses.Results: Forty patients were treated with GDC-0425. The MTD 
+of GDC-0425 was 60 mg when administered approximately 24 hours after gemcitabine 
+1,000 mg/m2 Dose-limiting toxicities included thrombocytopenia (n = 5), 
+neutropenia (n = 4), dyspnea, nausea, pyrexia, syncope, and increased alanine 
+aminotransferase (n = 1 each). Common related adverse events were nausea (48%); 
+anemia, neutropenia, vomiting (45% each); fatigue (43%); pyrexia (40%); and 
+thrombocytopenia (35%). The GDC-0425 half-life was approximately 15 hours. There 
+were two confirmed partial responses in patients with triple-negative breast 
+cancer (TP53-mutated) and melanoma (n = 1 each) and one unconfirmed partial 
+response in a patient with cancer of unknown primary origin.Conclusions: Chk1 
+inhibition with GDC-0425 in combination with gemcitabine was tolerated with 
+manageable bone marrow suppression. The observed preliminary clinical activity 
+warrants further investigation of this chemopotentiation strategy. Clin Cancer 
+Res; 23(10); 2423-32. ©2016 AACR.
+
+©2016 American Association for Cancer Research.
+
+DOI: 10.1158/1078-0432.CCR-16-1782
+PMID: 27815358 [Indexed for MEDLINE]
+
+
+54. Cancer. 2016 Dec 1;122(23):3673-3681. doi: 10.1002/cncr.30248. Epub 2016 Aug
+6.
+
+Risks of first and subsequent cancers among TP53 mutation carriers in the 
+National Cancer Institute Li-Fraumeni syndrome cohort.
+
+Mai PL(1), Best AF(2), Peters JA(1), DeCastro RM(1), Khincha PP(1), Loud JT(1), 
+Bremer RC(1), Rosenberg PS(2), Savage SA(1).
+
+Author information:
+(1)Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, 
+National Cancer Institute, National Institutes of Health, Bethesda, Maryland.
+(2)Biostatistics Branch, Division of Cancer Epidemiology and Genetics, National 
+Cancer Institute, National Institutes of Health, Bethesda, Maryland.
+
+BACKGROUND: Li-Fraumeni syndrome (LFS) is an autosomal dominant cancer 
+predisposition syndrome characterized by a very high lifetime cancer risk and an 
+early age at diagnosis of a wide cancer spectrum. Precise estimates for the risk 
+of first and subsequent cancers are lacking.
+METHODS: The National Cancer Institute's Li-Fraumeni Syndrome Study includes 
+families meeting the diagnostic criteria for LFS or Li-Fraumeni-like syndrome, 
+and individuals with a germline TP53 mutation, choroid plexus carcinoma, 
+adrenocortical carcinoma, or ≥3 cancers. Herein, we estimated the cumulative 
+risk and annual hazards for first and second cancers among TP53 mutation 
+carriers (TP53 positive [TP53+]) using MATLAB statistical software.
+RESULTS: This study evaluated 286 TP53+ individuals from 107 families. The 
+cumulative cancer incidence was 50% by age 31 years among TP53+ females and 46 
+years among males, and nearly 100% by age 70 years for both sexes. Cancer risk 
+was highest after age 20 years for females, mostly due to breast cancer, whereas 
+among males the risk was higher in childhood and later adulthood. Among females, 
+the cumulative incidence rates by age 70 years for breast cancer, soft tissue 
+sarcoma, brain cancer, and osteosarcoma were 54%, 15%, 6%, and 5%, respectively. 
+Among males, the incidence rates were 22%, 19%, and 11%, respectively, for soft 
+tissue sarcoma, brain cancer, and osteosarcoma. Approximately 49% of those with 
+1 cancer developed at least another cancer after a median of 10 years. The 
+average age-specific risk of developing a second cancer was comparable to that 
+of developing a first cancer.
+CONCLUSIONS: The cumulative cancer risk in TP53 + individuals was very high and 
+varied by sex, age, and cancer type. Additional work, including prospective risk 
+estimates, is needed to better inform personalized risk management. Cancer 
+2016;122:3673-81. © 2016 American Cancer Society.
+
+© 2016 American Cancer Society.
+
+DOI: 10.1002/cncr.30248
+PMCID: PMC5115949
+PMID: 27496084 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors report no conflict of interest
+
+
+55. Clin Breast Cancer. 2016 Oct;16(5):349-355. doi: 10.1016/j.clbc.2016.05.006. 
+Epub 2016 May 14.
+
+Panitumumab, Gemcitabine, and Carboplatin as Treatment for Women With Metastatic 
+Triple-Negative Breast Cancer: A Sarah Cannon Research Institute Phase II Trial.
+
+Yardley DA(1), Ward PJ(2), Daniel BR(3), Eakle JF(4), Lamar RE(5), Lane CM(6), 
+Hainsworth JD(5).
+
+Author information:
+(1)Sarah Cannon Research Institute, Nashville, TN; Tennessee Oncology, PLLC, 
+Nashville, TN. Electronic address: dyardley@tnonc.com.
+(2)Sarah Cannon Research Institute, Nashville, TN; Oncology Hematology Care, 
+Cincinnati, OH.
+(3)Sarah Cannon Research Institute, Nashville, TN; Tennessee Oncology 
+Chattanooga, Chattanooga, TN.
+(4)Sarah Cannon Research Institute, Nashville, TN; Florida Cancer Specialists, 
+Fort Myers, FL.
+(5)Sarah Cannon Research Institute, Nashville, TN; Tennessee Oncology, PLLC, 
+Nashville, TN.
+(6)Sarah Cannon Research Institute, Nashville, TN.
+
+BACKGROUND: Triple-negative breast cancer (TNBC) is a subtype with poor 
+prognosis, and treatment options are limited to chemotherapy. Because the 
+epidermal growth factor receptor (EGFR) is overexpressed in up to 70% of these 
+tumors, this phase II trial was designed to evaluate the efficacy and safety of 
+panitumumab in combination with gemcitabine and carboplatin as first- or 
+second-line treatment for metastatic TNBC.
+PATIENTS AND METHODS: Adult women with metastatic TNBC with a maximum of 1 
+previous chemotherapy regimen were eligible. Patients received gemcitabine 
+intravenous (I.V.) 1500 mg/m2, carboplatin area under the concentration-time 
+curve = 2.5 I.V., and panitumumab 6 mg/kg I.V. every 2 weeks. Treatment 
+continued until disease progression or unacceptable toxicity, with disease 
+evaluations every 6 weeks. The primary end point was progression-free survival 
+(PFS). Archival tissue was collected for correlative analysis, to include 
+phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha, p53, 
+phosphatase and tensin homolog, EGFR, and status.
+RESULTS: Between May 2010 and August 2012, 71 women (median age, 54 years; 14% 
+de novo stage IV) were treated. At a median follow-up of 11 months, the median 
+PFS was 4.4 months (95% confidence interval, 3.2-5.5 months). The objective 
+response rate was 42% (complete response, 1; partial response, 29). 
+Treatment-related toxicity included: rash, 50 patients (70%), fatigue, 37 
+patients (52%), neutropenia, 32 patients (45%; 2 episodes of febrile 
+neutropenia), and thrombocytopenia, 32 patients (45%).
+CONCLUSION: Although the addition of panitumumab was feasible, the results of 
+this trial do not support combination of panitumumab with gemcitabine and 
+carboplatin in the treatment of patients with TNBC.
+
+Copyright © 2016 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.clbc.2016.05.006
+PMID: 27340049 [Indexed for MEDLINE]

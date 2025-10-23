@@ -1,0 +1,1155 @@
+1. Lung Cancer. 2025 Oct;208:108756. doi: 10.1016/j.lungcan.2025.108756. Epub
+2025  Sep 16.
+
+Biological impact of chemotherapy during treatment with EGFR tyrosine kinase 
+inhibitors for non-small cell lung cancer positive for EGFR activating 
+mutations.
+
+Iwama E(1), Sakai K(2), Harada T(3), Kanda S(4), Sugawara S(5), Yokoyama T(6), 
+Taniguchi H(7), Tanaka K(8), Toyozawa R(9), Koyama K(10), Zenke Y(11), Kida 
+G(12), Nishioka Y(13), Yokouchi H(14), Hirose M(15), Nishio K(2), Yamamoto 
+N(16), Ohe Y(17), Okamoto I(18).
+
+Author information:
+(1)Department of Respiratory Medicine, Graduate School of Medical Sciences, 
+Kyushu University, Fukuoka, Japan.
+(2)Department of Genome Biology, Faculty of Medicine, Kindai University, 
+Osaka-Sayama, Japan.
+(3)Department of Respiratory Medicine, Japan Community Health Care 
+Organization-Kyushu Hospital, Fukuoka, Japan.
+(4)Department of Hematology and Medical Oncology, Shinshu University School of 
+Medicine, Matsumoto, Japan; Department of Thoracic Oncology, National Cancer 
+Center Hospital, Tokyo, Japan.
+(5)Department of Pulmonary Medicine, Sendai Kousei Hospital, Sendai, Japan.
+(6)Department of Respiratory Medicine, Kurashiki Central Hospital, Kurashiki, 
+Japan.
+(7)Department of Respiratory Medicine, Nagasaki University Graduate School of 
+Biomedical Sciences, Nagasaki, Japan.
+(8)Department of Medical Oncology, Kindai University Faculty of Medicine, 
+Osaka-Sayama, Japan.
+(9)Department of Thoracic Oncology, NHO Kyushu Cancer Center, Fukuoka, Japan.
+(10)Department of Internal Medicine, Niigata Cancer Center Hospital, Niigata, 
+Japan.
+(11)Department of Thoracic Oncology, National Cancer Center Hospital East, 
+Kashiwa, Japan.
+(12)Department of Thoracic Oncology, Saitama Cancer Center, Saitama, Japan.
+(13)Department of Respiratory Medicine and Rheumatology, Graduate School of 
+Biomedical Sciences, Tokushima University, Tokushima, Japan.
+(14)Department of Respiratory Medicine, NHO Hokkaido Cancer Center, Sapporo, 
+Japan.
+(15)Center for Clinical and Translational Research, Kyushu University Hospital, 
+Fukuoka, Japan.
+(16)Internal Medicine III, Wakayama Medical University, Wakayama, Japan.
+(17)Department of Thoracic Oncology, National Cancer Center Hospital, Tokyo, 
+Japan.
+(18)Department of Respiratory Medicine, Graduate School of Medical Sciences, 
+Kyushu University, Fukuoka, Japan. Electronic address: 
+okamoto.isamu.290@m.kyushu-u.ac.jp.
+
+BACKGROUND: The aim of this study was to explore the biological impact of 
+chemotherapy during epidermal growth factor receptor (EGFR) tyrosine kinase 
+inhibitor (TKI) treatment in individuals with non-small cell lung cancer 
+(NSCLC).
+METHODS: Plasma and tumor tissue specimens were prospectively collected from 
+NSCLC patients with EGFR activating mutations who participated in a randomized 
+phase III study comparing EGFR-TKI therapy with or without inserted chemotherapy 
+(JCOG1404/WJOG8214L). The specimens were analyzed for genetic mutations by 
+droplet digital polymerase chain reaction analysis and next-generation 
+sequencing.
+RESULTS: Two hundred patients were enrolled in this biomarker study, with 113 
+and 87 individuals receiving EGFR-TKI monotherapy and EGFR-TKI treatment plus 
+inserted chemotherapy, respectively. Although progression-free survival (PFS) 
+for EGFR-TKI monotherapy was shorter in patients with than in those without 
+detectable EGFR activating mutations in cell-free DNA at baseline, inserted 
+chemotherapy improved PFS compared with EGFR-TKI monotherapy for the former 
+patients (median, 17.5 vs. 11.8 months). Inserted chemotherapy suppressed the 
+number of alleles positive for activating and T790M mutations of EGFR in 
+cell-free DNA at disease progression. The benefit of inserted chemotherapy 
+relative to EGFR-TKI monotherapy was more apparent in patients with (median PFS, 
+18.8 vs. 13.5 months) than in those without detectable concurrent mutations of 
+TP53.
+CONCLUSIONS: Chemotherapy has the potential to suppress the development of 
+EGFR-TKI resistance as well as to inhibit tumor growth for NSCLC positive for 
+EGFR activating mutations. Our results provide biological insight into 
+combination treatment with EGFR-TKIs and chemotherapy for such patients.
+
+Copyright © 2025 The Author(s). Published by Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.lungcan.2025.108756
+PMID: 40974872 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest The authors 
+declare the following financial interests/personal relationships which may be 
+considered as potential competing interests: Eiji Iwama has received honoraria 
+from AstraZeneca K.K. and Chugai Pharmaceutical. Kazuko Sakai has received 
+honoraria from Qiagen, Inc., Takeda Pharmaceutical Co., Ltd., Nippon Kayaku Co., 
+Ltd. and Life Technologies Japan Ltd. Shintaro Kanda has received honoraria from 
+AstraZeneca K.K., Bristol Myers Squibb. K.K., Chugai Pharmaceutical Co., Ltd., 
+Daiichi Sankyo Co., Ltd., Eisai Co., Ltd., Guardant Health AMEA, Kyowa Kirin 
+Co., Ltd., MSD K.K., Nippon Boehringer. Ingelheim Co., Ltd., Ono Pharmaceutical 
+Co., Ltd., and Taiho Pharmaceutical. Shunichi Sugawara has received honoraria 
+from AstraZeneca K.K., Amgen, Boehringer Ingelheim Co., Ltd., Bristol Myers 
+Squibb K.K., Chugai Pharmaceutical Co., Ltd., Eisai, Eli Lilly Japan K.K., Kyowa 
+Kirin Co., Ltd., MSD K.K., Merck, Novartis Pharma K.K, Nippon Kayaku Co., Ltd., 
+Ono Pharmaceutical Co., Ltd., Pfizer, Sysmex, Thermo Fisher Scientific, Takeda 
+Pharmaceutical, and Taiho Pharmaceutical. Toshihide Yokoyama has received 
+honoraria from AbbVie GK, AstraZeneca K.K., Boehringer Ingelheim Co., Ltd., 
+Bristol Myers Squibb K.K., Chugai Pharmaceutical Co., Ltd., Daiichi Sankyo Co., 
+Ltd., Delta-Fly Pharma, Janssen, MSD, Parexel International and Takeda 
+Pharmaceutical. Kaoru Tanaka has received honoraria from AstraZeneca K.K., 
+Bristol Myers Squibb K.K., Chugai Pharmaceutical Co., Ltd., Eisai, Merck 
+Biopharma, MSD, Ono Pharmaceutical Co., Ltd., Novartis Pharma, Taiho 
+Pharmaceutical and Takeda Pharmaceutical. Ryo Toyozawa has received honoraria 
+from AstraZeneca K.K., Bristol Myers Squibb K.K., Chugai Pharmaceutical Co., 
+Ltd., Eli Lilly Japan K.K., MSD K.K., Nippon Kayaku Co.,Ltd., Ono Pharmaceutical 
+Co., Ltd., Pfizer, Sysmex, Thermo Fisher Scientific, Takeda Pharmaceutical, and 
+Taiho Pharmaceutical. Yoshitaka Zenke has received honoraria from Amgen Inc., 
+AstraZeneca K.K., Bristol-Myers Squibb K.K., Chugai Pharmaceutical Co., Ltd., 
+Eli Lilly Japan K.K., Kyowa Kirin Co., Ltd., MSD K.K., Nippon Boehringer 
+Ingelheim Co., Ltd., Nippon Kayaku Co., Ltd., Novartis Pharma K.K., Ono 
+Pharmaceutical Co., Ltd., Pfizer Japan Inc., Taiho Pharmaceutical Co., Ltd., and 
+Takeda Pharmaceuticals Co., Ltd., Guardant health, J&J Innovative Medicine; 
+grants or other funding from Amgen Inc., AstraZeneca K.K., Chugai Pharmaceutical 
+Co., Ltd., Daiichi Sankyo Co., Ltd., Merck Biopharma Co., Ltd., MSD K.K., 
+Novocure, GSK, and Nippon Boehringer Ingelheim Co., Ltd. K. Yasuhiko Nishioka 
+has received honoraria from AstraZeneca K.K. Hiroshi Yokouchi has received 
+honoraria from AstraZeneca K.K.and Chugai Pharmaceutical Co., Ltd; research 
+funding from AstraZeneca K.K., Amgen, AbbVie, Bristol Myers Squibb K.K., Chugai 
+Pharmaceutical Co., Ltd., Daiichi-Sankyo, MSD K.K., Sanofi, and Takeda 
+Pharmaceutical. Kazuto Nishio has received honoraria from AstraZeneca K.K., 
+Chugai Pharmaceutical Co., Ltd., Daiichi Sankyo, Eli Lilly Japan K.K., Invitae 
+Japan, MSD K.K., Maruho, Nichirei, Novartis Pharma K.K., Ono Pharmaceutical Co., 
+Ltd., Guardant health, and Janssen Pharmaceutical; grants or other funding from 
+Nippon Boehringer Ingelheim Co., Ltd., West Japan Oncology Group, Nichirei 
+Biosciences Inc. Eli Lilly Japan, Hitachi, Sysmex, Otsuka Pharmaceutical, 
+Thoracic Oncology Research Group, Okayama University, SymBio Pharmaceuticals and 
+Japan Breast Cancer Research Group. N Yamamoto has honoraria from AbbVie G.K., 
+Amgen Inc., Accuray Japan K.K., AstraZeneca K.K., Bristol-Myers Squibb K.K., 
+Chugai Pharmaceutical Co., Ltd., Daiichi Sankyo Co., Ltd., Eli Lilly Japan K.K., 
+Guardant Health AMEA, Janssen Pharmaceutical K.K., Kyorin Pharmaceutical Co., 
+Ltd., Ono Pharmaceutical Co., Ltd., Otsuka Pharmaceutical Co., Ltd., Merck 
+Biopharma Co., Ltd., Miyarisan Pharmaceutical Co., Ltd., USACO Corporation, 
+Medical Review Co.,Ltd., KOWA COMPANY LTD. MSD K.K., Nippon Boehringer Ingelheim 
+Co., Ltd., Nippon Kayaku Co., Ltd., Kyowa Kirin Co., Ltd., ShiftZero K.K., 
+Novartis Pharma K.K., Pfizer Japan Inc., Taiho Pharmaceutical Co., Ltd., Takeda 
+Pharmaceuticals Co., Ltd., Terumo Corporation, and Tsumura & Co.; grants or 
+other funding from AstraZeneca K.K., Amgen Inc., DAIICHI SANKYO, INC., MSD, 
+USACO Corporation, Ono Pharmaceutical Co., Ltd., and NovartisJapan. Yuichiro Ohe 
+has received honoraria from AstraZeneca, Chugai, Eli Lilly, ONO, BMS, Boehringer 
+Ingelheim, Bayer, Pfizer, MSD, Taiho, Nippon Kayaku, Kyowa Hakko Kirin, Eisai, 
+Daiichi-Sankyo; grants or other funding from AstraZeneca, Chugai, Eli Lilly, 
+Kirin, Sumitomo, Pfizer, Taiho, Novartis, Takeda, Daiichi-Sankyo, Janssen, ONO, 
+BMS, Kyorin, Celltrion, Amgen, nippon Kayaku, Boehringer Ingelheim, AnHeart 
+Therapeutics Inc. PharmaMar. Isamu Okamoto has received honoraria from 
+AstraZeneca, Taiho Pharmaceutical, Boehringer Ingelheim, Ono Pharmaceutical, 
+MSD, Eli Lilly Japan K.K., Bristol-Myers Squibb, Novartis, Chugai 
+Pharmaceutical, Pfizer; grants or other funding from AstraZeneca, Taiho 
+Pharmaceutical, Boehringer Ingelheim, Ono Pharmaceutical, MSD, Eli Lilly Japan 
+K.K., Astellas, Bristol-Myers Squibb, Novartis, Chugai Pharmaceutical, Pfizer, 
+AbbVie. Other authors declare no potential conflicts of interest.
+
+
+2. ESMO Open. 2025 Aug;10(8):105506. doi: 10.1016/j.esmoop.2025.105506. Epub 2025
+ Jul 25.
+
+Circulating tumor DNA mutational landscape and dynamics after progression on a 
+CDK4/6 inhibitor in the PACE phase II trial for metastatic 
+HR-positive/HER2-negative breast cancer.
+
+Jeselsohn R(1), Fu J(1), Ren Y(2), Mahtani R(3), Ma C(4), DeMichele A(5), 
+Cristofanilli M(6), Meisel J(7), Miller KD(8), Abdou Y(9), Riley EC(10), Qamar 
+R(11), Sharma P(12), Reid S(13), Ko N(14), Liu Y(15), Gauthier E(15), Burstein 
+HJ(1), DeMeo M(16), Regan M(17), Tolaney SM(1), Mayer EL(18).
+
+Author information:
+(1)Medical Oncology, Dana-Farber Cancer Institute, Boston, USA; Breast Oncology 
+Center, Dana-Farber Cancer Institute, Boston, USA; Harvard Medical School, 
+Boston, USA.
+(2)Division of Biostatistics, Dana-Farber Cancer Institute, Boston, USA.
+(3)Department of Medical Oncology, Miami Cancer Institute, Miami, USA.
+(4)Department of Medicine, Division of Oncology, Washington University School of 
+Medicine, St. Louis, USA.
+(5)Abramson Cancer Center, University of Pennsylvania, Philadelphia, USA.
+(6)Department of Medical Oncology, Weill Cornell Medicine, New York, USA.
+(7)Department of Hematology and Medical Oncology, Winship Cancer Institute, 
+Emory University, Atlanta, USA.
+(8)Department of Medicine, Hematology/Oncology Division, Indiana University 
+School of Medicine, Indianapolis, USA.
+(9)Department of Medicine, University of North Carolina Lineberger Comprehensive 
+Cancer Center, Chapel Hill, USA.
+(10)Department of Medicine, Brown Cancer Center, University of Louisville 
+Health, Louisville, USA.
+(11)Aurora Cancer Care, Milwaukee, USA.
+(12)Department of Medical Oncology, University of Kansas Medical Center, 
+Westwood, USA.
+(13)Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, 
+Nashville, USA.
+(14)Department of Medical Oncology, Boston Medical Center, Boston, USA.
+(15)Pfizer, La Jolla, USA.
+(16)Medical Oncology, Dana-Farber Cancer Institute, Boston, USA; Breast Oncology 
+Center, Dana-Farber Cancer Institute, Boston, USA.
+(17)Harvard Medical School, Boston, USA; Division of Biostatistics, Dana-Farber 
+Cancer Institute, Boston, USA.
+(18)Medical Oncology, Dana-Farber Cancer Institute, Boston, USA; Breast Oncology 
+Center, Dana-Farber Cancer Institute, Boston, USA; Harvard Medical School, 
+Boston, USA. Electronic address: Erica_Mayer@dfci.harvard.edu.
+
+BACKGROUND: Genomic determinants of response and resistance to endocrine therapy 
+(ET) and cyclin-dependent kinase 4/6 inhibitors (CDK4/6i) beyond progression in 
+hormone receptor-positive/human epidermal growth factor receptor 2-negative 
+metastatic breast cancer are not well characterized. We analyzed serial 
+circulating tumor DNA from the PACE trial in which patients who progressed on ET 
+and CDK4/6i were randomized to fulvestrant, fulvestrant plus palbociclib, or 
+fulvestrant, palbociclib, and avelumab.
+MATERIALS AND METHODS: Plasma samples from 200 of 220 PACE participants were 
+collected for circulating tumor DNA analysis using the Guardant360 assay. 
+Samples included baseline (n = 200), cycle 3, day 1 (C3D1; n = 124), and end of 
+treatment (n = 137). The fulvestrant and fulvestrant + palbociclib arms were 
+combined given similar clinical outcomes. The log-rank test was used to test 
+associations between genomic alterations and progression-free survival (PFS).
+RESULTS: The most common baseline genomic alterations beyond progression on 
+CDK4/6i plus ET, were mutations in ESR1 (54.0%), TP53 (35.5%), PIK3CA (34.0%), 
+GATA3 (18.5%), and RB1 (10.0%). Among 150 patients treated with fulvestrant or 
+fulvestrant + palbociclib, baseline mutations in TP53, PIK3CA, RB1, and the 
+Y537S ESR1 mutation, were associated with shorter PFS. Mutations within the PI3K 
+and cell cycle pathways were associated with significantly decreased PFS. We 
+also observed increases in the allelic fractions of the ESR1, PIK3CA, and TP53 
+mutations at progression.
+CONCLUSIONS: Several mutations within genes and biological pathways are 
+associated with CDK4/6i resistance beyond progression. Additional studies are 
+needed to optimize treatment after resistance to CDK4/6i using genomic 
+biomarkers.
+
+Copyright © 2025 The Authors. Published by Elsevier Ltd.. All rights reserved.
+
+DOI: 10.1016/j.esmoop.2025.105506
+PMCID: PMC12314381
+PMID: 40714513 [Indexed for MEDLINE]
+
+Conflict of interest statement: Disclosure RJ reports consulting or advisory 
+roles for Eli Lilly, AstraZeneca, Pfizer, Novartis, Carrick Therapeutics, GE 
+Health, and Luminex; and research funding from Pfizer, Eli Lilly, and Novartis. 
+RM reports consulting or advisory roles for Agendia, Daiichi Sankyo/AstraZeneca, 
+Eisai, Genentech/Roche, Gilead Sciences, Hologic/Biotheranostics, Lilly, Merck, 
+Novartis, Pfizer, Puma Biotechnology, Sanofi, Sermonix Pharmaceuticals, and 
+Stemline Therapeutics; research funding to the institution from Gilead Sciences; 
+and travel, accommodations, and expenses from Pfizer, Gilead, Genentech/Roche, 
+Hologic/Biotheranostics, AstraZeneca/Daiichi Sankyo, Novartis, Puma, Seagen, and 
+Stemline. CM reports consulting or advisory roles for Novartis, AstraZeneca, 
+Bayer HealthCare Pharmaceuticals, Biovica Inc., Olaris, Gilead Sciences, Pfizer, 
+Lilly, Tempus, Genzyme, TerSera, Stemline Therapeutics, and Daiichi 
+Sankyo/AstraZeneca; and research funding to the institution from Pfizer and Puma 
+Biotechnology. AD reports consulting or advisory roles for Pfizer; and research 
+funding to the institution from Pfizer, Genentech, Novartis, and 
+Inivata/NeoGenomics. MC reports honoraria from Pfizer; consulting or advisory 
+roles for Menarini, Olaris, AstraZeneca/Daiichi Sankyo, and Datar Genomics; 
+research funding from Celcuity, Syantra, Incyte, AstraZeneca, and Menarini 
+Silicon Biosystems; and honoraria from Total Health Conferencing and Medscape. 
+JM reports consulting or advisory roles for Novartis, AstraZeneca, Genentech, 
+Seagen, Curio Science, GlaxoSmithKline (GSK), Olema Oncology, GE Healthcare, and 
+Pfizer; research funding to the institution from Seagen, Pfizer, Sermonix 
+Pharmaceuticals, and Olema Oncology; and travel, accommodations, expenses from 
+Pfizer, Total Health Conferencing, and Puma Biotechnology. KDM reports serving 
+as a Senior Deputy Editor for the Journal of Clinical Oncology; service on 
+independent data monitoring committees for Merck, Genentech/Roche, AstraZeneca, 
+Bristol Myers Squibb/Celgene, and Celcuity; and research funding to the 
+institution from Pfizer and Astex Pharmaceuticals. YA reports honoraria from 
+WebMD/Medscape, MJH Associates, and Clinical Care Options; and consulting for 
+Exact Sciences, AstraZeneca and Pfizer. PS reports stock and other ownership 
+interests in Amgen, Johnson & Johnson/Janssen, Roche/Genentech, Gilead Sciences, 
+Sanofi, and Pfizer; consulting or advisory roles for Novartis, Merck, 
+AstraZeneca, Pfizer, Gilead Sciences, and GSK; research funding to the 
+institution from Novartis, Bristol Myers Squibb, Merck, Novartis, and Gilead 
+Sciences; and patents, royalties, and other intellectual property from UpToDate. 
+SR reports honoraria from Novartis; consulting or advisory roles from 
+AstraZeneca, and Daiichi Sankyo/AstraZeneca; and research funding from Agendia. 
+NK reports expert testimony for Williams and Connolly. YL reports employment 
+for, and stock and other ownership interests from Pfizer. EG reports employment, 
+stock, and other ownership interests in Pfizer. MMR reports research 
+funding/resources (to institution) from Bayer, Biotheranostics, Bristol Myers 
+Squibb, ETOP IBCSG Partners Foundation, Novartis, Pfizer, Roche, and TerSera 
+Therapeutics; and consulting, advisory roles or honorarium from Bristol Myers 
+Squibb, McGill University supported by Merck, TerSera Therapeutics, and Tolmar 
+Pharmaceuticals. SMT reports consulting or advisory roles for Novartis, 
+Pfizer/Seagen, Merck, Eli Lilly, AstraZeneca, Genentech/Roche, Eisai, Bristol 
+Myers Squibb/SystImmune, Daiichi Sankyo, Gilead, Blueprint Medicines, Reveal 
+Genomics, Sumitovant Biopharma, Artios Pharma, Menarini/Stemline, Aadi Bio, 
+Bayer, Jazz Pharmaceuticals, Natera, Tango Therapeutics, eFFECTOR, Hengrui USA, 
+Cullinan Oncology, Circle Pharma, Arvinas, BioNTech, Launch Therapeutics, 
+Zuellig Pharma, Johnson & Johnson/Ambrx, Bicycle Therapeutics, BeiGene 
+Therapeutics, Mersana, Summitt Therapeutics, Avenzo Therapeutics, Aktis 
+Oncology, Boehringer Ingelheim, Celcuity, Samsung Bioepis, and Olema; research 
+funding from Genentech/Roche, Merck, Exelixis, Pfizer, Lilly, Novartis, Bristol 
+Myers Squibb, AstraZeneca, NanoString Technologies, Gilead, Seagen, OncoPep, 
+Daiichi Sankyo, Menarini/Stemline, and Jazz Pharmaceuticals; and travel support 
+from Lilly, Gilead, Jazz, Pfizer, Arvinas, and Roche. All other authors have 
+declared no conflicts of interest.
+
+
+3. J Clin Invest. 2025 Jul 24;135(19):e177813. doi: 10.1172/JCI177813.
+eCollection  2025 Oct 1.
+
+A predictive endocrine resistance index accurately stratifies luminal breast 
+cancer treatment responders and nonresponders.
+
+Zhang G(1), Jurinovic V(1), Bartels S(2), Christgen M(2), Christgen H(2), Kandt 
+LD(2), Mishieva L(3)(4), Ni H(5), Raap M(2), Klein J(6), Katzke AL(6), Hofmann 
+W(6), Steinemann D(6), Kates RE(7), Gluz O(7)(8)(9), Graeser M(7)(8)(10), Kümmel 
+S(7)(11)(12), Nitz U(7)(8), Plass C(13), Lehmann U(2), Zu Eulenburg C(7)(14), 
+Mansmann U(1), Gerhäuser C(13), Harbeck N(5)(7), Kreipe HH(2)(7).
+
+Author information:
+(1)Institute for Medical Information Processing, Biometry, and Epidemiology, 
+Medical Faculty, Ludwig Maximilians University (LMU), Munich, Germany.
+(2)Institute of Pathology, Hannover Medical School, Hannover, Germany.
+(3)Institute of Sociology (IfS), Faculty of Social Sciences, University of 
+Bremen, Bremen, Germany.
+(4)Department of Methodology and Statistics, Faculty of Social & Behavioural 
+Sciences, Utrecht University, Utrecht, Netherlands.
+(5)Breast Center, Department OB&GYN and CCC Munich, LMU University Hospital, 
+Munich, Germany.
+(6)Department of Human Genetics, Hannover Medical School, Hannover, Germany.
+(7)West German Study Group (WSG), Moenchengladbach, Germany.
+(8)Ev. Bethesda Hospital, Breast Center Niederrhein, Moenchengladbach, Germany.
+(9)University Clinics Cologne, Women's Clinic and Breast Center, Cologne, 
+Germany.
+(10)Department of Gynecology, University Medical Center, Hamburg, Germany.
+(11)Clinics Essen-Mitte, Breast Unit, Essen, Germany.
+(12)Charité - Universitätsmedizin Berlin, Department of Gynecology with Breast 
+Center, Berlin, Germany.
+(13)Division of Cancer Epigenomics, German Cancer Research Center (DKFZ), 
+Heidelberg, Germany.
+(14)Department of Biometry and Epidemiology, University Medical Center Hamburg, 
+Hamburg, Germany.
+
+BACKGROUNDEndocrine therapy (ET) with tamoxifen (TAM) or aromatase inhibitors 
+(AI) is highly effective against hormone receptor-positive (HR-positive) early 
+breast cancer (BC), but resistance remains a major challenge. The primary 
+objectives of our study were to understand the underlying mechanisms of primary 
+resistance and to identify potential biomarkers.METHODSWe selected more than 800 
+patients in 3 subcohorts (Discovery, n = 364, matched pairs; Validation 1, n = 
+270, Validation 2, n = 176) of the West German Study Group (WSG) ADAPT trial who 
+underwent short-term preoperative TAM or AI treatment. Treatment response was 
+assessed by immunohistochemical labeling of proliferating cells with Ki67 before 
+and after ET. We performed comprehensive molecular profiling, including targeted 
+next-generation sequencing (NGS) and DNA methylation analysis using EPIC arrays, 
+on posttreatment tumor samples.RESULTSTP53 mutations were strongly associated 
+with primary resistance to both TAM and AI. We identified distinct DNA 
+methylation patterns in resistant tumors, suggesting alterations in key 
+signaling pathways and tumor microenvironment composition. Based on these 
+findings and patient age, we developed the Predictive Endocrine ResistanCe Index 
+(PERCI). PERCI accurately stratified responders and nonresponders in both 
+treatment groups in all 3 subcohorts and predicted progression-free survival in 
+an external validation cohort and in the combined subcohorts.CONCLUSIONOur 
+results highlight the potential of PERCI to guide personalized endocrine therapy 
+and improve patient outcomes.TRIAL REGISTRATIONWSG-ADAPT, ClinicalTrials.gov 
+NCT01779206, retrospectively registered 01-25-2013.FUNDINGGerman Cancer Aid 
+(Grant Number 70112954), German Federal Ministry of Education and Research 
+(Grant Number 01ZZ1804C, DIFUTURE).
+
+DOI: 10.1172/JCI177813
+PMCID: PMC12483570
+PMID: 40705465 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest: OG received honoraria from 
+Genomic Health/Exact Sciences, Roche, Pfizer, Novartis, Agendia, and 
+AstraZeneca; served in consulting/advisory role for Genomic Health/Exact 
+Sciences, Gilead, AstraZeneca, Lilly, MSD, Novartis, Pfizer, Daiichi Sankyo, and 
+Roche; and received travel support from Pfizer and Daiichi Sankyo; and reports a 
+codirector position at West German Study Group. NH received honoraria from 
+AstraZeneca, Daiichi-Sankyo, Gilead, Lilly, Merck Sharp & Dohme, Novartis, 
+Pfizer, Pierre Fabre, Roche, Viatris, and Zuellig Pharma; served in 
+consulting/advisory role for Agendia, AstraZeneca, Celgene, Daiichi Sankyo, 
+Lilly, Merck Sharp & Dohme, Novartis, Odonate Therapeutics, Pfizer, Pierre 
+Fabre, Roche/Genentech, Sandoz, and Seattle Genetics; and she reports a 
+codirector position at West German Study Group; her institution received 
+research funding from Lilly, Merck Sharp & Dohme, Novartis, Pfizer, and 
+Roche/Genentech. RK served in a consulting/advisory role for the West German 
+Study Group. UL received speaker honoraria from AstraZeneca, MenariniStemline, 
+and GSK and received materials from AstraZeneca. SB received speaker honoraria 
+from Thermo Fisher Scientific. CZE has a consulting contract and received 
+consulting fees from West-German Study Group (WSG). SK received consulting fees 
+from Lilly, MSD, and Stryker; he received honoraria from AstraZeneca, Lilly, 
+Pfizer, Novartis, Amgen, Somatex, pfm medical, MSD, Daiichi Sankyo, Seagen, 
+Gilead Science, Agendia, Exact Science, Roche, Hologig, and PINK!; received 
+travel support from Roche, Daiichi Samkyo, Lilly, Stemline, and MSD; has an 
+advisory role for Novartis, Amgen, pfm medical, MSD, Daiichi Sankyo, Seagen, 
+Gilead Science, Agendia, Exact Science, Roche, Sonoscape, Lilly, AstraZeneca, 
+and Pfizer; has an advocacy function for AGO, WSG, and ESMO; and his institution 
+received study material from Novartis, Amgen, Daiichi Sankyo, Gilead, 
+AstraZeneca, Pfizer, Lilly, MSD, Roche, Stemline, Hologic, PINK!, and Agendia. 
+UN reports honoraria from Agendia, Amgen, Celgene, Genomic Health, NanoString 
+Technologies, Novartis Pharma, Pfizer Pharmaceuticals, Roche/Genentech, and 
+Teva; consulting or advisory role for Genomic Health, Roche, and Seagen; 
+research funding from Agendia, Amgen, Celgene, Genomic Health, NanoString 
+Technologies, Roche, and Sanofi; expert testimony for Genomic Health; travel 
+support from Genomic Health, Pfizer Pharmaceuticals, and Roche; and a codirector 
+position at West German Study Group.
+
+
+4. EBioMedicine. 2025 Aug;118:105823. doi: 10.1016/j.ebiom.2025.105823. Epub 2025
+ Jul 18.
+
+Short-duration preoperative endocrine therapy alters molecular profiles to 
+predict favourable outcome in ER+/HER2+ early breast cancer: a POETIC 
+translational study.
+
+Sirvén MB(1), López-Knowles E(2), Zhu X(3), Tovey H(3), Kilburn L(3), Holcombe 
+C(4), Skene A(5), Robertson J(6), Bliss JM(3), Alataki A(2), Smith I(7), 
+Schuster EF(2), Dowsett M(8), Cheang MCU(9).
+
+Author information:
+(1)Clinical Trials and Statistics Unit (ICR-CTSU), The Institute of Cancer 
+Research, London, UK; Medical Oncology Department, Catalan Institute of 
+Oncology-Badalona, Hospital Germans Trias I Pujol (HGTiP), 08916, Badalona, 
+Spain; Medical Oncology Department, Hospital Clinic of Barcelona, Barcelona, 
+Spain.
+(2)Ralph Lauren Centre for Breast Cancer Research, Royal Marsden Hospital, 
+London, UK; The Breast Cancer Now Toby Robins Research Centre, The Institute of 
+Cancer Research, London, UK.
+(3)Clinical Trials and Statistics Unit (ICR-CTSU), The Institute of Cancer 
+Research, London, UK.
+(4)Liverpool University Hospitals Foundation Trust, Liverpool, UK.
+(5)Royal Bournemouth and Christchurch and Christchurch NHS Foundation Trust, 
+Bournemouth, UK.
+(6)Faculty of Medicine & Health Sciences, Queen's Medical Centre, Nottingham, 
+UK.
+(7)Royal Marsden Hospital, London, UK.
+(8)Ralph Lauren Centre for Breast Cancer Research, Royal Marsden Hospital, 
+London, UK.
+(9)Clinical Trials and Statistics Unit (ICR-CTSU), The Institute of Cancer 
+Research, London, UK. Electronic address: Maggie.Cheang@icr.ac.uk.
+
+BACKGROUND: About 15-20% of breast cancers (BC) overexpress Human Epidermal 
+Growth Factor Receptor 2 (HER2+), and 50% of them are also oestrogen receptor 
+positive (ER+). Patients with ER+/HER2+ BC with a limited response to systemic 
+therapies are at an increased risk of relapse, thus understanding the mechanisms 
+of resistance is crucial. This study investigates the changes in gene signature 
+expression (ΔGSE) within ER+/HER2+ tumours and their intrinsic subtype (IS) in 
+response to peri-operative aromatase inhibitors (POAI).
+METHODS: We analysed paired pre-treatment (baseline) and on-treatment (2wk) 
+samples from 313 ER+/HER2+ BC from the POETIC trial using the BC360™ codeset. 
+Early biological response to aromatase inhibitors (AI) was assessed by 
+immunohistochemical Ki67 levels. Association of ΔGSE with biological response 
+was evaluated using T-test and time to recurrence (TTR) with multivariable Cox 
+regression models adjusted for clinicopathological variables.
+FINDINGS: The immunity-related signatures were significantly upregulated, while 
+proliferation, TP53 surrogate mutational status and ER-signalling were 
+downregulated (FDR <0·05) among POAI tumours with low Ki672wk. In the POAI, 79% 
+(59/75) of Luminal B (LumB) at baseline shifted to Luminal A (LumA) at 2wk and 
+LumA2wk was associated with better TTR compared to LumB2wk (HR 0·2; CI 95% 
+0·06-0·72, p = 0·01). Based on Akaike Information Criterion scores, Ki67 and IS 
+at 2wk provided better fit of the multivariable Cox models over the variables at 
+baseline when predicting TTR.
+INTERPRETATION: Assessing on-treatment IS after POAI for ER+HER2+ BC can help to 
+identify a group of low-risk patients with LumA2wk with good outcomes on 
+de-escalated treatment and patients that require additional treatments.
+FUNDING: Cancer Research UK (CRUK/07/015).
+
+Copyright © 2025 The Authors. Published by Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.ebiom.2025.105823
+PMCID: PMC12368290
+PMID: 40683772 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests M.B.S declares funding 
+from Fundación Alfonso Martin Escudero, Rio Hortega contracts 2022/2023 
+CM22/00101 and the 2024 BBVA Foundation/Hospital Clinic of Barcelona Joan 
+Rodés-Josep Baselga Advanced Research Contracts in Oncology for Milana 
+Bergamino's fellowship funding. She also declares personal funding from Pfizer, 
+Novartis and Astra Zeneca and travel expenses from Novartis, Lilly and Astra 
+Zeneca for educational events and advisories. M.C.U.C. is an inventor on US 
+Patent No. 9,631,239 (“Method of classifying a breast cancer intrinsic subtype”) 
+with royalties paid. She is also an inventor on a pending patent application 
+(PCT/EP2021/07368) related to a CDK4/6 inhibitor sensitivity assay. 
+Additionally, she serves in an advisory role for Veracyte. H.T. declares 
+receiving salary support from AstraZeneca UK Ltd, Eli Lilly & Co Limited, Pfizer 
+Inc., Aventis Pharma Limited (Sanofi), the National Institute for Health 
+Research, the Higher Education Funding Council, Cancer Research UK, and Prostate 
+Cancer UK. JMB reports grants from Cancer Research UK, during the conduct of the 
+study; grants from Medivation; grants and non-financial support from 
+AstraZeneca, Merck Sharp & Dohme, Puma Biotechnology, Clovis Oncology, Pfizer, 
+Janssen-Cilag, Novartis, Lilly and Roche, outside the submitted work. LK reports 
+grant from Cancer Research UK and the National Institute for Health and Care 
+Research, during the conduct of the study. CH declares payment for expert 
+testimony from the General Medical Council and honoraria from Exact Science. EFS 
+declares a pending patent application (PCT/EP2021/07368) related to a CDK4/6 
+inhibitor sensitivity assay. M.D. receives compensation through the ICR Rewards 
+for Inventors Scheme for abiraterone and is an inventor on a pending patent 
+application (PCT/EP2021/07368) related to a CDK4/6 inhibitor sensitivity assay. 
+The other authors declare no competing interests.
+
+
+5. Clin Cancer Res. 2025 Aug 1;31(15):3160-3174. doi: 
+10.1158/1078-0432.CCR-24-3705.
+
+GANNET53 Part II: A European Phase I/II Trial of the HSP90 Inhibitor Ganetespib 
+in High-Grade Platinum-Resistant Ovarian Cancer-A Study of the GANNET53 
+Consortium.
+
+Concin N(1)(2), Braicu I(3)(4), Combe P(5), Berger R(1), Ray-Coquard I(6), Joly 
+F(7), Harter P(8), Canzler U(9)(10), Selle F(11), Mahner S(12), Ignatov A(13), 
+Sehouli J(3), Pujade-Lauraine E(5), Zeimet AG(1), Schmitt WD(14), Van 
+Nieuwenhuysen E(15), Vanderstichele A(15), Dobbelstein M(16), Kramer D(16), 
+Ulmer H(17), Zeillinger R(2), Obermayr E(2), Heinzl N(2), Marth C(1), Moll 
+UM(16), Vergote I(15).
+
+Author information:
+(1)Department of Obstetrics and Gynecology, Medical University of Innsbruck, AGO 
+Austria, Innsbruck, Austria.
+(2)Department of Obstetrics and Gynaecology, Comprehensive Cancer Center - 
+Gynaecologic Cancer Unit, Medical University of Vienna, Vienna, Austria.
+(3)Department of Gynecology, Charité - Universitätsmedizin Berlin, corporate 
+member of Freie Universität Berlin, Humboldt-Universität zu Berlin, and Berlin 
+Institute of Health, Campus Virchow, NOGGO group, Berlin, Germany.
+(4)Division of Gynecologic Oncology, Department of Obstetrics and Gynecology, 
+Stanford University, Stanford, California.
+(5)Assistance Publique - Hopitaux De Paris, GINECO group, Paris, France.
+(6)Centre Anticancereux Léon Bérard, University Claude Bernard Lyon, GINECO 
+group, Lyon, France.
+(7)Medical Oncology Department, Centre François Baclesse, University Unicaen 
+Caen, GINECO group, Caen, France.
+(8)Ev. Kliniken Essen-Mitte, AGO Study Group, Essen, Germany.
+(9)Department of Gynecology and Obstetrics, Medical Faculty and University 
+Hospital Carl Gustav Carus, Technische Universität Dresden, AGO Study Group, 
+Dresden, Germany.
+(10)National Center for Tumor Diseases (NCT), Partner Site Dresden, Dresden, 
+Germany.
+(11)Department of Medical Oncology, Croix Saint-Simon Diaconesses Hospital 
+Group, GINECO group, Paris, France.
+(12)Department of Gynecology, University Medical Center Hamburg-Eppendorf, AGO 
+Study Group, Hamburg, Germany.
+(13)Department of Obstetrics and Gynecology, University Hospital Magdeburg, 
+NOGGO group, Hamburg, Germany.
+(14)Charité - Universitätsmedizin Berlin, corporate member of Freie Universität 
+Berlin and HumboldtUniversität zu Berlin, Institute of Pathology, NOGGO group, 
+Berlin, Germany.
+(15)Division of Gynecological Oncology, Department of Gynecology and Obstetrics, 
+Leuven Cancer Institute, Katholieke Universiteit Leuven, BGOG, European Union, 
+Leuven, Belgium.
+(16)Department of Molecular Oncology, Universitätsmedizin Göttingen, 
+Georg-August-Universität Göttingen, Göttingen, Germany.
+(17)Department of Medical Statistics, Informatics and Health Economics, Medical 
+University of Innsbruck, Innsbruck, Austria.
+
+PURPOSE: Mutant p53 stabilized by heat shock protein 90 (HSP90) is a novel 
+target in oncology. The open-label, randomized phase II GANNET53 trial is the 
+first to evaluate the HSP90 inhibitor ganetespib (G) with paclitaxel (P) in 
+platinum-resistant epithelial ovarian cancer (EUDRACT 2013-003868-31; EU FP7 
+#602602).
+PATIENTS AND METHODS: Patients were randomized 2:1 to receive G + P or P alone 
+until progression. Primary endpoints were progression-free survival (PFS) and 
+PFS rate at 6 months. Exploratory endpoints were biomarkers based on p53 and 
+HSP90.
+RESULTS: A total of 133 patients were enrolled. The median PFS was 3.5 (G + P) 
+and 5.3 months (P) (HR = 1.3; 95% confidence interval, 0.897-1.895; P = 0.16), 
+and PFS rates at 6 months were 22% (G + P) and 33% (P). No significant 
+differences were found in overall survival, objective response rate, and 
+post-progression PFS between arms. The most frequent adverse events were 
+diarrhea (79% vs. 26%), anemia (46% vs. 51%), nausea (41% vs. 40%), and 
+peripheral neuropathy (36% vs. 47%). Serious adverse events were more common in 
+G + P (39.5% vs. 23.3%). Gastrointestinal perforation was a new safety finding. 
+Despite a high TP53 mutation frequency, HSP90-p53 complexes were detected in 
+only 39.6% of the cases and were also detected stably during treatment. In 
+vitro, no synergistic effects of G + P were observed, and mutant p53 depletion 
+did not sensitize ovarian cancer cells to treatment.
+CONCLUSIONS: Although no major safety findings were observed, G + P did not lead 
+to survival benefit. Our companion diagnostic program confirmed that G + P do 
+not favorably cooperate in killing ovarian cancer cells.
+
+©2025 American Association for Cancer Research.
+
+DOI: 10.1158/1078-0432.CCR-24-3705
+PMID: 40435111 [Indexed for MEDLINE]
+
+
+6. Nat Commun. 2025 Mar 4;16(1):2195. doi: 10.1038/s41467-025-57293-9.
+
+Determinants of response and molecular dynamics in HER2+ER+ breast cancers from 
+the NA-PHER2 trial receiving HER2-targeted and endocrine therapies.
+
+Callari M(1), Dugo M(2), Barreca M(1)(3), Győrffy B(4)(5)(6), Galbardi B(2), 
+Vigano L(2), Locatelli A(2), Dall'Ara C(2), Ferrarini M(2), Bisagni G(7), 
+Colleoni M(8), Mansutti M(9), Zamagni C(10), Del Mastro L(11)(12), Zambelli 
+S(2), Frassoldati A(13), Biasi O(8), Pusztai L(14), Valagussa P(1), Viale 
+G(1)(8), Gianni L(15), Bianchini G(16)(17).
+
+Author information:
+(1)Fondazione Michelangelo, Milan, Italy.
+(2)IRCCS San Raffaele Hospital, Milan, Italy.
+(3)Department of Biotechnology and Biosciences, University of Milano-Bicocca, 
+Milan, Italy.
+(4)Dept. of Bioinformatics, Semmelweis University, Budapest, Hungary.
+(5)Dept. of Biophysics, Medical School, University of Pecs, Pecs, Hungary.
+(6)Cancer Biomarker Research Group, Institute of Molecular Life Sciences, 
+Research Centre for Natural Sciences, Budapest, Hungary.
+(7)AUSL - IRCCS, Reggio Emilia, Italy.
+(8)IEO, European Institute of Oncology, IRCCS, Milan, Italy.
+(9)Udine Academic Hospital, Udine, Italy.
+(10)IRCCS Azienda Ospedaliero Universitaria, Bologna, Italy.
+(11)Department of Internal Medicine and Medical Specialties (DiMI), School of 
+Medicine, Università di Genova, Genoa, Italy.
+(12)Department of Medical Oncology, UO Clinica di Oncologia Medica, IRCCS 
+Ospedale Policlinico San Martino, Genoa, Italy.
+(13)Azienda Ospedaliera Universitaria S. Anna, Ferrara, Italy.
+(14)Department of Internal Medicine, Section of Medical Oncology, Yale School of 
+Medicine, New Haven, CT, USA.
+(15)Fondazione Michelangelo, Milan, Italy. 
+luca.gianni@fondazionemichelangelo.org.
+(16)IRCCS San Raffaele Hospital, Milan, Italy. bianchini.giampaolo@hsr.it.
+(17)UniSR San Raffaele University, Milan, Italy. bianchini.giampaolo@hsr.it.
+
+Improved outcomes in HER2+ female breast cancer have resulted from chemotherapy 
+and anti-HER2 therapies. However, HER2+ER+ cancers exhibit lower response rates. 
+The phase 2 NA-PHER2 trial (NCT02530424) investigated chemo-free preoperative 
+HER2 blockade (trastuzumab + pertuzumab) and CDK4/6 inhibition (palbociclib) 
+with or without endocrine therapy (fulvestrant) in HER2+ER+ breast cancer. 
+Clinical endpoints (i.e. Ki67 dynamics and pathological complete response) were 
+previously reported. Here we report on the biomarker analysis, secondary 
+objective of the study. Through RNA sequencing and tumour infiltrating 
+lymphocytes (TIL) assessment in serial biopsies, we identified biomarkers 
+predictive of pCR or Day14 Ki67 response and unveiled treatment-induced 
+molecular changes. High immune infiltration and low ER signalling correlated 
+with pCR, while TP53 mutations associated with high Day14 Ki67. Stratification 
+based on Ki67 at Day14 and at surgery defined three response groups (Ki67 
+HighHigh, LowHigh, LowLow), with divergent tumour and stroma expression 
+dynamics. The HighHigh group showed dysfunctional immune infiltration and 
+overexpression of therapeutic targets like PAK4 at baseline. The LowLow group 
+exhibited a Luminal A phenotype by the end of treatment. This study expands our 
+understanding of drivers and dynamics of HER2+ER+ tumour response, towards 
+treatment tailoring.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s41467-025-57293-9
+PMCID: PMC11880565
+PMID: 40038334 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: G.V. received 
+grants/research supports from: Roche/Genentech, Ventana Medical Systems, 
+Dako/Agilent Technologies; honoraria or consultation feesfrom: Ventana, 
+Dako/Agilent, Roche, MSD Oncology, AstraZeneca, Daiichi Sankyo, Pfizer, Eli 
+Lilly. All the authors declare no conflicts of interest. L.P. has received 
+consulting fees and honoraria for advisory board participation from Pfizer, 
+Astra Zeneca, Merck, Novartis, Bristol-Myers Squibb, Stemline-Menarini, 
+GlaxoSmithKline, Genentech/Roche, Personalis, Daiichi, Natera, Exact Sciences 
+and institutional research funding from Seagen, GlaxoSmithKline, AstraZeneca, 
+Merck, Pfizer and Bristol Myers Squibb. M.Co. received an institutional research 
+grant from Roche. G.B. reports personal fees for consultancy/honorarium/advisory 
+role: Lilly, Novartis, Pfizer, Roche, AstraZeneca, Amgen, MSD, Chugai, Sanofi, 
+Daiichi Sankyo, EISAI, Gilead, Menarini/stemline, Exact Science, Seagen, 
+Agendia; institutional fee for research grant from Gilead. L.G. reports grants 
+from Roche, Breast Cancer Research Foundation (BCRF), and Pfizer during the 
+conduct of the study; personal fees from AstraZeneca, Ely Lilly and Company, 
+Roche, Pfizer, Seattle Genentics, Artemida Pharma, Synaffix, Menarini Ricerche, 
+and Biomedical Insights; grants and personal fees from Zymeworks and Revolution 
+Medicine; other support from METIS Precision Medicine, Amgen, and QU Biologics 
+outside the submitted work; in addition, L.G. has a patent for EU N. 12195182 
+issued and a patent for EU N.12196177.5 issued.
+
+
+7. J Clin Oncol. 2025 Mar;43(7):788-799. doi: 10.1200/JCO-24-02503. Epub 2024 Dec
+ 7.
+
+Phase II Study of Acalabrutinib, Venetoclax, and Obinutuzumab in a 
+Treatment-Naïve Chronic Lymphocytic Leukemia Population Enriched for High-Risk 
+Disease.
+
+Davids MS(1), Ryan CE(1), Lampson BL(1), Ren Y(2), Tyekucheva S(2), Fernandes 
+SM(1), Crombie JL(1), Kim AI(1), Weinstock M(3), Montegaard J(1), Walker HA(1), 
+Greenman C(1), Patterson V(1), Jacobson CA(1), LaCasce AS(1), Armand P(1), 
+Fisher DC(1), Lo S(4), Olszewski AJ(5), Arnason JE(3), Ahn IE(1), Brown JR(1).
+
+Author information:
+(1)Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA.
+(2)Department of Data Science, Dana-Farber Cancer Institute, Boston, MA.
+(3)Department of Hematology/Oncology, Beth Israel Deaconess Medical Center, 
+Boston, MA.
+(4)Stamford Hospital, Stamford, CT.
+(5)Brown University Health, Providence, RI.
+
+Erratum in
+    J Clin Oncol. 2025 Feb;43(4):480. doi: 10.1200/JCO-24-02716.
+    J Clin Oncol. 2025 Apr 20;43(12):1521-1522. doi: 10.1200/JCO-25-00466.
+
+PURPOSE: The AMPLIFY trial recently established fixed-duration acalabrutinib, 
+venetoclax, and obinutuzumab (AVO) as a new standard-of-care option for patients 
+with previously untreated chronic lymphocytic leukemia (CLL) with wild-type 
+TP53; however, due to the chemoimmunotherapy control arm, AMPLIFY excluded 
+patients with high-risk TP53 aberration, for whom current standards of care are 
+continuous Bruton tyrosine kinase inhibitor therapy or alternatively 
+fixed-duration venetoclax-based doublets. AVO has not previously been evaluated 
+in patients with CLL with TP53 aberration.
+METHODS: This investigator-sponsored, multicenter, phase II study enrolled 
+patients with treatment-naïve CLL enriched for high-risk CLL, defined by TP53 
+aberration (ClinicalTrials.gov identifier: NCT03580928). Patients received 
+acalabrutinib, obinutuzumab, and then venetoclax, with each treatment introduced 
+sequentially and in combination, with the duration guided by measurable residual 
+disease (MRD). Patients who achieved undetectable MRD (uMRD) after either 15 or 
+24 cycles could discontinue treatment. The primary end point was complete 
+remission (CR) with bone marrow uMRD (BM-uMRD) at the start of cycle 16.
+RESULTS: Seventy-two patients were accrued, including 45 patients with TP53 
+aberration. The CR with BM-uMRD rates at the start of cycle 16 were 42% in 
+patients with TP53 aberration and 42% in all-comers, and the BM-uMRD rates were 
+71% and 78%, respectively. Hematologic toxicities were mainly low grade, and 
+cardiovascular toxicities and bleeding complications were infrequent. After a 
+median follow-up of 55.2 months, 10 patients had progressed, including four with 
+transformation, and three patients died. Four-year progression-free survival and 
+overall survival for patients with or without TP53 aberration were 70%/96% and 
+88%/100%, respectively.
+CONCLUSION: AVO was highly active and well tolerated in patients with previously 
+untreated high-risk CLL, supporting its use as a new standard-of-care treatment 
+option.
+
+DOI: 10.1200/JCO-24-02503
+PMCID: PMC11996140
+PMID: 39645236 [Indexed for MEDLINE]
+
+Conflict of interest statement: Steve Lo is the chair of Medical Advisory Board 
+for Breast Cancer Alliance, Greenwich, CT (received no payments). Adam J. 
+Olszewski has received consulting fees from Genmab, BeiGene, Blue Cross and Blue 
+Shield of Rhode Island, Bristol-Myers Squibb, Schrodinger, ADC Therapeutics. 
+Phillipe Armand has received consultancy fees from Merck, Bristol Meyers 
+Squibb/Celgene, Pfizer, Affimed, Adaptive, Infinity, ADC Therapeutics, 
+Morphosys, Daiichi Sankyo, Miltenyi, Tessa, GenMab, C4, Enterome, Regeneron, 
+Epizyme, Astra Zeneca, Genentech/Roche, Xencor, Foresight, ATB Therapeutics, 
+Stelexis, research funding from Kite Pharma, institutional research funding from 
+Merck, BMS-Celgene, Affimed, Adaptive, Tensha, Otsuka, Sigma Tau, 
+Genentech/Roche, IGM, Astra Zeneca, and honoraria from Merck and Bristol Meyers 
+Squibb. Josie Montegaard has participated on a Data Safety Monitoring Board or 
+Advisory Board for Abbvie, Beigene, Bristol Myers Squibb, AstraZeneca. Jon 
+Arnason has received payment for lectures, presentations, speakers bureaus, 
+manuscript writing or educational events from the Regeneon Speakers Fee (June 
+2024). Inhye Ahn has received grants or contracts from Lilly (to the 
+institution), consulting fees from AstraZeneca, BeiGene, and Lilly, and feeds 
+for participation on a Data Safety Monitoring Board or Advisory Board, BeiGene. 
+Jennifer Crombie has received consulting fees from Genentech/Roche and research 
+support from Abbvie. Austin Kim had received grants or contracts for the 
+institution from AstraZeneca, Research funding to institution, honoraria for 
+invited presentations for the Community Oncology Connections On-line CME 2024, 
+New York Oncology Hematology. Caron Jacobson has received consulting fees from 
+Kite Pharma/Gilead, Novartis, Bristol Myers Squibb, Galapagos, Caribou, Appia, 
+ADC Therapeutics, AstraZeneca, Abbvie, Miltenyi, Janssen, Sana, Synthekine, 
+Kyverna, and has received fees from participation on a Data Safety Monitoring 
+Board or Advisory Board from Kyverna. Benjamin Lampson is a paid employee of 
+Blueprint Medicines since April 2023 and has stock and stock options in 
+Blueprint Medicines. Ann LaCasce has received consulting fees from Genmab, 
+Curio, Pierre Fabre, MJH Life Sciences, Ideology, and payment or honoraria for 
+lectures, presentations, speakers bureaus, manuscript writing or educational 
+events, Research to Practice. Matthew Davids has received support for the 
+present manuscript (e.g., funding, provision of study materials, medical 
+writing, article processing charges, etc.) from AstraZeneca, research grants 
+from Ascentage Pharma, MEI Pharma, and Novartis, royalties from UpToDate, 
+Consulting fees from AbbVie, Adaptive Biotechnologies, Ascentage Pharma, 
+AstraZeneca, BeiGene, Bristol-Myers Squibb, Eli Lilly, Genentech, Genmab, 
+Janssen, Merck, MEI Pharma, Nuvalent, SecuraBio, Takeda, TG Therapeutics, 
+participated on a Data Safety Monitoring (Chair, CLL17 Trial DMC). Jennifer R. 
+Brown has received research funding from BeiGene, Gilead, iOnctura, Loxo/Lilly, 
+MEI Pharma, SecuraBio, and TG Therapeutics, royalties from UpToDate, served as a 
+consultant for Abbvie, Acerta/Astra-Zeneca, Alloplex Biotherapeutics, BeiGene, 
+Bristol-Myers Squibb, EcoR1, Galapagos NV, Genentech/Roche, Grifols Worldwide 
+Operations, InnoCare Pharma Inc, iOnctura, Kite Pharma, Loxo/Lilly, Magnet 
+Biomedicine, Merck, Numab Therapeutics, Pfizer, & Pharmacyclics, and serves on 
+the Data Safety Monitoring Board for Grifols Therapeutics. All other authors 
+report no disclosures.
+
+
+8. Ann Oncol. 2024 Nov;35(11):968-980. doi: 10.1016/j.annonc.2024.08.2242. Epub 
+2024 Sep 14.
+
+ENGOT-en11/GOG-3053/KEYNOTE-B21: a randomised, double-blind, phase III study of 
+pembrolizumab or placebo plus adjuvant chemotherapy with or without radiotherapy 
+in patients with newly diagnosed, high-risk endometrial cancer.
+
+Van Gorp T(1), Cibula D(2), Lv W(3), Backes F(4), Ortaç F(5), Hasegawa K(6), 
+Lindemann K(7), Savarese A(8), Laenen A(9), Kim YM(10), Bodnar L(11), 
+Barretina-Ginesta MP(12), Gilbert L(13), Pothuri B(14), Chen X(15), Flores 
+MB(16), Levy T(17), Colombo N(18), Papadimitriou C(19), Buchanan T(20), Hanker 
+LC(21), Eminowicz G(22), Rob L(23), Black D(24), Lichfield J(25), Lin G(26), 
+Orlowski R(26), Keefe S(26), Lortholary A(27), Slomovitz B(28); 
+ENGOT-en11/GOG-3053/KEYNOTE-B21 investigators.
+
+Author information:
+(1)Division of Gynaecological Oncology, University Hospital Leuven, Leuven 
+Cancer Institute, Leuven, Belgium; Belgian and Luxembourg Gynaecological 
+Oncology Group (BGOG), Leuven, Belgium. Electronic address: 
+toon.vangorp@uzleuven.be.
+(2)Department of Gynecology, Obstetrics and Neonatology, General University 
+Hospital in Prague, First Faculty of Medicine, Charles University, Prague, Czech 
+Republic; Central and Eastern European Gynecologic Oncology Group (CEEGOG), 
+Prague, Czech Republic.
+(3)Department of Gynecologic Oncology, Women's Hospital, School of Medicine, 
+Zhejiang University, Hangzhou, Zhejiang, China.
+(4)Division of Gynecologic Oncology, Ohio State University and James Cancer 
+Hospital, Columbus, USA; GOG Foundation, Philadelphia, USA.
+(5)Ankara University School of Medicine, Ankara, Turkey; Turkish Society of 
+Gynecologic Oncology (TRSGO), Istanbul, Turkey.
+(6)Department of Gynecologic Oncology, Saitama Medical University International 
+Medical Center, Hidaka, Saitama Prefecture, Japan.
+(7)Department of Gynecological Oncology, Oslo University Hospital, Oslo, Norway; 
+Faculty of Medicine, Institute of Clinical Medicine, University of Oslo, Oslo, 
+Norway; Nordic Society of Gynaecological Oncology - Clinical Trial Unit 
+(NSGO-CTU), Copenhagen, Denmark.
+(8)IRCCS - Regina Elena National Cancer Institute, Rome, Italy; Multicenter 
+Italian Trials in Ovarian Cancer and Gynecologic Malignancies (MITO), Rome, 
+Italy.
+(9)Belgian and Luxembourg Gynaecological Oncology Group (BGOG), Leuven, Belgium; 
+Leuven Biostatistics and Statistical Bioinformatics Center, KU Leuven, Leuven, 
+Belgium.
+(10)Department of Obstetrics and Gynecology, Asan Medical Center, University of 
+Ulsan, Seoul, Republic of Korea.
+(11)Department of Clinical Oncology and Radiotherapy, Mazovia Regional Hospital, 
+Siedlce Oncology Center, Siedlce, Poland; Polish Group of Gynaecological 
+Oncology (PGOG), Warsaw, Poland.
+(12)Catalan Institute of Oncology and Girona Biomedical Research Institute, 
+Medical School University of Girona, Girona, Spain; Spanish Ovarian Cancer 
+Research Group (GEICO), Madrid, Spain.
+(13)Division of Gynecologic Oncology, McGill University Health Centre, Montreal, 
+Canada; Women's Health Research Unit, Research Institute McGill University 
+Health Centre, Montreal, Canada; Gerald Bronfman Department of Oncology, McGill 
+University Health Centre, Montreal, Canada.
+(14)GOG Foundation, Philadelphia, USA; Department of Obstetrics and Gynecology 
+and Medicine, Division of Gynecologic Oncology, Perlmutter Cancer Center, NYU 
+Langone Health, New York, USA.
+(15)Department of Oncology, Obstetrics and Gynecology Hospital of Fudan 
+University, Shanghai, China; Shanghai Gynecologic Oncology Group (SGOG), 
+Shanghai, China.
+(16)Instituto Oncológico Fundación Arturo López Pérez, Santiago, Chile.
+(17)Gynecologic Oncology Unit, Department of Obstetrics and Gynecology, Israeli 
+Society of Gynecology Oncology (ISGO), Wolfson Medical Center, Affiliated with 
+the Faculty of Medical and Health Sciences, Tel Aviv University, Holon, Israel.
+(18)Gynecologic Oncology Program, European Institute of Oncology IRCCS, Milan, 
+Italy; Department of Medicine and Surgery, University of Milan-Bicocca, Milan, 
+Italy; Mario Negri Gynecologic Oncology (MaNGO), Milan, Italy.
+(19)Aretaieio University Hospital, National and Kapodistrian University of 
+Athens, Athens, Greece; Hellenic Cooperative Oncology Group (HeCOG), Athens, 
+Greece.
+(20)GOG Foundation, Philadelphia, USA; Jefferson Health, Asplundh Cancer 
+Pavilion, Willow Grove, USA.
+(21)University Hospital Schleswig-Holstein, Lubeck, Germany; Department of 
+Gynecology and Obstetrics, University Hospital Muenster, Muenster, Germany; 
+German Gynecological Oncology Group (AGO), Wiesbaden, Germany.
+(22)University College London Hospitals and University College London, London, 
+UK; National Cancer Research Institute (NCRI), London, UK.
+(23)Central and Eastern European Gynecologic Oncology Group (CEEGOG), Prague, 
+Czech Republic; Department of Obstetrics and Gynecology, Faculty Hospital 
+Kralovske Vinohrady, 3rd Faculty of Medicine, Charles University, Prague, Czech 
+Republic.
+(24)GOG Foundation, Philadelphia, USA; Department of Obstetrics and Gynecology, 
+LSU Health Shreveport, Shreveport, USA; Willis-Knighton Physician Network, 
+Shreveport, USA.
+(25)MSD, London, UK.
+(26)Merck & Co., Inc., Rahway, USA.
+(27)Centre Catherine de Sienne, Hôpital Privé du Confluent, Nantes, France; 
+National Investigators Group for the Study of Ovarian and Breast Cancers 
+(GINECO), Paris, France.
+(28)GOG Foundation, Philadelphia, USA; Mount Sinai Medical Center, Miami Beach, 
+USA.
+
+BACKGROUND: Pembrolizumab plus chemotherapy provides clinically meaningful 
+benefit as first-line therapy for advanced (locoregional extension and residual 
+disease after surgery)/metastatic/recurrent mismatch repair-proficient (pMMR) 
+and mismatch repair-deficient (dMMR) endometrial cancer, with greater magnitude 
+of benefit in the dMMR phenotype. We evaluated the addition of pembrolizumab to 
+adjuvant chemotherapy (with/without radiation therapy) among patients with newly 
+diagnosed, high-risk endometrial cancer without any residual macroscopic disease 
+following curative-intent surgery.
+METHODS: We included patients with histologically confirmed high-risk 
+[International Federation of Gynecology and Obstetrics (FIGO) stage I/II of 
+non-endometrioid histology or endometrioid histology with p53/TP53 abnormality, 
+or stage III/IVA of any histology] endometrial cancer following surgery with 
+curative intent and no evidence of disease postoperatively, with no prior 
+radiotherapy or systemic therapy. Patients were randomised to pembrolizumab 200 
+mg or placebo every 3 weeks (Q3W) for six cycles added to carboplatin-paclitaxel 
+followed by pembrolizumab 400 mg or placebo every 6 weeks (Q6W) for six cycles 
+per treatment assignment. Radiotherapy was at the investigator's discretion. The 
+primary endpoints were investigator-assessed disease-free survival (DFS) and 
+overall survival in the intention-to-treat population.
+RESULTS: A total of 1095 patients were randomised (pembrolizumab, n = 545; 
+placebo, n = 550). At this interim analysis (data cut-off, 4 March 2024), 119 
+(22%) DFS events occurred in the pembrolizumab group and 121 (22%) occurred in 
+the placebo group [hazard ratio 1.02, 95% confidence interval (CI) 0.79-1.32; 
+P = 0.570]. Kaplan-Meier estimates of 2-year DFS rates were 75% and 76% in the 
+pembrolizumab and placebo groups, respectively. The hazard ratio for DFS was 
+0.31 (95% CI 0.14-0.69) in the dMMR population (n = 281) and 1.20 (95% CI 
+0.91-1.57) in the pMMR population (n = 814). Grade ≥3 adverse events (AEs) 
+occurred in 386 of 543 (71%) and 348 of 549 (63%) patients in the pembrolizumab 
+and placebo groups, respectively. No treatment-related grade 5 AEs occurred.
+CONCLUSIONS: Adjuvant pembrolizumab plus chemotherapy did not improve DFS in 
+patients with newly diagnosed, high-risk, all-comer endometrial cancer. 
+Preplanned subgroup analyses for stratification factors suggest that 
+pembrolizumab plus chemotherapy improved DFS in patients with dMMR tumours. 
+Safety was manageable.
+TRIAL REGISTRATION: ClinicalTrials.gov, NCT04634877; EudraCT, 2020-003424-17.
+RESEARCH SUPPORT: Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc., 
+Rahway, NJ, USA.
+
+Copyright © 2024 Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc., 
+Rahway, NJ, USA., The Author(s). Published by Elsevier Ltd.. All rights 
+reserved.
+
+DOI: 10.1016/j.annonc.2024.08.2242
+PMID: 39284383 [Indexed for MEDLINE]
+
+
+9. Cancer Immunol Immunother. 2024 Aug 6;73(10):197. doi: 
+10.1007/s00262-024-03782-7.
+
+Genomic and transcriptomic profiles associated with response to eribulin and 
+nivolumab combination in HER-2-negative metastatic breast cancer.
+
+Park C(1), Suh KJ(1), Kim SH(2), Lee KH(3), Im SA(3), Kim MH(4), Sohn J(4), 
+Jeong JH(5), Jung KH(5), Lee KE(6), Park YH(7), Kim HJ(8), Cho EK(9), Choi 
+IS(10), Noh SJ(11), Shin I(11), Cho DY(11), Kim JH(1).
+
+Author information:
+(1)Division of Hematology-Oncology, Department of Internal Medicine, Seoul 
+National University Bundang Hospital, 82, Gumi-Ro, Bundang-Gu, Seongnam, 13620, 
+Republic of Korea.
+(2)Division of Hematology-Oncology, Department of Internal Medicine, Seoul 
+National University Bundang Hospital, 82, Gumi-Ro, Bundang-Gu, Seongnam, 13620, 
+Republic of Korea. sehyunkim@snubh.org.
+(3)Department of Internal Medicine, Seoul National University Hospital, Cancer 
+Research Institute, Seoul National University, College of Medicine, Seoul, 
+Republic of Korea.
+(4)Division of Medical Oncology, Department of Internal Medicine, Yonsei Cancer 
+Center, Yonsei University College of Medicine, Seoul, Korea.
+(5)Department of Oncology, Asan Medical Center, University of Ulsan College of 
+Medicine, Seoul, Korea.
+(6)Department of Hematology and Oncology, Ewha Womans University Hospital, 
+Seoul, Korea.
+(7)Hematology-Oncology, Samsung Medical Center Sungkyunkwan University School of 
+Medicine, Seoul, Korea.
+(8)Department of Internal Medicine, Chung-Ang University College of Medicine, 
+Seoul, Korea.
+(9)Division of Oncology, Department of Internal Medicine, Gil Medical Center, 
+Gachon University College of Medicine, Incheon, Korea.
+(10)Department of Internal Medicine, Seoul Metropolitan Government Seoul 
+National University Boramae Medical Center, Seoul, Korea.
+(11)PentaMedix Co., Ltd, Seongnam, Korea.
+
+BACKGROUND: Biomarkers for predicting response to the immunotherapy and 
+chemotherapy combination in breast cancer patients are not established. In this 
+study, we report exploratory genomic and transcriptomic analyses of pretreatment 
+tumor tissues from patients enrolled in phase II clinical trial of a combination 
+of eribulin and nivolumab for HER-2-negative metastatic breast cancer (MBC) 
+(KORNELIA trial, NCT04061863).
+METHODS: We analyzed associations between tumor molecular profiles based on 
+genomic (n = 76) and transcriptomic data (n = 58) and therapeutic efficacy. 
+Patients who achieved progression-free survival (PFS) ≥ 6 months were defined as 
+PFS6-responders and PFS6-nonresponders otherwise.
+FINDINGS: Analyses on tumor mutation burden (TMB) showed a tendency toward a 
+favorable effect on efficacy, while several analyses related to homologous 
+recombination deficiency (HRD) indicated a potentially negative impact on 
+efficacy. Patients harboring TP53 mutations showed significantly poor PFS6 rate 
+and PFS, which correlated with the enrichment of cell cycle-related signatures 
+in PFS6-nonresponders. High antigen presentation gene set enrichment scores 
+(≥ median) were significantly associated with longer PFS. Naïve B-cell and 
+plasma cell proportions were considerably higher in long responders 
+(≥ 18 months).
+INTERPRETATION: Genomic features including TMB, HRD, and TP53 mutations and 
+transcriptomic features related to immune cell profiles and cell cycle may 
+distinguish responders. Our findings provide insights for further exploring the 
+combination regimen and its biomarkers in these tumors.
+
+© 2024. The Author(s).
+
+DOI: 10.1007/s00262-024-03782-7
+PMCID: PMC11303363
+PMID: 39105849 [Indexed for MEDLINE]
+
+Conflict of interest statement: Seung-Jae Noh, Inkyung Shin, and Dae-Yeon Cho 
+are employees of PentaMedix Co., Ltd. There are no other conflicts of interest 
+to declare.
+
+
+10. Cancer Med. 2024 Jul;13(14):e70028. doi: 10.1002/cam4.70028.
+
+Phase 1 dose escalation study of the MDM2 inhibitor milademetan as monotherapy 
+and in combination with azacitidine in patients with myeloid malignancies.
+
+DiNardo CD(1), Olin R(2), Wang ES(3), Skikne B(4), Rosenthal J(5), Kumar P(6), 
+Sumi H(7), Hizukuri Y(7), Hong Y(6), Patel P(6), Seki T(6), Duan T(6), 
+Lesegretain A(6), Andreeff M(1).
+
+Author information:
+(1)Department of Leukemia, The University of Texas MD Anderson Cancer Center, 
+Houston, Texas, USA.
+(2)University of California, San Francisco, California, USA.
+(3)Roswell Park Comprehensive Care Center, Buffalo, New York, USA.
+(4)University of Kansas Medical Center, Kansas City, Kansas, USA.
+(5)Department of Pediatrics, City of Hope, Duarte, California, USA.
+(6)Daiichi Sankyo Inc., Basking Ridge, New Jersey, USA.
+(7)Daiichi Sankyo Co., Tokyo, Japan.
+
+BACKGROUND: Mouse double minute-2 homolog (MDM2) plays a key role in 
+downregulating p53 activity in hematologic malignancies, and its overexpression 
+is associated with poor outcomes.
+METHODS: This phase 1 study assessed the safety and efficacy of different dosing 
+regimens of the MDM2 inhibitor milademetan as monotherapy and in combination 
+with azacitidine (AZA) in patients with relapsed or refractory acute myeloid 
+leukemia or high-risk myelodysplastic syndromes.
+RESULTS: Seventy-four patients (monotherapy, n = 57; milademetan-AZA 
+combination, n = 17) were treated. The maximum tolerated dose of milademetan was 
+160 mg once daily given for the first 14-21 days of 28-day cycles as monotherapy 
+and on Days 5-14 in combination with AZA. Dose-limiting toxicities were 
+gastrointestinal, fatigue, or renal/electrolyte abnormalities. 
+Treatment-emergent adverse events related to milademetan occurred in 82.5% and 
+64.7% of participants in the monotherapy and AZA combination arms, respectively. 
+Two participants (4.2%) in the monotherapy arm achieved complete remission (CR), 
+and 1 (2.1%) achieved CR with incomplete blood count recovery (CRi). Two 
+participants (13.3%) achieved CRi in the combination arm. New TP53 mutations, 
+detected only during milademetan monotherapy, were found pre-existing below 
+standard detection frequency by droplet digital polymerase chain reaction.
+INTERPRETATION: Milademetan was relatively well tolerated in this population; 
+however, despite signals of activity, clinical efficacy was minimal.
+
+© 2024 The Author(s). Cancer Medicine published by John Wiley & Sons Ltd.
+
+DOI: 10.1002/cam4.70028
+PMCID: PMC11258486
+PMID: 39030997 [Indexed for MEDLINE]
+
+Conflict of interest statement: CDD has received research support and/or 
+consulting fees from Abbvie, Astellas, Astex, Beigene, BMS, Cleave, Daiichi 
+Sankyo, Foghorn, Genetech, GenMab, Gilead, GSK, Immunogen, ImmuneOnc, Jazz, 
+Leukemia and Lymphoma Society, Loxo, Novartis, Notable Labs, Rigel, Servier; RO 
+has received support and/or consulting fees from Actinium, Cellectis, Rigel, and 
+Servier; ESW has received advisory board and/or consulting fees from Abbvie, 
+BMS, CTI Biopharma, Daiichi Sankyo, Genentech, GSK, Johnson & Johnson, Kite, 
+Kura, Novartis, Rigel, Sellas, and Sumitomo Pharma; speaker fees from Astellas, 
+Kura, and Pfizer; and participation fees from Abbvie and Gilead; BS is an 
+investigator in the study and in so doing, payment for the cost of conduct of 
+the study as well as receipt of the investigative agents were made to the 
+Clinical Cancer Research Institute at the University of Kansas Cancer Center; JR 
+has no competing interests related to this manuscript; MA has received research 
+support, consulting and/or advisory fees from Amgen, AstraZeneca, Breast Cancer 
+Research Foundation, Cancer Prevention and Research Institute of Texas, 
+Celegene, Daiichi Sankyo, Jazz Pharmaceuticals, Karyopharm Therapeutics, 
+National Institutes of Health/National Cancer Institute, Ono Pharmaceutical, 
+Reata Pharmaceuticals, Senti Biosciences, United Therapeutics; travel expenses 
+from Amgen, Aptose Biosciences, AstraZeneca, Oncoceutics; holds a patent with 
+Reata Pharmaceuticals; and holds stock and other ownership interests in Aptose 
+Biosciences, Eutropics, Oncoceutics, Oncolyze; PK, Y Hong, PP, TS, TD and AL are 
+employed at Daiichi Sankyo Inc, the study sponsor, and HS and Y Hizukuri are 
+employed at Daiichi Sankyo Co, Ltd, Japan, and all own company stocks.
+
+
+11. Breast Cancer. 2024 Sep;31(5):886-897. doi: 10.1007/s12282-024-01603-4. Epub 
+2024 Jun 13.
+
+Neoadjuvant talazoparib in patients with germline BRCA1/2 mutation-positive, 
+early-stage triple-negative breast cancer: exploration of tumor BRCA mutational 
+status.
+
+Telli ML(1), Litton JK(2), Beck JT(3), Jones JM(4), Andersen J(5), Mina LA(6), 
+Brig R(7), Danso M(8), Yuan Y(9), Symmans WF(10), Hopkins JF(11), Albacker 
+LA(11), Abbattista A(12), Noonan K(13), Mata M(14), Laird AD(15), Blum JL(16).
+
+Author information:
+(1)Department of Medicine, Stanford University School of Medicine, Stanford, CA, 
+USA. mtelli@stanford.edu.
+(2)Department of Breast Medical Oncology, The University of Texas MD Anderson 
+Cancer Center, Houston, TX, USA.
+(3)Department of Medical Oncology and Hematology, Highlands Oncology, 
+Springdale, AR, USA.
+(4)Avera Medical Group Oncology & Hematology, Avera Cancer Institute, Sioux 
+Falls, SD, USA.
+(5)Medical Oncology, Compass Oncology, West Cancer Center, US Oncology Network, 
+Tigard, OR, USA.
+(6)Hematology Oncology Department, Banner MD Anderson Cancer Center, Gilbert, 
+AZ, USA.
+(7)Medical Oncology, Brig Center for Cancer Care and Survivorship, Knoxville, 
+TN, USA.
+(8)Medical Oncology, Virginia Oncology Associates, Norfolk, VA, USA.
+(9)Department of Medical Oncology & Therapeutics Research, Cedars-Sinai Cancer 
+Center, West Hollywood, CA, USA.
+(10)Department of Pathology, The University of Texas MD Anderson Cancer Center, 
+Houston, TX, USA.
+(11)Foundation Medicine, Inc., Cambridge, MA, USA.
+(12)Clinical Statistics, Pfizer Oncology, Milan, Italy.
+(13)Clinical Oncology, Pfizer Inc., Groton, CT, USA.
+(14)Pfizer Inc., La Jolla, CA, USA.
+(15)Pfizer Inc., South San Franciso, CA, USA.
+(16)Department of Oncology, Texas Oncology-Baylor Charles A. Sammons Cancer 
+Center, US Oncology Network, Dallas, TX, USA.
+
+BACKGROUND: Talazoparib monotherapy in patients with germline BRCA-mutated, 
+early-stage triple-negative breast cancer (TNBC) showed activity in the 
+neoadjuvant setting in the phase II NEOTALA study (NCT03499353). These biomarker 
+analyses further assessed the mutational landscape of the patients enrolled in 
+the NEOTALA study.
+METHODS: Baseline tumor tissue from the NEOTALA study was tested retrospectively 
+using FoundationOne®CDx. To further hypothesis-driven correlative analyses, 
+agnostic heat-map visualizations of the FoundationOne®CDx tumor dataset were 
+used to assess overall mutational landscape and identify additional candidate 
+predictive biomarkers of response.
+RESULTS: All patients enrolled (N = 61) had TNBC. In the biomarker analysis 
+population, 75.0% (39/52) and 25.0% (13/52) of patients exhibited BRCA1 and 
+BRCA2 mutations, respectively. Strong concordance (97.8%) was observed between 
+tumor BRCA and germline BRCA mutations, and 90.5% (38/42) of patients with tumor 
+BRCA mutations evaluable for somatic-germline-zygosity were predicted to exhibit 
+BRCA loss of heterozygosity (LOH). No patients had non-BRCA germline DNA damage 
+response (DDR) gene variants with known/likely pathogenicity, based on a panel 
+of 14 non-BRCA DDR genes. Ninety-eight percent of patients had TP53 mutations. 
+Genomic LOH, assessed continuously or categorically, was not associated with 
+response.
+CONCLUSION: The results from this exploratory biomarker analysis support the 
+central role of BRCA and TP53 mutations in tumor pathobiology. Furthermore, 
+these data support assessing germline BRCA mutational status for molecular 
+eligibility for talazoparib in patients with TNBC.
+
+© 2024. The Author(s).
+
+DOI: 10.1007/s12282-024-01603-4
+PMCID: PMC11341741
+PMID: 38869771 [Indexed for MEDLINE]
+
+Conflict of interest statement: MLT reports research support (to her 
+institution) from Arvinas, AstraZeneca, Bayer, Blueprint Medicines, Genentech, 
+GlaxoSmithKline, Hummingbird Biosciences, Merck, Novartis, OncoSec Medical, 
+Pfizer, RefleXion, and Replicate; and consulting/advisory fees from AstraZeneca, 
+Daiichi Sankyo, G1 Therapeutics, Genentech/Roche, Gilead, GlaxoSmithKline, 
+Guardant, Merck, Natera, Novartis, OncoSec Medical, Pfizer, and Sanofi-Aventis. 
+JKL reports research support (to her institution) from AstraZeneca, EMD Serono, 
+Genentech, GlaxoSmithKline, Medivation/Pfizer, Merck, Novartis, Pfizer, and 
+Zenith Epigenetics; fees for participation on the speakers’ bureaus for Clinical 
+Care Options, Med Learning Group, Medpage, Medscape, Physicians’ Education 
+Resource, PrIME Oncology, and UpToDate; honoraria and patent/royalty payments 
+from UpToDate; travel fees from Clinical Care Options, Med Learning Group, 
+Medscape, and Physicians’ Education Resource; and consulting/advisory from 
+AstraZeneca, Ayala Pharmaceuticals, Medivation/Pfizer, and Pfizer—all 
+uncompensated. JTB reports research support (to his institution) from AbbVie, 
+Amgen, Ascentage Pharma Group, AstraZeneca, Bayer, Boston Biomedical/Bristol 
+Myers Squibb, Celgene, Daiichi Sankyo, EMD Serono, Evelo Biosciences, 
+Genentech/Roche, GlaxoSmithKline, Hutchison, Immunomedics, Laekna Therapeutics, 
+Lilly, Mirati Therapeutics, Nektar, Novartis, Pfizer, Polynoma, and Seattle 
+Genetics. JMJ has nothing to disclose. JA reports fees for participation on the 
+speakers’ bureaus for AstraZeneca/Daiichi Sankyo, Genentech, Genomic Health, 
+Immunomedics, Novartis, Puma Biotechnology, and Seattle Genetics; and 
+consulting/advisory fees from AstraZeneca/Daiichi Sankyo, Athenex, 
+Biotheranostics, Myriad, Novartis, Pfizer, Puma Biotechnology, and Seattle 
+Genetics. LAM was an employee at Banner MD Anderson Cancer Center at the time 
+these analyses were performed and has nothing to disclose. RB has nothing to 
+disclose. MD reports consulting/advisory fees from Immunomedics, Novartis, 
+Pfizer, and Seattle Genetics; and honoraria from Amgen. YY was an employee of 
+the City of Hope Comprehensive Cancer Center and Beckman Research Institute at 
+the time of these analyses and reports research support from Eisai, Genentech, 
+and Merck; consulting/advisory fees from BCI Pharma, Daiichi Sankyo, Eisai, 
+Genentech, Gilead, Novartis, Pfizer, and Puma Biotechnology; fees for 
+participation on the speakers’ bureaus for AstraZeneca, Daiichi Sankyo/Lilly, 
+Eisai, Genentech, Gilead, Merck, and Pfizer; and fees for expert testimony for 
+Novartis. WFS reports consulting/advisory fees from Almac Diagnostics and Merck; 
+support for travel from Luminex and Merck; stock ownership in Delphi 
+Diagnostics, Eiger BioPharmaceuticals, ISIS Pharmaceuticals, and Nuvera 
+Biosciences; and an uncompensated relationship with Delphi Diagnostics. JFH was 
+an employee of Foundation Medicine, Inc. at the time of these analyses. LAA is 
+an employee of Foundation Medicine, Inc., and a stockholder of Roche Holdings 
+AG. ADL is an employee of Pfizer and may hold Pfizer stock. AA, MM and KN were 
+employees at Pfizer at the time of these analyses. JLB was a physician at Texas 
+Oncology-Baylor Charles A. Sammons Cancer Center, US Oncology Network at the 
+time these analyses were performed and reports consulting/advisory fees and 
+honoraria from AstraZeneca, Athenex, Inc., Biotheranostics, Inc., Immunomedics, 
+Inc., OncLive, Pfizer, Inc., Puma Biotechnology, Research to Practice, Sanofi, 
+Tempus, and TD2 and participation on the speakers’ bureaus for Pfizer, Inc., and 
+Tempus.

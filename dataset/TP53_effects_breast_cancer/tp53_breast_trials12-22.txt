@@ -1,0 +1,965 @@
+12. BJU Int. 2024 Sep;134(3):449-458. doi: 10.1111/bju.16414. Epub 2024 Jun 4.
+
+A phase II trial of apalutamide for intermediate-risk prostate cancer and 
+molecular correlates.
+
+Hahn AW(1), Manyam GC(2), Chapin BF(3), Zhang M(4), Yu Y(5), Pettaway CA(3), 
+Chery L(3), Pisters LL(3), Ward JF(3), Gregg JR(3), Papadopoulos J(3), Kamat 
+AM(3), Lozano M(3), Hoang A(1), Broom B(2), Wang X(6), Huff CD(5), Logothetis 
+CJ(1), Troncoso P(4), Pilié PG(1), Davis JW(3).
+
+Author information:
+(1)Division of Cancer Medicine, Department of Genitourinary Medical Oncology, 
+The University of Texas MD Anderson Cancer Center, Houston, TX, USA.
+(2)Division of Basic Sciences, Department of Biostatistics, The University of 
+Texas MD Anderson Cancer Center, Houston, TX, USA.
+(3)Division of Surgery, Department of Urology, The University of Texas MD 
+Anderson Cancer Center, Houston, TX, USA.
+(4)Division of Pathology and Laboratory Medicine, Department of Pathology, The 
+University of Texas MD Anderson Cancer Center, Houston, TX, USA.
+(5)Department of Epidemiology, The University of Texas MD Anderson Cancer 
+Center, Houston, TX, USA.
+(6)Department of Biostatistics, The University of Texas MD Anderson Cancer 
+Center, Houston, TX, USA.
+
+OBJECTIVES: To determine whether 6 months of preoperative apalutamide for 
+intermediate-risk prostate cancer (IRPCa) reduces the aggregate postoperative 
+radiotherapy risk and to evaluate associations of molecular perturbations with 
+clinical outcomes in this study cohort.
+PATIENTS AND METHODS: Between May 2018 and February 2020, eligible patients with 
+IRPCa (Gleason 3 + 4 or 4 + 3 and clinical T2b-c or prostate-specific antigen 
+level of 10-20 ng/mL) were treated with apalutamide 240 mg/day for 6 months 
+followed by radical prostatectomy (RP) in this single-arm, phase II trial. The 
+primary endpoint was presence of any adverse pathological feature at risk of 
+pelvic radiation (pathological T stage after neoadjuvant therapy [yp]T3 or ypN1 
+or positive surgical margins). Translational studies, including germline and 
+somatic DNA alterations and RNA and protein expression, were performed on 
+post-apalutamide RP specimens, and assessed for associations with clinical 
+outcomes.
+RESULTS: A total of 40 patients underwent a RP, and only one patient 
+discontinued apalutamide prior to 6 months. In all, 40% had adverse pathological 
+features at time of RP, and the 3-year biochemical recurrence (BCR) rate was 
+15%, with 27.5% being not evaluable. Genomic alterations frequently seen in 
+metastatic PCas, such as androgen receptor (AR), tumour protein p53 (TP53), 
+phosphatase and tensin homologue (PTEN), or BReast CAncer associated gene 
+(BRCA1/2) were underrepresented in this localised cohort. Adverse pathological 
+features and BCR at 3-years were associated with increased expression of select 
+cell cycle (e.g., E2F targets: adjusted P value [Padj] < 0.001, normalised 
+enrichment score [NES] 2.47) and oxidative phosphorylation (Padj < 0.001, NES 
+1.62) pathways.
+CONCLUSIONS: Preoperative apalutamide did not reduce the aggregate postoperative 
+radiation risk to the pre-specified threshold in unselected men with IRPCa. 
+However, transcriptomic analysis identified key dysregulated pathways in tumours 
+associated with adverse pathological outcomes and BCR, which warrant future 
+study. Further investigation of preoperative therapy is underway for men with 
+high-risk PCa.
+
+© 2024 BJU International.
+
+DOI: 10.1111/bju.16414
+PMID: 38837608 [Indexed for MEDLINE]
+
+
+13. Int J Mol Sci. 2024 Mar 31;25(7):3911. doi: 10.3390/ijms25073911.
+
+The Predictive Role of Serum Lipid Levels, p53 and ki-67, According to Molecular 
+Subtypes in Breast Cancer: A Randomized Clinical Study.
+
+Faur IF(1)(2)(3), Dobrescu A(1)(2), Clim IA(4), Pasca P(1)(2), Prodan-Barbulescu 
+C(5)(6), Tarta C(1)(2), Neamtu AA(7)(8), Brebu D(1)(2), Neamtu C(9)(10), Rosu 
+M(9)(10), Duta C(1)(2), Clim A(11), Lazar G(12)(13), Totolici B(9)(10).
+
+Author information:
+(1)IInd Surgery Clinic, Timisoara Emergency County Hospital, 300723 Timisoara, 
+Romania.
+(2)X Department of General Surgery, "Victor Babes" University of Medicine and 
+Pharmacy Timisoara, 300041 Timisoara, Romania.
+(3)Multidisciplinary Doctoral School, "Vasile Goldiș" Western University of 
+Arad, 310025 Arad, Romania.
+(4)IInd Obstetrics and Gynecology Clinic "Dominic Stanca", 400124 Cluj-Napoca, 
+Romania.
+(5)Faculty of Medicine, "Victor Babes" University of Medicine and Pharmacy 
+Timisoara, 300041 Timisoara, Romania.
+(6)Department I-Discipline of Anatomy and Embryology, Faculty of Medicine, 
+"Victor Babes" University of Medicine and Pharmacy Timisoara, 300041 Timisoara, 
+Romania.
+(7)Faculty of Pharmacy, "Victor Babes" University of Medicine and Pharmacy 
+Timisoara, Eftimie Murgu Sq., Nr. 2, 300041 Timișoara, Romania.
+(8)Pathology Department, Clinical County Emergency Hospital of Arad, Andrenyi 
+Karoly Str, Nr. 2-4, 310037 Arad, Romania.
+(9)Ist Clinic of General Surgery, Arad County Emergency Clinical Hospital, 
+310158 Arad, Romania.
+(10)Department of General Surgery, Faculty of Medicine, "Vasile Goldiș" Western 
+University of Arad, 310025 Arad, Romania.
+(11)Department of Morpho-Functional Sciences II, Discipline of Physiology, 
+"Grigore T. Popa" University of Medicine and Pharmacy, 700115 Iasi, Romania.
+(12)Department of Oncology Surgery, "Iuliu Hatieganu" University of Medicine and 
+Pharmacy, 400347 Cluj-Napoca, Romania.
+(13)Ist Clinic of Oncological Surgery, Oncological Institute "Prof. Dr. I 
+Chiricuta", 400015 Cluj-Napoca, Romania.
+
+Dyslipidemia is a component of metabolic syndrome, having an important role in 
+the carcinogenesis of different tumor types, such as prostate, ovarian, or renal 
+cancer. The number of studies on the predictive potential of the different 
+components of the lipid profile with a predictive potential in breast cancer is 
+quite low. The evaluation of the lipid profile was carried out for the 142 
+patients who benefited from neoadjuvant therapy (NAC) in order to identify a 
+potential predictive biomarker. The serological sample collection was performed 
+sequentially according to a standardized protocol, pre-NAC, post-NAC and 6 
+months post-NAC after a 6-h pre-collection fast. We also investigated in the 
+general group the presence or absence of the p53 mutation (TP53) and of the 
+mitotic index ki-67, respectively, in relation to the molecular subtypes. The 
+menopausal status, tumor size, family history, grading, Ki-67, p53 and LN 
+metastases have a predictive nature regarding overall survival (OS) (p < 0.05), 
+while for disease free survival (DFS), only tumor size, tumor grading, Ki-67 > 
+14, and p53+ are of predictive nature. The genetic and molecular analysis 
+carried out in our group indicates that 71.67% have a Ki-67 score higher than 
+14%, and 39% of the patients have the positive P53 mutation. The multivariate 
+analysis in the case of patients included in the TNBC subtype showed that the 
+increased tumor volume (p = 0.002) and increased level of HDL (p = 0.004) 
+represent predictive factors for the tumor response rate to NAC. High HDL-C 
+levels before NAC and increased LDL-C levels after NAC were associated with the 
+better treatment response in ER-positive and HER2+ breast cancer patients. 
+Increased HDL-C values and tumor volume represent predictive factors as to the 
+response rate to NAC in the case of patients included in the TNBC subtype. 
+Regarding the ER+ and HER2+ subtypes, increased levels of HDL-C pre-NAC and 
+increased levels of LDL-C post-NAC were associated with a better therapeutic 
+response rate. Tumor grading, Ki-67, p53, and LN metastases have a predictive 
+nature for OS, while tumor size, tumor grading, and Ki-67 > 14, and p53+ are 
+predictive for DFS.
+
+DOI: 10.3390/ijms25073911
+PMCID: PMC11012133
+PMID: 38612725 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.
+
+
+14. JCO Precis Oncol. 2024 Feb;8:e2300285. doi: 10.1200/PO.23.00285.
+
+Mutational Analysis of Circulating Tumor DNA in Patients With Estrogen 
+Receptor-Positive/Human Epidermal Growth Factor Receptor 2-Negative Advanced 
+Breast Cancer Receiving Palbociclib: Results From the TREnd Trial.
+
+Migliaccio I(1), Romagnoli D(2), Galardi F(1), De Luca F(1), Biagioni C(2), 
+Curigliano G(3)(4), Criscitiello C(3)(4), Minisini AM(5), Moretti E(6), Risi 
+E(1)(6), Guarducci C(1), Nardone A(1), Biganzoli L(6), Benelli M(2), Malorni 
+L(1)(6).
+
+Author information:
+(1)Translational Research Unit, Department of Medical Oncology, Hospital of 
+Prato, Azienda USL Toscana Centro, Prato, Italy.
+(2)Bioinformatics Unit, Department of Medical Oncology, Hospital of Prato, 
+Azienda USL Toscana Centro, Prato, Italy.
+(3)Division of Early Drug Development, Istituto Europeo di Oncologia, IRCCS, 
+Milano, Italy.
+(4)Department of Oncology and Hemato-Oncology, University of Milano, Milan, 
+Italy.
+(5)Department of Oncology, Azienda Sanitaria Universitaria Integrata del Friuli 
+Centrale, Udine, Italy.
+(6)Department of Medical Oncology, Hospital of Prato, Azienda USL Toscana 
+Centro, Prato, Italy.
+
+PURPOSE: To identify prognostic circulating biomarkers to cyclin-dependent 
+kinase 4 and 6 inhibitors (CDK4/6i), we performed a mutational analysis on 
+circulating tumor DNA (ctDNA) samples from patients included in the TREnd trial, 
+which randomly assigned patients to receive the CDK4/6i palbociclib alone or 
+with the endocrine treatment (ET) to which they had progressed.
+METHODS: Forty-six patients were enrolled in this substudy. Plasma was collected 
+before treatment (T0), after the first cycle of therapy (T1), and at the time of 
+progression (T2). ctDNA hybridization and capture were performed using the 
+Illumina TruSight Tumor 170 Kit. Acquired mutations were confirmed by digital 
+polymerase chain reaction. Progression-free survival analysis was estimated 
+using the Kaplan-Meier method and compared with the log-rank test.
+RESULTS: The most frequently mutated genes at T0 were ESR1 (23%), PIK3CA (17%), 
+AR, FGFR2, and TP53 (10%). Mutations in ESR1 at T0 conferred higher risk of 
+progression in the entire population (P = .02) and in patients treated with 
+palbociclib + ET (P = .04). ESR1 mutation effect remained significant after 
+correction for clinical variables (P = .03). PIK3CA mutations at T0 were not 
+prognostic, but higher risk of progression was observed when a broader analysis 
+of PI3K pathway was performed (P = .04). At T2, we observed the emergence of 
+nine new mutations in seven genes.
+CONCLUSION: Mutations in ESR1 and in PI3K pathway genes at T0 were associated 
+with worse prognosis in palbociclib-treated patients. We describe the emergence 
+of newly acquired mutations in palbociclib-treated patients, which might 
+potentially affect subsequent treatment.
+
+DOI: 10.1200/PO.23.00285
+PMCID: PMC10919481
+PMID: 38427931 [Indexed for MEDLINE]
+
+Conflict of interest statement: The following represents disclosure information 
+provided by authors of this manuscript. All relationships are considered 
+compensated unless otherwise noted. Relationships are self-held unless noted. I 
+= Immediate Family Member, Inst = My Institution. Relationships may not relate 
+to the subject matter of this manuscript. For more information about ASCO's 
+conflict of interest policy, please refer to www.asco.org/rwc or 
+ascopubs.org/po/author-center. Open Payments is a public database containing 
+information reported by companies about payments made to US-licensed physicians 
+(Open Payments). Luca Malorni Honoraria: Pfizer, Novartis, Seagen Consulting or 
+Advisory Role: Pfizer, Novartis, Seagen, Roche, Menarini Group Research Funding: 
+Pfizer, Novartis Travel, Accommodations, Expenses: Roche, Janssen, Gilead 
+Sciences, Menarini Group No other potential conflicts of interest were reported.
+
+
+15. Leukemia. 2024 Mar;38(3):502-512. doi: 10.1038/s41375-023-02110-9. Epub 2023
+Dec  19.
+
+Preclinical characterization and clinical trial of CFI-400945, a polo-like 
+kinase 4 inhibitor, in patients with relapsed/refractory acute myeloid leukemia 
+and higher-risk myelodysplastic neoplasms.
+
+Murphy T(1), Mason JM(2)(3), Leber B(4), Bray MR(2)(3), Chan SM(1), Gupta V(1), 
+Khalaf D(4), Maze D(1), McNamara CJ(1), Schimmer AD(1), Schuh AC(1), Sibai H(1), 
+Trus M(4), Valiquette D(4), Martin K(1), Nguyen L(5), Li X(6), Mak TW(2)(3), 
+Minden MD(1), Yee KWL(7).
+
+Author information:
+(1)Leukemia Program, Division of Medical Oncology and Hematology, Princess 
+Margaret Cancer Centre, University Health Network, Toronto, ON, Canada.
+(2)Campbell Family Institute for Breast Cancer Research, Princess Margaret 
+Cancer Centre, University Health Network, Toronto, ON, Canada.
+(3)Treadwell Therapeutics Canada Inc, Toronto, Canada.
+(4)Division of Hematology, Juravinski Cancer Centre, McMaster University, 
+Hamilton, ON, Canada.
+(5)Treadwell Therapeutics Inc., San Mateo, CA, USA.
+(6)Department of Biostatistics, University Health Network, Toronto, ON, Canada.
+(7)Leukemia Program, Division of Medical Oncology and Hematology, Princess 
+Margaret Cancer Centre, University Health Network, Toronto, ON, Canada. 
+karen.yee@uhn.ca.
+
+CFI-400945 is a selective oral polo-like kinase 4 (PLK4) inhibitor that 
+regulates centriole duplication. PLK4 is aberrantly expressed in patients with 
+acute myeloid leukemia (AML). Preclinical studies indicate that CFI-400945 has 
+potent in vivo efficacy in hematological malignancies and xenograft models, with 
+activity in cells harboring TP53 mutations. In this phase 1 study in very 
+high-risk patients with relapsed/refractory AML and myelodysplastic syndrome 
+(MDS) (NCT03187288), 13 patients were treated with CFI-400945 continuously in 
+dose escalation from 64 mg/day to 128 mg/day. Three of the 9 efficacy evaluable 
+AML patients achieved complete remission (CR). Two of 4 AML patients (50%) with 
+TP53 mutations and complex monosomal karyotype achieved a CR with 1 patient 
+proceeding to allogenic stem cell transplant. A third patient with TP53 mutated 
+AML had a significant reduction in marrow blasts by > 50% with an improvement in 
+neutrophil and platelet counts. Responses were observed after 1 cycle of 
+therapy. Dose-limiting toxicity was enteritis/colitis. A monotherapy and 
+combination therapy study with a newer crystal form of CFI-400945 in patients 
+with AML, MDS and chronic myelomonocytic leukemia (CMML) is ongoing 
+(NCT04730258).
+
+© 2023. The Author(s), under exclusive licence to Springer Nature Limited.
+
+DOI: 10.1038/s41375-023-02110-9
+PMID: 38114624 [Indexed for MEDLINE]
+
+
+16. BMC Med. 2023 Aug 15;21(1):306. doi: 10.1186/s12916-023-03017-z.
+
+Potential value of ctDNA monitoring in metastatic HR + /HER2 - breast cancer: 
+longitudinal ctDNA analysis in the phase Ib MONALEESASIA trial.
+
+Chiu J(1), Su F(2), Joshi M(3), Masuda N(4), Ishikawa T(5), Aruga T(6), Zarate 
+JP(2), Babbar N(2), Balbin OA(3), Yap YS(7).
+
+Author information:
+(1)Queen Mary Hospital, 102 Pok Fu Lam Rd, Pok Fu Lam, Hong Kong.
+(2)Novartis Pharmaceuticals Corporation, 1 Health Plaza, East Hanover, NJ, USA.
+(3)Novartis Institutes for BioMedical Research, 250 Massachusetts Ave, 
+Cambridge, MA, USA.
+(4)Nagoya University Graduate School of Medicine, Building B, Furocho, Chikusa 
+Ward, Nagoya, Japan.
+(5)Tokyo Medical University Hospital, 6 Chome-7-1 Nishishinjuku, Shinjuku City, 
+Tokyo, Japan.
+(6)Tokyo Metropolitan Komagome Hospital, 3 Chome-18 Honkomagome, Bunkyo City, 
+Tokyo, Japan.
+(7)Division of Medical Oncology, National Cancer Centre Singapore, 30 Hospital 
+Blvd, Singapore, Singapore. gmsyapys@nus.edu.sg.
+
+BACKGROUND: There is increasing interest in the use of liquid biopsies, but data 
+on longitudinal analyses of circulating tumor DNA (ctDNA) remain relatively 
+limited. Here, we report a longitudinal ctDNA analysis of MONALEESASIA, a phase 
+Ib trial evaluating the efficacy and safety of ribociclib plus endocrine therapy 
+(ET) in Asian patients with hormone receptor-positive, human epidermal growth 
+factor receptor-2-negative advanced breast cancer.
+METHODS: MONALEESASIA enrolled premenopausal and postmenopausal Japanese and 
+postmenopausal non-Japanese Asian patients. All patients received ribociclib 
+with ET (letrozole, fulvestrant, or tamoxifen with goserelin). ctDNA was 
+analyzed using a targeted next-generation sequencing panel of 572 cancer-related 
+genes and correlated by best overall response (BOR).
+RESULTS: Five hundred seventy-four cell-free DNA samples from 87 patients were 
+tested. The most frequently altered genes at baseline included PIK3CA (29%) and 
+TP53 (22%). Treatment with ribociclib plus ET decreased ctDNA in most patients 
+at the first on-treatment time point, regardless of dose or ET partner. Patients 
+with partial response and stable disease had lower ctDNA at baseline that 
+remained low until data cutoff if no progressive disease occurred. Most patients 
+with progressive disease as the best response had higher ctDNA at baseline that 
+remained high at the end of treatment. For patients with partial response and 
+stable disease with subsequent progression, ctDNA increased towards the end of 
+treatment in most patients, with a median lead time of 83 days (14-309 days). In 
+some patients with BOR of partial response who experienced disease 
+progression later, specific gene alterations and total ctDNA fraction increased; 
+this was sometimes observed concurrently with the development of new lesions 
+without a change in target lesion size. Patients with alterations in PIK3CA and 
+TP53 at baseline had shorter median progression-free survival compared with 
+patients with wild-type PIK3CA and TP53, 12.7 and 7.3 months vs 19.2 and 
+19.4 months, respectively (P = .016 and P = .0001, respectively).
+CONCLUSIONS: Higher ctDNA levels and PIK3CA and TP53 alterations detected at 
+baseline were associated with inferior outcomes. On-treatment ctDNA levels were 
+associated with different patterns based on BOR. Longitudinal tracking of ctDNA 
+may be useful for monitoring tumor status and detection of alterations with 
+treatment implications.
+TRIAL REGISTRATION: ClinicalTrials.gov NCT02333370 . Registered on January 7, 
+2015.
+
+© 2023. BioMed Central Ltd., part of Springer Nature.
+
+DOI: 10.1186/s12916-023-03017-z
+PMCID: PMC10426213
+PMID: 37580773 [Indexed for MEDLINE]
+
+Conflict of interest statement: Joanne Chiu has nothing to disclose. Fei (Faye) 
+Su reports employment and stock ownership from Novartis. Mukta Joshi reports 
+employment from Novartis. Norikazu Masuda reports grants for research funding 
+and personal fees for honoraria from Chugai, AstraZeneca, Eli Lilly, Eisai, and 
+Pfizer; grants for research funding from Kyowa-Kirin, MSD, Novartis, Sanofi, 
+Nihon-Kayaku, Daiichi-Sankyo. Takashi Ishikawa has nothing to disclose. Tomoyuki 
+Aruga reports personal fees from AstraZeneca, Pfizer, Chugai-Pharm, Eli Lilly. 
+Juan Pablo Zarate reports employment and stock ownership from Novartis. Naveen 
+Babbar has nothing to disclose. Alejandro Balbin has nothing to disclose. 
+Yoon-Sim Yap reports personal fees and travel support from Lilly/DKSH, 
+AstraZeneca, Roche; personal fees from Novartis, Pfizer, Eisai, MSD, Inivata, 
+Specialised Therapeutics.
+
+
+17. Nat Commun. 2023 Jul 24;14(1):4444. doi: 10.1038/s41467-023-40061-y.
+
+Dose escalation and expansion cohorts in patients with advanced breast cancer in 
+a Phase I study of the CDK7-inhibitor samuraciclib.
+
+Coombes RC(1), Howell S(2), Lord SR(3), Kenny L(1), Mansi J(4), Mitri Z(5), 
+Palmieri C(6), Chap LI(7), Richards P(8), Gradishar W(9), Sardesai S(10), Melear 
+J(11), O'Shaughnessy J(11), Ward P(10), Chalasani P(12), Arkenau T(13), Baird 
+RD(14), Jeselsohn R(15), Ali S(1), Clack G(16), Bahl A(16), McIntosh S(16), 
+Krebs MG(17).
+
+Author information:
+(1)Imperial College, South Kensington, London, UK.
+(2)Division of Cancer Sciences, Faculty of Biology, Medicine and Health, The 
+University of Manchester and The Christie NHS Foundation Trust, Manchester 
+Academic Health Science Centre, Manchester, UK.
+(3)Early Phase Clinical Trials Unit, Department of Oncology, University of 
+Oxford, Oxford, UK.
+(4)Guy's and St Thomas' NHS Foundation Trust, London, UK.
+(5)OHSU Knight Cancer Institute, Portland, OR, USA.
+(6)University of Liverpool, Liverpool, UK.
+(7)University of California, Los Angeles, CA, USA.
+(8)Blue Ridge Cancer Center, Salem, VA, USA.
+(9)Northwestern University, Chicago, IL, USA.
+(10)US Oncology Research, OHC, Cincinnati, OH, USA.
+(11)Baylor University Medical Center, Texas Oncology, Dallas, TX, USA.
+(12)University of Arizona Cancer Center, Tucson, AZ, USA.
+(13)Sarah Cannon Research Institute, London, UK.
+(14)Cancer Research UK Cambridge Centre, Cambridge, UK.
+(15)Dana-Farber Cancer Institute, Boston, MA, USA.
+(16)Carrick Therapeutics, Dublin, Ireland.
+(17)Division of Cancer Sciences, Faculty of Biology, Medicine and Health, The 
+University of Manchester and The Christie NHS Foundation Trust, Manchester 
+Academic Health Science Centre, Manchester, UK. matthew.krebs@manchester.ac.uk.
+
+Erratum in
+    Nat Commun. 2023 Aug 7;14(1):4741. doi: 10.1038/s41467-023-40561-x.
+    Nat Commun. 2025 Mar 6;16(1):2242. doi: 10.1038/s41467-025-57535-w.
+
+Samuraciclib is a selective oral CDK7-inhibitor. A multi-modular, open-label 
+Phase I study to evaluate safety and tolerability of samuraciclib in patients 
+with advanced malignancies was designed (ClinicalTrials.gov: NCT03363893). Here 
+we report results from dose escalation and 2 expansion cohorts: Module 1A dose 
+escalation with paired biopsy cohort in advanced solid tumor patients, Module 
+1B-1 triple negative breast cancer (TNBC) monotherapy expansion, and Module 2A 
+fulvestrant combination in HR+/HER2- breast cancer patients 
+post-CDK4/6-inhibitor. Core study primary endpoints are safety and tolerability, 
+and secondary endpoints are pharmacokinetics (PK), pharmacodynamic (PD) 
+activity, and anti-tumor activity. Common adverse events are low grade nausea, 
+vomiting, and diarrhea. Maximum tolerated dose is 360 mg once daily. PK 
+demonstrates dose proportionality (120 mg-480 mg), a half-life of approximately 
+75 hours, and no fulvestrant interaction. In dose escalation, one partial 
+response (PR) is identified with disease control rate of 53% (19/36) and 
+reduction of phosphorylated RNA polymerase II, a substrate of CDK7, in 
+circulating lymphocytes and tumor tissue. In TNBC expansion, one PR (duration 
+337 days) and clinical benefit rate at 24 weeks (CBR) of 20.0% (4/20) is 
+achieved. In combination with fulvestrant, 3 patients achieve PR with CBR 36.0% 
+(9/25); in patients without detectable TP53-mutation CBR is 47.4% (9/19). In 
+this study, samuraciclib exhibits tolerable safety and PK is supportive of 
+once-daily oral administration. Clinical activity in TNBC and HR+/HER2-breast 
+cancer post-CDK4/6-inhibitor settings warrants further evaluation.
+
+© 2023. The Author(s).
+
+DOI: 10.1038/s41467-023-40061-y
+PMCID: PMC10366102
+PMID: 37488191 [Indexed for MEDLINE]
+
+Conflict of interest statement: R.C.C. has had a travel grant from Carrick 
+Therapeutics and owns a patent on samuraciclib (patent number WO/2015/124941); 
+he also has a grant from AstraZeneca. S.H. has received speaker fees Pfizer and 
+advisory board and grant funding from Lilly. S.R.L. has received consulting fees 
+from Sanofi, GLG consulting, Atheneum and Rejuversen. He has also received 
+payment or honoraria for lectures, presentations, or educational events from 
+Eisai, Prosigna, Roche, Pfizer, Novartis, Shionogi and Sanofi, and was 
+previously employed by Pfizer. He has received travel, accommodation or expenses 
+from Pfizer, Roche, Synthon and Piqur Therapeutics, and research funding from 
+CRUK, Against Breast Cancer, Pathios Therapeutics and is cofounder of Mitox 
+Therapeutics. His institution has received funding for clinical trials for which 
+he was chief/principal investigator from CRUK, Boehringer Ingelheim, Piqur 
+Therapeutics, Astra Zeneca, Carrick Therapeutics, Sanofi, Merck KGaA, Synthon, 
+Roche and Prostate Cancer UK. J.O. has received honoraria for consulting and/or 
+advisory boards from the following: AbbVie Inc., Agendia, Amgen Biotechnology, 
+Aptitude Health, AstraZeneca, Bayer, Bristol-Myers Squibb, Carrick Therapeutics, 
+Celgene Corporation, Clovis Oncology, Daiichi Sankyo, Eisai, G1 Therapeutics, 
+Genentech, Gilead Sciences, GRAIL, Halozyme Therapeutics, Heron Therapeutics, 
+Immunomedics, Ipsen Biopharmaceuticals, Lilly, Merck, Myriad, Nektar 
+Therapeutics, Novartis, Ontada, Pfizer, Pharmacyclics, Pierre Fabre 
+Pharmaceuticals, Puma Biotechnology, Prime Oncology, Roche, Samsung Bioepis, 
+Sanofi, Seagen, Syndax Pharmaceuticals, Taiho Oncology, Takeda, and Synthon. ZM 
+has a consulting/advisory role with AstraZeneca, Gilead Sciences and Daiichi 
+Sankyo. He has also received research funding for his institution from Seattle 
+Genetics, Novartis, AstraZeneca, Radius Health, Daiichi Sankyo, Lilly, 
+GlaxoSmithKline, and Olema Oncology. CP acknowledges support from The Liverpool 
+Experimental Cancer Medicine Centre [Grant Reference:C18616/A25153], The 
+Clatterbridge Cancer Charity, North West Cancer and Make 2nds Count. CP reports 
+grant funding support from Pfizer, Daiichi Sankyo, Exact Sciences, Gilead and 
+Seagen. Honoraria for advisory boards have been received from Pfizer, Roche, 
+Daiichi Sankyo, Novartis, Exact sciences, Gilead, SeaGen and Eli Lilly and 
+support for travel and conferences from Roche, Novartis and Gilead. T.A. is 
+employed by Sarah Cannon/HCA Healthcare UK and Ellipses Pharma and receives 
+funding in an advisory capacity from iOnctura, Labgenius, and Servier. R.D.B. 
+has a consulting/advisory role with Shionogi, Daiichi Sankyo, Molecular 
+Partners, Roche/Genentech, Novartis, and AstraZeneca. He has also received 
+research funding for his institution from AstraZeneca, Genentech, Shionogi, 
+Molecular Partners, Sanofi, Boehringer Ingelheim, Roche, Biomarin, GI 
+Therapeutics, and Carrick Therapeutics, and travel/accommodation/expenses from 
+Shionogi, AstraZeneca, Molecular Partners, and Daiichi Sankyo. R.J. has received 
+research funding from Pfizer and Lilly, and she serves on an advisory board for 
+Carrick Therapeutics and Luminex. S.A. is a named inventor on patents describing 
+CDK inhibitors, including samuraciclib, owns shares in Carrick Therapeutics and 
+has been funded by Carrick Therapeutics; he also has grants from AstraZeneca. 
+G.C., A.B., and S.M. are Carrick employees and shareholders. M.K. has received 
+honoraria from Janssen, Roche; consulting/advisory fees from Achilles 
+Therapeutics, Bayer, Guardant Health, Janssen, OM Pharma, Roche, Seattle 
+Genetics; speakers fees from AstraZeneca, Janssen, Roche and research funding 
+from Roche and Novartis for his institution. He has received travel, 
+accommodation or expenses from AstraZeneca, BerGenBio, Immutep, Janssen and 
+Roche. The remaining authors declare no competing interests.
+
+
+18. Cancer. 2023 Aug 1;129(15):2308-2320. doi: 10.1002/cncr.34780. Epub 2023 Apr
+20.
+
+Entospletinib with decitabine in acute myeloid leukemia with mutant TP53 or 
+complex karyotype: A phase 2 substudy of the Beat AML Master Trial.
+
+Duong VH(1), Ruppert AS(2), Mims AS(2), Borate U(2), Stein EM(3), Baer MR(1), 
+Stock W(4), Kovacsovics T(5), Blum W(6), Arellano ML(6), Schiller GJ(7), Olin 
+RL(8), Foran JM(9), Litzow MR(10), Lin TL(11), Patel PA(12), Foster MC(13), 
+Redner RL(14), Al-Mansour Z(15), Cogle CR(15), Swords RT(16), Collins RH(12), 
+Vergilio JA(17), Heerema NA(18), Rosenberg L(19), Yocum AO(19), Marcus S(19), 
+Chen T(2), Druggan F(2), Stefanos M(2), Gana TJ(20), Shoben AB(21), Druker 
+BJ(16), Burd A(19), Byrd JC(22), Levine RL(3), Boyiadzis MM(14).
+
+Author information:
+(1)University of Maryland Greenebaum Comprehensive Cancer Center, Baltimore, 
+Maryland, USA.
+(2)Division of Hematology, Department of Internal Medicine, The Ohio State 
+University, Columbus, Ohio, USA.
+(3)Memorial Sloan Kettering Cancer Center, New York, New York, USA.
+(4)Section of Hematology/Oncology, University of Chicago, Chicago, Illinois, 
+USA.
+(5)Huntsman Cancer Institute, The University of Utah, Salt Lake City, Utah, USA.
+(6)Winship Cancer Institute, Emory University, Atlanta, Georgia, USA.
+(7)David Geffen School of Medicine, University of California-Los Angeles, Los 
+Angeles, California, USA.
+(8)Helen Diller Family Comprehensive Cancer Center, University of California-San 
+Francisco, San Francisco, California, USA.
+(9)Hematology and Oncology, Mayo Clinic, Jacksonville, Florida, USA.
+(10)Departments of Medical Oncology, Hematology, and Internal Medicine, Mayo 
+Clinic, Rochester, Minnesota, USA.
+(11)Division of Hematologic Malignancies and Cellular Therapeutics, University 
+of Kansas Medical Center, Kansas City, Kansas, USA.
+(12)University of Texas Southwestern Medical Center Medical School, Dallas, 
+Texas, USA.
+(13)Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel 
+Hill, North Carolina, USA.
+(14)Hillman Cancer Institute, University of Pittsburgh Medical Center, 
+Pittsburgh, Pennsylvania, USA.
+(15)Department of Medicine, University of Florida, Gainesville, Florida, USA.
+(16)Knight Cancer Institute, Oregon Health & Science University, Portland, 
+Oregon, USA.
+(17)Foundation Medicine, Cambridge, Massachusetts, USA.
+(18)Department of Pathology, College of Medicine, The Ohio State University, 
+Columbus, Ohio, USA.
+(19)The Leukemia & Lymphoma Society, Rye Brook, New York, USA.
+(20)Biopharmatech Consulting, Inc., Leesburg, Virginia, USA.
+(21)Division of Biostatistics, College of Public Health, The Ohio State 
+University, Columbus, Ohio, USA.
+(22)Internal Medicine, University of Cincinnati, Cincinnati, Ohio, USA.
+
+BACKGROUND: Patients with acute myeloid leukemia (AML) who have tumor protein 
+p53 (TP53) mutations or a complex karyotype have a poor prognosis, and 
+hypomethylating agents are often used. The authors evaluated the efficacy of 
+entospletinib, an oral inhibitor of spleen tyrosine kinase, combined with 
+decitabine in this patient population.
+METHODS: This was a multicenter, open-label, phase 2 substudy of the Beat AML 
+Master Trial (ClinicalTrials.gov identifier NCT03013998) using a Simon two-stage 
+design. Eligible patients aged 60 years or older who had newly diagnosed AML 
+with mutations in TP53 with or without a complex karyotype (cohort A; n = 45) or 
+had a complex karyotype without TP53 mutation (cohort B; n = 13) received 
+entospletinib 400 mg twice daily with decitabine 20 mg/m2 on days 1-10 every 
+28 days for up to three induction cycles, followed by up to 11 consolidation 
+cycles, in which decitabine was reduced to days 1-5. Entospletinib maintenance 
+was given for up to 2 years. The primary end point was complete remission (CR) 
+and CR with hematologic improvement by up to six cycles of therapy.
+RESULTS: The composite CR rates for cohorts A and B were 13.3% (95% confidence 
+interval, 5.1%-26.8%) and 30.8% (95% confidence interval, 9.1%-61.4%), 
+respectively. The median duration of response was 7.6 and 8.2 months, 
+respectively, and the median overall survival was 6.5 and 11.5 months, 
+respectively. The study was stopped because the futility boundary was crossed in 
+both cohorts.
+CONCLUSIONS: The combination of entospletinib and decitabine demonstrated 
+activity and was acceptably tolerated in this patient population; however, the 
+CR rates were low, and overall survival was short. Novel treatment strategies 
+for older patients with TP53 mutations and complex karyotype remain an urgent 
+need.
+
+© 2023 American Cancer Society.
+
+DOI: 10.1002/cncr.34780
+PMCID: PMC11225573
+PMID: 37078412 [Indexed for MEDLINE]
+
+Conflict of interest statement: Amy S. Ruppert reports personal fees from Telios 
+Pharma Inc. and owns stock in Eli Lilly and Company outside the submitted work. 
+Alice S. Mims reports research funding from Aptevo Therapeutics, Glycomemetics, 
+Kartos Pharmaceuticals, and Xencor; and personal fees from AbbVie, Bristol Myers 
+Squibb (BMS), Daiichi Sankyo Company, Genentech, Jazz Pharmaceuticals, Kura 
+Oncology, and Syndax Pharmaceuticals outside the submitted work. Uma Borate 
+reports grants/research funding from AbbVie, Incyte Corporation, Jazz 
+Pharmaceuticals, Novartis, Pfizer Inc., and RUNX1; and personal fees from 
+AbbVie, Agios Pharmaceuticals Inc., Astellas Pharma, Blueprint Medicines 
+Corporation, Genentech, Incyte Corporation, Laboratorios Pfizer Ltda., Novartis, 
+Pfizer Inc., Servier Pharmaceuticals LLC, and Takeda Oncology outside the 
+submitted work. Eytan M. Stein reports grants from EISAI Inc. and personal fees 
+from AbbVie, Agios, Astellas Pharma, Blueprint Medicines Corporation, BMS, 
+Celgene Corporation, Daiichi Sankyo Company, Foghorn Therapeutics, Genentech, 
+Gilead Sciences, Janssen Pharmaceuticals, Jazz Pharmaceuticals, Novartis, 
+PinotBio, Syndax, and Syros Pharmaceuticals outside the submitted work. Wendy 
+Stock reports grants/research funding from Kura Oncology and Pfizer Inc.; and 
+personal fees from Amgen, Agios Pharmaceuticals, GlaxoSmithKline, Jazz 
+Pharmaceuticals, Kite Pharma, Kura Oncology, Morphosys, Newave Pharmaceuticals, 
+Pfizer Pharma GMBH, Puristeem, Servier Pharmaceuticals LLC, and Syndax outside 
+the submitted work. Tibor Kovacsovics reports research funding from AbbVie, 
+Amgen, Janssen Pharmaceuticals, and Novartis; and personal fees from Jazz 
+Pharmaceuticals and Stemline Therapeutics Inc. outside the submitted work. 
+William Blum reports research funding from Celvad and Xencor; and personal fees 
+from AbbVie, Amerisource Bergen, and, Syndax outside the submitted work. Martha 
+L. Arellano reports personal fees from Evidera, Kite Pharma, and Syndax outside 
+the submitted work. Gary J. Schiller reports research funding from AbbVie, 
+Actinium Pharmaceuticals, Actuate Therapeutics, Agios Pharmaceuticals, Ambit, 
+Aptevo Therapeutics, Ariad, Arog, Astellas Pharma, AVM Biotechnology, BioMea, 
+Biomed Valley Discoveries, Biopath, Biosight, Bluebird Bio, BMS, 
+Boehringer-Ingelheim, Celator, Celgene Corporation, Cellectis, Cellerant, 
+Cellularity Inc., Cogent Therapeutics LLC, Constellation Pharmaceuticals, CTI 
+Biopharma, Cyclacel, Deciphera Pharmaceuticals Inc., Delta-Fly, Daiichi Sankyo 
+Company, Elevate, Eli Lilly and Company, Fate, Forma Pharmaceuticals, FujiFilm. 
+Gamida Cell Ltd., Genentech-Roche, Geron, Gilead Sciences, Glycomimetics, 
+Immunogen, Incyte Corporation, Janssen Pharmaceuticals, Jazz Pharmaceuticals, 
+Karyopharm Therapeutics Inc., Kite Pharma, Kura Oncology, Kronos Bio, the 
+Leukemia & Lymphoma Society, Maeton, Marker Therapeutics, MedImmune LLC, 
+Millennium, the National Institutes of Health, the National Marrow Donor 
+Program, Onconova, Onyx, Pfizer Inc., PharmaMar, PrECOG, Regimmune, Samus, 
+Sangamo, Sanofi, Seattle Genetics, Sellas, Shattuck Labs, Stemline Therapeutics 
+Inc., Syros, Takeda Oncology, Tolero Pharma, Trovagene, the University of 
+California-Davis, and the University of California-San Diego; personal fees from 
+AbbVie, Agios Pharmaceuticals Inc., Amgen, Astellas Pharma, AstraZeneca, BMS, 
+Celgene Corporation, Gamida, Gilead Sciences Inc., GlaxoSmithKline, Incyte 
+Corporation, Jazz Pharmaceuticals, Kaiser Permanente, Kite Pharma Inc., the 
+National Cancer Institute, Novartis, Ono Pharma, Pharmacyclics, Sanofi Pasteur 
+Biologics LLC, and Stemline Therapeutics Inc.; owns stock in Amgen Inc., 
+BMS/Celgene Corporation, Janssen Biotech Inc., Johnson & Johnson Health Care 
+Systems, and Pfizer Pharmaceuticals LLC; and is chair (unpaid) of the American 
+Society of Hematology Foundation all outside the submitted work. Rebecca L. Olin 
+reports research funding from Astellas Pharma, Cellectis, Daiichi Sankyo 
+Company, Genentech, and Pfizer Inc.; and personal fees from AbbVie, Actinium 
+Pharmaceuticals, Amgen, Astellas Pharma, Cellectis, and Servier Pharmaceuticals 
+LLC outside the submitted work. James M. Foran reports research funding from 
+AbbVie, Actinium, Aprea, Aptose Therapeutics, Boehringer-Ingelheim, 
+H3Bioscience, Kura Oncology, the Leukemia & Lymphoma Society, Sellas, Stemline 
+Therapeutics Inc., Trillium, and Takeda; and personal fees from Bei-Gene USA 
+Inc., BMS, Certara, CTI Biopharma, Gamida Cell Ltd., Novartis, OncLive, Pfizer 
+Inc., Revolution Medicine, Sanofi Aventis, Servier Pharmaceuticals LLC, Syros, 
+and Taiho Oncology outside the submitted work. Mark R. Litzow reports research 
+funding from AbbVie, Actinium Pharmaceuticals, Amgen, Astellas Pharma, Novartis, 
+Pluristem, and Syndax; personal fees from Biosight, Jazz Pharmaceuticals, and 
+Omeros; and service on a Biosight data-monitoring committee outside the 
+submitted work. Tara L. Lin reports research funding from AbbVie, Aptevo 
+Therapeutics, Astellas Pharma, BioPath Holdings, Celgene Corporation, Celyad, 
+Genentech-Roche, Gilead Sciences, Incyte Corporation, Jazz Pharmaceuticals, 
+Novartis, Ono Pharmaceutical, Pfizer Inc., Prescient Therapeutics, Seattle 
+Genetics, Tolero, and Trovagene outside the submitted work. Prapti A. Patel 
+reports personal fees from Celgene Corporation and Jazz Pharmaceuticals Inc. 
+outside the submitted work. Matthew C. Foster reports grants/research funding 
+from Bellicum Pharmaceuticals, LOXO Oncology, Macrogenics, and Newave 
+Pharmaceuticals; and personal fees from Daiichi Sankyo Company and Zentalis 
+Pharmaceuticals outside the submitted work. Christopher R. Cogle reports 
+research funding from Aptevo Therapeutics and personal fees from Celgene 
+Corporation outside the submitted work. Jo-Anne Vergilio holds equity in 
+Foundation Medicine Inc. and Roche. Theophilus J. Gana reports personal fees 
+from Biopharmatech Consulting Inc. and the Leukemia & Lymphoma Society and holds 
+stock in Bausch Health US LLC outside the submitted work. Brian J. Druker 
+reports grants/research funding from AstraZeneca, BMS, EnLiven Therapeutics, 
+Novartis, Pfizer Inc., and Recludix Pharma Inc.; personal fees from Adela Inc., 
+Aileron Therapeutics, ALLCRON Inc., Amgen, Aptose Biosciences, Beta Cat, Beat 
+AML LLC, Blueprint Medicines Corporation, Cepheid, EnLiven Therapeutics, Gilead 
+Sciences Inc., GRAIL, Iterion Therapeutics, Nemucore Medical Innovations Inc., 
+Novartis, Patient TrueTalk, the RUNX1 Research Program, Third Coast 
+Therapeutics, VB Therapeutics, and Vivid Biosciences; travel support from Amgen; 
+serves on the Boards of Directors at Amgen, the Burroughs Wellcome Fund, 
+CureOne, and Vincerx Pharma Inc.; owns stock/holds equity in Amgen, Aptose 
+Therapeutics, Blueprint Medicines Corporation, EnLiven Therapeutics, GRAIL, and 
+Vincerx Pharma Inc.; owns stock options in Adela Inc., Aptose Biosciences, 
+Iterion Therapeutics, Recludix Pharma Inc.; and has intellectual property at 
+Novartis, all outside the submitted work. Amy Burd reports personal fees from 
+Eilean Therapeutics outside the submitted work. John C. Byrd reports personal 
+fees from Astellas Pharma, AstraZeneca, Newave Pharmaceuticals, Novartis, 
+Pharmacyclics, Syndax, Trillium, and Vincerx Pharmaceuticals; and currently 
+holds equity in Vincerx Pharmaceuticals, all outside the submitted work. Ross L. 
+Levine reports grants from the Cure Breast Cancer Foundation and the ECOG-ACRIN 
+Cancer Research Group; research funding from Celgene Corporation; honoraria and 
+research funding from Roche; and personal fees from Ajax, Amgen, Anovia, 
+Astellas Pharma, Auron, Bakx Tx, Bridge Bio, Bridge Medicines, C4 Therapeutics, 
+Eli Lilly and Company, Epiphanes, Genome Canada, Gilead Sciences Inc., Imago, 
+Incyte Corporation, Isoplexis, Janssen Pharmaceuticals, Jubilant Pharmova, 
+Kurome, Mana, the Mark Foundation, Mission Bio, Morphosys, Prelude Therapeutics, 
+QIAGEN Sciences LLC, Scorpion, Servier Pharmaceuticals LLC, Stelexis, and 
+Zentalis outside the submitted work. The remaining authors made no disclosures.
+
+
+19. Eur J Cancer. 2023 May;184:73-82. doi: 10.1016/j.ejca.2023.02.007. Epub 2023
+Feb  15.
+
+Clinical efficacy of fulvestrant versus exemestane as first-line therapies for 
+Chinese postmenopausal oestrogen-receptor positive /human epidermal growth 
+factor receptor 2 -advanced breast cancer (FRIEND study).
+
+Wang J(1), Cai L(2), Song Y(3), Sun T(4), Tong Z(5), Teng Y(6), Li H(7), Ouyang 
+Q(8), Chen Q(9), Cui S(10), Yin Y(11), Liao N(12), Sun Q(13), Feng J(14), Wang 
+X(15), Xu B(16).
+
+Author information:
+(1)Department of Medical Oncology and State Key Laboratory of Molecular 
+Oncology, National Cancer Center/Cancer Hospital, Chinese Academy of Medical 
+Sciences and Peking Union Medical College, Beijing, PR China.
+(2)The Fourth Department of Internal Medical Oncology, Harbin Medical University 
+Cancer Hospital, Harbin, PR China.
+(3)Department of Cancer Center, The First Affiliated Hospital of Jilin 
+University, Changchun, PR China.
+(4)Department of Breast Medicine, Liaoning Cancer Hospital & Institute, 
+Shenyang, PR China.
+(5)Department of Medical Oncology, Tianjin Medical University Cancer Institute 
+and Hospital, Tianjin, PR China.
+(6)Department of Medical Oncology, The First Hospital of China Medical 
+University, Shenyang, PR China.
+(7)Department of Breast Oncology, Peking University Cancer Hospital & Institute, 
+Beijing, PR China.
+(8)Department of Breast Oncology, Hunan Cancer Hospital, Changsha, PR China.
+(9)Department of Breast Oncology, Guangdong Hospital of Traditional Chinese 
+Medicine, Guangzhou, PR China.
+(10)Department of Breast Disease, Henan Cancer Hospital, Zhengzhou, PR China.
+(11)Department of Oncology, Jiangsu Provincial People's Hospital & the First 
+Affiliated Hospital of Nanjing Medical University, Nanjing, PR China.
+(12)Department of Breast Disease, Guangdong General Hospital, Guangzhou, PR 
+China.
+(13)Department of Breast Surgery, Peking Union Medical College Hospital, 
+Beijing, PR China.
+(14)Department of Medical Oncology, Jiangsu Cancer Hospital, Nanjing, PR China.
+(15)Department of Medical Oncology, Zhejiang Cancer Hospital, Hangzhou, PR 
+China.
+(16)Department of Medical Oncology and State Key Laboratory of Molecular 
+Oncology, National Cancer Center/Cancer Hospital, Chinese Academy of Medical 
+Sciences and Peking Union Medical College, Beijing, PR China. Electronic 
+address: bhxu@hotmail.com.
+
+AIM: To compare the efficacies of exemestane and fulvestrant as first-line 
+monotherapies for postmenopausal Chinese women having advanced 
+oestrogen-receptor positive (ER+)/ human epidermal growth factor receptor 2 
+(HER2)-breast cancer (ER+/HER2- ABC) after a previous treatment for ≥2 years 
+with an adjuvant non-steroidal aromatase inhibitor.
+METHODS: In this randomised, open-label, multi-centre, parallel-controlled phase 
+2 FRIEND study, 145 postmenopausal ER+/HER2- ABC patients were assigned into 
+fulvestrant (500 mg on days 0, 14 and 28, and then at every 28 ± 3 days, n = 77) 
+and exemestane (25 mg/day, n = 67) groups. The primary outcome was 
+progression-free survival (PFS), while the secondary outcomes were disease 
+control rate, objective response rate, time to treatment failure, duration of 
+response and overall survival. Exploratory end-points included gene 
+mutation-related outcomes and safety.
+RESULTS: Fulvestrant was superior to exemestane regarding median PFS times (8.5 
+versus 5.6 months, p = 0.014, HR = 0.62, 95% confidence intervals: 0.42-0.91), 
+objective response rates (19.5% versus 6.0%, p = 0.017) and time to treatment 
+failure (8.4 versus 5.5 months, p = 0.008). The incidence of adverse or serious 
+adverse events in the two groups was virtually identical. The most frequent 
+mutations in 129 analysed patients were detected in the oestrogen receptor gene 
+1 (ESR1) (18/14.0%), PIK3CA (40/31.0%) and TP53 (29/22.5%) genes. Fulvestrant 
+produced significant longer PFS times compared to exemestane but only for 
+patients with an ESR1-wild type (8.5 versus 5.8 months) (p = 0.035), although 
+there was a similar trend also for the ESR1 mutation without statistical 
+significance. All patients with c-MYC and BRCA2 mutations had longer PFS times 
+in the fulvestrant versus the exemestane group (p = 0.049, p = 0.039).
+CONCLUSION: Fulvestrant significantly increased overall PFS for ER+/HER2- ABC 
+patients and was well tolerated.
+CLINICALTRIALS: NCT02646735, https://clinicaltrials.gov/ct2/show/NCT02646735.
+
+Copyright © 2023 The Authors. Published by Elsevier Ltd.. All rights reserved.
+
+DOI: 10.1016/j.ejca.2023.02.007
+PMID: 36905771 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of interest statement The authors 
+declare that they have no known competing financial interests or personal 
+relationships that could have appeared to influence the work reported in this 
+paper.
+
+
+20. J Clin Oncol. 2023 Jan 20;41(3):599-608. doi: 10.1200/JCO.22.00628. Epub 2022
+ Sep 29.
+
+A Phase II, Two-Stage Study of Letrozole and Abemaciclib in Estrogen 
+Receptor-Positive Recurrent Endometrial Cancer.
+
+Konstantinopoulos PA(1), Lee EK(1), Xiong N(1), Krasner C(1), Campos S(1), Kolin 
+DL(2), Liu JF(1), Horowitz N(2), Wright AA(1), Bouberhan S(3), Penson RT(3), 
+Yeku O(3), Bowes B(1), Needham H(1), Hayes M(1), Sawyer H(1), Polak M(1), Shea 
+M(4), Cheng SC(1), Castro C(3), Matulonis UA(1).
+
+Author information:
+(1)Dana-Farber Cancer Institute, Boston, MA.
+(2)Brigham and Women's Hospital, Boston, MA.
+(3)Massachusetts General Hospital, Boston, MA.
+(4)Beth Israel Deaconess Medical Center, Boston, MA.
+
+PURPOSE: Estrogen receptor (ER)-positive endometrial cancers (ECs) are 
+characterized by phosphatidylinositol 3-kinase (PI3K) and receptor tyrosine 
+kinase (RTK)/RAS/β-catenin (CTNNB1) pathway alterations in approximately 90% and 
+80% of cases, respectively. Extensive cross-talk between ER, PI3K, and 
+RTK/RAS/CTNNB1 pathways leads to both ligand-dependent and ligand-independent ER 
+transcriptional activity as well as upregulation of cyclin D1 which, in complex 
+with cyclin-dependent kinases 4 and 6 (CDK4 and CDK6), is a critical regulator 
+of cell cycle progression and a key mediator of resistance to hormonal therapy. 
+We hypothesized that the combination of the aromatase inhibitor letrozole and 
+CDK4/6 inhibitor abemaciclib would demonstrate promising activity in this 
+setting.
+METHODS: We conducted a phase II, two-stage study of letrozole/abemaciclib in 
+recurrent ER-positive EC. Eligibility criteria included measurable disease, no 
+limit on prior therapies, and all EC histologies; prior hormonal therapy was 
+allowed. Primary end points were objective response rate by RECIST 1.1 and 
+progression-free survival (PFS) rate at 6 months.
+RESULTS: At the data cutoff date (December 03, 2021), 30 patients (28 with 
+endometrioid EC) initiated protocol therapy; 15 (50%) patients had prior 
+hormonal therapy. There were nine total responses (eight confirmed), for an 
+objective response rate of 30% (95% CI, 14.7 to 49.4), all in endometrioid 
+adenocarcinomas. Median PFS was 9.1 months, PFS at 6 months was 55.6% (95% CI, 
+35.1 to 72), and median duration of response was 7.4 months. Most common ≥ grade 
+3 treatment-related adverse events were neutropenia (20%) and anemia (17%). 
+Responses were observed regardless of grade, prior hormonal therapy, mismatch 
+repair, and progesterone receptor status. Exploratory tumor profiling revealed 
+several mechanistically relevant candidate predictors of response (CTNNB1, KRAS, 
+and CDKN2A mutations) or absence of response (TP53 mutations), which require 
+independent validation.
+CONCLUSION: Letrozole/abemaciclib demonstrated encouraging and durable evidence 
+of activity in recurrent ER positive endometrioid EC.
+
+DOI: 10.1200/JCO.22.00628
+PMID: 36174113 [Indexed for MEDLINE]
+
+
+21. Genome Med. 2022 Jun 15;14(1):64. doi: 10.1186/s13073-022-01063-5.
+
+Antiprogestins reduce epigenetic field cancerization in breast tissue of young 
+healthy women.
+
+Bartlett TE(1), Evans I(2), Jones A(2), Barrett JE(2)(3)(4), Haran S(2), Reisel 
+D(2), Papaikonomou K(5), Jones L(6), Herzog C(3)(4), Pashayan N(7), Simões 
+BM(8), Clarke RB(8), Evans DG(9), Ghezelayagh TS(10)(11), Ponandai-Srinivasan 
+S(5), Boggavarapu NR(5), Lalitkumar PG(5), Howell SJ(8)(12), Risques RA(10), 
+Rådestad AF(5), Dubeau L(13), Gemzell-Danielsson K(5), Widschwendter 
+M(14)(15)(16)(17).
+
+Author information:
+(1)Department of Statistical Science, University College London, London, WC1E 
+7HB, UK.
+(2)Department of Women's Cancer, UCL EGA Institute for Women's Health, 
+University College London, 74 Huntley Street, London, WC1E 6AU, UK.
+(3)European Translational Oncology Prevention and Screening (EUTOPS) Institute, 
+Universität Innsbruck, 6060, Hall in Tirol, Austria.
+(4)Research Institute for Biomedical Aging Research, Universität Innsbruck, 
+6020, Innsbruck, Austria.
+(5)Department of Women's and Children's Health, Division of Obstetrics and 
+Gynecology, Karolinska Institutet and Karolinska University Hospital, Stockholm, 
+Sweden.
+(6)Centre for Tumour Biology Department, Barts Cancer Institute, Queen Mary 
+University of London, London, UK.
+(7)Department of Applied Health Research, University College London, 1-19 
+Torrington Place, London, WC1E 7HB, UK.
+(8)Breast Biology Group, Manchester Breast Centre, Division of Cancer Sciences, 
+Faculty of Biology, Medicine and Health, University of Manchester, Manchester, 
+UK, England.
+(9)University of Manchester, St. Mary's Hospital, and University Hospital of 
+South Manchester, Manchester, UK.
+(10)Department of Laboratory Medicine and Pathology, University of Washington, 
+Seattle, WA, 98195, USA.
+(11)Department of Obstetrics and Gynecology, University of Washington, Seattle, 
+WA, 98195, USA.
+(12)Department of Medical Oncology, The Christie NHS Foundation Trust, 
+Manchester, UK.
+(13)Department of Pathology, Keck School of Medicine, USC/Norris Comprehensive 
+Cancer Centre, University of Southern California, Los Angeles, USA.
+(14)Department of Women's Cancer, UCL EGA Institute for Women's Health, 
+University College London, 74 Huntley Street, London, WC1E 6AU, UK. 
+martin.widschwendter@uibk.ac.at.
+(15)European Translational Oncology Prevention and Screening (EUTOPS) Institute, 
+Universität Innsbruck, 6060, Hall in Tirol, Austria. 
+martin.widschwendter@uibk.ac.at.
+(16)Research Institute for Biomedical Aging Research, Universität Innsbruck, 
+6020, Innsbruck, Austria. martin.widschwendter@uibk.ac.at.
+(17)Department of Women's and Children's Health, Division of Obstetrics and 
+Gynecology, Karolinska Institutet and Karolinska University Hospital, Stockholm, 
+Sweden. martin.widschwendter@uibk.ac.at.
+
+Erratum in
+    Genome Med. 2022 Jul 19;14(1):76. doi: 10.1186/s13073-022-01086-y.
+
+BACKGROUND: Breast cancer is a leading cause of death in premenopausal women. 
+Progesterone drives expansion of luminal progenitor cells, leading to the 
+development of poor-prognostic breast cancers. However, it is not known if 
+antagonising progesterone can prevent breast cancers in humans. We suggest that 
+targeting progesterone signalling could be a means of reducing features which 
+are known to promote breast cancer formation.
+METHODS: In healthy premenopausal women with and without a BRCA mutation we 
+studied (i) estrogen and progesterone levels in saliva over an entire menstrual 
+cycle (n = 20); (ii) cancer-free normal breast-tissue from a control population 
+who had no family or personal history of breast cancer and equivalently from 
+BRCA1/2 mutation carriers (n = 28); triple negative breast cancer (TNBC) 
+biopsies and healthy breast tissue taken from sites surrounding the TNBC in the 
+same individuals (n = 14); and biopsies of ER+ve/PR+ve stage T1-T2 cancers and 
+healthy breast tissue taken from sites surrounding the cancer in the same 
+individuals (n = 31); and (iii) DNA methylation and DNA mutations in normal 
+breast tissue (before and after treatment) from clinical trials that assessed 
+the potential preventative effects of vitamins and antiprogestins (mifepristone 
+and ulipristal acetate; n = 44).
+RESULTS: Daily levels of progesterone were higher throughout the menstrual cycle 
+of BRCA1/2 mutation carriers, raising the prospect of targeting progesterone 
+signalling as a means of cancer risk reduction in this population. Furthermore, 
+breast field cancerization DNA methylation signatures reflective of (i) the 
+mitotic age of normal breast epithelium and (ii) the proportion of luminal 
+progenitor cells were increased in breast cancers, indicating that luminal 
+progenitor cells with elevated replicative age are more prone to malignant 
+transformation. The progesterone receptor antagonist mifepristone reduced both 
+the mitotic age and the proportion of luminal progenitor cells in normal breast 
+tissue of all control women and in 64% of BRCA1/2 mutation carriers. These 
+findings were validated by an alternate progesterone receptor antagonist, 
+ulipristal acetate, which yielded similar results. Importantly, mifepristone 
+reduced both the TP53 mutation frequency as well as the number of TP53 mutations 
+in mitotic-age-responders.
+CONCLUSIONS: These data support the potential usage of antiprogestins for 
+primary prevention of poor-prognostic breast cancers.
+TRIAL REGISTRATION: Clinical trial 1 Mifepristone treatment prior to insertion 
+of a levonorgestrel releasing intrauterine system for improved bleeding control 
+- a randomized controlled trial, clinicaltrialsregister.eu, 2009-009014-40 ; 
+registered on 20 July 2009. Clinical trial 2 The effect of a progesterone 
+receptor modulator on breast tissue in women with BRCA1 and 2 mutations, 
+clinicaltrials.gov, NCT01898312 ; registered on 07 May 2013. Clinical trial 3 A 
+pilot prevention study of the effects of the anti- progestin Ulipristal Acetate 
+(UA) on surrogate markers of breast cancer risk, clinicaltrialsregister.eu, 
+2015-001587-19 ; registered on 15 July 2015.
+
+© 2022. The Author(s).
+
+DOI: 10.1186/s13073-022-01063-5
+PMCID: PMC9199133
+PMID: 35701800 [Indexed for MEDLINE]
+
+Conflict of interest statement: RAR owns equity and serves as a scientific 
+consultant to TwinStrand Biosciences Inc. UCLB (UCL's commercialisation company) 
+has filed a patent on some aspects described in the paper – MW is named as 
+inventor on this patent. JEB, CH and MW are shareholders of Sola Diagnostics 
+GmbH, which holds an exclusive licence to the intellectual property described in 
+this patent file. The remaining authors declare that they have no competing 
+interests.
+
+
+22. Clin Cancer Res. 2022 Aug 15;28(16):3433-3442. doi: 
+10.1158/1078-0432.CCR-22-0305.
+
+Overall Survival with Palbociclib and Fulvestrant in Women with HR+/HER2- ABC: 
+Updated Exploratory Analyses of PALOMA-3, a Double-blind, Phase III Randomized 
+Study.
+
+Cristofanilli M(1), Rugo HS(2), Im SA(3), Slamon DJ(4), Harbeck N(5), Bondarenko 
+I(6), Masuda N(7), Colleoni M(8), DeMichele A(9), Loi S(10), Iwata H(11), 
+O'Leary B(12), André F(13), Loibl S(14), Bananis E(15), Liu Y(16), Huang X(16), 
+Kim S(16), Lechuga Frean MJ(16), Turner NC(12).
+
+Author information:
+(1)Weill Cornell Medicine, New York, New York.
+(2)University of California San Francisco Helen Diller Family Comprehensive 
+Cancer Center, San Francisco, California.
+(3)Seoul National University Hospital, Cancer Research Institute, Seoul National 
+University College of Medicine, Seoul, Republic of South Korea.
+(4)David Geffen School of Medicine at University of California Los Angeles, 
+Santa Monica, California.
+(5)Brustzentrum, Frauenklinik and CCC Munich, LMU University Hospital, Munich, 
+Germany.
+(6)Dnipropetrovsk Medical Academy, City Multiple-Discipline Clinical Hospital 
+#4, Dnipropetrovsk, Ukraine.
+(7)Nagoya University Graduate School of Medicine, Showa-ku, Nagoya, Japan.
+(8)IEO, Istituto Europeo di Oncologia, IRCCS, Milan, Italy.
+(9)Abramson Cancer Center, University of Pennsylvania, Philadelphia, 
+Pennsylvania.
+(10)Peter MacCallum Cancer Centre, University of Melbourne, Melbourne, Victoria, 
+Australia.
+(11)Aichi Cancer Center Hospital, Chikusa-ku, Nagoya, Japan.
+(12)Royal Marsden Hospital and Institute of Cancer Research, London, United 
+Kingdom.
+(13)Institut Gustave Roussy, Villejuif, France.
+(14)German Breast Group, Neu-Isenburg, Germany.
+(15)Pfizer Inc, New York, New York.
+(16)Pfizer Inc, San Diego, California.
+
+PURPOSE: To conduct an updated exploratory analysis of overall survival (OS) 
+with a longer median follow-up of 73.3 months and evaluate the prognostic value 
+of molecular analysis by circulating tumor DNA (ctDNA).
+PATIENTS AND METHODS: Patients with hormone receptor-positive/human epidermal 
+growth factor receptor 2-negative (HR+/HER2-) advanced breast cancer (ABC) were 
+randomized 2:1 to receive palbociclib (125 mg orally/day; 3/1 week schedule) and 
+fulvestrant (500 mg intramuscularly) or placebo and fulvestrant. This OS 
+analysis was performed when 75% of enrolled patients died (393 events in 521 
+randomized patients). ctDNA analysis was performed among patients who provided 
+consent.
+RESULTS: At the data cutoff (August 17, 2020), 258 and 135 deaths occurred in 
+the palbociclib and placebo groups, respectively. The median OS [95% confidence 
+interval (CI)] was 34.8 months (28.8-39.9) in the palbociclib group and 28.0 
+months (23.5-33.8) in the placebo group (stratified hazard ratio, 0.81; 95% CI, 
+0.65-0.99). The 6-year OS rate (95% CI) was 19.1% (14.9-23.7) and 12.9% 
+(8.0-19.1) in the palbociclib and placebo groups, respectively. Favorable OS 
+with palbociclib plus fulvestrant compared with placebo plus fulvestrant was 
+observed in most subgroups, particularly in patients with endocrine-sensitive 
+disease, no prior chemotherapy for ABC and low circulating tumor fraction and 
+regardless of ESR1, PIK3CA, or TP53 mutation status. No new safety signals were 
+identified.
+CONCLUSIONS: The clinically meaningful improvement in OS associated with 
+palbociclib plus fulvestrant was maintained with >6 years of follow-up in 
+patients with HR+/HER2- ABC, supporting palbociclib plus fulvestrant as a 
+standard of care in these patients.
+
+©2022 The Authors; Published by the American Association for Cancer Research.
+
+DOI: 10.1158/1078-0432.CCR-22-0305
+PMCID: PMC9662922
+PMID: 35552673 [Indexed for MEDLINE]

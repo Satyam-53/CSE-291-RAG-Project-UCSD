@@ -1,0 +1,617 @@
+56. Clin Cancer Res. 2017 Jan 1;23(1):26-34. doi: 10.1158/1078-0432.CCR-16-0134. 
+Epub 2016 Apr 28.
+
+A Phase Ib Study of Alpelisib (BYL719), a PI3Kα-Specific Inhibitor, with 
+Letrozole in ER+/HER2- Metastatic Breast Cancer.
+
+Mayer IA(1), Abramson VG(2), Formisano L(2), Balko JM(2), Estrada MV(2), Sanders 
+ME(2), Juric D(3), Solit D(4), Berger MF(4), Won HH(4), Li Y(5), Cantley LC(6), 
+Winer E(7), Arteaga CL(1).
+
+Author information:
+(1)Vanderbilt-Ingram Cancer Center (VICC), Vanderbilt University, Nashville, 
+Tennessee. ingrid.mayer@vanderbilt.edu carlos.arteaga@vanderbilt.edu.
+(2)Vanderbilt-Ingram Cancer Center (VICC), Vanderbilt University, Nashville, 
+Tennessee.
+(3)Massachusetts General Hospital (MGH), Boston, Massachusetts.
+(4)Memorial Sloan-Kettering Cancer Center (MSKCC), New York, New York.
+(5)The University of Texas MD Anderson Cancer Center, Houston, Texas.
+(6)Weill Cornell Medical College, New York, New York.
+(7)Dana-Farber Cancer Institute (DFCI), Boston, Massachusetts.
+
+PURPOSE: Alpelisib, a selective oral inhibitor of the class I PI3K catalytic 
+subunit p110α, has shown synergistic antitumor activity with endocrine therapy 
+against ER+/PIK3CA-mutated breast cancer cells. This phase Ib study evaluated 
+alpelisib plus letrozole's safety, tolerability, and preliminary activity in 
+patients with metastatic ER+ breast cancer refractory to endocrine therapy.
+EXPERIMENTAL DESIGN: Twenty-six patients received letrozole and alpelisib daily. 
+Outcomes were assessed by standard solid-tumor phase I methods. Tumor blocks 
+were collected for DNA extraction and next-generation sequencing.
+RESULTS: Alpelisib's maximum-tolerated dose (MTD) in combination with letrozole 
+was 300 mg/d. Common drug-related adverse events included hyperglycemia, nausea, 
+fatigue, diarrhea, and rash with dose-limiting toxicity occurring at 350 mg/d of 
+alpelisib. The clinical benefit rate (lack of progression ≥6 months) was 35% 
+(44% in patients with PIK3CA-mutated and 20% in PIK3CA wild-type tumors; 95% CI, 
+17%-56%), including five objective responses. Of eight patients remaining on 
+treatment ≥12 months, six had tumors with a PIK3CA mutation. Among evaluable 
+tumors, those with FGFR1/2 amplification and KRAS and TP53 mutations did not 
+derive clinical benefit. Overexpression of FGFR1 in ER+/PIK3CA mutant breast 
+cancer cells attenuated the response to alpelisib in vitro CONCLUSIONS: The 
+combination of letrozole and alpelisib was safe, with reversible toxicities. 
+Clinical activity was observed independently of PIK3CA mutation status, although 
+clinical benefit was seen in a higher proportion of patients with PIK3CA-mutated 
+tumors. Phase II and III trials of alpelisib and endocrine therapy in patients 
+with ER+ breast cancer are ongoing. Clin Cancer Res; 23(1); 26-34. ©2016 AACR.
+
+©2016 American Association for Cancer Research.
+
+DOI: 10.1158/1078-0432.CCR-16-0134
+PMCID: PMC5085926
+PMID: 27126994 [Indexed for MEDLINE]
+
+
+57. EBioMedicine. 2015 Jun 8;2(8):825-30. doi: 10.1016/j.ebiom.2015.06.003. 
+eCollection 2015 Aug.
+
+TP53 Mutational Status and Prediction of Benefit from Adjuvant 5-Fluorouracil in 
+Stage III Colon Cancer Patients.
+
+Kandioler D(1), Mittlböck M(2), Kappel S(3), Puhalla H(1), Herbst F(4), Langner 
+C(5), Wolf B(3), Tschmelitsch J(6), Schippinger W(7), Steger G(8), Hofbauer 
+F(9), Samonigg H(10), Gnant M(1), Teleky B(1), Kührer I(8); p53 Research Group 
+and the Austrian Breast and Colorectal Study Group (ABCSG).
+
+Author information:
+(1)Department of Surgery, Medical University of Vienna, 1090 Vienna, Austria.
+(2)Center for Medical Statistics, Informatics, and Intelligent Systems, Section 
+for Clinical Biometrics, Medical University of Vienna, 1090 Vienna, Austria.
+(3)Department of Surgery/Surgical Research, Medical University of Vienna, 1090 
+Vienna, Austria.
+(4)Department of Surgery, Hospital Barmherzige Brüder, 1020 Vienna, Austria.
+(5)Institute for Pathology, Medical University of Graz, 8036 Graz, Austria.
+(6)Department of Surgery, Hospital Barmherzige Brüder, 9300 St Veit/Glan, 
+Austria.
+(7)Department of Internal Medicine, Albert Schweitzer Clinic, 8020 Graz, 
+Austria.
+(8)Department of Internal Medicine, Medical University of Vienna, 1090 Vienna, 
+Austria.
+(9)Department of Surgery, Hospital Oberpullendorf, 7350 Oberpullendorf, Austria.
+(10)Department of Internal Medicine, Medical University of Graz, 8036 Graz, 
+Austria.
+
+Comment in
+    EBioMedicine. 2015 Jun 12;2(8):780-1. doi: 10.1016/j.ebiom.2015.06.011.
+
+We investigated the hypothesis that the varying treatment efficacy of adjuvant 
+5-fluorouracil (5FU) in stage III colon cancer is linked to the TP53 mutational 
+status. ABCSG-90 was a prospective randomized trial in which effect of adjuvant 
+5FU was studied in stage III colon cancer patients. Tumor material of 70% of 
+these patients (389/572) was available for analysis of the biomarker TP53 using 
+a TP53-gene-specific Sanger sequencing protocol. Median follow-up was 88 months. 
+TP53 mutation frequency was 33%. A significant interaction between TP53 status, 
+outcomes and nodal category was found (P = 0.0095). In the N1 category, TP53 
+wildtype patients had significantly better overall survival than TP53 mutated 
+(81.0% vs. 62.0% overall survival at 5 years; HR = 2.131; 95% CI: 1.344-3.378; 
+P = 0.0010). In the N2 category, the TP53 status did not affect survival 
+(P = 0.4992). In TP53 wildtype patients, the prognostic significance of N 
+category was significantly enhanced (P = 0.0002). In TP53 mutated patients, 
+survival curves of N1 and N2 patients overlapped and nodal category was no 
+longer prognostic. The biomarker TP53 independently predicted effect of adjuvant 
+5FU in N1 colon cancer patients. TP53 was not predictive in N2 patients, in whom 
+5FU is known to have no effect.
+
+DOI: 10.1016/j.ebiom.2015.06.003
+PMCID: PMC4563117
+PMID: 26425688 [Indexed for MEDLINE]
+
+
+58. Oncotarget. 2015 Jul 30;6(21):18683-92. doi: 10.18632/oncotarget.4337.
+
+Efficacy and safety analysis of trastuzumab and paclitaxel based regimen plus 
+carboplatin or epirubicin as neoadjuvant therapy for clinical stage II-III, 
+HER2-positive breast cancer patients: a phase 2, open-label, multicenter, 
+randomized trial.
+
+Huang L(1)(2), Chen S(1)(2), Yang W(2)(3), Xu B(4), Huang T(5), Yang H(6), Zheng 
+H(7), Wang Y(8), Song E(9), Zhang J(10), Cui S(11), Pang D(12), Tang L(13), Lei 
+Y(14), Geng C(15), Shao Z(1)(2).
+
+Author information:
+(1)Department of Breast Surgery, Fudan University Shanghai Cancer Center/Cancer 
+Institute, Shanghai, China.
+(2)Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 
+China.
+(3)Department of Pathology, Cancer Center/Cancer Institute, Shanghai, China.
+(4)Department of Medical Oncology, Cancer Institute and Cancer Hospital, Chinese 
+Academy of Medical Sciences and Peking Union Medical College, Beijing, China.
+(5)Department of Breast and Thyroid Surgery, Union Hospital, Tongji Medical 
+College, Huazhong University of Science and Technology, Wuhan, China.
+(6)Department of Breast Tumor Surgery, Zhejiang Cancer Hospital, Hangzhou, 
+Zhejiang, China.
+(7)Department of Head and Neck and Mammary Oncology, Cancer Center and State Key 
+Laboratory of Biotherapy, Laboratory of Molecular Diagnosis of Cancer, West 
+China Hospital, Sichuan University, Chengdu, China.
+(8)Breast Cancer Center, Shandong Cancer Hospital and Institute, Jinan, China.
+(9)Breast Tumor Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, 
+Guangzhou, China.
+(10)3rd Department of Breast Cancer, Tianjin Medical University Cancer Institute 
+and Hospital, Tianjin, China.
+(11)Henan Breast Cancer Center, Henan Cancer Hospital, Zhengzhou, China.
+(12)Department of Breast Surgery, The Third Affiliated Hospital of Harbin 
+Medical University, Harbin, China.
+(13)Department of Breast Surgery, Xiangya Hospital, Central South University, 
+Changsha, China.
+(14)Department of Breast Surgery, Peking University Third Hospital, Beijing, 
+China.
+(15)Department of Breast Cancer Center, The Fourth Hospital of Hebei Medical 
+University, Shijiazhuang, China.
+
+This trial was designed to compare the efficacy and safety between epirubicin 
+(E) and carboplatin (C) in combination with paclitaxel (P) and trastuzumab (H) 
+in neoadjuvant setting. In 13 Chinese cancer centers, 100 patients with 
+HER2-positive, locally advanced breast cancer were 1:1 randomized to receive 
+medication as follows: trastuzumab and paclitaxel weekly combined with 
+carboplatin weekly for PCH group, or epirubicin every 3 weeks for PEH group. 
+Patients were given 4 to 6 cycles of chemotherapy. The primary endpoint was 
+pathologic complete response (pCR) rate, which was no significant difference in 
+PCH and PEH regimen (39.1% vs. 48.8%; p=0.365). However, PEH regimen achieved 
+higher pCR in luminal-B (HER2-poitive) subgroup (55.0% vs. 24.0%; p = 0.033), 
+but not in ERBB2+ subgroup (42.9% vs. 57.1%; p = 0.355). PEH regimen showed a 
+favorable efficacy in PIK3CA mutated subgroup (69.2% vs.23.5%, p=0.012). No 
+significant difference was observed in the subgroup analysis of TP53 mutation 
+status, PTEN expression, FCGR2A SNP and FCGR3A SNP. Both regimens as neoadjuvant 
+chemotherapy achieve similar efficacy and safety. PEH might improve pCR rate, 
+especially in the luminal-B subtype and PIK3CA mutation subtype. PEH is feasible 
+and less likely to increase the incidence of acute cardiac events compared to 
+PCH.
+
+DOI: 10.18632/oncotarget.4337
+PMCID: PMC4621920
+PMID: 26084292 [Indexed for MEDLINE]
+
+Conflict of interest statement: CONFLICTS OF INTEREST There is no conflict of 
+interest.
+
+
+59. Breast Cancer Res Treat. 2015 Jun;151(3):629-38. doi:
+10.1007/s10549-015-3435-y.  Epub 2015 May 26.
+
+Phase II neoadjuvant clinical trial of carboplatin and eribulin in women with 
+triple negative early-stage breast cancer (NCT01372579).
+
+Kaklamani VG(1), Jeruss JS, Hughes E, Siziopikou K, Timms KM, Gutin A, Abkevich 
+V, Sangale Z, Solimeno C, Brown KL, Jones J, Hartman AR, Meservey C, Jovanovic 
+B, Helenowski I, Khan SA, Bethke K, Hansen N, Uthe R, Giordano S, Rosen S, 
+Hoskins K, Von Roenn J, Jain S, Parini V, Gradishar W.
+
+Author information:
+(1)Division of Hematology/Oncology, Northwestern University, Chicago, IL, USA, 
+vkaklamani@gmail.com.
+
+The purpose of this study is to evaluate the efficacy and safety of neoadjuvant 
+treatment with carboplatin and eribulin in patients with early-stage triple 
+negative breast cancer (TNBC), and to explore biomarkers based on DNA and 
+protein expression profiles as predictors of response. Patients with 
+histologically confirmed early-stage TNBC received carboplatin AUC 6 iv every 
+21 days, and eribulin 1.4 mg/m(2) day 1 and day 8 every 21 days for four cycles. 
+The primary endpoint of the study was pathologic complete response (pCR), with 
+secondary endpoints including clinical response and safety of the combination. 
+Exploratory studies assessed DNA-based biomarkers [homologous recombination 
+deficiency (HRD) score, and HR deficiency status (HRD score + BRCA1/BRCA2 
+mutation status)], protein-based biomarkers (Ki67, TP53, androgen receptor, 
+Cyclin E, CDK2, Cyclin D, CDK4, Pin1 and Smad3), and clinical pretreatment 
+factors as predictors of pCR. 13/30 (43.3 %) patients enrolled in the study 
+achieved pCR. 24 (80.0 %) had a clinical complete or partial response. The 
+combination was safe with mostly grade 1 and 2 toxicities. HRD score 
+(P = 0.0024) and HR deficiency status (P = 0.0012) significantly predicted pCR. 
+Pretreatment cytoplasmic CDK2 was also associated with pCR (P = 0.021). 
+Significant differences in pre- versus post-treatment expression levels of 
+nuclear Cyclin D (P = 0.020), nuclear CDK4 (P = 0.0030), and nuclear Smad3 
+(P = 0.015) were detected. The combination of carboplatin and eribulin is safe 
+and efficacious in the treatment of early-stage TNBC. HRD score, HR deficiency 
+status, and cytoplasmic CDK2 predicted pCR in this patient population.
+
+DOI: 10.1007/s10549-015-3435-y
+PMID: 26006067 [Indexed for MEDLINE]
+
+
+60. Oncogene. 2016 Jan 28;35(4):448-58. doi: 10.1038/onc.2015.96. Epub 2015 Apr
+13.
+
+MiRNA-621 sensitizes breast cancer to chemotherapy by suppressing FBXO11 and 
+enhancing p53 activity.
+
+Xue J(1)(2)(3), Chi Y(1)(2), Chen Y(1)(2)(4), Huang S(1)(2), Ye X(5), Niu 
+J(3)(6), Wang W(3)(6), Pfeffer LM(3)(6), Shao ZM(1)(2), Wu ZH(3)(6), Wu J(1)(2).
+
+Author information:
+(1)Department of Breast Surgery, Fudan University Shanghai Cancer Center, 
+Shanghai, China.
+(2)Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 
+China.
+(3)Center for Cancer Research, University of Tennessee Health Science Center, 
+Memphis, TN, USA.
+(4)Department of Oncology Surgery, First Affiliated Hospital of Wenzhou Medical 
+College, Wenzhou, Zhejiang, China.
+(5)Institut Mérieux Laboratory, Fudan University Shanghai Cancer Center, 
+Shanghai, China.
+(6)Department of Pathology and Laboratory Medicine, University of Tennessee 
+Health Science Center, Memphis, TN, USA.
+
+MicroRNAs (miRNAs) have been demonstrated to have critical roles in regulating 
+cancer cell proliferation, survival and sensitivity to chemotherapy. The 
+potential application of using miRNAs to predict therapeutic response to cancer 
+treatment holds high promise, but miRNAs with predictive value remain to be 
+identified and underlying mechanisms have not been completely understood. Here, 
+we show a strong correlation between miR-621 expression and chemosensitivity to 
+paclitaxel plus carboplatin (PTX/CBP) regimen, an effective neoadjuvant 
+chemotherapy for breast cancer patients. High level of miR-621 predicts better 
+response to PTX/CBP regimen neoadjuvant chemotherapy in breast cancer patients, 
+who also tend to achieve pathological complete response. Ectopic overexpression 
+of miR-621 promoted apoptosis and increased chemosensitivity to PTX and CBP both 
+in cultured breast cancer cells and in xenograft tumor model. We further show 
+that FBXO11 is a direct functional target of miR-621 and miR-621 level is 
+negatively correlated with FBXO11 expression in breast cancer patients. Ectopic 
+expression of FBXO11 attenuated increased apoptosis in breast cancer cells 
+overexpressing miR-621 upon PTX or CBP treatment. Consistently, high FBXO11 
+expression significantly correlated with poor survival in breast cancer 
+patients. Mechanistically, we found in breast cancer cells FBXO11 interacts with 
+p53 and promotes its neddylation, which suppressed the p53 transactivity. 
+Accordingly, miR-621-dependent FBXO11 suppression enhanced p53 activity and 
+increased apoptosis in breast cancer cells exposed to chemotherapeutics. Taken 
+together, our data suggest that miR-621 enhances chemosensitivity of breast 
+cancer cells to PTX/CBP chemotherapy by suppressing FBXO11-dependent inhibition 
+of p53. miR-621 may serve as a predictive biomarker and a potential therapeutic 
+target in breast cancer treatment.
+
+DOI: 10.1038/onc.2015.96
+PMCID: PMC4603999
+PMID: 25867061 [Indexed for MEDLINE]61. Breast. 2015 Jun;24(3):294-7. doi: 10.1016/j.breast.2015.01.007. Epub 2015
+Feb  16.
+
+p53 status identifies triple-negative breast cancer patients who do not respond 
+to adjuvant chemotherapy.
+
+Coradini D(1), Biganzoli E(2), Ardoino I(3), Ambrogi F(3), Boracchi P(3), 
+Demicheli R(4), Daidone MG(5), Moliterni A(6).
+
+Author information:
+(1)Unit of Medical Statistics, Biometry and Bioinformatics "G.A. Maccacaro", 
+Department of Clinical Sciences and Community Health, University of Milan, 
+Milan, Italy. Electronic address: danila.coradini@gmail.com.
+(2)Unit of Medical Statistics, Biometry and Bioinformatics "G.A. Maccacaro", 
+Department of Clinical Sciences and Community Health, University of Milan, 
+Milan, Italy; Fondazione IRCCS Istituto Nazionale Tumori, Milan, Italy.
+(3)Unit of Medical Statistics, Biometry and Bioinformatics "G.A. Maccacaro", 
+Department of Clinical Sciences and Community Health, University of Milan, 
+Milan, Italy.
+(4)Fondazione IRCCS Istituto Nazionale Tumori, Milan, Italy.
+(5)Department of Experimental Oncology, Fondazione IRCCS Istituto Nazionale 
+Tumori, Milan, Italy.
+(6)Department of Medical Oncology, Fondazione IRCCS Istituto Nazionale Tumori, 
+Milan, Italy.
+
+Genomic analysis and protein expression assimilate triple-negative breast 
+cancers (TNBC) with basal-like breast tumors. TNBCs, however, have proved to 
+encompass also tumors with normal-like phenotype and known to have favorable 
+prognosis and to respond to chemotherapy. In a recent paper, we have provided 
+evidence that p53 status is able to subdivide TNBCs into two distinct subgroups 
+with different outcome, and consistent with basal- and normal-like phenotypes. 
+Based on this finding, we explored the contribution of p53 status in predicting 
+the response to adjuvant CMF or CMF followed doxorubicin chemotherapy of a group 
+of TNBC patients. Results indicated that TNBC patients with a p53-positive tumor 
+had a shorter relapse-free and overall survival than patients carrying a 
+p53-negative TNBC, corroborating our hypothesis about the relationship between 
+TNBC phenotype (basal-like versus normal-like) and p53 status as predictor of 
+response to anthracycline/CMF-based chemotherapy.
+
+Copyright © 2015 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.breast.2015.01.007
+PMID: 25698149 [Indexed for MEDLINE]
+
+
+62. Oncology. 2015;88(6):377-84. doi: 10.1159/000369904. Epub 2015 Jan 14.
+
+Comprehensive DNA Methylation and Extensive Mutation Analyses of HER2-Positive 
+Breast Cancer.
+
+Yamaguchi T(1), Mukai H, Yamashita S, Fujii S, Ushijima T.
+
+Author information:
+(1)Department of Medical Oncology, Musashino Red Cross Hospital, Tokyo, Japan.
+
+OBJECTIVE: Resistance to trastuzumab is a problem that remains to be solved in 
+HER2-positive breast cancer. We aimed to characterize profiles of genetic and 
+epigenetic alterations in cancer-related pathways in HER2-positive breast 
+cancers, using biopsy tissue samples obtained from patients enrolled in a 
+prospective neoadjuvant clinical trial.
+METHODS: HER2-positive breast cancer tissue samples were collected and processed 
+with the PAXgene Tissue System. A total of 24 breast cancers were analyzed. 
+Genetic alterations of 409 cancer-related genes were analyzed by a bench-top 
+next-generation sequencer. DNA methylation statuses were analyzed by a bead 
+array with 485,512 probes.
+RESULTS: The WNT pathway was potentially activated by aberrant methylation of 
+its negative regulators, such as DKK3 and SFRP1, in 9 breast cancers. The 
+AKT/mTOR pathway was activated by mutations of PIK3CA in 5 breast cancers. The 
+Notch pathway was potentially activated by mutations of NOTCH1 and NOTCH2 in 4 
+breast cancers. The p53 pathway was inactivated by mutations of TP53 in 13 
+breast cancers and potentially by aberrant methylation of its downstream genes 
+in 10 breast cancers. Cell adhesion was affected by mutations of CDH1 in 1 
+breast cancer.
+CONCLUSION: Genes involved in cancer-related pathways were frequently affected 
+not only by genetic but also by epigenetic alterations in HER2-positive breast 
+cancer.
+
+© 2015 S. Karger AG, Basel.
+
+DOI: 10.1159/000369904
+PMID: 25591616 [Indexed for MEDLINE]
+
+
+63. Med Oncol. 2014 Oct;31(10):163. doi: 10.1007/s12032-014-0163-9. Epub 2014 Sep
+4.
+
+Molecular subtyping predicts pathologic tumor response in early-stage breast 
+cancer treated with neoadjuvant docetaxel plus capecitabine with or without 
+trastuzumab chemotherapy.
+
+Bayraktar S(1), Royce M, Stork-Sloots L, de Snoo F, Glück S.
+
+Author information:
+(1)Department of Medical Oncology, Mercy Cancer Center, Ardmore, OK, USA, 
+soley.bayraktar@gmail.com.
+
+The purpose of this study was to assess the correlation of the pathologic 
+complete response (pCR) and near-complete pathologic response (npCR) between 
+gene expression profiling using either the dataset of 150 genes as determined by 
+BluePrint/MammaPrint versus PAM50 molecular subtyping. The samples were from 
+patients with operable early-stage breast cancer prior to neoadjuvant 
+chemotherapy of capecitabine plus docetaxel, with or without trastuzumab. 
+Molecular subtyping data were analyzed on samples from 122 patients enrolled in 
+XeNA neoadjuvant trial. The biopsies were obtained as part of the original study 
+where PAM50 assay was performed using custom-designed full genome 44,000 feature 
+Agilent microarrays, and TP53 mutational analysis was performed on pretreatment 
+tumor tissue using the AmpliChip TP53 assay. For the current study, clinical and 
+pathological endpoints, TP53 mutation analysis and PAM50 results were collected 
+through GEO at NCBI (GSE22358). MammaPrint and BluePrint outcomes were 
+determined from the available gene expression data. The overall pCR plus npCR 
+rate was 25% (30/122). Stratified by BluePrint/MammaPrint, patients of HER2 type 
+had the best response (59%), while luminal A (7%) and B (9%) subtypes had the 
+poorest. The pCR plus npCR rate in patients classified with PAM50 assay was 76% 
+in HER2 type, 10% in luminal A type, and 5% in luminal B type. The pCR plus npCR 
+rate [22/61 (36%)] among TP53-mutated patients was significantly higher than 
+TP53 wild-type patients [7/54 (13%); P=0.012]. Concordance of 
+BluePrint/MammaPrint with PAM50 molecular subtyping was only 59%. Regardless of 
+the molecular subtype, for patient samples with concordant BluePrint/MammaPrint 
+and PAM50 data, the pCR plus npCR rate in TP53 mutant samples was 17/39 (44%), 
+whereas in patients whose tumors were TP53 wild type, it was 5/31 (16%). 
+Molecular and intrinsic subtyping may provide predictive information for 
+patients treated with docetaxel plus capecitabine±trastuzumab preoperatively, 
+and these results need to be further evaluated. The differences between the two 
+methodologies need clarification in a prospective manner and being compared to 
+the standard IHC-FISH testing.
+
+DOI: 10.1007/s12032-014-0163-9
+PMID: 25186065 [Indexed for MEDLINE]
+
+
+64. Ann Oncol. 2014 Sep;25(9):1729-1735. doi: 10.1093/annonc/mdu239. Epub 2014
+Jul  9.
+
+Capturing intra-tumor genetic heterogeneity by de novo mutation profiling of 
+circulating cell-free tumor DNA: a proof-of-principle.
+
+De Mattos-Arruda L(1), Weigelt B(2), Cortes J(3), Won HH(2), Ng CKY(2), Nuciforo 
+P(3), Bidard FC(4), Aura C(3), Saura C(3), Peg V(5), Piscuoglio S(2), Oliveira 
+M(3), Smolders Y(2), Patel P(6), Norton L(7), Tabernero J(8), Berger MF(2), 
+Seoane J(9), Reis-Filho JS(10).
+
+Author information:
+(1)Vall d'Hebron Institute of Oncology, Vall d'Hebron University Hospital, 
+Barcelona; Universitat Autònoma de Barcelona, Barcelona, Spain; Department of 
+Pathology, Memorial Sloan-Kettering Cancer Center, New York, USA.
+(2)Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, 
+USA.
+(3)Vall d'Hebron Institute of Oncology, Vall d'Hebron University Hospital, 
+Barcelona.
+(4)Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, 
+USA; Department of Medical Oncology, Institut Curie, Paris, France.
+(5)Department of Pathology, Vall d'Hebron University Hospital, Barcelona, Spain.
+(6)Genentech, Inc., San Francisco.
+(7)Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, 
+USA.
+(8)Vall d'Hebron Institute of Oncology, Vall d'Hebron University Hospital, 
+Barcelona; Universitat Autònoma de Barcelona, Barcelona, Spain.
+(9)Vall d'Hebron Institute of Oncology, Vall d'Hebron University Hospital, 
+Barcelona; Universitat Autònoma de Barcelona, Barcelona, Spain; Institució 
+Catalana de Recerca i Estudis Avançats (ICREA), Barcelona, Spain.
+(10)Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, 
+USA. Electronic address: reisfilj@mskcc.org.
+
+Erratum in
+    Ann Oncol. 2018 Nov 1;29(11):2268. doi: 10.1093/annonc/mdx804.
+
+BACKGROUND: Plasma-derived cell-free tumor DNA (ctDNA) constitutes a potential 
+surrogate for tumor DNA obtained from tissue biopsies. We posit that massively 
+parallel sequencing (MPS) analysis of ctDNA may help define the repertoire of 
+mutations in breast cancer and monitor tumor somatic alterations during the 
+course of targeted therapy.
+PATIENT AND METHODS: A 66-year-old patient presented with synchronous estrogen 
+receptor-positive/HER2-negative, highly proliferative, grade 2, mixed invasive 
+ductal-lobular carcinoma with bone and liver metastases at diagnosis. DNA 
+extracted from archival tumor material, plasma and peripheral blood leukocytes 
+was subjected to targeted MPS using a platform comprising 300 cancer genes known 
+to harbor actionable mutations. Multiple plasma samples were collected during 
+the fourth line of treatment with an AKT inhibitor.
+RESULTS: Average read depths of 287x were obtained from the archival primary 
+tumor, 139x from the liver metastasis and between 200x and 900x from ctDNA 
+samples. Sixteen somatic non-synonymous mutations were detected in the liver 
+metastasis, of which 9 (CDKN2A, AKT1, TP53, JAK3, TSC1, NF1, CDH1, MML3 and 
+CTNNB1) were also detected in >5% of the alleles found in the primary tumor 
+sample. Not all mutations identified in the metastasis were reliably identified 
+in the primary tumor (e.g. FLT4). Analysis of ctDNA, nevertheless, captured all 
+mutations present in the primary tumor and/or liver metastasis. In the 
+longitudinal monitoring of the patient, the mutant allele fractions identified 
+in ctDNA samples varied over time and mirrored the pharmacodynamic response to 
+the targeted therapy as assessed by positron emission tomography-computed 
+tomography.
+CONCLUSIONS: This proof-of-principle study is one of the first to demonstrate 
+that high-depth targeted MPS of plasma-derived ctDNA constitutes a potential 
+tool for de novo mutation identification and monitoring of somatic genetic 
+alterations during the course of targeted therapy, and may be employed to 
+overcome the challenges posed by intra-tumor genetic heterogeneity.
+REGISTERED CLINICAL TRIAL: www.clinicaltrials.gov, NCT01090960.
+
+© The Author 2014. Published by Oxford University Press on behalf of the 
+European Society for Medical Oncology. All rights reserved. For permissions, 
+please email: journals.permissions@oup.com.
+
+DOI: 10.1093/annonc/mdu239
+PMCID: PMC6276937
+PMID: 25009010 [Indexed for MEDLINE]
+
+
+65. Clin Cancer Res. 2014 Aug 1;20(15):3962-73. doi:
+10.1158/1078-0432.CCR-13-1378.  Epub 2014 Jun 10.
+
+Differences in the transcriptional response to fulvestrant and estrogen 
+deprivation in ER-positive breast cancer.
+
+Patani N(1), Dunbier AK(2), Anderson H(3), Ghazoui Z(4), Ribas R(3), Anderson 
+E(5), Gao Q(3), A'hern R(6), Mackay A(3), Lindemann J(7), Wellings R(7), Walker 
+J(7), Kuter I(8), Martin LA(3), Dowsett M(9).
+
+Author information:
+(1)Academic Biochemistry, Royal Marsden Foundation Trust; Breakthrough Breast 
+Cancer Research Centre, Institute of Cancer Research, London;
+(2)Academic Biochemistry, Royal Marsden Foundation Trust; Department of 
+Biochemistry, University of Otago, Dunedin, New Zealand;
+(3)Breakthrough Breast Cancer Research Centre, Institute of Cancer Research, 
+London;
+(4)Academic Biochemistry, Royal Marsden Foundation Trust;
+(5)AstraZeneca, Macclesfield; Boehringer Ingelheim, Vienna, Austria; and.
+(6)Clinical Trials and Statistics Unit, Institute of Cancer Research, Sutton, 
+United Kingdom;
+(7)AstraZeneca, Macclesfield;
+(8)Massachusetts General Hospital, Boston, Massachusetts.
+(9)Academic Biochemistry, Royal Marsden Foundation Trust; Breakthrough Breast 
+Cancer Research Centre, Institute of Cancer Research, London; 
+Mitch.Dowsett@icr.ac.uk.
+
+PURPOSE: Endocrine therapies include aromatase inhibitors and the selective 
+estrogen receptor (ER) downregulator fulvestrant. This study aimed to determine 
+whether the reported efficacy of fulvestrant over anastrozole, and high- over 
+low-dose fulvestrant, reflect distinct transcriptional responses.
+EXPERIMENTAL DESIGN: Global gene expression profiles from ERα-positive breast 
+carcinomas before and during presurgical treatment with fulvestrant (n = 22) or 
+anastrozole (n = 81), and corresponding in vitro models, were compared. 
+Transcripts responding differently to fulvestrant and estrogen deprivation were 
+identified and integrated using Gene Ontology, pathway and network analyses to 
+evaluate their potential significance.
+RESULTS: The overall transcriptional response to fulvestrant and estrogen 
+deprivation was correlated (r = 0.61 in presurgical studies, r = 0.87 in vitro), 
+involving downregulation of estrogen-regulated and proliferation-associated 
+genes. The transcriptional response to fulvestrant was of greater magnitude than 
+estrogen deprivation (slope = 0.62 in presurgical studies, slope = 0.63 in 
+vitro). Comparative analyses identified 28 genes and 40 Gene Ontology categories 
+affected differentially by fulvestrant. Seventeen fulvestrant-specific genes, 
+including CAV1/2, SNAI2, and NRP1, associated with ERα, androgen receptor (AR), 
+and TP53, in a network regulating cell cycle, death, survival, and tumor 
+morphology. Eighteen genes responding differently to fulvestrant specifically 
+predicted antiproliferative response to fulvestrant, but not anastrozole. 
+Transcriptional effects of low-dose fulvestrant correlated with high-dose 
+treatment, but were of lower magnitude (ratio = 0.29).
+CONCLUSIONS: The transcriptional response to fulvestrant has much in common with 
+estrogen deprivation, but is stronger with distinctions potentially attributable 
+to arrest of estrogen-independent ERα activity and involvement of AR signaling. 
+Genes responding differently to fulvestrant may have predictive utility. These 
+data are consistent with the clinical efficacy of fulvestrant versus anastrozole 
+and higher dosing regimens.
+
+©2014 American Association for Cancer Research.
+
+DOI: 10.1158/1078-0432.CCR-13-1378
+PMCID: PMC4119788
+PMID: 24916694 [Indexed for MEDLINE]
+
+
+66. Ann Oncol. 2014 Jun;25(6):1128-36. doi: 10.1093/annonc/mdu118. Epub 2014 Mar
+11.
+
+Pathological complete response after neoadjuvant chemotherapy is an independent 
+predictive factor irrespective of simplified breast cancer intrinsic subtypes: a 
+landmark and two-step approach analyses from the EORTC 10994/BIG 1-00 phase III 
+trial.
+
+Bonnefoi H(1), Litière S(2), Piccart M(3), MacGrogan G(4), Fumoleau P(5), Brain 
+E(6), Petit T(7), Rouanet P(8), Jassem J(9), Moldovan C(10), Bodmer A(11), Zaman 
+K(12), Cufer T(13), Campone M(14), Luporsi E(15), Malmström P(16), Werutsky 
+G(2), Bogaerts J(2), Bergh J(17), Cameron DA(18); EORTC 10994/BIG 1-00 Study 
+investigators.
+
+Author information:
+(1)Department of Medical Oncology, Institut Bergonié Comprehensive Cancer 
+Centre, Université de Bordeaux, INSERM U916, Bordeaux, France 
+h.bonnefoi@bordeaux.unicancer.fr.
+(2)European Organisation for Research and Treatment of Cancer (EORTC), Brussels.
+(3)Institut Jules Bordet, Université Libre de Bruxelles, Brussels, Belgium.
+(4)Department of Medical Oncology, Institut Bergonié Comprehensive Cancer 
+Centre, Université de Bordeaux, INSERM U916, Bordeaux, France.
+(5)Centre George-François Leclerc, Dijon.
+(6)Ensemble Hospitalier de L'Institut Curie, Hopital René Huguenin, St-Cloud.
+(7)Centre Paul Strauss, Strasbourg.
+(8)Centre Val D'Aurelle-Paul Lamarque, Montpellier, France.
+(9)Medical University, Gdansk, Poland.
+(10)Centre Henri Becquerel, Rouen, France.
+(11)Geneva University Hospital, Geneva Swiss Group for Clinical Cancer Research 
+(SAKK), Bern.
+(12)Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland.
+(13)Institute of Oncology, Ljubljana University Clinic Golnik, Golnik, Slovenia.
+(14)Institut de Cancérologie de L'Ouest (ICO), Centre René Gauducheau, Nantes 
+Centre Paul Papin, Angers.
+(15)Centre Alexis Vautrin, Nancy, France.
+(16)Department of Clinical Sciences, Lund University, Lund Skåne Department of 
+Oncology, Skåne University Hospital, Lund.
+(17)Swedish Breast Cancer Group (SweBCG), Stockholm Department of Oncology, 
+Karolinska Institutet, Radiumhemmet and Karolinska University Hospital, 
+Stockholm, Sweden.
+(18)Cancer Services, Edinburgh University Anglo-Celtic Cooperative Oncology 
+Group (ACCOG), Edinburgh, UK.
+
+BACKGROUND: Pathological complete response (pCR) following chemotherapy is 
+strongly associated with both breast cancer subtype and long-term survival. 
+Within a phase III neoadjuvant chemotherapy trial, we sought to determine 
+whether the prognostic implications of pCR, TP53 status and treatment arm 
+(taxane versus non-taxane) differed between intrinsic subtypes.
+PATIENTS AND METHODS: Patients were randomized to receive either six cycles of 
+anthracycline-based chemotherapy or three cycles of docetaxel then three cycles 
+of eprirubicin/docetaxel (T-ET). pCR was defined as no evidence of residual 
+invasive cancer (or very few scattered tumour cells) in primary tumour and lymph 
+nodes. We used a simplified intrinsic subtypes classification, as suggested by 
+the 2011 St Gallen consensus. Interactions between pCR, TP53 status, treatment 
+arm and intrinsic subtype on event-free survival (EFS), distant metastasis-free 
+survival (DMFS) and overall survival (OS) were studied using a landmark and a 
+two-step approach multivariate analyses.
+RESULTS: Sufficient data for pCR analyses were available in 1212 (65%) of 1856 
+patients randomized. pCR occurred in 222 of 1212 (18%) patients: 37 of 496 
+(7.5%) luminal A, 22 of 147 (15%) luminal B/HER2 negative, 51 of 230 (22%) 
+luminal B/HER2 positive, 43 of 118 (36%) HER2 positive/non-luminal, 69 of 
+221(31%) triple negative (TN). The prognostic effect of pCR on EFS did not 
+differ between subtypes and was an independent predictor for better EFS [hazard 
+ratio (HR) = 0.40, P < 0.001 in favour of pCR], DMFS (HR = 0.32, P < 0.001) and 
+OS (HR = 0.32, P < 0.001). Chemotherapy arm was an independent predictor only 
+for EFS (HR = 0.73, P = 0.004 in favour of T-ET). The interaction between TP53, 
+intrinsic subtypes and survival outcomes only approached statistical 
+significance for EFS (P = 0.1).
+CONCLUSIONS: pCR is an independent predictor of favourable clinical outcomes in 
+all molecular subtypes in a two-step multivariate analysis.
+CLINICALTRIALSGOV: EORTC 10994/BIG 1-00 Trial registration number NCT00017095.
+
+© The Author 2014. Published by Oxford University Press on behalf of the 
+European Society for Medical Oncology. All rights reserved. For permissions, 
+please email: journals.permissions@oup.com.
+
+DOI: 10.1093/annonc/mdu118
+PMCID: PMC4037859
+PMID: 24618153 [Indexed for MEDLINE]
