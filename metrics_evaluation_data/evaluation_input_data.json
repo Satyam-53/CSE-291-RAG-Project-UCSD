@@ -1,0 +1,38 @@
+[
+    {
+        "category": "",
+        "question": "",
+        "manually_retrieved_chunks": [
+                      "...",
+                      "..."
+                  ],
+        "rag_retrieved_chunks": [
+                      "...",
+                      "..."
+                  ]
+    }, 
+    {
+        "category": "",
+        "question": "",
+        "manually_retrieved_chunks": [
+                      "...",
+                      "..."
+                  ],
+        "rag_retrieved_chunks": [
+                      "...",
+                      "..."
+                  ]
+    }, 
+    {
+        "category": "",
+        "question": "",
+        "manually_retrieved_chunks": [
+                      "...",
+                      "..."
+                  ],
+        "rag_retrieved_chunks": [
+                      "...",
+                      "..."
+                  ]
+    }
+]

@@ -4,7 +4,7 @@ import re
 import json
 
 
-def process_all_processed_file(directory_path: str) -> list[str]:
+def process_all_processed_file(directory_path: str = './processed_dataset/') -> list[str]:
     all_chunks = []
     try:
         # Iterate over all files in the directory
@@ -48,7 +48,6 @@ def create_chunks(content: str) -> list[str]:
     finally:
         return chunks
 
-
 def get_embedding_model() -> SentenceTransformer:
     # Initialize embedding model
     model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -68,7 +67,7 @@ def create_embeddings(chunks: list[str]) -> list[int | float]:
 def persist_embeddings_to_file(
     chunks: list[str], 
     embeddings: list[int | float], 
-    directory_name: str = './embeddings-data/',
+    directory_name: str = './embeddings_data/',
     filename: str = 'embeddings.json'
 ) -> None:
     try:
@@ -88,10 +87,13 @@ def persist_embeddings_to_file(
         print("Error encountered while saving embeddings to file.")
 
 def main():
-    input_directory = './processed-data/'
+    input_directory = './processed_dataset/'
+    output_directory = './embeddings_data/'
+    output_filename = 'embeddings.json'
+
     chunks = process_all_processed_file(input_directory)
     embeddings = create_embeddings(chunks)
-    persist_embeddings_to_file(chunks, embeddings)
+    persist_embeddings_to_file(chunks, embeddings, output_directory, output_filename)
 
 if __name__=='__main__':
     main()
