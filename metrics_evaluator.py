@@ -1,8 +1,11 @@
 from qdrant_client import QdrantClient
-from qdrant_client.models import PointStruct, VectorParams, SearchParams
+from qdrant_client.models import SearchParams
 from sentence_transformers import SentenceTransformer
 import json
 import os
+import psutil
+import time
+import numpy as np
 
 def load_evaluation_data_from_file(
     directory_name: str = './metrics_evaluation_data/', 
@@ -20,16 +23,17 @@ def load_evaluation_data_from_file(
         return evaluation_data
 
 def persist_evaluation_result_to_output_file(
+    evaluation_results: list[dict],
     directory_name: str = './metrics_evaluation_data/',
-    filename: str = 'evaluation_metrics_result.json',
-    evaluation_results: list[dict]
+    filename: str = 'evaluation_metrics_result.json'
 ) -> None:
     file_path = os.path.join(directory_name, filename)
     try:
         with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(data, f)
+            json.dump(evaluation_results, f)
         print("Successfully saved evaluation results to file.")
-    except:
+    except Exception as e:
+        print(e)
         print("Error writing evaluation results data to file.")
 
 def get_embedding_model() -> SentenceTransformer:
@@ -37,7 +41,7 @@ def get_embedding_model() -> SentenceTransformer:
     model = SentenceTransformer('all-MiniLM-L6-v2')
     return model
 
-def get_embedding_vector(model: SentenceTransformer, query: str) -> list
+def get_embedding_vector(model: SentenceTransformer, query: str) -> list:
     query_vector = []
     try:
         query_vector.extend(model.encode(query).tolist())
@@ -50,15 +54,10 @@ def get_qdrant_client(
     host: str = 'localhost', 
     port: int = 6333, 
     collection_name: str = 'CSE291A_RAG_Project_Phase1'
-) -> QdrantClient | None:
+) -> QdrantClient:
     qdrant_client = None
     try:
         qdrant_client = QdrantClient(host=host, port=port)
-        # Create collection
-        qdrant_client.recreate_collection(
-            collection_name=collection_name,
-            vectors_config=VectorParams(size=384, distance=Distance.COSINE)
-        )
         print('Successfully connected to Qdrant.')
     except:
         print('Error connecting to Qdrant.')
@@ -68,7 +67,7 @@ def get_qdrant_client(
 def get_rag_retrieved_chunks(
     qdrant_client: QdrantClient,
     collection_name: str,
-    embedding_vector: list[int | float],
+    query_vector: list[float],
     top_k = 5
 ) -> dict:
     retrieved_chunks = []
@@ -92,7 +91,7 @@ def evaluate_metrics(
     result_metrics_data = []
     try:
         embedding_model = get_embedding_model()
-        qdrant_collection_name = 'CSE291A_RAG_Project_Phase1'
+        qdrant_collection_name = 'CSE291A-RAG-Project-Phase1'
         qdrant_client = get_qdrant_client()
         
         for input_data in evaluation_input_data:
@@ -109,14 +108,15 @@ def evaluate_metrics(
 
             # Run retrieval
             number_of_chunks_to_retrieve = len(manually_retrieved_chunks)
-            rag_retrieved_chunks = get_rag_retrieved_chunks(model, qdrant_client, qdrant_collection_name, query, number_of_chunks_to_retrieve)
+            rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
+            rag_retrieved_chunks = [point.payload['text'] for point in rag_retrieved_chunks]
 
             # End timing and memory (in MB)
             mem_after = process.memory_info().rss / 1024 ** 2
             end_time = time.time()
             
             retrieval_metrics = get_retrieval_metrics(manually_retrieved_chunks, rag_retrieved_chunks)
-            efficiency_metrics = get_efficiency_metrics(start_time, end_time, start_memory, end_memory)
+            efficiency_metrics = get_efficiency_metrics(start_time, end_time, mem_before, mem_after)
 
             result_metrics_data.append(
                 {
@@ -168,12 +168,12 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=5):
         idcg = sum([score / np.log2(i + 2) for i, score in enumerate(ideal_scores)])
         ndcg = dcg / idcg if idcg > 0 else 0
 
-        # print("----------- RETRIEVAL METRICS -----------")
-        # print("Precision @ K  : ", retrieval_metrics["precision@k"])
-        # print("Recall @ K     : ", retrieval_metrics["recall@k"])
-        # print("Hit Ratio @ K  : ", retrieval_metrics["hit_ratio@k"])
-        # print("MRR            : ", retrieval_metrics["mrr"])
-        # print("NDCG           : ", retrieval_metrics["ndcg"])
+        print("----------- RETRIEVAL METRICS -----------")
+        print("Precision @ K  : ", round(precision_at_k, 3))
+        print("Recall @ K     : ", round(recall_at_k, 3))
+        print("Hit Ratio @ K  : ", hit_ratio_at_k)
+        print("MRR            : ", round(mrr, 3))
+        print("NDCG           : ", round(ndcg, 3))
     except:
         print("Error encountered while calculating retrieval metrics.")
     finally:
@@ -185,18 +185,18 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=5):
             "ndcg": round(ndcg, 3)
         }
 
-def get_efficiency_metrics(start_time: time, end_time: time, start_memory: int | float, end_memory: int | float) -> dict:
+def get_efficiency_metrics(start_time: time, end_time: time, start_memory: float, end_memory: float) -> dict:
     latency, throughput, memory_used = 0.0, 0.0, 0.0
     try:
         # Efficiency metrics
         latency = end_time - start_time
         throughput = 1 / latency if latency > 0 else 0
-        memory_used = mem_after - mem_before
+        memory_used = end_memory - start_memory
 
-        # print("----------- EFFICIENCY METRICS -----------")
-        # print("Latency(sec)  : ", latency)
-        # print("Throughput(qps): ", throughput)
-        # print("Memory Used(MB): ", memory_used)
+        print("----------- EFFICIENCY METRICS -----------")
+        print("Latency(sec)  : ", round(latency, 2))
+        print("Throughput(qps): ", round(throughput, 2))
+        print("Memory Used(MB): ", round(memory_used, 2))
     except:
         print("Error encountered while calculating efficiency metrics.")
     finally:
@@ -213,7 +213,7 @@ def main():
 
     input_evaluation_data = load_evaluation_data_from_file(directory_name, input_filename)
     output_evaluation_data = evaluate_metrics(input_evaluation_data)
-    persist_evaluation_result_to_output_file(directory_name, output_filename, output_evaluation_data)
+    persist_evaluation_result_to_output_file(output_evaluation_data, directory_name, output_filename)
 
 if __name__=='__main__':
     main()

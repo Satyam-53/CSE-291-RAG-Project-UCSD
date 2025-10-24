@@ -53,7 +53,7 @@ def get_embedding_model() -> SentenceTransformer:
     model = SentenceTransformer('all-MiniLM-L6-v2')
     return model
 
-def create_embeddings(chunks: list[str]) -> list[int | float]:
+def create_embeddings(chunks: list[str]) -> list[float]:
     embeddings = []
     try:
         model = get_embedding_model()
@@ -66,25 +66,69 @@ def create_embeddings(chunks: list[str]) -> list[int | float]:
 
 def persist_embeddings_to_file(
     chunks: list[str], 
-    embeddings: list[int | float], 
+    embeddings: list[list[float]], 
     directory_name: str = './embeddings_data/',
-    filename: str = 'embeddings.json'
+    base_filename: str = 'embeddings'
 ) -> None:
+    """
+    Saves text chunks and their corresponding embeddings to multiple JSON files, 
+    each capped at approximately 100 MB in size.
+
+    Parameters:
+        chunks (list[str]): List of text segments or sentences.
+        embeddings (list[list[float]]): List of embedding vectors corresponding to each chunk.
+        directory_name (str): Directory where JSON files will be saved. Defaults to './embeddings_data/'.
+        base_filename (str): Base name for output files. Files will be named as base_filename_0.json, base_filename_1.json, etc.
+
+    Returns:
+        None
+    """
     try:
-        # Save id, chunks (sentences) and corresponding embeddings to a json file
-        data = [
-            {
-                "id": str(i), 
-                "chunk": s, 
+        # Ensure the output directory exists
+        os.makedirs(directory_name, exist_ok=True)
+
+        max_file_size = 90 * 1024 * 1024  # 100 MB in bytes
+        batch = []        # Current batch of entries
+        batch_size = 0    # Size of current batch in bytes
+        file_index = 0    # Index for naming output files
+
+        # Iterate through chunks and embeddings
+        for i, (chunk, embedding) in enumerate(zip(chunks, embeddings)):
+            entry = {
+                "id": str(i),
+                "chunk": chunk,
                 "embedding": embedding
-            } for i, (s, embedding) in enumerate(zip(chunks, embeddings))
-        ]
-        
-        with open(directory_name+filename, "w", encoding="utf-8") as f:
-            json.dump(data, f)
-        print("Successfully saved embeddings to embeddings.json file.")
-    except:
-        print("Error encountered while saving embeddings to file.")
+            }
+
+            # Estimate size of entry in bytes
+            entry_json = json.dumps(entry)
+            entry_size = len(entry_json.encode('utf-8'))
+
+            # If adding this entry exceeds the size limit, write current batch to file
+            if batch_size + entry_size > max_file_size:
+                filename = f"{base_filename}_{file_index}.json"
+                with open(os.path.join(directory_name, filename), "w", encoding="utf-8") as f:
+                    json.dump(batch, f)
+                print(f"Saved {filename} with {len(batch)} entries.")
+
+                # Reset batch and counters
+                file_index += 1
+                batch = []
+                batch_size = 0
+
+            # Add entry to batch
+            batch.append(entry)
+            batch_size += entry_size
+
+        # Save any remaining entries
+        if batch:
+            filename = f"{base_filename}_{file_index}.json"
+            with open(os.path.join(directory_name, filename), "w", encoding="utf-8") as f:
+                json.dump(batch, f)
+            print(f"Saved {filename} with {len(batch)} entries.")
+
+    except Exception as e:
+        print(f"Error encountered while saving embeddings: {e}")
 
 def main():
     input_directory = './processed_dataset/'
