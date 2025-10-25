@@ -1,21 +1,199 @@
 [
     {
         "category": "Factual",
-        "question": "what is the primary mechanism of p53-dependent mitochondrial apoptosis, and how can apoptosis be induced in p53-null cells through an alternative pathway?",
-        "manually_retrieved_chunks": [
-                      "The tumor-suppressive activity of p53 is largely attributed to its ability to induce cell death, including apoptosis, through transcription-dependent and transcription-independent mechanisms. ",
-                      "Nuclear p53 transcriptionally activates the expression of a myriad of pro-apoptotic BCL-2 family genes, such as NOXA, PUMA, BID, BAD, BIK, BAX, etc., whereas it inactivates the expression of anti-apoptotic BCL-2, BCL-XL, and MCL1, leading to mitochondrial apoptosis. ",
-                      "On the other hand, cytoplasmic p53 also promotes mitochondrial apoptosis by directly associating with multiple BCL-2 family proteins in the mitochondria.",
-                      "Recently, we identified SEPT4/ARTS as a p53-responsive gene that plays a critical role in p53-dependent mitochondrial apoptosis.",
-                      "ARTS facilitates p53 translocation to the mitochondria and increases the interaction of p53 with BCL-XL, consequently leading to inhibition of BCL-XL and augmented apoptosis.",
-                      "Curcumin has anticancer functions in various tumors. It has been shown to induce apoptosis through p53-dependent pathways.",
-                      "To understand the p73-dependent mechanisms that are engaged during curcumin-induced apoptosis, we established a p73 overexpression cell model using p53-deficient Hep3B cells.",
-                      "Our results demonstrated that curcumin at concentrations of 40 and 80 ?M induced DNA damage, increased TAp73/DNp73 ratio, and also led to apoptosis in the Hep3BTAp73/DNp73 cells.",
-                      "p73, a p53 family member, can also induce apoptosis and regulate the cell cycle.",
-                      "The apoptotic cell death was concurrent with the loss of mitochondrial membrane potential; release of cytochrome c from mitochondria; and the cleavage of caspase 9, caspase 3, and poly(ADP-ribose) polymerase (PARP). ",
-                      "These results demonstrated a p73-dependent mechanism for curcumin-induced apoptosis that involves the mitochondria-mediated pathway.",
-                      "curcumin-induced DNA damage caused increase of TAp73 levels but decrease of DNp73 protein levels, resulting in the increase of TAp73/DNp73 ratio.",
-                      "These results, combined with the disruption of MMP; release of cytochrome c from mitochondria; and cleavage of pro-caspase 9, pro-caspase 3, and pro-PARP, indicate that the increased DNA damage contributes to the induction of mitochondria-associated apoptosis via a p73-dependent pathway."
-                  ]
+        "question": "What are the most frequent TP53 missense mutations and their predicted impacts according to SIFT and PolyPhen?",
+        "manually_retrieved_chunks":
+        [
+            "8e30604f-3a45-5533-bdd7-0a4353700318|chr17:g.7675088C>T|TP53 R175H|Substitution|Missense|206|7431|2.77|206|16747|1.23|MODERATE|tolerated|0.11|benign|0.319",
+            "8d2dfec2-3a12-511c-90e9-3e29c039b548|chr17:g.7674220C>T|TP53 R248Q|Substitution|Missense|161|7431|2.17|161|16747|0.96|MODERATE|deleterious|0.0|probably_damaging|0.994",
+            "477e2125-974b-5af0-a876-25596d99ddbf|chr17:g.7673803G>A|TP53 R273C|Substitution|Missense|145|7431|1.95|145|16747|0.87|MODERATE|deleterious|0.0|probably_damaging|0.999",
+            "b5249474-20f8-5245-8dc0-c548405baaa2|chr17:g.7673802C>T|TP53 R273H|Substitution|Missense|129|7431|1.74|129|16747|0.77|MODERATE|tolerated|0.13|possibly_damaging|0.643",
+            "b5249474-20f8-5245-8dc0-c548405baaa2|chr17:g.7673802C>T|TP53 R273H|Substitution|Missense|129|7431|1.74|129|16747|0.77|MODERATE|tolerated|0.13|possibly_damaging|0.643"
+        ]
+    },
+    {
+        "category": "Factual",
+        "question": "What are all the proteins that interact with CCAR2? For each interaction, list the combined confidence score and specifically mention the score for experimentally determined interactions?",
+        "manually_retrieved_chunks":
+        [
+            "ATM|CCAR2|9606.ENSP00000278616|9606.ENSP00000310670|0|0|0|0|0.042|0|0.750|0.324|0.823",
+            "ATR|CCAR2|9606.ENSP00000343741|9606.ENSP00000310670|0|0|0|0|0.058|0|0.750|0.176|0.789",
+            "CCAR2|SIRT1|9606.ENSP00000310670|9606.ENSP00000212015|0|0|0|0|0.049|0.830|0.900|0.977|0.999",
+            "CCAR2|ATM|9606.ENSP00000310670|9606.ENSP00000278616|0|0|0|0|0.042|0|0.750|0.324|0.823",
+            "CCAR2|RNF40|9606.ENSP00000310670|9606.ENSP00000325677|0|0|0|0|0.784|0|0|0|0.784",
+            "CCAR2|RPS19BP1|9606.ENSP00000310670|9606.ENSP00000333948|0|0|0|0|0.097|0|0|0.771|0.784",
+            "CCAR2|ATR|9606.ENSP00000310670|9606.ENSP00000343741|0|0|0|0|0.058|0|0.750|0.176|0.789",
+            "CCAR2|HAO1|9606.ENSP00000310670|9606.ENSP00000368066|0|0|0|0|0|0.835|0|0|0.835",
+            "CCAR2|EDC4|9606.ENSP00000310670|9606.ENSP00000351811|0|0|0|0|0.851|0|0|0|0.851",
+            "CCAR2|RANBP3|9606.ENSP00000310670|9606.ENSP00000341483|0|0|0|0|0.925|0|0|0|0.925",
+            "CCAR2|ZNF326|9606.ENSP00000310670|9606.ENSP00000340796|0|0|0|0|0.067|0|0.900|0.808|0.980",
+            "CCAR2|HSPA8|9606.ENSP00000310670|9606.ENSP00000437125|0|0|0|0|0.058|0.994|0.500|0.055|0.996",
+            "EDC4|CCAR2|9606.ENSP00000351811|9606.ENSP00000310670|0|0|0|0|0.851|0|0|0|0.851",
+            "HAO1|CCAR2|9606.ENSP00000368066|9606.ENSP00000310670|0|0|0|0|0|0.835|0|0|0.835",
+            "HSPA8|CCAR2|9606.ENSP00000437125|9606.ENSP00000310670|0|0|0|0|0.058|0.994|0.500|0.055|0.996",
+            "RANBP3|CCAR2|9606.ENSP00000341483|9606.ENSP00000310670|0|0|0|0|0.925|0|0|0|0.925",
+            "RNF40|CCAR2|9606.ENSP00000325677|9606.ENSP00000310670|0|0|0|0|0.784|0|0|0|0.784",
+            "RPS19BP1|CCAR2|9606.ENSP00000333948|9606.ENSP00000310670|0|0|0|0|0.097|0|0|0.771|0.784",
+            "SIRT1|CCAR2|9606.ENSP00000212015|9606.ENSP00000310670|0|0|0|0|0.049|0.830|0.900|0.977|0.999",
+            "ZNF326|CCAR2|9606.ENSP00000340796|9606.ENSP00000310670|0|0|0|0|0.067|0|0.900|0.808|0.980"
+        ]
+    },
+    {
+        "category": "Factual",
+        "question": "What is the primary mechanism of p53-dependent mitochondrial apoptosis, and how can apoptosis be induced in p53-null cells through an alternative pathway?",
+        "manually_retrieved_chunks":
+        [
+            "The tumor-suppressive activity of p53 is largely attributed to its ability to induce cell death, including apoptosis, through transcription-dependent and transcription-independent mechanisms",
+            "Nuclear p53 transcriptionally activates the expression of a myriad of pro-apoptotic BCL-2 family genes, such as NOXA, PUMA, BID, BAD, BIK, BAX, etc., whereas it inactivates the expression of anti-apoptotic BCL-2, BCL-XL, and MCL1, leading to mitochondrial apoptosis",
+            "On the other hand, cytoplasmic p53 also promotes mitochondrial apoptosis by directly associating with multiple BCL-2 family proteins in the mitochondria",
+            "Recently, we identified SEPT4/ARTS as a p53-responsive gene that plays a critical role in p53-dependent mitochondrial apoptosis",
+            "ARTS facilitates p53 translocation to the mitochondria and increases the interaction of p53 with BCL-XL, consequently leading to inhibition of BCL-XL and augmented apoptosis",
+            "It has been shown to induce apoptosis through p53-dependent pathways",
+            "To understand the p73-dependent mechanisms that are engaged during curcumin-induced apoptosis, we established a p73 overexpression cell model using p53-deficient Hep3B cells",
+            "Our results demonstrated that curcumin at concentrations of 40 and 80 ?M induced DNA damage, increased TAp73/DNp73 ratio, and also led to apoptosis in the Hep3BTAp73/DNp73 cells",
+            "Collectively, p53 can promote mitochondrial apoptosis by either activating the expression of the pro-apoptotic BCL-2 family genes or inhibiting the expression of the anti-apoptotic genes",
+            "The apoptotic cell death was concurrent with the loss of mitochondrial membrane potential; release of cytochrome c from mitochondria; and the cleavage of caspase 9, caspase 3, and poly(ADP-ribose) polymerase (PARP)",
+            "Several p53-regulated apoptotic-target genes have been identiﬁed and are divided into two major pathways: the mitochondrial and death-receptor pathways",
+            "These results demonstrated a p73-dependent mechanism for curcumin-induced apoptosis that involves the mitochondria-mediated pathway",
+            "curcumin-induced DNA damage caused increase of TAp73 levels but decrease of DNp73 protein levels, resulting in the increase of TAp73/DNp73 ratio",
+            "These results, combined with the disruption of MMP; release of cytochrome c from mitochondria; and cleavage of pro-caspase 9, pro-caspase 3, and pro-PARP, indicate that the increased DNA damage contributes to the induction of mitochondria-associated apoptosis via a p73-dependent pathway"
+        ]
+    },
+    {
+        "category": "Hybrid",
+        "question": "Identify two low-penetrance TP53 variants for African and East Asian ancestries. What is the co-segregating genetic factor for the Brazilian p.R337H founder mutation, and what are the maternal/paternal origins of its carriers?",
+        "manually_retrieved_chunks":
+        [
+            "The discovery and characterization of suspected low-penetrance ethßnic-specific variants with unique functional consequences, including P47S (African), G334R (Ashkenazi Jewish), and rs78378222 (Icelandic), may provide new insights in terms of managing cancer risk and the efficacy of therapy",
+            "Additionally, our analysis highlights infrequent variants linked to milder cancer phenotypes in various published reports that may be underdiagnosed and require further investigation, including D49H in East Asians and R181H in Europeans",
+            "It exists at a remarkably high frequency in the population of southeast Brazil as founder mutation in two distinct haplotypes with the most frequent co-segregating with the p.E134* variant of the XAF1 tumor suppressor and an increased cancer risk",
+            "Mitochondrial DNA sequencing and Y-STR profiling of Brazilian carriers of the founder TP53 p.R337H allele reveal an excess of Native American haplogroups in maternal lineages and exclusively European haplogroups in paternal lineages, consistent with communities established through male European settlers with extensive intermarriage with Indigenous women",
+            "The germline TP53 p.R337H mutation is reported as the most common germline TP53 variant",
+            "Our study reveals that each ancestry contains a distinct TP53 variant landscape defined by enriched ethnic-specific alleles",
+            "We report here a shared haplotype among Brazilian, Portuguese, and Spanish families and the existence of three additional distinct TP53 p.R337H alleles",
+            "The identification of founder and independent TP53 p.R337H alleles underlines the importance for considering the haplo- type as a functional unit and the additive effects of constitutive polymorphisms and associated variants in modifier genes that can in- fluence the cancer phenotype",
+            "The recent expansion of human genomics repositories has facilitated the discovery of novel TP53 variants in populations of different ethnic origins",
+            "Interpreting TP53 variants is a major clinical challenge because they are functionally diverse, confer highly variable predisposition to cancer (including elusive low-penetrance alleles), and interact with genetic modifiers that alter tumor susceptibility"
+        ]
+    },
+    {
+        "category": "Synthesis",
+        "question": "How does the acquisition of aneuploidy facilitate the oncogenic Gain-of-Function (GOF) phenotypes of mutant p53, and what specific downstream signaling pathway, related to chromosomal instability, does this mechanism activate?",
+        "manually_retrieved_chunks":
+        [
+            "Acquisition of aneuploidy drives mutant p53-associated gain-of-function phenotypes which leads to novel oncogenic phenotypes",
+            "Mutant p53 gains oncogenic functions through a chromosomal instability-induced cytosolic DNA response",
+            "GOF phenotypes occurred clonally in vitro and in vivo, were independent of p53 alteration and correlated with increased aneuploidy",
+            "The GOF mutp53 predisposes cells to replication stress and chromosomal instability, resulting in the accumulation of cytosolic DNA",
+            "Cytosolic DNA, which is a common byproduct of aneuploidy, activates the cGAS–STING pathway",
+            "The cGAS–STING innate immune pathway senses cytosolic DNA and is critically involved in mutp53 GOF activities",
+            "We study the mutp53 interactome and find that by targeting minichromosome maintenance complex components (MCMs), GOF mutp53 predisposes cells to replication stress",
+            "Aneuploidy in cancer genomes strongly correlates with mutations in TP53, and p53 is thought to prevent the propagation of aneuploid cells",
+            "Loss of wild-type p53 function can also often result in oncogenic gain-of-function (GOF) of mutant p53 (mutp53) proteins which promotes tumor development and progression",
+            "Individuals with aneuploid-high tumors displayed unfavorable prognoses, regardless of the TP53 genotype, underscoring the role of aneuploidy in malignancy"
+        ]
+    },
+    {
+        "category": "Synthesis",
+        "question": "How do TP53 germline variant clusters stratify phenotypic diversity in carriers, such as revealing an osteosarcoma-prone subgroup, and what is the specific, non-oncogenic role of p53 in male fertility?",
+        "manually_retrieved_chunks":
+        [
+            "TP53 variant clusters stratify phenotypic diversity in germline carriers and reveal an osteosarcoma-prone subgroup",
+            "Unsupervised clustering to functional datasets identified distinct TP53 variant groups with clinical relevance, including a monomeric subgroup enriched in osteosarcoma cases",
+            "The role of p53 in male fertility is primarily linked to its function as a guardian of genomic integrity during spermatogenesis",
+            "In the testes, p53 can trigger apoptosis in germ cells with significant DNA damage to prevent the transmission of faulty genetic material",
+            "The germline TP53 p.R337H mutation is reported as the most common germline TP53 variant in South America",
+            "The p.R337H mutation is hypomorphic and confers incomplete penetrance and late tumor onset in a mouse model",
+            "In cellular validation assays, dermal fibroblasts from carriers of more functionally impaired variants exhibit increased metabolic growth rates, mirroring clinical outcomes",
+            "The p53 pathway is crucial for meiotic arrest and for eliminating cells that fail to complete prophase I of meiosis in the male germline",
+            "Resveratrol reverses cadmium chloride-induced testicular damage and subfertility by downregulating p53 and Bax and upregulating Bcl-2 gene expression",
+            "Li-Fraumeni syndrome (LFS) has recently been redefined as a 'spectrum' cancer predisposition disorder to reflect its broad phenotypic heterogeneity"
+        ]
+    },
+    {
+        "category": "Synthesis",
+        "question": "In the context of aggressive B-cell lymphomas, how do TP53 mutations act as a risk-level biomarker for patient prognosis, and what are the primary therapeutic opportunities suggested for mitigating the oncogenic effects of these mutations?",
+        "manually_retrieved_chunks":
+        [
+            "TP53 mutations are independently associated with inferior PFS (progression-free survival) in patients with newly diagnosed aggressive B-cell lymphomas",
+            "The primary goal for TP53-mutated DLBCL patients is to identify the truly high-risk individuals and explore the underlying biological mechanisms for better treatment",
+            "Recent studies demonstrated that restoring wild-type p53, rather than removing GOF mutations, reduces cancer cell growth",
+            "Therapeutic strategies for reactivating wild-type p53 function in cancer cells may bring a greater benefit than approaches halting mutant p53, often involving small molecules or gene therapy",
+            "GOF mutations not only disrupt the tumor-suppressive activities of p53 but also endow the mutant proteins with new oncogenic properties",
+            "The therapeutic options for patients with TP53 deficient chronic lymphocytic leukemia (CLL) include the use of agents like Venetoclax (BCL-2 inhibitors)",
+            "TP53 mutation (TP53-mut) correlates with inferior survival in many cancers, but its prognostic role in DLBCL is still in controversy",
+            "Mutated TP53 in Circulating Tumor DNA (ctDNA) can serve as a risk level biomarker in Head and Neck Squamous Cell Carcinoma Patients, suggesting its potential utility in liquid biopsy monitoring",
+            "TP53 mutations result in a constitutive defect of p53 DNA binding and transcriptional response to DNA damage",
+            "The development of diagnostic assays to guide personalized cancer risk assessment is feasible based on clustering TP53 variants by functional impact"
+        ]
+    },
+    {
+        "category": "Hybrid",
+        "question": "Explain how the tumor suppressor p53 orchestrates cancer metabolism to reverse the Warburg effect, and what is the functional impact of the germline TP53 p.K164E acetylation site variant on this metabolic regulation?",
+        "manually_retrieved_chunks":
+        [
+            "P53 orchestrates its targets to redirect cancer metabolism towards an OXPHOS-dominant state (oxidative phosphorylation)",
+            "Our findings reveal the dynamic capability of elevated p53 activation to fully reverse the Warburg effect, highlighting the significance of p53-dependent metabolic reprogramming",
+            "This metabolic shift, known as the Warburg effect, is pivotal in fuelling cancer's uncontrolled growth, invasion, and therapeutic resistance",
+            "This study addresses the functional consequences of the germline TP53 p.K164E acetylation site variant",
+            "Acetylation of specific lysine residues in the DNA binding and carboxy-terminus regulatory domains modulate its tumor suppressor activities",
+            "Functional assays revealed that the p.K164E variant exhibited a severe loss-of-function phenotype compared to wild-type p53",
+            "The p.K164E variant is located in the DNA binding domain, which is a region critical for p53 transcriptional function and is typically acetylated by p300",
+            "The tumour suppressor gene p53 emerges as a master player in metabolic dysregulation that contributes to the Warburg effect",
+            "p53 oligomerization is essential for its C-terminal lysine acetylation, suggesting a link between protein structure and modification function",
+            "Simulation outcomes align closely with experimental data comparing glucose metabolism in colon cancer cells with wild-type and mutated p53"
+        ]
+    },
+    {
+        "category": "Factual",
+        "question": "What general association has been observed between the presence of somatic TP53 mutations and patient prognosis or survival in breast cancer?",
+        "manually_retrieved_chunks":
+        [
+            "In our study population, TP53 mutation was a strong and independent poor prognostic factor for both RFS and OS in long-term follow-up",
+            "In the HR+/HER2− subtype, TP53 mutations were significantly associated with poorer overall survival (OS), whereas in the other subtypes, TP53 mutations were not associated with OS",
+            "Overall Survival (Months) Overall Survival Status TP53 Mutation (Relevant column headers)",
+            "TCGA-C8-A131 58 Female Invasive Breast Carcinoma Breast Invasive Ductal Carcinoma HR+/HER2- Luminal A 24.7 DECEASED Mutant (Example of poor survival with mutation)",
+            "The prognostic significance of TP53 mutation has been demonstrated in multiple studies, suggesting its role as a marker of poor prognosis in BC",
+            "Among 150 patients treated with fulvestrant or fulvestrant + palboclib, baseline mutations in TP53, PIK3CA, RB1, and the Y537S ESR1 mutation, were associated with shorter PFS"
+        ]
+    },
+    {
+        "category": "Synthesis",
+        "question": "How does the clinical relevance or prognostic impact of somatic TP53 mutations in breast cancer appear to differ based on specific molecular subtypes, such as HR+/HER2- versus triple-negative?",
+        "manually_retrieved_chunks":
+        [
+            "In the HR+/HER2− subtype, TP53 mutations were significantly associated with poorer overall survival (OS), whereas in the other subtypes, TP53 mutations were not associated with OS",
+            "Our findings suggest that the prognostic value of TP53 mutations is highly dependent on the breast cancer subtype",
+            "TP53 somatic mutations, the most frequently altered gene in primary breast cancers (BCs), are highly prevalent in triple-negative breast cancer (TNBC), occurring in 60-80% of cases",
+            "Subtype Overall Survival (Months) Overall Survival Status TP53 Mutation (Relevant column headers)",
+            "TCGA-BH-A0BQ 56 Female Invasive Breast Carcinoma Breast Invasive Ductal Carcinoma Triple-Negative 48.2 LIVING Mutant (Example TNBC patient with mutation)",
+            "TCGA-A2-A0D0 65 Female Invasive Breast Carcinoma Breast Invasive Ductal Carcinoma HR+/HER2- Luminal A 35.2 DECEASED Mutant (Example LumA patient with mutation and poor outcome)"
+        ]
+    },
+    {
+        "category": "Factual",
+        "question": "List therapeutic strategies to target mutant p53?",
+        "manually_retrieved_chunks":
+        [
+            "New strategies encompass gene therapy to restore normal p53 function, inhibition of MDM2‑p53 interaction, p53‑based vaccines and the use of small molecules capable of reinstating a wild‑type‑like status of mutant p53",
+            "Several therapeutic approaches include refining earlier strategies with improved understanding and delivery methods or utilising novel drug design techniques",
+            "Various compounds, including gambogic acid (GA), capsaicin, MCB‑613 and NSC59984, have demonstrated the ability to effectively degrade mutant p53",
+            "GA was reported to reduce the expression of MDM2, thereby increasing the levels of wild‑type p53 and inhibiting tumour growth",
+            "It has been shown that statins, which target the rate-limiting enzyme in cholesterol biosynthesis, inhibit the growth of cancer cells expressing mutant TP53 and increase their sensitivity to chemotherapeutics",
+            "Similarly to statins, SAHA targets mutant p53 by disrupting its association with Hsp90 via histone deacetylase 6 (HDAC6) inhibition, resulting in the reactivation of degradation pathways and exhibiting selective toxicity towards cancer cells harbouring mutant p53"
+        ]
+    },
+    {
+        "category": "Hybrid",
+        "question": "How does p53 function as both a tumor suppressor and a regulator of host antiviral defense mechanisms?",
+        "manually_retrieved_chunks":
+        [
+            "It is striking that diverse viruses have independently developed an impressive repertoire of varied mechanisms to counter the host defenses that are mediated by and through p53.",
+            "The same p53 that generated all the excitement three decades ago as a tumor suppressor is also a virus suppressor, and this fact should generate some excitement of its own.",
+            "Maintaining or elevating p53 (e.g., via gene therapy) would be expected to enhance host antiviral responses mediated by interferons (IFNs) and/or trigger apoptosis ('altruistic suicide'), thereby limiting viral propagation.",
+            "The discovery of p53 in 1979 was in the context of its association with a viral protein (SV40 large T-antigen).",
+            "The p53 protein is activated in response to DNA damage, hypoxia, metabolic dysfunction, heat shock, and oncogene expression.",
+            "If DNA damage cannot be repaired, p53 initiates apoptosis, including regulating the expression of bcl-2 family genes."
+        ]
     }
 ]

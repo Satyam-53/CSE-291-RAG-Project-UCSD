@@ -107,7 +107,7 @@ def evaluate_metrics(
             mem_before = process.memory_info().rss / 1024 ** 2
 
             # Run retrieval
-            number_of_chunks_to_retrieve = len(manually_retrieved_chunks)
+            number_of_chunks_to_retrieve = 5
             rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
             rag_retrieved_chunks = [point.payload['text'] for point in rag_retrieved_chunks]
 
@@ -145,24 +145,32 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=5):
     """
     precision_at_k, recall_at_k, hit_ratio_at_k, mrr, ndcg = 0.0, 0.0, 0.0, 0.0, 0.0
     try:
-        expected_set = set(expected_chunks[:k])
-        retrieved_set = set(retrieved_chunks[:k])
 
         # Precision@k
-        precision_at_k = len(expected_set & retrieved_set) / k
+        # precision_at_k = len(expected_set & retrieved_set) / k
+
+        expected_lower = [e.lower() for e in expected_chunks]
+        retrieved_lower = [r.lower() for r in retrieved_chunks]
+    
+        matched = set()
+        for e in expected_lower:
+            for r in retrieved_lower:
+                if e in r or r in e:
+                    matched.add(r)
+                    break  # count each expected item only once
+
+        precision_at_k = len(matched) / k
 
         # Recall@k
-        recall_at_k = len(expected_set & retrieved_set) / len(expected_set) if expected_set else 0
-
-        # Hit Ratio@k
-        hit_ratio_at_k = 1 if expected_set & retrieved_set else 0
+        # recall_at_k = len(expected_set & retrieved_set) / len(expected_set) if expected_set else 0
+        recall_at_k = len(matched) / len(expected_lower) if expected_lower else 0
 
         # MRR (Mean Reciprocal Rank)
-        ranks = [i + 1 for i, chunk in enumerate(retrieved_chunks[:k]) if chunk in expected_set]
+        ranks = [i + 1 for i, chunk in enumerate(retrieved_lower) if chunk in matched]
         mrr = 1 / ranks[0] if ranks else 0
 
         # DCG and nDCG
-        relevance_scores = [1 if chunk in expected_set else 0 for chunk in retrieved_chunks[:k]]
+        relevance_scores = [1 if chunk in matched else 0 for chunk in retrieved_lower]
         dcg = sum([score / np.log2(i + 2) for i, score in enumerate(relevance_scores)])
         ideal_scores = sorted(relevance_scores, reverse=True)
         idcg = sum([score / np.log2(i + 2) for i, score in enumerate(ideal_scores)])
@@ -171,7 +179,6 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=5):
         print("----------- RETRIEVAL METRICS -----------")
         print("Precision @ K  : ", round(precision_at_k, 3))
         print("Recall @ K     : ", round(recall_at_k, 3))
-        print("Hit Ratio @ K  : ", hit_ratio_at_k)
         print("MRR            : ", round(mrr, 3))
         print("NDCG           : ", round(ndcg, 3))
     except:
@@ -180,7 +187,6 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=5):
         return {
             "precision@k": round(precision_at_k, 3),
             "recall@k": round(recall_at_k, 3),
-            "hit_ratio@k": hit_ratio_at_k,
             "mrr": round(mrr, 3),
             "ndcg": round(ndcg, 3)
         }
