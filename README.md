@@ -20,6 +20,8 @@ Runs the **Qdrant** vector store for efficient embedding storage and retrieval.
 docker compose up
 ```
 
+---
+
 ### 2. **Preprocessing — `preprocess.py`**
 
 **Purpose:** Clean and standardize textual data for embedding.
