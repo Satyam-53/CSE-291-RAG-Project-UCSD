@@ -1,8 +1,0 @@
-jupyterlab
-numpy
-pandas
-scikit-learn
-matplotlib
-tqdm
-sentence-transformers
-qdrant-client
