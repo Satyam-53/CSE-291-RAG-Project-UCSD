@@ -1,3 +1,5 @@
+from utils import checkdir
+
 from qdrant_client import QdrantClient
 from qdrant_client.models import SearchParams
 from sentence_transformers import SentenceTransformer
@@ -36,10 +38,30 @@ def persist_evaluation_result_to_output_file(
         print(e)
         print("Error writing evaluation results data to file.")
 
-def get_embedding_model() -> SentenceTransformer:
-    # Initialize embedding model
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    return model
+# def get_embedding_model() -> SentenceTransformer:
+#     # Initialize embedding model
+#     model = SentenceTransformer('all-MiniLM-L6-v2')
+#     return model
+
+# --- Dispatcher function ---
+def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
+    """
+    Returns a SentenceTransformer model based on the given name.
+    Options: 'minilm', 'biobert', 'pubmedbert', 'scibert', 'bluebert'
+    """
+    model_name = model_name.lower() 
+    if model_name == "minilm":
+        return SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2") #Already used this in phase 1.
+    elif model_name == "biobert":
+        return SentenceTransformer("dmis-lab/biobert-base-cased-v1.1")
+    elif model_name == "pubmedbert":
+        return SentenceTransformer("microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract") #Best as per literature.
+    elif model_name == "scibert":
+        return SentenceTransformer("allenai/scibert_scivocab_uncased") #Not very great.
+    elif model_name == "bluebert":
+        return SentenceTransformer("bionlp/bluebert_pubmed_mimic_uncased_L-12_H-768_A-12") #Some hybrid model.
+    else:
+        raise ValueError(f"Unknown model name: {model_name}")
 
 def get_embedding_vector(model: SentenceTransformer, query: str) -> list:
     query_vector = []
@@ -53,7 +75,6 @@ def get_embedding_vector(model: SentenceTransformer, query: str) -> list:
 def get_qdrant_client(
     host: str = 'localhost', 
     port: int = 6333, 
-    collection_name: str = 'CSE291A_RAG_Project_Phase1'
 ) -> QdrantClient:
     qdrant_client = None
     try:
@@ -80,18 +101,19 @@ def get_rag_retrieved_chunks(
                 search_params=SearchParams(hnsw_ef=128)
             )
         )
-    except:
-        print("Error encountered while retrieving context chunks.")
+    except Exception as e:
+        print(f"Error encountered while retrieving context chunks: {e}")
+        print(f"Collection name: {collection_name}")
+        print(f"Query vector dimension: {len(query_vector) if query_vector else 'None'}")
     finally:
         return retrieved_chunks
 
 def evaluate_metrics(
-    evaluation_input_data: list[dict]
+    evaluation_input_data: list[dict], model_name, qdrant_collection_name
 ) -> list[dict]:
     result_metrics_data = []
     try:
-        embedding_model = get_embedding_model()
-        qdrant_collection_name = 'CSE291A-RAG-Project-Phase1'
+        embedding_model = get_embedding_model(model_name)
         qdrant_client = get_qdrant_client()
         
         for input_data in evaluation_input_data:
@@ -100,6 +122,11 @@ def evaluate_metrics(
             manually_retrieved_chunks = input_data["manually_retrieved_chunks"]
 
             query_embedding = get_embedding_vector(embedding_model, query)
+            
+            # Check if query embedding was created successfully
+            if not query_embedding or len(query_embedding) == 0:
+                print(f"Warning: Empty query embedding for query: {query}")
+                continue
 
             # Start timing and memory (in MB)
             start_time = time.time()
@@ -213,13 +240,19 @@ def get_efficiency_metrics(start_time: time, end_time: time, start_memory: float
         }
 
 def main():
-    directory_name = './metrics_evaluation_data/'
+    model_name = 'biobert'
+    collection_name = f"CSE291A-RAG-Project-Phase1_{model_name}"  # Name of the collection in qdrant (matches embeddings_loader.py format).
+    input_directory_name = f"./metrics_evaluation_data/"
+    output_directory_name = f"./metrics_evaluation_data/{model_name}"
+
     input_filename = 'evaluation_input_data.json'
     output_filename = 'evaluation_metrics_result.json'
 
-    input_evaluation_data = load_evaluation_data_from_file(directory_name, input_filename)
-    output_evaluation_data = evaluate_metrics(input_evaluation_data)
-    persist_evaluation_result_to_output_file(output_evaluation_data, directory_name, output_filename)
+    checkdir(output_directory_name)
+
+    input_evaluation_data = load_evaluation_data_from_file(input_directory_name, input_filename)
+    output_evaluation_data = evaluate_metrics(input_evaluation_data, model_name, collection_name)
+    persist_evaluation_result_to_output_file(output_evaluation_data, output_directory_name, output_filename)
 
 if __name__=='__main__':
     main()

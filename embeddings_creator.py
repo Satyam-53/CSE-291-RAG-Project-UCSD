@@ -1,7 +1,12 @@
+from utils import checkdir
+
+import torch
 from sentence_transformers import SentenceTransformer
 import os
 import re
 import json
+
+torch.set_grad_enabled(False) # Since we are not doing any training.
 
 
 def process_all_processed_file(directory_path: str = './processed_dataset/') -> list[str]:
@@ -75,19 +80,19 @@ def create_chunks(content: str) -> list[str]:
 
 # --- Individual model loaders ---
 def load_minilm():
-    return SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+    return SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2") #Already used this in phase 1.
 
 def load_biobert():
     return SentenceTransformer("dmis-lab/biobert-base-cased-v1.1")
 
 def load_pubmedbert():
-    return SentenceTransformer("microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract")
+    return SentenceTransformer("microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract") #Best as per literature.
 
 def load_scibert():
-    return SentenceTransformer("allenai/scibert_scivocab_uncased")
+    return SentenceTransformer("allenai/scibert_scivocab_uncased") #Not very great.
 
 def load_bluebert():
-    return SentenceTransformer("bionlp/bluebert_pubmed_mimic_uncased_L-12_H-768_A-12")
+    return SentenceTransformer("bionlp/bluebert_pubmed_mimic_uncased_L-12_H-768_A-12") #Some hybrid model.
 
 # --- Dispatcher function ---
 def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
@@ -95,7 +100,7 @@ def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
     Returns a SentenceTransformer model based on the given name.
     Options: 'minilm', 'biobert', 'pubmedbert', 'scibert', 'bluebert'
     """
-    model_name = model_name.lower()
+    model_name = model_name.lower() 
     if model_name == "minilm":
         return load_minilm()
     elif model_name == "biobert":
@@ -109,11 +114,20 @@ def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
     else:
         raise ValueError(f"Unknown model name: {model_name}")
 
-def create_embeddings(chunks: list[str]) -> list[float]:
+def create_embeddings(chunks: list[str], model_name = 'minilm') -> list[float]:
     embeddings = []
     try:
-        model = get_embedding_model()
-        embeddings.extend(model.encode(chunks, show_progress_bar=True).tolist())
+        model = get_embedding_model(model_name)
+
+        # Move model to GPU if available
+        if torch.cuda.is_available():
+            print("Using GPU for embeddings.")
+            model = model.to('cuda')
+        else:
+            print("GPU not available. Using CPU.")
+
+        # embeddings.extend(model.encode(chunks, show_progress_bar=True).tolist())
+        embeddings = model.encode(chunks, show_progress_bar=True, batch_size=32, device='cuda' if torch.cuda.is_available() else 'cpu').tolist()
         print("Created embeddings successfully.")
     except:
         print("Error encountered while creating embeddings.")
@@ -187,12 +201,16 @@ def persist_embeddings_to_file(
         print(f"Error encountered while saving embeddings: {e}")
 
 def main():
+
+    model_name = 'biobert' #[default = minilm, biobert, pubmedbert, scibert, bluebert]
+
     input_directory = './processed_dataset/'
-    output_directory = './embeddings_data/'
+    output_directory = f"./embeddings_data/{model_name}/"
     output_filename = 'embeddings.json'
 
+    checkdir(output_directory)
     chunks = process_all_processed_file(input_directory)
-    embeddings = create_embeddings(chunks)
+    embeddings = create_embeddings(chunks, model_name)
     persist_embeddings_to_file(chunks, embeddings, output_directory, output_filename)
 
 if __name__=='__main__':

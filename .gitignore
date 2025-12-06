@@ -6,3 +6,6 @@ DP/qdrant_data
 raw_dataset/
 # "dataset/TP53 Gene Function/"
 **/.DS_Store
+__pycache__/
+embeddings_data/
+qdrant_data/

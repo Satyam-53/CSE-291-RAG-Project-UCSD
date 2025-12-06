@@ -8,3 +8,4 @@ pandas
 scikit-learn
 matplotlib
 tqdm
+psutil #this was not present here, but is required
