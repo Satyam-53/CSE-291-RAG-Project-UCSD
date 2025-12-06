@@ -17,7 +17,7 @@ def process_all_processed_file(directory_path: str = './processed_dataset/') -> 
             if filename.endswith(".txt"):
                 file_path = os.path.join(directory_path, filename)
                 file_content = read_file(file_path)
-                file_chunks = create_chunks(file_content)
+                file_chunks = create_sentence_chunks(file_content)
                 all_chunks.extend(file_chunks)
         print("Successfully read data from all processed files.")
     except:
@@ -35,21 +35,94 @@ def read_file(file_path: str) -> str:
     finally:
         return content
 
-def create_chunks(content: str) -> list[str]:
+# Sentence-based chunking
+def create_sentence_chunks(content: str) -> list[str]:
     chunks = []
     try:
         # Split content into paragraphs (assuming double newline separates paragraphs)
         paragraphs = content.split('\n')
         for paragraph in paragraphs:
-            # Strip leading/trailing whitespace
             paragraph = paragraph.strip()
             if paragraph:
                 # Split paragraph into sentences using regex
                 sentences = re.split(r'(?<=[.!?])\s+', paragraph)
                 chunks.extend(sentences)
-        print("Created chunks successfully from processed data sources.")
-    except:
-        print("Error encountered while creating chunks.")
+        print("Created sentence-based chunks successfully.")
+    except Exception as e:
+        print(f"Error encountered while creating sentence chunks: {e}")
+    finally:
+        return chunks
+
+# Semantic chunking
+def create_semantic_chunks(
+        content: str, 
+        similarity_threshold: float = 0.75) -> list[str]:
+    chunks = []
+    try:
+        # Split into sentences
+        sentences = re.split(r'(?<=[.!?])\s+', content)
+        model = get_embedding_model()
+        embeddings = model.encode(sentences, convert_to_tensor=True)
+
+        current_chunk = [sentences[0]]
+        for i in range(1, len(sentences)):
+            sim = util.cos_sim(embeddings[i-1], embeddings[i]).item()
+            if sim > similarity_threshold:
+                # Same semantic cluster => merge
+                current_chunk.append(sentences[i])
+            else:
+                # Start new chunk
+                chunks.append(" ".join(current_chunk))
+                current_chunk = [sentences[i]]
+
+        if current_chunk:
+            chunks.append(" ".join(current_chunk))
+
+        print("Created semantic chunks successfully.")
+    except Exception as e:
+        print(f"Error encountered while creating semantic chunks: {e}")
+    finally:
+        return chunks
+
+# Hybrid chunking (fixed-size + overlap + semantic refinement)
+def create_hybrid_chunks(
+        content: str, 
+        max_tokens: int = 500, 
+        overlap: int = 50, 
+        similarity_threshold: float = 0.75) -> list[str]:
+    chunks = []
+    try:
+        # Step 1: Fixed-size chunking with overlap
+        words = content.split()
+        fixed_chunks = []
+        start = 0
+        while start < len(words):
+            end = min(start + max_tokens, len(words))
+            chunk = " ".join(words[start:end])
+            fixed_chunks.append(chunk)
+            start = end - overlap  # overlap ensures context continuity
+
+        # Step 2: Semantic refinement
+        refined_chunks = []
+        model = get_embedding_model()
+        embeddings = model.encode(fixed_chunks, convert_to_tensor=True)
+
+        current_chunk = [fixed_chunks[0]]
+        for i in range(1, len(fixed_chunks)):
+            sim = util.cos_sim(embeddings[i-1], embeddings[i]).item()
+            if sim > similarity_threshold:
+                current_chunk.append(fixed_chunks[i])
+            else:
+                refined_chunks.append(" ".join(current_chunk))
+                current_chunk = [fixed_chunks[i]]
+
+        if current_chunk:
+            refined_chunks.append(" ".join(current_chunk))
+
+        chunks = refined_chunks
+        print("Created hybrid chunks successfully.")
+    except Exception as e:
+        print(f"Error encountered while creating hybrid chunks: {e}")
     finally:
         return chunks
 
