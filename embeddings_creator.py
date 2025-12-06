@@ -127,7 +127,7 @@ def create_embeddings(chunks: list[str], model_name = 'minilm') -> list[float]:
             print("GPU not available. Using CPU.")
 
         # embeddings.extend(model.encode(chunks, show_progress_bar=True).tolist())
-        embeddings = model.encode(chunks, show_progress_bar=True, batch_size=32, device='cuda' if torch.cuda.is_available() else 'cpu').tolist()
+        embeddings = model.encode(chunks, show_progress_bar=True, batch_size=32).tolist()
         print("Created embeddings successfully.")
     except:
         print("Error encountered while creating embeddings.")
@@ -202,7 +202,7 @@ def persist_embeddings_to_file(
 
 def main():
 
-    model_name = 'biobert' #[default = minilm, biobert, pubmedbert, scibert, bluebert]
+    model_name = 'pubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert]
 
     input_directory = './processed_dataset/'
     output_directory = f"./embeddings_data/{model_name}/"
