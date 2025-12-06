@@ -16,7 +16,7 @@ def process_all_processed_file(directory_path: str = './processed_dataset/') -> 
                 all_chunks.extend(file_chunks)
         print("Successfully read data from all processed files.")
     except:
-        print(f"Error encountered while accessing directory: {directory_name}")
+        print(f"Error encountered while accessing directory: {directory_path}")
     finally:
         return all_chunks
 
@@ -26,7 +26,7 @@ def read_file(file_path: str) -> str:
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
     except:
-        print(f"Error encountered while reading file: {file_name}")
+        print(f"Error encountered while reading file: {file_path}")
     finally:
         return content
 
@@ -48,10 +48,66 @@ def create_chunks(content: str) -> list[str]:
     finally:
         return chunks
 
-def get_embedding_model() -> SentenceTransformer:
-    # Initialize embedding model
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    return model
+# -------------------------------------------------------------------------
+# Embedding Approaches:
+#
+# 1. SentenceTransformer Wrapper:
+#    - Uses the SentenceTransformer library to load HuggingFace models.
+#    - Provides a simple .encode() interface that handles tokenization,
+#      batching, and mean pooling automatically.
+#    - Advantage: Easy integration with existing code (semantic/hybrid
+#      chunking functions work unchanged). Minimal overhead compared to
+#      manual HuggingFace usage.
+#    - Limitation: Pooling strategy is fixed (usually mean pooling).
+#
+# 2. HuggingFace AutoModel + Tokenizer (manual pooling):
+#    - Directly loads models via transformers.AutoModel and AutoTokenizer.
+#    - Requires manual pooling (CLS token, mean, max, etc.) to create
+#      sentence-level embeddings.
+#    - Advantage: Full control over pooling strategy and embedding details.
+#    - Limitation: More boilerplate code, must adapt downstream functions
+#      to accept embeddings created manually.
+#
+# For RAG pipelines, SentenceTransformer is usually preferred for simplicity
+# and consistency. HuggingFace manual pooling is useful if you want to
+# experiment with alternative pooling strategies or fine-tune embeddings.
+# -------------------------------------------------------------------------
+
+# --- Individual model loaders ---
+def load_minilm():
+    return SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+
+def load_biobert():
+    return SentenceTransformer("dmis-lab/biobert-base-cased-v1.1")
+
+def load_pubmedbert():
+    return SentenceTransformer("microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract")
+
+def load_scibert():
+    return SentenceTransformer("allenai/scibert_scivocab_uncased")
+
+def load_bluebert():
+    return SentenceTransformer("bionlp/bluebert_pubmed_mimic_uncased_L-12_H-768_A-12")
+
+# --- Dispatcher function ---
+def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
+    """
+    Returns a SentenceTransformer model based on the given name.
+    Options: 'minilm', 'biobert', 'pubmedbert', 'scibert', 'bluebert'
+    """
+    model_name = model_name.lower()
+    if model_name == "minilm":
+        return load_minilm()
+    elif model_name == "biobert":
+        return load_biobert()
+    elif model_name == "pubmedbert":
+        return load_pubmedbert()
+    elif model_name == "scibert":
+        return load_scibert()
+    elif model_name == "bluebert":
+        return load_bluebert()
+    else:
+        raise ValueError(f"Unknown model name: {model_name}")
 
 def create_embeddings(chunks: list[str]) -> list[float]:
     embeddings = []
