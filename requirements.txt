@@ -1,5 +1,6 @@
+python==3.9.25
 pdfminer.six==20221105
-qdrant-client
+qdrant-client==1.7.0
 sentence-transformers
 transformers
 torch
