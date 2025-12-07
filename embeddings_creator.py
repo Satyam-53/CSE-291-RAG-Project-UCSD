@@ -1,7 +1,7 @@
 from utils import checkdir
 
 import torch
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, util
 import os
 import re
 import json
@@ -39,7 +39,7 @@ def read_file(file_path: str) -> str:
 def create_sentence_chunks(content: str) -> list[str]:
     chunks = []
     try:
-        # Split content into paragraphs (assuming double newline separates paragraphs)
+        # Split content into paragraphs (assuming newline separates paragraphs in cleaned data)
         paragraphs = content.split('\n')
         for paragraph in paragraphs:
             paragraph = paragraph.strip()
@@ -53,76 +53,24 @@ def create_sentence_chunks(content: str) -> list[str]:
     finally:
         return chunks
 
-# Semantic chunking
-def create_semantic_chunks(
-        content: str, 
-        similarity_threshold: float = 0.75) -> list[str]:
+# Overlapping sentence-based chunking
+def create_overlapping_sentence_chunks(
+    content: str, k: int = 5, overlap: int = 2
+) -> list[str]:
     chunks = []
     try:
         # Split into sentences
-        sentences = re.split(r'(?<=[.!?])\s+', content)
-        model = get_embedding_model()
-        embeddings = model.encode(sentences, convert_to_tensor=True)
-
-        current_chunk = [sentences[0]]
-        for i in range(1, len(sentences)):
-            sim = util.cos_sim(embeddings[i-1], embeddings[i]).item()
-            if sim > similarity_threshold:
-                # Same semantic cluster => merge
-                current_chunk.append(sentences[i])
-            else:
-                # Start new chunk
-                chunks.append(" ".join(current_chunk))
-                current_chunk = [sentences[i]]
-
-        if current_chunk:
-            chunks.append(" ".join(current_chunk))
-
-        print("Created semantic chunks successfully.")
-    except Exception as e:
-        print(f"Error encountered while creating semantic chunks: {e}")
-    finally:
-        return chunks
-
-# Hybrid chunking (fixed-size + overlap + semantic refinement)
-def create_hybrid_chunks(
-        content: str, 
-        max_tokens: int = 500, 
-        overlap: int = 50, 
-        similarity_threshold: float = 0.75) -> list[str]:
-    chunks = []
-    try:
-        # Step 1: Fixed-size chunking with overlap
-        words = content.split()
-        fixed_chunks = []
+        sentences = list(map(str.strip, re.split(r'(?<=[.!?])\s+', content)))
         start = 0
-        while start < len(words):
-            end = min(start + max_tokens, len(words))
-            chunk = " ".join(words[start:end])
-            fixed_chunks.append(chunk)
-            start = end - overlap  # overlap ensures context continuity
-
-        # Step 2: Semantic refinement
-        refined_chunks = []
-        model = get_embedding_model()
-        embeddings = model.encode(fixed_chunks, convert_to_tensor=True)
-
-        current_chunk = [fixed_chunks[0]]
-        for i in range(1, len(fixed_chunks)):
-            sim = util.cos_sim(embeddings[i-1], embeddings[i]).item()
-            if sim > similarity_threshold:
-                current_chunk.append(fixed_chunks[i])
-            else:
-                refined_chunks.append(" ".join(current_chunk))
-                current_chunk = [fixed_chunks[i]]
-
-        if current_chunk:
-            refined_chunks.append(" ".join(current_chunk))
-
-        chunks = refined_chunks
-        print("Created hybrid chunks successfully.")
+        while start < len(sentences):
+            end = min(start + k, len(sentences))
+            chunk = " ".join(sentences[start:end])
+            chunks.append(chunk)
+            # Move forward but keep overlap
+            start += k - overlap
+        print("Created overlapping sentence-based chunks successfully.")
     except Exception as e:
-        print(f"Error encountered while creating hybrid chunks: {e}")
+        print(f"Error encountered while creating overlapping sentence chunks: {e}")
     finally:
         return chunks
 

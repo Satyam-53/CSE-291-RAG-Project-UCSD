@@ -1,11 +1,9 @@
-qdrant_storage/
+**/qdrant_storage/
 # processed_dataset/
-DP/venv
-DP/.ipynb_checkpoints
-DP/qdrant_data
-raw_dataset/
-# "dataset/TP53 Gene Function/"
+**/venv
+**/.ipynb_checkpoints
+**/qdrant_data
+**/raw_dataset/
 **/.DS_Store
-__pycache__/
-embeddings_data/
-qdrant_data/
+**/__pycache__/
+**/embeddings_data/
