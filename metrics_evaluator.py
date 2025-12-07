@@ -138,6 +138,7 @@ def evaluate_metrics(
             # Run retrieval
             number_of_chunks_to_retrieve = 15
             rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
+            rag_retrieved_chunks_fnames = [point.payload['fname'] for point in rag_retrieved_chunks]
             rag_retrieved_chunks = [point.payload['text'] for point in rag_retrieved_chunks]
 
             # End timing and memory (in MB)
@@ -153,6 +154,7 @@ def evaluate_metrics(
                     "question": query,
                     "manually_retrieved_chunks": manually_retrieved_chunks,
                     "rag_retrieved_chunks": rag_retrieved_chunks,
+                    "fnames": rag_retrieved_chunks_fnames,
                     "metrics": {
                         "retrieval_metrics": retrieval_metrics,
                         "efficiency_metrics": efficiency_metrics

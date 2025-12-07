@@ -79,7 +79,7 @@ def persist_chunks_to_qdrant(data: list[dict], collection_name: str = 'CSE291A-R
             PointStruct(
                 id=int(datum["id"]), 
                 vector=datum["embedding"], 
-                payload={"text": datum["chunk"]} # add other metadata that we might need to store (recency, etc..)
+                payload={"text": datum["chunk"], "fname": datum["fname"]} # add other metadata that we might need to store (recency, etc..)
             ) for datum in data
         ]
     
