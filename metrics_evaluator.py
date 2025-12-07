@@ -2,7 +2,7 @@ from utils import checkdir
 
 from qdrant_client import QdrantClient
 from qdrant_client.models import SearchParams
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, CrossEncoder
 import json
 import os
 import psutil
@@ -92,7 +92,7 @@ def get_rag_retrieved_chunks(
     collection_name: str,
     query_vector: list[float],
     top_k = 15
-) -> dict:
+):
     retrieved_chunks = []
     try:
         retrieved_chunks.extend(
@@ -110,8 +110,36 @@ def get_rag_retrieved_chunks(
     finally:
         return retrieved_chunks
 
+
+
+def rerank_with_cross_encoder(query, candidates, top_n = 10):
+    if not candidates:
+        return []
+
+    # Build list of (query, candidate_text) pairs for the cross-encoder
+    texts = [p.payload["text"] for p in candidates]
+
+    # Optionally skip empty texts
+    pairs = [(query, t) for t in texts]
+    # Get relevance scores
+    cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+    scores = cross_encoder.predict(pairs)
+
+    # Attach scores back to candidates
+    scored = list(zip(candidates, scores))
+
+    # Sort by cross-encoder score desc
+    scored.sort(key=lambda x: float(x[1]), reverse=True)
+
+    # Take top_n
+    reranked = scored[:top_n]
+
+    # Convert to a nicer structure for returning
+    results = [cand for cand, _ in reranked]
+    return results
+
 def evaluate_metrics(
-    evaluation_input_data: list[dict], model_name, qdrant_collection_name
+    evaluation_input_data: list[dict], model_name, qdrant_collection_name, rerank
 ) -> list[dict]:
     result_metrics_data = []
     try:
@@ -138,6 +166,9 @@ def evaluate_metrics(
             # Run retrieval
             number_of_chunks_to_retrieve = 15
             rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
+            if rerank:
+                rag_retrieved_chunks = rerank_with_cross_encoder(query, rag_retrieved_chunks, number_of_chunks_to_retrieve)
+
             rag_retrieved_chunks_fnames = [point.payload['fname'] for point in rag_retrieved_chunks]
             rag_retrieved_chunks = [point.payload['text'] for point in rag_retrieved_chunks]
 
@@ -244,10 +275,11 @@ def get_efficiency_metrics(start_time: time, end_time: time, start_memory: float
         }
 
 def main():
-    model_name = 'neupubmedbert'
+    model_name = 'minilm'
+    rerank = True
     collection_name = f"CSE291A-RAG-Project-Phase1_{model_name}"  # Name of the collection in qdrant (matches embeddings_loader.py format).
     input_directory_name = f"./metrics_evaluation_data/"
-    output_directory_name = f"./metrics_evaluation_data/{model_name}"
+    output_directory_name = f"./metrics_evaluation_data/{model_name}{'_with_rerank' if rerank else ''}"
 
     input_filename = 'evaluation_input_data.json'
     output_filename = 'evaluation_metrics_result.json'
@@ -255,7 +287,7 @@ def main():
     checkdir(output_directory_name)
 
     input_evaluation_data = load_evaluation_data_from_file(input_directory_name, input_filename)
-    output_evaluation_data = evaluate_metrics(input_evaluation_data, model_name, collection_name)
+    output_evaluation_data = evaluate_metrics(input_evaluation_data, model_name, collection_name, rerank)
     persist_evaluation_result_to_output_file(output_evaluation_data, output_directory_name, output_filename)
 
 if __name__=='__main__':
