@@ -155,6 +155,9 @@ def load_biobert():
 def load_pubmedbert():
     return SentenceTransformer("microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract") #Best as per literature.
 
+def load_neuMlpubmedbert():
+    return SentenceTransformer("NeuML/pubmedbert-base-embeddings") #Best as per literature.
+
 def load_scibert():
     return SentenceTransformer("allenai/scibert_scivocab_uncased") #Not very great.
 
@@ -178,6 +181,8 @@ def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
         return load_scibert()
     elif model_name == "bluebert":
         return load_bluebert()
+    elif model_name == "neupubmedbert":
+        return load_neuMlpubmedbert()
     else:
         raise ValueError(f"Unknown model name: {model_name}")
 
@@ -269,7 +274,7 @@ def persist_embeddings_to_file(
 
 def main():
 
-    model_name = 'pubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert]
+    model_name = 'neupubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert, neupubmedbert]
 
     input_directory = './processed_dataset/'
     chunking_strategy = 'hybrid_token_chunks'
