@@ -74,8 +74,8 @@ def create_overlapping_sentence_chunks(
         sentences = list(map(str.strip, re.split(r'(?<=[.!?])\s+', content)))
         start = 0
         while start < len(sentences):
-            end = min(start + k, len(sentences))
-            chunk = " ".join(sentences[start:end])
+            end = start + k
+            chunk = " ".join(sentences[start:min(end, len(sentences))])
             chunks.append(chunk)
             # Move forward but keep overlap
             start += k - overlap
