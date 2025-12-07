@@ -9,3 +9,4 @@ __pycache__/
 embeddings_data/*
 qdrant_data/
 !embeddings_data/pubmedbert.zip
+!embeddings_data/neupubmedbert.zip
