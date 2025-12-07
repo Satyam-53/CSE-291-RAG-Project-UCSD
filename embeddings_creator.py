@@ -5,9 +5,13 @@ from sentence_transformers import SentenceTransformer, util
 import os
 import re
 import json
+import unicodedata
 
 torch.set_grad_enabled(False) # Since we are not doing any training.
 
+def preprocess(text):
+    text = unicodedata.normalize("NFKC", text)
+    return text
 
 def process_all_processed_file(chunking_strategy, directory_path: str = './processed_dataset/') -> list[str]:
     all_chunks = []
@@ -17,6 +21,7 @@ def process_all_processed_file(chunking_strategy, directory_path: str = './proce
             if filename.endswith(".txt"):
                 file_path = os.path.join(directory_path, filename)
                 file_content = read_file(file_path)
+                file_content = preprocess(file_content)
                 # file_chunks = create_sentence_chunks(file_content)
                 if(chunking_strategy == 'hybrid_token_chunks'):
                     file_chunks = create_hybrid_token_chunks(file_content)
