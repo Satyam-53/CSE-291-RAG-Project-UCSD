@@ -26,6 +26,8 @@ def process_all_processed_file(chunking_strategy, directory_path: str = './proce
                 # file_chunks = create_sentence_chunks(file_content)
                 if(chunking_strategy == 'hybrid_token_chunks'):
                     file_chunks = create_hybrid_token_chunks(file_content)
+                elif(chunking_strategy == 'overlapping_sentence_chunks'):
+                    file_chunks = create_overlapping_sentence_chunks(file_content)
                 else:
                     print(f"Error encountered from line...")
                 all_chunks.extend(file_chunks)
@@ -286,7 +288,7 @@ def main():
     model_name = 'neupubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert, neupubmedbert]
 
     input_directory = './processed_dataset/'
-    chunking_strategy = 'hybrid_token_chunks'
+    chunking_strategy = 'overlapping_sentence_chunks' #'hybrid_token_chunks'
     output_directory = f"./embeddings_data/{model_name}_{chunking_strategy}/"
     output_filename = 'embeddings.json'
 
