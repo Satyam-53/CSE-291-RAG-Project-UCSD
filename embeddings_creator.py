@@ -98,8 +98,8 @@ def create_hybrid_token_chunks(
         fixed_chunks = []
         start = 0
         while start < len(words):
-            end = min(start + max_tokens, len(words))
-            chunk = " ".join(words[start:end])
+            end = start + max_tokens
+            chunk = " ".join(words[start:min(end, len(words))])
             fixed_chunks.append(chunk)
             start = end - overlap  # overlap ensures context continuity
 
