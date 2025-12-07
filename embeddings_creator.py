@@ -194,7 +194,7 @@ def create_embeddings(chunks: list[str], model_name = 'minilm') -> list[float]:
             print("GPU not available. Using CPU.")
 
         # embeddings.extend(model.encode(chunks, show_progress_bar=True).tolist())
-        embeddings = model.encode(chunks, show_progress_bar=True, batch_size=32).tolist()
+        embeddings = model.encode(chunks, show_progress_bar=True, batch_size=32, device='cuda' if torch.cuda.is_available() else 'cpu').tolist()
         print("Created embeddings successfully.")
     except:
         print("Error encountered while creating embeddings.")

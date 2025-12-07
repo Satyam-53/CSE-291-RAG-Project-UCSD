@@ -5,5 +5,7 @@
 **/qdrant_data
 **/raw_dataset/
 **/.DS_Store
-**/__pycache__/
-**/embeddings_data/
+__pycache__/
+embeddings_data/*
+qdrant_data/
+!embeddings_data/pubmedbert.zip
