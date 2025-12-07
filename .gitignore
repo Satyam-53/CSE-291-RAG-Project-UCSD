@@ -10,4 +10,4 @@ embeddings_data/*
 qdrant_data/
 !embeddings_data/pubmedbert.zip
 !embeddings_data/neupubmedbert.zip
-!embeddings_data/neupubmedbert_hybrid_token_chunks
+!embeddings_data/neupubmedbert_hybrid_token_chunks.zip
