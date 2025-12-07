@@ -60,6 +60,8 @@ def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
         return SentenceTransformer("allenai/scibert_scivocab_uncased") #Not very great.
     elif model_name == "bluebert":
         return SentenceTransformer("bionlp/bluebert_pubmed_mimic_uncased_L-12_H-768_A-12") #Some hybrid model.
+    elif model_name == "neupubmedbert":
+        return SentenceTransformer("NeuML/pubmedbert-base-embeddings") #Best as per literature.
     else:
         raise ValueError(f"Unknown model name: {model_name}")
 
@@ -89,7 +91,7 @@ def get_rag_retrieved_chunks(
     qdrant_client: QdrantClient,
     collection_name: str,
     query_vector: list[float],
-    top_k = 5
+    top_k = 15
 ) -> dict:
     retrieved_chunks = []
     try:
@@ -134,7 +136,7 @@ def evaluate_metrics(
             mem_before = process.memory_info().rss / 1024 ** 2
 
             # Run retrieval
-            number_of_chunks_to_retrieve = 5
+            number_of_chunks_to_retrieve = 15
             rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
             rag_retrieved_chunks = [point.payload['text'] for point in rag_retrieved_chunks]
 
@@ -162,7 +164,7 @@ def evaluate_metrics(
     finally:
         return result_metrics_data
 
-def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=5):
+def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=15):
     """
     expected_chunks: list of relevant chunk texts (ground truth)
     retrieved_chunks: list of retrieved chunk texts (top-k)
@@ -240,7 +242,7 @@ def get_efficiency_metrics(start_time: time, end_time: time, start_memory: float
         }
 
 def main():
-    model_name = 'biobert'
+    model_name = 'neupubmedbert'
     collection_name = f"CSE291A-RAG-Project-Phase1_{model_name}"  # Name of the collection in qdrant (matches embeddings_loader.py format).
     input_directory_name = f"./metrics_evaluation_data/"
     output_directory_name = f"./metrics_evaluation_data/{model_name}"

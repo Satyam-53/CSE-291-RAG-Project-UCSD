@@ -90,7 +90,7 @@ def persist_chunks_to_qdrant(data: list[dict], collection_name: str = 'CSE291A-R
         print(e)
 
 def main():
-    model_name = 'biobert' #[default = minilm, biobert, pubmedbert, scibert, bluebert]
+    model_name = 'neupubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert, neupubmedbert]
     directory = f"./embeddings_data/{model_name}"
     embeddings_list = load_data_from_directory(directory)
     collection_name =  f"CSE291A-RAG-Project-Phase1_{model_name}"
