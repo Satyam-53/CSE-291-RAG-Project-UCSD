@@ -91,9 +91,12 @@ def persist_chunks_to_qdrant(data: list[dict], collection_name: str = 'CSE291A-R
 
 def main():
     model_name = 'neupubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert, neupubmedbert]
-    directory = f"./embeddings_data/{model_name}"
+    chunking_strategy = 'overlapping_token_chunks' #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
+
+    directory = f"./embeddings_data/{model_name}_{chunking_strategy}"
     embeddings_list = load_data_from_directory(directory)
-    collection_name =  f"CSE291A-RAG-Project-Phase1_{model_name}"
+
+    collection_name =  f"CSE291A-RAG-Project-Phase1_{model_name}_{chunking_strategy}"
     persist_chunks_to_qdrant(embeddings_list, collection_name, model_name)
 
 if __name__=='__main__':

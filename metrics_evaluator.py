@@ -275,11 +275,13 @@ def get_efficiency_metrics(start_time: time, end_time: time, start_memory: float
         }
 
 def main():
-    model_name = 'minilm'
-    rerank = True
-    collection_name = f"CSE291A-RAG-Project-Phase1_{model_name}"  # Name of the collection in qdrant (matches embeddings_loader.py format).
+    model_name = 'neupubmedbert'
+    chunking_strategy = 'overlapping_token_chunks' #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
+    rerank = False
+
+    collection_name = f"CSE291A-RAG-Project-Phase1_{model_name}_{chunking_strategy}"  # Name of the collection in qdrant (matches embeddings_loader.py format).
     input_directory_name = f"./metrics_evaluation_data/"
-    output_directory_name = f"./metrics_evaluation_data/{model_name}{'_with_rerank' if rerank else ''}"
+    output_directory_name = f"./metrics_evaluation_data/{model_name}_{chunking_strategy}{'_with_rerank' if rerank else ''}"
 
     input_filename = 'evaluation_input_data.json'
     output_filename = 'evaluation_metrics_result.json'

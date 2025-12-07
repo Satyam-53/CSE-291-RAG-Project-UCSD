@@ -24,12 +24,15 @@ def process_all_processed_file(chunking_strategy, directory_path: str = './proce
                 file_content = read_file(file_path)
                 file_content = preprocess(file_content)
                 # file_chunks = create_sentence_chunks(file_content)
-                if(chunking_strategy == 'hybrid_token_chunks'):
-                    file_chunks = create_hybrid_token_chunks(file_content)
-                elif(chunking_strategy == 'overlapping_sentence_chunks'):
+                file_chunks = []
+                if chunking_strategy == 'overlapping_token_chunks':
+                    file_chunks = create_overlapping_token_chunks(file_content)
+                elif chunking_strategy == 'overlapping_sentence_chunks':
                     file_chunks = create_overlapping_sentence_chunks(file_content)
+                elif chunking_strategy == 'sentence_chunks':
+                    file_chunks = create_sentence_chunks(file_content)
                 else:
-                    print(f"Error encountered from line...")
+                    print(f"Error encountered when chunking file {filename}")
                 all_chunks.extend(file_chunks)
                 file_names.extend([filename] * len(file_chunks))
         print("Successfully read data from all processed files.")
@@ -88,7 +91,7 @@ def create_overlapping_sentence_chunks(
         return chunks
 
 # Hybrid chunking (fixed-size + overlap)
-def create_hybrid_token_chunks(
+def create_overlapping_token_chunks(
         content: str, 
         max_tokens: int = 500, 
         overlap: int = 50, 
@@ -288,7 +291,7 @@ def main():
     model_name = 'neupubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert, neupubmedbert]
 
     input_directory = './processed_dataset/'
-    chunking_strategy = 'overlapping_sentence_chunks' #'hybrid_token_chunks'
+    chunking_strategy = 'overlapping_token_chunks' #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
     output_directory = f"./embeddings_data/{model_name}_{chunking_strategy}/"
     output_filename = 'embeddings.json'
 
