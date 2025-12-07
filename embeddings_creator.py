@@ -9,7 +9,7 @@ import json
 torch.set_grad_enabled(False) # Since we are not doing any training.
 
 
-def process_all_processed_file(directory_path: str = './processed_dataset/') -> list[str]:
+def process_all_processed_file(chunking_strategy, directory_path: str = './processed_dataset/') -> list[str]:
     all_chunks = []
     try:
         # Iterate over all files in the directory
@@ -17,7 +17,11 @@ def process_all_processed_file(directory_path: str = './processed_dataset/') -> 
             if filename.endswith(".txt"):
                 file_path = os.path.join(directory_path, filename)
                 file_content = read_file(file_path)
-                file_chunks = create_sentence_chunks(file_content)
+                # file_chunks = create_sentence_chunks(file_content)
+                if(chunking_strategy == 'hybrid_token_chunks'):
+                    file_chunks = create_hybrid_token_chunks(file_content)
+                else:
+                    print(f"Error encountered from line...")
                 all_chunks.extend(file_chunks)
         print("Successfully read data from all processed files.")
     except:
@@ -71,6 +75,48 @@ def create_overlapping_sentence_chunks(
         print("Created overlapping sentence-based chunks successfully.")
     except Exception as e:
         print(f"Error encountered while creating overlapping sentence chunks: {e}")
+    finally:
+        return chunks
+
+# Hybrid chunking (fixed-size + overlap)
+def create_hybrid_token_chunks(
+        content: str, 
+        max_tokens: int = 500, 
+        overlap: int = 50, 
+        similarity_threshold: float = 0.75) -> list[str]:
+    chunks = []
+    try:
+        # Step 1: Fixed-size chunking with overlap
+        words = content.split()
+        fixed_chunks = []
+        start = 0
+        while start < len(words):
+            end = min(start + max_tokens, len(words))
+            chunk = " ".join(words[start:end])
+            fixed_chunks.append(chunk)
+            start = end - overlap  # overlap ensures context continuity
+
+        # # Step 2: Semantic refinement
+        # refined_chunks = []
+        # model = get_embedding_model()
+        # embeddings = model.encode(fixed_chunks, convert_to_tensor=True)
+
+        # current_chunk = [fixed_chunks[0]]
+        # for i in range(1, len(fixed_chunks)):
+        #     sim = util.cos_sim(embeddings[i-1], embeddings[i]).item()
+        #     if sim > similarity_threshold:
+        #         current_chunk.append(fixed_chunks[i])
+        #     else:
+        #         refined_chunks.append(" ".join(current_chunk))
+        #         current_chunk = [fixed_chunks[i]]
+
+        # if current_chunk:
+        #     refined_chunks.append(" ".join(current_chunk))
+
+        chunks = fixed_chunks
+        print("Created hybrid chunks successfully.")
+    except Exception as e:
+        print(f"Error encountered while creating hybrid chunks: {e}")
     finally:
         return chunks
 
@@ -226,11 +272,12 @@ def main():
     model_name = 'pubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert]
 
     input_directory = './processed_dataset/'
-    output_directory = f"./embeddings_data/{model_name}/"
+    chunking_strategy = 'hybrid_token_chunks'
+    output_directory = f"./embeddings_data/{model_name}_{chunking_strategy}/"
     output_filename = 'embeddings.json'
 
     checkdir(output_directory)
-    chunks = process_all_processed_file(input_directory)
+    chunks = process_all_processed_file(chunking_strategy, input_directory)
     embeddings = create_embeddings(chunks, model_name)
     persist_embeddings_to_file(chunks, embeddings, output_directory, output_filename)
 
