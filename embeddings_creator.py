@@ -15,6 +15,7 @@ def preprocess(text):
 
 def process_all_processed_file(chunking_strategy, directory_path: str = './processed_dataset/') -> list[str]:
     all_chunks = []
+    file_names = []
     try:
         # Iterate over all files in the directory
         for filename in os.listdir(directory_path):
@@ -28,11 +29,12 @@ def process_all_processed_file(chunking_strategy, directory_path: str = './proce
                 else:
                     print(f"Error encountered from line...")
                 all_chunks.extend(file_chunks)
+                file_names.extend([filename] * len(file_chunks))
         print("Successfully read data from all processed files.")
     except:
         print(f"Error encountered while accessing directory: {directory_path}")
     finally:
-        return all_chunks
+        return all_chunks, file_names
 
 def read_file(file_path: str) -> str:
     content = ""
@@ -213,7 +215,8 @@ def create_embeddings(chunks: list[str], model_name = 'minilm') -> list[float]:
 
 def persist_embeddings_to_file(
     chunks: list[str], 
-    embeddings: list[list[float]], 
+    embeddings: list[float],
+    fnames,
     directory_name: str = './embeddings_data/',
     base_filename: str = 'embeddings'
 ) -> None:
@@ -240,11 +243,12 @@ def persist_embeddings_to_file(
         file_index = 0    # Index for naming output files
 
         # Iterate through chunks and embeddings
-        for i, (chunk, embedding) in enumerate(zip(chunks, embeddings)):
+        for i, (chunk, embedding, fname) in enumerate(zip(chunks, embeddings, fnames)):
             entry = {
                 "id": str(i),
                 "chunk": chunk,
-                "embedding": embedding
+                "embedding": embedding,
+                "fname": fname
             }
 
             # Estimate size of entry in bytes
@@ -287,9 +291,9 @@ def main():
     output_filename = 'embeddings.json'
 
     checkdir(output_directory)
-    chunks = process_all_processed_file(chunking_strategy, input_directory)
+    chunks, file_names = process_all_processed_file(chunking_strategy, input_directory)
     embeddings = create_embeddings(chunks, model_name)
-    persist_embeddings_to_file(chunks, embeddings, output_directory, output_filename)
+    persist_embeddings_to_file(chunks, embeddings, file_names, output_directory, output_filename)
 
 if __name__=='__main__':
     main()
