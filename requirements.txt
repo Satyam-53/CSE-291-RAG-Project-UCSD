@@ -10,3 +10,6 @@ scikit-learn
 matplotlib
 tqdm
 psutil #this was not present here, but is required
+
+# pdfminer is present in this requirements but somehow it doesn't seem to be working.
+    # this is not available in the normal conda channels, so it needs to be installed explicitly using pip.
