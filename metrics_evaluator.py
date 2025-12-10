@@ -142,7 +142,7 @@ def rerank_with_cross_encoder(query, candidates, top_n = 10):
     results = [cand for cand, _ in reranked]
     return results
 
-def print_average_recall(file_path):
+def print_metrics_average(file_path):
     # Reading the file content
     with open(file_path, 'r') as f:
         file_content = f.read()
@@ -153,6 +153,9 @@ def print_average_recall(file_path):
     # Extracting precision values
     # Assuming the JSON structure is a list of dictionaries like [{"precision": 0.85}, ...]
     recall_values = [item['metrics']['retrieval_metrics']['recall@k'] for item in json_data]
+    precision_values = [item['metrics']['retrieval_metrics']['precision@k'] for item in json_data]
+    mrr_values = [item['metrics']['retrieval_metrics']['mrr'] for item in json_data]
+    ndcg_values = [item['metrics']['retrieval_metrics']['ndcg'] for item in json_data]
 
     # Calculating the average precision score
     if recall_values:
@@ -160,6 +163,24 @@ def print_average_recall(file_path):
         print(f"Average recall score: {average_recall}")
     else:
         print("No precision values found.")
+
+    if precision_values:
+        average_precision = sum(precision_values) / len(precision_values)
+        print(f"Average precision score: {average_precision}")
+    else:
+        print("No recall values found.")
+
+    if mrr_values:
+        average_mrr = sum(mrr_values) / len(mrr_values)
+        print(f"Average mrr score: {average_mrr}")
+    else:
+        print("No mrr values found.")
+
+    if ndcg_values:
+        average_ndcg = sum(ndcg_values) / len(ndcg_values)
+        print(f"Average ndcg score: {average_ndcg}")
+    else:
+        print("No ndcg values found.")
 
 def evaluate_metrics(
     evaluation_input_data: list[dict], model_name, qdrant_collection_name, rerank, k
@@ -338,31 +359,39 @@ def get_efficiency_metrics(start_time: time, end_time: time, start_memory: float
 
 def main():
     model_name = 'neupubmedbert'
-    rerank = False
+    rerank = True
     input_filename = 'evaluation_input_data.json'
     output_filename = 'evaluation_metrics_result.json'
 
-    test_data = [
+    test_param = [
         # {
         #     'chunking_strategy': 'overlapping_sentence_chunks',
         #     'c': [3, 5, 7],
         #     'k': [5, 10, 15, 20]
-        # }
+        # },
+        # {
+        #     'chunking_strategy': 'overlapping_token_chunks',
+        #     'c': [300, 400, 500, 600, 700],
+        #     'overlap_ratio': 10,
+        #     'k': [5, 10, 15, 20]
+        # },
         {
             'chunking_strategy': 'overlapping_token_chunks',
-            'c': [300, 400, 500, 600, 700],
-            'k': [5, 10, 15, 20]
+            'c': [600],
+            'overlap_ratio': 10,
+            'k': [20]
         }
     ]
 
-    for d in test_data:
+    for d in test_param:
         chunking_strategy = d['chunking_strategy'] #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
 
         for c in d['c']:
             for k in d['k']:
-                collection_name = f"CSE291A-RAG-Project-Phase1_{model_name}_{chunking_strategy}_{c}"  # Name of the collection in qdrant (matches embeddings_loader.py format).
+                overlap_ratio = d['overlap_ratio']
+                collection_name = f"CSE291A-RAG-Project-Phase1_{model_name}_{chunking_strategy}_{c}_{overlap_ratio}"  # Name of the collection in qdrant (matches embeddings_loader.py format).
                 input_directory_name = f"./metrics_evaluation_data/"
-                output_directory_name = f"./metrics_evaluation_data/{model_name}_{chunking_strategy}_{c}_{k}{'_with_rerank' if rerank else ''}"
+                output_directory_name = f"./metrics_evaluation_data/{model_name}_{chunking_strategy}_{c}_{overlap_ratio}_{k}{'_with_rerank' if rerank else ''}"
 
                 checkdir(output_directory_name)
 
@@ -371,7 +400,7 @@ def main():
                 persist_evaluation_result_to_output_file(output_evaluation_data, output_directory_name, output_filename)
 
                 print(f'Chunking Strategy: {chunking_strategy}, c: {c}, k: {k}')
-                print_average_recall(os.path.join(output_directory_name, output_filename))
+                print_metrics_average(os.path.join(output_directory_name, output_filename))
 
 if __name__=='__main__':
     main()

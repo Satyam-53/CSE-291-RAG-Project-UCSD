@@ -295,23 +295,29 @@ def main():
     input_directory = './processed_dataset/'
     output_filename = 'embeddings.json'
 
-    test_data = [
+    test_param = [
         # {
         #     'chunking_strategy': 'overlapping_sentence_chunks',
         #     'c': [3, 5, 7],
         #     'overlap_ratio': 3
         # },
+        # {
+        #     'chunking_strategy': 'overlapping_token_chunks',
+        #     'c': [300, 400, 500, 600, 700],
+        #     'overlap_ratio': 10
+        # },
         {
             'chunking_strategy': 'overlapping_token_chunks',
-            'c': [300, 400, 500, 600, 700],
+            'c': [600],
             'overlap_ratio': 10
         }
     ]
-    for d in test_data:
+    for d in test_param:
         chunking_strategy = d['chunking_strategy']  #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
 
         for c in d['c']:
-            output_directory = f"./embeddings_data/{model_name}_{chunking_strategy}_{c}_10/"
+            overlap_ratio = d['overlap_ratio']
+            output_directory = f"./embeddings_data/{model_name}_{chunking_strategy}_{c}_{overlap_ratio}"
             overlap = int(math.ceil(c / d['overlap_ratio']))
 
             checkdir(output_directory)
