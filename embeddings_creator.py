@@ -1,7 +1,9 @@
+import math
+
 from utils import checkdir
 
 import torch
-from sentence_transformers import SentenceTransformer, util
+from sentence_transformers import SentenceTransformer
 import os
 import re
 import json
@@ -13,7 +15,7 @@ def preprocess(text):
     text = unicodedata.normalize("NFKC", text)
     return text
 
-def process_all_processed_file(chunking_strategy, directory_path: str = './processed_dataset/') -> list[str]:
+def process_all_processed_file(chunking_strategy, c, overlap, directory_path: str = './processed_dataset/'):
     all_chunks = []
     file_names = []
     try:
@@ -26,9 +28,9 @@ def process_all_processed_file(chunking_strategy, directory_path: str = './proce
                 # file_chunks = create_sentence_chunks(file_content)
                 file_chunks = []
                 if chunking_strategy == 'overlapping_token_chunks':
-                    file_chunks = create_overlapping_token_chunks(file_content)
+                    file_chunks = create_overlapping_token_chunks(file_content, c, overlap)
                 elif chunking_strategy == 'overlapping_sentence_chunks':
-                    file_chunks = create_overlapping_sentence_chunks(file_content)
+                    file_chunks = create_overlapping_sentence_chunks(file_content, c, overlap)
                 elif chunking_strategy == 'sentence_chunks':
                     file_chunks = create_sentence_chunks(file_content)
                 else:
@@ -71,7 +73,7 @@ def create_sentence_chunks(content: str) -> list[str]:
 
 # Overlapping sentence-based chunking
 def create_overlapping_sentence_chunks(
-    content: str, k: int = 5, overlap: int = 2
+    content: str, c: int = 5, overlap: int = 2
 ) -> list[str]:
     chunks = []
     try:
@@ -79,11 +81,11 @@ def create_overlapping_sentence_chunks(
         sentences = list(map(str.strip, re.split(r'(?<=[.!?])\s+', content)))
         start = 0
         while start < len(sentences):
-            end = start + k
+            end = start + c
             chunk = " ".join(sentences[start:min(end, len(sentences))])
             chunks.append(chunk)
             # Move forward but keep overlap
-            start += k - overlap
+            start += c - overlap
         print("Created overlapping sentence-based chunks successfully.")
     except Exception as e:
         print(f"Error encountered while creating overlapping sentence chunks: {e}")
@@ -93,7 +95,7 @@ def create_overlapping_sentence_chunks(
 # Hybrid chunking (fixed-size + overlap)
 def create_overlapping_token_chunks(
         content: str, 
-        max_tokens: int = 500, 
+        c: int = 500,
         overlap: int = 50, 
         similarity_threshold: float = 0.75) -> list[str]:
     chunks = []
@@ -103,7 +105,7 @@ def create_overlapping_token_chunks(
         fixed_chunks = []
         start = 0
         while start < len(words):
-            end = start + max_tokens
+            end = start + c
             chunk = " ".join(words[start:min(end, len(words))])
             fixed_chunks.append(chunk)
             start = end - overlap  # overlap ensures context continuity
@@ -291,14 +293,31 @@ def main():
     model_name = 'neupubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert, neupubmedbert]
 
     input_directory = './processed_dataset/'
-    chunking_strategy = 'overlapping_token_chunks' #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
-    output_directory = f"./embeddings_data/{model_name}_{chunking_strategy}/"
-    output_filename = 'embeddings.json'
 
-    checkdir(output_directory)
-    chunks, file_names = process_all_processed_file(chunking_strategy, input_directory)
-    embeddings = create_embeddings(chunks, model_name)
-    persist_embeddings_to_file(chunks, embeddings, file_names, output_directory, output_filename)
+    test_data = [
+        {
+            'chunking_strategy': 'overlapping_sentence_chunks',
+            'c': [3, 5, 7],
+            'overlap_ratio': 3
+        },
+        {
+            'chunking_strategy': 'overlapping_token_chunks',
+            'c': [300, 400, 500, 600, 700],
+            'overlap_ratio': 5
+        }
+    ]
+    for d in test_data:
+        chunking_strategy = d['chunking_strategy']  #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
+        output_filename = 'embeddings.json'
+
+        for c in d['c']:
+            output_directory = f"./embeddings_data/{model_name}_{chunking_strategy}_{c}/"
+            overlap = int(math.ceil(c / d['overlap_ratio']))
+
+            checkdir(output_directory)
+            chunks, file_names = process_all_processed_file(chunking_strategy, c, overlap, input_directory)
+            embeddings = create_embeddings(chunks, model_name)
+            persist_embeddings_to_file(chunks, embeddings, file_names, output_directory, output_filename)
 
 if __name__=='__main__':
     main()

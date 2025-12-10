@@ -1,3 +1,5 @@
+from difflib import SequenceMatcher
+
 from utils import checkdir
 
 from qdrant_client import QdrantClient
@@ -8,6 +10,7 @@ import os
 import psutil
 import time
 import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 
 def load_evaluation_data_from_file(
     directory_name: str = './metrics_evaluation_data/', 
@@ -176,7 +179,7 @@ def evaluate_metrics(
             mem_after = process.memory_info().rss / 1024 ** 2
             end_time = time.time()
             
-            retrieval_metrics = get_retrieval_metrics(manually_retrieved_chunks, rag_retrieved_chunks)
+            retrieval_metrics = get_retrieval_metrics(manually_retrieved_chunks, rag_retrieved_chunks, embedding_model)
             efficiency_metrics = get_efficiency_metrics(start_time, end_time, mem_before, mem_after)
 
             result_metrics_data.append(
@@ -197,7 +200,23 @@ def evaluate_metrics(
     finally:
         return result_metrics_data
 
-def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=15):
+def sequence_match_ratio(s1, s2, threshold=0.9):
+    # Split into words
+    words1 = s1.split()
+    words2 = s2.split()
+
+    # Use SequenceMatcher on word lists (not characters)
+    matcher = SequenceMatcher(None, words1, words2)
+
+    # Find longest matching block
+    longest_match = max(matcher.get_matching_blocks(), key=lambda m: m.size)
+
+    # Calculate ratio based on string1 length
+    ratio = longest_match.size / len(words1)
+
+    return ratio, ratio >= threshold, longest_match
+
+def get_retrieval_metrics(expected_chunks, retrieved_chunks, embedding_model, k=15):
     """
     expected_chunks: list of relevant chunk texts (ground truth)
     retrieved_chunks: list of retrieved chunk texts (top-k)
@@ -213,30 +232,52 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=15):
 
         expected_lower = [e.lower() for e in expected_chunks]
         retrieved_lower = [r.lower() for r in retrieved_chunks]
-    
-        matched = set()
+
+        # Precision = How many retrieved chunks are correct (i.e. matches ground truth)
+        # Precision = #(Matching retrieved chunks) / k
+
+        # Recall = How many Ground Truth chunks were retrieved out of total ground truth chunks
+        # Recall = #(Matching ground truth chunks) / #(All ground truth chunks)
+
+        matched_ground_truth, matched_retrieved = set(), set()
         for e in expected_lower:
             for r in retrieved_lower:
-                if e in r or r in e:
-                    matched.add(r)
-                    break  # count each expected item only once
+                condition_1 = (e in r) or (r in e)
 
-        precision_at_k = len(matched) / k
+                # Condition 2: sequence similarity >= 0.8
+                # To add: from difflib import SequenceMatcher
+                similarity_ratio, condition_2, _ = sequence_match_ratio(e, r)
+
+                if condition_2:
+                    matched_ground_truth.add(e)
+                    matched_retrieved.add(r)
+
+                    break  # count each expected item only once
+                else:
+                    embed_e = embedding_model.encode(e).tolist()
+                    embed_r = embedding_model.encode(r).tolist()
+                    print(cosine_similarity([embed_e], [embed_r]))
+
+        # Precision@k
+        precision_at_k = min(len(matched_retrieved) / k, 1.0)
 
         # Recall@k
-        # recall_at_k = len(expected_set & retrieved_set) / len(expected_set) if expected_set else 0
-        recall_at_k = len(matched) / len(expected_lower) if expected_lower else 0
+        recall_at_k = len(matched_ground_truth) / len(expected_lower) if expected_lower else 0
 
         # MRR (Mean Reciprocal Rank)
-        ranks = [i + 1 for i, chunk in enumerate(retrieved_lower) if chunk in matched]
-        mrr = 1 / ranks[0] if ranks else 0
+        mrr = 0.0
+        for idx, chunk in enumerate(retrieved_lower, start=1):
+            if any(gt.lower() in chunk.lower() for gt in expected_lower):
+                mrr = 1.0 / idx
+                break
 
-        # DCG and nDCG
-        relevance_scores = [1 if chunk in matched else 0 for chunk in retrieved_lower]
-        dcg = sum([score / np.log2(i + 2) for i, score in enumerate(relevance_scores)])
-        ideal_scores = sorted(relevance_scores, reverse=True)
-        idcg = sum([score / np.log2(i + 2) for i, score in enumerate(ideal_scores)])
-        ndcg = dcg / idcg if idcg > 0 else 0
+        # nDCG@k
+        dcg = 0.0
+        for i, chunk in enumerate(retrieved_lower[:k], start=1):
+            rel_i = 1 if any(gt in chunk for gt in expected_lower) else 0
+            dcg += rel_i / np.log2(i + 1)
+        idcg = sum([1 / np.log2(i + 1) for i in range(1, min(len(expected_lower), k) + 1)])
+        ndcg_at_k = dcg / idcg if idcg > 0 else 0.0
 
         print("----------- RETRIEVAL METRICS -----------")
         print("Precision @ K  : ", round(precision_at_k, 3))
