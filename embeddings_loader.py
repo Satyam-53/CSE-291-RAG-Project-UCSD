@@ -91,13 +91,28 @@ def persist_chunks_to_qdrant(data: list[dict], collection_name: str = 'CSE291A-R
 
 def main():
     model_name = 'neupubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert, neupubmedbert]
-    chunking_strategy = 'overlapping_token_chunks' #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
+    test_data = [
+        {
+            'chunking_strategy': 'overlapping_sentence_chunks',
+            'c': [3, 5, 7],
+            'overlap_ratio': 3
+        },
+        {
+            'chunking_strategy': 'overlapping_token_chunks',
+            'c': [300, 400, 500, 600, 700],
+            'overlap_ratio': 5
+        }
+    ]
 
-    directory = f"./embeddings_data/{model_name}_{chunking_strategy}"
-    embeddings_list = load_data_from_directory(directory)
+    for d in test_data:
+        chunking_strategy = d['chunking_strategy'] #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
 
-    collection_name =  f"CSE291A-RAG-Project-Phase1_{model_name}_{chunking_strategy}"
-    persist_chunks_to_qdrant(embeddings_list, collection_name, model_name)
+        for c in d['c']:
+            directory = f"./embeddings_data/{model_name}_{chunking_strategy}_{c}"
+            print(f"Loading chunks from {directory}...")
+            embeddings_list = load_data_from_directory(directory)
+            collection_name =  f"CSE291A-RAG-Project-Phase1_{model_name}_{chunking_strategy}_{c}"
+            persist_chunks_to_qdrant(embeddings_list, collection_name, model_name)
 
 if __name__=='__main__':
     main()

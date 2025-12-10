@@ -293,25 +293,25 @@ def main():
     model_name = 'neupubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert, neupubmedbert]
 
     input_directory = './processed_dataset/'
+    output_filename = 'embeddings.json'
 
     test_data = [
-        {
-            'chunking_strategy': 'overlapping_sentence_chunks',
-            'c': [3, 5, 7],
-            'overlap_ratio': 3
-        },
+        # {
+        #     'chunking_strategy': 'overlapping_sentence_chunks',
+        #     'c': [3, 5, 7],
+        #     'overlap_ratio': 3
+        # },
         {
             'chunking_strategy': 'overlapping_token_chunks',
             'c': [300, 400, 500, 600, 700],
-            'overlap_ratio': 5
+            'overlap_ratio': 10
         }
     ]
     for d in test_data:
         chunking_strategy = d['chunking_strategy']  #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
-        output_filename = 'embeddings.json'
 
         for c in d['c']:
-            output_directory = f"./embeddings_data/{model_name}_{chunking_strategy}_{c}/"
+            output_directory = f"./embeddings_data/{model_name}_{chunking_strategy}_{c}_10/"
             overlap = int(math.ceil(c / d['overlap_ratio']))
 
             checkdir(output_directory)
