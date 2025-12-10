@@ -64,14 +64,14 @@
         "question": "Identify two low-penetrance TP53 variants for African and East Asian ancestries. What is the co-segregating genetic factor for the Brazilian p.R337H founder mutation, and what are the maternal/paternal origins of its carriers?",
         "manually_retrieved_chunks":
         [
-            "The discovery and characterization of suspected low-penetrance ethßnic-specific variants with unique functional consequences, including P47S (African), G334R (Ashkenazi Jewish), and rs78378222 (Icelandic), may provide new insights in terms of managing cancer risk and the efficacy of therapy",
+            "The discovery and characterization of suspected low-penetrance ethnic-specific variants with unique functional consequences, including P47S (African), G334R (Ashkenazi Jewish), and rs78378222 (Icelandic), may provide new insights in terms of managing cancer risk and the efficacy of therapy",
             "Additionally, our analysis highlights infrequent variants linked to milder cancer phenotypes in various published reports that may be underdiagnosed and require further investigation, including D49H in East Asians and R181H in Europeans",
             "It exists at a remarkably high frequency in the population of southeast Brazil as founder mutation in two distinct haplotypes with the most frequent co-segregating with the p.E134* variant of the XAF1 tumor suppressor and an increased cancer risk",
             "Mitochondrial DNA sequencing and Y-STR profiling of Brazilian carriers of the founder TP53 p.R337H allele reveal an excess of Native American haplogroups in maternal lineages and exclusively European haplogroups in paternal lineages, consistent with communities established through male European settlers with extensive intermarriage with Indigenous women",
             "The germline TP53 p.R337H mutation is reported as the most common germline TP53 variant",
             "Our study reveals that each ancestry contains a distinct TP53 variant landscape defined by enriched ethnic-specific alleles",
             "We report here a shared haplotype among Brazilian, Portuguese, and Spanish families and the existence of three additional distinct TP53 p.R337H alleles",
-            "The identification of founder and independent TP53 p.R337H alleles underlines the importance for considering the haplo- type as a functional unit and the additive effects of constitutive polymorphisms and associated variants in modifier genes that can in- fluence the cancer phenotype",
+            "The identification of founder and independent TP53 p.R337H alleles underlines the importance for considering the haplotype as a functional unit and the additive effects of constitutive polymorphisms and associated variants in modifier genes that can influence the cancer phenotype",
             "The recent expansion of human genomics repositories has facilitated the discovery of novel TP53 variants in populations of different ethnic origins",
             "Interpreting TP53 variants is a major clinical challenge because they are functionally diverse, confer highly variable predisposition to cancer (including elusive low-penetrance alleles), and interact with genetic modifiers that alter tumor susceptibility"
         ]
@@ -115,7 +115,7 @@
         "question": "In the context of aggressive B-cell lymphomas, how do TP53 mutations act as a risk-level biomarker for patient prognosis, and what are the primary therapeutic opportunities suggested for mitigating the oncogenic effects of these mutations?",
         "manually_retrieved_chunks":
         [
-            "TP53 mutations are independently associated with inferior PFS (progression-free survival) in patients with newly diagnosed aggressive B-cell lymphomas",
+            "TP53 mutations are independently associated with inferior PFS, even in the presence of other highrisk features",
             "The primary goal for TP53-mutated DLBCL patients is to identify the truly high-risk individuals and explore the underlying biological mechanisms for better treatment",
             "Recent studies demonstrated that restoring wild-type p53, rather than removing GOF mutations, reduces cancer cell growth",
             "Therapeutic strategies for reactivating wild-type p53 function in cancer cells may bring a greater benefit than approaches halting mutant p53, often involving small molecules or gene therapy",
