@@ -1,3 +1,11 @@
 embeddings_data/pubmedbert.zip filter=lfs diff=lfs merge=lfs -text
 embeddings_data/neupubmedbert.zip filter=lfs diff=lfs merge=lfs -text
 embeddings_data/neupubmedbert_overlapping_sentence_chunks.zip filter=lfs diff=lfs merge=lfs -text
+neupubmedbert_overlapping_sentence_chunks_3.zip filter=lfs diff=lfs merge=lfs -text
+neupubmedbert_overlapping_sentence_chunks_5.zip filter=lfs diff=lfs merge=lfs -text
+neupubmedbert_overlapping_sentence_chunks_7.zip filter=lfs diff=lfs merge=lfs -text
+neupubmedbert_overlapping_token_chunks_300.zip filter=lfs diff=lfs merge=lfs -text
+neupubmedbert_overlapping_token_chunks_400.zip filter=lfs diff=lfs merge=lfs -text
+neupubmedbert_overlapping_token_chunks_500.zip filter=lfs diff=lfs merge=lfs -text
+neupubmedbert_overlapping_token_chunks_600.zip filter=lfs diff=lfs merge=lfs -text
+neupubmedbert_overlapping_token_chunks_700.zip filter=lfs diff=lfs merge=lfs -text
