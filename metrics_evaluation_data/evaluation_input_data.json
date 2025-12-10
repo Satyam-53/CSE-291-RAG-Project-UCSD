@@ -79,48 +79,42 @@
     {
         "category": "Synthesis",
         "question": "How does the acquisition of aneuploidy facilitate the oncogenic Gain-of-Function (GOF) phenotypes of mutant p53, and what specific downstream signaling pathway, related to chromosomal instability, does this mechanism activate?",
-        "manually_retrieved_chunks":
-        [
+        "manually_retrieved_chunks": [
             "Acquisition of aneuploidy drives mutant p53-associated gain-of-function phenotypes which leads to novel oncogenic phenotypes",
             "Mutant p53 gains oncogenic functions through a chromosomal instability-induced cytosolic DNA response",
             "GOF phenotypes occurred clonally in vitro and in vivo, were independent of p53 alteration and correlated with increased aneuploidy",
-            "The GOF mutp53 predisposes cells to replication stress and chromosomal instability, resulting in the accumulation of cytosolic DNA",
-            "Cytosolic DNA, which is a common byproduct of aneuploidy, activates the cGAS–STING pathway",
-            "The cGAS–STING innate immune pathway senses cytosolic DNA and is critically involved in mutp53 GOF activities",
-            "We study the mutp53 interactome and find that by targeting minichromosome maintenance complex components (MCMs), GOF mutp53 predisposes cells to replication stress",
+            "Here, we study the mutp53 interactome and find that by targeting minichromosome maintenance complex components (MCMs), GOF mutp53 predisposes cells to replication stress  and chromosomal instability (CIN), leading to a tumor cell-autonomous and cyclic GMP–AMP synthase (cGAS)-stimulator of interferon genes (STING)-dependent cytosolic DNA response that activates downstream non-canonical nuclear factor kappa light chain enhancer of activated B cell (NC-NF-κB) signaling",
             "Aneuploidy in cancer genomes strongly correlates with mutations in TP53, and p53 is thought to prevent the propagation of aneuploid cells",
-            "Loss of wild-type p53 function can also often result in oncogenic gain-of-function (GOF) of mutant p53 (mutp53) proteins which promotes tumor development and progression",
-            "Individuals with aneuploid-high tumors displayed unfavorable prognoses, regardless of the TP53 genotype, underscoring the role of aneuploidy in malignancy"
+            "Inactivating TP53 mutations leads to a loss of function of p53, but can also often result in oncogenic gain-of-function (GOF) of mutant p53 (mutp53) proteins which promotes tumor development and progression",
+            "Individuals with aneuploid-high tumors displayed unfavorable prognoses, regardless of the TP53 genotype"
         ]
     },
     {
         "category": "Synthesis",
         "question": "How do TP53 germline variant clusters stratify phenotypic diversity in carriers, such as revealing an osteosarcoma-prone subgroup, and what is the specific, non-oncogenic role of p53 in male fertility?",
-        "manually_retrieved_chunks":
-        [
+        "manually_retrieved_chunks": [
             "TP53 variant clusters stratify phenotypic diversity in germline carriers and reveal an osteosarcoma-prone subgroup",
-            "Unsupervised clustering to functional datasets identified distinct TP53 variant groups with clinical relevance, including a monomeric subgroup enriched in osteosarcoma cases",
-            "The role of p53 in male fertility is primarily linked to its function as a guardian of genomic integrity during spermatogenesis",
+            "we apply unsupervised clustering to functional datasets and identify distinct TP53 variant groups with clinical relevance, including a monomeric subgroup enriched in osteosarcoma cases",
+            "As the guardian of the genome, p53 appears to be duty-bound to respond to DNA damage during spermatogenesis",
             "In the testes, p53 can trigger apoptosis in germ cells with significant DNA damage to prevent the transmission of faulty genetic material",
-            "The germline TP53 p.R337H mutation is reported as the most common germline TP53 variant in South America",
+            "The germline TP53 p.R337H mutation is reported as the most common germline TP53 variant",
             "The p.R337H mutation is hypomorphic and confers incomplete penetrance and late tumor onset in a mouse model",
-            "In cellular validation assays, dermal fibroblasts from carriers of more functionally impaired variants exhibit increased metabolic growth rates, mirroring clinical outcomes",
-            "The p53 pathway is crucial for meiotic arrest and for eliminating cells that fail to complete prophase I of meiosis in the male germline",
-            "Resveratrol reverses cadmium chloride-induced testicular damage and subfertility by downregulating p53 and Bax and upregulating Bcl-2 gene expression",
+            "In cellular validation assays, dermal fibroblasts from carriers of more functionally impaired variants exhibit increased metabolic growth rates, mirroring trends observed in cluster-stratified clinical outcomes",
+            "Classiﬁcation of TP53 variant carriers based on clusters reveals unique cancer-type distributions and an osteosarcoma-prone subgroup Individuals carrying a pathogenic germline TP53 variant are affected by a broad range of cancers during childhood and adulthood, and some experience multiple cancers",
+            "Resveratrol reverses cadmium chloride-induced testicular damage and subfertility by downregulating p53 and Bax and upregulating gonadotropins and Bcl-2 gene expression",
             "Li-Fraumeni syndrome (LFS) has recently been redefined as a 'spectrum' cancer predisposition disorder to reflect its broad phenotypic heterogeneity"
         ]
     },
     {
         "category": "Synthesis",
         "question": "In the context of aggressive B-cell lymphomas, how do TP53 mutations act as a risk-level biomarker for patient prognosis, and what are the primary therapeutic opportunities suggested for mitigating the oncogenic effects of these mutations?",
-        "manually_retrieved_chunks":
-        [
+        "manually_retrieved_chunks": [
             "TP53 mutations are independently associated with inferior PFS, even in the presence of other highrisk features",
-            "The primary goal for TP53-mutated DLBCL patients is to identify the truly high-risk individuals and explore the underlying biological mechanisms for better treatment",
+            "We aim to develop the prognostic index (PI) to identify truly high-risk TP53mut DLBCL patients and elucidate the potential underlying mechanisms of different prognosis",
             "Recent studies demonstrated that restoring wild-type p53, rather than removing GOF mutations, reduces cancer cell growth",
             "Therapeutic strategies for reactivating wild-type p53 function in cancer cells may bring a greater benefit than approaches halting mutant p53, often involving small molecules or gene therapy",
             "GOF mutations not only disrupt the tumor-suppressive activities of p53 but also endow the mutant proteins with new oncogenic properties",
-            "The therapeutic options for patients with TP53 deficient chronic lymphocytic leukemia (CLL) include the use of agents like Venetoclax (BCL-2 inhibitors)",
+            "The MCL1 protein belongs to the BCL-2 family of anti-apoptotic proteins. BCL-2 inhibitor venetoclax/ ABT-199 has been approved for the treatment of chronic lymphocytic leukemia (CLL) and acute myeloid leukemia (AML)",
             "TP53 mutation (TP53-mut) correlates with inferior survival in many cancers, but its prognostic role in DLBCL is still in controversy",
             "Mutated TP53 in Circulating Tumor DNA (ctDNA) can serve as a risk level biomarker in Head and Neck Squamous Cell Carcinoma Patients, suggesting its potential utility in liquid biopsy monitoring",
             "TP53 mutations result in a constitutive defect of p53 DNA binding and transcriptional response to DNA damage",
