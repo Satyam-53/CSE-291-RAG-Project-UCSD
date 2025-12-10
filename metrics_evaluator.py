@@ -227,9 +227,6 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, embedding_model, k=
     precision_at_k, recall_at_k, hit_ratio_at_k, mrr, ndcg = 0.0, 0.0, 0.0, 0.0, 0.0
     try:
 
-        # Precision@k
-        # precision_at_k = len(expected_set & retrieved_set) / k
-
         expected_lower = [e.lower() for e in expected_chunks]
         retrieved_lower = [r.lower() for r in retrieved_chunks]
 
@@ -241,22 +238,26 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, embedding_model, k=
 
         matched_ground_truth, matched_retrieved = set(), set()
         for e in expected_lower:
+            max_semantic_score = 0
+
             for r in retrieved_lower:
-                condition_1 = (e in r) or (r in e)
+                # Condition 1: If full ground truth exists fully within RAG retrieved chunk
+                # condition1 = (e in r) or (r in e)
 
                 # Condition 2: sequence similarity >= 0.8
                 # To add: from difflib import SequenceMatcher
                 similarity_ratio, condition_2, _ = sequence_match_ratio(e, r)
 
+                embed_e = embedding_model.encode(e).tolist()
+                embed_r = embedding_model.encode(r).tolist()
+                max_semantic_score = max(max_semantic_score, cosine_similarity([embed_e], [embed_r]))
+
                 if condition_2:
                     matched_ground_truth.add(e)
                     matched_retrieved.add(r)
-
                     break  # count each expected item only once
-                else:
-                    embed_e = embedding_model.encode(e).tolist()
-                    embed_r = embedding_model.encode(r).tolist()
-                    print(cosine_similarity([embed_e], [embed_r]))
+
+            print(max_semantic_score)
 
         # Precision@k
         precision_at_k = min(len(matched_retrieved) / k, 1.0)
@@ -267,14 +268,14 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, embedding_model, k=
         # MRR (Mean Reciprocal Rank)
         mrr = 0.0
         for idx, chunk in enumerate(retrieved_lower, start=1):
-            if any(gt.lower() in chunk.lower() for gt in expected_lower):
+            if chunk in matched_retrieved:
                 mrr = 1.0 / idx
                 break
 
         # nDCG@k
         dcg = 0.0
         for i, chunk in enumerate(retrieved_lower[:k], start=1):
-            rel_i = 1 if any(gt in chunk for gt in expected_lower) else 0
+            rel_i = 1 if chunk in retrieved_lower else 0
             dcg += rel_i / np.log2(i + 1)
         idcg = sum([1 / np.log2(i + 1) for i in range(1, min(len(expected_lower), k) + 1)])
         ndcg_at_k = dcg / idcg if idcg > 0 else 0.0
