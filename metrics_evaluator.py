@@ -260,6 +260,12 @@ def sequence_match_ratio(s1, s2, threshold=0.9):
 
     return ratio, ratio >= threshold, longest_match
 
+def similarity_match_ratio(embedding_model, s1, s2, threshold=0.75):
+    embed_s1 = embedding_model.encode(s1).tolist()
+    embed_s2 = embedding_model.encode(s2).tolist()
+    semantic_score = cosine_similarity([embed_s1], [embed_s2])
+    return semantic_score, semantic_score >= threshold
+
 def get_retrieval_metrics(expected_chunks, retrieved_chunks, embedding_model, k=15):
     """
     expected_chunks: list of relevant chunk texts (ground truth)
@@ -292,9 +298,8 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, embedding_model, k=
                 # To add: from difflib import SequenceMatcher
                 similarity_ratio, condition_2, _ = sequence_match_ratio(e, r)
 
-                embed_e = embedding_model.encode(e).tolist()
-                embed_r = embedding_model.encode(r).tolist()
-                max_semantic_score = max(max_semantic_score, cosine_similarity([embed_e], [embed_r]))
+                # Condition 3: Semantic similarity >= 0.75
+                # semantic_score, condition_3 = similarity_match_ratio(embedding_model, e, r)
 
                 if condition_2:
                     matched_ground_truth.add(e)
