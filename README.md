@@ -17,7 +17,7 @@ Finally, it evaluates the retrieval quality using metrics such as **Precision@K*
 
 Runs the **Qdrant** vector store for efficient embedding storage and retrieval.
 ```bash
-docker compose up
+docker-compose up
 ```
 
 ---
@@ -48,15 +48,17 @@ docker compose up
   - Preprocessed text files.
 
 - **Output:**  
-  - Embedding vectors stored in `embeddings_data/`.
+  - Embedding vectors stored in `embeddings_data/{embedding-model}_{chunking-strategy}_{chunk-size}_{overlap}/`.
+    Example folder structure is `embeddings_data/neupubmedbert_overlapping_token_chunks_500_10/`
 
 - **Key operations:**
-  - Sentence-based chunking for semantic coherence.
-  - Embedding generation using [`all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2).
-  - Saves embeddings in a structured JSON format (id, chunk text and embedding vector) for ingestion into Qdrant.
+  - In Phase 1, the embedding model [`all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) was used for creating vector embeddings along with single-sentence chunking strategy for semantic coherence.
+  - In this step, we experimented with different embedding models (like BioBERT, PubMedBERT, BlueBERT, SciBERT, NeuMLPubMedBert) and chunking strategies (overlapping-sentence and overlapping-word chunks)
+  - Finally, after exploring their effects on evaluation metrics such as precision and recall, we chose NeuMLPubMedBERT embedding model along with overlapping-word-based chunking (chunk size in words = 500 & overlapping words = 10%).
+  - Saves embeddings in a structured JSON format (id, chunk text, embedding vector & its source file name) for ingestion into Qdrant.
 
 - **Note:**
-  - All steps until here can be skipped since an embeddings checkpoint is already available in the `embeddings_data/` folder. This can be re-used in the next steps.
+  - All steps until here can be skipped since an embeddings checkpoint is already available in the `embeddings_data/` folder. This can be re-used in the next steps by unzipping `neupubmedbert_overlapping_token_chunks_500_10.zip`
 
 ---
 
@@ -65,19 +67,19 @@ docker compose up
 **Purpose:** Load embedding vectors into the Qdrant vector database.
 
 - **Input:**  
-  - Generated embeddings in `embeddings_data/`.
+  - Generated embeddings in `embeddings_data/{embedding-model}_{chunking-strategy}_{chunk-size}_{overlap}/`.
 
 - **Output:**  
-  - Populated Qdrant database.
+  - Populated collection with name `{embedding-model}_{chunking-strategy}_{chunk-size}_{overlap}` in Qdrant vector store.
 
 - **Key operations:**
   - Connects to the running Qdrant instance.
   - Creates or updates the relevant collection.
-  - Inserts embedding vectors with metadata (chunk text).
+  - Inserts embedding vectors with metadata (chunk text and its source file name).
 
 > **Note:** Ensure Qdrant is running before executing this step:
 > ```bash
-> docker compose up
+> docker-compose up
 > ```
 
 ---
@@ -88,46 +90,78 @@ docker compose up
 
 - **Input:**  
   - `metrics_evaluation_data/evaluation_input_data.json` containing:
-    - Queries
+    - Queries and their categories (Factual/Synthesis/Hybrid)
     - Manually verified ground truth chunks
 
 - **Output:**  
-  - `metrics_evaluation_data/evaluation_metrics_result.json` containing evaluation scores.
+  - `metrics_evaluation_data/{embedding-model}_{chunking-strategy}_{chunk-size}_{overlap}_{k}/evaluation_metrics_result.json` containing evaluation scores.
 
 **Evaluation Metrics:**
 
-***Retrieval Metrics:***
+***A. Retrieval Metrics:***
 - **Precision@K** — Fraction of top-K retrieved chunks that are relevant  
 - **Recall@K** — Fraction of relevant chunks retrieved
 - **MRR (Mean Reciprocal Rank)** — Rank of first relevant retrieval  
 - **nDCG (Normalized Discounted Cumulative Gain)** — Position-sensitive ranking quality metric
 
-***Efficiency Metrics:***
+***B. Efficiency Metrics:***
 - **Latency** — Time taken to serve one query (in seconds)
 - **Throughput** — Queries processed per second
 - **Memory Used** - Amount of memory used for processing queries (in MB)
 
 ---
 
-## 📊 Evaluation Workflow
-
-1. Define evaluation queries and their manually retrieved ground truth in:`metrics_evaluation_data/evaluation_input_data.json`
-2. Run the evaluation script:
-```bash
-python metrics_evaluator.py
-```
-3. Retrieve results from:`metrics_evaluation_data/evaluation_metrics_result.json`
-4. Metrics are printed to console and saved in JSON format for record-keeping.
+## Environment Setup
+- Install Anaconda 
+- Install Docker (for Qdrant)
+- Create environment and install necessary packages with command: `conda env create -f environment.yml`
+- Activate the environment: `conda activate llm_sys_group9` (Here, llm_sys_group9 is our env name)
 
 ---
 
-## Requirements
-	•	Python 3.9+
-	•	Docker (for Qdrant)
-	•	Python dependencies:
-```bash
-pip install -r requirements.txt
+## 📊 Evaluation Workflow for Test Set
+
+1. Define evaluation queries and their manually retrieved ground truth in:`metrics_evaluation_data/evaluation_input_data.json`  
+(Here, we already have 12 test questions and manually retrieved ground truth. You can replace it with any test set of your choice - please stick to the existing JSON format).
+
+
+2. Preprocess raw data (pdf, tsv, csv) into text using:  
+```bash 
+python preprocess.py
 ```
+
+This would give us processed text files under `processed_dataset/` directory.  
+Note: You can skip running the script and use the pre-existing processed set of data for next steps.
+
+
+3. From processed data, generate text chunks and their vector embeddings using 
+```bash
+python embeddings_creator.py
+```  
+This would give us embeddings in JSON files stored inside `embeddings_data/{embedding-model}_{chunking-strategy}_{chunk-size}_{overlap}/` folder.  
+Note: You can skip running the script and use the pre-existing vector embeddings by unzipping `embeddings_data/neupubmedbert_overlapping_token_chunks_500_10.zip`
+
+
+4. Spin-up Qdrant vector db on a docker container using
+```bash
+docker-compose up
+```
+
+
+5. Load the embeddings data onto the qdrant vector store using:
+```bash
+python embeddings_loader.py
+```
+
+
+6. Run the evaluation script:
+```bash
+python metrics_evaluator.py
+```
+This will read questions and their ground truth chunks from `metrics_evaluation_data/evaluation_input_data.json`, generate evaluation metrics and save them at `metrics_evaluation_data/{embedding-model}_{chunking-strategy}_{chunk-size}_{overlap}_{k}/evaluation_metrics_result.json`.  
+Note: Based on our final hyperparameter configs, the evaluation output JSON will be stored at `metrics_evaluation_data/neupubmedbert_overlapping_token_chunks_500_10_10/evaluation_metrics_result.json`
+
+---
 
 ## Output JSON
 
