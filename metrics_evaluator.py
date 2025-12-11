@@ -106,7 +106,7 @@ def get_rag_retrieved_chunks(
     finally:
         return retrieved_chunks
 
-def rerank_with_cross_encoder(query, candidates, top_n = 10) -> list:
+def rerank_with_cross_encoder(cross_encoder, query, candidates, top_n = 10) -> list:
     if not candidates:
         return []
 
@@ -116,7 +116,7 @@ def rerank_with_cross_encoder(query, candidates, top_n = 10) -> list:
     # Optionally skip empty texts
     pairs = [(query, t) for t in texts]
     # Get relevance scores
-    cross_encoder = CrossEncoder("BAAI/bge-reranker-v2-m3") # cross-encoder/ms-marco-MiniLM-L-6-v2
+
     scores = cross_encoder.predict(pairs)
 
     # Attach scores back to candidates
@@ -178,6 +178,7 @@ def evaluate_metrics(
     result_metrics_data = []
     try:
         embedding_model = get_embedding_model(model_name)
+        cross_encoder = CrossEncoder("BAAI/bge-reranker-v2-m3") # cross-encoder/ms-marco-MiniLM-L-6-v2
         qdrant_client = get_qdrant_client()
         
         for input_data in evaluation_input_data:
@@ -202,7 +203,7 @@ def evaluate_metrics(
                 number_of_chunks_to_retrieve = 20
                 rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
                 number_of_chunks_to_retrieve = k
-                rag_retrieved_chunks = rerank_with_cross_encoder(query, rag_retrieved_chunks, number_of_chunks_to_retrieve)
+                rag_retrieved_chunks = rerank_with_cross_encoder(cross_encoder, query, rag_retrieved_chunks, number_of_chunks_to_retrieve)
             else:
                 number_of_chunks_to_retrieve = k
                 rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
