@@ -5,7 +5,6 @@ from utils import checkdir
 from qdrant_client import QdrantClient
 from qdrant_client.models import SearchParams
 from sentence_transformers import SentenceTransformer, CrossEncoder
-import json
 import os
 import psutil
 import time
@@ -208,10 +207,14 @@ def evaluate_metrics(
             mem_before = process.memory_info().rss / 1024 ** 2
 
             # Run retrieval
-            number_of_chunks_to_retrieve = k
-            rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
             if rerank:
+                number_of_chunks_to_retrieve = 20
+                rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
+                number_of_chunks_to_retrieve = k
                 rag_retrieved_chunks = rerank_with_cross_encoder(query, rag_retrieved_chunks, number_of_chunks_to_retrieve)
+            else:
+                number_of_chunks_to_retrieve = k
+                rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
 
             rag_retrieved_chunks_fnames = [point.payload['fname'] for point in rag_retrieved_chunks]
             rag_retrieved_chunks = [point.payload['text'] for point in rag_retrieved_chunks]
@@ -377,9 +380,9 @@ def main():
         # },
         {
             'chunking_strategy': 'overlapping_token_chunks',
-            'c': [600],
+            'c': [500],
             'overlap_ratio': 10,
-            'k': [20]
+            'k': [10]
         }
     ]
 

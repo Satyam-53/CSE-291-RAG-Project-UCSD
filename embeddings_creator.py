@@ -308,7 +308,7 @@ def main():
         # },
         {
             'chunking_strategy': 'overlapping_token_chunks',
-            'c': [600],
+            'c': [500],
             'overlap_ratio': 10
         }
     ]
