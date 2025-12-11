@@ -1,7 +1,5 @@
 from difflib import SequenceMatcher
-
 from utils import checkdir
-
 from qdrant_client import QdrantClient
 from qdrant_client.models import SearchParams
 from sentence_transformers import SentenceTransformer, CrossEncoder
@@ -41,16 +39,11 @@ def persist_evaluation_result_to_output_file(
         print(e)
         print("Error writing evaluation results data to file.")
 
-# def get_embedding_model() -> SentenceTransformer:
-#     # Initialize embedding model
-#     model = SentenceTransformer('all-MiniLM-L6-v2')
-#     return model
-
 # --- Dispatcher function ---
 def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
     """
     Returns a SentenceTransformer model based on the given name.
-    Options: 'minilm', 'biobert', 'pubmedbert', 'scibert', 'bluebert'
+    Options: 'minilm', 'biobert', 'pubmedbert', 'scibert', 'bluebert', 'neupubmedbert'
     """
     model_name = model_name.lower() 
     if model_name == "minilm":
@@ -68,7 +61,7 @@ def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
     else:
         raise ValueError(f"Unknown model name: {model_name}")
 
-def get_embedding_vector(model: SentenceTransformer, query: str) -> list:
+def get_embedding_vector(model: SentenceTransformer, query: str) -> list[float]:
     query_vector = []
     try:
         query_vector.extend(model.encode(query).tolist())
@@ -95,7 +88,7 @@ def get_rag_retrieved_chunks(
     collection_name: str,
     query_vector: list[float],
     top_k = 15
-):
+) -> list:
     retrieved_chunks = []
     try:
         retrieved_chunks.extend(
@@ -113,9 +106,7 @@ def get_rag_retrieved_chunks(
     finally:
         return retrieved_chunks
 
-
-
-def rerank_with_cross_encoder(query, candidates, top_n = 10):
+def rerank_with_cross_encoder(query, candidates, top_n = 10) -> list:
     if not candidates:
         return []
 
@@ -223,7 +214,7 @@ def evaluate_metrics(
             mem_after = process.memory_info().rss / 1024 ** 2
             end_time = time.time()
             
-            retrieval_metrics = get_retrieval_metrics(manually_retrieved_chunks, rag_retrieved_chunks, embedding_model)
+            retrieval_metrics = get_retrieval_metrics(manually_retrieved_chunks, rag_retrieved_chunks, embedding_model, number_of_chunks_to_retrieve)
             efficiency_metrics = get_efficiency_metrics(start_time, end_time, mem_before, mem_after)
 
             result_metrics_data.append(
@@ -280,12 +271,6 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, embedding_model, k=
         expected_lower = [e.lower() for e in expected_chunks]
         retrieved_lower = [r.lower() for r in retrieved_chunks]
 
-        # Precision = How many retrieved chunks are correct (i.e. matches ground truth)
-        # Precision = #(Matching retrieved chunks) / k
-
-        # Recall = How many Ground Truth chunks were retrieved out of total ground truth chunks
-        # Recall = #(Matching ground truth chunks) / #(All ground truth chunks)
-
         matched_ground_truth, matched_retrieved = set(), set()
         for e in expected_lower:
             max_semantic_score = 0
@@ -309,9 +294,13 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, embedding_model, k=
             # print(max_semantic_score)
 
         # Precision@k
+        # Precision = How many retrieved chunks are correct (i.e. matches ground truth)
+        # Precision = #(Matching retrieved chunks) / k
         precision_at_k = min(len(matched_retrieved) / k, 1.0)
 
         # Recall@k
+        # Recall = How many Ground Truth chunks were retrieved out of total ground truth chunks
+        # Recall = #(Matching ground truth chunks) / #(All ground truth chunks)
         recall_at_k = len(matched_ground_truth) / len(expected_lower) if expected_lower else 0
 
         # MRR (Mean Reciprocal Rank)
@@ -379,9 +368,9 @@ def main():
         # },
         # {
         #     'chunking_strategy': 'overlapping_token_chunks',
-        #     'c': [300, 400, 500, 600, 700],
+        #     'c': [300, 400, 500, 600],
         #     'overlap_ratio': 10,
-        #     'k': [5, 10, 15, 20]
+        #     'k': [5, 10, 15]
         # },
         {
             'chunking_strategy': 'overlapping_token_chunks',
@@ -436,6 +425,10 @@ if __name__=='__main__':
 #                   "...",
 #               ],
 #     rag_retrieved_chunks: [
+#                   "...",
+#                   "...",
+#               ],
+#     fnames: [
 #                   "...",
 #                   "...",
 #               ],

@@ -92,15 +92,13 @@ def create_overlapping_sentence_chunks(
     finally:
         return chunks
 
-# Hybrid chunking (fixed-size + overlap)
+# Overlapping token-based chunking
 def create_overlapping_token_chunks(
         content: str, 
         c: int = 500,
-        overlap: int = 50, 
-        similarity_threshold: float = 0.75) -> list[str]:
+        overlap: int = 50) -> list[str]:
     chunks = []
     try:
-        # Step 1: Fixed-size chunking with overlap
         words = content.split()
         fixed_chunks = []
         start = 0
@@ -109,23 +107,6 @@ def create_overlapping_token_chunks(
             chunk = " ".join(words[start:min(end, len(words))])
             fixed_chunks.append(chunk)
             start = end - overlap  # overlap ensures context continuity
-
-        # # Step 2: Semantic refinement
-        # refined_chunks = []
-        # model = get_embedding_model()
-        # embeddings = model.encode(fixed_chunks, convert_to_tensor=True)
-
-        # current_chunk = [fixed_chunks[0]]
-        # for i in range(1, len(fixed_chunks)):
-        #     sim = util.cos_sim(embeddings[i-1], embeddings[i]).item()
-        #     if sim > similarity_threshold:
-        #         current_chunk.append(fixed_chunks[i])
-        #     else:
-        #         refined_chunks.append(" ".join(current_chunk))
-        #         current_chunk = [fixed_chunks[i]]
-
-        # if current_chunk:
-        #     refined_chunks.append(" ".join(current_chunk))
 
         chunks = fixed_chunks
         print("Created hybrid chunks successfully.")
@@ -173,16 +154,16 @@ def load_neuMlpubmedbert():
     return SentenceTransformer("NeuML/pubmedbert-base-embeddings") #Best as per literature.
 
 def load_scibert():
-    return SentenceTransformer("allenai/scibert_scivocab_uncased") #Not very great.
+    return SentenceTransformer("allenai/scibert_scivocab_uncased")
 
 def load_bluebert():
-    return SentenceTransformer("bionlp/bluebert_pubmed_mimic_uncased_L-12_H-768_A-12") #Some hybrid model.
+    return SentenceTransformer("bionlp/bluebert_pubmed_mimic_uncased_L-12_H-768_A-12")
 
 # --- Dispatcher function ---
 def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
     """
     Returns a SentenceTransformer model based on the given name.
-    Options: 'minilm', 'biobert', 'pubmedbert', 'scibert', 'bluebert'
+    Options: 'minilm', 'biobert', 'pubmedbert', 'scibert', 'bluebert', 'neupubmedbert'
     """
     model_name = model_name.lower() 
     if model_name == "minilm":
@@ -223,7 +204,7 @@ def create_embeddings(chunks: list[str], model_name = 'minilm') -> list[float]:
 def persist_embeddings_to_file(
     chunks: list[str], 
     embeddings: list[float],
-    fnames,
+    fnames: list[str],
     directory_name: str = './embeddings_data/',
     base_filename: str = 'embeddings'
 ) -> None:
@@ -234,6 +215,7 @@ def persist_embeddings_to_file(
     Parameters:
         chunks (list[str]): List of text segments or sentences.
         embeddings (list[list[float]]): List of embedding vectors corresponding to each chunk.
+        fnames (list[str]): List of file names corresponding to each chunk.
         directory_name (str): Directory where JSON files will be saved. Defaults to './embeddings_data/'.
         base_filename (str): Base name for output files. Files will be named as base_filename_0.json, base_filename_1.json, etc.
 

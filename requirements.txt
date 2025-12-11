@@ -1,4 +1,4 @@
-python==3.9.25
+#python==3.9.25
 pdfminer.six==20221105
 qdrant-client==1.7.0
 sentence-transformers
@@ -9,7 +9,7 @@ pandas
 scikit-learn
 matplotlib
 tqdm
-psutil #this was not present here, but is required
+psutil
 
 # pdfminer is present in this requirements but somehow it doesn't seem to be working.
-    # this is not available in the normal conda channels, so it needs to be installed explicitly using pip.
+# this is not available in the normal conda channels, so it needs to be installed explicitly using pip.
