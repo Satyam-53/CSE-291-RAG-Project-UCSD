@@ -38,34 +38,48 @@ def load_data_from_directory(directory_name: str = './embeddings_data/') -> list
     finally:
         return embeddings_data
 
+def get_model_dimension(model_name: str) -> int:
+    """
+    Returns the embedding dimension for a given model.
+    MiniLM: 384, BioBERT/PubMedBERT/SciBERT/BlueBERT: 768
+    """
+    model_name = model_name.lower()
+    if model_name == "minilm":
+        return 384
+    else:  # biobert, pubmedbert, scibert, bluebert
+        return 768
+
 def get_qdrant_client(
+    collection_name: str = 'CSE291A-RAG-Project-Phase1',
     host: str = 'localhost', 
-    port: int = 6333, 
-    collection_name: str = 'CSE291A-RAG-Project-Phase1'
+    port: int = 6333,
+    vector_size: int = 384
 ) -> QdrantClient:
     qdrant_client = None
     try:
         qdrant_client = QdrantClient(host=host, port=port)
-        # Create collection
+        # Create collection with specified vector dimension
         qdrant_client.recreate_collection(
             collection_name=collection_name,
-            vectors_config=VectorParams(size=384, distance=Distance.COSINE)
+            vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE)
         )
-        print('Successfully connected to Qdrant client.')
+        print(f'Successfully connected to Qdrant client. Collection created with vector size: {vector_size}')
     except:
         print('Error connecting to Qdrant client.')
     finally:
         return qdrant_client
 
-def persist_chunks_to_qdrant(data: list[dict], collection_name: str = 'CSE291A-RAG-Project-Phase1') -> None:
+def persist_chunks_to_qdrant(data: list[dict], collection_name: str = 'CSE291A-RAG-Project-Phase1', model_name: str = 'minilm') -> None:
     try:
-        qdrant_client = get_qdrant_client()
+        # Get the correct vector dimension for the model
+        vector_size = get_model_dimension(model_name)
+        qdrant_client = get_qdrant_client(collection_name, vector_size=vector_size)
     
         points = [
             PointStruct(
                 id=int(datum["id"]), 
                 vector=datum["embedding"], 
-                payload={"text": datum["chunk"]} # add other metadata that we might need to store (recency, etc..)
+                payload={"text": datum["chunk"], "fname": datum["fname"]} # add other metadata that we might need to store (recency, etc..)
             ) for datum in data
         ]
     
@@ -76,9 +90,35 @@ def persist_chunks_to_qdrant(data: list[dict], collection_name: str = 'CSE291A-R
         print(e)
 
 def main():
-    directory = './embeddings_data/'
-    embeddings_list = load_data_from_directory(directory)
-    persist_chunks_to_qdrant(embeddings_list)
+    model_name = 'neupubmedbert' #[default = minilm, biobert, pubmedbert, scibert, bluebert, neupubmedbert]
+    test_param = [
+        # {
+        #     'chunking_strategy': 'overlapping_sentence_chunks',
+        #     'c': [3, 5, 7],
+        #     'overlap_ratio': 3
+        # },
+        # {
+        #     'chunking_strategy': 'overlapping_token_chunks',
+        #     'c': [300, 400, 500, 600, 700],
+        #     'overlap_ratio': 10
+        # },
+        {
+            'chunking_strategy': 'overlapping_token_chunks',
+            'c': [500],
+            'overlap_ratio': 10
+        }
+    ]
+
+    for d in test_param:
+        chunking_strategy = d['chunking_strategy'] #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
+
+        for c in d['c']:
+            overlap_ratio = d['overlap_ratio']
+            directory = f"./embeddings_data/{model_name}_{chunking_strategy}_{c}_{overlap_ratio}"
+            print(f"Loading chunks from {directory}...")
+            embeddings_list = load_data_from_directory(directory)
+            collection_name =  f"CSE291A-RAG-Project-Phase1_{model_name}_{chunking_strategy}_{c}_{overlap_ratio}"
+            persist_chunks_to_qdrant(embeddings_list, collection_name, model_name)
 
 if __name__=='__main__':
     main()

@@ -1,11 +1,14 @@
+from difflib import SequenceMatcher
+from utils import checkdir
 from qdrant_client import QdrantClient
 from qdrant_client.models import SearchParams
-from sentence_transformers import SentenceTransformer
-import json
+from sentence_transformers import SentenceTransformer, CrossEncoder
 import os
 import psutil
 import time
 import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+import json
 
 def load_evaluation_data_from_file(
     directory_name: str = './metrics_evaluation_data/', 
@@ -36,12 +39,29 @@ def persist_evaluation_result_to_output_file(
         print(e)
         print("Error writing evaluation results data to file.")
 
-def get_embedding_model() -> SentenceTransformer:
-    # Initialize embedding model
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    return model
+# --- Dispatcher function ---
+def get_embedding_model(model_name: str = "minilm") -> SentenceTransformer:
+    """
+    Returns a SentenceTransformer model based on the given name.
+    Options: 'minilm', 'biobert', 'pubmedbert', 'scibert', 'bluebert', 'neupubmedbert'
+    """
+    model_name = model_name.lower() 
+    if model_name == "minilm":
+        return SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2") #Already used this in phase 1.
+    elif model_name == "biobert":
+        return SentenceTransformer("dmis-lab/biobert-base-cased-v1.1")
+    elif model_name == "pubmedbert":
+        return SentenceTransformer("microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract") #Best as per literature.
+    elif model_name == "scibert":
+        return SentenceTransformer("allenai/scibert_scivocab_uncased") #Not very great.
+    elif model_name == "bluebert":
+        return SentenceTransformer("bionlp/bluebert_pubmed_mimic_uncased_L-12_H-768_A-12") #Some hybrid model.
+    elif model_name == "neupubmedbert":
+        return SentenceTransformer("NeuML/pubmedbert-base-embeddings") #Best as per literature.
+    else:
+        raise ValueError(f"Unknown model name: {model_name}")
 
-def get_embedding_vector(model: SentenceTransformer, query: str) -> list:
+def get_embedding_vector(model: SentenceTransformer, query: str) -> list[float]:
     query_vector = []
     try:
         query_vector.extend(model.encode(query).tolist())
@@ -53,7 +73,6 @@ def get_embedding_vector(model: SentenceTransformer, query: str) -> list:
 def get_qdrant_client(
     host: str = 'localhost', 
     port: int = 6333, 
-    collection_name: str = 'CSE291A_RAG_Project_Phase1'
 ) -> QdrantClient:
     qdrant_client = None
     try:
@@ -68,8 +87,8 @@ def get_rag_retrieved_chunks(
     qdrant_client: QdrantClient,
     collection_name: str,
     query_vector: list[float],
-    top_k = 5
-) -> dict:
+    top_k = 15
+) -> list:
     retrieved_chunks = []
     try:
         retrieved_chunks.extend(
@@ -80,18 +99,85 @@ def get_rag_retrieved_chunks(
                 search_params=SearchParams(hnsw_ef=128)
             )
         )
-    except:
-        print("Error encountered while retrieving context chunks.")
+    except Exception as e:
+        print(f"Error encountered while retrieving context chunks: {e}")
+        print(f"Collection name: {collection_name}")
+        print(f"Query vector dimension: {len(query_vector) if query_vector else 'None'}")
     finally:
         return retrieved_chunks
 
+def rerank_with_cross_encoder(query, candidates, top_n = 10) -> list:
+    if not candidates:
+        return []
+
+    # Build list of (query, candidate_text) pairs for the cross-encoder
+    texts = [p.payload["text"] for p in candidates]
+
+    # Optionally skip empty texts
+    pairs = [(query, t) for t in texts]
+    # Get relevance scores
+    cross_encoder = CrossEncoder("BAAI/bge-reranker-v2-m3") # cross-encoder/ms-marco-MiniLM-L-6-v2
+    scores = cross_encoder.predict(pairs)
+
+    # Attach scores back to candidates
+    scored = list(zip(candidates, scores))
+
+    # Sort by cross-encoder score desc
+    scored.sort(key=lambda x: float(x[1]), reverse=True)
+
+    # Take top_n
+    reranked = scored[:top_n]
+
+    # Convert to a nicer structure for returning
+    results = [cand for cand, _ in reranked]
+    return results
+
+def print_metrics_average(file_path):
+    # Reading the file content
+    with open(file_path, 'r') as f:
+        file_content = f.read()
+
+    # Loading the JSON content using json.loads
+    json_data = json.loads(file_content)
+
+    # Extracting precision values
+    # Assuming the JSON structure is a list of dictionaries like [{"precision": 0.85}, ...]
+    recall_values = [item['metrics']['retrieval_metrics']['recall@k'] for item in json_data]
+    precision_values = [item['metrics']['retrieval_metrics']['precision@k'] for item in json_data]
+    mrr_values = [item['metrics']['retrieval_metrics']['mrr'] for item in json_data]
+    ndcg_values = [item['metrics']['retrieval_metrics']['ndcg'] for item in json_data]
+
+    # Calculating the average precision score
+    if recall_values:
+        average_recall = sum(recall_values) / len(recall_values)
+        print(f"Average recall score: {average_recall}")
+    else:
+        print("No precision values found.")
+
+    if precision_values:
+        average_precision = sum(precision_values) / len(precision_values)
+        print(f"Average precision score: {average_precision}")
+    else:
+        print("No recall values found.")
+
+    if mrr_values:
+        average_mrr = sum(mrr_values) / len(mrr_values)
+        print(f"Average mrr score: {average_mrr}")
+    else:
+        print("No mrr values found.")
+
+    if ndcg_values:
+        average_ndcg = sum(ndcg_values) / len(ndcg_values)
+        print(f"Average ndcg score: {average_ndcg}")
+    else:
+        print("No ndcg values found.")
+
 def evaluate_metrics(
-    evaluation_input_data: list[dict]
+    evaluation_input_data: list[dict], model_name, qdrant_collection_name, rerank, k
 ) -> list[dict]:
     result_metrics_data = []
     try:
-        embedding_model = get_embedding_model()
-        qdrant_collection_name = 'CSE291A-RAG-Project-Phase1'
+        embedding_model = get_embedding_model(model_name)
         qdrant_client = get_qdrant_client()
         
         for input_data in evaluation_input_data:
@@ -100,6 +186,11 @@ def evaluate_metrics(
             manually_retrieved_chunks = input_data["manually_retrieved_chunks"]
 
             query_embedding = get_embedding_vector(embedding_model, query)
+            
+            # Check if query embedding was created successfully
+            if not query_embedding or len(query_embedding) == 0:
+                print(f"Warning: Empty query embedding for query: {query}")
+                continue
 
             # Start timing and memory (in MB)
             start_time = time.time()
@@ -107,15 +198,23 @@ def evaluate_metrics(
             mem_before = process.memory_info().rss / 1024 ** 2
 
             # Run retrieval
-            number_of_chunks_to_retrieve = 5
-            rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
+            if rerank:
+                number_of_chunks_to_retrieve = 20
+                rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
+                number_of_chunks_to_retrieve = k
+                rag_retrieved_chunks = rerank_with_cross_encoder(query, rag_retrieved_chunks, number_of_chunks_to_retrieve)
+            else:
+                number_of_chunks_to_retrieve = k
+                rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
+
+            rag_retrieved_chunks_fnames = [point.payload['fname'] for point in rag_retrieved_chunks]
             rag_retrieved_chunks = [point.payload['text'] for point in rag_retrieved_chunks]
 
             # End timing and memory (in MB)
             mem_after = process.memory_info().rss / 1024 ** 2
             end_time = time.time()
             
-            retrieval_metrics = get_retrieval_metrics(manually_retrieved_chunks, rag_retrieved_chunks)
+            retrieval_metrics = get_retrieval_metrics(manually_retrieved_chunks, rag_retrieved_chunks, embedding_model, number_of_chunks_to_retrieve)
             efficiency_metrics = get_efficiency_metrics(start_time, end_time, mem_before, mem_after)
 
             result_metrics_data.append(
@@ -124,6 +223,7 @@ def evaluate_metrics(
                     "question": query,
                     "manually_retrieved_chunks": manually_retrieved_chunks,
                     "rag_retrieved_chunks": rag_retrieved_chunks,
+                    "fnames": rag_retrieved_chunks_fnames,
                     "metrics": {
                         "retrieval_metrics": retrieval_metrics,
                         "efficiency_metrics": efficiency_metrics
@@ -135,7 +235,29 @@ def evaluate_metrics(
     finally:
         return result_metrics_data
 
-def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=5):
+def sequence_match_ratio(s1, s2, threshold=0.9):
+    # Split into words
+    words1 = s1.split()
+    words2 = s2.split()
+
+    # Use SequenceMatcher on word lists (not characters)
+    matcher = SequenceMatcher(None, words1, words2)
+
+    # Find longest matching block
+    longest_match = max(matcher.get_matching_blocks(), key=lambda m: m.size)
+
+    # Calculate ratio based on string1 length
+    ratio = longest_match.size / len(words1)
+
+    return ratio, ratio >= threshold, longest_match
+
+def similarity_match_ratio(embedding_model, s1, s2, threshold=0.75):
+    embed_s1 = embedding_model.encode(s1).tolist()
+    embed_s2 = embedding_model.encode(s2).tolist()
+    semantic_score = cosine_similarity([embed_s1], [embed_s2])
+    return semantic_score, semantic_score >= threshold
+
+def get_retrieval_metrics(expected_chunks, retrieved_chunks, embedding_model, k=15):
     """
     expected_chunks: list of relevant chunk texts (ground truth)
     retrieved_chunks: list of retrieved chunk texts (top-k)
@@ -146,35 +268,55 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, k=5):
     precision_at_k, recall_at_k, hit_ratio_at_k, mrr, ndcg = 0.0, 0.0, 0.0, 0.0, 0.0
     try:
 
-        # Precision@k
-        # precision_at_k = len(expected_set & retrieved_set) / k
-
         expected_lower = [e.lower() for e in expected_chunks]
         retrieved_lower = [r.lower() for r in retrieved_chunks]
-    
-        matched = set()
+
+        matched_ground_truth, matched_retrieved = set(), set()
         for e in expected_lower:
+            max_semantic_score = 0
+
             for r in retrieved_lower:
-                if e in r or r in e:
-                    matched.add(r)
+                # Condition 1: If full ground truth exists fully within RAG retrieved chunk
+                # condition1 = (e in r) or (r in e)
+
+                # Condition 2: sequence similarity >= 0.8
+                # To add: from difflib import SequenceMatcher
+                similarity_ratio, condition_2, _ = sequence_match_ratio(e, r)
+
+                # Condition 3: Semantic similarity >= 0.75
+                # semantic_score, condition_3 = similarity_match_ratio(embedding_model, e, r)
+
+                if condition_2:
+                    matched_ground_truth.add(e)
+                    matched_retrieved.add(r)
                     break  # count each expected item only once
 
-        precision_at_k = len(matched) / k
+            # print(max_semantic_score)
+
+        # Precision@k
+        # Precision = How many retrieved chunks are correct (i.e. matches ground truth)
+        # Precision = #(Matching retrieved chunks) / k
+        precision_at_k = min(len(matched_retrieved) / k, 1.0)
 
         # Recall@k
-        # recall_at_k = len(expected_set & retrieved_set) / len(expected_set) if expected_set else 0
-        recall_at_k = len(matched) / len(expected_lower) if expected_lower else 0
+        # Recall = How many Ground Truth chunks were retrieved out of total ground truth chunks
+        # Recall = #(Matching ground truth chunks) / #(All ground truth chunks)
+        recall_at_k = len(matched_ground_truth) / len(expected_lower) if expected_lower else 0
 
         # MRR (Mean Reciprocal Rank)
-        ranks = [i + 1 for i, chunk in enumerate(retrieved_lower) if chunk in matched]
-        mrr = 1 / ranks[0] if ranks else 0
+        mrr = 0.0
+        for idx, chunk in enumerate(retrieved_lower, start=1):
+            if chunk in matched_retrieved:
+                mrr = 1.0 / idx
+                break
 
-        # DCG and nDCG
-        relevance_scores = [1 if chunk in matched else 0 for chunk in retrieved_lower]
-        dcg = sum([score / np.log2(i + 2) for i, score in enumerate(relevance_scores)])
-        ideal_scores = sorted(relevance_scores, reverse=True)
-        idcg = sum([score / np.log2(i + 2) for i, score in enumerate(ideal_scores)])
-        ndcg = dcg / idcg if idcg > 0 else 0
+        # nDCG@k
+        dcg = 0.0
+        for i, chunk in enumerate(retrieved_lower[:k], start=1):
+            rel_i = 1 if chunk in matched_retrieved else 0
+            dcg += rel_i / np.log2(i + 1)
+        idcg = sum([1 / np.log2(i + 1) for i in range(1, min(len(expected_lower), k) + 1)])
+        ndcg = dcg / idcg if idcg > 0 else 0.0
 
         print("----------- RETRIEVAL METRICS -----------")
         print("Precision @ K  : ", round(precision_at_k, 3))
@@ -213,13 +355,49 @@ def get_efficiency_metrics(start_time: time, end_time: time, start_memory: float
         }
 
 def main():
-    directory_name = './metrics_evaluation_data/'
+    model_name = 'neupubmedbert'
+    rerank = True
     input_filename = 'evaluation_input_data.json'
     output_filename = 'evaluation_metrics_result.json'
 
-    input_evaluation_data = load_evaluation_data_from_file(directory_name, input_filename)
-    output_evaluation_data = evaluate_metrics(input_evaluation_data)
-    persist_evaluation_result_to_output_file(output_evaluation_data, directory_name, output_filename)
+    test_param = [
+        # {
+        #     'chunking_strategy': 'overlapping_sentence_chunks',
+        #     'c': [3, 5, 7],
+        #     'k': [5, 10, 15, 20]
+        # },
+        # {
+        #     'chunking_strategy': 'overlapping_token_chunks',
+        #     'c': [300, 400, 500, 600],
+        #     'overlap_ratio': 10,
+        #     'k': [5, 10, 15]
+        # },
+        {
+            'chunking_strategy': 'overlapping_token_chunks',
+            'c': [500],
+            'overlap_ratio': 10,
+            'k': [10]
+        }
+    ]
+
+    for d in test_param:
+        chunking_strategy = d['chunking_strategy'] #['overlapping_token_chunks', overlapping_sentence_chunks, sentence_chunks]
+
+        for c in d['c']:
+            for k in d['k']:
+                overlap_ratio = d['overlap_ratio']
+                collection_name = f"CSE291A-RAG-Project-Phase1_{model_name}_{chunking_strategy}_{c}_{overlap_ratio}"  # Name of the collection in qdrant (matches embeddings_loader.py format).
+                input_directory_name = f"./metrics_evaluation_data/"
+                output_directory_name = f"./metrics_evaluation_data/{model_name}_{chunking_strategy}_{c}_{overlap_ratio}_{k}{'_with_rerank' if rerank else ''}"
+
+                checkdir(output_directory_name)
+
+                input_evaluation_data = load_evaluation_data_from_file(input_directory_name, input_filename)
+                output_evaluation_data = evaluate_metrics(input_evaluation_data, model_name, collection_name, rerank, k)
+                persist_evaluation_result_to_output_file(output_evaluation_data, output_directory_name, output_filename)
+
+                print(f'Chunking Strategy: {chunking_strategy}, c: {c}, k: {k}')
+                print_metrics_average(os.path.join(output_directory_name, output_filename))
 
 if __name__=='__main__':
     main()
@@ -247,6 +425,10 @@ if __name__=='__main__':
 #                   "...",
 #               ],
 #     rag_retrieved_chunks: [
+#                   "...",
+#                   "...",
+#               ],
+#     fnames: [
 #                   "...",
 #                   "...",
 #               ],
