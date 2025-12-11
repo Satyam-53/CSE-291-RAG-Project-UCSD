@@ -112,10 +112,10 @@ docker-compose up
 ---
 
 ## Environment Setup
-- Install Anaconda 
 - Install Docker (for Qdrant)
-- Create environment and install necessary packages with command: `conda env create -f environment.yml`
-- Activate the environment: `conda activate llm_sys_group9` (Here, llm_sys_group9 is our env name)
+- Install Python 3.9.x
+- Clone this GIT repository
+- Create a python environment (optional) and install necessary packages with command: `pip install -r requirements.txt`
 
 ---
 
