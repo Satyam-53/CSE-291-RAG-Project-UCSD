@@ -166,16 +166,25 @@ Note: Based on our final hyperparameter configs, the evaluation output JSON will
 ## Output JSON
 
 | # | Category   | Question (Summary)                                                                                                              | Precision@K | Recall@K | MRR   | nDCG  | Latency (s) | Throughput | Memory (MB) |
-|---|-------------|-------------------------------------------------------------------------------------------------------------------------------|--------------|-----------|-------|-------|--------------|-------------|--------------|
-| 1 | Factual     | Most frequent TP53 missense mutations and their predicted impacts (SIFT & PolyPhen)                                           | 0.0          | 0.0       | 0.0   | 0.0   | 0.01         | 128.77      | 0.22         |
-| 2 | Factual     | Proteins interacting with CCAR2 and their confidence scores                                                                   | 0.6          | 0.15      | 0.5   | 0.712 | 0.01         | 195.58      | 0.0          |
-| 3 | Factual     | Mechanism of p53-dependent mitochondrial apoptosis and alternative pathway in p53-null cells                                 | 0.4          | 0.143     | 0.333 | 0.544 | 0.0          | 237.53      | 0.03         |
-| 4 | Hybrid      | Low-penetrance TP53 variants and founder mutation segregation (p.R337H)                                                      | 0.2          | 0.1       | 0.2   | 0.387 | 0.0          | 296.4       | 0.0          |
-| 5 | Synthesis   | Aneuploidy facilitating mutant p53 gain-of-function and chromosomal instability pathway                                       | 0.0          | 0.0       | 0.0   | 0.0   | 0.0          | 235.69      | 0.05         |
-| 6 | Synthesis   | TP53 germline variant clusters and p53’s role in male fertility                                                               | 0.2          | 0.1       | 1.0   | 1.0   | 0.0          | 293.7       | 0.03         |
-| 7 | Synthesis   | TP53 mutations in aggressive B-cell lymphomas and therapeutic implications                                                   | 0.0          | 0.0       | 0.0   | 0.0   | 0.0          | 278.25      | 0.0          |
-| 8 | Hybrid      | p53-mediated cancer metabolism reversal and TP53 p.K164E variant effect                                                     | 0.0          | 0.0       | 0.0   | 0.0   | 0.0          | 320.81      | 0.02         |
-| 9 | Factual     | Somatic TP53 mutations and patient prognosis/survival in breast cancer                                                       | 0.0          | 0.0       | 0.0   | 0.0   | 0.0          | 289.34      | 0.0          |
-|10 | Synthesis   | Prognostic impact of TP53 mutations across breast cancer molecular subtypes (HR+/HER2− vs TNBC)                              | 0.0          | 0.0       | 0.0   | 0.0   | 0.0          | 304.77      | 0.0          |
-|11 | Factual     | Therapeutic strategies to target mutant p53                                                                                  | 0.0          | 0.0       | 0.0   | 0.0   | 0.0          | 317.46      | 0.02         |
-|12 | Hybrid      | Dual role of p53 in tumor suppression and antiviral defense                                                                  | 0.2          | 0.167     | 1.0   | 1.0   | 0.0          | 315.24      | 0.03         |
+|---|-------------|-------------------------------------------------------------------------------------------------------------------------------|-------------|----------|-------|-------|-------------|------------|-------------|
+| 1 | Factual     | Most frequent TP53 missense mutations and their predicted impacts (SIFT & PolyPhen)                                           | 0.0         | 0.0      | 0.0   | 0.0   | 4.05        | 0.25       | 1.09        |
+| 2 | Factual     | Proteins interacting with CCAR2 and their confidence scores                                                                   | 0.1         | 1.0      | 1.0   | 0.22  | 10.81       | 0.09       | 1.48        |
+| 3 | Factual     | Mechanism of p53-dependent mitochondrial apoptosis and alternative pathway in p53-null cells                                 | 0.2         | 0.143    | 0.111 | 0.13  | 7.41        | 0.13       | 1.1         |
+| 4 | Hybrid      | Low-penetrance TP53 variants and founder mutation segregation (p.R337H)                                                      | 0.2         | 0.9      | 1.0   | 0.35  | 5.65        | 0.18       | 1.15        |
+| 5 | Synthesis   | Aneuploidy facilitating mutant p53 gain-of-function and chromosomal instability pathway                                       | 0.2         | 0.714    | 1.0   | 0.448 | 4.57        | 0.22       | 1.09        |
+| 6 | Synthesis   | TP53 germline variant clusters and p53’s role in male fertility                                                               | 0.2         | 0.3      | 1.0   | 0.22  | 9.14        | 0.11       | 1.19        |
+| 7 | Synthesis   | TP53 mutations in aggressive B-cell lymphomas and therapeutic implications                                                   | 0.2         | 0.2      | 1.0   | 0.359 | 10.49       | 0.1        | 1.06        |
+| 8 | Hybrid      | p53-mediated cancer metabolism reversal and TP53 p.K164E variant effect                                                     | 0.1         | 0.1      | 1.0   | 0.22  | 11.96       | 0.08       | 1.08        |
+| 9 | Factual     | Somatic TP53 mutations and patient prognosis/survival in breast cancer                                                       | 0.0         | 0.0      | 0.0   | 0.0   | 4.66        | 0.21       | 1.03        |
+|10 | Synthesis   | Prognostic impact of TP53 mutations across breast cancer molecular subtypes (HR+/HER2− vs TNBC)                              | 0.0         | 0.0      | 0.0   | 0.0   | 8.16        | 0.12       | 1.04        |
+|11 | Factual     | Therapeutic strategies to target mutant p53                                                                                  | 0.1         | 0.5      | 1.0   | 0.303 | 5.08        | 0.2        | 1.11        |
+|12 | Hybrid      | Dual role of p53 in tumor suppression and antiviral defense                                                                  | 0.2         | 0.5      | 0.5   | 0.308 | 5.36        | 0.19       | 1.11        |
+
+## METRICS SUMMARY
+
+| Category         | Precision@K | Recall@K | MRR   | nDCG  |
+|------------------|-------------|----------|-------|-------|
+| Factual (5)      | 0.080       | 0.233    | 0.400 | 0.136 |
+| Synthesis (4)    | 0.250       | 0.304    | 0.750 | 0.361 |
+| Hybrid (3)       | 0.200       | 0.250    | 1.000 | 0.339 |
+| **Overall (12)** | 0.167       | 0.261    | 0.667 | 0.262 |

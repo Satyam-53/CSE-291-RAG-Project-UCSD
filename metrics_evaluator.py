@@ -4,11 +4,16 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import SearchParams
 from sentence_transformers import SentenceTransformer, CrossEncoder
 import os
-import psutil
+import tracemalloc
 import time
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import json
+import unicodedata
+
+def preprocess(text):
+    text = unicodedata.normalize("NFKC", text)
+    return text
 
 def load_evaluation_data_from_file(
     directory_name: str = './metrics_evaluation_data/', 
@@ -184,7 +189,7 @@ def evaluate_metrics(
         for input_data in evaluation_input_data:
             query_category = input_data["category"]
             query = input_data["question"]
-            manually_retrieved_chunks = input_data["manually_retrieved_chunks"]
+            manually_retrieved_chunks = list(map(preprocess, input_data["manually_retrieved_chunks"]))
 
             query_embedding = get_embedding_vector(embedding_model, query)
             
@@ -195,8 +200,7 @@ def evaluate_metrics(
 
             # Start timing and memory (in MB)
             start_time = time.time()
-            process = psutil.Process(os.getpid())
-            mem_before = process.memory_info().rss / 1024 ** 2
+            tracemalloc.start()
 
             # Run retrieval
             if rerank:
@@ -208,15 +212,16 @@ def evaluate_metrics(
                 number_of_chunks_to_retrieve = k
                 rag_retrieved_chunks = get_rag_retrieved_chunks(qdrant_client, qdrant_collection_name, query_embedding, number_of_chunks_to_retrieve)
 
-            rag_retrieved_chunks_fnames = [point.payload['fname'] for point in rag_retrieved_chunks]
-            rag_retrieved_chunks = [point.payload['text'] for point in rag_retrieved_chunks]
+            rag_retrieved_chunks_fnames = [preprocess(point.payload['fname']) for point in rag_retrieved_chunks]
+            rag_retrieved_chunks = [preprocess(point.payload['text']) for point in rag_retrieved_chunks]
 
             # End timing and memory (in MB)
-            mem_after = process.memory_info().rss / 1024 ** 2
+            _, mem_peak = tracemalloc.get_traced_memory()
+            tracemalloc.stop() # Stop tracing
             end_time = time.time()
             
             retrieval_metrics = get_retrieval_metrics(manually_retrieved_chunks, rag_retrieved_chunks, embedding_model, number_of_chunks_to_retrieve)
-            efficiency_metrics = get_efficiency_metrics(start_time, end_time, mem_before, mem_after)
+            efficiency_metrics = get_efficiency_metrics(start_time, end_time, mem_peak)
 
             result_metrics_data.append(
                 {
@@ -334,13 +339,13 @@ def get_retrieval_metrics(expected_chunks, retrieved_chunks, embedding_model, k=
             "ndcg": round(ndcg, 3)
         }
 
-def get_efficiency_metrics(start_time: time, end_time: time, start_memory: float, end_memory: float) -> dict:
+def get_efficiency_metrics(start_time: time, end_time: time, mem_peak: float) -> dict:
     latency, throughput, memory_used = 0.0, 0.0, 0.0
     try:
         # Efficiency metrics
         latency = end_time - start_time
         throughput = 1 / latency if latency > 0 else 0
-        memory_used = end_memory - start_memory
+        memory_used = mem_peak / 1024 ** 2
 
         print("----------- EFFICIENCY METRICS -----------")
         print("Latency(sec)  : ", round(latency, 2))
