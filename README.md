@@ -188,3 +188,6 @@ Note: Based on our final hyperparameter configs, the evaluation output JSON will
 | Synthesis (4)    | 0.250       | 0.304    | 0.750 | 0.361 |
 | Hybrid (3)       | 0.200       | 0.250    | 1.000 | 0.339 |
 | **Overall (12)** | 0.167       | 0.261    | 0.667 | 0.262 |
+
+> Experimentation System Specification: 12 core CPU, 18 GB RAM  
+> (Required for latency and throughput comparison)
